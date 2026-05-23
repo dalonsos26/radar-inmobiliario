@@ -19,9 +19,7 @@ fi
 
 echo ""
 echo "2/3  Publicando en línea…"
-git add index.html data/properties.json data/history.json data/weekly_stats.json 2>/dev/null
-git commit -m "Update $(date '+%Y-%m-%d %H:%M')" --quiet 2>/dev/null
-git push origin main --quiet 2>/dev/null && echo "     ✓ Publicado en Vercel" || echo "     (Sin conexión a GitHub — solo local)"
+npx vercel deploy --yes --prod --quiet 2>/dev/null && echo "     ✓ Publicado en Vercel" || echo "     (Sin conexión — solo local)"
 
 echo ""
 echo "3/3  Abriendo reporte…"

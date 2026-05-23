@@ -16,9 +16,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-# 2. Publicar en GitHub (Vercel se actualiza automáticamente)
-git add index.html data/properties.json data/history.json data/weekly_stats.json
-git commit -m "Update $(date '+%Y-%m-%d %H:%M')" --quiet
-git push origin main --quiet
+# 2. Publicar en Vercel
+npx vercel deploy --yes --prod --quiet
 
 echo "[$(date '+%H:%M:%S')] === Deploy completado ==="

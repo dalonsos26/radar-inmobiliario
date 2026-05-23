@@ -1,0 +1,7 @@
+data/
+*.py
+*.command
+*.sh
+*.json
+requirements.txt
+README.md
