@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Data pesada (fotos descargadas)
+data/photos/
+
+# Logs
+data/cron.log
+
+# macOS
+.DS_Store
+
+# Los JSON de datos SÍ se incluyen para tener historial
+# data/properties.json  ← se sube
+# data/history.json     ← se sube
+# data/weekly_stats.json ← se sube
+
+# El reporte HTML generado SÍ se sube (es la app pública)
+# index.html            ← se sube
