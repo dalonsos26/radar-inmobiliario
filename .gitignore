@@ -4,20 +4,26 @@ __pycache__/
 *.pyo
 .env
 
-# Data pesada (fotos descargadas)
+# Archivos de debug y exploración
 data/photos/
+data/*.html
+data/*.png
+data/api_*.json
+data/all_api_calls.json
+data/dom_info.json
+data/filters.json
+data/filter_urls_captured.json
+data/items_sample.json
+data/prop_search_urls.json
+data/bolsa.html
+data/bolsa_rendered.html
+data/post_login.html
+report.html
+.claude/
 
 # Logs
 data/cron.log
 
 # macOS
 .DS_Store
-
-# Los JSON de datos SÍ se incluyen para tener historial
-# data/properties.json  ← se sube
-# data/history.json     ← se sube
-# data/weekly_stats.json ← se sube
-
-# El reporte HTML generado SÍ se sube (es la app pública)
-# index.html            ← se sube
 .vercel
