@@ -7,11 +7,14 @@ import os
 import re
 import sys
 import argparse
+import smtplib
 import urllib.request
 import urllib.parse
 import urllib.error
 from collections import defaultdict
 from datetime import datetime, timedelta
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Optional
 
@@ -350,6 +353,52 @@ def update_weekly_stats(props: list, new_ids: set) -> dict:
     return stats
 
 
+# ── Email ─────────────────────────────────────────────────────────────────────
+
+def send_email(total: int, new_count: int, run_ts: str):
+    FROM = "diegoalonso15@hotmail.com"
+    TO   = "diegoalonso@reave.mx"
+    PASS = "Ducook1234"
+    URL  = "https://radar-inmobiliario-eight.vercel.app"
+
+    subject = f"Radar Inmobiliario — {new_count} nuevas propiedades"
+    body = f"""
+<div style="font-family:sans-serif;max-width:480px;margin:0 auto;color:#111">
+  <h2 style="color:#4f46e5;margin-bottom:4px">Radar Inmobiliario actualizado</h2>
+  <p style="color:#6b7280;font-size:13px;margin-top:0">{run_ts}</p>
+  <table style="width:100%;border-collapse:collapse;margin:16px 0">
+    <tr>
+      <td style="padding:12px;background:#f0f2f5;border-radius:8px;text-align:center">
+        <div style="font-size:2rem;font-weight:800;color:#4f46e5">{total}</div>
+        <div style="font-size:11px;color:#6b7280;text-transform:uppercase">propiedades</div>
+      </td>
+      <td style="width:12px"></td>
+      <td style="padding:12px;background:#ecfdf5;border-radius:8px;text-align:center">
+        <div style="font-size:2rem;font-weight:800;color:#059669">{new_count}</div>
+        <div style="font-size:11px;color:#6b7280;text-transform:uppercase">nuevas</div>
+      </td>
+    </tr>
+  </table>
+  <a href="{URL}" style="display:inline-block;background:#4f46e5;color:#fff;text-decoration:none;
+     padding:10px 20px;border-radius:8px;font-weight:700;font-size:14px">Ver radar →</a>
+</div>"""
+
+    try:
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = subject
+        msg["From"]    = FROM
+        msg["To"]      = TO
+        msg.attach(MIMEText(body, "html"))
+
+        with smtplib.SMTP("smtp-mail.outlook.com", 587, timeout=20) as srv:
+            srv.starttls()
+            srv.login(FROM, PASS)
+            srv.send_message(msg)
+        log("  ✓ Email enviado a " + TO)
+    except Exception as e:
+        log(f"  ⚠ Email no enviado: {e}")
+
+
 # ── Reporte HTML ──────────────────────────────────────────────────────────────
 
 def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict) -> str:
@@ -553,6 +602,12 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 .save-ok{{color:var(--new);font-size:.8rem;margin-left:.8rem;display:none}}
 .favs-empty{{text-align:center;color:var(--muted);padding:4rem 2rem}}
 .favs-empty .icon{{font-size:2.5rem;margin-bottom:.7rem}}
+.update-btn{{background:none;border:1.5px solid var(--border2);border-radius:20px;
+             color:var(--muted);font-size:.75rem;font-weight:600;padding:.25rem .7rem;
+             cursor:pointer;transition:all .15s;vertical-align:middle}}
+.update-btn:hover{{border-color:var(--accent);color:var(--accent)}}
+.update-btn:disabled{{opacity:.5;cursor:default}}
+#update-status{{font-size:.75rem;margin-left:.5rem;vertical-align:middle}}
 </style>
 </head>
 <body>
@@ -560,7 +615,10 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 <header>
   <h1>Radar Inmobiliario · Nocnok</h1>
   <p class="sub">Bolsa Inmobiliaria &nbsp;·&nbsp; Torreón &nbsp;·&nbsp; Gómez Palacio &nbsp;·&nbsp; Matamoros &nbsp;·&nbsp; Comercial &amp; Industrial</p>
-  <p class="sub">Actualizado: <strong>{run_ts}</strong> &nbsp;·&nbsp; Últimos <strong>{DAYS_BACK} días</strong></p>
+  <p class="sub">Actualizado: <strong id="update-label">{run_ts}</strong> &nbsp;·&nbsp; Últimos <strong>{DAYS_BACK} días</strong>
+    &nbsp;·&nbsp; <button class="update-btn" id="update-btn" onclick="triggerUpdate()">🔄 Actualizar</button>
+    <span id="update-status"></span>
+  </p>
   <div class="stats">
     <div class="stat"><div class="n">{total}</div><div class="d">propiedades</div></div>
     <div class="stat"><div class="n g">{num_new}</div><div class="d">nuevas hoy</div></div>
@@ -810,7 +868,7 @@ function fldH(lbl,val,cls) {{
 
 function buildFavCard(p) {{
   var fotos = (p.fotos_local||[]).slice(0,3).map(function(src) {{
-    return '<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
+    return '<img src="'+esc(src)+'" alt="" loading="lazy" onerror="this.hidden=true">';
   }}).join('');
   var fotosB = fotos ? '<div class="fotos">'+fotos+'</div>' : '<div class="no-foto">Sin fotos</div>';
   var dom = p.days_on_market||0;
@@ -824,7 +882,7 @@ function buildFavCard(p) {{
         oppB+
         '<span class="dom-badge '+domCls+'">⏱ '+dom+'d</span>'+
       '</div>'+
-      '<button class="fav-btn active" onclick="removeFav(\''+esc(p.id)+'\')">★</button>'+
+      '<button class="fav-btn active" data-pid="'+esc(p.id)+'" onclick="removeFav(this.dataset.pid)">★</button>'+
       '<span class="code">'+esc(p.code)+'</span>'+
       '<h3>'+esc(p.title)+'</h3>'+
     '</div>'+
@@ -1036,6 +1094,53 @@ function saveThresholds() {{
   render();
 }}
 
+// ── Fecha "Hoy / Ayer" ───────────────────────────────────────────────────────
+(function() {{
+  var ts    = "{run_ts}";
+  var date  = ts.substring(0,10);
+  var time  = ts.substring(11,16);
+  var now   = new Date();
+  var pad   = function(n){{ return String(n).padStart(2,'0'); }};
+  var toStr = function(d){{ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate()); }};
+  var yest  = new Date(now); yest.setDate(yest.getDate()-1);
+  var months = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+  var day   = parseInt(date.substring(8,10));
+  var month = months[parseInt(date.substring(5,7))-1];
+  var label = date===toStr(now) ? 'Hoy' : date===toStr(yest) ? 'Ayer' : date;
+  var el = document.getElementById('update-label');
+  if (el) el.textContent = label+' '+day+' '+month+', '+time;
+}})();
+
+// ── Botón Actualizar ─────────────────────────────────────────────────────────
+function triggerUpdate() {{
+  var btn = document.getElementById('update-btn');
+  var st  = document.getElementById('update-status');
+  btn.disabled = true;
+  btn.textContent = '⏳ Iniciando...';
+  st.textContent  = '';
+  st.style.color  = 'var(--muted)';
+  fetch('/api/update', {{method:'POST'}})
+    .then(function(r){{ return r.json(); }})
+    .then(function(d) {{
+      if (d.ok) {{
+        btn.textContent = '✓ Listo';
+        st.textContent  = 'Estará listo en ~4 min. Recarga la página después.';
+        st.style.color  = 'var(--new)';
+        setTimeout(function(){{
+          btn.disabled=false; btn.textContent='🔄 Actualizar'; st.textContent='';
+        }}, 300000);
+      }} else {{
+        btn.disabled=false; btn.textContent='🔄 Actualizar';
+        st.textContent='Error: '+(d.error||'intenta de nuevo');
+        st.style.color='var(--red)';
+      }}
+    }})
+    .catch(function(){{
+      btn.disabled=false; btn.textContent='🔄 Actualizar';
+      st.textContent='Sin conexión'; st.style.color='var(--red)';
+    }});
+}}
+
 // ── Init ──────────────────────────────────────────────────────────────────────
 render();
 document.getElementById('hdr-favs').textContent = FAVS.size;
@@ -1081,6 +1186,9 @@ async def main(username: str, password: str):
         html = build_report(props, new_ids, run_ts, weekly_stats)
         REPORT_FILE.write_text(html, encoding="utf-8")
         log(f"  ✓ {REPORT_FILE}")
+
+        log("\nEnviando email…")
+        send_email(len(props), len(new_ids), run_ts)
 
         log(f"\n{'='*54}")
         log(f"  TOTAL: {len(props)} propiedades | {len(new_ids)} NUEVAS")

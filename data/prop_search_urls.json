@@ -1,0 +1,4 @@
+[
+  "https://app.nocnok.com/api/v1/search/properties/all?pageNumber=1&pageSize=36&sortBy=StatusDate&sortDirection=Descending",
+  "https://app.nocnok.com/api/v1/search/properties/all?pageNumber=1&pageSize=36&sortBy=StatusDate&sortDirection=Descending&locations=Torre%C3%B3n%2C+Coahuila+de+Zaragoza"
+]

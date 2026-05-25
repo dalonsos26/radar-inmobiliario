@@ -1,0 +1,177 @@
+{
+  "containers": [
+    {
+      "tag": "HEAD",
+      "class": "",
+      "id": "",
+      "children": 145,
+      "text": "Propiedades · Nocnok.keen-slider:not([data-keen-slider-disabled]){-webkit-touch-callout:none;-webkit"
+    },
+    {
+      "tag": "DIV",
+      "class": "MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6 css-h2qpui",
+      "id": "properties-cards-render-area",
+      "children": 37,
+      "text": "+13\nNN-GZS030 (H05268)\nCASA NUEVA EN VENTA EN CONDOMINIO CON ALBERCA Y JARDIN EN ZONA FRESCA DE CUER"
+    },
+    {
+      "tag": "DIV",
+      "class": "MuiGrid-root MuiGrid-container css-1d3bbye",
+      "id": "",
+      "children": 33,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 29,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 25,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 24,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 24,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 24,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 24,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 22,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 22,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 22,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 22,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 21,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 20,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 20,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 19,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 19,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 18,
+      "text": ""
+    },
+    {
+      "tag": "DIV",
+      "class": "keen-slider MuiBox-root css-10klw3m",
+      "id": "",
+      "children": 17,
+      "text": ""
+    }
+  ],
+  "cards": [
+    {
+      "tag": "DIV",
+      "class": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-ro",
+      "text": "Buscar\nBuscar por clave",
+      "html": "<div class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-root css-1dlrcpv\"><div class=\"MuiTabs-root css-1m21zma\"><div class=\"MuiTabs-scrollableX MuiTabs-hideScrollbar css-oqr85h\" style=\"width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;\"></div><div class=\"MuiTabs-scroller MuiTabs-hideScrollbar MuiTabs-scrollableX css-1t0s2fz\" style=\"margin-bottom: 0px;\"><div aria-label=\"tabs filters\" class=\"MuiTabs-flexContainer css-7sga7m\" role=\"tablist\"><button class=\"MuiButtonBase-root MuiTab-root MuiTab-labelIcon MuiTab-textColorPrimary Mui-selec"
+    },
+    {
+      "tag": "DIV",
+      "class": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-ro",
+      "text": "Ubicación\nOperación\nTipo de propiedad\nComparte comisión\nTodos\n1",
+      "html": "<div class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-root css-1wa6v4t\"><div class=\"MuiCardContent-root css-1neomnx\"><div class=\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-spacing-sm-3 MuiGrid-spacing-md-4 MuiGrid-spacing-lg-5 css-rfgxjk\"><div class=\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4 css-19egsyp\"><div class=\"MuiAutocomplete-root Mui-focused MuiAutocomplete-hasPopupIcon css-176wjzm\"><div class=\"MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-14wzr5j\"><label class=\"MuiFormLabel"
+    },
+    {
+      "tag": "DIV",
+      "class": "MuiCardContent-root css-1neomnx",
+      "text": "Ubicación\nOperación\nTipo de propiedad\nComparte comisión\nTodos\n1",
+      "html": "<div class=\"MuiCardContent-root css-1neomnx\"><div class=\"MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-spacing-sm-3 MuiGrid-spacing-md-4 MuiGrid-spacing-lg-5 css-rfgxjk\"><div class=\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4 css-19egsyp\"><div class=\"MuiAutocomplete-root Mui-focused MuiAutocomplete-hasPopupIcon css-176wjzm\"><div class=\"MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-14wzr5j\"><label class=\"MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel"
+    },
+    {
+      "tag": "DIV",
+      "class": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-ro",
+      "text": "+13\nNN-GZS030 (H05268)\nCASA NUEVA EN VENTA EN CONDOMINIO CON ALBERCA Y JARDIN EN ZONA FRESCA DE CUERNAVACA.\n\n6,950,000 MXN Venta\n\nCasa en Venta\nBig Sur Inmobiliaria\n\n4\n\n4\n\n270 m²\n\n270 m²",
+      "html": "<div class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-root css-10aygp0\" id=\"card-NN-GZS030 (H05268)\"><div class=\"MuiBox-root css-1vargc5\" id=\"pictures-container\"><div id=\"wrapper-property-card\" class=\"css-mtccj3\"><div class=\"MuiBox-root css-a2s8mg\"><div class=\"navigation-wrapper MuiBox-root css-1cs5qhk\" id=\"navigation-wrapper\"><div class=\"keen-slider MuiBox-root css-10klw3m\"><div class=\"keen-slider__slide MuiBox-root css-1ywdka3\" style=\"transform: translate3d(0px, 0px, 0px); min-width: 359.328px; max-width: 359.328px;\"><a class=\"MuiBox-root css-rgszh2\" id=\"p"
+    },
+    {
+      "tag": "DIV",
+      "class": "MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-ro",
+      "text": "+7\nNN-GZS032 (001)\nVenta Depto Col Narvarte\n\n4,800,000 MXN Venta\n\nDepartamento en Venta\nMidas Bienes Raíces\n\n3\n\n2\n\n85 m²\n\n2",
+      "html": "<div class=\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation7 MuiCard-root css-10aygp0\" id=\"card-NN-GZS032 (001)\"><div class=\"MuiBox-root css-1vargc5\" id=\"pictures-container\"><div id=\"wrapper-property-card\" class=\"css-mtccj3\"><div class=\"MuiBox-root css-a2s8mg\"><div class=\"navigation-wrapper MuiBox-root css-1cs5qhk\" id=\"navigation-wrapper\"><div class=\"keen-slider MuiBox-root css-10klw3m\"><div class=\"keen-slider__slide MuiBox-root css-1ywdka3\" style=\"transform: translate3d(0px, 0px, 0px); min-width: 359.328px; max-width: 359.328px;\"><a class=\"MuiBox-root css-rgszh2\" id=\"pict"
+    }
+  ],
+  "bodyText": "NEAR REAL ESTATE\nBase - 28 días para renovar\n\nEscritorio\n\nMis propiedades\n\nDirectorio\n\nInteresados\n\nMi equipo\n\nRED\n\nBolsa Inmobiliaria\n\nOficinas\n\nColaboraciones\n\nHERRAMIENTAS\n\nConfiguraciones\n\nAcademia\n\n5\nBolsa inmobiliaria\nBuscar\nBuscar por clave\nUbicación\nOperación\nTipo de propiedad\nComparte comisión\nTodos\n1\n\n\n\n252,093 propiedades\nOrdenar por:\nRecientes\n\n\n\n+13\nNN-GZS030 (H05268)\nCASA NUEVA EN VENTA EN CONDOMINIO CON ALBERCA Y JARDIN EN ZONA FRESCA DE CUERNAVACA.\n\n6,950,000 MXN Venta\n\nCasa en Venta\nBig Sur Inmobiliaria\n\n4\n\n4\n\n270 m²\n\n270 m²\n\n+7\nNN-GZS032 (001)\nVenta Depto Col Narvarte\n\n4,800,000 MXN Venta\n\nDepartamento en Venta\nMidas Bienes Raíces\n\n3\n\n2\n\n85 m²\n\n2\n\n+23\nNN-GZS036\nCasa en Venta Puebla Lomas de Angelópolis II Parque Puebla Blanca Amueblada\n\n7,400,000 MXN Venta\n\nCasa en Venta\n2020 Inmobiliaria Inteligent...\n\nComisión de colaboración: N/A\n\n4\n\n4\n\n2\n\n208 m²\n\n280 m²\n\n2\n\n+18\nNN-GZS035\nPARAISO EN GUITARRON | VILLA CON VISTA AL MAR | CINCO RECÁMARAS | ALBERCA | JARDÍN\n\n5,500,000 MXN Venta\n\nCasa en Venta\nMillán Bienes Raíces\n\nComisión de colaboración: 2.50 %\n\n5\n\n5\n\n1\n\n208 m²\n\n238 m²\n\n2\n\n+23\nNN-GZS037\nRENTA Casa en Cuautla Morelos Precio: $3,000.°° MXN\n\n3,000 MXN Renta\n\nCasa en Renta\nReal House\n\nComisión de colaboración: N/A\n\n2\n\n1\n\n40 m²\n\n60 m²\n\n+17\nNN-GZS033\nCASA NUEVA EN VENTA EN PUNTO LOMAS, RIVIERA VERACRUZANA\n\n4,569,000 MXN Venta\n\nCasa en Venta\nMARISOL TOXQUI\n\nComisión de colaboración: N/A\n\n3\n\n3\n\n1\n\n169 m²\n\n218 m²\n\n2\n\n+9\nNN-GZS034 (002)\nVenta Depto Calle Lerdo, Col San Simón\n\n2,550,000 MXN Venta\n\nDepartamento en Venta\nMidas Bienes Raíces\n\n2\n\n2\n\n60 m²\n\n1\n\n+1\nNN-GWQ214 (BC20257)\nVenta de casa en San Miguel Ajusco, CDMX, Recuperación Bancaria PAGO DE CONTADO\n\n1,061,200 MXN Remate\n\nCasa en Remate\nGustavo Hernández, asesor in...\n\nComisión de colaboración: N/A\n\n3\n\n2\n\n1\n\n205 m²\n\n159 m²\n\n2\n\n+3\nNN-GYB624 (BC22253)\nCasa de Contado en Geovillas el Nevado, Almoloya de Juárez\n\n696,000 MXN Venta\n\nCasa en Venta\nGustavo Hernández, asesor in...\n\nComisión de colaboración: 1.50 %\n\n3\n\n1\n\n1\n\n66 m²\n\n96 m²\n\n1\n\n+21\nNN-GWK868 (BC22529)\nCasa en venta en Lomas Lindas, Atizapán - Oportunidad de inversión\n\n3,590,000 MXN Remate\n\nCasa en Remate\nGustavo Hernández, asesor in...\n\nComisión de colaboración: 1.50 %\n\n3\n\n2\n\n1\n\n99 m²\n\n212 m²\n\n2\n\n+5\nNN-GWP591 (BC19817)\nCasa en venta en Coacalco de Berriozábal - Recuperación Bancaria en Parque Residencial\n\n747,000 MXN Remate\n\nCasa en Remate\nGustavo Hernández, asesor in...\n\nComisión de colaboración: 1.50 %\n\n3\n\n2\n\n1\n\n120 m²\n\n195 m²\n\n1\n\n+16\nNN-GWK552 (BC22510-03.26)\nCasa en venta en Rinconada de Aragón, Ecatepec de Morelos: Oportunidad de recuperación bancaria\n\n1,055,600 MXN Remate\n\nCasa en Remate\nGustavo Hernández, asesor in...\n\nComisión de colaboración: 1.50 %\n\n3\n\n1\n\n48 m²\n\n87 m²\n\n1\n\n+16\nNN-GWT246 (BC22533)\nCasa en venta en Campiña, Ecatepec de Morelos - Remate Bancario con Entrega Inmediata\n\n361,200 MXN Remate\n\nCasa en Remate\nGustavo Hernández, asesor in...\n\nComisión de colaboración: 1.50 %\n\n3\n\n1\n\n60 m²\n\n60 m²\n\n1\n\n+14\nNN-GRK512 "
+}

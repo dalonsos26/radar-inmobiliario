@@ -16,7 +16,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-# 2. Publicar en Vercel
-npx vercel deploy --yes --prod --quiet
+# 2. Publicar en Vercel (ruta completa para que launchd la encuentre)
+/opt/homebrew/bin/npx vercel deploy --yes --prod --quiet
 
 echo "[$(date '+%H:%M:%S')] === Deploy completado ==="

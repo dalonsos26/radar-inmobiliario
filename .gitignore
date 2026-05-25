@@ -20,3 +20,4 @@ data/cron.log
 
 # El reporte HTML generado SÍ se sube (es la app pública)
 # index.html            ← se sube
+.vercel

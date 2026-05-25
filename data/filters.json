@@ -1,0 +1,742 @@
+[
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input MuiSwitch-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "SeniorAccessibility",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "DisabledAccess",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "AirConditioner",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "EvaporativeCooler",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Grill",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Balcony",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Heater",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Chimney",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "CCTV",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Cistern",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Garage",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "EquippedKitchen",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "IntegralKitchen",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Elevator",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "CoveredParking",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "GatedCommunity",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "NaturalGas",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Jacuzzi",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "PetsAllowed",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "NoSmokingAllowed",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "NoPetsAllowed",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "SolarPanels",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Patio",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Pool",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "PowerPlant",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "DoorMan",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "RoofGarden",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "SmokingAllowed",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "IrrigationSystem",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "SecuritySystem",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "HydroPneumaticSystem",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "IsolatedRoof",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Transformer",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Library",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "StorageRoom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "LaundryRoom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "MaidRoom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "TVRoom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "StudyRoom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "ExerciseRoom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "ToyLibrary",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "GroundFloorBedroom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "MovieTheater",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Ballroom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Sauna",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Spa",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "GameArea",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "PadelCourt",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "TennisCourt",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "ClubHouse",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "BeachFront",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "WaterFront",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Garden",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "OpenAreaMall",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "ClosedAreaMall",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Terrace",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "WaterView",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "SeaView",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Internet",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Telephone",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Vigilance",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "TruckAccess",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "TrainAccess",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "ManeuveringArea",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "WeightScale",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "RecreationRoom",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Crane",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "IndustrialPark",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "LaserLeveledFloor",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "ReinforcedFloor",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "MetalicGate",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "Ramp",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  },
+  {
+    "tag": "INPUT",
+    "type": "checkbox",
+    "name": "MetalSheetRoof",
+    "id": "",
+    "placeholder": "",
+    "class": "PrivateSwitchBase-input css-1m9pwf3",
+    "value": "on",
+    "label": ""
+  }
+]

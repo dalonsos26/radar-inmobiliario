@@ -2,10 +2,10 @@
   "weeks": {
     "2026-W21": {
       "week": "2026-W21",
-      "total": 14,
+      "total": 24,
       "cities": {
         "Torreón": {
-          "total": 14,
+          "total": 24,
           "tipos_m2": {
             "Edificio": {
               "sum": 418.33333333333337,
@@ -16,16 +16,35 @@
               "count": 2
             },
             "Oficina": {
-              "sum": 11348.076923076924,
-              "count": 2
+              "sum": 11855.349650349652,
+              "count": 6
             },
             "Bodega": {
-              "sum": 11590.757369738252,
-              "count": 5
+              "sum": 11662.757369738252,
+              "count": 6
             },
             "Local": {
-              "sum": 11381.410256410258,
-              "count": 2
+              "sum": 11924.743589743592,
+              "count": 6
+            },
+            "Casa": {
+              "sum": 80.0,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2026-W22": {
+      "week": "2026-W22",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Bodega": {
+              "sum": 40.0,
+              "count": 1
             }
           }
         }

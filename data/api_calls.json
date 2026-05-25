@@ -1,0 +1,418 @@
+[
+  {
+    "url": "https://app.nocnok.com/api/auth/providers/",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"credentials\":{\"id\":\"credentials\",\"name\":\"Custom Tokens Authentication\",\"type\":\"credentials\",\"signinUrl\":\"https://app.nocnok.com/api/auth/signin/credentials\",\"callbackUrl\":\"https://app.nocnok.com/api/auth/callback/credentials\"},\"duende-identityserver6\":{\"id\":\"duende-identityserver6\",\"name\":\"NOCNOK\"",
+    "body_len": 473
+  },
+  {
+    "url": "https://app.nocnok.com/api/auth/csrf/",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"csrfToken\":\"854e93130f347184ce5637f50bf8e5f7353297dfc493dad1d8780451619424cb\"}",
+    "body_len": 80
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/users/memberships/joined",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"membershipId\":\"530a9747-ba7d-49d8-96de-018fe985a554\",\"accountId\":154940,\"accountName\":\"Near Real Estate\",\"accountPlan\":\"Base\",\"isOwner\":true,\"role\":\"Propietario\",\"accountPicture\":\"\",\"status\":\"Active\",\"statusText\":\"Activa\",\"statusDate\":\"2024-06-05T11:05:06.0",
+    "body_len": 1136
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/properties/favorites",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":\"eb43d97b-291d-4077-8845-019d2638bdcd\",\"code\":\"NN-GWM944\",\"internalCode\":\"890A01D810FC-MMM\",\"title\":\"TERRENO EN VENTA, EJIDO MARIANO MATAMOROS, MATAMOROS COAHUILA\",\"category\":\"Industrial\",\"categoryText\":\"Industrial\",\"type\":\"Land\",\"typeText\":\"Terreno\",\"o",
+    "body_len": 7182
+  },
+  {
+    "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=3826222&currentUrl=https%3A%2F%2Fapp.nocnok.com%2F&utk=3dfe042c763fd3f2451c01b6482500f5&__hstc=205406479.3dfe042c763fd3f2451c01b6482500f5.1779468667651.1779468667651.1779468667651.1&__hssc=205406479.1.1779468667651",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json;charset=utf-8",
+    "body_preview": "{\"sortedAudienceConfigs\":[],\"requestedConfigs\":[],\"gates\":[]}",
+    "body_len": 61
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/users/memberships/joined",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"membershipId\":\"530a9747-ba7d-49d8-96de-018fe985a554\",\"accountId\":154940,\"accountName\":\"Near Real Estate\",\"accountPlan\":\"Base\",\"isOwner\":true,\"role\":\"Propietario\",\"accountPicture\":\"\",\"status\":\"Active\",\"statusText\":\"Activa\",\"statusDate\":\"2024-06-05T11:05:06.0",
+    "body_len": 1136
+  },
+  {
+    "url": "https://api.hubspot.com/livechat-public/v1/message/public?portalId=3826222&conversations-embed=static-1.26688&mobile=false&messagesUtk=c6586386fba645aea0415f9790accb5b&traceId=c6586386fba645aea0415f9790accb5b&referrer=https%3A%2F%2Fsso.nocnok.com%2F",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json;charset=utf-8",
+    "body_preview": "{\"@type\":\"HIDE_WIDGET\",\"metadata\":{\"@type\":\"HIDE_WIDGET_META\",\"reason\":\"NO_MATCHING_WELCOME_MESSAGE\",\"description\":\"No matching welcome message for portal 3826222 page https://app.nocnok.com/ or visitor does not match targeting rules\"},\"type\":\"HIDE_WIDGET\"}",
+    "body_len": 257
+  },
+  {
+    "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=3826222",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json;charset=utf-8",
+    "body_preview": "{\"pixels\":{\"ADWORDS\":[{\"pixelId\":\"990521952\",\"limitedDataUseEnabled\":false,\"pixelInitializer\":\"990521952\"},{\"pixelId\":\"11021062454\",\"limitedDataUseEnabled\":false,\"pixelInitializer\":\"11021062454\"},{\"pixelId\":\"11036461978\",\"limitedDataUseEnabled\":false,\"pixelInitializer\":\"11036461978\"},{\"pixelId\":\"108",
+    "body_len": 622
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-GQB0LVNV97&cx=c&gtm=4e65k1h1",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/javascript; charset=UTF-8",
+    "body_preview": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\"resource\": {\n  \"version\":\"2\",\n  \n  \"macros\":[{\"function\":\"__e\"},{\"function\":\"__c\",\"vtp_value\":\"google.com.mx\"},{\"function\":\"__c\",\"vtp_value\":0}],\n  \"tags\":[{\"function\":\"__ogt_1p_data_v2\",\"priority\":17,\"vtp_isAutoEnable",
+    "body_len": 480390
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-990521952&cx=c&gtm=4e65k1h1",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/javascript; charset=UTF-8",
+    "body_preview": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\"resource\": {\n  \"version\":\"3\",\n  \n  \"macros\":[{\"function\":\"__e\"}],\n  \"tags\":[{\"function\":\"__ogt_ads_datatos\",\"priority\":18,\"vtp_instanceDestinationId\":\"AW-990521952\",\"tag_id\":15},{\"function\":\"__ogt_1p_data_v2\",\"priority",
+    "body_len": 432072
+  },
+  {
+    "url": "https://connect.facebook.net/signals/config/225451481215181?v=2.9.324&r=stable&domain=app.nocnok.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/x-javascript; charset=utf-8",
+    "body_preview": "/**\n* Copyright (c) 2017-present, Facebook, Inc. All rights reserved.\n*\n* You are hereby granted a non-exclusive, worldwide, royalty-free license to use,\n* copy, modify, and distribute this software in source code or binary form for use\n* in connection with the web services and APIs provided by Face",
+    "body_len": 19873
+  },
+  {
+    "url": "https://feedback.hubapi.com/feedback/public/v1/web-config?portalId=3826222&utk=3dfe042c763fd3f2451c01b6482500f5&bundleVersion=1.30111&currentUrl=https%3A%2F%2Fapp.nocnok.com%2F&pageUrl=https%3A%2F%2Fapp.nocnok.com%2F",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json;charset=utf-8",
+    "body_preview": "{\"webRespondent\":null,\"config\":null,\"gates\":{\"ServiceHub:Feedback:TrellisSmileys\":false}}",
+    "body_len": 89
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-11021062454&cx=c&gtm=4e65k1h1",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/javascript; charset=UTF-8",
+    "body_preview": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\"resource\": {\n  \"version\":\"4\",\n  \n  \"macros\":[{\"function\":\"__e\"},{\"function\":\"__c\",\"vtp_value\":\"google.com.mx\"},{\"function\":\"__c\",\"vtp_value\":0}],\n  \"tags\":[{\"function\":\"__ogt_ads_datatos\",\"priority\":28,\"vtp_instanceDes",
+    "body_len": 562299
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/users/profile",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"id\":\"530a9747-ba7d-49d8-96de-018fe985a554\",\"name\":\"NEAR REAL ESTATE \",\"email\":\"diegoalonso15@hotmail.com\",\"pictureId\":\"a5af2e1e-b718-4376-9692-019017a801c7\",\"pictureUrl\":\"https://s3.us-east-1.amazonaws.com/nocnok-img/240614104233-c715d61e45a0464a88443c163fea",
+    "body_len": 412
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/accounts/profile",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"name\":\"Near Real Estate\",\"email\":\"diegoalonso15@hotmail.com\",\"phoneCountryCode\":\"52\",\"phoneNumber\":\"8717868636\",\"professionalType\":\"RealEstate\",\"professionalTypeText\":\"Inmobiliario\",\"creatorRole\":\"Owner\",\"companySize\":2,\"profileLevel\":2,\"countryId\":1,\"countr",
+    "body_len": 850
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-11036461978&cx=c&gtm=4e65k1h1",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/javascript; charset=UTF-8",
+    "body_preview": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\"resource\": {\n  \"version\":\"5\",\n  \n  \"macros\":[{\"function\":\"__e\"},{\"function\":\"__c\",\"vtp_value\":\"google.com.mx\"},{\"function\":\"__c\",\"vtp_value\":0},{\"function\":\"__c\",\"vtp_value\":\"google.com.mx\"},{\"function\":\"__c\",\"vtp_valu",
+    "body_len": 562732
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-990521952",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/javascript; charset=UTF-8",
+    "body_preview": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\"resource\": {\n  \"version\":\"3\",\n  \n  \"macros\":[{\"function\":\"__e\"}],\n  \"tags\":[{\"function\":\"__ogt_ads_datatos\",\"priority\":18,\"vtp_instanceDestinationId\":\"AW-990521952\",\"tag_id\":15},{\"function\":\"__ogt_1p_data_v2\",\"priority",
+    "body_len": 432061
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-10853810252&cx=c&gtm=4e65k1h1",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/javascript; charset=UTF-8",
+    "body_preview": "\n// Copyright 2012 Google Inc. All rights reserved.\n \n(function(){\n\nvar data = {\n\"resource\": {\n  \"version\":\"7\",\n  \n  \"macros\":[{\"function\":\"__e\"},{\"function\":\"__c\",\"vtp_value\":\"google.com.mx\"},{\"function\":\"__c\",\"vtp_value\":0}],\n  \"tags\":[{\"function\":\"__ogt_cross_domain\",\"priority\":32,\"vtp_rules\":[\"l",
+    "body_len": 573443
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/wa/devices",
+    "status": 403,
+    "method": "GET",
+    "content_type": "application/json",
+    "body_preview": "{\"success\":false,\"statusCode\":403,\"message\":\"El plan de la cuenta no triene acceso a esta funcionalidad.\"}",
+    "body_len": 106
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/billing/payments/last-plan",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"plan\":\"Base\",\"planMonths\":1,\"paymentDate\":\"2026-05-18T12:51:18.253\",\"amount\":440.0000,\"paymentProvider\":\"Conekta\",\"paymentMode\":\"CreditCard\",\"daysLeftInSubscription\":28,\"endDate\":\"2026-06-19T00:00:00\",\"isInTrial\":false}}",
+    "body_len": 262
+  },
+  {
+    "url": "https://connect.facebook.net/signals/config/1012578535603527?v=2.9.324&r=stable&domain=app.nocnok.com&hme=af8aa31887db259becaf70277daef60bd8bc35c2df82c2acd4258de27ecac4b5&ex_m=104%2C207%2C155%2C22%2C72%2C73%2C146%2C68%2C67%2C11%2C164%2C90%2C16%2C138%2C127%2C39%2C75%2C78%2C134%2C160%2C166%2C8%2C4%2C5%2C7%2C6%2C3%2C91%2C101%2C167%2C172%2C221%2C62%2C188%2C189%2C55%2C279%2C30%2C74%2C233%2C232%2C231%2C23%2C33%2C103%2C61%2C10%2C63%2C97%2C98%2C99%2C105%2C130%2C31%2C29%2C132%2C133%2C129%2C128%2C156%2C76%2C159%2C157%2C158%2C50%2C60%2C123%2C15%2C163%2C45%2C266%2C267%2C265%2C26%2C27%2C28%2C48%2C147%2C77%2C112%2C18%2C20%2C44%2C40%2C42%2C41%2C83%2C92%2C96%2C110%2C145%2C148%2C46%2C111%2C24%2C21%2C119%2C69%2C36%2C150%2C149%2C151%2C142%2C140%2C25%2C35%2C59%2C109%2C162%2C70%2C17%2C153%2C114%2C81%2C66%2C19%2C85%2C86%2C116%2C84%2C136%2C135%2C139%2C161%2C34%2C281%2C297%2C214%2C203%2C204%2C202%2C300%2C291%2C52%2C215%2C107%2C131%2C80%2C121%2C54%2C47%2C49%2C113%2C120%2C126%2C125%2C58%2C64%2C152%2C115%2C37%2C32%2C53%2C56%2C100%2C165%2C1%2C124%2C14%2C122%2C12%2C2%2C57%2C93%2C65%2C118%2C89%2C88%2C168%2C169%2C94%2C95%2C9%2C102%2C51%2C143%2C87%2C79%2C71%2C117%2C106%2C43%2C144%2C0%2C82%2C137%2C141%2C154%2C38%2C108%2C13%2C170%2C321%2C280",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/x-javascript; charset=utf-8",
+    "body_preview": "/**\n* Copyright (c) 2017-present, Facebook, Inc. All rights reserved.\n*\n* You are hereby granted a non-exclusive, worldwide, royalty-free license to use,\n* copy, modify, and distribute this software in source code or binary form for use\n* in connection with the web services and APIs provided by Face",
+    "body_len": 184818
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/deals-by-period?period=2",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"createdAtPeriod\":\"2026-01-26T00:00:00\",\"totalCount\":1},{\"createdAtPeriod\":\"2026-02-02T00:00:00\",\"totalCount\":0},{\"createdAtPeriod\":\"2026-02-09T00:00:00\",\"totalCount\":0},{\"createdAtPeriod\":\"2026-02-16T00:00:00\",\"totalCount\":2},{\"createdAtPeriod\":\"2026-02-23T",
+    "body_len": 1068
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/properties-by-status",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"totalCount\":109,\"openCount\":32,\"publishedCount\":25,\"notPublishedCount\":1,\"expiredCount\":6,\"finishedCount\":77,\"deactivatedCount\":0,\"items\":[{\"status\":\"Published\",\"statusText\":\"Publicada\",\"totalCount\":25},{\"status\":\"Inactive\",\"statusText\":\"No publicada\",\"total",
+    "body_len": 631
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/subscription-remaining-days",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"plan\":\"Base\",\"daysLeft\":28,\"endDate\":\"2026-06-19T00:00:00\"}}",
+    "body_len": 102
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/connect/integrations",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":\"cec0d7ce-ba20-4609-913e-1fab08dc0f3b\",\"portal\":\"Inmuebles24\",\"name\":\"Inmuebles24\",\"websiteUrl\":\"https://www.inmuebles24.com\",\"logoUrl\":\"/images/pages/portals/inmuebles24-light.webp\",\"connectionType\":\"Manual\",\"connectionStage\":\"Disconnected\",\"canConnect",
+    "body_len": 1166
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/properties?sortBy=lastModifiedAt&sortDirection=Descending&pageSize=10&pageNumber=1",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"pageNumber\":1,\"pageSize\":10,\"pageCount\":10,\"totalItems\":109,\"items\":[{\"id\":\"f2fa847f-74d3-4843-9739-019e18184b91\",\"code\":\"NN-GYU911\",\"title\":\"Bodega en renta en El Tajito, Torreón, Coahuila de Zaragoza\",\"category\":\"Commercial\",\"categoryText\":\"Comercial\",\"typ",
+    "body_len": 22946
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/connect/integrations/free",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":\"bc9c2847-4f5a-47ac-89b7-a2bf94f33e01\",\"portal\":\"Nocnok\",\"name\":\"Nocnok Inmuebles\",\"websiteUrl\":\"https://inmuebles.nocnok.com\",\"logoUrl\":\"/images/pages/portals/nocnok-light.webp\",\"connectionType\":\"Automatic\",\"connectionStage\":\"Connected\",\"canConnect\":fa",
+    "body_len": 1944
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/promotions/active?type=Dashboard",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":\"61094a8f-afe5-4356-8e3a-0882346fbb9d\",\"startDate\":\"2026-03-17T00:00:00\",\"endDate\":\"2026-12-31T00:00:00\",\"name\":\"MercadoLibre\",\"status\":\"Active\",\"url\":\"https://bit.ly/407k9ZG\",\"imageUrl\":\"https://nocnok.s3.amazonaws.com/promotions/descuentos-meli-mar26-",
+    "body_len": 948
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/pending-invitations",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"sentCollaborationCount\":0,\"receivedCollaborationCount\":2,\"sentMembershipCount\":0}}",
+    "body_len": 124
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/deals-by-stage",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"wonCount\":0,\"lostCount\":0,\"openCount\":66,\"items\":[{\"dealStageId\":\"3810c0aa-ee71-ee11-a51c-00155d05b938\",\"dealStage\":\"Sin contactar\",\"totalCount\":65},{\"dealStageId\":\"978e373f-f36b-1410-807d-003301513f4b\",\"dealStage\":\"Contactando\",\"totalCount\":0},{\"dealStageId",
+    "body_len": 567
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/deals?sortBy=createdAt&sortDirection=Descending&pageSize=10&pageNumber=1",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":\"d46906df-49f1-41f9-93cd-019e2dc361c2\",\"timestamp\":\"2026-05-15T16:30:39.56\",\"timestampText\":\"2026-05-15 16:30\",\"contact\":{\"id\":\"e8d45be8-ace1-4977-9a44-019e2dc3617b\",\"name\":\"Eduardo Gutierrez\",\"email\":\"528119091231@propiedades.com\",\"emailValidation\":\"-\"",
+    "body_len": 36585
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/deal-messages-by-portal?period=90",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"classifiedsPortalId\":\"a17ece42-ad72-4b80-91ae-47a0d207214c\",\"classifiedsPortal\":\"Propiedades.com\",\"totalCount\":17},{\"classifiedsPortalId\":\"3f86233e-d746-4e0e-958a-d182407270f0\",\"classifiedsPortal\":\"Nocnok - CRM\",\"totalCount\":3}]}",
+    "body_len": 272
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/locations/lookup/countries/1/states",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":1,\"name\":\"Aguascalientes\",\"lat\":21.885256000,\"lon\":-102.291565000},{\"id\":2,\"name\":\"Baja California\",\"lat\":30.840633000,\"lon\":-115.283760000},{\"id\":3,\"name\":\"Baja California Sur\",\"lat\":26.044443000,\"lon\":-111.666070000},{\"id\":4,\"name\":\"Campeche\",\"lat\":18",
+    "body_len": 2272
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990521952/?random=1779468668172&cv=11&fst=1779468668172&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1h1v896277887za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~116701381~118689381&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&ref=https%3A%2F%2Fsso.nocnok.com%2F&rcb=9&frm=0&tiba=Dashboard%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5598
+  },
+  {
+    "url": "https://app.nocnok.com/api/push-notification/search/530a9747-ba7d-49d8-96de-018fe985a554?pageNum=1&pageSize=5&order=asc",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":\"019e3c6dad984bc498d1f52d18ed4eb6\",\"partitionKey\":\"639146592000000000\",\"userId\":\"530a9747-ba7d-49d8-96de-018fe985a554\",\"message\":{\"id\":\"cf7a8939-adf7-43b6-b835-6b9322e64860\",\"enqueuedTime\":\"2026-05-18T12:51:21.3684385-06:00\",\"time\":\"2026-05-18T12:51:21.",
+    "body_len": 3938
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11036461978/?random=1779468668356&cv=11&fst=1779468668356&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1h1v880014214za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469~116701381~118012009&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&ref=https%3A%2F%2Fsso.nocnok.com%2F&rcb=8&frm=0&tiba=Dashboard%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5580
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11021062454/?random=1779468668318&cv=11&fst=1779468668318&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1h1v896282657za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938468~116701381~118694324&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&ref=https%3A%2F%2Fsso.nocnok.com%2F&rcb=3&frm=0&tiba=Dashboard%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5602
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10853810252/?random=1779468668423&cv=11&fst=1779468668423&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be65k1h1v888001694za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116701381&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&ref=https%3A%2F%2Fsso.nocnok.com%2F&rcb=8&frm=0&tiba=Dashboard%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5562
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/locations/lookup/countries/1/states/7/municipalities",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":218,\"name\":\"Abasolo\",\"lat\":27.181032000,\"lon\":-101.424610000},{\"id\":219,\"name\":\"Acuña\",\"lat\":29.323296000,\"lon\":-100.951416000},{\"id\":220,\"name\":\"Allende\",\"lat\":28.349823000,\"lon\":-100.850790000},{\"id\":221,\"name\":\"Arteaga\",\"lat\":25.454672000,\"lon\":-100.",
+    "body_len": 2704
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/properties-by-status",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"totalCount\":109,\"openCount\":32,\"publishedCount\":25,\"notPublishedCount\":1,\"expiredCount\":6,\"finishedCount\":77,\"deactivatedCount\":0,\"items\":[{\"status\":\"Published\",\"statusText\":\"Publicada\",\"totalCount\":25},{\"status\":\"Inactive\",\"statusText\":\"No publicada\",\"total",
+    "body_len": 631
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/deals-by-period?period=2",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"createdAtPeriod\":\"2026-01-26T00:00:00\",\"totalCount\":1},{\"createdAtPeriod\":\"2026-02-02T00:00:00\",\"totalCount\":0},{\"createdAtPeriod\":\"2026-02-09T00:00:00\",\"totalCount\":0},{\"createdAtPeriod\":\"2026-02-16T00:00:00\",\"totalCount\":2},{\"createdAtPeriod\":\"2026-02-23T",
+    "body_len": 1068
+  },
+  {
+    "url": "https://app.nocnok.com/api/negociate/",
+    "status": 200,
+    "method": "POST",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ3ZWJwdWJzdWIuZ3JvdXAiOlsiNTMzNTY1MzItZTdjMy00YmEzLWEwMTktNDRiNDg4MWYxMWNlIl0sImlhdCI6MTc3OTQ2ODY2OCwiZXhwIjoxNzc5NDcyMjY4LCJhdWQiOiJodHRwczovL3dwc3Mtbm9jbm9rLWRldi53ZWJwdWJzdWIuYXp1cmUuY29tL2NsaWVudC9odWJzL05vdGlmaWNhdGlvbnMiLCJzdWIiOiI1MzBhOTc0Ny1iY",
+    "body_len": 924
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/reports/dashboard/subscription-remaining-days",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"plan\":\"Base\",\"daysLeft\":28,\"endDate\":\"2026-06-19T00:00:00\"}}",
+    "body_len": 102
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990521952/?random=1779468669067&cv=11&fst=1779468669067&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be65k1h1v896277887za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~116701381~118689381&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&ref=https%3A%2F%2Fapp.nocnok.com%2F&rcb=9&frm=0&tiba=Dashboard%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&ae=a&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5648
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11021062454/?random=1779468669077&cv=11&fst=1779468669077&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be65k1h1v896282657za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938468~116701381~118694324&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&ref=https%3A%2F%2Fapp.nocnok.com%2F&rcb=3&frm=0&tiba=Dashboard%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&ae=a&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5650
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10853810252/?random=1779468669095&cv=11&fst=1779468669095&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be65k1h1v888001694za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116701381&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&ref=https%3A%2F%2Fapp.nocnok.com%2F&rcb=8&frm=0&tiba=Dashboard%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&ae=a&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5612
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/properties/features",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":[{\"id\":\"Equipment\",\"name\":\"Equipo\",\"features\":[{\"id\":\"SeniorAccessibility\",\"name\":\"Accesibilidad para adultos mayores\",\"isPinned\":true},{\"id\":\"DisabledAccess\",\"name\":\"Acceso a discapacitados\",\"isPinned\":false},{\"id\":\"AirConditioner\",\"name\":\"Aire acondicionado\"",
+    "body_len": 4758
+  },
+  {
+    "url": "https://app.nocnok.com/api/v1/search/properties/all?pageNumber=1&pageSize=36&sortBy=StatusDate&sortDirection=Descending",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"success\":true,\"statusCode\":200,\"data\":{\"pageNumber\":1,\"pageSize\":36,\"pageCount\":36,\"totalItems\":252093,\"items\":[{\"id\":\"30390287-96d2-4ef9-b6c0-019e4e4a3342\",\"accountId\":71831,\"account\":{\"id\":71831,\"userId\":\"8b38b2a9-94d4-4864-acd2-018b1abb1bc0\",\"isInNetwork\":false,\"name\":\"Big Sur Inmobiliaria\",\"pr",
+    "body_len": 129722
+  },
+  {
+    "url": "https://feedback.hubapi.com/feedback/public/v1/web-config?portalId=3826222&utk=3dfe042c763fd3f2451c01b6482500f5&bundleVersion=1.30111&currentUrl=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fproperties%2F&pageUrl=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fproperties%2F",
+    "status": 200,
+    "method": "GET",
+    "content_type": "application/json;charset=utf-8",
+    "body_preview": "{\"webRespondent\":null,\"config\":null,\"gates\":{\"ServiceHub:Feedback:TrellisSmileys\":false}}",
+    "body_len": 89
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/990521952/?random=1779468671322&cv=11&fst=1779468671322&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be65k1h1v896277887za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938466~115938468~116701381~118689381&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fproperties%2F&ref=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&rcb=9&frm=0&tiba=Propiedades%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&ae=a&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5708
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11021062454/?random=1779468671331&cv=11&fst=1779468671331&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be65k1h1v896282657za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938468~116701381~118694324&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fproperties%2F&ref=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&rcb=3&frm=0&tiba=Propiedades%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&ae=a&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5710
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10853810252/?random=1779468671346&cv=11&fst=1779468671346&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45be65k1h1v888001694za200zb9194582274zd9194582274xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~116701381&u_w=1440&u_h=900&url=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fproperties%2F&ref=https%3A%2F%2Fapp.nocnok.com%2Fcrm%2F154940%2Fdashboard%2F&rcb=8&frm=0&tiba=Propiedades%20%C2%B7%20Nocnok&did=dZTQ1Zm&gdid=dZTQ1Zm&ae=a&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=435544326.1779468668&uaa=arm&uab=64&uafvl=Chromium%3B148.0.7778.96%7CHeadlessChrome%3B148.0.7778.96%7CNot%252FA)Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.5.0&uaw=0&data=event%3Dpage_view&rfmt=3&fmt=4",
+    "status": 200,
+    "method": "GET",
+    "content_type": "text/javascript; charset=UTF-8",
+    "body_preview": "(function(){var s = {};(function(){var k=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,d,b){if(a==Array.prototype||a==Object.prototype)return a;a[d]=b.value;return a};function l(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==ty",
+    "body_len": 5672
+  }
+]

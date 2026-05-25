@@ -19,7 +19,7 @@ fi
 
 echo ""
 echo "2/3  Publicando en línea…"
-npx vercel deploy --yes --prod --quiet 2>/dev/null && echo "     ✓ Publicado en Vercel" || echo "     (Sin conexión — solo local)"
+/opt/homebrew/bin/npx vercel deploy --yes --prod --quiet 2>/dev/null && echo "     ✓ Publicado en Vercel" || echo "     (Sin conexión — solo local)"
 
 echo ""
 echo "3/3  Abriendo reporte…"
