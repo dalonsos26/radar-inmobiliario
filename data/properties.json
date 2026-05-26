@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-05-26 00:55:25",
+  "run_at": "2026-05-26 01:23:12",
   "total": 155,
-  "new_count": 30,
+  "new_count": 0,
   "properties": [
     {
       "id": "00d7a9e5-21ad-4a19-8a7c-019e566f5d60",
@@ -23,7 +23,7 @@
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/la-merced-id-nn-gzs568",
+      "link": "https://app.nocnok.com/crm/154940/properties/00d7a9e5-21ad-4a19-8a7c-019e566f5d60",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525090834-738b24402be24f2ea5226660db4d9d4as.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525090834-3c251eda1eae4d1dab50bffcae712049s.webp",
@@ -50,7 +50,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-venta/coahuila-de-zaragoza/torreon/las-julietas-id-nn-gzs929",
+      "link": "https://app.nocnok.com/crm/154940/properties/8b8bb5e8-b31b-4270-906d-019e5fec2083",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525101610-55fee80bb64d40dfb55206e109581278s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525101611-e4bf87a0f4304884b539dd12b270203as.webp",
@@ -77,7 +77,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/las-julietas-id-nn-gzs931",
+      "link": "https://app.nocnok.com/crm/154940/properties/15c1eb59-0d46-496e-9e03-019e5fed5a14",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525101731-5f10a428e8924914a8caead8917b173bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525101731-8bd6301902e04617a8363ba1c5791c2fs.webp",
@@ -104,7 +104,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/residencial-el-fresno-id-nn-gzs919",
+      "link": "https://app.nocnok.com/crm/154940/properties/31fe5987-8ed9-4bea-9eb3-019e5fe0c5ed",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525100346-9ffe21d2c2fa4941809d10e442574333s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525100347-a4be1b9be5754c4bb627940bdb462b1as.webp",
@@ -131,7 +131,7 @@
       "broker": "Bienes Raíces DIA ",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/nueva-california-id-nn-gzs918",
+      "link": "https://app.nocnok.com/crm/154940/properties/ee20d0db-49a3-486a-8072-019e5fe0b383",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525100927-2f8f9247ad2d46d78ebadc4dcfe18228s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525100927-163ce471387e4f70a20d67d39c574ec3s.webp",
@@ -158,7 +158,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/quintas-san-isidro-id-nn-gzs961",
+      "link": "https://app.nocnok.com/crm/154940/properties/340a805f-556f-441e-b4b2-019e601a4049",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525110721-1e5436038e854aa7819f35eab84dc132s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525110721-6b58938e46fb40d7be39430e7a3bfe74s.webp",
@@ -185,7 +185,7 @@
       "broker": "TREBOL INMOBILIARIA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzt157",
+      "link": "https://app.nocnok.com/crm/154940/properties/a4e64e4c-5ae5-4939-9884-019e60d2ac96",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525142820-689f34ad4f80498dbdef714742f2759as.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525142819-a4592a5a94e3466c8ce5f2e47647d6b5s.webp",
@@ -212,7 +212,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzt078",
+      "link": "https://app.nocnok.com/crm/154940/properties/36a35baf-531d-4c25-a48a-019e607dcbde",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525125517-50d5904324414cf6bbf6820a18052a89s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525125517-d0592d9412454189960a1c58f3bc55c3s.webp",
@@ -239,7 +239,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzt094",
+      "link": "https://app.nocnok.com/crm/154940/properties/aea5f2b8-789d-4b10-a88f-019e6094dee0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525132106-6b9feae0753a464c905968fdb62b9baes.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525132106-a9d7f742c3914d61b243d06ad93d3a42s.webp",
@@ -266,7 +266,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzt097",
+      "link": "https://app.nocnok.com/crm/154940/properties/b09bb6b4-81ce-481c-b730-019e6096d0f0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525132237-66278d58b22c4da99467a0063503020es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525132237-a93d1a2da758429796644c39143a235fs.webp",
@@ -293,7 +293,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzt099",
+      "link": "https://app.nocnok.com/crm/154940/properties/9a300f0b-8047-44bd-9316-019e6097e911",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525132348-396ed938835e44b382b959d4f7688f23s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525132349-82ee7d2678d94e7f8dc5427d31784904s.webp",
@@ -320,7 +320,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzt101",
+      "link": "https://app.nocnok.com/crm/154940/properties/4950739d-11de-40ab-a602-019e609941ff",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525132517-6802fd556c7b4a94af59e18947e2fcc7s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525132517-4aae89da7aab44a39bb0707f7e9374f9s.webp",
@@ -347,7 +347,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzt103",
+      "link": "https://app.nocnok.com/crm/154940/properties/faec2d00-9f64-49e5-a52d-019e609a9c34",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525132645-87e17a86793649c981aea2c7a8dc74b3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525132646-25742b60404847cd977426a4cc3654fds.webp",
@@ -374,7 +374,7 @@
       "broker": "Oasis Real Estate",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-venta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-ne1000143",
+      "link": "https://app.nocnok.com/crm/154940/properties/bbca4244-f57a-4467-93e2-0197f0e879b9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250709175839-2613197355d84ae28bd6a4dab0317a73s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250709175828-36fdce15a78c4601a48085e25e85e505s.webp",
@@ -401,7 +401,7 @@
       "broker": "Oasis Real Estate",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/los-angeles-id-nn-ne1000105",
+      "link": "https://app.nocnok.com/crm/154940/properties/04d974cb-6e70-481f-b8ca-01983de30cc7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250724132557-9e2b687d58d741678c12fb080773b6f4s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250724132247-e4bc4819d62645f5bcc76df923739255s.webp",
@@ -428,7 +428,7 @@
       "broker": "Oasis Real Estate",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gxj915",
+      "link": "https://app.nocnok.com/crm/154940/properties/5e376eba-c5f8-4dff-8217-019d8ddf7a68",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260414152226-4ab328a814ab411e915d2d6970dcab50s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260414152226-f3ab70cb903249bda66778d69628ba69s.webp",
@@ -455,7 +455,7 @@
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/bocanegra-id-nn-gzt036",
+      "link": "https://app.nocnok.com/crm/154940/properties/605b6c2e-d8fb-46d9-8ab0-019e605f1463",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525122428-70a3f8cbc4344d11805db45e06b8bedas.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525122428-fe36d06412ab458cafeb4c9c23e0c628s.webp",
@@ -482,7 +482,7 @@
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/mieleras-id-nn-gzs981",
+      "link": "https://app.nocnok.com/crm/154940/properties/2fc042ce-d9f5-48e7-8733-019e6032e879",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525113351-397c68bc17644ade9cdb76c1e3b4e545s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525113351-ae199042989745cab676e63b5c2c336fs.webp",
@@ -509,7 +509,7 @@
       "broker": "Oasis Real Estate",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx24-ec7411",
+      "link": "https://app.nocnok.com/crm/154940/properties/c6f6c6e7-4d3d-4216-aaba-01920caa9185",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240919174634-68d3ab7554a646438f78078b14896b1es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-240919174633-e7db5b287c804c9aaff6674eac28a4fas.webp",
@@ -536,7 +536,7 @@
       "broker": "Grupo Dominio Bienes Raices",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-kd1000120",
+      "link": "https://app.nocnok.com/crm/154940/properties/60988987-76ef-48df-a9e6-019852335553",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250728120318-858ad709b8b74d92a00b952f6a38c835s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250728120313-7680df992c3b44f7821edd917f316651s.webp",
@@ -563,7 +563,7 @@
       "broker": "Grupo Dominio Bienes Raices",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/nuevo-san-isidro-id-nn-kd1000132",
+      "link": "https://app.nocnok.com/crm/154940/properties/6664c26a-bf58-4361-9b92-01985889efb4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250729173509-0379076b804440509e4649878b3eaa05s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250729173509-684bc1149c1d4e98a13a2d77549f584bs.webp",
@@ -590,7 +590,7 @@
       "broker": "Oasis Real Estate",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/consultorio-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx24-pw5696",
+      "link": "https://app.nocnok.com/crm/154940/properties/f1889965-e2c9-484b-9c56-018d67145aa9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240201171027-8353634258d3445f961da13cdf9ae14b.jpg",
         "https://s3.amazonaws.com/nocnok-img/240201171004-4ba62a7dd2ef4c5baab5f1c2e13cd981.jpg",
@@ -617,7 +617,7 @@
       "broker": "TREVIÑO REAL STATE",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/las-margaritas-id-nn-gzs808",
+      "link": "https://app.nocnok.com/crm/154940/properties/504eb852-c3de-4108-ab35-019e5c6f370e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524180220-2819263c08dd4a87acabd632f5afe719s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524180220-aebfb93ea38244aab12de3ba4f66e959s.webp",
@@ -644,7 +644,7 @@
       "broker": "TREVIÑO REAL STATE",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/las-margaritas-id-nn-gzs819",
+      "link": "https://app.nocnok.com/crm/154940/properties/df0d4274-4f78-49ef-b2a1-019e5c882f54",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524182842-b6f1c57f48b3479fa121537629cd2659s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524182842-3fb8062483a84646acd7f2055b5aab21s.webp",
@@ -671,7 +671,7 @@
       "broker": "TREVIÑO REAL STATE",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/las-margaritas-id-nn-gzs813",
+      "link": "https://app.nocnok.com/crm/154940/properties/3d8460f8-0c18-4c1b-924a-019e5c79d387",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524181324-ba54cd62c9814410ba4bd0733443884bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524181323-1e3679dcc639420db1a8849dc29260ffs.webp",
@@ -698,7 +698,7 @@
       "broker": "TREVIÑO REAL STATE",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/las-margaritas-id-nn-gzs811",
+      "link": "https://app.nocnok.com/crm/154940/properties/fb17e41e-68af-4c17-9bb9-019e5c751051",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524180812-5749b13cc99c4aaa923b2adb7ef84137s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524180812-de8deaef36844beeb44611ae35866edbs.webp",
@@ -725,7 +725,7 @@
       "broker": "TREVIÑO REAL STATE",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/las-margaritas-id-nn-gzs816",
+      "link": "https://app.nocnok.com/crm/154940/properties/8d23553a-a3bb-4234-802f-019e5c823b3b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524182212-e3f0225448324f3f90099e53cd18189ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524182213-701c83b398944c3db770c64fa623547ds.webp",
@@ -752,7 +752,7 @@
       "broker": "TREVIÑO REAL STATE",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/las-margaritas-id-nn-gzs821",
+      "link": "https://app.nocnok.com/crm/154940/properties/a31ee4bc-5c27-47a9-8032-019e5c8cb88a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524183325-9c065e0a49dc415383ca31dbbb8628a3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524183325-df8558efdc5a4370880f7441a0f0e513s.webp",
@@ -779,7 +779,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzs842",
+      "link": "https://app.nocnok.com/crm/154940/properties/d79f69cf-9bf6-43cf-9551-019e5d062cb2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524204559-b29d17c82a6e4352883ea2742a0c692es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524204616-93c3793719544df49c3ff0af1f0f12fes.webp",
@@ -806,7 +806,7 @@
       "broker": "Yelene Carrasco",
       "fecha_publicacion": "2026-05-24",
       "days_on_market": 2,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/casa-en-renta/coahuila-de-zaragoza/torreon/granjas-san-isidro-id-nn-gzs757",
+      "link": "https://app.nocnok.com/crm/154940/properties/83189e36-99a8-4478-b2fe-019e5b430d77",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260524130126-bfe6d6e02e2b47139d94179f1488d8ees.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260524130136-d0fb78b4411446a4b2f34d623deab675s.webp",
@@ -833,7 +833,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gwh286",
+      "link": "https://app.nocnok.com/crm/154940/properties/23ff7766-1774-4529-af5f-019cfefa69dc",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260317212646-f5cdd873025947f996f9bf342efc8110s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260317212724-fcbda66ae88f482aaff32dfa3ab715f4s.webp",
@@ -860,7 +860,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/residencial-las-etnias-id-nn-gwe806",
+      "link": "https://app.nocnok.com/crm/154940/properties/c36980af-541f-449f-ab17-019ce05d73d6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260311224627-efb4d327d40c4fd0bf3e6603fa923cd1s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260311224634-2c19c41f68734ea991904f8dea5a63d1s.webp",
@@ -887,7 +887,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/el-tajito-id-mx18-fe8697",
+      "link": "https://app.nocnok.com/crm/154940/properties/3330110f-6fc5-439d-8606-018b2496f57f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/181001190024-2a31b36acc4244ad96178af8797affb6.jpg",
         "https://s3.amazonaws.com/nocnok-img/181001190009-a16c7a190aa44608bf9d78b39d942204.jpg",
@@ -914,7 +914,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx15-bj0571",
+      "link": "https://app.nocnok.com/crm/154940/properties/456ea2cc-269d-45c2-ae4a-018b1d80b554",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/151001125058-9026abb110e6415d88e84394751f4bfb.jpg",
         "https://s3.amazonaws.com/nocnok-img/151001125003-58a3e513924749fbad9c93d77ae878c6.jpg",
@@ -941,7 +941,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-venta/coahuila-de-zaragoza/torreon/nueva-los-angeles-id-nn-gwe628",
+      "link": "https://app.nocnok.com/crm/154940/properties/a045c43d-4b38-4c2c-b100-019cdf0060be",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260311162449-aaf871e4bc25463eae8cc516e1b4925es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260311162546-a4c0e298b9a44d83bf5964ea273ddbb0s.webp",
@@ -968,7 +968,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/la-union-id-mx24-ne1912",
+      "link": "https://app.nocnok.com/crm/154940/properties/71708b2e-5c53-4dae-a2e3-01905bcef6fe",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240627162903-5c06967e93b045ad9fc0bd8179dbd969s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-240627162947-7c122fd942d14f928c89d3d8eae1bc4as.webp",
@@ -995,7 +995,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-venta/coahuila-de-zaragoza/torreon/nueva-los-angeles-id-nn-gwe624",
+      "link": "https://app.nocnok.com/crm/154940/properties/e6ed9b81-2e7e-49a7-b5ba-019cdefa891b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260311161859-56c69f2fc2af4051b8f541a1037fe012s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260311161854-d6b0561a652143c880961c82d2e37819s.webp",
@@ -1022,7 +1022,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/aviacion-id-mx23-oq2497",
+      "link": "https://app.nocnok.com/crm/154940/properties/36182305-7d12-42ff-a8e2-018b291ce843",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230504162934-e941bd7eff7145bd9cc9b227d9b903e3.jpg",
         "https://s3.amazonaws.com/nocnok-img/230504162935-10cd171f66164ba295865c83ed229d5c.jpg",
@@ -1049,7 +1049,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-venta/coahuila-de-zaragoza/torreon/nueva-los-angeles-id-nn-gwe609",
+      "link": "https://app.nocnok.com/crm/154940/properties/b0f9e407-80d1-48fa-972b-019cdeebf3d1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260311160243-d345dd8b04eb49ce9f4dcec5f825ae4ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260311160345-67d7004e3a4b401e90f890e254c78bdfs.webp",
@@ -1076,7 +1076,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx15-bg2211",
+      "link": "https://app.nocnok.com/crm/154940/properties/007726bc-a1b7-4cec-8349-018b1d498409",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/150806120355-307b4e4db7b242fcb235cdf57cf12973.jpg",
         "https://s3.amazonaws.com/nocnok-img/150806120259-e11b8dd1c34444c481ed096b1c52da9a.jpg",
@@ -1103,7 +1103,7 @@
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gvt987",
+      "link": "https://app.nocnok.com/crm/154940/properties/b70678a9-cf13-4d46-b9cb-019cb0a4c585",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260302162341-2c60615e1dd14c43a0105322bd50d98bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260302162355-3ebaa3b5db0b4c31b055f20356f1cac1s.webp",
@@ -1130,7 +1130,7 @@
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/pequena-zona-industrial-id-nn-gzs537",
+      "link": "https://app.nocnok.com/crm/154940/properties/cffa859a-98c5-4e53-be60-019e5643f1af",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260523131838-961adb3aec694f87a6259c767ca2b72ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260523131838-346f02a0e92a42dc8e5cbd216e28ad4fs.webp",
@@ -1157,7 +1157,7 @@
       "broker": "Lorena Dávila Bienes Raices",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzs651",
+      "link": "https://app.nocnok.com/crm/154940/properties/4b274dd2-5283-425b-b591-019e57bb70f3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260523200617-aff8dc00f13047fd963c14c6c57ff6f9s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260523200617-56dc04f8f7744451afabb115f01b0045s.webp"
@@ -1183,7 +1183,7 @@
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/la-paz-id-nn-ub1000163",
+      "link": "https://app.nocnok.com/crm/154940/properties/07dd6d2b-3e61-4daa-82ac-01990b662fdd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250902110817-3602a2d0290d40d2823a2f204fb09448s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250902110817-d5cb5b23609e415d8536e53dfa9c23a7s.webp",
@@ -1210,7 +1210,7 @@
       "broker": "VIVE FIRME (SANTAMARIA Y ALANIS)",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-zw1000125",
+      "link": "https://app.nocnok.com/crm/154940/properties/3003152e-bce8-4362-b5bd-0198c6078370",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250819235137-c9e90349be654beab13d96ee2e36a991s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250819235136-038a5a5797e449069ec479dfb89b7cb0s.webp",
@@ -1237,7 +1237,7 @@
       "broker": "VIVE FIRME (SANTAMARIA Y ALANIS)",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/zaragoza-sur-id-mx25-zw10011",
+      "link": "https://app.nocnok.com/crm/154940/properties/a47d9b35-490b-46dc-b589-0195aa7480cf",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260204162436-a216c140edbf4e8eb0fbb160553263f3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260204162439-4c5ab8482d234f1ab1008acdcc03feabs.webp",
@@ -1264,7 +1264,7 @@
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzs360",
+      "link": "https://app.nocnok.com/crm/154940/properties/b78ccbe3-1f29-469f-a27b-019e51bf5326",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522164333-8c1533706de74e07b8f0af4c975e5ac1s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522164333-0c35bcf87a434c809f8db8b13c4acf7as.webp",
@@ -1291,7 +1291,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzs375",
+      "link": "https://app.nocnok.com/crm/154940/properties/fbd32e3b-d8f3-42d8-b758-019e51e7e240",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522165651-5bbf829f316847dfa6c8397b3652353cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522165652-25e0518703bf4e11ac0ab29248f1db67s.webp",
@@ -1318,7 +1318,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzs372",
+      "link": "https://app.nocnok.com/crm/154940/properties/2bf6130c-1d24-4b08-a09c-019e51e73a15",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522165629-a58e98adc90940348a2d7eb1b01f88fbs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522165629-53ce96089dc54926abe643f824773f27s.webp",
@@ -1345,7 +1345,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzs376",
+      "link": "https://app.nocnok.com/crm/154940/properties/15f3d576-a096-40b1-9256-019e51e9c4bb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522165855-e20add295a05464cb84333fd918986d6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522165855-4085a54042cf4e50a762cd3bd1bb059fs.webp",
@@ -1372,7 +1372,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzs377",
+      "link": "https://app.nocnok.com/crm/154940/properties/3abfe649-6e3f-464c-b89e-019e51ea606e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522165935-9939ead2b2a0440281c4fba10dbe277cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522165935-eec604b6369a448eb04cc8bcddc4a5ecs.webp",
@@ -1399,7 +1399,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzs378",
+      "link": "https://app.nocnok.com/crm/154940/properties/ca2912a1-59e9-439d-b4c5-019e51ead590",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522170005-be5a364406234996a25c65464cfc064as.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522170005-b16ed1073b48408091c2509c7fbf998cs.webp",
@@ -1426,7 +1426,7 @@
       "broker": "CRECIENDO BIENES RAICES",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/villa-california-id-nn-gzs382",
+      "link": "https://app.nocnok.com/crm/154940/properties/ae81daff-56fb-4d08-9590-019e51f4e8a8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522171125-afbd729973414be4a54a36acba7ebbd5s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522171125-b09b3f5b6da144b7b1017af1e618c460s.webp"
@@ -1452,7 +1452,7 @@
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-venta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzs102",
+      "link": "https://app.nocnok.com/crm/154940/properties/553d63ea-36fc-4efd-8c6b-019e506eef67",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522100906-9221e55268b24fa797fdefb866f5cce7s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522100909-4540c890f44b407c8ca6aaa60985610cs.webp",
@@ -1479,7 +1479,7 @@
       "broker": "Bienes Raíces DIA ",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/paseo-aurea-id-nn-gzs173",
+      "link": "https://app.nocnok.com/crm/154940/properties/93d79de4-5466-43f1-bf4d-019e50ccb2c1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522114749-f78b9051af7e45d6851d4d112dad89abs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522114749-2a6dc2e422774b9a84a5136e853ce012s.webp",
@@ -1506,7 +1506,7 @@
       "broker": "Link Bienes Raíces",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzs407",
+      "link": "https://app.nocnok.com/crm/154940/properties/884d186c-12ec-4092-8ca7-019e52331f28",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522190338-886394c555754681b99c90b67a838358s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522181921-49c7bb68fa764c31b3c313c4d143e342s.webp",
@@ -1533,7 +1533,7 @@
       "broker": "CVR CONSTRUCCIONES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzq266",
+      "link": "https://app.nocnok.com/crm/154940/properties/68aa1693-03d3-490e-97f8-019e4b3a1054",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521094934-fbbed800733141aaa101f974aca6f68es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521094934-d36af4cffbec47ec8d48f27d3a01a523s.webp",
@@ -1560,7 +1560,7 @@
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/ciudad-nazas-poligono-30-id-nn-gzq276",
+      "link": "https://app.nocnok.com/crm/154940/properties/9af72c8a-6d2e-475a-a8f0-019e4b4e6cf3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521101255-d86c9af50cf0495589d24d215817ed2cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521101255-cf7f1bcc3f0b4e6e8f2768d326fb8b82s.webp",
@@ -1587,7 +1587,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/magdalenas-id-nn-gzq300",
+      "link": "https://app.nocnok.com/crm/154940/properties/512a41f7-0591-4544-b35a-019e4b789853",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521105735-fc32c7bb505d48888acc513711956698s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521105735-828009800fa546a8b4fda7b31d67522bs.webp",
@@ -1614,7 +1614,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/magdalenas-id-nn-gzq304",
+      "link": "https://app.nocnok.com/crm/154940/properties/e99e739a-861a-4a9d-9c81-019e4b7ea14f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521111032-b80d5585b0ba47088e1e7a6824c3f98ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521111032-9633c4ee51674be4928f8c0baf230b03s.webp",
@@ -1641,7 +1641,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-venta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx24-pv9182",
+      "link": "https://app.nocnok.com/crm/154940/properties/bd29b512-efda-407c-8a06-018d47895d10",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240126141925-116838f1717c4a459badebfbba473260.jpg",
         "https://s3.amazonaws.com/nocnok-img/240126141926-b1eee717cf574d599e2a0948afbbea7b.jpg",
@@ -1668,7 +1668,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx22-mc8321",
+      "link": "https://app.nocnok.com/crm/154940/properties/02dc4703-71af-420a-a9ca-018b27d1e21d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220119142202-acad70f17cfc462aabeff3d19308263f.jpg",
         "https://s3.amazonaws.com/nocnok-img/220119142223-6e2784fd43784fd29942aea8c0e0a904.jpg",
@@ -1695,7 +1695,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx25-pw10546",
+      "link": "https://app.nocnok.com/crm/154940/properties/04b838dc-0060-424a-ab9d-0195bac3dc51",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250321161255-ed634de003a743169d166f219ff40633s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250321161254-61382e0695394f9582803d9fe33d6161s.webp",
@@ -1722,7 +1722,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/plaza-jumbo-id-nn-pw1000154",
+      "link": "https://app.nocnok.com/crm/154940/properties/88f29a43-a895-4cb2-b889-01982915ca5a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250720122602-011435186907427398d11c39241e5744s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250720122603-075c6398d6f3460085a5795e7fa5dc01s.webp",
@@ -1749,7 +1749,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/plaza-jumbo-id-nn-pw1000427",
+      "link": "https://app.nocnok.com/crm/154940/properties/5a7ac1e8-48fc-428c-b8cf-0199f44c7045",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251017163128-ce5b418b0ffb4ebf8579d7f2a9495367s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251017163129-dc40c2e920024c46bf8f0f7903675aeas.webp",
@@ -1776,7 +1776,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx25-pw11781",
+      "link": "https://app.nocnok.com/crm/154940/properties/52c88327-1941-4593-9af6-01976fe3af28",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250614132133-bfbc2db5535c4053808733822b7dc65ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250614132136-832cf899f1ad4a1fb868290f2ada8b0fs.webp",
@@ -1803,7 +1803,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-pw1000376",
+      "link": "https://app.nocnok.com/crm/154940/properties/3e66e499-ba59-44d8-9049-0199b138f5d6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251004155545-5665b7f952784fcd9cec6b89fd324a7es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251004155542-873fdc505ef3444a9dc900141feb7996s.webp",
@@ -1830,7 +1830,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gvk177",
+      "link": "https://app.nocnok.com/crm/154940/properties/d4a765c3-c202-4112-bf17-019ca09c117d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260227133848-9441a5c0ba084771b4124bf1879e50d3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260227133848-b492935e3e354a15972c2ff20f990050s.webp",
@@ -1857,7 +1857,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/el-tajito-id-nn-gud889",
+      "link": "https://app.nocnok.com/crm/154940/properties/ffb3a972-525e-4dfc-b3ce-019c54840819",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260212190124-c93fc0b0bec2490691d921cacfd7e23fs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260212190127-beb2b1f1dfee4b4bb1a12b337e96a82es.webp",
@@ -1884,7 +1884,7 @@
       "broker": "Dingler Bienes Raíces",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/granjas-san-isidro-id-nn-gzq677",
+      "link": "https://app.nocnok.com/crm/154940/properties/a7b78425-c6cf-400e-9890-019e4be211ff",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521125417-3251a16c880d4cc284d4de7355e6841fs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521125418-70e12032530d4cb790643247bed7c34fs.webp",
@@ -1911,7 +1911,7 @@
       "broker": "Dingler Bienes Raíces",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-venta/coahuila-de-zaragoza/torreon/granjas-san-isidro-id-nn-gzq661",
+      "link": "https://app.nocnok.com/crm/154940/properties/329ab279-da83-49bd-9417-019e4bd19eb4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521123632-325b8a53aa304ec6aa3548debe075153s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521123633-a6859d373fcf4c79abd0b0cd804353bbs.webp",
@@ -1938,7 +1938,7 @@
       "broker": "ENLACE INMOBILIARIO",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/el-tajito-id-nn-gzq767",
+      "link": "https://app.nocnok.com/crm/154940/properties/ad664e9b-ce7a-4786-bba6-019e4c32fe34",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521142555-05483f014599480ba650355337ec87a6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521142555-c829e795fee340578fd8a03477b6c989s.webp",
@@ -1965,7 +1965,7 @@
       "broker": "Rehabita Bienes Raices",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/consultorio-en-renta/coahuila-de-zaragoza/torreon/residencial-senderos-id-nn-gzq722",
+      "link": "https://app.nocnok.com/crm/154940/properties/96736667-0c4d-400f-9a1e-019e4c0ae31c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521134105-a8b73e03108d4f369883710efdd655d1s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521134134-e6bb8b4ec6f14b69aaf066ebcfd22538s.webp",
@@ -1992,7 +1992,7 @@
       "broker": "Bienes Raices Comarca Lagunera MX",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/consultorio-en-renta/coahuila-de-zaragoza/torreon/ampliacion-la-rosita-id-nn-gzq849",
+      "link": "https://app.nocnok.com/crm/154940/properties/82fb1b58-ffd6-4905-8de8-019e4c9b7f1a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521161551-c81a9f740e0448f992692e3ff576ed86s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521161631-ef3cb76465a24ba99153b18a8f46bc42s.webp",
@@ -2019,7 +2019,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gzq790",
+      "link": "https://app.nocnok.com/crm/154940/properties/06dc2885-1403-429d-8868-019e4c4c7baf",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521145000-8e13783881a3413897ed7016e993617cs.webp"
       ]
@@ -2044,7 +2044,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/casa-en-venta/coahuila-de-zaragoza/torreon/nuevo-torreon-id-nn-gzq732",
+      "link": "https://app.nocnok.com/crm/154940/properties/3ce0f4a3-9ef0-4e18-a393-019e4c13596c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521134654-527695c32efb4d0aa3ff252be47e74c3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521134652-027cf28fa06c4e7093cb517de2a56e96s.webp",
@@ -2071,7 +2071,7 @@
       "broker": "ENLACE INMOBILIARIO",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/el-tajito-id-nn-gzq257",
+      "link": "https://app.nocnok.com/crm/154940/properties/2ca2ddc3-cc04-461f-9646-019e4b0f6c3a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521135029-0f558645042e45989d07f951e36a9472s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521135029-8bb7a6477ad94e0ca4d100492208c779s.webp",
@@ -2098,7 +2098,7 @@
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/consultorio-en-renta/coahuila-de-zaragoza/torreon/san-isidro-id-nn-gzq901",
+      "link": "https://app.nocnok.com/crm/154940/properties/60b3321c-68c6-4813-8eac-019e4ce6e6db",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521173919-c2bd5ecbaf244913963b370ba2b1a7a4s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521173920-f3c1cecf8a7248b78e07f122de2fa753s.webp",
@@ -2125,7 +2125,7 @@
       "broker": "Dingler Bienes Raíces",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/nuevo-san-isidro-id-nn-gzq907",
+      "link": "https://app.nocnok.com/crm/154940/properties/d175ca83-49aa-49aa-8e3e-019e4cee1bbe",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521185347-3047026c48374e9788d454ea553070fds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521185348-6d5133618492499ea0510821599708bcs.webp",
@@ -2152,7 +2152,7 @@
       "broker": "Ana María Acosta",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/ampliacion-senderos-id-nn-gzq747",
+      "link": "https://app.nocnok.com/crm/154940/properties/9e8d74a8-af3e-4065-8c38-019e4c21d60d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521140254-996795b6e48749dd99edbe1348de990bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521140254-d857d4a58fd9409ebd61b8ad7dd35239s.webp"
@@ -2178,7 +2178,7 @@
       "broker": "Ana María Acosta",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/ampliacion-senderos-id-nn-gzq741",
+      "link": "https://app.nocnok.com/crm/154940/properties/2412a96c-7078-4c5b-9cc2-019e4c1b5dca",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521135554-88085900d39942f888a89c133c5dd413s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521135554-724170eb534d4ca2b97b2a43eb077d0bs.webp",
@@ -2205,7 +2205,7 @@
       "broker": "Bienes Raices Comarca Lagunera MX",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/consultorio-en-renta/coahuila-de-zaragoza/torreon/ampliacion-la-rosita-id-nn-gzq874",
+      "link": "https://app.nocnok.com/crm/154940/properties/454eeb4c-8d70-4369-bf57-019e4cbfa430",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521165537-801a27e2efaa4c7697ef83bfd38fdf39s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521165537-fb02b54b4e2d4c34aae865f339a126d4s.webp",
@@ -2232,7 +2232,7 @@
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/san-isidro-id-nn-gzq925",
+      "link": "https://app.nocnok.com/crm/154940/properties/87183fd4-fde9-49a8-b970-019e4d041645",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525162902-9d0410e21454450ca77a6fd1e35559a0s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525162903-c32439feeec64cb787a79502656155b2s.webp",
@@ -2259,7 +2259,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/ciudad-industrial-id-mx23-pi3114",
+      "link": "https://app.nocnok.com/crm/154940/properties/9efac6d6-b51c-4db5-94fa-018b293c1254",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230913225930-95f20b739df1413b977ddf1a414f033f.jpg",
         "https://s3.amazonaws.com/nocnok-img/230913225925-ac029488f2aa4c3f984381a7dd364cb9.jpg",
@@ -2286,7 +2286,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/ciudad-industrial-id-mx24-qa9759",
+      "link": "https://app.nocnok.com/crm/154940/properties/353a7869-dcad-47da-b50a-018e36255b40",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240312222337-939a95d95a464dc2b33cc70e8c590e33.jpg",
         "https://s3.amazonaws.com/nocnok-img/240312222356-1c74936a75764b96987eaad3199a5f82.jpg"
@@ -2312,7 +2312,7 @@
       "broker": "Erika martinez",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/residencial-senderos-id-nn-dl1000154",
+      "link": "https://app.nocnok.com/crm/154940/properties/bb761175-3d2a-4674-881d-0199e9ccada0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251015153942-8ffea57f92834cba8ca850eb3f98be27s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251015153941-4ad05b4e59c74e7982d016f78cc40938s.webp",
@@ -2339,7 +2339,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/luis-horacio-salinas-id-nn-bp1000160",
+      "link": "https://app.nocnok.com/crm/154940/properties/5da3db5d-bba0-40f0-bb78-0199f83ef3c7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251018105552-e8e53c2bf8e249fc8adb42100452bddas.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251018105551-e98117d59a1a46418a9624038f604733s.webp",
@@ -2366,7 +2366,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/luis-horacio-salinas-id-nn-bp1000121",
+      "link": "https://app.nocnok.com/crm/154940/properties/b0cacd0a-f038-4986-8acb-0199f844952b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251018110136-3ff3d6be97334c8eb558b045266e29acs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251018110136-46cfcb077b9e46ec8d834d41ee16b632s.webp",
@@ -2393,7 +2393,7 @@
       "broker": "ZCANA Asesoría inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx25-py10029",
+      "link": "https://app.nocnok.com/crm/154940/properties/cf30823a-6964-443c-ba32-01965ba64487",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250421215919-c17ad5ab1fb24a4a85d77daee112cee8s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250421215919-242112bd749f483a8aef6f5999048588s.webp",
@@ -2420,7 +2420,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/parque-industrial-ferropuerto-id-mx25-bp10048",
+      "link": "https://app.nocnok.com/crm/154940/properties/2008effa-8ce2-4d41-bc5b-0197a3447c26",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250807102629-fa322b1b2b444b32bc887b5442f37633s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250807102629-1252e681baf54ecc8fb99e75abade1acs.webp",
@@ -2447,7 +2447,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/la-perla-id-nn-bp1000151",
+      "link": "https://app.nocnok.com/crm/154940/properties/b5f53994-3942-4b5c-b4a4-0197fb97ad12",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250711162633-8f7c2b9c5862453bb40078526e7a0f5es.webp"
       ]
@@ -2472,7 +2472,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/villas-de-las-perlas-id-nn-bp1000104",
+      "link": "https://app.nocnok.com/crm/154940/properties/687be1c6-7486-43b1-9022-0197fb9b8375",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250711163436-78b31127ee5e4422a8a96ba3f0ee441bs.webp"
       ]
@@ -2497,7 +2497,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/plaza-jumbo-id-nn-bp1000161",
+      "link": "https://app.nocnok.com/crm/154940/properties/823239ec-8a4f-468a-8fbe-019819247a18",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250717101653-9d199ced1312419797a5257e1ef03ac6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250717101545-85eae39994ca4a5d86fef11f77f927ees.webp",
@@ -2524,7 +2524,7 @@
       "broker": "ZCANA Asesoría inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/carolinas-id-nn-py1000391",
+      "link": "https://app.nocnok.com/crm/154940/properties/83c0799e-e315-4aae-a427-01992ba5a2a2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250908172652-024f209ef22c460abaa3448e722375f9s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250908172653-0737c9283a074bab88ad4190a3953500s.webp",
@@ -2551,7 +2551,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-venta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-bp1000154",
+      "link": "https://app.nocnok.com/crm/154940/properties/1313aad6-c8df-4199-bbfa-0199d4f39ba8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251011142631-474b4d81ecde490ba2be7a7d5a71cadds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251011142739-2065f0fd1cd04836a4aebb144fcd2d11s.webp",
@@ -2578,7 +2578,7 @@
       "broker": "ZCANA Asesoría inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/san-felipe-id-nn-py1000245",
+      "link": "https://app.nocnok.com/crm/154940/properties/4060638b-03b5-4a05-99b9-0198c4de957d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250819182642-be89d7c039f2445fb8a98038477a1d09s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250819182652-daf98a1b55e045c38ad9c2aa0d97139fs.webp",
@@ -2605,7 +2605,7 @@
       "broker": "ZCANA Asesoría inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/jardines-las-etnias-id-mx24-qb4149",
+      "link": "https://app.nocnok.com/crm/154940/properties/178e6d01-33ef-4c2c-84d7-018e49075774",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240316144208-59437f45a41c4ccb9ab985852ad62375.jpg",
         "https://s3.amazonaws.com/nocnok-img/240316144209-2da558f301b6435e9c183e84da798d36.jpg",
@@ -2632,7 +2632,7 @@
       "broker": "ZCANA Asesoría inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/jardines-las-etnias-id-mx24-qb4151",
+      "link": "https://app.nocnok.com/crm/154940/properties/860db8c0-1fa8-4cfa-b3eb-018e49075774",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240316144948-bc7fbb91691441ad87f149ee3d13125e.jpg",
         "https://s3.amazonaws.com/nocnok-img/240316144945-efc9a160a0c640e48fc6237066e8185f.jpg",
@@ -2659,7 +2659,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/san-agustin-id-mx24-qb6515",
+      "link": "https://app.nocnok.com/crm/154940/properties/decd1ede-8ec1-4ed8-a252-018e58b157f7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240319155311-907b26f852cc47a7b47a0aeddf9a6b01.jpg",
         "https://s3.amazonaws.com/nocnok-img/240319155313-e0cb23c78f9448a9b4ab5cf09f16870b.jpg",
@@ -2686,7 +2686,7 @@
       "broker": "Bienes Raíces DIA ",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/nueva-california-id-mx24-gi0137",
+      "link": "https://app.nocnok.com/crm/154940/properties/cf50e947-4a59-4b52-ba1d-019201b62416",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260309125228-eb6d7162cad246c483e269bfb1174198s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260309125218-a5ab56edf43c4d9a9aa2d85b8f56405cs.webp",
@@ -2713,7 +2713,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-mx25-pw10076",
+      "link": "https://app.nocnok.com/crm/154940/properties/12761af5-6cd0-4afd-bd3a-01953ecb3756",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250225142748-c91a601e3d5d4a5d9f1d1af0c7c80179s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250225142748-79f0f343f9ed4d1fa504bd6887678e38s.webp",
@@ -2740,7 +2740,7 @@
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/moderna-id-nn-gwg250",
+      "link": "https://app.nocnok.com/crm/154940/properties/59cee791-89b7-4dc0-93d3-019cee6a9516",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260314161531-ebf9af1db2ff47f6b3fef8d9c0bed944s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260314161535-a54ce03ef30747949bd7f024d003e36bs.webp",
@@ -2767,7 +2767,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/casa-en-venta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gyk627",
+      "link": "https://app.nocnok.com/crm/154940/properties/3381e13a-6e28-45df-8a1c-019df53dc55e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260504170651-4771c64e93714e10be0721837a361800s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260504171508-c9d0a37ef5a94ebaa77c1f9ba869a55ds.webp",
@@ -2794,7 +2794,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/el-tajito-id-nn-gyl135",
+      "link": "https://app.nocnok.com/crm/154940/properties/2a010738-e221-4694-92aa-019dfa11b5a9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260505153614-e384389e80434b0ebd622e075b1d40c1s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260505153614-7e3e88571309425eafcf385e25c72fb7s.webp"
@@ -2820,7 +2820,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/felipe-angeles-id-nn-gzo134",
+      "link": "https://app.nocnok.com/crm/154940/properties/d67e141d-0e03-4756-b97e-019e4620b18f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520100337-c938dbcd067d4647af4fb348dd64efcds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520100338-22d715e49c574379bda520225aeaa36cs.webp",
@@ -2847,7 +2847,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/felipe-angeles-id-nn-gzo138",
+      "link": "https://app.nocnok.com/crm/154940/properties/a81fcf2c-0345-4210-bf53-019e462abfd9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520101440-43018704595c4d2498ad6caef96c00dds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520101440-a859de1d3b924172bf85a45c05d4a8ebs.webp",
@@ -2874,7 +2874,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/felipe-angeles-id-nn-gzo144",
+      "link": "https://app.nocnok.com/crm/154940/properties/2622fc71-b8e8-4231-b4d5-019e462e6b9f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520101836-015dc2e605664573a27c2ca472e1f234s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520101837-89730bd346f84ef3966a05c8bb3a98e4s.webp",
@@ -2901,7 +2901,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/coahuila-de-zaragoza/torreon/felipe-angeles-id-nn-gzo148",
+      "link": "https://app.nocnok.com/crm/154940/properties/7e2a89b4-1013-410e-bae5-019e4634637f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520102509-b660289e796f426d937076d49a5ca81fs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520102509-c7b9ea0d8d224c75b07f24949b79edecs.webp",
@@ -2928,7 +2928,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-renta/coahuila-de-zaragoza/torreon/san-isidro-id-nn-gzo182",
+      "link": "https://app.nocnok.com/crm/154940/properties/7295d4bd-8147-4b62-876c-019e4658eab3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520110634-80e65c54bbbe461880833010761f9e57s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520110634-ee3f5f9656524dd88da295c74f05bb1cs.webp",
@@ -2955,7 +2955,7 @@
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/el-tajito-id-nn-gzo291",
+      "link": "https://app.nocnok.com/crm/154940/properties/4d656530-0e9d-4d8e-ba3d-019e4697dbdd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520121356-93d3a4aac55a47f2b50ac5d0a665e5f2s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520121355-18013cf0035d4bfeb66995dd10c4c6e2s.webp",
@@ -2982,7 +2982,7 @@
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/san-agustin-id-nn-gzo297",
+      "link": "https://app.nocnok.com/crm/154940/properties/305bf7e7-6b86-4051-adcf-019e469f12a0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520122204-007a7a2fbae0407daeb5fc82cbaac546s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520122204-05bde8e695da47c0a850f48472714db6s.webp",
@@ -3009,7 +3009,7 @@
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-remate/coahuila-de-zaragoza/torreon/ejido-ana-id-nn-gzo305",
+      "link": "https://app.nocnok.com/crm/154940/properties/1fa4d615-fbda-410d-98e1-019e46a70239",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520123036-2e0bc64bd7d74e198710d43991c1a291s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520123036-bde50501faf04913b8b1ed144f5e85fds.webp",
@@ -3036,7 +3036,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/la-union-id-nn-gzo446",
+      "link": "https://app.nocnok.com/crm/154940/properties/1203a8a0-ceee-4f3f-83ad-019e46d10205",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520131632-886f0aede4f645f7a715601f11be44b1s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520131632-c9e83a8087b847a0b0f7386169462d36s.webp",
@@ -3063,7 +3063,7 @@
       "broker": "JUANA MARIA GARCIA ZAMUDIO",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/ejido-la-perla-id-nn-gzs958",
+      "link": "https://app.nocnok.com/crm/154940/properties/21a12230-7d65-46a0-8ad3-019e601740e8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525110601-96830208517747bb8fc25a1b24c57df6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525110611-48d3d0dcccf143d2b1dd7f7f992c88ffs.webp",
@@ -3090,7 +3090,7 @@
       "broker": "ASIINM Laguna ",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/villas-del-renacimiento-id-nn-gzt011",
+      "link": "https://app.nocnok.com/crm/154940/properties/e4ce566b-9fe1-42f2-ba62-019e6047ebe5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525115900-22909c6bbc36402fb45dd794c790a21as.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525115900-97007e755b7e4873961f061a72db2460s.webp",
@@ -3117,7 +3117,7 @@
       "broker": "Marcela Pérez Realty",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/coahuila-de-zaragoza/torreon/la-concha-id-nn-gzt303",
+      "link": "https://app.nocnok.com/crm/154940/properties/24777b2d-e265-474f-89e9-019e617f0573",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525173641-e92a3c581e834dcbb863f6e2d184819ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525173641-2aa881ecfb274ba19eebc3174db30708s.webp",
@@ -3144,7 +3144,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/la-concha-id-nn-gzt313",
+      "link": "https://app.nocnok.com/crm/154940/properties/8162a2ca-074c-4976-aeed-019e618e3b5e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525175343-72cb8851f35a408d96b5c2794815064es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525175343-545c70cade7646a2b90cff965440b83cs.webp",
@@ -3171,7 +3171,7 @@
       "broker": "FIRMEZA",
       "fecha_publicacion": "2026-05-23",
       "days_on_market": 3,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/industrial-mieleras-id-nn-gzs510",
+      "link": "https://app.nocnok.com/crm/154940/properties/eff2a584-7720-4dcf-af06-019e55bccdef",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260523104915-40762425beab4df7a984055072699086s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260523104915-07fdf776973642aba33648588c727033s.webp",
@@ -3198,7 +3198,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/torreon-centro-id-nn-gwg098",
+      "link": "https://app.nocnok.com/crm/154940/properties/386a2132-e51a-4346-b6bb-019ce9f585bb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260313192842-b087888af2ad4b89823cd910ef6e3becs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260313192842-bfa2c3a17406436aa893ac0415514784s.webp",
@@ -3225,7 +3225,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-renta/coahuila-de-zaragoza/torreon/parque-industrial-la-amistad-id-mx24-pu3850",
+      "link": "https://app.nocnok.com/crm/154940/properties/55d33c7f-0265-48a3-9fce-018cfa130ec8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240111132641-1d4d433417b94f66b57d096a1205cbcd.jpg",
         "https://s3.amazonaws.com/nocnok-img/240111132642-d9a52b208b664fdc96ee50eaefab84f6.jpg",
@@ -3252,7 +3252,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/parque-industrial-las-americas-id-mx24-tl4052",
+      "link": "https://app.nocnok.com/crm/154940/properties/858efc07-5be4-4ae2-a5ee-01937a702d32",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241129182022-2ba40c012d3c437b87dd7f0e04958b9cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-241129182019-0708488b08b449a5942d3818b190246es.webp",
@@ -3279,7 +3279,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/parque-industrial-las-americas-id-mx24-ux2309",
+      "link": "https://app.nocnok.com/crm/154940/properties/a2ecf0ca-968e-494d-832c-01937b6ea6af",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241129225812-3afac22c9b4f45a7a4e184ec489ae2d7s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-241129225807-8ab1865080474f96bc01b88da04c3004s.webp",
@@ -3306,7 +3306,7 @@
       "broker": "COLDWELL BANKER COMARCA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/carolinas-id-nn-gzq940",
+      "link": "https://app.nocnok.com/crm/154940/properties/25697615-359a-4f26-b488-019e4d209ca9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521184146-c555a9745e6f41fca1f324ac58f09714s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521184146-cd0321cabc3841a4a725435d4b353a2fs.webp",
@@ -3333,7 +3333,7 @@
       "broker": "MONTARA Bienes Raíces",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/torreon/san-agustin-id-nn-dm1000172",
+      "link": "https://app.nocnok.com/crm/154940/properties/7ffd6ede-3e09-44e7-8712-019a12374f06",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260305130104-c274e916a5cf45bbad8a998ef00f3c0es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260305130105-e1862eb4b67a416b806e211c96d8ea2as.webp",
@@ -3360,7 +3360,7 @@
       "broker": "GRACE BRECEDA REAL ESTATE",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/coahuila-de-zaragoza/torreon/ciudad-industrial-id-nn-gzq859",
+      "link": "https://app.nocnok.com/crm/154940/properties/1371769c-357d-43b4-8596-019e4cabb25c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521163301-37c778d3404745b985e2be81770580bes.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521163301-c22e8acd1a0c44e8849cf96cfb763b6fs.webp",
@@ -3387,7 +3387,7 @@
       "broker": "ZCANA Asesoría inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/la-union-id-nn-py1000114",
+      "link": "https://app.nocnok.com/crm/154940/properties/9e838ebb-0999-4287-baac-0199eec71523",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251016144746-db5887638ebc489b922fab476a69ba92s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251016144746-7b436d2ae3dd4173ba7ee62dd2cd164es.webp",
@@ -3414,7 +3414,7 @@
       "broker": "ZCANA Asesoría inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/la-union-id-nn-py1000130",
+      "link": "https://app.nocnok.com/crm/154940/properties/890c621a-5cd6-43d4-a4c7-01983a95a2bd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250723215926-53a5d0f6f688446f84bfead3633023b1s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250723215926-1544c1a2783d4b4ba2eb4259efc622bcs.webp",
@@ -3441,7 +3441,7 @@
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/coahuila-de-zaragoza/torreon/parque-industrial-la-amistad-id-mx23-pp5718",
+      "link": "https://app.nocnok.com/crm/154940/properties/87518672-bad6-4876-aeca-018bd451a77f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/231115123443-2f771ecdae42485291352c67f431d5b9.jpg",
         "https://s3.amazonaws.com/nocnok-img/231115123442-0de14a5ed8174b94ada46429ba58cb4b.jpg",
@@ -3468,7 +3468,7 @@
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/san-agustin-id-nn-gzo304",
+      "link": "https://app.nocnok.com/crm/154940/properties/2c349d8a-dabb-49a3-8cf3-019e46a6bcac",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520123039-c1e8396817294fdea0a5c62c042c39a8s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520123040-82cb30e422dd4979ab2a9f572fd7ae6cs.webp",
@@ -3495,7 +3495,7 @@
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/coahuila-de-zaragoza/torreon/la-union-id-nn-gzo314",
+      "link": "https://app.nocnok.com/crm/154940/properties/65af7b08-3bc0-4fdb-a2b9-019e46ad64c7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520123756-833bcefb593f46cc82ca80a5cb9cfde0s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520123756-96c415c248304fc087c3a13698254e0cs.webp",
@@ -3522,7 +3522,7 @@
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/coahuila-de-zaragoza/torreon/la-union-id-nn-gzo409",
+      "link": "https://app.nocnok.com/crm/154940/properties/67224ef4-3fce-402a-a768-019e46cac154",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520130953-d652faa8bdcc4febb5446d6b651bce2cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520130953-aa130c94e2d54f45a6f77c97d6624b7fs.webp",
@@ -3549,7 +3549,7 @@
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/coahuila-de-zaragoza/torreon/la-union-id-nn-gzo448",
+      "link": "https://app.nocnok.com/crm/154940/properties/16db0020-2358-4925-8c62-019e46d13f8b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520131654-c34fe6ee88d34c9bac5c7ce7d0fe72e3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520131654-c5ed86032823463291313f7e2a763334s.webp",
@@ -3576,7 +3576,7 @@
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-venta/durango/gomez-palacio/gomez-palacio-centro-id-nn-guy345",
+      "link": "https://app.nocnok.com/crm/154940/properties/1e61df48-2f55-4b79-9557-019c7cdc7585",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260220150253-5e37e03ba9134f6a8cf835d589bd3075s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260220150248-35193b74e9604d029b7d4027551c5f01s.webp",
@@ -3603,7 +3603,7 @@
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/durango/gomez-palacio/parque-industrial-zona-de-conectividad-id-nn-gzt307",
+      "link": "https://app.nocnok.com/crm/154940/properties/08416bdd-c7fc-435e-903e-019e61838cf8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525174126-ff5eb9dfe60d4d2ebb93d22048c4ccb8s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525174126-ef42940a108e4d3999506e0c2bb87706s.webp",
@@ -3630,7 +3630,7 @@
       "broker": "VIVE FIRME (SANTAMARIA Y ALANIS)",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/durango/gomez-palacio/parque-industrial-carlos-a-herrera-araluce-id-mx23-pa5594",
+      "link": "https://app.nocnok.com/crm/154940/properties/06a7a383-39d8-4bcd-ae20-018b292ada1c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230718235456-3df1761f16354e899191194ed670a02f.jpg",
         "https://s3.amazonaws.com/nocnok-img/230718235452-39fa7e28ee24431d8190ac3b47058084.jpg",
@@ -3657,7 +3657,7 @@
       "broker": "GRACE BRECEDA REAL ESTATE",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/durango/gomez-palacio/gomez-palacio-centro-id-nn-gzs343",
+      "link": "https://app.nocnok.com/crm/154940/properties/c3b8eb9e-68b3-46e7-8f91-019e519a9a64",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522153227-5b658429000e4b61a6d4c7458a562b1bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522153227-53c02fb6fa7741cd986ff6447ce34909s.webp",
@@ -3684,7 +3684,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-venta/durango/gomez-palacio/gomez-palacio-centro-id-nn-gzq258",
+      "link": "https://app.nocnok.com/crm/154940/properties/164be05d-fbb7-4f9e-8ebd-019e4b17e583",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521091157-345d5a062523422db37c034970f9fc12s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521091158-164a21d5144b481f8d69fc21121a27cfs.webp",
@@ -3711,7 +3711,7 @@
       "broker": "CVR CONSTRUCCIONES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/durango/gomez-palacio/gomez-palacio-centro-id-nn-gzq264",
+      "link": "https://app.nocnok.com/crm/154940/properties/a1b03ce0-13d7-4426-a1c2-019e4b3761bb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521094636-aaf5a2bb8ef34591a13b8a1d489cb58as.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521094636-22584548d40c4fcb8c04f054af21aa44s.webp",
@@ -3738,7 +3738,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/durango/gomez-palacio/gomez-palacio-centro-id-nn-gzq284",
+      "link": "https://app.nocnok.com/crm/154940/properties/cfa1186b-e4eb-43af-8660-019e4b5b5edf",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521102539-9c135f5d1b0f48ee87d335535bed17e3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521102540-7f81b3dda13e4b648437515306cc6950s.webp",
@@ -3765,7 +3765,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-venta/durango/gomez-palacio/gomez-palacio-centro-id-nn-pw1000237",
+      "link": "https://app.nocnok.com/crm/154940/properties/a0b03e1a-b7f2-40b8-98b5-0199f43d6148",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251017161508-aac56e7e01b64ac9bf2ac42a14ef1533s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251017161506-a3f2efa9c7ef46afb684afc139f60878s.webp",
@@ -3792,7 +3792,7 @@
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/durango/gomez-palacio/ciudad-la-encantada-id-nn-gzq904",
+      "link": "https://app.nocnok.com/crm/154940/properties/700c99c2-e906-411f-b92f-019e4cec8748",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521174400-a5ee73a928d742efbc9b6b5ff339375ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521174400-a0a2dfbd81024ddd9162dab932188342s.webp",
@@ -3819,7 +3819,7 @@
       "broker": "Erika martinez",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/durango/gomez-palacio/gomez-palacio-centro-id-nn-dl1000189",
+      "link": "https://app.nocnok.com/crm/154940/properties/7b290479-6733-4b33-8fba-019b27b71264",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251216091500-90d51cc4a4d54e21841204c098841d63s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251216091437-f2a8a261cd8b433da9f14d658cb5d134s.webp",
@@ -3846,7 +3846,7 @@
       "broker": "Laura Cisneros",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/durango/gomez-palacio/miravalle-id-nn-gzo010",
+      "link": "https://app.nocnok.com/crm/154940/properties/1ad0b29b-f78e-4898-9d36-019e4414d60b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520003219-e46840a7719f41f2b41c529b6926e1ebs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520003219-54c365f9e96048808f23428d82e71ee6s.webp",
@@ -3873,7 +3873,7 @@
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/local-en-renta/durango/gomez-palacio/gomez-palacio-centro-id-nn-gzo369",
+      "link": "https://app.nocnok.com/crm/154940/properties/d8df87a7-6915-427a-9c44-019e46c3d233",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520130153-7119f826ce004d6ea9161af1cdc8b704s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520130153-29aba6e734954d57b6562a2713b269a2s.webp",
@@ -3900,7 +3900,7 @@
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/durango/gomez-palacio/gomez-palacio-centro-id-nn-gzo480",
+      "link": "https://app.nocnok.com/crm/154940/properties/50475dd8-5312-418c-bfdf-019e46d74d05",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520132529-0b5a0f4d60e84b7490d65cda7097d463s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520132529-59c245e68b4f49369776509d99876a52s.webp",
@@ -3927,7 +3927,7 @@
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/edificio-en-venta/durango/gomez-palacio/gomez-palacio-centro-id-nn-gzo488",
+      "link": "https://app.nocnok.com/crm/154940/properties/cdef3d53-7b17-4213-955a-019e46d8b9d7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520132926-2b63aea2e3274157971e76f8777f1a4es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520132926-7388cabaa6994577a75032711f9fa386s.webp",
@@ -3954,7 +3954,7 @@
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/durango/gomez-palacio/parque-industrial-zona-de-conectividad-id-nn-gzt316",
+      "link": "https://app.nocnok.com/crm/154940/properties/8653f58c-e12c-437b-8ee6-019e61928643",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525175750-0c6a7b02f7ff48dd8fc6485ddffb92d8s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525175750-c2867be07f8a4952881d779c23ca5886s.webp",
@@ -3981,7 +3981,7 @@
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-22",
       "days_on_market": 4,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/oficina-en-venta/durango/gomez-palacio/parque-industrial-laguna-id-nn-gzs124",
+      "link": "https://app.nocnok.com/crm/154940/properties/faffe453-9a8d-4ff8-b001-019e508de377",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522104234-d54652ad9750443fa0145646956b5221s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260522104234-ce82f6a9966c4bcda30b16220cb5a1ccs.webp",
@@ -4008,7 +4008,7 @@
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/durango/gomez-palacio/parque-industrial-carlos-a-herrera-araluce-id-mx24-pu2883",
+      "link": "https://app.nocnok.com/crm/154940/properties/63947fd7-b72e-49dc-aee7-018cf55a8deb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240110145408-5415b54232e446f6aeaa826ca97f9ee4.jpg",
         "https://s3.amazonaws.com/nocnok-img/240110145409-69f24b846e564674898b08e73a3a622d.jpg",
@@ -4035,7 +4035,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/durango/gomez-palacio/los-alamos-id-nn-gzq681",
+      "link": "https://app.nocnok.com/crm/154940/properties/6a3a9b11-6718-4546-b5ae-019e4be5fdb2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521125909-75c5864575ce44cda8585be576415cbfs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521125909-1d5cc17e7d2440d680af73967e104babs.webp",
@@ -4062,7 +4062,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-renta/durango/gomez-palacio/jabonoso-id-nn-gzq754",
+      "link": "https://app.nocnok.com/crm/154940/properties/76a63279-7382-4503-bd8b-019e4c259a83",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521140754-e454f6ff308744fb938f96167c3d0cefs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521140754-09c8819a4817431c9124f51c3d3fadd1s.webp",
@@ -4089,7 +4089,7 @@
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/bodega-en-renta/durango/gomez-palacio/el-paraiso-id-nn-gzq712",
+      "link": "https://app.nocnok.com/crm/154940/properties/6ad90a13-97da-41a5-868c-019e4c02a5c4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521133009-edb5e7e388f944f487961dd638db4d49s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521133009-fec9296486c44b2189e1b1915e38b7a7s.webp",
@@ -4116,7 +4116,7 @@
       "broker": "Helue Sabag Bienes Raices",
       "fecha_publicacion": "2026-05-21",
       "days_on_market": 5,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/nave-en-venta/durango/gomez-palacio/san-isidro-id-nn-gzr997",
+      "link": "https://app.nocnok.com/crm/154940/properties/7cd733dc-5062-4021-aed6-019e4d8d9ed2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521205955-92ac3375046e487897ffd8e5306b2bf6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260521210820-86365bc3ba8c444aa30034c9a9aecc62s.webp",
@@ -4143,7 +4143,7 @@
       "broker": "Laura Cisneros",
       "fecha_publicacion": "2026-05-20",
       "days_on_market": 6,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/durango/gomez-palacio/el-vergel-id-nn-gzn989",
+      "link": "https://app.nocnok.com/crm/154940/properties/02d674a3-61f3-45ac-a129-019e43ffa91a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520001714-8cf52f40c0a242c58bd06d356720e8a6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260520001712-659e4f4c94e64457a5937a8530592be7s.webp",
@@ -4170,7 +4170,7 @@
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-25",
       "days_on_market": 1,
-      "link": "https://diegoalonso15.nocnok.com/propiedad/terreno-en-venta/coahuila-de-zaragoza/matamoros/el-olivo-id-nn-gzs975",
+      "link": "https://app.nocnok.com/crm/154940/properties/d37f46e6-04e0-47b0-a36b-019e602b8161",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525112549-82927896a6494905a2c4c453d5fa10dbs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525112549-6ab7e0f6b1bd439e8c6eec98ec2782b5s.webp"
