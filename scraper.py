@@ -191,8 +191,7 @@ def normalize_item(item: dict) -> dict:
     else:
         op_key = "otro"
 
-    link = (item.get("siteUrl") or item.get("sharedUrl") or item.get("marketplaceUrl") or
-            f"https://app.nocnok.com/crm/154940/properties/{item.get('id','')}")
+    link = f"https://app.nocnok.com/crm/154940/properties/{item.get('id','')}"
 
     status_date    = item.get("statusDate", "")
     fecha          = ""
