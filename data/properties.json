@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-05-26 01:23:12",
-  "total": 155,
-  "new_count": 0,
+  "run_at": "2026-05-26 03:45:12",
+  "total": 156,
+  "new_count": 1,
   "properties": [
     {
       "id": "00d7a9e5-21ad-4a19-8a7c-019e566f5d60",
@@ -568,6 +568,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250729173509-0379076b804440509e4649878b3eaa05s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250729173509-684bc1149c1d4e98a13a2d77549f584bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250729173507-66fdee254d5d4001a0a145090f8201e1s.webp"
+      ]
+    },
+    {
+      "id": "ade81bae-6a0b-445f-bfa3-019e61f0e0ec",
+      "code": "NN-GZT376",
+      "title": "Terreno en Venta, atrás del Sanatorio Español,  Zona Norte",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "800,000 MXN Venta",
+      "precio_num": 800000.0,
+      "superficie": "400 m²",
+      "area_num": 400.0,
+      "precio_m2": "$2,000/m²",
+      "pm2_num": 2000.0,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "INVIERTE LAGUNA",
+      "fecha_publicacion": "2026-05-25",
+      "days_on_market": 1,
+      "link": "https://app.nocnok.com/crm/154940/properties/ade81bae-6a0b-445f-bfa3-019e61f0e0ec",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260525194117-80df2d2f5baa4a72bb3a7e2c2e3a7f49s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260525194118-f05cf598bea34a4290da3731e038fa06s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260525194118-08d4b623cc8740368a5e9db4f63e3bb1s.webp"
       ]
     },
     {

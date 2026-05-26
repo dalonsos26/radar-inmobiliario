@@ -37,18 +37,18 @@
     },
     "2026-W22": {
       "week": "2026-W22",
-      "total": 30,
+      "total": 31,
       "cities": {
         "Torreón": {
-          "total": 26,
+          "total": 27,
           "tipos_m2": {
             "Bodega": {
               "sum": 4263.710339133975,
               "count": 9
             },
             "Terreno": {
-              "sum": 9007.140393380594,
-              "count": 3
+              "sum": 11007.140393380594,
+              "count": 4
             },
             "Local": {
               "sum": 1290.0410284463894,
