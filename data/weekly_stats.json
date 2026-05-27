@@ -2,10 +2,10 @@
   "weeks": {
     "2026-W21": {
       "week": "2026-W21",
-      "total": 25,
+      "total": 26,
       "cities": {
         "Torreón": {
-          "total": 25,
+          "total": 26,
           "tipos_m2": {
             "Edificio": {
               "sum": 418.33333333333337,
@@ -24,8 +24,8 @@
               "count": 6
             },
             "Local": {
-              "sum": 11924.743589743592,
-              "count": 6
+              "sum": 11984.743589743592,
+              "count": 7
             },
             "Casa": {
               "sum": 80.0,
@@ -37,54 +37,58 @@
     },
     "2026-W22": {
       "week": "2026-W22",
-      "total": 31,
+      "total": 51,
       "cities": {
         "Torreón": {
-          "total": 27,
+          "total": 44,
           "tipos_m2": {
             "Bodega": {
-              "sum": 4263.710339133975,
-              "count": 9
+              "sum": 30918.644803138304,
+              "count": 17
             },
             "Terreno": {
-              "sum": 11007.140393380594,
-              "count": 4
+              "sum": 13831.29669888681,
+              "count": 5
             },
             "Local": {
-              "sum": 1290.0410284463894,
-              "count": 9
+              "sum": 22417.05346248437,
+              "count": 14
             },
             "Oficina": {
-              "sum": 140.0,
-              "count": 1
+              "sum": 163.33333333333334,
+              "count": 2
             },
             "Edificio": {
               "sum": 13393.333333333334,
               "count": 2
             },
             "Consultorio": {
-              "sum": 363.6363636363636,
-              "count": 1
+              "sum": 463.6363636363636,
+              "count": 2
             },
             "Nave": {
-              "sum": 75.13148009015778,
-              "count": 1
+              "sum": 6500.586025544703,
+              "count": 2
             }
           }
         },
         "Gómez Palacio": {
-          "total": 3,
+          "total": 6,
           "tipos_m2": {
             "Edificio": {
               "sum": 5363.636363636364,
               "count": 1
             },
             "Bodega": {
-              "sum": 80.0,
-              "count": 1
+              "sum": 4420.836012861736,
+              "count": 2
             },
             "Nave": {
-              "sum": 80.0,
+              "sum": 165.04587155963304,
+              "count": 2
+            },
+            "Hotel": {
+              "sum": 8000.0,
               "count": 1
             }
           }
