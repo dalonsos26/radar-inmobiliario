@@ -5011,7 +5011,7 @@ function saveThresholds() {
 
 // ── Fecha "Hoy / Ayer" ───────────────────────────────────────────────────────
 (function() {
-  var ts    = "2026-05-27 17:07:49";
+  var ts    = "2026-05-27 12:07:49";
   var date  = ts.substring(0,10);
   var time  = ts.substring(11,16);
   var now   = new Date();
@@ -5038,12 +5038,22 @@ function triggerUpdate() {
     .then(function(r){ return r.json(); })
     .then(function(d) {
       if (d.ok) {
-        btn.textContent = '✓ Listo';
-        st.textContent  = 'Estará listo en ~4 min. Recarga la página después.';
+        btn.textContent = '✓ Actualizando';
         st.style.color  = 'var(--new)';
-        setTimeout(function(){
-          btn.disabled=false; btn.textContent='🔄 Actualizar'; st.textContent='';
-        }, 300000);
+        var secs = 240;
+        function fmtTime(s) { var m=Math.floor(s/60); var ss=s%60; return m+':'+(ss<10?'0':'')+ss; }
+        st.textContent = '⏱ Recarga en ' + fmtTime(secs);
+        var iv = setInterval(function() {
+          secs--;
+          if (secs <= 0) {
+            clearInterval(iv);
+            btn.disabled=false; btn.textContent='🔄 Actualizar';
+            st.textContent = '¡Listo! Recarga la página.';
+            setTimeout(function(){ st.textContent=''; }, 10000);
+          } else {
+            st.textContent = '⏱ Recarga en ' + fmtTime(secs);
+          }
+        }, 1000);
       } else {
         btn.disabled=false; btn.textContent='🔄 Actualizar';
         st.textContent='Error: '+(d.error||'intenta de nuevo');
@@ -5055,6 +5065,14 @@ function triggerUpdate() {
       st.textContent='Sin conexión'; st.style.color='var(--red)';
     });
 }
+
+// ── Parchar badges "0d" → "Hoy" en tarjetas estáticas ────────────────────────
+(function() {
+  document.querySelectorAll('.card[data-dom="0"] .dom-badge').forEach(function(el) {
+    el.textContent = el.textContent.replace('⏱ 0d', '⏱ Hoy');
+    if (el.title === '0 días en mercado') el.title = 'Publicado hoy';
+  });
+})();
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 render();

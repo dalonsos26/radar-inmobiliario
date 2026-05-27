@@ -12,13 +12,15 @@ import urllib.request
 import urllib.parse
 import urllib.error
 from collections import defaultdict
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Optional
 
 from playwright.async_api import async_playwright
+
+CDT = timezone(timedelta(hours=-5))   # Torreón / Zona Centro (UTC-5)
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).parent
@@ -198,9 +200,12 @@ def normalize_item(item: dict) -> dict:
     days_on_market = 0
     if status_date:
         try:
-            pub_dt         = datetime.fromisoformat(status_date.replace("Z", ""))
-            fecha          = pub_dt.strftime("%Y-%m-%d")
-            days_on_market = max(0, (datetime.now() - pub_dt).days)
+            pub_dt         = datetime.fromisoformat(status_date.replace("Z", "+00:00"))
+            if pub_dt.tzinfo is None:
+                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+            pub_cdt        = pub_dt.astimezone(CDT)
+            fecha          = pub_cdt.strftime("%Y-%m-%d")
+            days_on_market = max(0, (datetime.now(CDT).date() - pub_cdt.date()).days)
         except Exception:
             fecha = status_date[:10]
 
@@ -433,7 +438,8 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict) -> 
         tipo_val  = p.get("tipo", "")
 
         dom_cls = "dom-old" if dom > 30 else ("dom-mid" if dom > 7 else "dom-new")
-        dom_tip = f"{dom} días en mercado" + (" — candidato a negociar" if dom > 30 else "")
+        dom_tip = ("Publicado hoy" if dom == 0 else f"{dom} días en mercado") + (" — candidato a negociar" if dom > 30 else "")
+        dom_label = "Hoy" if dom == 0 else f"{dom}d"
 
         foto_srcs  = p.get("fotos_local") or []
         fotos_html = "".join(
@@ -467,7 +473,7 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict) -> 
     <div class="card-badges">
       {new_badge}
       <span class="badge-opp" id="opp-{pid_short}" style="display:none">💡 OPORTUNIDAD</span>
-      <span class="dom-badge {dom_cls}" title="{esc(dom_tip)}">⏱ {dom}d</span>
+      <span class="dom-badge {dom_cls}" title="{esc(dom_tip)}">⏱ {dom_label}</span>
     </div>
     <button class="fav-btn" id="fav-{pid_short}" onclick="toggleFav('{esc(pid)}',this)" title="Guardar en favoritos">☆</button>
     <span class="code">{esc(p.get("code",""))}</span>
@@ -879,7 +885,7 @@ function buildFavCard(p) {{
       '<div class="card-badges">'+
         (p.is_new?'<span class="badge-new">★ NUEVA</span>':'')+
         oppB+
-        '<span class="dom-badge '+domCls+'">⏱ '+dom+'d</span>'+
+        '<span class="dom-badge '+domCls+'">⏱ '+(dom===0?'Hoy':dom+'d')+'</span>'+
       '</div>'+
       '<button class="fav-btn active" data-pid="'+esc(p.id)+'" onclick="removeFav(this.dataset.pid)">★</button>'+
       '<span class="code">'+esc(p.code)+'</span>'+
@@ -1122,12 +1128,22 @@ function triggerUpdate() {{
     .then(function(r){{ return r.json(); }})
     .then(function(d) {{
       if (d.ok) {{
-        btn.textContent = '✓ Listo';
-        st.textContent  = 'Estará listo en ~4 min. Recarga la página después.';
+        btn.textContent = '✓ Actualizando';
         st.style.color  = 'var(--new)';
-        setTimeout(function(){{
-          btn.disabled=false; btn.textContent='🔄 Actualizar'; st.textContent='';
-        }}, 300000);
+        var secs = 240;
+        function fmtTime(s) {{ var m=Math.floor(s/60); var ss=s%60; return m+':'+(ss<10?'0':'')+ss; }}
+        st.textContent = '⏱ Recarga en ' + fmtTime(secs);
+        var iv = setInterval(function() {{
+          secs--;
+          if (secs <= 0) {{
+            clearInterval(iv);
+            btn.disabled=false; btn.textContent='🔄 Actualizar';
+            st.textContent = '¡Listo! Recarga la página.';
+            setTimeout(function(){{ st.textContent=''; }}, 10000);
+          }} else {{
+            st.textContent = '⏱ Recarga en ' + fmtTime(secs);
+          }}
+        }}, 1000);
       }} else {{
         btn.disabled=false; btn.textContent='🔄 Actualizar';
         st.textContent='Error: '+(d.error||'intenta de nuevo');
@@ -1151,7 +1167,7 @@ document.getElementById('hdr-favs').textContent = FAVS.size;
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 async def main(username: str, password: str):
-    run_ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    run_ts = datetime.now(CDT).strftime("%Y-%m-%d %H:%M:%S")
     log(f"=== Nocnok Scraper · {run_ts} ===")
 
     log("\n[1/5] Login y captura de sesión…")
