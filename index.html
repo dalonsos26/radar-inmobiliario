@@ -4119,7 +4119,7 @@ function saveThresholds() {
 
 // ── Fecha "Hoy / Ayer" ───────────────────────────────────────────────────────
 (function() {
-  var ts    = "2026-05-28 10:53:18";
+  var ts    = "2026-05-28 09:53:18";
   var date  = ts.substring(0,10);
   var time  = ts.substring(11,16);
   var now   = new Date();
@@ -4149,7 +4149,7 @@ function triggerUpdate() {
         btn.textContent = '✓ Actualizando';
         st.style.color  = 'var(--new)';
         var secs = 240;
-        function fmtTime(s) { var m=Math.floor(s/60); var ss=s%60; return m+':'+(ss<10?'0':'')+ss; }
+        var fmtTime = function(s) { var m=Math.floor(s/60); var ss=s%60; return m+':'+(ss<10?'0':'')+ss; };
         st.textContent = '⏱ Recarga en ' + fmtTime(secs);
         var iv = setInterval(function() {
           secs--;

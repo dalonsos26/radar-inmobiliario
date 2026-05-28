@@ -20,7 +20,7 @@ from typing import Optional
 
 from playwright.async_api import async_playwright
 
-CDT = timezone(timedelta(hours=-5))   # Torreón / Zona Centro (UTC-5)
+CST = timezone(timedelta(hours=-6))   # México / Zona Centro (UTC-6, sin horario de verano)
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).parent
@@ -203,9 +203,9 @@ def normalize_item(item: dict) -> dict:
             pub_dt         = datetime.fromisoformat(status_date.replace("Z", "+00:00"))
             if pub_dt.tzinfo is None:
                 pub_dt = pub_dt.replace(tzinfo=timezone.utc)
-            pub_cdt        = pub_dt.astimezone(CDT)
+            pub_cdt        = pub_dt.astimezone(CST)
             fecha          = pub_cdt.strftime("%Y-%m-%d")
-            days_on_market = max(0, (datetime.now(CDT).date() - pub_cdt.date()).days)
+            days_on_market = max(0, (datetime.now(CST).date() - pub_cdt.date()).days)
         except Exception:
             fecha = status_date[:10]
 
@@ -1131,7 +1131,7 @@ function triggerUpdate() {{
         btn.textContent = '✓ Actualizando';
         st.style.color  = 'var(--new)';
         var secs = 240;
-        function fmtTime(s) {{ var m=Math.floor(s/60); var ss=s%60; return m+':'+(ss<10?'0':'')+ss; }}
+        var fmtTime = function(s) {{ var m=Math.floor(s/60); var ss=s%60; return m+':'+(ss<10?'0':'')+ss; }};
         st.textContent = '⏱ Recarga en ' + fmtTime(secs);
         var iv = setInterval(function() {{
           secs--;
@@ -1167,7 +1167,7 @@ document.getElementById('hdr-favs').textContent = FAVS.size;
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 async def main(username: str, password: str):
-    run_ts = datetime.now(CDT).strftime("%Y-%m-%d %H:%M:%S")
+    run_ts = datetime.now(CST).strftime("%Y-%m-%d %H:%M:%S")
     log(f"=== Nocnok Scraper · {run_ts} ===")
 
     log("\n[1/5] Login y captura de sesión…")
