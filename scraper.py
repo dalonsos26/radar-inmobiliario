@@ -30,6 +30,7 @@ DATA_DIR.mkdir(exist_ok=True)
 PROPERTIES_FILE = DATA_DIR / "properties.json"
 HISTORY_FILE    = DATA_DIR / "history.json"
 WEEKLY_FILE     = DATA_DIR / "weekly_stats.json"
+ARCHIVE_FILE    = DATA_DIR / "archive.json"
 REPORT_FILE     = BASE_DIR / "index.html"
 
 # ── Config ────────────────────────────────────────────────────────────────────
@@ -272,13 +273,9 @@ def fetch_one_stream(location: str, category: str, token: str, cookies: str) -> 
         total_pages = total_pages or data["data"].get("pageCount", 1)
         if page == 1:
             log(f"    {data['data'].get('totalItems',0):,} items / {total_pages} páginas")
-        stop = False
         for item in items:
-            if not is_within_days(item.get("statusDate", ""), DAYS_BACK):
-                stop = True
-                break
             results.append(normalize_item(item))
-        if stop or page >= total_pages:
+        if page >= total_pages:
             break
         page += 1
     return results
@@ -317,6 +314,114 @@ def merge_with_history(props: list) -> set:
             new_ids.add(pid)
     save_json(HISTORY_FILE, {"seen_ids": list(seen), "first_seen": first})
     return new_ids
+
+
+# ── Archivo histórico ─────────────────────────────────────────────────────────
+
+def update_archive(current_props: list, run_ts: str) -> tuple:
+    """Actualiza el archivo histórico. Retorna (new_ids, price_drops, delisted_pids)."""
+    archive = load_json(ARCHIVE_FILE, {"properties": {}})
+    arch    = archive.setdefault("properties", {})
+    today   = run_ts[:10]
+
+    current_ids = {p["id"] for p in current_props if p["id"]}
+    new_ids: set      = set()
+    price_drops: list = []
+
+    for p in current_props:
+        pid = p["id"]
+        if not pid:
+            continue
+        if pid not in arch:
+            arch[pid] = {
+                **p,
+                "first_seen":     today,
+                "last_seen":      today,
+                "status":         "active",
+                "delisted_at":    None,
+                "days_listed":    0,
+                "precio_history": [{"date": today, "precio_num": p.get("precio_num"), "precio": p.get("precio")}],
+            }
+            new_ids.add(pid)
+        else:
+            entry = arch[pid]
+            if entry.get("status") == "delisted":
+                entry["status"]     = "active"
+                entry["delisted_at"] = None
+                new_ids.add(pid)
+            entry["last_seen"] = today
+
+            old_num = entry.get("precio_num")
+            new_num = p.get("precio_num")
+            if old_num and new_num and new_num < old_num * 0.99:
+                hist = entry.setdefault("precio_history", [])
+                if not hist or hist[-1].get("precio_num") != new_num:
+                    hist.append({"date": today, "precio_num": new_num, "precio": p.get("precio")})
+                    orig = hist[0]
+                    price_drops.append({
+                        **p,
+                        "first_seen":        entry.get("first_seen", today),
+                        "original_precio":    orig.get("precio"),
+                        "original_precio_num": orig.get("precio_num"),
+                        "current_precio":     p.get("precio"),
+                        "current_precio_num": new_num,
+                        "total_drop_pct":    round((1 - new_num / orig["precio_num"]) * 100, 1) if orig.get("precio_num") else 0,
+                        "last_drop_date":    today,
+                    })
+
+            for k in ["precio", "precio_num", "precio_m2", "pm2_num", "title", "ubicacion", "broker", "days_on_market"]:
+                if k in p:
+                    entry[k] = p[k]
+            entry["status"] = "active"
+
+    # Detectar deslistadas
+    newly_delisted: list = []
+    for pid, entry in arch.items():
+        if entry.get("status") == "active" and pid not in current_ids:
+            entry["status"]     = "delisted"
+            entry["delisted_at"] = today
+            try:
+                d1 = datetime.fromisoformat(entry.get("first_seen", today))
+                d2 = datetime.fromisoformat(today)
+                entry["days_listed"] = (d2 - d1).days
+            except Exception:
+                entry["days_listed"] = 0
+            newly_delisted.append(pid)
+
+    save_json(ARCHIVE_FILE, archive)
+    return new_ids, price_drops, newly_delisted
+
+
+def get_oportunidades(archive: dict) -> tuple:
+    """Retorna (delisted_list, price_drops_list) para el tab de Oportunidades."""
+    arch = archive.get("properties", {})
+
+    delisted:     list = []
+    price_drops_ui: list = []
+
+    for entry in arch.values():
+        if entry.get("status") == "delisted":
+            delisted.append(entry)
+
+        hist = entry.get("precio_history", [])
+        if len(hist) >= 2:
+            orig_num = hist[0].get("precio_num")
+            last_num = hist[-1].get("precio_num")
+            if orig_num and last_num and last_num < orig_num * 0.99:
+                if not any(d["id"] == entry["id"] for d in price_drops_ui):
+                    price_drops_ui.append({
+                        **entry,
+                        "original_precio":    hist[0].get("precio"),
+                        "original_precio_num": orig_num,
+                        "current_precio":     hist[-1].get("precio"),
+                        "current_precio_num": last_num,
+                        "total_drop_pct":    round((1 - last_num / orig_num) * 100, 1),
+                        "last_drop_date":    hist[-1].get("date", ""),
+                    })
+
+    delisted.sort(key=lambda x: x.get("delisted_at", ""), reverse=True)
+    price_drops_ui.sort(key=lambda x: x.get("total_drop_pct", 0), reverse=True)
+    return delisted, price_drops_ui
 
 
 # ── Estadísticas semanales ────────────────────────────────────────────────────
@@ -405,7 +510,8 @@ def send_email(total: int, new_count: int, run_ts: str):
 
 # ── Reporte HTML ──────────────────────────────────────────────────────────────
 
-def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict) -> str:
+def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
+                 delisted: list = None, price_drops: list = None) -> str:
     total   = len(props)
     num_new = sum(1 for p in props if p["id"] in new_ids)
 
@@ -511,6 +617,26 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict) -> 
 
     weekly_json = json.dumps(weekly_stats, ensure_ascii=False)
 
+    _delisted    = delisted or []
+    _price_drops = price_drops or []
+
+    def _oport_fields(p):
+        return {
+            "id": p.get("id",""), "title": p.get("title",""), "tipo": p.get("tipo",""),
+            "municipio": p.get("municipio",""), "superficie": p.get("superficie",""),
+            "precio": p.get("precio",""), "link": p.get("link",""),
+            "first_seen": p.get("first_seen",""), "last_seen": p.get("last_seen",""),
+            "delisted_at": p.get("delisted_at",""), "days_listed": p.get("days_listed",0),
+            "precio_history": p.get("precio_history",[]),
+            "original_precio": p.get("original_precio",""),
+            "current_precio": p.get("current_precio",""),
+            "total_drop_pct": p.get("total_drop_pct",0),
+            "last_drop_date": p.get("last_drop_date",""),
+        }
+
+    delisted_json    = json.dumps([_oport_fields(p) for p in _delisted], ensure_ascii=False)
+    price_drops_json = json.dumps([_oport_fields(p) for p in _price_drops], ensure_ascii=False)
+
     return f"""<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -613,6 +739,19 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 .update-btn:hover{{border-color:var(--accent);color:var(--accent)}}
 .update-btn:disabled{{opacity:.5;cursor:default}}
 #update-status{{font-size:.75rem;margin-left:.5rem;vertical-align:middle}}
+.oport-grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1rem;margin-top:.75rem}}
+.oport-card{{background:var(--surface);border:1.5px solid var(--border);border-radius:12px;padding:1rem}}
+.oport-card.delisted{{border-color:#fca5a5;background:#fff8f8}}
+.oport-card.price-drop{{border-color:#86efac;background:#f0fdf4}}
+.oport-badge{{font-size:.65rem;font-weight:700;padding:.2rem .5rem;border-radius:20px;display:inline-block;margin-bottom:.5rem}}
+.badge-delisted{{background:#fee2e2;color:#991b1b}}
+.badge-drop{{background:#dcfce7;color:#166534}}
+.oport-title{{font-size:.88rem;font-weight:700;color:var(--text);margin:.2rem 0}}
+.oport-detail{{font-size:.78rem;color:var(--muted);margin:.1rem 0}}
+.oport-price{{font-size:.85rem;font-weight:700;color:var(--price);margin:.35rem 0}}
+.price-old{{text-decoration:line-through;color:var(--muted);font-weight:400;margin-right:.3rem}}
+.price-arrow{{color:#16a34a;font-weight:700;margin:0 .3rem}}
+.oport-meta{{font-size:.72rem;color:var(--muted);margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--border);line-height:1.6}}
 </style>
 </head>
 <body>
@@ -620,7 +759,7 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 <header>
   <h1>Radar Inmobiliario · Nocnok</h1>
   <p class="sub">Bolsa Inmobiliaria &nbsp;·&nbsp; Torreón &nbsp;·&nbsp; Gómez Palacio &nbsp;·&nbsp; Matamoros &nbsp;·&nbsp; Comercial &amp; Industrial</p>
-  <p class="sub">Actualizado: <strong id="update-label">{run_ts}</strong> &nbsp;·&nbsp; Últimos <strong>{DAYS_BACK} días</strong>
+  <p class="sub">Actualizado: <strong id="update-label">{run_ts}</strong>
     &nbsp;·&nbsp; <button class="update-btn" id="update-btn" onclick="triggerUpdate()">🔄 Actualizar</button>
     <span id="update-status"></span>
   </p>
@@ -635,6 +774,7 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 <div class="tab-bar">
   <button class="tab-btn active" onclick="showTab('props',this)">🏠 Propiedades</button>
   <button class="tab-btn"        onclick="showTab('favs',this)">⭐ Favoritos</button>
+  <button class="tab-btn"        onclick="showTab('oportunidades',this)">🔍 Oportunidades <span id="oport-count" style="background:#dc2626;color:#fff;border-radius:20px;font-size:.65rem;padding:.1rem .4rem;margin-left:.2rem;display:none"></span></button>
   <button class="tab-btn"        onclick="showTab('brokers',this)">🏆 Brokers</button>
   <button class="tab-btn"        onclick="showTab('stats',this)">📊 Estadísticas</button>
   <button class="tab-btn"        onclick="showTab('alerts',this)">⚙️ Alertas</button>
@@ -674,6 +814,30 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
     <span class="count" id="count">{total} propiedades</span>
   </div>
   {grid_html}
+</div>
+
+<!-- TAB: Oportunidades -->
+<div id="tab-oportunidades" style="display:none">
+  <div class="section">
+    <div class="toolbar" style="margin-bottom:.85rem">
+      <div class="tb-group">
+        <span class="tb-lbl">Mostrar</span>
+        <button class="btn on" id="op-tab-all"    onclick="applyOpTab('all',this)">Todas</button>
+        <button class="btn"    id="op-tab-delist" onclick="applyOpTab('delisted',this)">🔴 Deslistadas</button>
+        <button class="btn"    id="op-tab-drop"   onclick="applyOpTab('drops',this)">💚 Bajaron precio</button>
+      </div>
+    </div>
+    <div class="section-card" id="oport-delisted-wrap">
+      <h2>🔴 Deslistadas <span style="font-size:.8rem;font-weight:400;color:var(--muted)">— posiblemente vendidas o rentadas</span></h2>
+      <p style="font-size:.78rem;color:var(--muted);margin-bottom:.5rem">Se detectan cuando desaparecen del portal. El tiempo en mercado te ayuda a analizar qué tan rápido se mueve el mercado.</p>
+      <div class="oport-grid" id="oport-delisted"></div>
+    </div>
+    <div class="section-card" id="oport-drops-wrap" style="margin-top:1.2rem">
+      <h2>💚 Bajaron de Precio <span style="font-size:.8rem;font-weight:400;color:var(--muted)">— posible urgencia de venta</span></h2>
+      <p style="font-size:.78rem;color:var(--muted);margin-bottom:.5rem">Propiedades donde el precio bajó más del 1% respecto a cuando se detectaron por primera vez.</p>
+      <div class="oport-grid" id="oport-drops"></div>
+    </div>
+  </div>
 </div>
 
 <!-- TAB: Favoritos -->
@@ -739,8 +903,10 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 </div>
 
 <script>
-var PROPS  = {props_json};
-var WEEKLY = {weekly_json};
+var PROPS       = {props_json};
+var WEEKLY      = {weekly_json};
+var DELISTED    = {delisted_json};
+var PRICE_DROPS = {price_drops_json};
 
 var PROPS_MAP = {{}};
 PROPS.forEach(function(p) {{ PROPS_MAP[p.id] = p; }});
@@ -759,16 +925,17 @@ var chartP = null;
 
 // ── Tabs ──────────────────────────────────────────────────────────────────────
 function showTab(name, btn) {{
-  ['props','favs','brokers','stats','alerts'].forEach(function(t) {{
+  ['props','favs','oportunidades','brokers','stats','alerts'].forEach(function(t) {{
     document.getElementById('tab-'+t).style.display = t===name ? '' : 'none';
   }});
   document.querySelectorAll('.tab-btn').forEach(function(b) {{
     b.classList.toggle('active', b===btn);
   }});
-  if (name==='favs')    renderFavs();
-  if (name==='brokers') renderBrokers();
-  if (name==='stats')   renderCharts();
-  if (name==='alerts')  renderAlerts();
+  if (name==='favs')          renderFavs();
+  if (name==='brokers')       renderBrokers();
+  if (name==='stats')         renderCharts();
+  if (name==='alerts')        renderAlerts();
+  if (name==='oportunidades') renderOportunidades();
 }}
 
 // ── City filter (props) ───────────────────────────────────────────────────────
@@ -830,7 +997,82 @@ function render() {{
   updateFavBtns();
 }}
 
-// ── Oportunidades ─────────────────────────────────────────────────────────────
+// ── Tab Oportunidades ─────────────────────────────────────────────────────────
+var opTabFilter = 'all';
+function applyOpTab(val, btn) {{
+  opTabFilter = val;
+  document.querySelectorAll('#op-tab-all,#op-tab-delist,#op-tab-drop').forEach(function(b) {{
+    b.className = 'btn' + (b===btn ? ' on' : '');
+  }});
+  document.getElementById('oport-delisted-wrap').style.display = (val==='all'||val==='delisted') ? '' : 'none';
+  document.getElementById('oport-drops-wrap').style.display    = (val==='all'||val==='drops')    ? '' : 'none';
+}}
+
+var oportunidadesRendered = false;
+function renderOportunidades() {{
+  if (oportunidadesRendered) return;
+  oportunidadesRendered = true;
+
+  // Contador en el tab
+  var total = DELISTED.length + PRICE_DROPS.length;
+  var badge = document.getElementById('oport-count');
+  if (badge && total > 0) {{ badge.textContent = total; badge.style.display='inline'; }}
+
+  // Deslistadas
+  var delEl = document.getElementById('oport-delisted');
+  if (!DELISTED.length) {{
+    delEl.innerHTML = '<p style="color:var(--muted);font-size:.85rem;padding:1rem 0">Sin propiedades deslistadas registradas aún. Se irán acumulando con cada actualización.</p>';
+  }} else {{
+    delEl.innerHTML = DELISTED.map(function(p) {{
+      var hist = p.precio_history || [];
+      var priceChg = '';
+      if (hist.length >= 2 && hist[0].precio !== hist[hist.length-1].precio) {{
+        priceChg = '<div class="oport-detail" style="margin-top:.3rem">Precios: <span class="price-old">'+esc(hist[0].precio||'')+'</span> → '+esc(hist[hist.length-1].precio||'')+'</div>';
+      }}
+      return '<div class="oport-card delisted">'+
+        '<span class="oport-badge badge-delisted">🔴 DESLISTADA</span>'+
+        '<div class="oport-title">'+esc(p.title||'')+'</div>'+
+        '<div class="oport-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
+        '<div class="oport-detail">'+esc(p.superficie||'')+'</div>'+
+        '<div class="oport-price">'+esc(p.precio||'')+'</div>'+
+        priceChg+
+        '<div class="oport-meta">'+
+          '📅 Publicado: <b>'+esc(p.first_seen||'')+'</b><br>'+
+          '❌ Deslistado: <b>'+esc(p.delisted_at||'')+'</b><br>'+
+          '⏱ Tiempo en mercado: <b>'+p.days_listed+' días</b>'+
+        '</div>'+
+        (p.link ? '<div style="margin-top:.6rem"><a href="'+esc(p.link)+'" target="_blank" rel="noopener" class="btn-ver" style="font-size:.72rem;padding:.28rem .7rem">Ver listing →</a></div>' : '')+
+      '</div>';
+    }}).join('');
+  }}
+
+  // Bajaron de precio
+  var dropEl = document.getElementById('oport-drops');
+  if (!PRICE_DROPS.length) {{
+    dropEl.innerHTML = '<p style="color:var(--muted);font-size:.85rem;padding:1rem 0">Sin bajas de precio detectadas aún. Se registran al comparar cada actualización con la anterior.</p>';
+  }} else {{
+    dropEl.innerHTML = PRICE_DROPS.map(function(p) {{
+      return '<div class="oport-card price-drop">'+
+        '<span class="oport-badge badge-drop">💚 -'+p.total_drop_pct+'% PRECIO</span>'+
+        '<div class="oport-title">'+esc(p.title||'')+'</div>'+
+        '<div class="oport-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
+        '<div class="oport-detail">'+esc(p.superficie||'')+'</div>'+
+        '<div class="oport-price">'+
+          '<span class="price-old">'+esc(p.original_precio||'')+'</span>'+
+          '<span class="price-arrow">→</span>'+
+          esc(p.current_precio||'')+
+        '</div>'+
+        '<div class="oport-meta">'+
+          '📅 Detectado desde: <b>'+esc(p.first_seen||'')+'</b><br>'+
+          '📉 Última baja: <b>'+esc(p.last_drop_date||'')+'</b>'+
+        '</div>'+
+        (p.link ? '<div style="margin-top:.6rem"><a href="'+esc(p.link)+'" target="_blank" rel="noopener" class="btn-ver" style="font-size:.72rem;padding:.28rem .7rem">Ver listing →</a></div>' : '')+
+      '</div>';
+    }}).join('');
+  }}
+}}
+
+// ── Oportunidades (alertas precio) ────────────────────────────────────────────
 function checkOpp(card) {{
   var tipo  = card.dataset.tipo || '';
   var pm2   = parseFloat(card.dataset.pm2 || 0);
@@ -1178,13 +1420,14 @@ async def main(username: str, password: str):
             log("ERROR: No se pudo obtener credenciales.")
             sys.exit(1)
 
-        log(f"\n[2/5] Scraping ({DAYS_BACK}d)…")
+        log("\n[2/5] Scraping (todas las activas)…")
         props = fetch_all_properties(token, cookies)
         log(f"\n  → {len(props)} propiedades extraídas")
 
-        log("\n[3/5] Historia…")
-        new_ids = merge_with_history(props)
-        log(f"  {len(new_ids)} NUEVAS / {len(props)} total")
+        log("\n[3/5] Archivo histórico…")
+        new_ids, price_drops, newly_delisted = update_archive(props, run_ts)
+        merge_with_history(props)  # mantiene history.json para compatibilidad
+        log(f"  {len(new_ids)} NUEVAS | {len(newly_delisted)} deslistadas | {len(price_drops)} bajaron precio")
 
         log("\n[4/5] Estadísticas semanales…")
         weekly_stats = update_weekly_stats(props, new_ids)
@@ -1198,7 +1441,11 @@ async def main(username: str, password: str):
         })
         log(f"  ✓ {PROPERTIES_FILE}")
 
-        html = build_report(props, new_ids, run_ts, weekly_stats)
+        archive      = load_json(ARCHIVE_FILE, {"properties": {}})
+        delisted, price_drops_ui = get_oportunidades(archive)
+        log(f"  {len(delisted)} deslistadas acumuladas | {len(price_drops_ui)} con baja de precio")
+
+        html = build_report(props, new_ids, run_ts, weekly_stats, delisted, price_drops_ui)
         REPORT_FILE.write_text(html, encoding="utf-8")
         log(f"  ✓ {REPORT_FILE}")
 
@@ -1206,7 +1453,7 @@ async def main(username: str, password: str):
         send_email(len(props), len(new_ids), run_ts)
 
         log(f"\n{'='*54}")
-        log(f"  TOTAL: {len(props)} propiedades | {len(new_ids)} NUEVAS")
+        log(f"  TOTAL: {len(props)} propiedades | {len(new_ids)} NUEVAS | {len(delisted)} deslistadas")
         log(f"  Reporte: {REPORT_FILE}")
         log(f"{'='*54}")
 
