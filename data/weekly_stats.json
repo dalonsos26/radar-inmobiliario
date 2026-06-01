@@ -37,83 +37,95 @@
     },
     "2026-W22": {
       "week": "2026-W22",
-      "total": 100,
+      "total": 163,
       "cities": {
         "Torreón": {
-          "total": 81,
+          "total": 131,
           "tipos_m2": {
             "Bodega": {
-              "sum": 31689.93098479542,
-              "count": 26
+              "sum": 32930.608370665934,
+              "count": 42
             },
             "Terreno": {
-              "sum": 21724.574550345696,
-              "count": 9
+              "sum": 53486.71121081145,
+              "count": 24
             },
             "Local": {
-              "sum": 24963.508434385963,
-              "count": 27
+              "sum": 26185.074846735442,
+              "count": 35
             },
             "Oficina": {
-              "sum": 16951.180306960658,
-              "count": 10
+              "sum": 35483.07151872992,
+              "count": 14
             },
             "Edificio": {
               "sum": 20410.980392156864,
               "count": 4
             },
             "Consultorio": {
-              "sum": 463.6363636363636,
-              "count": 2
+              "sum": 68025.35619720086,
+              "count": 4
             },
             "Nave": {
-              "sum": 6500.586025544703,
-              "count": 2
+              "sum": 6780.770137213809,
+              "count": 6
             },
             "Casa": {
               "sum": 20000.0,
+              "count": 1
+            },
+            "Finca-Rancho": {
+              "sum": 2462.380300957592,
               "count": 1
             }
           }
         },
         "Gómez Palacio": {
-          "total": 18,
+          "total": 28,
           "tipos_m2": {
             "Edificio": {
               "sum": 5518.31071701748,
               "count": 3
             },
             "Bodega": {
-              "sum": 30619.16934619507,
-              "count": 6
+              "sum": 30834.702899550404,
+              "count": 9
             },
             "Nave": {
-              "sum": 165.04587155963304,
-              "count": 2
+              "sum": 314.2394199467298,
+              "count": 4
             },
             "Hotel": {
               "sum": 8000.0,
               "count": 1
             },
             "Casa": {
-              "sum": 30310.907237512743,
-              "count": 2
+              "sum": 43395.01938704545,
+              "count": 3
             },
             "Terreno": {
-              "sum": 1836.2639994462518,
-              "count": 2
+              "sum": 3929.597332779585,
+              "count": 4
             },
             "Local": {
-              "sum": 170.0,
-              "count": 2
+              "sum": 243.17682317682318,
+              "count": 4
             }
           }
         },
         "Matamoros": {
-          "total": 1,
+          "total": 4,
           "tipos_m2": {
             "Terreno": {
-              "sum": 475.0,
+              "sum": 595.0,
+              "count": 2
+            },
+            "Local": {
+              "sum": 125.0,
+              "count": 1
+            },
+            "Nave": {
+              "sum": 7826.086956521739,
               "count": 1
             }
           }
