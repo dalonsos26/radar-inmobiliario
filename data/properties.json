@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-05-31 21:50:13",
+  "run_at": "2026-06-01 09:22:05",
   "total": 132,
-  "new_count": 63,
+  "new_count": 0,
   "properties": [
     {
       "id": "46de12e1-a760-458c-b9bd-019e80ddd1f1",
@@ -22,7 +22,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Mayela Macias",
       "fecha_publicacion": "2026-05-30",
-      "days_on_market": 1,
+      "days_on_market": 2,
       "link": "https://app.nocnok.com/crm/154940/properties/46de12e1-a760-458c-b9bd-019e80ddd1f1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260531194844-aea6d4ebd8de40f0a99d10532d368c14s.webp",
@@ -49,7 +49,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ENLACE INMOBILIARIO",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/818a0479-0f11-46ca-9f13-019e799e0280",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530101611-ed188006aaa54d3ab820081d79c31110s.webp",
@@ -75,7 +75,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/d72ea45a-e1a7-46a1-95d6-019e7a55c84f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530132317-9b154337972649bca47b6cfc6b92fd6as.webp",
@@ -102,7 +102,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/8ab04c29-a1ea-4c5e-8c12-019e7b54c7fb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530180101-dae06d1ae9ee4a12a806b4b9e312ce15s.webp",
@@ -129,7 +129,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Lorena Dávila Bienes Raices",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/0600b8d6-2e68-4198-bb31-019e7bab4f02",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530193548-89722d55b2794083b7db75ad5b041064s.webp",
@@ -156,7 +156,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Casas Carrillo Inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/7a6e878f-945d-4a54-b2ff-019e756dbb86",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529143050-f8c79b1897d9446f89299b28529702e6s.webp",
@@ -182,7 +182,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/a190c871-0b32-46ea-95aa-019e7583b178",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529145410-0d6f2b73ab684186bb9e865459941374s.webp"
@@ -207,7 +207,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/fc36412b-9ebd-431c-a0ac-019e75ac83ef",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529153855-73f572a876794989b9ff167b62ca7fees.webp",
@@ -234,7 +234,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Kotiva Inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/b9bfcdb3-8080-4df6-996d-019ba4556f10",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260109135711-82316b5e29a547b9a679e35fcc4ccdefs.webp",
@@ -261,7 +261,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Kotiva Inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/5c47d9f1-55e5-4127-9357-019d459b8a4d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260331143541-d60418a5242b42b18576902e5d9c5eafs.webp",
@@ -288,7 +288,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ORDUÑA Y ASOCIADOS",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/0753c0bf-2f05-44b3-955b-019e74b4c585",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529110812-cfe57c0ccc454e67a12688ebaa93adbbs.webp",
@@ -315,7 +315,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/0f097503-32c2-43f7-87c9-019276f119eb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241010085945-dbd032cb9dc440578c5fc60b43a53124s.webp",
@@ -342,7 +342,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/327af071-cb66-45d9-9248-019c5d564f7a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260214163201-628becfdc13b469784b7eb9927f25b2es.webp",
@@ -369,7 +369,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/a6814bca-7c71-4ba8-9ef2-0195ecd841d4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250331093617-c2d675e2f1fd4a43a34d672f3e92a96as.webp",
@@ -396,7 +396,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/62fb8276-916f-4542-8e12-0195ecdc7881",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250331094046-feb7952cb869459ca99a8c96e1b7f80as.webp",
@@ -423,7 +423,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/cfd31916-59ee-4b35-9222-018baa79fff5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/231107091044-c3dcae0c868541389b66bcb1d0e968c9.jpg",
@@ -450,7 +450,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/bf269f02-dfe3-4d6e-baf4-0195547a69ca",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250301195008-dce030f921b44a9b9013d6f8a42d62c9s.webp",
@@ -477,7 +477,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/95af8d11-9e4d-4e4d-b6bc-019dcd357d39",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260426223219-4054141a69494f078bdb67c5010efbe9s.webp",
@@ -504,7 +504,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/2a89b12a-df28-432f-9302-019276e9a02a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241010085127-1e975298949d4dd393ff74def41a0d72s.webp",
@@ -531,7 +531,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Inmobiliaria Karum",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/98c25c8e-477e-46d7-9a25-019e74fd1d6d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529123004-0bf3cefaa7214ff5873ea15dfe5c0ad9s.webp"
@@ -556,7 +556,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/024e237a-f60a-43a3-9410-019e7500a684",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529123052-57a91014405c4182b668769d8375f695s.webp",
@@ -583,7 +583,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALMA PATRICIA IZAGUIRRE",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/ad18a5e9-1306-4939-bc03-019e7686b139",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529194810-5324af95b8554699800058bdb13a8397s.webp",
@@ -609,7 +609,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Sofía Tejada",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/a5074fdf-99f1-447d-a6a5-019ac1713dee",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251126123351-858944c967484d2db53f429b45791bf5s.webp",
@@ -635,7 +635,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "FERGO inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/fc749d2a-93c7-4980-8927-019d37793a2a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260328204304-5e17552e4f864a0e8a9b19a6f34d0b6fs.webp",
@@ -662,7 +662,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "FERGO inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/b575414e-fdda-4574-93ce-019d8a464f72",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260413223701-27b863eccaea432fa6c8a2aeb3de92acs.webp",
@@ -689,7 +689,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "FERGO inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/35197e57-17a6-4dfe-8bb6-019cb5b6882a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260303155947-2a1ca597970241298cac4d4aa88d80fbs.webp",
@@ -715,7 +715,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Casas Carrillo Inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/a67ea7c8-09bb-49fd-9703-019e74d51f93",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529114341-02277a3318854a2994a1a05553c63ab2s.webp",
@@ -742,7 +742,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Kali Bienes Raíces",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/655f6af1-0eb4-4045-bf85-019e74f27037",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529121627-d499fe3a637e414da63a9418c000e937s.webp",
@@ -769,7 +769,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Punto UNO",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/1a324ee2-813c-4e03-9e4c-019e7514d087",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529132113-0b151582c91e4b72bc5fe96d2976ef5cs.webp"
@@ -794,7 +794,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ENLACE INMOBILIARIO",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/30636c1f-089e-4cdc-9a59-019e76c1dd30",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529205616-1b49dde771df41d99e8dab8fb06c8d30s.webp",
@@ -821,7 +821,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALMA PATRICIA IZAGUIRRE",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/4362e512-4dd5-4ff7-9e89-019e76a1098d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529202437-72205488db9f4000971eb6863d672040s.webp",
@@ -848,7 +848,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Firme Patrimonio Inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/096c1e59-b84b-4eb4-944a-019e75b9ef8a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529155431-397b0f23cd164de3aa11d32ead907420s.webp",
@@ -875,7 +875,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/d2d354b6-6071-406f-9f8e-019dc1e8b5d3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521183737-20638ebdcf57424099d058e739722cc5s.webp",
@@ -902,7 +902,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/818368d5-8c60-4e84-ba62-019de0551f7c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260430223518-0db3a09d2cbb43568685b0f61999d880s.webp",
@@ -929,7 +929,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/dcc1d248-19fa-4447-bfee-019e08ffdba9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260508131119-3a758b5e28784e86b7af500098f2f951s.webp",
@@ -956,7 +956,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/11cefcfa-d8d7-40ba-8de3-019e0918acd7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260508133810-01440d8101f742e5a38700019bcb7f03s.webp",
@@ -983,7 +983,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/69d2fda6-7865-430e-8985-019dec5398bc",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260502233346-f4073ba1f38b4449831f193834e1c3efs.webp",
@@ -1010,7 +1010,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/b9950b13-872a-41e2-9d0f-019d6668581d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260406232734-1658c9f7877141d480ffc267b089aba1s.webp",
@@ -1037,7 +1037,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Laguna Homes",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/bd87ba14-da77-425d-9656-019e70206365",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528135239-d8ec966fabc6407ab45e5efe5e9f44d1s.webp",
@@ -1064,7 +1064,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RED Bienes Raíces",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/1845f29f-2808-4537-ab3a-019e707524f9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528152001-14403e3e0abd46e9a7df6a645a478bbcs.webp"
@@ -1089,7 +1089,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/2a61b3e2-795a-42b2-bafc-019d5f392a79",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260405140226-57f0bae01c0943159d2df35c7198fd84s.webp",
@@ -1116,7 +1116,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/59d16d82-b031-4248-9bfc-019dd251ea4c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260427222805-9b756a5c91b045d0a585f7cd10a447a1s.webp",
@@ -1143,7 +1143,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/89d8b8cf-bfe7-41f5-940b-019dded3e7d4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260430083910-ac83b01b8acb4325bd1de5679f296a77s.webp",
@@ -1170,7 +1170,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/14dad88b-f7b3-455a-bf12-019e017975cd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260508221813-59e6e03569d24e099abde5fe5b0c8b54s.webp",
@@ -1197,7 +1197,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/5570b564-1593-4f39-b071-019dbbecd790",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260423140037-34ce671d4e6b40c5a98b4bac257d3483s.webp",
@@ -1224,7 +1224,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ESPACIO INMOBILIARIO",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/36d9e263-f742-4fa4-971b-019e6f918830",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528111135-faf438456433407bb730e44f6c9a12c3s.webp",
@@ -1251,7 +1251,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Conexión Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/0fab3367-8882-4ff4-b3fd-019e7191be23",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528203239-2819c7b3ac1a481992f606a380b203e3s.webp",
@@ -1278,7 +1278,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Bienes Raíces DIA ",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/52a66d19-376d-47f3-b727-019e6fe45f08",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528124155-14491cceada7472cb3daa8431e4d90dcs.webp",
@@ -1305,7 +1305,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Erika martinez",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/c0c43131-94b4-4e96-a15e-019e6fe61d48",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528124332-e7aa6e24783f4e9fb892dc3ed0d15464s.webp",
@@ -1332,7 +1332,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "2S Propiedades Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/218f3bef-5679-4d15-92d4-019e70ad15b3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529012008-7badc8a68af54c08a5d34d962f2c0935s.webp",
@@ -1359,7 +1359,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "2S Propiedades Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/1e7f2fe3-fc83-47f1-9a82-019e70b98564",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529012320-f2f10cda12c8415592fb6b12cb501dbfs.webp",
@@ -1386,7 +1386,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/6f68fb38-292c-4efb-bb81-019d5f6204c3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260405145509-427d53ba921549c1bc4b991516950c89s.webp",
@@ -1413,7 +1413,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Real Place Corporativo Inmobiliario",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/3291558e-ffb3-44a4-b027-0196475d103c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250417233133-b0dc7fc8d17f47e8bcfaec3febc231f1s.webp",
@@ -1440,7 +1440,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Real Place Corporativo Inmobiliario",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/1c047182-1ce3-417c-8ba9-0198bfad6a87",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250818181710-cc4a39c81c4c4e11a45dc2275265b872s.webp",
@@ -1467,7 +1467,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Real Place Corporativo Inmobiliario",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/a5552bad-0882-437f-9094-018b293a3c87",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230807161756-73a4838c3fad489392019a42ba11916d.jpg",
@@ -1494,7 +1494,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/9357907c-f4ce-46cb-8214-019e6b6dd4f7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527160206-daa0e9961f804248b2c7acbf08bbed3cs.webp",
@@ -1521,7 +1521,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Dingler Bienes Raíces",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/10635c95-15ad-4724-b342-019e6a846db8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527114630-6f217154833145fc935c4b9b01d43c60s.webp",
@@ -1548,7 +1548,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/190fe0ed-b523-4cd6-9cb2-019e6a642ca0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527110330-493f20fd4a4a40d8b2793e38d906a3b0s.webp",
@@ -1575,7 +1575,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALMA PATRICIA IZAGUIRRE",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/ce02d660-e59d-46aa-bf80-019e6b663502",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527155442-b7021ffe28a14abc90aa2c44f6b196c9s.webp",
@@ -1602,7 +1602,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALMA PATRICIA IZAGUIRRE",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/1a87f188-e68d-4a1d-890c-019e6b259ae6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527143951-4de153ea33074c7096d5b2ad45f463dds.webp",
@@ -1629,7 +1629,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/a5b1d788-bc70-471e-b54a-019e6aedf98c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527133401-1cd92dd9887f476e9499f49bc84909cbs.webp",
@@ -1656,7 +1656,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/e979aa0d-dcba-4dc0-8370-019e6aecf324",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527133254-4b19dd3d45a54d69bd7e9d2d116a4516s.webp",
@@ -1683,7 +1683,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/d2235a21-a6d9-431f-bf1d-019258bfcbf2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241004121816-0baaefbe6e1549de9e91983edef0f6fas.webp",
@@ -1710,7 +1710,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ReSa Bienes Raíces",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/d0de863d-29d0-4e0f-b0eb-0196031beb2b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250825132332-93ec1f906bb84b1c86c3e38222382bffs.webp",
@@ -1737,7 +1737,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527172743-90db875bc2214ce6b7e2cd8c26bce14fs.webp",
@@ -1764,7 +1764,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Alteza Bienes Raíces ",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/ca7823c7-101c-4af0-91e2-019e6bec6f9a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527181227-37389a9578d546feb06e1d27982a0a96s.webp",
@@ -1791,7 +1791,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Linda ivett nuñez martinez ",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/4b5d017a-1472-4ec6-bb52-019e6c298844",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527192450-6b23f4a2a62d45cc810c9c52c9ac19efs.webp"
@@ -1816,7 +1816,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/495fa378-4e0e-42fa-9676-019a7472a194",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251111134718-7ea553acb83f4e38986ed9331d675c49s.webp",
@@ -1843,7 +1843,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/1e5b39c8-18ca-41d4-97bd-019e650e4262",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526101226-7386dcdba07f46ceae49cbe83fd2a684s.webp",
@@ -1870,7 +1870,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/907ca24e-90ba-4d2b-9368-019e6502add4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526095940-8d68080de99c4f36951589d512a6e9a2s.webp",
@@ -1897,7 +1897,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/d0449037-fae9-42d5-b73a-019e667997a2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526164850-40d9422295fc43a5968da69116d50b31s.webp",
@@ -1924,7 +1924,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "IMPERIO INMOBILIARIO",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/32e0fc74-c7c9-42d5-88ed-019e655cc1a0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526113718-6908c5b6a68d4207b5141e0f3a7da4bes.webp",
@@ -1951,7 +1951,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/62935a7b-85dc-4469-856e-019e65186dc5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526102448-8b16f3956b68454e875e2e7504b5590ds.webp",
@@ -1978,7 +1978,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "VIVE FIRME (SANTAMARIA Y ALANIS)",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/da9642d5-2c97-4c0b-b4fa-018b293c22b4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230914190655-30317db09a034eab91b641e9bbd9e915.jpg",
@@ -2005,7 +2005,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "2S Propiedades Inmobiliaria",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/6cc2abc9-6739-42db-bb20-019e65ab65f5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526130816-d42a2b071dc340aa873306ec8eb3338fs.webp",
@@ -2032,7 +2032,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "GRACE BRECEDA REAL ESTATE",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/d0968777-1b0b-4f7d-9159-019e79952440",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530095117-0e98593a7cd8498a971d0c10d8ae8ea5s.webp",
@@ -2059,7 +2059,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "GRACE BRECEDA REAL ESTATE",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/f2e9d01b-0b13-4d7e-baae-019e7995ca23",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530095200-265efe6c0dac4fb5846e9ac4855382c4s.webp",
@@ -2086,7 +2086,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "GRACE BRECEDA REAL ESTATE",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/126d8884-5868-4836-a177-019e79989568",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530095503-e04efc9a51744cacbb96781f0156a538s.webp",
@@ -2112,7 +2112,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "GRACE BRECEDA REAL ESTATE",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/68781991-6105-42f8-9af9-019e79a28c4c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530104619-3edc4e3be98644208aceae627e7468b1s.webp",
@@ -2139,7 +2139,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Near Real Estate",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/9fbb60e2-4dd6-4a09-afa8-019e7a453c02",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530130507-8e8b600337b74b399be4a16b339f3a27s.webp",
@@ -2166,7 +2166,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Near Real Estate",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/69a075f8-1afd-4d55-a135-019e7a4b1b32",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530131024-1f78aab0845345a6a5c8c84028ed94des.webp"
@@ -2191,7 +2191,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Near Real Estate",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/c5bb75a4-e5fc-4b96-8b19-019e7a483e51",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530130755-643e58f3780b43ed870f9adad2d4798fs.webp",
@@ -2218,7 +2218,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/5ef2236b-144d-4f13-8930-019e7493c7b3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529103207-13ed4792c205425ca6e0ed07a3edb45bs.webp",
@@ -2245,7 +2245,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/d409af32-bc2a-47e2-8056-0194b892b03c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250130125836-4dd8dc4c97094b3989fecf750f78ca48s.webp",
@@ -2272,7 +2272,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/99ecef52-4f63-4002-a288-0195ddf7fba0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250328121640-5cfff99475ea4fc0a7edd9cf77533329s.webp",
@@ -2299,7 +2299,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/4885f490-48e8-4add-aacc-0195ddfba842",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250328122024-fa7bbc6ac03d4597982a932bf2f0ff77s.webp",
@@ -2326,7 +2326,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/ef0cafca-ae42-4aa6-a001-01984de423fc",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251220191807-6bca0ecb8af6484bb39662c435396752s.webp",
@@ -2353,7 +2353,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/3bdcb697-0dcb-45e9-b557-01989a909ced",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250811193728-122945570a044a30b6864f7f5d2e16f1s.webp",
@@ -2380,7 +2380,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/d0089b25-cd8d-41fe-87d7-0197f54273be",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250710110311-70e3503e0639445988568e1e8af041a9s.webp",
@@ -2407,7 +2407,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/f4f038c8-6925-491c-bcbc-0196eac21c89",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250519165623-a07d4a7f5ab243f4a01beb50d43a2503s.webp",
@@ -2434,7 +2434,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/dbb8c62c-d555-4396-b4a8-0196eae560cf",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250519173424-fbda5865fbc34b12a4038d77cd18f2cds.webp",
@@ -2461,7 +2461,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/45c44b38-0344-4f22-99f4-019afaec9f65",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260420124338-2421c6601b2440c4aa424fa1cf72da70s.webp",
@@ -2488,7 +2488,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/87ff30ef-a09b-44e0-9fda-019e7648522a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529182924-25f4f20659f444f4b4fdfd4f3afa0f9bs.webp",
@@ -2515,7 +2515,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ORDUÑA Y ASOCIADOS",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/78dbaecc-cbe8-4588-94a2-019e6a20007f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527095150-68bb972e203749ae83399006f3e27a6cs.webp",
@@ -2542,7 +2542,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Raíces inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/97dcee4b-5e93-45a1-a16d-019e7074b624",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528152929-e2cad4efd4834216aeea5adeb7793277s.webp",
@@ -2569,7 +2569,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Real Place Corporativo Inmobiliario",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/a958cc41-a85b-4f6e-9c50-0199f3ad893d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251105220002-e6fb2dad824a407eac98de6c8fd49452s.webp",
@@ -2596,7 +2596,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Real Place Corporativo Inmobiliario",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/a019fbde-3d0d-4425-b9e8-019bf2631b26",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260124174243-5820018d3a634db4b0835ec831632d20s.webp",
@@ -2623,7 +2623,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/7ad319a1-9842-4768-8f2e-019e6ab1d936",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527124630-cc27152cc18e4cf3ae1e88e5789f0325s.webp",
@@ -2650,7 +2650,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/72f4e867-c2f5-4bbd-97ce-019e6aae6c53",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527122748-420c51a10cd5437e97f0f23a22fdc23cs.webp",
@@ -2677,7 +2677,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Firme Patrimonio Inmobiliaria",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/6646f27b-2df0-4385-ab69-019e6baf6386",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527170624-eda434e55968472eb9a88567c84586afs.webp",
@@ -2704,7 +2704,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ROMLO",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/af8c9941-2f8f-44af-a5fb-019e6bdf95f5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527181441-227513372ff04d4b86b7654a63ab3e84s.webp",
@@ -2731,7 +2731,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ROMLO",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/7e5bc98a-2be9-494c-8484-019e6be0ac76",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527182513-5a3b85b2ba734820ad7c6306108631dbs.webp",
@@ -2758,7 +2758,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/6e7708f4-2235-4085-90fe-019e6520ecc5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526103212-30d20bd0d5d447f49d32eb5d93bce4bcs.webp",
@@ -2785,7 +2785,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AL INMOBILIARIA",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/2bf5c6fe-0c5c-45bb-954e-019e65ced5ac",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526134228-1ff5ef8fa9a947358a504fba5f7b46b9s.webp",
@@ -2812,7 +2812,7 @@
       "estado": "Durango",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-30",
-      "days_on_market": 1,
+      "days_on_market": 2,
       "link": "https://app.nocnok.com/crm/154940/properties/78f30e43-e39a-4304-ad3c-019e7ed2e84f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260531101759-2a7b2c05e2254da08dc0359eea090e9es.webp"
@@ -2837,7 +2837,7 @@
       "estado": "Durango",
       "broker": "RAMSA REAL ESTATE",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/fac6b53b-064a-4f64-95e8-019e79e21203",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530111552-e2695ac4eb42409c9e4a2639244108cbs.webp",
@@ -2864,7 +2864,7 @@
       "estado": "Durango",
       "broker": "RAMSA REAL ESTATE",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/6b9755a7-4e31-467d-90a8-019e7c3310a9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260530220327-a8346ac1acec4f19b4075512f60854d2s.webp",
@@ -2890,7 +2890,7 @@
       "estado": "Durango",
       "broker": "Lo&Ace Royal Advisor",
       "fecha_publicacion": "2026-05-29",
-      "days_on_market": 2,
+      "days_on_market": 3,
       "link": "https://app.nocnok.com/crm/154940/properties/47b557e7-fc6f-4394-b3db-01902df8dbe5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240618180917-747e36d6c48f48a3ac167eb530e9275b.jpg",
@@ -2917,7 +2917,7 @@
       "estado": "Durango",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/50fe5976-b551-4c55-93dc-019e0ae64922",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260508220237-f49363a6042440fea23b39a2d7e4001ds.webp",
@@ -2944,7 +2944,7 @@
       "estado": "Durango",
       "broker": "San Angel Asesores Inmobiliarios S.C",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/f3f7456c-14af-45e8-b367-019e46bfe1eb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520130033-f4794597d3b948c997e1823a752656bcs.webp",
@@ -2971,7 +2971,7 @@
       "estado": "Durango",
       "broker": "San Angel Asesores Inmobiliarios S.C",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/55446a51-44d9-4b23-ac6f-019e70238001",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528135050-9ad463fef1d947d58d2dc05092d398a2s.webp",
@@ -2997,7 +2997,7 @@
       "estado": "Durango",
       "broker": "RAMSA REAL ESTATE",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/4400a289-c897-4670-b72e-019e71396b05",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528185452-e40d8d6c8293431b8bf8b83ef6480c3bs.webp",
@@ -3024,7 +3024,7 @@
       "estado": "Durango",
       "broker": "RAMSA REAL ESTATE",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/dc5a6e9e-294f-40a0-9f89-019e7142c0ac",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528190953-2eca91fd55d94974b9570f72989b28d2s.webp",
@@ -3051,7 +3051,7 @@
       "estado": "Durango",
       "broker": "RAMSA REAL ESTATE",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/193c7225-75f0-42f8-a2e0-019e7160827d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528193802-c2f00e65dd11446e80a933f5664ef836s.webp",
@@ -3078,7 +3078,7 @@
       "estado": "Durango",
       "broker": "RED Bienes Raíces",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/611f4ec5-bd33-4656-aff8-019e710219d7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528175430-c2cd3b198c1b4910b4d2e1af68c34c48s.webp",
@@ -3105,7 +3105,7 @@
       "estado": "Durango",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/b7e80c6d-39f8-40ba-af06-019e0108e011",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260507010338-51a85d504e9e49f9b58bb41aabede32bs.webp",
@@ -3132,7 +3132,7 @@
       "estado": "Durango",
       "broker": "Real Place Corporativo Inmobiliario",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/65e2c4f8-44ab-4e90-9b33-019785313fa3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250618164130-41a53310087644ac87fb1538ad877cdbs.webp",
@@ -3159,7 +3159,7 @@
       "estado": "Durango",
       "broker": "ARA INMOBILIARIA",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/8cab2714-64bc-48fa-b492-019e6b95a020",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527163722-c0d210be62ee48848fdaad0fbe0906aes.webp",
@@ -3186,7 +3186,7 @@
       "estado": "Durango",
       "broker": "RED Bienes Raíces",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/29d7e767-6b31-4688-a6f9-019e6ae59f86",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527132539-8113b0999d45457d9b8eb34853ba0390s.webp",
@@ -3213,7 +3213,7 @@
       "estado": "Durango",
       "broker": "Avanza Inmobiliaria",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/40e75df0-aa3b-4427-aa19-019e6d22171d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527235026-2cfc6bd851b34ee1b79de770c150ce66s.webp",
@@ -3240,7 +3240,7 @@
       "estado": "Durango",
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 6,
+      "days_on_market": 7,
       "link": "https://app.nocnok.com/crm/154940/properties/0c85cf7c-3d26-4b4c-a9a5-019e656d98da",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526115710-f2d11c4e168b4babb97991b67d1fa8a6s.webp",
@@ -3267,7 +3267,7 @@
       "estado": "Durango",
       "broker": "AL INMOBILIARIA",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/a68502be-4537-4900-9b59-019e7581a6ea",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529145234-6ba7b55c0c094114ae5e6f2bafe587aas.webp",
@@ -3294,7 +3294,7 @@
       "estado": "Durango",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/7f44f636-36e8-4310-92e5-018b291a2428",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230316122114-c63634a1b7bb48688f38a5787a83c2d3.jpg",
@@ -3321,7 +3321,7 @@
       "estado": "Durango",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/018785f6-97a5-4be5-bfee-0193702eda7a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241127183258-bdbc8fea10944b86babacd9ce2a0b92ds.webp",
@@ -3348,7 +3348,7 @@
       "estado": "Durango",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/cb97645d-369f-41d1-a5e1-0196eab2c69b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250520124052-eca2d7c64c394f808af90fbd33ece4bes.webp",
@@ -3375,7 +3375,7 @@
       "estado": "Durango",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/0b918f14-8eea-45be-b1b1-0196ea9f1d64",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250519161747-f1f9336e35454c36a7fb84b3e53be5ees.webp"
@@ -3400,7 +3400,7 @@
       "estado": "Durango",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/892f708a-f04a-448c-b93c-019c44a0d433",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260209165851-8fc227d73bcf4d6bb1663eb9f8892201s.webp",
@@ -3427,7 +3427,7 @@
       "estado": "Durango",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 4,
+      "days_on_market": 5,
       "link": "https://app.nocnok.com/crm/154940/properties/0a919464-b271-451d-90d5-019e6f6078bd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260528101823-c6bb46a3252f461697fcdbd1a1ca9852s.webp",
@@ -3454,7 +3454,7 @@
       "estado": "Durango",
       "broker": "Mayela Macias",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 5,
+      "days_on_market": 6,
       "link": "https://app.nocnok.com/crm/154940/properties/05336d02-7351-49a9-b0ab-019e6a54d9a4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527104704-6e7e8509709f4c10aa81cbf16e545a54s.webp"
@@ -3479,7 +3479,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Kotiva Inmobiliaria",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/1c352702-25f8-4c13-8a60-01986168ddc2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250731105740-56bc09b969cc46a7a7bd714a0c91b4d1s.webp",
@@ -3506,7 +3506,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/a3e7be11-f665-4ebc-b566-018b291b2f92",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230404191540-8fbf443420c447c1a771a057b6ae6103.jpg",
@@ -3533,7 +3533,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Murra Realty",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 3,
+      "days_on_market": 4,
       "link": "https://app.nocnok.com/crm/154940/properties/4dfe5255-ac8c-4c4d-ad37-018b29287779",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230607164231-4a189c9e9b4f446c83d6b38865f707da.jpg",
