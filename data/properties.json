@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-06-04 10:21:16",
+  "run_at": "2026-06-04 10:44:20",
   "total": 2857,
-  "new_count": 17,
+  "new_count": 3,
   "properties": [
     {
       "id": "6af1ed0d-b0db-464c-8058-019d30ed7bd4",
@@ -28,6 +28,87 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260327141334-14b1c820d5c1437caec65d0b7fa50275s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260327141333-265af3990d6042ecbe9af2f71e74174cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260327141334-e7a7151b9aaa41278f993b310cb2c809s.webp"
+      ]
+    },
+    {
+      "id": "8de881c5-7462-4260-9997-019c06e37945",
+      "code": "NN-GST765",
+      "title": "Renta de Bodega en Ejido La Unión, Torreón",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "24,440 MXN Renta",
+      "precio_num": 24440.0,
+      "superficie": "305 m²",
+      "area_num": 305.0,
+      "precio_m2": "$80.1/m²",
+      "pm2_num": 80.13,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Tokë Inmobiliaria",
+      "fecha_publicacion": "2026-06-03",
+      "days_on_market": 1,
+      "link": "https://app.nocnok.com/crm/154940/properties/8de881c5-7462-4260-9997-019c06e37945",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260128171535-fb8de3a355cf42c9bfb3bd1405a72b64s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260128171544-f782b3d99c974fa2858d9a9c22d0fd43s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260128171555-59d9c07a95ec4820a13a43bec294db7ds.webp"
+      ]
+    },
+    {
+      "id": "c597c8a5-a84d-4784-82f2-019aaec10c33",
+      "code": "NN-ZJ1000363",
+      "title": "Renta de Local Comercial en Plaza Almanara, Torreón",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "50,000 MXN Renta",
+      "precio_num": 50000.0,
+      "superficie": "146 m²",
+      "area_num": 146.0,
+      "precio_m2": "$342.5/m²",
+      "pm2_num": 342.47,
+      "ubicacion": "Residencial el Fresno, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Tokë Inmobiliaria",
+      "fecha_publicacion": "2026-06-03",
+      "days_on_market": 1,
+      "link": "https://app.nocnok.com/crm/154940/properties/c597c8a5-a84d-4784-82f2-019aaec10c33",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-251122213250-517ecb9d3b4448a69e00fae4b7831628s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251122213250-bd9733487ffa4a25a4ac7c74889ddaa5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251122213250-887642966b8b43d09aac21e22bdf08a7s.webp"
+      ]
+    },
+    {
+      "id": "68f6b25b-9c36-4cb8-9465-018b280a5833",
+      "code": "MX22-MP4016",
+      "title": "Oficina en Renta en Ampliación la Rosita, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "3,800 MXN Renta",
+      "precio_num": 3800.0,
+      "superficie": "40 m²",
+      "area_num": 40.0,
+      "precio_m2": "$95.0/m²",
+      "pm2_num": 95.0,
+      "ubicacion": "Ampliación la Rosita, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Tokë Inmobiliaria",
+      "fecha_publicacion": "2026-06-03",
+      "days_on_market": 1,
+      "link": "https://app.nocnok.com/crm/154940/properties/68f6b25b-9c36-4cb8-9465-018b280a5833",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/220406112530-7edea158c4d14ec4ba4bbc603bd6d484.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220406112531-f4cb3b87411a4623a2ae5382d0be80d5.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220406112532-a9bf93a2b09743b096f1b3a6921861c5.jpg"
       ]
     },
     {
@@ -34718,87 +34799,6 @@
       ]
     },
     {
-      "id": "1245ad12-a080-4db3-8bf5-019c9c547430",
-      "code": "NN-GVE750",
-      "title": "Bodega en RENTA en Parque Industrial Oriente en Torreón Coah",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "77,330 MXN Renta",
-      "precio_num": 77330.0,
-      "superficie": "1,406 m²",
-      "area_num": 1406.0,
-      "precio_m2": "$55.0/m²",
-      "pm2_num": 55.0,
-      "ubicacion": "Parque Industrial Oriente, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "CRECIENDO BIENES RAICES",
-      "fecha_publicacion": "2026-02-25",
-      "days_on_market": 99,
-      "link": "https://app.nocnok.com/crm/154940/properties/1245ad12-a080-4db3-8bf5-019c9c547430",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260226174225-7d81f32e1b2647d5a99ca03bab53d2f2s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260226174226-96c484d834f94107972033a8277c81c4s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260226174226-609c39141ec04e17b7b94a80733cd985s.webp"
-      ]
-    },
-    {
-      "id": "4f4341a2-ad9e-419e-95f8-019c9a9d0faa",
-      "code": "NN-GVB706",
-      "title": "Local en RENTA sobre Blvd Revolución",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "103,500 MXN Renta",
-      "precio_num": 103500.0,
-      "superficie": "690 m²",
-      "area_num": 690.0,
-      "precio_m2": "$150.0/m²",
-      "pm2_num": 150.0,
-      "ubicacion": "Villa California, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "CRECIENDO BIENES RAICES",
-      "fecha_publicacion": "2026-02-25",
-      "days_on_market": 99,
-      "link": "https://app.nocnok.com/crm/154940/properties/4f4341a2-ad9e-419e-95f8-019c9a9d0faa",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260226094224-f7645e3aeedc4e9ca747fd6b5e3fc866s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260226094224-5cacb6bb23fc421ea1a33a8e090f3b12s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260226094224-32421fed3cdc447cb6dbfb8c85c9a95fs.webp"
-      ]
-    },
-    {
-      "id": "8eb031dd-4cd3-4069-b409-019c9ac52757",
-      "code": "NN-GVB721",
-      "title": "Renta de Terreno Comercial Frente a Hospital Los Ángeles en Torreón",
-      "categoria": "Comercial",
-      "tipo": "Terreno",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "50,000 MXN Renta",
-      "precio_num": 50000.0,
-      "superficie": "1,125 m²",
-      "area_num": 1125.0,
-      "precio_m2": "$44.4/m²",
-      "pm2_num": 44.44,
-      "ubicacion": "Residencial Tecnológico, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MC BROKERS REAL ESTATE",
-      "fecha_publicacion": "2026-02-25",
-      "days_on_market": 99,
-      "link": "https://app.nocnok.com/crm/154940/properties/8eb031dd-4cd3-4069-b409-019c9ac52757",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260226102554-8c2698a55f56498287eee26d910e1551s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260226102603-7990d19e1b294f95bdf9c971bdc0cce4s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260226102603-8433acfbfe434feba7763b272b6962fcs.webp"
-      ]
-    },
-    {
       "id": "ffc5ab0c-fc8a-4ab1-bf53-019cfe7ecc52",
       "code": "NN-GWH224",
       "title": "BODEGA EN CIUDAD INDUSTRIAL TRC",
@@ -34850,6 +34850,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260317192954-239d94183d224bfea62d0e81605d924es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260317192954-29c214fd8b764ba981f878c62bb714ebs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260317193010-6090de574b0d4ea0b3411d1c92f1fdeas.webp"
+      ]
+    },
+    {
+      "id": "cbf47dff-8154-45cf-bf4a-019cafa648c3",
+      "code": "NN-GVT288",
+      "title": "NAVE INDUSTRIAL EN RENTA – TOP PARK LAGUNA",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "150,000 MXN Renta",
+      "precio_num": 150000.0,
+      "superficie": "1,854 m²",
+      "area_num": 1854.0,
+      "precio_m2": "$80.9/m²",
+      "pm2_num": 80.91,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Tokë Inmobiliaria",
+      "fecha_publicacion": "2026-06-03",
+      "days_on_market": 1,
+      "link": "https://app.nocnok.com/crm/154940/properties/cbf47dff-8154-45cf-bf4a-019cafa648c3",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260302114428-ff96b1053ce64bf18d49e9d3af5a909as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260302114448-9b337fef6df14bd3b53c6c41502b20a5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260302114448-cb4fd77bb0e04ba9aaba86f5bb8005b3s.webp"
       ]
     },
     {
@@ -43911,33 +43938,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260303200449-b3389c31e7494b348db26319517e7579s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260303200450-4d68e0d00d2a43c3b1f37df1a13587e3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260303200449-148782f882ae4abc993f354cd0de5584s.webp"
-      ]
-    },
-    {
-      "id": "cbf47dff-8154-45cf-bf4a-019cafa648c3",
-      "code": "NN-GVT288",
-      "title": "NAVE INDUSTRIAL EN RENTA – TOP PARK LAGUNA",
-      "categoria": "Industrial",
-      "tipo": "Nave",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "150,000 MXN Renta",
-      "precio_num": 150000.0,
-      "superficie": "1,854 m²",
-      "area_num": 1854.0,
-      "precio_m2": "$80.9/m²",
-      "pm2_num": 80.91,
-      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Tokë Inmobiliaria",
-      "fecha_publicacion": "2026-03-01",
-      "days_on_market": 95,
-      "link": "https://app.nocnok.com/crm/154940/properties/cbf47dff-8154-45cf-bf4a-019cafa648c3",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260302114428-ff96b1053ce64bf18d49e9d3af5a909as.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260302114448-9b337fef6df14bd3b53c6c41502b20a5s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260302114448-cb4fd77bb0e04ba9aaba86f5bb8005b3s.webp"
       ]
     },
     {
@@ -65279,6 +65279,33 @@
       ]
     },
     {
+      "id": "02b3d1d4-009d-4127-a987-019c0fe3e4f7",
+      "code": "NN-GSW299",
+      "title": "Renta de Complejo de Bodegas en Parque Industrial de Gómez Palacio",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "180,000 MXN Renta",
+      "precio_num": 180000.0,
+      "superficie": "3,030 m²",
+      "area_num": 3030.0,
+      "precio_m2": "$59.4/m²",
+      "pm2_num": 59.41,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "Tokë Inmobiliaria",
+      "fecha_publicacion": "2026-06-03",
+      "days_on_market": 1,
+      "link": "https://app.nocnok.com/crm/154940/properties/02b3d1d4-009d-4127-a987-019c0fe3e4f7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260130175846-85a6514628534f63a2c21220067baf4as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260604102756-c57c114f433c47ff8a24ddcb02cbcb5fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260604102756-6b522730542f434d8ec3a4bda16c30acs.webp"
+      ]
+    },
+    {
       "id": "393d1faf-625e-438c-9768-019e89ae1e45",
       "code": "NN-GZY974",
       "title": "Bodegas Venta-Renta Gómez Palacio",
@@ -68836,32 +68863,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250320172706-0fc0549c8c2d4c38b4bcaf8f00aae854s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250320172707-dbf589220e7541e88036e93de0142e54s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250320172706-448aae44d019411086a61262ccd5319cs.webp"
-      ]
-    },
-    {
-      "id": "02b3d1d4-009d-4127-a987-019c0fe3e4f7",
-      "code": "NN-GSW299",
-      "title": "Renta de Complejo de Bodegas en Parque Industrial de Gómez Palacio",
-      "categoria": "Industrial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "180,000 MXN Renta",
-      "precio_num": 180000.0,
-      "superficie": "3,030 m²",
-      "area_num": 3030.0,
-      "precio_m2": "$59.4/m²",
-      "pm2_num": 59.41,
-      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "Tokë Inmobiliaria",
-      "fecha_publicacion": "2026-01-29",
-      "days_on_market": 126,
-      "link": "https://app.nocnok.com/crm/154940/properties/02b3d1d4-009d-4127-a987-019c0fe3e4f7",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260130175846-85a6514628534f63a2c21220067baf4as.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260130175847-9c23a82f872b46599e0e4e09f2c84525s.webp"
       ]
     },
     {
