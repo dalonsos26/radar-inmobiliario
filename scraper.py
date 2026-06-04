@@ -6,6 +6,7 @@ import json
 import os
 import re
 import sys
+import time
 import argparse
 import smtplib
 import urllib.request
@@ -47,8 +48,28 @@ DAYS_BACK = 7
 PAGE_SIZE  = 36
 
 
+GEO_PER_RUN = 60   # máximo de geocodificaciones por corrida (Nominatim: 1 req/s)
+
+
 def log(msg: str):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", flush=True)
+
+
+def geocode_ubicacion(ubicacion: str) -> tuple:
+    """Geocodifica una colonia/zona usando Nominatim. Retorna (lat, lng) o (None, None)."""
+    if not ubicacion:
+        return None, None
+    try:
+        query = urllib.parse.urlencode({"q": ubicacion, "format": "json", "limit": "1", "countrycodes": "mx"})
+        url   = f"https://nominatim.openstreetmap.org/search?{query}"
+        req   = urllib.request.Request(url, headers={"User-Agent": "radar-inmobiliario/1.0 diegoalonso@reave.mx"})
+        with urllib.request.urlopen(req, timeout=10) as r:
+            results = json.loads(r.read())
+        if results:
+            return float(results[0]["lat"]), float(results[0]["lon"])
+    except Exception:
+        pass
+    return None, None
 
 
 def load_json(path: Path, default):
@@ -388,6 +409,20 @@ def update_archive(current_props: list, run_ts: str) -> tuple:
                 entry["days_listed"] = 0
             newly_delisted.append(pid)
 
+    # Geocodificar propiedades sin coordenadas (máx GEO_PER_RUN por corrida)
+    geo_done = 0
+    for pid, entry in arch.items():
+        if geo_done >= GEO_PER_RUN:
+            break
+        if entry.get("lat") is None and entry.get("ubicacion"):
+            lat, lng = geocode_ubicacion(entry["ubicacion"])
+            entry["lat"] = lat
+            entry["lng"] = lng
+            geo_done += 1
+            time.sleep(1.1)   # Nominatim: máx 1 req/s
+    if geo_done:
+        log(f"  Geocodificadas {geo_done} propiedades")
+
     save_json(ARCHIVE_FILE, archive)
     return new_ids, price_drops, newly_delisted
 
@@ -625,6 +660,7 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
             "id": p.get("id",""), "title": p.get("title",""), "tipo": p.get("tipo",""),
             "municipio": p.get("municipio",""), "superficie": p.get("superficie",""),
             "precio": p.get("precio",""), "link": p.get("link",""),
+            "fotos_local": (p.get("fotos_local") or [])[:3],
             "first_seen": p.get("first_seen",""), "last_seen": p.get("last_seen",""),
             "delisted_at": p.get("delisted_at",""), "days_listed": p.get("days_listed",0),
             "precio_history": p.get("precio_history",[]),
@@ -632,10 +668,27 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
             "current_precio": p.get("current_precio",""),
             "total_drop_pct": p.get("total_drop_pct",0),
             "last_drop_date": p.get("last_drop_date",""),
+            "lat": p.get("lat"), "lng": p.get("lng"),
         }
 
     delisted_json    = json.dumps([_oport_fields(p) for p in _delisted], ensure_ascii=False)
     price_drops_json = json.dumps([_oport_fields(p) for p in _price_drops], ensure_ascii=False)
+
+    # Propiedades con coordenadas para el mapa
+    archive   = load_json(ARCHIVE_FILE, {"properties": {}})
+    map_props = [
+        {"id": e.get("id",""), "title": e.get("title",""), "tipo": e.get("tipo",""),
+         "municipio": e.get("municipio",""), "superficie": e.get("superficie",""),
+         "precio": e.get("precio",""), "precio_m2": e.get("precio_m2",""),
+         "op_key": e.get("op_key","otro"), "link": e.get("link",""),
+         "fotos_local": (e.get("fotos_local") or [])[:1],
+         "lat": e.get("lat"), "lng": e.get("lng"),
+         "status": e.get("status","active"),
+        }
+        for e in archive.get("properties", {}).values()
+        if e.get("lat") and e.get("lng")
+    ]
+    map_json = json.dumps(map_props, ensure_ascii=False)
 
     return f"""<!DOCTYPE html>
 <html lang="es">
@@ -752,7 +805,18 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 .price-old{{text-decoration:line-through;color:var(--muted);font-weight:400;margin-right:.3rem}}
 .price-arrow{{color:#16a34a;font-weight:700;margin:0 .3rem}}
 .oport-meta{{font-size:.72rem;color:var(--muted);margin-top:.6rem;padding-top:.5rem;border-top:1px solid var(--border);line-height:1.6}}
+#map-container{{height:520px;border-radius:12px;overflow:hidden;border:1.5px solid var(--border);margin-top:.75rem}}
+.map-toolbar{{display:flex;gap:.5rem;flex-wrap:wrap;align-items:center;margin-bottom:.75rem}}
+.leaflet-popup-content{{min-width:200px;font-family:inherit}}
+.map-popup-foto{{width:100%;height:110px;object-fit:cover;border-radius:6px;margin-bottom:.5rem;display:block}}
+.map-popup-title{{font-size:.85rem;font-weight:700;margin-bottom:.25rem}}
+.map-popup-detail{{font-size:.75rem;color:#6b7280;margin:.1rem 0}}
+.map-popup-price{{font-size:.82rem;font-weight:700;color:#b45309;margin:.3rem 0}}
+.map-popup-link{{display:inline-block;margin-top:.4rem;font-size:.75rem;font-weight:600;color:#4f46e5;text-decoration:none}}
 </style>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"/>
 </head>
 <body>
 
@@ -775,6 +839,7 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
   <button class="tab-btn active" onclick="showTab('props',this)">🏠 Propiedades</button>
   <button class="tab-btn"        onclick="showTab('favs',this)">⭐ Favoritos</button>
   <button class="tab-btn"        onclick="showTab('oportunidades',this)">🔍 Oportunidades <span id="oport-count" style="background:#dc2626;color:#fff;border-radius:20px;font-size:.65rem;padding:.1rem .4rem;margin-left:.2rem;display:none"></span></button>
+  <button class="tab-btn"        onclick="showTab('mapa',this)">🗺️ Mapa</button>
   <button class="tab-btn"        onclick="showTab('brokers',this)">🏆 Brokers</button>
   <button class="tab-btn"        onclick="showTab('stats',this)">📊 Estadísticas</button>
   <button class="tab-btn"        onclick="showTab('alerts',this)">⚙️ Alertas</button>
@@ -814,6 +879,39 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
     <span class="count" id="count">{total} propiedades</span>
   </div>
   {grid_html}
+</div>
+
+<!-- TAB: Mapa -->
+<div id="tab-mapa" style="display:none">
+  <div class="section">
+    <div class="section-card">
+      <div class="map-toolbar">
+        <div class="tb-group">
+          <span class="tb-lbl">Ciudad</span>
+          <button class="btn on-city on" id="mp-all" onclick="applyMapCity('all',this)">Todas</button>
+          <button class="btn"            id="mp-tor" onclick="applyMapCity('Torreón',this)">Torreón</button>
+          <button class="btn"            id="mp-gp"  onclick="applyMapCity('Gómez Palacio',this)">Gómez Palacio</button>
+          <button class="btn"            id="mp-mat" onclick="applyMapCity('Matamoros',this)">Matamoros</button>
+        </div>
+        <div class="tb-sep"></div>
+        <div class="tb-group">
+          <span class="tb-lbl">Vista</span>
+          <button class="btn on" id="mp-pins"  onclick="applyMapView('pins',this)">📍 Pins</button>
+          <button class="btn"    id="mp-heat"  onclick="applyMapView('heat',this)">🔥 Calor</button>
+        </div>
+        <div class="tb-sep"></div>
+        <div class="tb-group">
+          <span class="tb-lbl">Operación</span>
+          <button class="btn on" id="mp-op-all"   onclick="applyMapOp('all',this)">Todas</button>
+          <button class="btn"    id="mp-op-renta" onclick="applyMapOp('renta',this)">Renta</button>
+          <button class="btn"    id="mp-op-venta" onclick="applyMapOp('venta',this)">Venta</button>
+        </div>
+        <span class="count" id="map-count" style="margin-left:auto"></span>
+      </div>
+      <div id="map-container"></div>
+      <p style="font-size:.72rem;color:var(--muted);margin-top:.5rem">Las ubicaciones corresponden al centroide de la colonia o zona indicada en el listing.</p>
+    </div>
+  </div>
 </div>
 
 <!-- TAB: Oportunidades -->
@@ -907,6 +1005,7 @@ var PROPS       = {props_json};
 var WEEKLY      = {weekly_json};
 var DELISTED    = {delisted_json};
 var PRICE_DROPS = {price_drops_json};
+var MAP_PROPS   = {map_json};
 
 var PROPS_MAP = {{}};
 PROPS.forEach(function(p) {{ PROPS_MAP[p.id] = p; }});
@@ -925,7 +1024,7 @@ var chartP = null;
 
 // ── Tabs ──────────────────────────────────────────────────────────────────────
 function showTab(name, btn) {{
-  ['props','favs','oportunidades','brokers','stats','alerts'].forEach(function(t) {{
+  ['props','favs','mapa','oportunidades','brokers','stats','alerts'].forEach(function(t) {{
     document.getElementById('tab-'+t).style.display = t===name ? '' : 'none';
   }});
   document.querySelectorAll('.tab-btn').forEach(function(b) {{
@@ -936,6 +1035,7 @@ function showTab(name, btn) {{
   if (name==='stats')         renderCharts();
   if (name==='alerts')        renderAlerts();
   if (name==='oportunidades') renderOportunidades();
+  if (name==='mapa')          initMap();
 }}
 
 // ── City filter (props) ───────────────────────────────────────────────────────
@@ -997,6 +1097,115 @@ function render() {{
   updateFavBtns();
 }}
 
+// ── Mapa ──────────────────────────────────────────────────────────────────────
+var _map = null, _clusterLayer = null, _heatLayer = null;
+var mapCity = 'all', mapOp = 'all', mapView = 'pins';
+
+var TIPO_COLORS = {{
+  'Bodega':'#f97316','Nave':'#3b82f6','Terreno':'#22c55e',
+  'Local':'#a855f7','Oficina':'#06b6d4','Edificio':'#ec4899',
+  'Casa':'#84cc16','Consultorio':'#f59e0b','Hotel':'#64748b'
+}};
+
+function mapIcon(tipo) {{
+  var c = TIPO_COLORS[tipo] || '#6b7280';
+  var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="36" viewBox="0 0 28 36">'+
+    '<path d="M14 0C6.3 0 0 6.3 0 14c0 9.9 14 22 14 22s14-12.1 14-22C28 6.3 21.7 0 14 0z" fill="'+c+'"/>'+
+    '<circle cx="14" cy="14" r="6" fill="white"/></svg>';
+  return L.divIcon({{
+    html: svg, className: '', iconSize: [28,36], iconAnchor: [14,36], popupAnchor: [0,-36]
+  }});
+}}
+
+function buildMapPopup(p) {{
+  var foto = (p.fotos_local||[])[0];
+  return '<div style="min-width:190px">'+
+    (foto ? '<img src="'+esc(foto)+'" class="map-popup-foto" onerror="this.style.display=\'none\'">' : '')+
+    '<div class="map-popup-title">'+esc(p.title||'')+'</div>'+
+    '<div class="map-popup-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
+    '<div class="map-popup-detail">'+esc(p.superficie||'')+'</div>'+
+    '<div class="map-popup-price">'+esc(p.precio||'')+'</div>'+
+    (p.precio_m2 ? '<div class="map-popup-detail">'+esc(p.precio_m2)+'</div>' : '')+
+    (p.link ? '<a href="'+esc(p.link)+'" target="_blank" rel="noopener" class="map-popup-link">Ver listing →</a>' : '')+
+  '</div>';
+}}
+
+function getFilteredMapProps() {{
+  return MAP_PROPS.filter(function(p) {{
+    var okC = mapCity==='all' || p.municipio===mapCity;
+    var okO = mapOp==='all' || p.op_key===mapOp;
+    return okC && okO && p.lat && p.lng;
+  }});
+}}
+
+function applyMapCity(city, btn) {{
+  mapCity = city;
+  document.querySelectorAll('#mp-all,#mp-tor,#mp-gp,#mp-mat').forEach(function(b){{
+    b.className = 'btn'+(b===btn?' on-city on':'');
+  }});
+  refreshMap();
+}}
+
+function applyMapOp(op, btn) {{
+  mapOp = op;
+  document.querySelectorAll('#mp-op-all,#mp-op-renta,#mp-op-venta').forEach(function(b){{
+    b.className = 'btn'+(b===btn?' on':'');
+  }});
+  refreshMap();
+}}
+
+function applyMapView(view, btn) {{
+  mapView = view;
+  document.querySelectorAll('#mp-pins,#mp-heat').forEach(function(b){{
+    b.className = 'btn'+(b===btn?' on':'');
+  }});
+  refreshMap();
+}}
+
+function refreshMap() {{
+  if (!_map) return;
+  if (_clusterLayer) {{ _map.removeLayer(_clusterLayer); _clusterLayer = null; }}
+  if (_heatLayer)    {{ _map.removeLayer(_heatLayer);    _heatLayer    = null; }}
+
+  var filtered = getFilteredMapProps();
+  document.getElementById('map-count').textContent = filtered.length + ' propiedades';
+
+  if (mapView === 'pins') {{
+    _clusterLayer = L.markerClusterGroup({{maxClusterRadius:50}});
+    filtered.forEach(function(p) {{
+      var m = L.marker([p.lat, p.lng], {{icon: mapIcon(p.tipo)}});
+      m.bindPopup(buildMapPopup(p), {{maxWidth:220}});
+      _clusterLayer.addLayer(m);
+    }});
+    _map.addLayer(_clusterLayer);
+  }} else {{
+    var pts = filtered.map(function(p){{ return [p.lat, p.lng, 1]; }});
+    _heatLayer = L.heatLayer(pts, {{radius:35, blur:25, maxZoom:14,
+      gradient:{{0.2:'#3b82f6', 0.5:'#f59e0b', 0.8:'#ef4444'}}
+    }});
+    _map.addLayer(_heatLayer);
+  }}
+}}
+
+function initMap() {{
+  if (_map) {{ refreshMap(); return; }}
+  // Cargar scripts Leaflet dinámicamente
+  function loadScript(src, cb) {{
+    var s = document.createElement('script'); s.src = src; s.onload = cb; document.head.appendChild(s);
+  }}
+  loadScript('https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', function() {{
+    loadScript('https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js', function() {{
+      loadScript('https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js', function() {{
+        _map = L.map('map-container').setView([25.543, -103.428], 12);
+        L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
+          attribution: '© OpenStreetMap contributors', maxZoom: 19
+        }}).addTo(_map);
+        refreshMap();
+      }});
+    }});
+  }});
+}}
+
 // ── Tab Oportunidades ─────────────────────────────────────────────────────────
 var opTabFilter = 'all';
 function applyOpTab(val, btn) {{
@@ -1029,8 +1238,12 @@ function renderOportunidades() {{
       if (hist.length >= 2 && hist[0].precio !== hist[hist.length-1].precio) {{
         priceChg = '<div class="oport-detail" style="margin-top:.3rem">Precios: <span class="price-old">'+esc(hist[0].precio||'')+'</span> → '+esc(hist[hist.length-1].precio||'')+'</div>';
       }}
+      var fotos = (p.fotos_local||[]).map(function(s){{
+        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
+      }}).join('');
       return '<div class="oport-card delisted">'+
         '<span class="oport-badge badge-delisted">🔴 DESLISTADA</span>'+
+        (fotos ? '<div class="fotos" style="margin:.4rem 0 .5rem">'+fotos+'</div>' : '')+
         '<div class="oport-title">'+esc(p.title||'')+'</div>'+
         '<div class="oport-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
         '<div class="oport-detail">'+esc(p.superficie||'')+'</div>'+
@@ -1052,8 +1265,12 @@ function renderOportunidades() {{
     dropEl.innerHTML = '<p style="color:var(--muted);font-size:.85rem;padding:1rem 0">Sin bajas de precio detectadas aún. Se registran al comparar cada actualización con la anterior.</p>';
   }} else {{
     dropEl.innerHTML = PRICE_DROPS.map(function(p) {{
+      var fotos = (p.fotos_local||[]).map(function(s){{
+        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
+      }}).join('');
       return '<div class="oport-card price-drop">'+
         '<span class="oport-badge badge-drop">💚 -'+p.total_drop_pct+'% PRECIO</span>'+
+        (fotos ? '<div class="fotos" style="margin:.4rem 0 .5rem">'+fotos+'</div>' : '')+
         '<div class="oport-title">'+esc(p.title||'')+'</div>'+
         '<div class="oport-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
         '<div class="oport-detail">'+esc(p.superficie||'')+'</div>'+
