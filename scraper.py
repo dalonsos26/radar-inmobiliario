@@ -1123,7 +1123,7 @@ function mapIcon(tipo) {{
 function buildMapPopup(p) {{
   var foto = (p.fotos_local||[])[0];
   return '<div style="min-width:190px">'+
-    (foto ? '<img src="'+esc(foto)+'" class="map-popup-foto" onerror="this.style.display=\'none\'">' : '')+
+    (foto ? '<img src="'+esc(foto)+'" class="map-popup-foto" onerror="this.style.display=\\'none\\'">' : '')+
     '<div class="map-popup-title">'+esc(p.title||'')+'</div>'+
     '<div class="map-popup-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
     '<div class="map-popup-detail">'+esc(p.superficie||'')+'</div>'+
@@ -1242,7 +1242,7 @@ function renderOportunidades() {{
         priceChg = '<div class="oport-detail" style="margin-top:.3rem">Precios: <span class="price-old">'+esc(hist[0].precio||'')+'</span> → '+esc(hist[hist.length-1].precio||'')+'</div>';
       }}
       var fotos = (p.fotos_local||[]).map(function(s){{
-        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
+        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\\'none\\'">';
       }}).join('');
       return '<div class="oport-card delisted">'+
         '<span class="oport-badge badge-delisted">🔴 DESLISTADA</span>'+
@@ -1269,7 +1269,7 @@ function renderOportunidades() {{
   }} else {{
     dropEl.innerHTML = PRICE_DROPS.map(function(p) {{
       var fotos = (p.fotos_local||[]).map(function(s){{
-        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
+        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\\'none\\'">';
       }}).join('');
       return '<div class="oport-card price-drop">'+
         '<span class="oport-badge badge-drop">💚 -'+p.total_drop_pct+'% PRECIO</span>'+
