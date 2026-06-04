@@ -222,9 +222,11 @@ def normalize_item(item: dict) -> dict:
     days_on_market = 0
     if status_date:
         try:
-            pub_dt         = datetime.fromisoformat(status_date.replace("Z", "+00:00"))
-            if pub_dt.tzinfo is None:
-                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+            if "Z" in status_date or "+" in status_date:
+                pub_dt = datetime.fromisoformat(status_date.replace("Z", "+00:00"))
+            else:
+                # La API devuelve hora local CST sin indicador de zona
+                pub_dt = datetime.fromisoformat(status_date).replace(tzinfo=CST)
             pub_cdt        = pub_dt.astimezone(CST)
             fecha          = pub_cdt.strftime("%Y-%m-%d")
             days_on_market = max(0, (datetime.now(CST).date() - pub_cdt.date()).days)
@@ -578,9 +580,10 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
         pm2_num   = p.get("pm2_num") or 0
         tipo_val  = p.get("tipo", "")
 
-        dom_cls = "dom-old" if dom > 30 else ("dom-mid" if dom > 7 else "dom-new")
-        dom_tip = ("Publicado hoy" if dom == 0 else f"{dom} días en mercado") + (" — candidato a negociar" if dom > 30 else "")
-        dom_label = "Hoy" if dom == 0 else f"{dom}d"
+        dom_cls   = "dom-old" if dom > 30 else ("dom-mid" if dom > 7 else "dom-new")
+        show_hoy  = dom == 0 or (is_new and dom <= 1)
+        dom_tip   = ("Publicado hoy" if show_hoy else f"{dom} días en mercado") + (" — candidato a negociar" if dom > 30 else "")
+        dom_label = "Hoy" if show_hoy else f"{dom}d"
 
         foto_srcs  = p.get("fotos_local") or []
         fotos_html = "".join(
@@ -695,7 +698,7 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Radar Inmobiliario · Nocnok</title>
+<title>Radar Inmobiliario · Near Real Estate</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
@@ -821,7 +824,7 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 <body>
 
 <header>
-  <h1>Radar Inmobiliario · Nocnok</h1>
+  <h1>Radar Inmobiliario · Near Real Estate</h1>
   <p class="sub">Bolsa Inmobiliaria &nbsp;·&nbsp; Torreón &nbsp;·&nbsp; Gómez Palacio &nbsp;·&nbsp; Matamoros &nbsp;·&nbsp; Comercial &amp; Industrial</p>
   <p class="sub">Actualizado: <strong id="update-label">{run_ts}</strong>
     &nbsp;·&nbsp; <button class="update-btn" id="update-btn" onclick="triggerUpdate()">🔄 Actualizar</button>
