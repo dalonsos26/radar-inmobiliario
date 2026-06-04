@@ -698,20 +698,20 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Radar Inmobiliario · Near Real Estate</title>
+<title>Near Real Estate · Radar Inmobiliario</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
 :root{{
-  --bg:#f4f6f9;--surface:#fff;--surface2:#f0f2f5;--border:#dde1ea;--border2:#c8cedd;
-  --accent:#4f46e5;--accent-h:#3e38c4;--new:#059669;--new-bg:#ecfdf5;--new-bd:#6ee7b7;
+  --bg:#ffffff;--surface:#fff;--surface2:#f9fafb;--border:#e5e7eb;--border2:#d1d5db;
+  --accent:#ea580c;--accent-h:#c2410c;--new:#059669;--new-bg:#ecfdf5;--new-bd:#6ee7b7;
   --text:#111827;--muted:#6b7280;--price:#b45309;--price2:#1d4ed8;
   --amber:#d97706;--red:#dc2626;--teal:#0f766e;
-  --sh:0 1px 3px rgba(0,0,0,.08);--sh2:0 10px 25px rgba(0,0,0,.12);
+  --sh:0 1px 4px rgba(0,0,0,.06);--sh2:0 10px 25px rgba(0,0,0,.1);
 }}
 body{{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;padding:1.5rem 1rem;min-height:100vh}}
 header{{max-width:1420px;margin:0 auto 1rem;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:1.2rem 1.6rem;box-shadow:var(--sh)}}
-h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
+h1{{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}}
 .sub{{color:var(--muted);font-size:.8rem;line-height:1.6}}
 .stats{{display:flex;gap:.7rem;margin-top:1rem;flex-wrap:wrap}}
 .stat{{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:.5rem 1rem}}
@@ -815,7 +815,7 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 .map-popup-title{{font-size:.85rem;font-weight:700;margin-bottom:.25rem}}
 .map-popup-detail{{font-size:.75rem;color:#6b7280;margin:.1rem 0}}
 .map-popup-price{{font-size:.82rem;font-weight:700;color:#b45309;margin:.3rem 0}}
-.map-popup-link{{display:inline-block;margin-top:.4rem;font-size:.75rem;font-weight:600;color:#4f46e5;text-decoration:none}}
+.map-popup-link{{display:inline-block;margin-top:.4rem;font-size:.75rem;font-weight:600;color:#ea580c;text-decoration:none}}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
@@ -824,8 +824,8 @@ h1{{font-size:1.5rem;font-weight:800;color:var(--accent);margin-bottom:.15rem}}
 <body>
 
 <header>
-  <h1>Radar Inmobiliario · Near Real Estate</h1>
-  <p class="sub">Bolsa Inmobiliaria &nbsp;·&nbsp; Torreón &nbsp;·&nbsp; Gómez Palacio &nbsp;·&nbsp; Matamoros &nbsp;·&nbsp; Comercial &amp; Industrial</p>
+  <h1><span style="color:#ea580c;font-weight:900;letter-spacing:-.01em">NEAR</span><span style="font-weight:300;font-size:1.1rem;color:#374151;letter-spacing:.03em"> Real Estate</span></h1>
+  <p class="sub" style="margin-top:.15rem">Radar Inmobiliario &nbsp;·&nbsp; Torreón &nbsp;·&nbsp; Gómez Palacio &nbsp;·&nbsp; Matamoros &nbsp;·&nbsp; Comercial &amp; Industrial</p>
   <p class="sub">Actualizado: <strong id="update-label">{run_ts}</strong>
     &nbsp;·&nbsp; <button class="update-btn" id="update-btn" onclick="triggerUpdate()">🔄 Actualizar</button>
     <span id="update-status"></span>
