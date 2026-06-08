@@ -703,7 +703,7 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
 <style>
 *,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
 :root{{
-  --bg:#ffffff;--surface:#fff;--surface2:#f9fafb;--border:#e5e7eb;--border2:#d1d5db;
+  --bg:#f5f6f8;--surface:#fff;--surface2:#f0f2f5;--border:#e2e5ea;--border2:#d1d5db;
   --accent:#ea580c;--accent-h:#c2410c;--new:#059669;--new-bg:#ecfdf5;--new-bd:#6ee7b7;
   --text:#111827;--muted:#6b7280;--price:#b45309;--price2:#1d4ed8;
   --amber:#d97706;--red:#dc2626;--teal:#0f766e;
