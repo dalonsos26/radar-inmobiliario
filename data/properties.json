@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-06-09 12:31:16",
-  "total": 2842,
-  "new_count": 529,
+  "run_at": "2026-06-09 13:15:13",
+  "total": 2844,
+  "new_count": 4,
   "properties": [
     {
       "id": "02d5dc32-142d-491e-bb73-018cc8efb808",
@@ -31,6 +31,33 @@
       ]
     },
     {
+      "id": "a91257ec-bb28-442d-aacd-019dd0260e63",
+      "code": "NN-GYA740",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "6,000 MXN Renta",
+      "precio_num": 6000.0,
+      "superficie": "30 m²",
+      "area_num": 30.0,
+      "precio_m2": "$200.0/m²",
+      "pm2_num": 200.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "AARAI BIENES RAICES",
+      "fecha_publicacion": "2026-06-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a91257ec-bb28-442d-aacd-019dd0260e63",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260427121428-b87efc64ac55478fbbee4fab853d3071s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260427121426-ed584063aab847b387f6a0d87e0e853bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260427121426-007a38346a774914935c3938e87351das.webp"
+      ]
+    },
+    {
       "id": "8933709a-f534-470d-a026-019ead568424",
       "code": "NN-HAC481",
       "title": "Local en Renta en el Centro de Torreón, Ideal para Actividades Productivas",
@@ -53,6 +80,33 @@
       "link": "https://app.nocnok.com/crm/154940/properties/8933709a-f534-470d-a026-019ead568424",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260609110349-440f750d81bb4f6d85efa11026ef208ds.webp"
+      ]
+    },
+    {
+      "id": "e9208971-52ff-4383-a9e5-019cf5807e3f",
+      "code": "NN-GWG487",
+      "title": "Bodega en Renta en Magdalenas, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "20,000 MXN Renta",
+      "precio_num": 20000.0,
+      "superficie": "300 m²",
+      "area_num": 300.0,
+      "precio_m2": "$66.7/m²",
+      "pm2_num": 66.67,
+      "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Firme Patrimonio Inmobiliaria",
+      "fecha_publicacion": "2026-06-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/e9208971-52ff-4383-a9e5-019cf5807e3f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260316011615-f891dc5bff4a4d09b18713ff6a5ee59as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609123346-976c84ad432045efa53f1a0eaa8d3aecs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609123346-54a50358a11b4265a1830aa2c1c1c1dbs.webp"
       ]
     },
     {
@@ -13790,33 +13844,6 @@
       ]
     },
     {
-      "id": "c95b51fe-7d3d-4418-b7c2-019e192a94b5",
-      "code": "NN-GYV407",
-      "title": "Local en Renta en Ampliación la Rosita, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "4,500 MXN Renta",
-      "precio_num": 4500.0,
-      "superficie": "40 m²",
-      "area_num": 40.0,
-      "precio_m2": "$112.5/m²",
-      "pm2_num": 112.5,
-      "ubicacion": "Ampliación la Rosita, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Inmobiliaria Leal",
-      "fecha_publicacion": "2026-05-11",
-      "days_on_market": 29,
-      "link": "https://app.nocnok.com/crm/154940/properties/c95b51fe-7d3d-4418-b7c2-019e192a94b5",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260511163121-784beaeecf114f96b7d40ce5403b1599s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260511163121-ca754e99524645fdb39f7372faa215c8s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260511163122-cbb5c49217994965beaf365ff7a19730s.webp"
-      ]
-    },
-    {
       "id": "960448d4-580b-4794-ab35-019e193ec4a5",
       "code": "NN-GYV442",
       "title": "Casa en Renta para oficinas o consultorios en Col Roma Trc",
@@ -13922,6 +13949,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260511091519-a72275ea3f224c11898ea36adba120aas.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260511091524-df875f388e794338b4fa59e6714b87e7s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260511091526-7a9808a6b4df4ccca237272de5ee860ds.webp"
+      ]
+    },
+    {
+      "id": "c95b51fe-7d3d-4418-b7c2-019e192a94b5",
+      "code": "NN-GYV407",
+      "title": "Local en Renta en Ampliación la Rosita, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "4,500 MXN Renta",
+      "precio_num": 4500.0,
+      "superficie": "40 m²",
+      "area_num": 40.0,
+      "precio_m2": "$112.5/m²",
+      "pm2_num": 112.5,
+      "ubicacion": "Ampliación la Rosita, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Inmobiliaria Leal",
+      "fecha_publicacion": "2026-05-11",
+      "days_on_market": 29,
+      "link": "https://app.nocnok.com/crm/154940/properties/c95b51fe-7d3d-4418-b7c2-019e192a94b5",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260609130818-6ae4f4d1ffc049f58e212cad370b472es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609130817-430c5746c9e14583b16ccd7191aad66bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609130817-fa57b1b5b2724919a7c8ba18240ccf4es.webp"
       ]
     },
     {
@@ -14141,33 +14195,6 @@
       ]
     },
     {
-      "id": "fd7b9779-134a-4cf2-ad02-019e0e538444",
-      "code": "NN-GYU467",
-      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "11,700 MXN Renta",
-      "precio_num": 11700.0,
-      "superficie": "60 m²",
-      "area_num": 60.0,
-      "precio_m2": "$195.0/m²",
-      "pm2_num": 195.0,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "RE/MAX LAGUNA",
-      "fecha_publicacion": "2026-05-09",
-      "days_on_market": 31,
-      "link": "https://app.nocnok.com/crm/154940/properties/fd7b9779-134a-4cf2-ad02-019e0e538444",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260509140107-405ab87b9f374a1ca017b43903c88ff5s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260509140107-361b04dcd12b4a3c9a54f40a3099967fs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260509140106-283785524ded4d1a83c51140eae692cas.webp"
-      ]
-    },
-    {
       "id": "f4c9d5bd-09cb-4b2e-871d-019e0dee0d72",
       "code": "NN-GYU420",
       "title": "Terreno en Renta en Joyas del Desierto, Torreón, Coahuila de Zaragoza",
@@ -14192,6 +14219,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260509121255-3aad3e44b4934cfaa5251d3a096af3a7s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260509121252-49eb54dcb7e64f13894a5a29af37ee82s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260509121253-8301c78393904d97b371fe0265e2438es.webp"
+      ]
+    },
+    {
+      "id": "fd7b9779-134a-4cf2-ad02-019e0e538444",
+      "code": "NN-GYU467",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "12,000 MXN Renta",
+      "precio_num": 12000.0,
+      "superficie": "60 m²",
+      "area_num": 60.0,
+      "precio_m2": "$200.0/m²",
+      "pm2_num": 200.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-05-09",
+      "days_on_market": 31,
+      "link": "https://app.nocnok.com/crm/154940/properties/fd7b9779-134a-4cf2-ad02-019e0e538444",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260509140107-405ab87b9f374a1ca017b43903c88ff5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260509140107-361b04dcd12b4a3c9a54f40a3099967fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260509140106-283785524ded4d1a83c51140eae692cas.webp"
       ]
     },
     {
@@ -34749,60 +34803,6 @@
       ]
     },
     {
-      "id": "846d86f1-2376-4888-ac24-019cb544f6b8",
-      "code": "NN-GWA433",
-      "title": "Local en Renta en Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "7,000 MXN Renta",
-      "precio_num": 7000.0,
-      "superficie": "40 m²",
-      "area_num": 40.0,
-      "precio_m2": "$175.0/m²",
-      "pm2_num": 175.0,
-      "ubicacion": "Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "NATALIA GTZ & ASOC",
-      "fecha_publicacion": "2026-03-03",
-      "days_on_market": 98,
-      "link": "https://app.nocnok.com/crm/154940/properties/846d86f1-2376-4888-ac24-019cb544f6b8",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260303135601-caffaaf166264ace96ced7129003b63ds.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260303135559-8f2828de50fa4cc2909a524a88cf78e0s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260303135558-616062b37d0e4924aafa327766d3b05as.webp"
-      ]
-    },
-    {
-      "id": "9e915508-687c-4e3c-973e-019cb6a55b3f",
-      "code": "NN-GWA704",
-      "title": "Local en Renta en Los Angeles, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "75,000 MXN Renta",
-      "precio_num": 75000.0,
-      "superficie": "250 m²",
-      "area_num": 250.0,
-      "precio_m2": "$300.0/m²",
-      "pm2_num": 300.0,
-      "ubicacion": "Los Angeles, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "FINKA RAICES",
-      "fecha_publicacion": "2026-03-03",
-      "days_on_market": 98,
-      "link": "https://app.nocnok.com/crm/154940/properties/9e915508-687c-4e3c-973e-019cb6a55b3f",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260303202035-822c97ad64774dbba74dc9cb710773b3s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260303202035-720ee27a8ea34e5b8b253af7b97490fcs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260303202035-7a31a8efcb4a403394c58dddb147c3a4s.webp"
-      ]
-    },
-    {
       "id": "75f8cbcb-691b-43fe-8a1e-019ea848e1a1",
       "code": "NN-HAB880",
       "title": "Bodega en Renta en Parque Industrial, Torreón",
@@ -53835,6 +53835,60 @@
       ]
     },
     {
+      "id": "0d8d543b-a896-45a0-a6e0-019eadb96211",
+      "code": "NN-HAC612",
+      "title": "Terreno en venta o renta ubicado en zona centro de Gómez Palacio, Durango",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta y Renta",
+      "op_key": "venta",
+      "precio": "7,000,000 MXN Venta | 40,000 MXN Renta",
+      "precio_num": 7000000.0,
+      "superficie": "1,100 m²",
+      "area_num": 1100.0,
+      "precio_m2": "$6,364/m²",
+      "pm2_num": 6363.64,
+      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "ENLACE INMOBILIARIO",
+      "fecha_publicacion": "2026-06-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/0d8d543b-a896-45a0-a6e0-019eadb96211",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260609125715-e09e719c582c492d94e649eca788141as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609125825-a29cdf22172d417c94c39c0aa6b6d060s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609125829-9517822891d04cc1aa1cdb4e45efb6c0s.webp"
+      ]
+    },
+    {
+      "id": "20fdd97a-8a69-49d7-859e-019eada9f9ab",
+      "code": "NN-HAC595",
+      "title": "Ideal para QUINTA amplio Terreno y Casa  Venta en Centro de Gómez Palacio",
+      "categoria": "Comercial",
+      "tipo": "Casa",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "3,000,000 MXN Venta",
+      "precio_num": 3000000.0,
+      "superficie": "700 m²",
+      "area_num": 700.0,
+      "precio_m2": "$4,286/m²",
+      "pm2_num": 4285.71,
+      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "SAMAX Inmobiliaria",
+      "fecha_publicacion": "2026-06-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/20fdd97a-8a69-49d7-859e-019eada9f9ab",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260609123433-ac967787e72c4aaa90e59dd07c16b7c0s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609123433-d98bd814b44a465dbe1ed6e7f6155919s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260609123433-f0764771cc55436bbb1c12e0763ee4fas.webp"
+      ]
+    },
+    {
       "id": "4fb49539-4fc8-45c2-bd16-019ea8cb28b9",
       "code": "NN-HAC076",
       "title": "Local en Renta en Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
@@ -55797,56 +55851,6 @@
       ]
     },
     {
-      "id": "1867f33c-914e-4efd-9f59-019e03ae30b7",
-      "code": "NN-GYS233",
-      "title": "Local en Venta en Gomez Palacio Centro, Gómez Palacio, Durango",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "5,300,000 MXN Venta",
-      "precio_num": 5300000.0,
-      "superficie": "741 m²",
-      "area_num": 741.0,
-      "precio_m2": "$7,152/m²",
-      "pm2_num": 7152.5,
-      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "NATALIA GTZ & ASOC",
-      "fecha_publicacion": "2026-05-07",
-      "days_on_market": 33,
-      "link": "https://app.nocnok.com/crm/154940/properties/1867f33c-914e-4efd-9f59-019e03ae30b7",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260507122342-50e0f7a0677b4831a9f3edbb5ba996bes.webp"
-      ]
-    },
-    {
-      "id": "191956ff-d283-4746-8495-019e03bf09dc",
-      "code": "NN-GYS244",
-      "title": "Local en Venta en Gomez Palacio Centro, Gómez Palacio, Durango",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "2,500,000 MXN Venta",
-      "precio_num": 2500000.0,
-      "superficie": "267 m²",
-      "area_num": 267.0,
-      "precio_m2": "$9,363/m²",
-      "pm2_num": 9363.3,
-      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "NATALIA GTZ & ASOC",
-      "fecha_publicacion": "2026-05-07",
-      "days_on_market": 33,
-      "link": "https://app.nocnok.com/crm/154940/properties/191956ff-d283-4746-8495-019e03bf09dc",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260507124208-cadc5423e5184822b8818b9c5333a071s.webp"
-      ]
-    },
-    {
       "id": "5becbe35-5f52-42a8-a270-019e03e15a5b",
       "code": "NN-GYS268",
       "title": "Local en Renta en el Centro de Gómez Palacio, Durango.",
@@ -55925,6 +55929,56 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260507140106-2d38e3931006445c94b83f870ea5507fs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260507140106-70c94adbc65b4622a61795c5c920f690s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260507140106-0b98c9c9aad847c29d00d23817ef57des.webp"
+      ]
+    },
+    {
+      "id": "1867f33c-914e-4efd-9f59-019e03ae30b7",
+      "code": "NN-GYS233",
+      "title": "Edificio en Venta",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "5,300,000 MXN Venta",
+      "precio_num": 5300000.0,
+      "superficie": "741 m²",
+      "area_num": 741.0,
+      "precio_m2": "$7,152/m²",
+      "pm2_num": 7152.5,
+      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-05-07",
+      "days_on_market": 33,
+      "link": "https://app.nocnok.com/crm/154940/properties/1867f33c-914e-4efd-9f59-019e03ae30b7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260507122342-50e0f7a0677b4831a9f3edbb5ba996bes.webp"
+      ]
+    },
+    {
+      "id": "191956ff-d283-4746-8495-019e03bf09dc",
+      "code": "NN-GYS244",
+      "title": "5 locales en venta una con Bodega",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "2,500,000 MXN Venta",
+      "precio_num": 2500000.0,
+      "superficie": "267 m²",
+      "area_num": 267.0,
+      "precio_m2": "$9,363/m²",
+      "pm2_num": 9363.3,
+      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-05-07",
+      "days_on_market": 33,
+      "link": "https://app.nocnok.com/crm/154940/properties/191956ff-d283-4746-8495-019e03bf09dc",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260507124208-cadc5423e5184822b8818b9c5333a071s.webp"
       ]
     },
     {
