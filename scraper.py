@@ -877,7 +877,6 @@ h1{{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}}
   <button class="tab-btn"        onclick="showTab('mapa',this)">🗺️ Mapa</button>
   <button class="tab-btn"        onclick="showTab('brokers',this)">🏆 Brokers</button>
   <button class="tab-btn"        onclick="showTab('stats',this)">📊 Estadísticas</button>
-  <button class="tab-btn"        onclick="showTab('alerts',this)">⚙️ Alertas</button>
 </div>
 
 <!-- TAB: Propiedades -->
@@ -989,6 +988,8 @@ h1{{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}}
         <button class="btn"            id="bk-gp"  onclick="applyBkCity('Gómez Palacio',this)">Gómez Palacio</button>
         <button class="btn"            id="bk-mat" onclick="applyBkCity('Matamoros',this)">Matamoros</button>
       </div>
+      <div class="tb-sep"></div>
+      <div class="tb-group" id="bk-months"></div>
     </div>
     <div class="section-card">
       <h2>🏆 Ranking de Brokers / Agencias</h2>
@@ -1010,27 +1011,8 @@ h1{{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}}
       </div>
     </div>
     <div class="section-card">
-      <h2>📊 Publicaciones nuevas por semana</h2>
+      <h2>📊 Publicaciones nuevas por mes</h2>
       <div id="weekly-wrap"><div class="chart-wrap"><canvas id="chart-weekly"></canvas></div></div>
-    </div>
-    <div class="section-card">
-      <h2>💰 Precio/m² promedio por semana y tipo</h2>
-      <div id="pm2-wrap"><div class="chart-wrap"><canvas id="chart-pm2"></canvas></div></div>
-    </div>
-  </div>
-</div>
-
-<!-- TAB: Alertas -->
-<div id="tab-alerts" style="display:none">
-  <div class="section">
-    <div class="section-card">
-      <h2>⚙️ Umbrales de Precio/m² por tipo de propiedad</h2>
-      <p style="font-size:.8rem;color:var(--muted);margin-bottom:1.1rem">
-        Define el precio máximo/m² aceptable. Las propiedades <em>por debajo</em> del umbral se marcan <strong>💡 OPORTUNIDAD</strong>. Los valores se guardan en tu navegador.
-      </p>
-      <div class="alerts-grid" id="alerts-grid"></div>
-      <button class="save-btn" onclick="saveThresholds()">Guardar umbrales</button>
-      <span class="save-ok" id="save-ok">✓ Guardado</span>
     </div>
   </div>
 </div>
@@ -1055,11 +1037,10 @@ var fStCity = 'all';
 var FAVS       = new Set(JSON.parse(localStorage.getItem('radar_favs') || '[]'));
 var THRESHOLDS = JSON.parse(localStorage.getItem('radar_thresholds') || '{{}}');
 var chartW = null;
-var chartP = null;
 
 // ── Tabs ──────────────────────────────────────────────────────────────────────
 function showTab(name, btn) {{
-  ['props','favs','mapa','oportunidades','brokers','stats','alerts'].forEach(function(t) {{
+  ['props','favs','mapa','oportunidades','brokers','stats'].forEach(function(t) {{
     document.getElementById('tab-'+t).style.display = t===name ? '' : 'none';
   }});
   document.querySelectorAll('.tab-btn').forEach(function(b) {{
@@ -1068,7 +1049,6 @@ function showTab(name, btn) {{
   if (name==='favs')          renderFavs();
   if (name==='brokers')       renderBrokers();
   if (name==='stats')         renderCharts();
-  if (name==='alerts')        renderAlerts();
   if (name==='oportunidades') renderOportunidades();
   if (name==='mapa')          initMap();
 }}
@@ -1418,6 +1398,9 @@ function renderFavs() {{
 }}
 
 // ── Brokers ───────────────────────────────────────────────────────────────────
+var fBkMonth = 'all';
+var MES_ES = ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+
 function applyBkCity(city, btn) {{
   fBkCity = city;
   document.querySelectorAll('#bk-all,#bk-tor,#bk-gp,#bk-mat').forEach(function(b) {{
@@ -1426,8 +1409,34 @@ function applyBkCity(city, btn) {{
   renderBrokers();
 }}
 
+function applyBkMonth(month, btn) {{
+  fBkMonth = month;
+  document.querySelectorAll('.bk-month-btn').forEach(function(b) {{
+    b.className = 'btn bk-month-btn' + (b===btn ? ' on' : '');
+  }});
+  renderBrokers();
+}}
+
+function renderBkMonths() {{
+  var now = new Date();
+  var btns = '<span class="tb-lbl">Mes</span>';
+  btns += '<button class="btn bk-month-btn'+(fBkMonth==='all'?' on':'')+'" onclick="applyBkMonth(\'all\',this)">Todos</button>';
+  for (var i=5; i>=0; i--) {{
+    var d = new Date(now.getFullYear(), now.getMonth()-i, 1);
+    var key = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
+    var lbl = MES_ES[d.getMonth()]+' '+d.getFullYear().toString().slice(2);
+    btns += '<button class="btn bk-month-btn'+(fBkMonth===key?' on':'')+'" onclick="applyBkMonth(\''+key+'\',this)">'+lbl+'</button>';
+  }}
+  document.getElementById('bk-months').innerHTML = btns;
+}}
+
 function renderBrokers() {{
-  var list = fBkCity==='all' ? PROPS : PROPS.filter(function(p) {{ return p.municipio===fBkCity; }});
+  renderBkMonths();
+  var list = PROPS.filter(function(p) {{
+    if (fBkCity!=='all' && p.municipio!==fBkCity) return false;
+    if (fBkMonth!=='all' && !(p.fecha_publicacion||'').startsWith(fBkMonth)) return false;
+    return true;
+  }});
   var bk = {{}};
   list.forEach(function(p) {{
     var name = p.broker || 'Sin nombre';
@@ -1476,20 +1485,36 @@ function renderCharts() {{
 
   if (!wkeys.length) {{
     document.getElementById('weekly-wrap').innerHTML='<div class="chart-empty">Aún no hay datos históricos. Se acumulan con cada ejecución diaria del scraper.</div>';
-    document.getElementById('pm2-wrap').innerHTML='';
     return;
   }}
 
-  var labels = wkeys.map(function(k) {{
-    var p = k.split('-W'); return 'Sem '+p[1]+' ('+p[0].slice(2)+')';
+  // Agrupar semanas por mes
+  var monthAcc = {{}};
+  wkeys.forEach(function(k) {{
+    var parts = k.split('-W');
+    var year = parseInt(parts[0]), week = parseInt(parts[1]);
+    // Calcular el lunes de esa semana ISO
+    var jan4 = new Date(year, 0, 4);
+    var dow = jan4.getDay() || 7;
+    var monday = new Date(jan4);
+    monday.setDate(jan4.getDate() - dow + 1 + (week-1)*7);
+    var mKey = monday.getFullYear()+'-'+String(monday.getMonth()+1).padStart(2,'0');
+    if (!monthAcc[mKey]) monthAcc[mKey] = {{total:0, mo:monday.getMonth(), yr:monday.getFullYear()}};
+    var wk = weeks[k];
+    var val = fStCity==='all' ? (wk.total||0) : (((wk.cities||{{}})[fStCity])||{{}}).total||0;
+    monthAcc[mKey].total += val;
   }});
 
-  // Weekly new props
-  var wData = wkeys.map(function(k) {{
-    var wk = weeks[k];
-    if (fStCity==='all') return wk.total||0;
-    var cd = (wk.cities||{{}})[fStCity];
-    return cd ? (cd.total||0) : 0;
+  var mkeys = Object.keys(monthAcc).sort();
+  var labels = mkeys.map(function(k) {{
+    var m = monthAcc[k];
+    return MES_ES[m.mo]+' '+String(m.yr).slice(2);
+  }});
+  var wData = mkeys.map(function(k) {{ return monthAcc[k].total; }});
+  var tooltipRanges = mkeys.map(function(k) {{
+    var m = monthAcc[k];
+    var lastDay = new Date(m.yr, m.mo+1, 0).getDate();
+    return '1-'+lastDay+' '+MES_ES[m.mo]+' '+m.yr;
   }});
 
   if (chartW) chartW.destroy();
@@ -1499,100 +1524,25 @@ function renderCharts() {{
     data:{{ labels:labels, datasets:[{{
       label:'Publicaciones nuevas',
       data:wData,
-      backgroundColor:'rgba(79,70,229,.7)',
-      borderColor:'rgba(79,70,229,1)',
+      backgroundColor:'rgba(234,88,12,.7)',
+      borderColor:'rgba(194,65,12,1)',
       borderWidth:1,
       borderRadius:5
     }}]}},
     options:{{
       responsive:true, maintainAspectRatio:false,
-      plugins:{{ legend:{{display:false}}, tooltip:{{callbacks:{{label:function(ctx){{return ctx.parsed.y+' propiedades';}}}}}} }},
+      plugins:{{
+        legend:{{display:false}},
+        tooltip:{{callbacks:{{
+          title:function(items){{ return tooltipRanges[items[0].dataIndex]; }},
+          label:function(ctx){{ return ctx.parsed.y+' propiedades nuevas'; }}
+        }}}}
+      }},
       scales:{{ y:{{beginAtZero:true, ticks:{{precision:0}}}} }}
     }}
   }});
-
-  // Price/m² by tipo
-  var tipoColors = {{
-    'Bodega':'rgba(14,165,233,.85)',
-    'Nave Industrial':'rgba(168,85,247,.85)',
-    'Terreno':'rgba(34,197,94,.85)',
-    'Local':'rgba(249,115,22,.85)',
-    'Local Comercial':'rgba(249,115,22,.85)',
-    'Oficina':'rgba(236,72,153,.85)'
-  }};
-  var tipoAcc = {{}};
-  wkeys.forEach(function(k) {{
-    var cities = (weeks[k].cities||{{}});
-    var toCheck = fStCity==='all' ? Object.keys(cities) : [fStCity];
-    toCheck.forEach(function(city) {{
-      if (!cities[city]) return;
-      var tm = cities[city].tipos_m2||{{}};
-      Object.keys(tm).forEach(function(tipo) {{
-        if (!tipoAcc[tipo]) tipoAcc[tipo]={{}};
-        if (!tipoAcc[tipo][k]) tipoAcc[tipo][k]={{sum:0,count:0}};
-        tipoAcc[tipo][k].sum   += tm[tipo].sum;
-        tipoAcc[tipo][k].count += tm[tipo].count;
-      }});
-    }});
-  }});
-
-  var pm2DS = Object.keys(tipoAcc).slice(0,6).map(function(tipo) {{
-    var data = wkeys.map(function(k) {{
-      var d = tipoAcc[tipo][k];
-      return (d&&d.count) ? Math.round(d.sum/d.count) : null;
-    }});
-    var color = tipoColors[tipo]||'rgba(107,114,128,.8)';
-    return {{label:tipo, data:data, borderColor:color,
-      backgroundColor:color.replace('.85','.12'), fill:true,
-      tension:.3, spanGaps:true, pointRadius:4}};
-  }});
-
-  if (chartP) chartP.destroy();
-  if (!pm2DS.length) {{
-    document.getElementById('pm2-wrap').innerHTML='<div class="chart-empty">Sin datos de precio/m² aún.</div>';
-    return;
-  }}
-  var canvasP = mkCanvas('pm2-wrap','chart-pm2');
-  chartP = new Chart(canvasP, {{
-    type:'line',
-    data:{{labels:labels, datasets:pm2DS}},
-    options:{{
-      responsive:true, maintainAspectRatio:false,
-      plugins:{{legend:{{position:'bottom'}}, tooltip:{{callbacks:{{label:function(ctx){{return ctx.dataset.label+': $'+ctx.parsed.y+'/m²';}}}}}} }},
-      scales:{{y:{{beginAtZero:false, ticks:{{callback:function(v){{return '$'+v+'/m²';}}}}}}}}
-    }}
-  }});
 }}
 
-// ── Alertas ───────────────────────────────────────────────────────────────────
-var TIPOS_ALERT = ['Bodega','Nave Industrial','Terreno','Local','Local Comercial','Oficina'];
-
-function renderAlerts() {{
-  var html = '';
-  TIPOS_ALERT.forEach(function(tipo) {{
-    var val = THRESHOLDS[tipo]||'';
-    html += '<div class="alert-item">'+
-      '<div class="alert-tipo">'+esc(tipo)+'</div>'+
-      '<label class="alert-lbl">Máx $/m² (umbral de oportunidad)</label>'+
-      '<input class="alert-input" type="number" data-tipo="'+esc(tipo)+'" placeholder="Ej: 150" value="'+esc(String(val))+'">'+
-    '</div>';
-  }});
-  document.getElementById('alerts-grid').innerHTML = html;
-}}
-
-function saveThresholds() {{
-  document.querySelectorAll('.alert-input').forEach(function(inp) {{
-    var tipo = inp.dataset.tipo;
-    var val  = inp.value.trim();
-    if (val) THRESHOLDS[tipo] = parseFloat(val);
-    else delete THRESHOLDS[tipo];
-  }});
-  localStorage.setItem('radar_thresholds', JSON.stringify(THRESHOLDS));
-  var ok = document.getElementById('save-ok');
-  ok.style.display='inline';
-  setTimeout(function(){{ ok.style.display='none'; }}, 2000);
-  render();
-}}
 
 // ── Fecha "Hoy / Ayer" ───────────────────────────────────────────────────────
 (function() {{
