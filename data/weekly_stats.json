@@ -4420,18 +4420,18 @@
     },
     "2026-W24": {
       "week": "2026-W24",
-      "total": 22,
+      "total": 23,
       "cities": {
         "Torreón": {
-          "total": 18,
+          "total": 19,
           "tipos_m2": {
             "Terreno": {
               "sum": 2595.1750547045954,
               "count": 3
             },
             "Local": {
-              "sum": 529.3846153846154,
-              "count": 5
+              "sum": 676.4434389140272,
+              "count": 6
             },
             "Edificio": {
               "sum": 9333.333333333334,
