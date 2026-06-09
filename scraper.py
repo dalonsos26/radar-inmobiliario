@@ -765,7 +765,7 @@ h1{{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}}
 .btn.on-renta{{background:#0369a1;color:#fff;border-color:#0369a1}}
 .btn.on-venta{{background:#7c3aed;color:#fff;border-color:#7c3aed}}
 .btn.on-city{{background:var(--teal);color:#fff;border-color:var(--teal)}}
-.sort-btn.on{{background:var(--accent);color:#fff;border-color:var(--accent)}}
+.sort-btn.on,.dom-btn.on{{background:var(--accent);color:#fff;border-color:var(--accent)}}
 .count{{font-size:.78rem;color:var(--muted);margin-left:auto;white-space:nowrap}}
 .grid{{max-width:1420px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(295px,1fr));gap:1rem}}
 .card{{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sh);transition:transform .15s,box-shadow .15s}}
@@ -910,6 +910,14 @@ h1{{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}}
       <button class="btn sort-btn"    id="s-asc"  onclick="applySort('asc',this)">Más antiguo</button>
       <button class="btn sort-btn"    id="s-dom"  onclick="applySort('dom',this)">Más tiempo</button>
     </div>
+    <div class="tb-sep"></div>
+    <div class="tb-group">
+      <span class="tb-lbl">Antigüedad</span>
+      <button class="btn dom-btn on" id="d-all" onclick="applyDom(0,this)">Todas</button>
+      <button class="btn dom-btn"   id="d-30"  onclick="applyDom(30,this)">≤30d</button>
+      <button class="btn dom-btn"   id="d-60"  onclick="applyDom(60,this)">≤60d</button>
+      <button class="btn dom-btn"   id="d-90"  onclick="applyDom(90,this)">≤90d</button>
+    </div>
     <span class="count" id="count">{total} propiedades</span>
   </div>
   {grid_html}
@@ -1031,6 +1039,7 @@ var fCity   = 'all';
 var fStatus = 'all';
 var fOp     = 'all';
 var fSort   = 'desc';
+var fDom    = 0;
 var fBkCity = 'all';
 var fStCity = 'all';
 
@@ -1087,6 +1096,14 @@ function applySort(dir, btn) {{
   render();
 }}
 
+function applyDom(max, btn) {{
+  fDom = max;
+  document.querySelectorAll('.dom-btn').forEach(function(b) {{
+    b.className = 'btn dom-btn' + (b===btn ? ' on' : '');
+  }});
+  render();
+}}
+
 function render() {{
   var grid = document.getElementById('grid');
   if (!grid) return;
@@ -1097,7 +1114,8 @@ function render() {{
     var okS = fStatus==='all' || (fStatus==='new'&&isNew) || (fStatus==='seen'&&!isNew);
     var okO = fOp==='all' || c.dataset.op===fOp;
     var okC = fCity==='all' || c.dataset.city===fCity;
-    var show = okS && okO && okC;
+    var okD = fDom===0 || parseInt(c.dataset.dom||0)<=fDom;
+    var show = okS && okO && okC && okD;
     c.classList.toggle('hidden', !show);
     if (show) {{ visible++; checkOpp(c); }}
   }});
