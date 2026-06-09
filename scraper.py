@@ -351,6 +351,11 @@ def update_archive(current_props: list, run_ts: str) -> tuple:
     new_ids: set      = set()
     price_drops: list = []
 
+    # Retrocompatibilidad: asignar delisted_reason a registros viejos sin el campo
+    for entry in arch.values():
+        if entry.get("status") == "delisted" and not entry.get("delisted_reason"):
+            entry["delisted_reason"] = "sold"
+
     for p in current_props:
         pid = p["id"]
         if not pid:
@@ -369,9 +374,12 @@ def update_archive(current_props: list, run_ts: str) -> tuple:
         else:
             entry = arch[pid]
             if entry.get("status") == "delisted":
-                entry["status"]     = "active"
-                entry["delisted_at"] = None
-                new_ids.add(pid)
+                was_lapse = entry.get("delisted_reason") == "subscription_lapse"
+                entry["status"]          = "active"
+                entry["delisted_at"]     = None
+                entry["delisted_reason"] = None
+                if not was_lapse:
+                    new_ids.add(pid)
             entry["last_seen"] = today
 
             old_num = entry.get("precio_num")
@@ -398,10 +406,18 @@ def update_archive(current_props: list, run_ts: str) -> tuple:
             entry["status"] = "active"
 
     # Detectar deslistadas
+    # Contar propiedades activas por broker ANTES del run (para detectar caída de suscripción)
+    broker_active_before: dict = {}
+    for entry in arch.values():
+        if entry.get("status") == "active":
+            b = entry.get("broker", "")
+            broker_active_before[b] = broker_active_before.get(b, 0) + 1
+
     newly_delisted: list = []
+    broker_newly_delisted: dict = {}  # broker -> count
     for pid, entry in arch.items():
         if entry.get("status") == "active" and pid not in current_ids:
-            entry["status"]     = "delisted"
+            entry["status"]      = "delisted"
             entry["delisted_at"] = today
             try:
                 d1 = datetime.fromisoformat(entry.get("first_seen", today))
@@ -409,7 +425,23 @@ def update_archive(current_props: list, run_ts: str) -> tuple:
                 entry["days_listed"] = (d2 - d1).days
             except Exception:
                 entry["days_listed"] = 0
+            b = entry.get("broker", "")
+            broker_newly_delisted[b] = broker_newly_delisted.get(b, 0) + 1
             newly_delisted.append(pid)
+
+    # Marcar como subscription_lapse si el broker perdió ≥90% de sus propiedades ese día
+    lapse_brokers: set = set()
+    for b, lost in broker_newly_delisted.items():
+        total = broker_active_before.get(b, 0)
+        if total > 0 and lost / total >= 0.90:
+            lapse_brokers.add(b)
+
+    if lapse_brokers:
+        log(f"  Caída de suscripción detectada: {', '.join(lapse_brokers)}")
+    for pid in newly_delisted:
+        entry = arch[pid]
+        b = entry.get("broker", "")
+        entry["delisted_reason"] = "subscription_lapse" if b in lapse_brokers else "sold"
 
     # Geocodificar propiedades sin coordenadas (máx GEO_PER_RUN por corrida)
     geo_done = 0
@@ -437,7 +469,7 @@ def get_oportunidades(archive: dict) -> tuple:
     price_drops_ui: list = []
 
     for entry in arch.values():
-        if entry.get("status") == "delisted":
+        if entry.get("status") == "delisted" and entry.get("delisted_reason") != "subscription_lapse":
             delisted.append(entry)
 
         hist = entry.get("precio_history", [])
@@ -662,7 +694,7 @@ def build_report(props: list, new_ids: set, run_ts: str, weekly_stats: dict,
         return {
             "id": p.get("id",""), "title": p.get("title",""), "tipo": p.get("tipo",""),
             "municipio": p.get("municipio",""), "superficie": p.get("superficie",""),
-            "precio": p.get("precio",""), "link": p.get("link",""),
+            "precio": p.get("precio",""), "broker": p.get("broker",""), "link": p.get("link",""),
             "fotos_local": (p.get("fotos_local") or [])[:3],
             "first_seen": p.get("first_seen",""), "last_seen": p.get("last_seen",""),
             "delisted_at": p.get("delisted_at",""), "days_listed": p.get("days_listed",0),
@@ -1253,6 +1285,7 @@ function renderOportunidades() {{
         '<div class="oport-price">'+esc(p.precio||'')+'</div>'+
         priceChg+
         '<div class="oport-meta">'+
+          '🏢 Broker: <b>'+esc(p.broker||'—')+'</b><br>'+
           '📅 Publicado: <b>'+esc(p.first_seen||'')+'</b><br>'+
           '❌ Deslistado: <b>'+esc(p.delisted_at||'')+'</b><br>'+
           '⏱ Tiempo en mercado: <b>'+p.days_listed+' días</b>'+
