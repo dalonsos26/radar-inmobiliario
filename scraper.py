@@ -1420,12 +1420,12 @@ function applyBkMonth(month, btn) {{
 function renderBkMonths() {{
   var now = new Date();
   var btns = '<span class="tb-lbl">Mes</span>';
-  btns += '<button class="btn bk-month-btn'+(fBkMonth==='all'?' on':'')+'" onclick="applyBkMonth(\'all\',this)">Todos</button>';
+  btns += '<button class="btn bk-month-btn'+(fBkMonth==='all'?' on':'')+'" onclick="applyBkMonth(\\'all\\',this)">Todos</button>';
   for (var i=5; i>=0; i--) {{
     var d = new Date(now.getFullYear(), now.getMonth()-i, 1);
     var key = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
     var lbl = MES_ES[d.getMonth()]+' '+d.getFullYear().toString().slice(2);
-    btns += '<button class="btn bk-month-btn'+(fBkMonth===key?' on':'')+'" onclick="applyBkMonth(\''+key+'\',this)">'+lbl+'</button>';
+    btns += '<button class="btn bk-month-btn'+(fBkMonth===key?' on':'')+'" onclick="applyBkMonth(\\''+key+'\\',this)">'+lbl+'</button>';
   }}
   document.getElementById('bk-months').innerHTML = btns;
 }}
