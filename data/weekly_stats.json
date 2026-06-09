@@ -2,10 +2,10 @@
   "weeks": {
     "2026-W21": {
       "week": "2026-W21",
-      "total": 220,
+      "total": 221,
       "cities": {
         "Torreón": {
-          "total": 197,
+          "total": 198,
           "tipos_m2": {
             "Edificio": {
               "sum": 38357.604166666664,
@@ -16,8 +16,8 @@
               "count": 25
             },
             "Oficina": {
-              "sum": 24691.901400150833,
-              "count": 21
+              "sum": 24802.61568586512,
+              "count": 22
             },
             "Bodega": {
               "sum": 68543.6449005128,
@@ -4420,18 +4420,52 @@
     },
     "2026-W24": {
       "week": "2026-W24",
-      "total": 2,
+      "total": 22,
       "cities": {
         "Torreón": {
+          "total": 18,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 2595.1750547045954,
+              "count": 3
+            },
+            "Local": {
+              "sum": 529.3846153846154,
+              "count": 5
+            },
+            "Edificio": {
+              "sum": 9333.333333333334,
+              "count": 1
+            },
+            "Bodega": {
+              "sum": 8780951.739684224,
+              "count": 7
+            },
+            "Oficina": {
+              "sum": 10111.111111111111,
+              "count": 2
+            }
+          }
+        },
+        "Gómez Palacio": {
+          "total": 2,
+          "tipos_m2": {
+            "Local": {
+              "sum": 250.70821529745044,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 1700.0,
+              "count": 1
+            }
+          }
+        },
+        "Matamoros": {
           "total": 2,
           "tipos_m2": {
             "Terreno": {
-              "sum": 60.17505470459518,
-              "count": 1
-            },
-            "Local": {
-              "sum": 60.0,
-              "count": 1
+              "sum": 1981.7142857142858,
+              "count": 2
             }
           }
         }
