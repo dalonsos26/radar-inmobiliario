@@ -10,6 +10,37 @@ const costingMap = {
   'cycling-regular': 'bicycle',
 };
 
+// km per minute approximations for fallback circles
+const SPEED_KM_MIN = {
+  'driving-car':     0.55, // ~33 km/h city average
+  'foot-walking':    0.083, // ~5 km/h
+  'cycling-regular': 0.25,  // ~15 km/h
+};
+
+function circleFeature(lat, lon, radiusKm, mins) {
+  const pts = 72;
+  const coords = [];
+  for (let i = 0; i <= pts; i++) {
+    const a = (i / pts) * 2 * Math.PI;
+    const dLat = (radiusKm / 111.32) * Math.cos(a);
+    const dLon = (radiusKm / (111.32 * Math.cos(lat * Math.PI / 180))) * Math.sin(a);
+    coords.push([lon + dLon, lat + dLat]);
+  }
+  return {
+    type: 'Feature',
+    properties: { contour: mins, value: mins * 60, fallback: true },
+    geometry: { type: 'Polygon', coordinates: [coords] },
+  };
+}
+
+function fallbackGeoJSON(lat, lon, mode, minutes) {
+  const speed = SPEED_KM_MIN[mode] || SPEED_KM_MIN['driving-car'];
+  return {
+    type: 'FeatureCollection',
+    features: minutes.map(m => circleFeature(lat, lon, m * speed, m)),
+  };
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
@@ -35,23 +66,19 @@ export default async function handler(req, res) {
     generalize: 150,
   });
 
-  let lastErr = null;
+  // Try each Valhalla host
   for (const host of VALHALLA_HOSTS) {
     try {
       const valRes = await fetch(`${host}/isochrone`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body,
-        signal: AbortSignal.timeout(12000),
+        signal: AbortSignal.timeout(8000),
       });
 
-      if (!valRes.ok) {
-        lastErr = `HTTP ${valRes.status} from ${host}`;
-        continue;
-      }
+      if (!valRes.ok) continue;
 
       const geojson = await valRes.json();
-
       if (geojson.features) {
         geojson.features.forEach(feat => {
           feat.properties.value = (feat.properties.contour || 0) * 60;
@@ -60,11 +87,13 @@ export default async function handler(req, res) {
 
       res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=600');
       return res.status(200).json(geojson);
-    } catch (err) {
-      lastErr = err.message;
+    } catch (_) {
+      // try next host
     }
   }
 
-  console.error('All Valhalla hosts failed:', lastErr);
-  return res.status(502).json({ error: 'Servicio de isócronas no disponible: ' + lastErr });
+  // All Valhalla hosts failed — return circle approximations
+  console.log('Valhalla unavailable, using circle fallback');
+  const fallback = fallbackGeoJSON(lat, lng, mode, validMinutes);
+  return res.status(200).json(fallback);
 }
