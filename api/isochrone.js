@@ -10,11 +10,16 @@ const costingMap = {
   'cycling-regular': 'bicycle',
 };
 
-// km per minute approximations for fallback circles
+const orsProfileMap = {
+  'driving-car':     'driving-car',
+  'foot-walking':    'foot-walking',
+  'cycling-regular': 'cycling-regular',
+};
+
 const SPEED_KM_MIN = {
-  'driving-car':     0.55, // ~33 km/h city average
-  'foot-walking':    0.083, // ~5 km/h
-  'cycling-regular': 0.25,  // ~15 km/h
+  'driving-car':     0.55,
+  'foot-walking':    0.083,
+  'cycling-regular': 0.25,
 };
 
 function circleFeature(lat, lon, radiusKm, mins) {
@@ -41,6 +46,81 @@ function fallbackGeoJSON(lat, lon, mode, minutes) {
   };
 }
 
+async function tryORS(lat, lng, mode, validMinutes) {
+  const apiKey = process.env.ORS_API_KEY;
+  if (!apiKey) return null;
+
+  const profile = orsProfileMap[mode] || 'driving-car';
+  const url = `https://api.openrouteservice.org/v2/isochrones/${profile}`;
+
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': apiKey,
+    },
+    body: JSON.stringify({
+      locations: [[lng, lat]],
+      range: validMinutes.map(m => m * 60), // ORS uses seconds
+      range_type: 'time',
+      smoothing: 0.25,
+    }),
+    signal: AbortSignal.timeout(10000),
+  });
+
+  if (!res.ok) {
+    const txt = await res.text();
+    console.error('ORS error:', res.status, txt);
+    return null;
+  }
+
+  const geojson = await res.json();
+
+  // Normalize: ORS returns "value" in seconds, we want "contour" in minutes
+  if (geojson.features) {
+    // ORS returns largest ring first — sort ascending by value (seconds)
+    geojson.features.sort((a, b) => b.properties.value - a.properties.value);
+    geojson.features.forEach(feat => {
+      const secs = feat.properties.value || 0;
+      feat.properties.contour = Math.round(secs / 60);
+    });
+  }
+
+  return geojson;
+}
+
+async function tryValhalla(lat, lng, mode, validMinutes) {
+  const costing = costingMap[mode] || 'auto';
+  const body = JSON.stringify({
+    locations: [{ lat, lon: lng }],
+    costing,
+    contours: validMinutes.map(m => ({ time: m })),
+    polygons: true,
+    denoise: 1,
+    generalize: 150,
+  });
+
+  for (const host of VALHALLA_HOSTS) {
+    try {
+      const valRes = await fetch(`${host}/isochrone`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body,
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!valRes.ok) continue;
+      const geojson = await valRes.json();
+      if (geojson.features) {
+        geojson.features.forEach(feat => {
+          feat.properties.value = (feat.properties.contour || 0) * 60;
+        });
+      }
+      return geojson;
+    } catch (_) { }
+  }
+  return null;
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
@@ -51,49 +131,34 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Faltan parámetros: lat, lng, mode, times[]' });
   }
 
-  const costing = costingMap[mode] || 'auto';
   const validMinutes = times.map(Number).filter(m => m > 0 && m <= 60);
   if (!validMinutes.length) {
     return res.status(400).json({ error: 'Tiempos inválidos' });
   }
 
-  const body = JSON.stringify({
-    locations: [{ lat, lon: lng }],
-    costing,
-    contours: validMinutes.map(m => ({ time: m })),
-    polygons: true,
-    denoise: 1,
-    generalize: 150,
-  });
-
-  // Try each Valhalla host
-  for (const host of VALHALLA_HOSTS) {
-    try {
-      const valRes = await fetch(`${host}/isochrone`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body,
-        signal: AbortSignal.timeout(8000),
-      });
-
-      if (!valRes.ok) continue;
-
-      const geojson = await valRes.json();
-      if (geojson.features) {
-        geojson.features.forEach(feat => {
-          feat.properties.value = (feat.properties.contour || 0) * 60;
-        });
-      }
-
+  // 1. Try ORS (if API key configured)
+  try {
+    const ors = await tryORS(lat, lng, mode, validMinutes);
+    if (ors) {
       res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=600');
-      return res.status(200).json(geojson);
-    } catch (_) {
-      // try next host
+      return res.status(200).json(ors);
     }
+  } catch (e) {
+    console.error('ORS failed:', e.message);
   }
 
-  // All Valhalla hosts failed — return circle approximations
-  console.log('Valhalla unavailable, using circle fallback');
-  const fallback = fallbackGeoJSON(lat, lng, mode, validMinutes);
-  return res.status(200).json(fallback);
+  // 2. Try Valhalla public servers
+  try {
+    const val = await tryValhalla(lat, lng, mode, validMinutes);
+    if (val) {
+      res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=600');
+      return res.status(200).json(val);
+    }
+  } catch (e) {
+    console.error('Valhalla failed:', e.message);
+  }
+
+  // 3. Fallback: circle approximation
+  console.log('Using circle fallback');
+  return res.status(200).json(fallbackGeoJSON(lat, lng, mode, validMinutes));
 }
