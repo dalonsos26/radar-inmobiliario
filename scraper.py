@@ -1666,9 +1666,9 @@ async def main(username: str, password: str):
         delisted, price_drops_ui = get_oportunidades(archive)
         log(f"  {len(delisted)} deslistadas acumuladas | {len(price_drops_ui)} con baja de precio")
 
-        html = build_report(props, new_ids, run_ts, weekly_stats, delisted, price_drops_ui)
-        REPORT_FILE.write_text(html, encoding="utf-8")
-        log(f"  ✓ {REPORT_FILE}")
+        # index.html is maintained manually — scraper only updates data JSON files
+        # html = build_report(props, new_ids, run_ts, weekly_stats, delisted, price_drops_ui)
+        # REPORT_FILE.write_text(html, encoding="utf-8")
 
         log("\nEnviando email…")
         send_email(len(props), len(new_ids), run_ts)
