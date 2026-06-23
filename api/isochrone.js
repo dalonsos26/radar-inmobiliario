@@ -61,7 +61,7 @@ async function tryORS(lat, lng, mode, validMinutes) {
     },
     body: JSON.stringify({
       locations: [[lng, lat]],
-      range: validMinutes.map(m => m * 60), // ORS uses seconds
+      range: validMinutes.map(m => m * 60 * 0.5), // 0.5 correction: ORS ignores traffic/signals, real city speed ~50% of OSM tags
       range_type: 'time',
       smoothing: 0.25,
     }),
