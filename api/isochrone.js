@@ -76,13 +76,12 @@ async function tryORS(lat, lng, mode, validMinutes) {
 
   const geojson = await res.json();
 
-  // Normalize: ORS returns "value" in seconds, we want "contour" in minutes
+  // Normalize: ORS returns "value" in seconds (already scaled by 0.5).
+  // Map each feature back to the original user-requested minutes by rank.
   if (geojson.features) {
-    // ORS returns largest ring first — sort ascending by value (seconds)
-    geojson.features.sort((a, b) => b.properties.value - a.properties.value);
-    geojson.features.forEach(feat => {
-      const secs = feat.properties.value || 0;
-      feat.properties.contour = Math.round(secs / 60);
+    geojson.features.sort((a, b) => a.properties.value - b.properties.value);
+    geojson.features.forEach((feat, i) => {
+      feat.properties.contour = validMinutes[i] || Math.round((feat.properties.value || 0) / 60 / 0.5);
     });
   }
 
