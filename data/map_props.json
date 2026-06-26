@@ -1,0 +1,2875 @@
+[
+  {
+    "id": "46de12e1-a760-458c-b9bd-019e80ddd1f1",
+    "title": "Oficina en Renta Colonia Centro",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "140 m²",
+    "precio": "18,000 MXN Renta",
+    "precio_m2": "$128.6/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/46de12e1-a760-458c-b9bd-019e80ddd1f1",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260531194844-aea6d4ebd8de40f0a99d10532d368c14s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "0600b8d6-2e68-4198-bb31-019e7bab4f02",
+    "title": "Terreno en Renta en Residencial la Hacienda, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "700 m²",
+    "precio": "30,000 MXN Renta",
+    "precio_m2": "$42.9/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/0600b8d6-2e68-4198-bb31-019e7bab4f02",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260530193548-89722d55b2794083b7db75ad5b041064s.webp"
+    ],
+    "lat": 25.5958379,
+    "lng": -103.4068794,
+    "status": "delisted"
+  },
+  {
+    "id": "818a0479-0f11-46ca-9f13-019e799e0280",
+    "title": "Oficinas planta alta ubicadas en Blvd. Diagonal Reforma",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "45 m²",
+    "precio": "8,500 MXN Renta",
+    "precio_m2": "$188.9/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/818a0479-0f11-46ca-9f13-019e799e0280",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260530101611-ed188006aaa54d3ab820081d79c31110s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "d72ea45a-e1a7-46a1-95d6-019e7a55c84f",
+    "title": "Terreno en Renta en Ex Hacienda los Angeles, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "2,400 m²",
+    "precio": "60,000 MXN Renta",
+    "precio_m2": "$25.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d72ea45a-e1a7-46a1-95d6-019e7a55c84f",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260530132317-9b154337972649bca47b6cfc6b92fd6as.webp"
+    ],
+    "lat": 25.5308918,
+    "lng": -103.4017792,
+    "status": "delisted"
+  },
+  {
+    "id": "096c1e59-b84b-4eb4-944a-019e75b9ef8a",
+    "title": "PROPIEDAD PARA QUINTA EN OBRA AVANZADA",
+    "tipo": "Finca-Rancho",
+    "municipio": "Torreón",
+    "superficie": "731 m²",
+    "precio": "1,800,000 MXN Venta",
+    "precio_m2": "$2,462/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/096c1e59-b84b-4eb4-944a-019e75b9ef8a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529155431-397b0f23cd164de3aa11d32ead907420s.webp"
+    ],
+    "lat": 25.5236037,
+    "lng": -103.3315284,
+    "status": "delisted"
+  },
+  {
+    "id": "a5074fdf-99f1-447d-a6a5-019ac1713dee",
+    "title": "Terreno a pie de carretera en Torreón",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "15,000 m²",
+    "precio": "60,727,293 MXN Venta",
+    "precio_m2": "$4,000/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a5074fdf-99f1-447d-a6a5-019ac1713dee",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-251126123351-858944c967484d2db53f429b45791bf5s.webp"
+    ],
+    "lat": 25.60179,
+    "lng": -103.3806448,
+    "status": "delisted"
+  },
+  {
+    "id": "fc749d2a-93c7-4980-8927-019d37793a2a",
+    "title": "SE RENTA OFICINA O CONSULTORIO EN EL CENTRO DE TORREÓN",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "80 m²",
+    "precio": "10,000 MXN Renta",
+    "precio_m2": "$125.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/fc749d2a-93c7-4980-8927-019d37793a2a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260328204304-5e17552e4f864a0e8a9b19a6f34d0b6fs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "b575414e-fdda-4574-93ce-019d8a464f72",
+    "title": "OFICINA Nueva  EN VENTA /ubicación privilegiada- en las primeras cerradas",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "246 m²",
+    "precio": "4,450,000 MXN Venta",
+    "precio_m2": "$18,089/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/b575414e-fdda-4574-93ce-019d8a464f72",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260413223701-27b863eccaea432fa6c8a2aeb3de92acs.webp"
+    ],
+    "lat": 25.5697952,
+    "lng": -103.3825129,
+    "status": "delisted"
+  },
+  {
+    "id": "35197e57-17a6-4dfe-8bb6-019cb5b6882a",
+    "title": "SE VENDE TERRENO COMERCIAL O HABITACIONAL EN EJIDO LA UNION",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "299 m²",
+    "precio": "1,000,000 MXN Venta",
+    "precio_m2": "$3,344/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/35197e57-17a6-4dfe-8bb6-019cb5b6882a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260303155947-2a1ca597970241298cac4d4aa88d80fbs.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "a67ea7c8-09bb-49fd-9703-019e74d51f93",
+    "title": "Bodega en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "132 m²",
+    "precio": "12,800 MXN Renta",
+    "precio_m2": "$97.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a67ea7c8-09bb-49fd-9703-019e74d51f93",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529114341-02277a3318854a2994a1a05553c63ab2s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "655f6af1-0eb4-4045-bf85-019e74f27037",
+    "title": "Terreno en Venta en Las Lomas, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "546 m²",
+    "precio": "3,003,000 MXN Venta",
+    "precio_m2": "$5,500/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/655f6af1-0eb4-4045-bf85-019e74f27037",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529121627-d499fe3a637e414da63a9418c000e937s.webp"
+    ],
+    "lat": 25.5476194,
+    "lng": -103.3782374,
+    "status": "delisted"
+  },
+  {
+    "id": "1a324ee2-813c-4e03-9e4c-019e7514d087",
+    "title": "TERRENO EN PERIFERICO RAUL LÓPEZ SÁNCHEZ (a pie de carretera)",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "475 m²",
+    "precio": "5,175,000 MXN Venta",
+    "precio_m2": "$4,500/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/1a324ee2-813c-4e03-9e4c-019e7514d087",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529132113-0b151582c91e4b72bc5fe96d2976ef5cs.webp"
+    ],
+    "lat": 25.5479754,
+    "lng": -103.3689293,
+    "status": "delisted"
+  },
+  {
+    "id": "30636c1f-089e-4cdc-9a59-019e76c1dd30",
+    "title": "Local comercial nuevo en Blvd. Diagonal Reforma, Torreón, Coah.",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "127 m²",
+    "precio": "20,000 MXN Renta",
+    "precio_m2": "$157.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/30636c1f-089e-4cdc-9a59-019e76c1dd30",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529205616-1b49dde771df41d99e8dab8fb06c8d30s.webp"
+    ],
+    "lat": 25.5247247,
+    "lng": -103.4199821,
+    "status": "delisted"
+  },
+  {
+    "id": "7a6e878f-945d-4a54-b2ff-019e756dbb86",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "180 m²",
+    "precio": "25,200 MXN Renta",
+    "precio_m2": "$140.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/7a6e878f-945d-4a54-b2ff-019e756dbb86",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529143050-f8c79b1897d9446f89299b28529702e6s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "fc36412b-9ebd-431c-a0ac-019e75ac83ef",
+    "title": "Terreno en Venta sobre Blvd. Revolución, Torreón, Coahuila.",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "30,000 m²",
+    "precio": "375,000,000 MXN Venta",
+    "precio_m2": "$12,500/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/fc36412b-9ebd-431c-a0ac-019e75ac83ef",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529153855-73f572a876794989b9ff167b62ca7fees.webp"
+    ],
+    "lat": 25.5132006,
+    "lng": -103.3940697,
+    "status": "delisted"
+  },
+  {
+    "id": "b9bfcdb3-8080-4df6-996d-019ba4556f10",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "80 m²",
+    "precio": "14,000 MXN Renta",
+    "precio_m2": "$175.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/b9bfcdb3-8080-4df6-996d-019ba4556f10",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260109135711-82316b5e29a547b9a679e35fcc4ccdefs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "0753c0bf-2f05-44b3-955b-019e74b4c585",
+    "title": "LOCAL EN RENTA COLONIA CENTRO",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "600 m²",
+    "precio": "45,000 MXN Renta",
+    "precio_m2": "$75.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/0753c0bf-2f05-44b3-955b-019e74b4c585",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529110812-cfe57c0ccc454e67a12688ebaa93adbbs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "0f097503-32c2-43f7-87c9-019276f119eb",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "109 m²",
+    "precio": "23,000 MXN Renta",
+    "precio_m2": "$211.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/0f097503-32c2-43f7-87c9-019276f119eb",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-241010085945-dbd032cb9dc440578c5fc60b43a53124s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "327af071-cb66-45d9-9248-019c5d564f7a",
+    "title": "Almacén en Renta a unas cuadras del Bosque Venustiano Carranza - Torreón",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "606 m²",
+    "precio": "46,677 MXN Renta",
+    "precio_m2": "$77.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/327af071-cb66-45d9-9248-019c5d564f7a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260214163201-628becfdc13b469784b7eb9927f25b2es.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "a6814bca-7c71-4ba8-9ef2-0195ecd841d4",
+    "title": "Bodega en Renta Cerca de Alsuper Las Etnias, Torreón",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "1,087 m²",
+    "precio": "65,220 MXN Renta",
+    "precio_m2": "$60.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a6814bca-7c71-4ba8-9ef2-0195ecd841d4",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250331093617-c2d675e2f1fd4a43a34d672f3e92a96as.webp"
+    ],
+    "lat": 25.5549607,
+    "lng": -103.3856114,
+    "status": "delisted"
+  },
+  {
+    "id": "62fb8276-916f-4542-8e12-0195ecdc7881",
+    "title": "Renta de Bodega Comercial cerca de Alsuper Las Etnias en Torreón",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "1,154 m²",
+    "precio": "69,240 MXN Renta",
+    "precio_m2": "$60.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/62fb8276-916f-4542-8e12-0195ecdc7881",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250331094046-feb7952cb869459ca99a8c96e1b7f80as.webp"
+    ],
+    "lat": 25.5549607,
+    "lng": -103.3856114,
+    "status": "delisted"
+  },
+  {
+    "id": "cfd31916-59ee-4b35-9222-018baa79fff5",
+    "title": "Terreno en Venta en Paso del Aguila, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "40,000 m²",
+    "precio": "72,000,000 MXN Venta",
+    "precio_m2": "$1,800/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/cfd31916-59ee-4b35-9222-018baa79fff5",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/231107091044-c3dcae0c868541389b66bcb1d0e968c9.jpg"
+    ],
+    "lat": 25.6230679,
+    "lng": -103.3717132,
+    "status": "delisted"
+  },
+  {
+    "id": "bf269f02-dfe3-4d6e-baf4-0195547a69ca",
+    "title": "Consultorio en Renta en La Union, Torreón, Coahuila de Zaragoza",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "28 m²",
+    "precio": "16,000 MXN Renta",
+    "precio_m2": "$571.4/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/bf269f02-dfe3-4d6e-baf4-0195547a69ca",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250301195008-dce030f921b44a9b9013d6f8a42d62c9s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "95af8d11-9e4d-4e4d-b6bc-019dcd357d39",
+    "title": "Moderna Oficina Médica en Venta en Torreón, Zona MasMedica",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "103 m²",
+    "precio": "6,900,000 MXN Venta",
+    "precio_m2": "$66,990/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/95af8d11-9e4d-4e4d-b6bc-019dcd357d39",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260426223219-4054141a69494f078bdb67c5010efbe9s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "2a89b12a-df28-432f-9302-019276e9a02a",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "52 m²",
+    "precio": "9,000 MXN Renta",
+    "precio_m2": "$173.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/2a89b12a-df28-432f-9302-019276e9a02a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-241010085127-1e975298949d4dd393ff74def41a0d72s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "98c25c8e-477e-46d7-9a25-019e74fd1d6d",
+    "title": "Terreno Comercial en Renta en Torreón Centro, Torreón",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "1,064 m²",
+    "precio": "79,800 MXN Renta",
+    "precio_m2": "$75.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/98c25c8e-477e-46d7-9a25-019e74fd1d6d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529123004-0bf3cefaa7214ff5873ea15dfe5c0ad9s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "024e237a-f60a-43a3-9410-019e7500a684",
+    "title": "Terreno en Renta en Lucio Blanco, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "219 m²",
+    "precio": "6,576 MXN Renta",
+    "precio_m2": "$30.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/024e237a-f60a-43a3-9410-019e7500a684",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529123052-57a91014405c4182b668769d8375f695s.webp"
+    ],
+    "lat": 25.546456,
+    "lng": -103.4695665,
+    "status": "delisted"
+  },
+  {
+    "id": "218f3bef-5679-4d15-92d4-019e70ad15b3",
+    "title": "Venta de oficinas\nExcelente oportunidad de Inversión en el corazón de Torreón",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "400 m²",
+    "precio": "6,450,000 MXN Venta",
+    "precio_m2": "$16,125/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/218f3bef-5679-4d15-92d4-019e70ad15b3",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529012008-7badc8a68af54c08a5d34d962f2c0935s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "1e7f2fe3-fc83-47f1-9a82-019e70b98564",
+    "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "257.4 m²",
+    "precio": "50,000 MXN Renta",
+    "precio_m2": "$194.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/1e7f2fe3-fc83-47f1-9a82-019e70b98564",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260529012320-f2f10cda12c8415592fb6b12cb501dbfs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "6f68fb38-292c-4efb-bb81-019d5f6204c3",
+    "title": "Consultorio/Oficina sobre Blvd Constitución",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "90 m²",
+    "precio": "11,500 MXN Renta",
+    "precio_m2": "$127.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/6f68fb38-292c-4efb-bb81-019d5f6204c3",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260405145509-427d53ba921549c1bc4b991516950c89s.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "2a61b3e2-795a-42b2-bafc-019d5f392a79",
+    "title": "Local Planta Baja Sobre Calzada Gomez Morin en Plaza Santa Fe",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "66 m²",
+    "precio": "6,500 MXN Renta",
+    "precio_m2": "$98.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/2a61b3e2-795a-42b2-bafc-019d5f392a79",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260405140226-57f0bae01c0943159d2df35c7198fd84s.webp"
+    ],
+    "lat": 25.592478,
+    "lng": -103.3395159,
+    "status": "delisted"
+  },
+  {
+    "id": "59d16d82-b031-4248-9bfc-019dd251ea4c",
+    "title": "Local planta alta sobre calzada gomez morin 600 mts",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "600 m²",
+    "precio": "36,000 MXN Renta",
+    "precio_m2": "$60.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/59d16d82-b031-4248-9bfc-019dd251ea4c",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260427222805-9b756a5c91b045d0a585f7cd10a447a1s.webp"
+    ],
+    "lat": 25.592478,
+    "lng": -103.3395159,
+    "status": "delisted"
+  },
+  {
+    "id": "89d8b8cf-bfe7-41f5-940b-019dded3e7d4",
+    "title": "Local Panta Baja en Residencial la Hacienda sobre Calzada Gomez Morin",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "56 m²",
+    "precio": "6,500 MXN Renta",
+    "precio_m2": "$116.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/89d8b8cf-bfe7-41f5-940b-019dded3e7d4",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260430083910-ac83b01b8acb4325bd1de5679f296a77s.webp"
+    ],
+    "lat": 25.5958379,
+    "lng": -103.4068794,
+    "status": "delisted"
+  },
+  {
+    "id": "14dad88b-f7b3-455a-bf12-019e017975cd",
+    "title": "BODEGA CORRALON CENTRO TORREON 1725 MTS",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "725 m²",
+    "precio": "90,000 MXN Renta",
+    "precio_m2": "$124.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/14dad88b-f7b3-455a-bf12-019e017975cd",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260508221813-59e6e03569d24e099abde5fe5b0c8b54s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "5570b564-1593-4f39-b071-019dbbecd790",
+    "title": "BODEGA EN RESIDENCIAL LA HACIENDA",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "276 m²",
+    "precio": "14,500 MXN Renta",
+    "precio_m2": "$52.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/5570b564-1593-4f39-b071-019dbbecd790",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260423140037-34ce671d4e6b40c5a98b4bac257d3483s.webp"
+    ],
+    "lat": 25.5958379,
+    "lng": -103.4068794,
+    "status": "delisted"
+  },
+  {
+    "id": "d2d354b6-6071-406f-9f8e-019dc1e8b5d3",
+    "title": "SAN ISIDRO  CASA EN RENTA para Habitar o uso como Oficina",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "200 m²",
+    "precio": "20,000 MXN Renta",
+    "precio_m2": "$100.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d2d354b6-6071-406f-9f8e-019dc1e8b5d3",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260521183737-20638ebdcf57424099d058e739722cc5s.webp"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "818368d5-8c60-4e84-ba62-019de0551f7c",
+    "title": "Oficinas Panlta Alta 192 mts sobre Calzada Gomez. MORIN",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "192 m²",
+    "precio": "14,000 MXN Renta",
+    "precio_m2": "$72.9/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/818368d5-8c60-4e84-ba62-019de0551f7c",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260430223518-0db3a09d2cbb43568685b0f61999d880s.webp"
+    ],
+    "lat": 25.5958379,
+    "lng": -103.4068794,
+    "status": "delisted"
+  },
+  {
+    "id": "dcc1d248-19fa-4447-bfee-019e08ffdba9",
+    "title": "LOCAL 240 MTS EN ESQUINA  PLANTA BAJA SOBRE AV CONCURRIDA CENTRO DE TORREON  (CERCA BOSQUE VC)",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "240 m²",
+    "precio": "17,500 MXN Renta",
+    "precio_m2": "$72.9/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/dcc1d248-19fa-4447-bfee-019e08ffdba9",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260508131119-3a758b5e28784e86b7af500098f2f951s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "11cefcfa-d8d7-40ba-8de3-019e0918acd7",
+    "title": "LOCAL COMERCIAL PLANTA BAJA  45 mts CENTRO TORREON (CERCA DEL BOSQUE VC)",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "45 m²",
+    "precio": "4,200 MXN Renta",
+    "precio_m2": "$93.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/11cefcfa-d8d7-40ba-8de3-019e0918acd7",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260508133810-01440d8101f742e5a38700019bcb7f03s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "69d2fda6-7865-430e-8985-019dec5398bc",
+    "title": "PROPIEDAD SOBRE LA COBIAN  CERCA A BLVD INDEPENDENCIA",
+    "tipo": "Casa",
+    "municipio": "Torreón",
+    "superficie": "250 m²",
+    "precio": "5,000,000 MXN Venta",
+    "precio_m2": "$20,000/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/69d2fda6-7865-430e-8985-019dec5398bc",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260502233346-f4073ba1f38b4449831f193834e1c3efs.webp"
+    ],
+    "lat": 25.5491255,
+    "lng": -103.4473793,
+    "status": "delisted"
+  },
+  {
+    "id": "b9950b13-872a-41e2-9d0f-019d6668581d",
+    "title": "En el Centro Gran Ubicación Terreno con Locall y oficinas en renta",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "250 m²",
+    "precio": "16,500 MXN Renta",
+    "precio_m2": "$66.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/b9950b13-872a-41e2-9d0f-019d6668581d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260406232734-1658c9f7877141d480ffc267b089aba1s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "0fab3367-8882-4ff4-b3fd-019e7191be23",
+    "title": "Local Comercial en Excelente Ubicacion en Los Fresnos",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "48 m²",
+    "precio": "10,500 MXN Renta",
+    "precio_m2": "$218.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/0fab3367-8882-4ff4-b3fd-019e7191be23",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260528203239-2819c7b3ac1a481992f606a380b203e3s.webp"
+    ],
+    "lat": 25.5795578,
+    "lng": -103.4082889,
+    "status": "delisted"
+  },
+  {
+    "id": "52a66d19-376d-47f3-b727-019e6fe45f08",
+    "title": "RENTA LOCAL ALMANARA",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "33 m²",
+    "precio": "17,000 MXN Renta",
+    "precio_m2": "$515.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/52a66d19-376d-47f3-b727-019e6fe45f08",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260528124155-14491cceada7472cb3daa8431e4d90dcs.webp"
+    ],
+    "lat": 25.5795578,
+    "lng": -103.4082889,
+    "status": "delisted"
+  },
+  {
+    "id": "c0c43131-94b4-4e96-a15e-019e6fe61d48",
+    "title": "Bodega en Renta en Valle Verde, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "21,000 MXN Renta",
+    "precio_m2": "$70.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/c0c43131-94b4-4e96-a15e-019e6fe61d48",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260528124332-e7aa6e24783f4e9fb892dc3ed0d15464s.webp"
+    ],
+    "lat": 25.550731,
+    "lng": -103.3713152,
+    "status": "delisted"
+  },
+  {
+    "id": "3291558e-ffb3-44a4-b027-0196475d103c",
+    "title": "Local en renta en el Centro de Torreón",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "90 m²",
+    "precio": "15,000 MXN Renta",
+    "precio_m2": "$166.7/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/3291558e-ffb3-44a4-b027-0196475d103c",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250417233133-b0dc7fc8d17f47e8bcfaec3febc231f1s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "a5552bad-0882-437f-9094-018b293a3c87",
+    "title": "Terreno en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "563 m²",
+    "precio": "1,590,000 MXN Venta",
+    "precio_m2": "$2,824/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a5552bad-0882-437f-9094-018b293a3c87",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/230807161756-73a4838c3fad489392019a42ba11916d.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "9357907c-f4ce-46cb-8214-019e6b6dd4f7",
+    "title": "Bodega en Renta en Col. Centro, Torreón, Coahuila.",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "132 m²",
+    "precio": "12,800 MXN Renta",
+    "precio_m2": "$97.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/9357907c-f4ce-46cb-8214-019e6b6dd4f7",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527160206-daa0e9961f804248b2c7acbf08bbed3cs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "10635c95-15ad-4724-b342-019e6a846db8",
+    "title": "Oficina en Periférico. En renta con acceso para camiones. Torreón, Coahuila.",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "19,000 MXN Renta",
+    "precio_m2": "$63.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/10635c95-15ad-4724-b342-019e6a846db8",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527114630-6f217154833145fc935c4b9b01d43c60s.webp"
+    ],
+    "lat": 25.550731,
+    "lng": -103.3713152,
+    "status": "delisted"
+  },
+  {
+    "id": "190fe0ed-b523-4cd6-9cb2-019e6a642ca0",
+    "title": "Local en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "70 m²",
+    "precio": "750,000 MXN Venta",
+    "precio_m2": "$10,714/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/190fe0ed-b523-4cd6-9cb2-019e6a642ca0",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527110330-493f20fd4a4a40d8b2793e38d906a3b0s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "ce02d660-e59d-46aa-bf80-019e6b663502",
+    "title": "Local Comercial en Renta en Blvd. Constitución en Torreón, Coahuila",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "60 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$200.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ce02d660-e59d-46aa-bf80-019e6b663502",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527155442-b7021ffe28a14abc90aa2c44f6b196c9s.webp"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "1a87f188-e68d-4a1d-890c-019e6b259ae6",
+    "title": "Local Comercial en Renta en Blvd. Constitución, Torreón - Ubicación Estratégica en Zona COMERCIAL",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "90 m²",
+    "precio": "16,500 MXN Renta",
+    "precio_m2": "$183.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/1a87f188-e68d-4a1d-890c-019e6b259ae6",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527143951-4de153ea33074c7096d5b2ad45f463dds.webp"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "a5b1d788-bc70-471e-b54a-019e6aedf98c",
+    "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,700 m²",
+    "precio": "11,800,000 MXN Venta",
+    "precio_m2": "$6,941/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a5b1d788-bc70-471e-b54a-019e6aedf98c",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527133401-1cd92dd9887f476e9499f49bc84909cbs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "e979aa0d-dcba-4dc0-8370-019e6aecf324",
+    "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,700 m²",
+    "precio": "130,000 MXN Renta",
+    "precio_m2": "$76.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/e979aa0d-dcba-4dc0-8370-019e6aecf324",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527133254-4b19dd3d45a54d69bd7e9d2d116a4516s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "d2235a21-a6d9-431f-bf1d-019258bfcbf2",
+    "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "200 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$60.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d2235a21-a6d9-431f-bf1d-019258bfcbf2",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-241004121816-0baaefbe6e1549de9e91983edef0f6fas.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "d0de863d-29d0-4e0f-b0eb-0196031beb2b",
+    "title": "OFICINA EN RENTA EN PLANTA ALTA",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "125 m²",
+    "precio": "4,700 MXN Renta",
+    "precio_m2": "$37.6/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d0de863d-29d0-4e0f-b0eb-0196031beb2b",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250825132332-93ec1f906bb84b1c86c3e38222382bffs.webp"
+    ],
+    "lat": 25.5247247,
+    "lng": -103.4199821,
+    "status": "delisted"
+  },
+  {
+    "id": "d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
+    "title": "Renta de Local Comercial en Avenida en Villas de la Hacienda, Torreón",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "70 m²",
+    "precio": "11,000 MXN Renta",
+    "precio_m2": "$157.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527172743-90db875bc2214ce6b7e2cd8c26bce14fs.webp"
+    ],
+    "lat": 25.5912695,
+    "lng": -103.4173454,
+    "status": "delisted"
+  },
+  {
+    "id": "ca7823c7-101c-4af0-91e2-019e6bec6f9a",
+    "title": "Local Comercial en Renta en Residencial el Fresno, Torreón",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "292 m²",
+    "precio": "102,109 MXN Renta",
+    "precio_m2": "$349.7/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ca7823c7-101c-4af0-91e2-019e6bec6f9a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527181227-37389a9578d546feb06e1d27982a0a96s.webp"
+    ],
+    "lat": 25.5795578,
+    "lng": -103.4082889,
+    "status": "delisted"
+  },
+  {
+    "id": "4b5d017a-1472-4ec6-bb52-019e6c298844",
+    "title": "Terreno en Venta en La Union, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "754 m²",
+    "precio": "2,800,000 MXN Venta",
+    "precio_m2": "$3,714/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/4b5d017a-1472-4ec6-bb52-019e6c298844",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260527192450-6b23f4a2a62d45cc810c9c52c9ac19efs.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "495fa378-4e0e-42fa-9676-019a7472a194",
+    "title": "Renta de Oficina  estilo Industrial en el Tajito",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "160 m²",
+    "precio": "30,000 MXN Renta",
+    "precio_m2": "$187.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/495fa378-4e0e-42fa-9676-019a7472a194",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-251111134718-7ea553acb83f4e38986ed9331d675c49s.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "d0449037-fae9-42d5-b73a-019e667997a2",
+    "title": "Oficina o consultorio",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "200 m²",
+    "precio": "20,000 MXN Renta",
+    "precio_m2": "$100.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d0449037-fae9-42d5-b73a-019e667997a2",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260526164850-40d9422295fc43a5968da69116d50b31s.webp"
+    ],
+    "lat": 25.5491255,
+    "lng": -103.4473793,
+    "status": "delisted"
+  },
+  {
+    "id": "32e0fc74-c7c9-42d5-88ed-019e655cc1a0",
+    "title": "Bodega en Venta en Plaza Jumbo, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "150 m²",
+    "precio": "3,950,000 MXN Venta",
+    "precio_m2": "$26,333/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/32e0fc74-c7c9-42d5-88ed-019e655cc1a0",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260526113718-6908c5b6a68d4207b5141e0f3a7da4bes.webp"
+    ],
+    "lat": 25.5330669,
+    "lng": -103.3752735,
+    "status": "delisted"
+  },
+  {
+    "id": "da9642d5-2c97-4c0b-b4fa-018b293c22b4",
+    "title": "Oficina en Renta en San Isidro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "7,000 MXN Renta",
+    "precio_m2": "$23.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/da9642d5-2c97-4c0b-b4fa-018b293c22b4",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/230914190655-30317db09a034eab91b641e9bbd9e915.jpg"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "6cc2abc9-6739-42db-bb20-019e65ab65f5",
+    "title": "LOCAL COMERCIAL EN RENTA EN JULIÁN CARRILLO !!!",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "44 m²",
+    "precio": "8,000 MXN Renta",
+    "precio_m2": "$181.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/6cc2abc9-6739-42db-bb20-019e65ab65f5",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260526130816-d42a2b071dc340aa873306ec8eb3338fs.webp"
+    ],
+    "lat": 25.5724766,
+    "lng": -103.447842,
+    "status": "delisted"
+  },
+  {
+    "id": "2fc042ce-d9f5-48e7-8733-019e6032e879",
+    "title": "TERRENO EN VENTA BLVD. MIELERAS Y BLVD. LAGUNA SUR",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "38,327 m²",
+    "precio": "37,000,000 MXN Venta",
+    "precio_m2": "$965.4/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/2fc042ce-d9f5-48e7-8733-019e6032e879",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525113351-397c68bc17644ade9cdb76c1e3b4e545s.webp"
+    ],
+    "lat": 25.4872544,
+    "lng": -103.3419495,
+    "status": "delisted"
+  },
+  {
+    "id": "c6f6c6e7-4d3d-4216-aaba-01920caa9185",
+    "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,500 m²",
+    "precio": "90,000 MXN Renta",
+    "precio_m2": "$60.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/c6f6c6e7-4d3d-4216-aaba-01920caa9185",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-240919174634-68d3ab7554a646438f78078b14896b1es.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "60988987-76ef-48df-a9e6-019852335553",
+    "title": "Terreno",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "398 m²",
+    "precio": "16,000 MXN Renta",
+    "precio_m2": "$40.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/60988987-76ef-48df-a9e6-019852335553",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250728120318-858ad709b8b74d92a00b952f6a38c835s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "ade81bae-6a0b-445f-bfa3-019e61f0e0ec",
+    "title": "Terreno en Venta, atrás del Sanatorio Español,  Zona Norte",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "400 m²",
+    "precio": "800,000 MXN Venta",
+    "precio_m2": "$2,000/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ade81bae-6a0b-445f-bfa3-019e61f0e0ec",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525194117-80df2d2f5baa4a72bb3a7e2c2e3a7f49s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "31fe5987-8ed9-4bea-9eb3-019e5fe0c5ed",
+    "title": "Terreno en Venta en Residencial el Fresno, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "576 m²",
+    "precio": "4,608,900 MXN Venta",
+    "precio_m2": "$8,002/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/31fe5987-8ed9-4bea-9eb3-019e5fe0c5ed",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525100346-9ffe21d2c2fa4941809d10e442574333s.webp"
+    ],
+    "lat": 25.5795578,
+    "lng": -103.4082889,
+    "status": "delisted"
+  },
+  {
+    "id": "ee20d0db-49a3-486a-8072-019e5fe0b383",
+    "title": "LOCALES SECTOR CENTRAL CAMIONERA",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "150 m²",
+    "precio": "21,000 MXN Renta",
+    "precio_m2": "$140.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ee20d0db-49a3-486a-8072-019e5fe0b383",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525100927-2f8f9247ad2d46d78ebadc4dcfe18228s.webp"
+    ],
+    "lat": 25.5415612,
+    "lng": -103.3952856,
+    "status": "delisted"
+  },
+  {
+    "id": "340a805f-556f-441e-b4b2-019e601a4049",
+    "title": "Local en Renta en Quintas San Isidro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "48 m²",
+    "precio": "10,500 MXN Renta",
+    "precio_m2": "$218.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/340a805f-556f-441e-b4b2-019e601a4049",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525110721-1e5436038e854aa7819f35eab84dc132s.webp"
+    ],
+    "lat": 25.5734964,
+    "lng": -103.4109751,
+    "status": "delisted"
+  },
+  {
+    "id": "f1889965-e2c9-484b-9c56-018d67145aa9",
+    "title": "Consultorio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "22 m²",
+    "precio": "7,000 MXN Renta",
+    "precio_m2": "$318.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/f1889965-e2c9-484b-9c56-018d67145aa9",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/240201171027-8353634258d3445f961da13cdf9ae14b.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "36a35baf-531d-4c25-a48a-019e607dcbde",
+    "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "500 m²",
+    "precio": "70,000 MXN Renta",
+    "precio_m2": "$140.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/36a35baf-531d-4c25-a48a-019e607dcbde",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525125517-50d5904324414cf6bbf6820a18052a89s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "bbca4244-f57a-4467-93e2-0197f0e879b9",
+    "title": "Edificio en Venta en Torreón Centro, Torreon Coauila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,500 m²",
+    "precio": "20,000,000 MXN Venta",
+    "precio_m2": "$13,333/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/bbca4244-f57a-4467-93e2-0197f0e879b9",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250709175839-2613197355d84ae28bd6a4dab0317a73s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "04d974cb-6e70-481f-b8ca-01983de30cc7",
+    "title": "Local Comercial en RENTA sobre el Blvd Independecnia",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "100 m²",
+    "precio": "10,000 MXN Renta",
+    "precio_m2": "$100.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/04d974cb-6e70-481f-b8ca-01983de30cc7",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250724132557-9e2b687d58d741678c12fb080773b6f4s.webp"
+    ],
+    "lat": 25.5491255,
+    "lng": -103.4473793,
+    "status": "delisted"
+  },
+  {
+    "id": "5e376eba-c5f8-4dff-8217-019d8ddf7a68",
+    "title": "Local en renta en el centro de Torreón",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "457 m²",
+    "precio": "60,000 MXN Renta",
+    "precio_m2": "$131.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/5e376eba-c5f8-4dff-8217-019d8ddf7a68",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260414152226-4ab328a814ab411e915d2d6970dcab50s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "605b6c2e-d8fb-46d9-8ab0-019e605f1463",
+    "title": "BODEGA EN RENTA ZONA ABASTOS TORREON COAH",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "190 m²",
+    "precio": "16,500 MXN Renta",
+    "precio_m2": "$86.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/605b6c2e-d8fb-46d9-8ab0-019e605f1463",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525122428-70a3f8cbc4344d11805db45e06b8bedas.webp"
+    ],
+    "lat": 25.557004,
+    "lng": -103.3802881,
+    "status": "delisted"
+  },
+  {
+    "id": "a4e64e4c-5ae5-4939-9884-019e60d2ac96",
+    "title": "BODEGA A UNA CUADRA DEL DIAGONAL REFORMA",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "158 m²",
+    "precio": "12,800 MXN Renta",
+    "precio_m2": "$81.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a4e64e4c-5ae5-4939-9884-019e60d2ac96",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525142820-689f34ad4f80498dbdef714742f2759as.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "504eb852-c3de-4108-ab35-019e5c6f370e",
+    "title": "Oficina en planta baja",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "60 m²",
+    "precio": "8,000 MXN Renta",
+    "precio_m2": "$133.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/504eb852-c3de-4108-ab35-019e5c6f370e",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260524180220-2819263c08dd4a87acabd632f5afe719s.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "df0d4274-4f78-49ef-b2a1-019e5c882f54",
+    "title": "Oficina planta alta",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "50 m²",
+    "precio": "6,500 MXN Renta",
+    "precio_m2": "$130.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/df0d4274-4f78-49ef-b2a1-019e5c882f54",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260524182842-b6f1c57f48b3479fa121537629cd2659s.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "3d8460f8-0c18-4c1b-924a-019e5c79d387",
+    "title": "Oficina planta alta",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "60 m²",
+    "precio": "7,000 MXN Renta",
+    "precio_m2": "$116.7/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/3d8460f8-0c18-4c1b-924a-019e5c79d387",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260524181324-ba54cd62c9814410ba4bd0733443884bs.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "fb17e41e-68af-4c17-9bb9-019e5c751051",
+    "title": "Oficina planta baja",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "60 m²",
+    "precio": "8,000 MXN Renta",
+    "precio_m2": "$133.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/fb17e41e-68af-4c17-9bb9-019e5c751051",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260524180812-5749b13cc99c4aaa923b2adb7ef84137s.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "8d23553a-a3bb-4234-802f-019e5c823b3b",
+    "title": "Oficina planta baja",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "50 m²",
+    "precio": "5,500 MXN Renta",
+    "precio_m2": "$110.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/8d23553a-a3bb-4234-802f-019e5c823b3b",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260524182212-e3f0225448324f3f90099e53cd18189ds.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "a31ee4bc-5c27-47a9-8032-019e5c8cb88a",
+    "title": "Oficina planta alta",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "55 m²",
+    "precio": "7,000 MXN Renta",
+    "precio_m2": "$127.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a31ee4bc-5c27-47a9-8032-019e5c8cb88a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260524183325-9c065e0a49dc415383ca31dbbb8628a3s.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "d79f69cf-9bf6-43cf-9551-019e5d062cb2",
+    "title": "LOCAL COMERCIAL EN RENTA, EN COL. CENTRO. TORREON COAHUILA",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "203 m²",
+    "precio": "40,600 MXN Renta",
+    "precio_m2": "$200.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d79f69cf-9bf6-43cf-9551-019e5d062cb2",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260524204559-b29d17c82a6e4352883ea2742a0c692es.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "23ff7766-1774-4529-af5f-019cfefa69dc",
+    "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "55,000 MXN Renta",
+    "precio_m2": "$183.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/23ff7766-1774-4529-af5f-019cfefa69dc",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260317212646-f5cdd873025947f996f9bf342efc8110s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "active"
+  },
+  {
+    "id": "c36980af-541f-449f-ab17-019ce05d73d6",
+    "title": "Terreno en Renta en Residencial las Etnias, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "200 m²",
+    "precio": "10,000 MXN Renta",
+    "precio_m2": "$50.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/c36980af-541f-449f-ab17-019ce05d73d6",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260311224627-efb4d327d40c4fd0bf3e6603fa923cd1s.webp"
+    ],
+    "lat": 25.5549607,
+    "lng": -103.3856114,
+    "status": "active"
+  },
+  {
+    "id": "3330110f-6fc5-439d-8606-018b2496f57f",
+    "title": "Terreno en Venta en El Tajito, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "995 m²",
+    "precio": "4,200,000 MXN Venta",
+    "precio_m2": "$4,221/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/3330110f-6fc5-439d-8606-018b2496f57f",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/181001190024-2a31b36acc4244ad96178af8797affb6.jpg"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "active"
+  },
+  {
+    "id": "456ea2cc-269d-45c2-ae4a-018b1d80b554",
+    "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "500 m²",
+    "precio": "25,000 MXN Renta",
+    "precio_m2": "$50.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/456ea2cc-269d-45c2-ae4a-018b1d80b554",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/151001125058-9026abb110e6415d88e84394751f4bfb.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "active"
+  },
+  {
+    "id": "71708b2e-5c53-4dae-a2e3-01905bcef6fe",
+    "title": "Bodega en Renta en La Union, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "305 m²",
+    "precio": "22,000 MXN Renta",
+    "precio_m2": "$72.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/71708b2e-5c53-4dae-a2e3-01905bcef6fe",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-240627162903-5c06967e93b045ad9fc0bd8179dbd969s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "36182305-7d12-42ff-a8e2-018b291ce843",
+    "title": "Bodega en Renta en Aviacion, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "600 m²",
+    "precio": "40,000 MXN Renta",
+    "precio_m2": "$66.7/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/36182305-7d12-42ff-a8e2-018b291ce843",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/230504162934-e941bd7eff7145bd9cc9b227d9b903e3.jpg"
+    ],
+    "lat": 25.5501673,
+    "lng": -103.4079169,
+    "status": "active"
+  },
+  {
+    "id": "007726bc-a1b7-4cec-8349-018b1d498409",
+    "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,000 m²",
+    "precio": "35,000 MXN Renta",
+    "precio_m2": "$35.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/007726bc-a1b7-4cec-8349-018b1d498409",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/150806120355-307b4e4db7b242fcb235cdf57cf12973.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "active"
+  },
+  {
+    "id": "b70678a9-cf13-4d46-b9cb-019cb0a4c585",
+    "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "60,000 MXN Renta",
+    "precio_m2": "$200.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/b70678a9-cf13-4d46-b9cb-019cb0a4c585",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260302162341-2c60615e1dd14c43a0105322bd50d98bs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "active"
+  },
+  {
+    "id": "4b274dd2-5283-425b-b591-019e57bb70f3",
+    "title": "Bodega en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "250 m²",
+    "precio": "18,000 MXN Renta",
+    "precio_m2": "$72.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/4b274dd2-5283-425b-b591-019e57bb70f3",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260523200617-aff8dc00f13047fd963c14c6c57ff6f9s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "884d186c-12ec-4092-8ca7-019e52331f28",
+    "title": "Bodega en Renta en Zona Centro de Torreón Coah. de Zaragoza.",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "1,350 m²",
+    "precio": "150,000 MXN Renta",
+    "precio_m2": "$111.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/884d186c-12ec-4092-8ca7-019e52331f28",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260522190338-886394c555754681b99c90b67a838358s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "07dd6d2b-3e61-4daa-82ac-01990b662fdd",
+    "title": "Terreno Comercial/Habitacional - Ideal para Desarrollo de Vivienda y Plaza Comercial",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "28,730 m²",
+    "precio": "17,238,258 MXN Venta",
+    "precio_m2": "$600.0/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/07dd6d2b-3e61-4daa-82ac-01990b662fdd",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250902110817-3602a2d0290d40d2823a2f204fb09448s.webp"
+    ],
+    "lat": 25.5932828,
+    "lng": -103.357917,
+    "status": "delisted"
+  },
+  {
+    "id": "3003152e-bce8-4362-b5bd-0198c6078370",
+    "title": "Bodega en renta",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "90 m²",
+    "precio": "7,000 MXN Renta",
+    "precio_m2": "$77.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/3003152e-bce8-4362-b5bd-0198c6078370",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250819235137-c9e90349be654beab13d96ee2e36a991s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "a47d9b35-490b-46dc-b589-0195aa7480cf",
+    "title": "Bodega en renta",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "400 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$30.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a47d9b35-490b-46dc-b589-0195aa7480cf",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260204162436-a216c140edbf4e8eb0fbb160553263f3s.webp"
+    ],
+    "lat": 25.4955178,
+    "lng": -103.3807801,
+    "status": "delisted"
+  },
+  {
+    "id": "b78ccbe3-1f29-469f-a27b-019e51bf5326",
+    "title": "Terreno en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "165 m²",
+    "precio": "13,500 MXN Renta",
+    "precio_m2": "$81.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/b78ccbe3-1f29-469f-a27b-019e51bf5326",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260522164333-8c1533706de74e07b8f0af4c975e5ac1s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "553d63ea-36fc-4efd-8c6b-019e506eef67",
+    "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "530 m²",
+    "precio": "5,300,000 MXN Venta",
+    "precio_m2": "$10,000/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/553d63ea-36fc-4efd-8c6b-019e506eef67",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260522100906-9221e55268b24fa797fdefb866f5cce7s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "68aa1693-03d3-490e-97f8-019e4b3a1054",
+    "title": "BODEGA EN RENTA ZONA CENTRO TORREON",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "400 m²",
+    "precio": "30,000 MXN Renta",
+    "precio_m2": "$75.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/68aa1693-03d3-490e-97f8-019e4b3a1054",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260521094934-fbbed800733141aaa101f974aca6f68es.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "bd29b512-efda-407c-8a06-018d47895d10",
+    "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "800 m²",
+    "precio": "6,500,000 MXN Venta",
+    "precio_m2": "$8,125/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/bd29b512-efda-407c-8a06-018d47895d10",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/240126141925-116838f1717c4a459badebfbba473260.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "02dc4703-71af-420a-a9ca-018b27d1e21d",
+    "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "700 m²",
+    "precio": "40,000 MXN Renta",
+    "precio_m2": "$57.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/02dc4703-71af-420a-a9ca-018b27d1e21d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/220119142202-acad70f17cfc462aabeff3d19308263f.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "04b838dc-0060-424a-ab9d-0195bac3dc51",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "289 m²",
+    "precio": "86,850 MXN Renta",
+    "precio_m2": "$300.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/04b838dc-0060-424a-ab9d-0195bac3dc51",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250321161255-ed634de003a743169d166f219ff40633s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "88f29a43-a895-4cb2-b889-01982915ca5a",
+    "title": "Bodega en Renta en Plaza Jumbo, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "3,210 m²",
+    "precio": "210,255 MXN Renta",
+    "precio_m2": "$65.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/88f29a43-a895-4cb2-b889-01982915ca5a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250720122602-011435186907427398d11c39241e5744s.webp"
+    ],
+    "lat": 25.5330669,
+    "lng": -103.3752735,
+    "status": "delisted"
+  },
+  {
+    "id": "5a7ac1e8-48fc-428c-b8cf-0199f44c7045",
+    "title": "Bodega en Renta en Plaza Jumbo, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "128 m²",
+    "precio": "100,000 MXN Renta",
+    "precio_m2": "$781.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/5a7ac1e8-48fc-428c-b8cf-0199f44c7045",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-251017163128-ce5b418b0ffb4ebf8579d7f2a9495367s.webp"
+    ],
+    "lat": 25.5330669,
+    "lng": -103.3752735,
+    "status": "delisted"
+  },
+  {
+    "id": "52c88327-1941-4593-9af6-01976fe3af28",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "110 m²",
+    "precio": "7,500 MXN Renta",
+    "precio_m2": "$93.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/52c88327-1941-4593-9af6-01976fe3af28",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250614132133-bfbc2db5535c4053808733822b7dc65ds.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "3e66e499-ba59-44d8-9049-0199b138f5d6",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "70 m²",
+    "precio": "7,500 MXN Renta",
+    "precio_m2": "$107.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/3e66e499-ba59-44d8-9049-0199b138f5d6",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-251004155545-5665b7f952784fcd9cec6b89fd324a7es.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "d4a765c3-c202-4112-bf17-019ca09c117d",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "120 m²",
+    "precio": "13,000 MXN Renta",
+    "precio_m2": "$108.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d4a765c3-c202-4112-bf17-019ca09c117d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260227133848-9441a5c0ba084771b4124bf1879e50d3s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "ffb3a972-525e-4dfc-b3ce-019c54840819",
+    "title": "Bodega en Renta en El Tajito, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "750 m²",
+    "precio": "39,000 MXN Renta",
+    "precio_m2": "$52.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ffb3a972-525e-4dfc-b3ce-019c54840819",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260212190124-c93fc0b0bec2490691d921cacfd7e23fs.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "87183fd4-fde9-49a8-b970-019e4d041645",
+    "title": "Oficina en Renta en San Isidro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "230 m²",
+    "precio": "20,000 MXN Renta",
+    "precio_m2": "$87.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/87183fd4-fde9-49a8-b970-019e4d041645",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260525162902-9d0410e21454450ca77a6fd1e35559a0s.webp"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "ad664e9b-ce7a-4786-bba6-019e4c32fe34",
+    "title": "Local planta baja en renta ubicado en Blvd. El Tajito",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "118 m²",
+    "precio": "13,000 MXN Renta",
+    "precio_m2": "$110.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ad664e9b-ce7a-4786-bba6-019e4c32fe34",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260521142555-05483f014599480ba650355337ec87a6s.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "06dc2885-1403-429d-8868-019e4c4c7baf",
+    "title": "LOCAL COMERCIAL EN RENTA, COL. CENTRO, TORREON, COAH.",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "170 m²",
+    "precio": "25,000 MXN Renta",
+    "precio_m2": "$147.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/06dc2885-1403-429d-8868-019e4c4c7baf",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260521145000-8e13783881a3413897ed7016e993617cs.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "3ce0f4a3-9ef0-4e18-a393-019e4c13596c",
+    "title": "Casa COMERCIAL en Venta en Nuevo Torreón, Coahuila",
+    "tipo": "Casa",
+    "municipio": "Torreón",
+    "superficie": "645 m²",
+    "precio": "4,400,000 MXN Venta",
+    "precio_m2": "$6,822/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/3ce0f4a3-9ef0-4e18-a393-019e4c13596c",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260521134654-527695c32efb4d0aa3ff252be47e74c3s.webp"
+    ],
+    "lat": 25.5407807,
+    "lng": -103.4104955,
+    "status": "delisted"
+  },
+  {
+    "id": "2ca2ddc3-cc04-461f-9646-019e4b0f6c3a",
+    "title": "Local planta baja en renta ubicado en Blvd. El Tajito",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "118 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$101.7/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/2ca2ddc3-cc04-461f-9646-019e4b0f6c3a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260521135029-0f558645042e45989d07f951e36a9472s.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "60b3321c-68c6-4813-8eac-019e4ce6e6db",
+    "title": "Casa para oficina o consultorio",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "230 m²",
+    "precio": "20,000 MXN Renta",
+    "precio_m2": "$87.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/60b3321c-68c6-4813-8eac-019e4ce6e6db",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260521173919-c2bd5ecbaf244913963b370ba2b1a7a4s.webp"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "ca3ecd79-9b01-471e-b37e-019e4bc02e5c",
+    "title": "Local comercial en renta en Blvd Independencia, Torreón",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "200 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$60.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ca3ecd79-9b01-471e-b37e-019e4bc02e5c",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260526114656-2d303bd7bc784b15805a6abc1bd1576cs.webp"
+    ],
+    "lat": 25.5545124,
+    "lng": -103.4450046,
+    "status": "delisted"
+  },
+  {
+    "id": "cf30823a-6964-443c-ba32-01965ba64487",
+    "title": "Boedga en Renta Zona Centro",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "400 m²",
+    "precio": "30,000 MXN Renta",
+    "precio_m2": "$75.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/cf30823a-6964-443c-ba32-01965ba64487",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250421215919-c17ad5ab1fb24a4a85d77daee112cee8s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "b5f53994-3942-4b5c-b4a4-0197fb97ad12",
+    "title": "Terreno en Venta en La Perla, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "386 m²",
+    "precio": "1,285,380 MXN Venta",
+    "precio_m2": "$3,330/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/b5f53994-3942-4b5c-b4a4-0197fb97ad12",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250711162633-8f7c2b9c5862453bb40078526e7a0f5es.webp"
+    ],
+    "lat": 25.4968104,
+    "lng": -103.351132,
+    "status": "delisted"
+  },
+  {
+    "id": "823239ec-8a4f-468a-8fbe-019819247a18",
+    "title": "Bodega en Renta en Plaza Jumbo, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "3,210 m²",
+    "precio": "210,000 MXN Renta",
+    "precio_m2": "$65.4/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/823239ec-8a4f-468a-8fbe-019819247a18",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250717101653-9d199ced1312419797a5257e1ef03ac6s.webp"
+    ],
+    "lat": 25.5330669,
+    "lng": -103.3752735,
+    "status": "delisted"
+  },
+  {
+    "id": "83c0799e-e315-4aae-a427-01992ba5a2a2",
+    "title": "Bodega en Renta Cerca del Aeropuerto en Torreón",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "954 m²",
+    "precio": "70,000 MXN Renta",
+    "precio_m2": "$73.4/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/83c0799e-e315-4aae-a427-01992ba5a2a2",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250908172652-024f209ef22c460abaa3448e722375f9s.webp"
+    ],
+    "lat": 25.5581092,
+    "lng": -103.4117788,
+    "status": "delisted"
+  },
+  {
+    "id": "1313aad6-c8df-4199-bbfa-0199d4f39ba8",
+    "title": "Bodega en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "420 m²",
+    "precio": "3,999,000 MXN Venta",
+    "precio_m2": "$9,521/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/1313aad6-c8df-4199-bbfa-0199d4f39ba8",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-251011142631-474b4d81ecde490ba2be7a7d5a71cadds.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "4060638b-03b5-4a05-99b9-0198c4de957d",
+    "title": "Bodega en Renta",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "2,000 m²",
+    "precio": "118,000 MXN Renta",
+    "precio_m2": "$59.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/4060638b-03b5-4a05-99b9-0198c4de957d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250819182642-be89d7c039f2445fb8a98038477a1d09s.webp"
+    ],
+    "lat": 25.5910781,
+    "lng": -103.3670831,
+    "status": "delisted"
+  },
+  {
+    "id": "decd1ede-8ec1-4ed8-a252-018e58b157f7",
+    "title": "Bodega en Renta en San Agustín, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "450 m²",
+    "precio": "35,000 MXN Renta",
+    "precio_m2": "$77.8/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/decd1ede-8ec1-4ed8-a252-018e58b157f7",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/240319155311-907b26f852cc47a7b47a0aeddf9a6b01.jpg"
+    ],
+    "lat": 25.5846293,
+    "lng": -103.371814,
+    "status": "delisted"
+  },
+  {
+    "id": "cf50e947-4a59-4b52-ba1d-019201b62416",
+    "title": "LOCAL JUAREZ AUTOLAVADO",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "350 m²",
+    "precio": "15,000 MXN Renta",
+    "precio_m2": "$42.9/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/cf50e947-4a59-4b52-ba1d-019201b62416",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260309125228-eb6d7162cad246c483e269bfb1174198s.webp"
+    ],
+    "lat": 25.5415612,
+    "lng": -103.3952856,
+    "status": "delisted"
+  },
+  {
+    "id": "12761af5-6cd0-4afd-bd3a-01953ecb3756",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "120 m²",
+    "precio": "13,000 MXN Renta",
+    "precio_m2": "$108.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/12761af5-6cd0-4afd-bd3a-01953ecb3756",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250225142748-c91a601e3d5d4a5d9f1d1af0c7c80179s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "59cee791-89b7-4dc0-93d3-019cee6a9516",
+    "title": "Local en Renta nuevo",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "60 m²",
+    "precio": "8,000 MXN Renta",
+    "precio_m2": "$133.3/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/59cee791-89b7-4dc0-93d3-019cee6a9516",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260314161531-ebf9af1db2ff47f6b3fef8d9c0bed944s.webp"
+    ],
+    "lat": 25.5374733,
+    "lng": -103.4608878,
+    "status": "delisted"
+  },
+  {
+    "id": "3381e13a-6e28-45df-8a1c-019df53dc55e",
+    "title": "Casa en Venta (solo efectivo) techo de vigueta, Ubicada en el Corazón de Torreón",
+    "tipo": "Casa",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "2,999,000 MXN Venta",
+    "precio_m2": "$9,997/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/3381e13a-6e28-45df-8a1c-019df53dc55e",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260504170651-4771c64e93714e10be0721837a361800s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "2a010738-e221-4694-92aa-019dfa11b5a9",
+    "title": "Renta de Bodega por El Tajito, Torreón - Espacio Funcional y Accesible",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "200 m²",
+    "precio": "13,000 MXN Renta",
+    "precio_m2": "$65.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/2a010738-e221-4694-92aa-019dfa11b5a9",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260505153614-e384389e80434b0ebd622e075b1d40c1s.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "d67e141d-0e03-4756-b97e-019e4620b18f",
+    "title": "Local en Renta en Placita Estación Juárez (Sobre Avenida Juárez), Torreón, Coahuila.",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "150 m²",
+    "precio": "21,000 MXN Renta",
+    "precio_m2": "$140.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d67e141d-0e03-4756-b97e-019e4620b18f",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520100337-c938dbcd067d4647af4fb348dd64efcds.webp"
+    ],
+    "lat": 25.5382974,
+    "lng": -103.475872,
+    "status": "delisted"
+  },
+  {
+    "id": "a81fcf2c-0345-4210-bf53-019e462abfd9",
+    "title": "Local en Renta en Placita Estación Juárez (Sobre Avenida Juárez), Torreón, Coahuila.",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "180 m²",
+    "precio": "25,200 MXN Renta",
+    "precio_m2": "$140.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a81fcf2c-0345-4210-bf53-019e462abfd9",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520101440-43018704595c4d2498ad6caef96c00dds.webp"
+    ],
+    "lat": 25.5382974,
+    "lng": -103.475872,
+    "status": "delisted"
+  },
+  {
+    "id": "2622fc71-b8e8-4231-b4d5-019e462e6b9f",
+    "title": "Local en Renta en Placita Estación Juárez (Sobre Avenida Juárez), Torreón, Coahuila.",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "290 m²",
+    "precio": "40,600 MXN Renta",
+    "precio_m2": "$140.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/2622fc71-b8e8-4231-b4d5-019e462e6b9f",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520101836-015dc2e605664573a27c2ca472e1f234s.webp"
+    ],
+    "lat": 25.5382974,
+    "lng": -103.475872,
+    "status": "delisted"
+  },
+  {
+    "id": "7e2a89b4-1013-410e-bae5-019e4634637f",
+    "title": "Locales en Renta en Placita Estación Juárez (Sobre Avenida Juárez), Torreón, Coahuila.",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "950 m²",
+    "precio": "133,000 MXN Renta",
+    "precio_m2": "$140.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/7e2a89b4-1013-410e-bae5-019e4634637f",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520102509-b660289e796f426d937076d49a5ca81fs.webp"
+    ],
+    "lat": 25.5382974,
+    "lng": -103.475872,
+    "status": "delisted"
+  },
+  {
+    "id": "7295d4bd-8147-4b62-876c-019e4658eab3",
+    "title": "OFICINA EN RENTA BLVD. CONSTITUCION, TORREON",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "30 m²",
+    "precio": "4,500 MXN Renta",
+    "precio_m2": "$150.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/7295d4bd-8147-4b62-876c-019e4658eab3",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520110634-80e65c54bbbe461880833010761f9e57s.webp"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "4d656530-0e9d-4d8e-ba3d-019e4697dbdd",
+    "title": "TERRENO EN EL TAJITO",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "14,040 m²",
+    "precio": "28,000,000 MXN Venta",
+    "precio_m2": "$1,994/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/4d656530-0e9d-4d8e-ba3d-019e4697dbdd",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520121356-93d3a4aac55a47f2b50ac5d0a665e5f2s.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "305bf7e7-6b86-4051-adcf-019e469f12a0",
+    "title": "Terreno en Venta en San Agustín, Torreón, Coahuila de Zaragoza",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "1,136 m²",
+    "precio": "2,900,000 MXN Venta",
+    "precio_m2": "$2,553/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/305bf7e7-6b86-4051-adcf-019e469f12a0",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520122204-007a7a2fbae0407daeb5fc82cbaac546s.webp"
+    ],
+    "lat": 25.5846293,
+    "lng": -103.371814,
+    "status": "delisted"
+  },
+  {
+    "id": "1fa4d615-fbda-410d-98e1-019e46a70239",
+    "title": "TERRENO EN VENTA EJIDO ANA",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "1,800 m²",
+    "precio": "5,000,000 MXN Remate",
+    "precio_m2": "$2,778/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/1fa4d615-fbda-410d-98e1-019e46a70239",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520123036-2e0bc64bd7d74e198710d43991c1a291s.webp"
+    ],
+    "lat": 25.60179,
+    "lng": -103.3806448,
+    "status": "delisted"
+  },
+  {
+    "id": "1203a8a0-ceee-4f3f-83ad-019e46d10205",
+    "title": "BODEGA EN RENTA, EN LA UNION, TORREON, COAH.",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "18,000 MXN Renta",
+    "precio_m2": "$60.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/1203a8a0-ceee-4f3f-83ad-019e46d10205",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260520131632-886f0aede4f645f7a715601f11be44b1s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "2bf11eb4-fb42-4785-b761-018b27d13f7c",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "555 m²",
+    "precio": "24,000 MXN Renta",
+    "precio_m2": "$43.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/2bf11eb4-fb42-4785-b761-018b27d13f7c",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/230209124752-3890fce0256d4274bc5efe88a2633448.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "8bd3a86f-68e7-47c2-8fbe-018d354c3241",
+    "title": "Local nuevo en Calz. Abastos",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "108 m²",
+    "precio": "18,000 MXN Renta",
+    "precio_m2": "$166.7/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/8bd3a86f-68e7-47c2-8fbe-018d354c3241",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/240123010039-060a06ec0617465ab1b4e934103dd064.jpg"
+    ],
+    "lat": 25.2684398,
+    "lng": -103.498528,
+    "status": "delisted"
+  },
+  {
+    "id": "49fe40e9-d9f2-4b3b-9d42-019a7ae2079e",
+    "title": "Terreno Bardeado y con caseta en el Tajito",
+    "tipo": "Terreno",
+    "municipio": "Torreón",
+    "superficie": "800 m²",
+    "precio": "25,000 MXN Renta",
+    "precio_m2": "$31.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/49fe40e9-d9f2-4b3b-9d42-019a7ae2079e",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-251112223453-81fc3084788b42b88ceb9b3ac800eba0s.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "215f75e8-1d8a-4125-84da-0196667e5fab",
+    "title": "Renta de Bodega Comercial con Oficina en Centro de Torreón",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "400 m²",
+    "precio": "30,000 MXN Renta",
+    "precio_m2": "$75.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/215f75e8-1d8a-4125-84da-0196667e5fab",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250424003830-c8020e0a26cc41ae8d138549ece43724s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
+    "title": "Local en Renta en San Isidro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "50 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$240.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250516175650-abc4a13f6a9f4bbabaf91e784686632bs.webp"
+    ],
+    "lat": 25.5642818,
+    "lng": -103.4357007,
+    "status": "delisted"
+  },
+  {
+    "id": "70476eae-707b-4eba-80f4-0199074495cc",
+    "title": "Bodega Comercial en El Tajito",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "400 m²",
+    "precio": "28,000 MXN Renta",
+    "precio_m2": "$70.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/70476eae-707b-4eba-80f4-0199074495cc",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-250901155302-8afd9ea437f6471583c1eb182e37ed5es.webp"
+    ],
+    "lat": 25.5752622,
+    "lng": -103.4335239,
+    "status": "delisted"
+  },
+  {
+    "id": "642f7cad-be04-4740-8e8e-019ae4a555cc",
+    "title": "Bodega en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "402 m²",
+    "precio": "5,500,000 MXN Venta",
+    "precio_m2": "$13,682/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/642f7cad-be04-4740-8e8e-019ae4a555cc",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-251203084133-b519bb687a9647d0afcd5184a0fd4b7fs.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "active"
+  },
+  {
+    "id": "7311a007-7ffa-47d0-a217-01913a5ad79d",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "65 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$184.6/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/7311a007-7ffa-47d0-a217-01913a5ad79d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260203205812-1de263c608534253910f952f1a8fbc2as.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "febdeb8a-4ed4-4cbd-bc16-019cdec74a83",
+    "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "90 m²",
+    "precio": "5,500 MXN Renta",
+    "precio_m2": "$61.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/febdeb8a-4ed4-4cbd-bc16-019cdec74a83",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260311152208-d12237a86d87467eb6c891ab88c60098s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "e15961ea-ab0b-4b3b-9876-019d99e1132b",
+    "title": "Local Comercial de Excelente ubicación frente al Mercado Alianza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "87 m²",
+    "precio": "1,350,000 MXN Venta",
+    "precio_m2": "$15,517/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/e15961ea-ab0b-4b3b-9876-019d99e1132b",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260417002948-bbfe7565fe2c40939d2ba5e2c97c5d69s.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "e6c848b8-75a5-4d82-8435-019e40986d8a",
+    "title": "Locales al Norte de Torreón, sobre Calzada de alto flujo vehicular",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "35 m²",
+    "precio": "5,300 MXN Renta",
+    "precio_m2": "$151.4/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/e6c848b8-75a5-4d82-8435-019e40986d8a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519081822-ccdda60942ad43bb938060530b8557f1s.webp"
+    ],
+    "lat": 25.5498144,
+    "lng": -103.366187,
+    "status": "delisted"
+  },
+  {
+    "id": "a091a1c8-e3a2-4f4a-aee7-019e409d807d",
+    "title": "Locales en plaza comercial sobre Calz de alto flujo vehicular",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "40 m²",
+    "precio": "7,250 MXN Renta",
+    "precio_m2": "$181.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/a091a1c8-e3a2-4f4a-aee7-019e409d807d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519082215-3758fadd7570467e91aefd8fcdd722a8s.webp"
+    ],
+    "lat": 25.5498144,
+    "lng": -103.366187,
+    "status": "delisted"
+  },
+  {
+    "id": "5a40642c-5e4c-49b1-9ba1-019c19c21480",
+    "title": "EXCELENTE LOCAL COMERCIAL CENTRO",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "126 m²",
+    "precio": "12,500 MXN Renta",
+    "precio_m2": "$99.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/5a40642c-5e4c-49b1-9ba1-019c19c21480",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260201091115-044b0079d6524016abc62ca4a20bf2abs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "01dc5c82-27bf-4ea6-b8e8-019c19c38304",
+    "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "76 m²",
+    "precio": "5,500 MXN Renta",
+    "precio_m2": "$72.4/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/01dc5c82-27bf-4ea6-b8e8-019c19c38304",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260201091249-324e79c9ae4946f6af849c5ba9d7812ds.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "bedecad2-314f-43db-b06c-019c263c5b7b",
+    "title": "Local Centrico en Planta BAJA",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "65 m²",
+    "precio": "9,500 MXN Renta",
+    "precio_m2": "$146.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/bedecad2-314f-43db-b06c-019c263c5b7b",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260203192200-098c2bfaf1714be9864c0ddbb706da81s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "68744fa0-8f62-448a-b94d-019c269f3b6d",
+    "title": "Local Comercial por Calle 12",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "75 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$160.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/68744fa0-8f62-448a-b94d-019c269f3b6d",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260203210845-169e6635812b47e4bab5e7ea0d7b0190s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "56bcf5bb-5445-4513-a83d-019db38c626f",
+    "title": "Local Comercial en Renta en El Fresno",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "43 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$279.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/56bcf5bb-5445-4513-a83d-019db38c626f",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260421232157-333e350e717e466abb70638e664500fes.webp"
+    ],
+    "lat": 25.5795578,
+    "lng": -103.4082889,
+    "status": "delisted"
+  },
+  {
+    "id": "76279b6a-ed3d-4cb9-b113-019dbc238fa4",
+    "title": "Local Comercial en el Centro de Torreón Planta Baja",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "54 m²",
+    "precio": "10,800 MXN Renta",
+    "precio_m2": "$200.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/76279b6a-ed3d-4cb9-b113-019dbc238fa4",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260423150934-e6d22fa4cf854031846357c0ff58acfds.webp"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "962bf202-c7cf-4498-b195-019e410ec052",
+    "title": "Local en Venta en Residencial las Etnias, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "300 m²",
+    "precio": "4,200,000 MXN Venta",
+    "precio_m2": "$14,000/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/962bf202-c7cf-4498-b195-019e410ec052",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519102546-8900bda3a4a34147b4101457ccdf20a8s.webp"
+    ],
+    "lat": 25.5549607,
+    "lng": -103.3856114,
+    "status": "delisted"
+  },
+  {
+    "id": "d2395dff-565d-4018-9746-019e415e3a3b",
+    "title": "Local en Renta en Moctezuma, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "95 m²",
+    "precio": "8,000 MXN Renta",
+    "precio_m2": "$84.2/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d2395dff-565d-4018-9746-019e415e3a3b",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519115234-23564d7637484f64b168f8e717ef736ds.webp"
+    ],
+    "lat": 25.5523151,
+    "lng": -103.4112516,
+    "status": "delisted"
+  },
+  {
+    "id": "cc2c9ca4-a812-4171-8663-019e417d080a",
+    "title": "Consultorio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "26 m²",
+    "precio": "8,500 MXN Renta",
+    "precio_m2": "$326.9/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/cc2c9ca4-a812-4171-8663-019e417d080a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519122646-e73f15b2dc2244938b3c7b296179bb2cs.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "74a9907a-cfa4-4ca7-b637-019e417f48fc",
+    "title": "Consultorio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "14 m²",
+    "precio": "5,000 MXN Renta",
+    "precio_m2": "$357.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/74a9907a-cfa4-4ca7-b637-019e417f48fc",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519122902-1852fc60c86a4c188cace7fb86af76c0s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "7d9d949c-26f5-44af-94c0-019e41813324",
+    "title": "Consultorio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Consultorio",
+    "municipio": "Torreón",
+    "superficie": "22 m²",
+    "precio": "8,000 MXN Renta",
+    "precio_m2": "$363.6/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/7d9d949c-26f5-44af-94c0-019e41813324",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519123108-0ee1417651204b0c8007ad75a2da03cds.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "7976d061-5012-4c2d-92bf-019e41b7b8ea",
+    "title": "Bodega en Venta con Departamento y Oficinas en Zona Mieleras, Torreón",
+    "tipo": "Bodega",
+    "municipio": "Torreón",
+    "superficie": "150 m²",
+    "precio": "1,800,000 MXN Venta",
+    "precio_m2": "$12,000/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/7976d061-5012-4c2d-92bf-019e41b7b8ea",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519133056-28358f896a564ac094137fe7824f7849s.webp"
+    ],
+    "lat": 25.5258808,
+    "lng": -103.4256827,
+    "status": "delisted"
+  },
+  {
+    "id": "15f01eb1-6df4-4320-9f02-019e41bf5032",
+    "title": "Local en Renta en Las Margaritas, Torreón, Coahuila de Zaragoza",
+    "tipo": "Local",
+    "municipio": "Torreón",
+    "superficie": "40 m²",
+    "precio": "5,500 MXN Renta",
+    "precio_m2": "$137.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/15f01eb1-6df4-4320-9f02-019e41bf5032",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519133911-c82de35fcbcf4bae9354fd795ed9f995s.webp"
+    ],
+    "lat": 25.5630433,
+    "lng": -103.446571,
+    "status": "delisted"
+  },
+  {
+    "id": "6c4629bc-52b7-413f-b9ad-019e42dfb7d0",
+    "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,920 m²",
+    "precio": "11,400,000 MXN Venta",
+    "precio_m2": "$5,938/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/6c4629bc-52b7-413f-b9ad-019e42dfb7d0",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519185353-9155c7e38dbe4a439df9a60c60c06624s.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "7d62f4ce-6d68-499d-9408-019e428cac1a",
+    "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,920 m²",
+    "precio": "125,000 MXN Renta",
+    "precio_m2": "$65.1/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/7d62f4ce-6d68-499d-9408-019e428cac1a",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260519184947-87a0149f18ad4d6c9fa89103c794268es.webp"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "delisted"
+  },
+  {
+    "id": "ba6113e1-b891-49c6-9b5a-019c2673002e",
+    "title": "Local ideal para Oficinas Blvd. Independencia",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "120 m²",
+    "precio": "12,000 MXN Renta",
+    "precio_m2": "$100.0/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ba6113e1-b891-49c6-9b5a-019c2673002e",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/pp-260203202158-dc100a016a1147d8b25e7052508de287s.webp"
+    ],
+    "lat": 25.5545124,
+    "lng": -103.4450046,
+    "status": "delisted"
+  },
+  {
+    "id": "df0a6db7-ad59-4076-9128-018b25e352da",
+    "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "240 m²",
+    "precio": "7,000,000 MXN Venta",
+    "precio_m2": "$29,167/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/df0a6db7-ad59-4076-9128-018b25e352da",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/200212191822-a549750b78304bfc9eea403bea5a20c6.jpg"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  },
+  {
+    "id": "4c2179b5-3b45-4b3f-8bfc-018b26f49fb8",
+    "title": "Oficina en renta en Los Viñedos, Torreón, Coahuila de Zaragoza",
+    "tipo": "Oficina",
+    "municipio": "Torreón",
+    "superficie": "40 m²",
+    "precio": "7,500 MXN Renta",
+    "precio_m2": "$187.5/m²",
+    "op_key": "renta",
+    "link": "https://app.nocnok.com/crm/154940/properties/4c2179b5-3b45-4b3f-8bfc-018b26f49fb8",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/210726122144-7a72a8fa8f9f47f0b4901391fc940fb3.jpg"
+    ],
+    "lat": 25.5697952,
+    "lng": -103.3825129,
+    "status": "delisted"
+  },
+  {
+    "id": "ca0b264e-62ed-47f9-a69a-018b261c49b1",
+    "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "1,570 m²",
+    "precio": "8,500,000 MXN Venta",
+    "precio_m2": "$5,414/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/ca0b264e-62ed-47f9-a69a-018b261c49b1",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/200714134623-21fe170462b74762bd1c397f3ad6deea.jpg"
+    ],
+    "lat": 25.5426189,
+    "lng": -103.4583872,
+    "status": "active"
+  },
+  {
+    "id": "d875ee2c-f9ad-4369-ae91-018b28407589",
+    "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+    "tipo": "Edificio",
+    "municipio": "Torreón",
+    "superficie": "660 m²",
+    "precio": "7,500,000 MXN Venta",
+    "precio_m2": "$11,364/m²",
+    "op_key": "venta",
+    "link": "https://app.nocnok.com/crm/154940/properties/d875ee2c-f9ad-4369-ae91-018b28407589",
+    "fotos_local": [
+      "https://s3.amazonaws.com/nocnok-img/220602154957-625b6cf830e349ce9e0e26ded3a0c444.jpg"
+    ],
+    "lat": 25.5986164,
+    "lng": -103.415279,
+    "status": "delisted"
+  }
+]

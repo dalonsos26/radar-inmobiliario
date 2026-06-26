@@ -28,11 +28,13 @@ BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
-PROPERTIES_FILE = DATA_DIR / "properties.json"
-HISTORY_FILE    = DATA_DIR / "history.json"
-WEEKLY_FILE     = DATA_DIR / "weekly_stats.json"
-ARCHIVE_FILE    = DATA_DIR / "archive.json"
-REPORT_FILE     = BASE_DIR / "index.html"
+PROPERTIES_FILE  = DATA_DIR / "properties.json"
+HISTORY_FILE     = DATA_DIR / "history.json"
+WEEKLY_FILE      = DATA_DIR / "weekly_stats.json"
+ARCHIVE_FILE     = DATA_DIR / "archive.json"
+OPORT_FILE       = DATA_DIR / "oportunidades.json"
+MAP_PROPS_FILE   = DATA_DIR / "map_props.json"
+REPORT_FILE      = BASE_DIR / "index.html"
 
 # ── Config ────────────────────────────────────────────────────────────────────
 LOGIN_URL = "https://sso.nocnok.com/Login"
@@ -1665,6 +1667,23 @@ async def main(username: str, password: str):
         archive      = load_json(ARCHIVE_FILE, {"properties": {}})
         delisted, price_drops_ui = get_oportunidades(archive)
         log(f"  {len(delisted)} deslistadas acumuladas | {len(price_drops_ui)} con baja de precio")
+
+        save_json(OPORT_FILE, {"delisted": delisted, "price_drops": price_drops_ui})
+        log(f"  ✓ {OPORT_FILE}")
+
+        map_props = [
+            {"id": e.get("id",""), "title": e.get("title",""), "tipo": e.get("tipo",""),
+             "municipio": e.get("municipio",""), "superficie": e.get("superficie",""),
+             "precio": e.get("precio",""), "precio_m2": e.get("precio_m2",""),
+             "op_key": e.get("op_key","otro"), "link": e.get("link",""),
+             "fotos_local": (e.get("fotos_local") or [])[:1],
+             "lat": e.get("lat"), "lng": e.get("lng"), "status": e.get("status","active"),
+            }
+            for e in archive.get("properties", {}).values()
+            if e.get("lat") and e.get("lng")
+        ]
+        save_json(MAP_PROPS_FILE, map_props)
+        log(f"  ✓ {MAP_PROPS_FILE} ({len(map_props)} con coordenadas)")
 
         # index.html is maintained manually — scraper only updates data JSON files
         # html = build_report(props, new_ids, run_ts, weekly_stats, delisted, price_drops_ui)
