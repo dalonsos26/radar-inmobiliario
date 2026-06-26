@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-06-26 12:08:06",
-  "total": 2901,
-  "new_count": 5,
+  "run_at": "2026-06-26 13:30:13",
+  "total": 2902,
+  "new_count": 2,
   "properties": [
     {
       "id": "023b3577-3a5d-4fb4-b1ab-019f04727c54",
@@ -82,6 +82,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260626115452-5495b649de1a4421953710af943639e3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260626115452-9329098f08ba4a0fa431f2500b1ebb6as.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260626115452-a5067a1c6995485982b9ffdd0ee1b760s.webp"
+      ]
+    },
+    {
+      "id": "e09838fc-a38f-46d1-aba7-018b27cfc7b4",
+      "code": "MX21-LZ2646",
+      "title": "Oficina en Renta en Ampliación los Ángeles, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "4,200 MXN Renta",
+      "precio_num": 4200.0,
+      "superficie": "50 m²",
+      "area_num": 50.0,
+      "precio_m2": "$84.0/m²",
+      "pm2_num": 84.0,
+      "ubicacion": "Ampliación los Ángeles, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CRECIENDO BIENES RAICES",
+      "fecha_publicacion": "2026-06-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/e09838fc-a38f-46d1-aba7-018b27cfc7b4",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/211217131207-a0cd71fd2b5745bfb64fd850cc71689b.jpg",
+        "https://s3.amazonaws.com/nocnok-img/211217131208-6146cdad341b4823913f11723f913f1f.jpg",
+        "https://s3.amazonaws.com/nocnok-img/211217131209-8544390aff9a4e23bb255e4a6216c55c.jpg"
       ]
     },
     {
@@ -34761,33 +34788,6 @@
       ]
     },
     {
-      "id": "021b0b4a-6a91-4861-9f87-018b26188a58",
-      "code": "MX20-IJ3325",
-      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "16,500 MXN Renta",
-      "precio_num": 16500.0,
-      "superficie": "181 m²",
-      "area_num": 181.0,
-      "precio_m2": "$91.2/m²",
-      "pm2_num": 91.16,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "COLDWELL BANKER COMARCA",
-      "fecha_publicacion": "2026-03-10",
-      "days_on_market": 108,
-      "link": "https://app.nocnok.com/crm/154940/properties/021b0b4a-6a91-4861-9f87-018b26188a58",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/200602111941-d4ace8c8b9d3463cba4b516e6d23268b.jpg",
-        "https://s3.amazonaws.com/nocnok-img/200602111907-ac6c78bfd7c549b9b723f1edd4c223ae.jpg",
-        "https://s3.amazonaws.com/nocnok-img/200602111854-2c13bbfc55914672a5dba8cb4dfc296d.jpg"
-      ]
-    },
-    {
       "id": "ae877b13-47f0-4ccf-bd25-019f00385d80",
       "code": "NN-HAW051",
       "title": "Bodega en Renta en Villas del Renacimiento, Torreón, Coahuila de Zaragoza",
@@ -66130,6 +66130,33 @@
         "https://s3.amazonaws.com/nocnok-img/200623134710-eba96ddaa80c4188b9fc94f6df6911e1.jpg",
         "https://s3.amazonaws.com/nocnok-img/200623134506-ec36c34bc65f46c797abcd8ee110af86.jpg",
         "https://s3.amazonaws.com/nocnok-img/200623134548-00938af8b2cf4a89b087d6fb273154ff.jpg"
+      ]
+    },
+    {
+      "id": "770eb526-2c8d-44fe-8ee1-019f0549710f",
+      "code": "NN-HAW784",
+      "title": "BODEGA CON PATIO DE MANIOBRAS EN RENTA ZONA INDUSTRIAL DE GOMEZ PALACIO, DGO.",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "175,000 MXN Renta",
+      "precio_num": 175000.0,
+      "superficie": "1,000 m²",
+      "area_num": 1000.0,
+      "precio_m2": "$175.0/m²",
+      "pm2_num": 175.0,
+      "ubicacion": "Parque Industrial Zona de Conectividad, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-06-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/770eb526-2c8d-44fe-8ee1-019f0549710f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260626125644-7bae7d5f9a024f338dc4d67e44b8a5f8s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260626125645-21b915078c5148d8b6e5d3fac40190abs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260626125646-5308dc4e0e3f4f4f863f95132fbb246ds.webp"
       ]
     },
     {
