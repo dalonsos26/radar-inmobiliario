@@ -198,6 +198,31 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 .comp-chart-wrap{position:relative;height:220px;margin-bottom:.85rem}
 #loc-pane-comp{display:none}
 .comp-empty{text-align:center;color:var(--muted);padding:2rem 1rem;font-size:.82rem}
+
+/* ── Mobile responsive ── */
+@media(max-width:700px){
+  body{flex-direction:column}
+  .sidebar{width:100%;min-height:unset;height:auto;flex-direction:column;position:fixed;bottom:0;left:0;right:0;z-index:100;padding:.4rem .6rem .5rem;box-shadow:0 -2px 12px rgba(0,0,0,.08);border-right:none;border-top:1px solid var(--border)}
+  .sidebar-logo{display:none}
+  .sidebar-update{display:none}
+  .tab-bar{flex-direction:row;gap:.2rem;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
+  .tab-bar::-webkit-scrollbar{display:none}
+  .tab-btn{flex-direction:column;font-size:.6rem;padding:.3rem .5rem;border-radius:8px;gap:.15rem;white-space:nowrap;flex-shrink:0;min-width:52px;align-items:center}
+  .main-content{padding:.75rem .65rem 80px}
+  .toolbar{padding:.55rem .7rem;gap:.45rem}
+  .tb-sep{display:none}
+  .tb-lbl{display:none}
+  .btn{font-size:.72rem;padding:.28rem .6rem}
+  .count{font-size:.7rem}
+  #nuevas-badge{font-size:.62rem;padding:.15rem .45rem}
+  .grid{grid-template-columns:1fr!important;gap:.75rem}
+  .card-body{padding:.5rem .75rem}
+  .card-top{padding:.65rem .75rem .25rem}
+  .fotos img{height:120px}
+}
+@media(min-width:701px) and (max-width:1099px){
+  .grid{grid-template-columns:repeat(2,1fr)}
+}
 </style>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"/>
