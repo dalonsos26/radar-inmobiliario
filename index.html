@@ -366,16 +366,17 @@ function updateTimestamp(runAt) {
 function initData() {
   var grid = document.getElementById('grid');
   if (grid) grid.innerHTML = '<div style="padding:2rem;color:var(--muted);text-align:center;font-size:.9rem">⏳ Cargando propiedades...</div>';
-  function fetchJSON(api, fallback, def_) {
-    return fetch(api).then(function(r){ return r.ok ? r.json() : Promise.reject(); }).catch(function(){
-      return fetch(fallback).then(function(r){ return r.json(); });
-    }).catch(function(){ return def_; });
+  var _gh = 'https://raw.githubusercontent.com/dalonsos26/radar-inmobiliario/main/data';
+  var _isProd = location.hostname !== 'localhost' && location.hostname !== '127.0.0.1';
+  function fetchJSON(name, def_) {
+    var url = _isProd ? (_gh + '/' + name) : ('/data/' + name);
+    return fetch(url).then(function(r){ return r.ok ? r.json() : Promise.reject(); }).catch(function(){ return def_; });
   }
   Promise.all([
-    fetchJSON('/api/data?file=properties', '/data/properties.json', {properties:[],new_count:0}),
-    fetchJSON('/api/data?file=oportunidades', '/data/oportunidades.json', {delisted:[],price_drops:[]}),
-    fetchJSON('/api/data?file=weekly_stats', '/data/weekly_stats.json', {}),
-    fetchJSON('/api/data?file=map_props', '/data/map_props.json', []),
+    fetchJSON('properties.json', {properties:[],new_count:0}),
+    fetchJSON('oportunidades.json', {delisted:[],price_drops:[]}),
+    fetchJSON('weekly_stats.json', {}),
+    fetchJSON('map_props.json', []),
   ]).then(function(results) {
     var propsData = results[0];
     var oport     = results[1];
