@@ -366,11 +366,16 @@ function updateTimestamp(runAt) {
 function initData() {
   var grid = document.getElementById('grid');
   if (grid) grid.innerHTML = '<div style="padding:2rem;color:var(--muted);text-align:center;font-size:.9rem">⏳ Cargando propiedades...</div>';
+  function fetchJSON(api, fallback, def_) {
+    return fetch(api).then(function(r){ return r.ok ? r.json() : Promise.reject(); }).catch(function(){
+      return fetch(fallback).then(function(r){ return r.json(); });
+    }).catch(function(){ return def_; });
+  }
   Promise.all([
-    fetch('/data/properties.json').then(function(r){ return r.json(); }),
-    fetch('/data/oportunidades.json').then(function(r){ return r.json(); }).catch(function(){ return {delisted:[],price_drops:[]}; }),
-    fetch('/data/weekly_stats.json').then(function(r){ return r.json(); }).catch(function(){ return {}; }),
-    fetch('/data/map_props.json').then(function(r){ return r.json(); }).catch(function(){ return []; }),
+    fetchJSON('/api/data?file=properties', '/data/properties.json', {properties:[],new_count:0}),
+    fetchJSON('/api/data?file=oportunidades', '/data/oportunidades.json', {delisted:[],price_drops:[]}),
+    fetchJSON('/api/data?file=weekly_stats', '/data/weekly_stats.json', {}),
+    fetchJSON('/api/data?file=map_props', '/data/map_props.json', []),
   ]).then(function(results) {
     var propsData = results[0];
     var oport     = results[1];
