@@ -383,9 +383,9 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
   <div class="section">
     <div class="toolbar" style="margin-bottom:.85rem">
       <div class="tb-group">
-        <button class="btn on" id="loc-tab-ageb" onclick="switchLocTab('ageb',this)">📍 AGEB</button>
-        <button class="btn"    id="loc-tab-iso"  onclick="switchLocTab('iso',this)">⏱ Isócrona</button>
-        <button class="btn"    id="loc-tab-comp" onclick="switchLocTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
+        <button class="btn on" id="loc-tab-ageb" onclick="locSwitchTab('ageb',this)">📍 AGEB</button>
+        <button class="btn"    id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
+        <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
     </div>
     <div id="analizador-layout">
@@ -420,15 +420,15 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <div id="loc-pane-iso" style="display:none">
           <h3 style="margin-bottom:.7rem">⏱ Isócrona</h3>
           <div class="iso-search-wrap">
-            <input id="iso-search" class="ageb-select" style="flex:1" placeholder="Buscar dirección…" onkeydown="if(event.key==='Enter')isoSearch()">
-            <button id="iso-search-btn" class="save-btn" onclick="isoSearch()">Buscar</button>
+            <input id="iso-search" class="ageb-select" style="flex:1" placeholder="Buscar dirección…" onkeydown="if(event.key==='Enter')isoGeocode()">
+            <button id="iso-search-btn" class="save-btn" onclick="isoGeocode()">Buscar</button>
           </div>
           <div id="iso-location-info"></div>
           <span class="iso-ctrl-lbl">Modo de transporte</span>
           <div class="iso-mode-group">
-            <button class="iso-mode-btn on" id="iso-mode-walk"  onclick="isoSetMode('walk',this)">🚶 A pie</button>
-            <button class="iso-mode-btn"    id="iso-mode-bike"  onclick="isoSetMode('bike',this)">🚲 Bici</button>
-            <button class="iso-mode-btn"    id="iso-mode-drive" onclick="isoSetMode('drive',this)">🚗 Auto</button>
+            <button class="iso-mode-btn on" id="iso-mode-walk"  onclick="isoSetMode('foot-walking',this)">🚶 A pie</button>
+            <button class="iso-mode-btn"    id="iso-mode-bike"  onclick="isoSetMode('cycling-regular',this)">🚲 Bici</button>
+            <button class="iso-mode-btn"    id="iso-mode-drive" onclick="isoSetMode('driving-car',this)">🚗 Auto</button>
           </div>
           <span class="iso-ctrl-lbl">Tiempos (minutos)</span>
           <div class="iso-times-group">
@@ -448,7 +448,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
             <span class="lbl">Guardar zona</span>
             <div class="iso-save-row">
               <input id="iso-save-name" placeholder="Nombre de zona…">
-              <button id="iso-save-btn" onclick="isoSaveZone()">Guardar</button>
+              <button id="iso-save-btn" onclick="isoSaveAnalysis()">Guardar</button>
             </div>
           </div>
         </div>
@@ -1583,8 +1583,8 @@ function locSwitchTab(tab, btn) {
 
 // ── Isócronas ─────────────────────────────────────────────────────────────────
 var _isoMarker = null, _isoLayers = [], _isoPoint = null;
-var _isoMode = 'driving-car';
-var _isoTimes = [3, 5, 10, 20];
+var _isoMode = 'foot-walking';
+var _isoTimes = [5, 10, 15];
 var _isoAgebData = {};
 
 var ISO_COLORS = ['#f97316','#fb923c','#fbbf24','#a3e635','#34d399'];
