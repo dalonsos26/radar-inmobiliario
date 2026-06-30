@@ -307,26 +307,53 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <!-- TAB: Oportunidades -->
 <div id="tab-oportunidades" style="display:none">
-  <div class="section">
-    <div class="toolbar" style="margin-bottom:.85rem">
-      <div class="tb-group">
-        <button class="btn on" id="op-tab-all"   onclick="applyOpTab('all',this)">Todas</button>
-        <button class="btn"    id="op-tab-delist" onclick="applyOpTab('delisted',this)">🔴 Dados de baja</button>
-        <button class="btn"    id="op-tab-drop"   onclick="applyOpTab('drops',this)">🟢 Baja de precio</button>
-      </div>
+  <div class="toolbar">
+    <div class="tb-group">
+      <span class="tb-lbl">Tipo</span>
+      <button class="btn on" id="op-tab-all"   onclick="applyOpTab('all',this)">Todas</button>
+      <button class="btn"    id="op-tab-delist" onclick="applyOpTab('delisted',this)">🔴 De baja</button>
+      <button class="btn"    id="op-tab-drop"   onclick="applyOpTab('drops',this)">🟢 Baja precio</button>
     </div>
-    <div id="oport-delisted-wrap">
-      <div class="section-card">
-        <h2>🔴 Propiedades dadas de baja (posible cierre)</h2>
-        <div class="oport-grid" id="oport-delisted"></div>
-      </div>
+    <div class="tb-sep"></div>
+    <div class="tb-group">
+      <span class="tb-lbl">Ciudad</span>
+      <button class="btn on-city on" id="op-cy-all" onclick="applyOpCity('all',this)">Todas</button>
+      <button class="btn"            id="op-cy-tor" onclick="applyOpCity('Torreón',this)">Torreón</button>
+      <button class="btn"            id="op-cy-gp"  onclick="applyOpCity('Gómez Palacio',this)">GP</button>
+      <button class="btn"            id="op-cy-mat" onclick="applyOpCity('Matamoros',this)">Matamoros</button>
     </div>
-    <div id="oport-drops-wrap">
-      <div class="section-card">
-        <h2>🟢 Bajas de precio recientes</h2>
-        <div class="oport-grid" id="oport-drops"></div>
-      </div>
+    <div class="tb-sep"></div>
+    <div class="tb-group">
+      <span class="tb-lbl">Operación</span>
+      <button class="btn on" id="op-o-all"   onclick="applyOpOp('all',this)">Todas</button>
+      <button class="btn"    id="op-o-renta" onclick="applyOpOp('renta',this)">Renta</button>
+      <button class="btn"    id="op-o-venta" onclick="applyOpOp('venta',this)">Venta</button>
     </div>
+    <div class="tb-sep"></div>
+    <div class="tb-group">
+      <span class="tb-lbl">Estatus</span>
+      <button class="btn on" id="op-s-all" onclick="applyOpStatus('all',this)">Todas</button>
+      <button class="btn"    id="op-s-hoy" onclick="applyOpStatus('hoy',this)">📅 Hoy</button>
+      <button class="btn"    id="op-s-seen" onclick="applyOpStatus('seen',this)">Ya vistas</button>
+    </div>
+    <div class="tb-sep"></div>
+    <div class="tb-group">
+      <span class="tb-lbl">Antigüedad</span>
+      <button class="btn dom-btn on" id="op-d-all" onclick="applyOpDom(0,this)">Todas</button>
+      <button class="btn dom-btn"   id="op-d-30"  onclick="applyOpDom(30,this)">≤30d</button>
+      <button class="btn dom-btn"   id="op-d-60"  onclick="applyOpDom(60,this)">≤60d</button>
+      <button class="btn dom-btn"   id="op-d-90"  onclick="applyOpDom(90,this)">≤90d</button>
+    </div>
+    <span class="count" id="op-count"></span>
+  </div>
+  <div id="oport-delisted-wrap">
+    <div style="font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:.5rem;padding:.2rem 0">🔴 DADOS DE BAJA</div>
+    <div class="grid" id="oport-delisted"></div>
+    <div style="margin-bottom:1.2rem"></div>
+  </div>
+  <div id="oport-drops-wrap">
+    <div style="font-size:.8rem;font-weight:700;color:var(--muted);margin-bottom:.5rem;padding:.2rem 0">🟢 BAJA DE PRECIO</div>
+    <div class="grid" id="oport-drops"></div>
   </div>
 </div>
 
@@ -453,6 +480,8 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <button class="btn"            id="bk-gp"  onclick="applyBkCity('Gómez Palacio',this)">Gómez Palacio</button>
         <button class="btn"            id="bk-mat" onclick="applyBkCity('Matamoros',this)">Matamoros</button>
       </div>
+      <div class="tb-sep"></div>
+      <div class="tb-group" id="bk-months"></div>
     </div>
     <div class="section-card">
       <h2>🏆 Ranking de Brokers / Agencias</h2>
@@ -1140,87 +1169,126 @@ function initAnalizador() {
 
 
 // ── Tab Oportunidades ─────────────────────────────────────────────────────────
-var opTabFilter = 'all';
+// ── Oportunidades filtros ─────────────────────────────────────────────────────
+var opTabFilter = 'all', opCityFilter = 'all', opOpFilter = 'all', opStatusFilter = 'all', opDomFilter = 0;
+
 function applyOpTab(val, btn) {
   opTabFilter = val;
-  document.querySelectorAll('#op-tab-all,#op-tab-delist,#op-tab-drop').forEach(function(b) {
-    b.className = 'btn' + (b===btn ? ' on' : '');
+  document.querySelectorAll('#op-tab-all,#op-tab-delist,#op-tab-drop').forEach(function(b) { b.className = 'btn'+(b===btn?' on':''); });
+  renderOportunidades();
+}
+function applyOpCity(val, btn) {
+  opCityFilter = val;
+  document.querySelectorAll('#op-cy-all,#op-cy-tor,#op-cy-gp,#op-cy-mat').forEach(function(b) { b.className = 'btn'+(b===btn?' on-city on':''); });
+  renderOportunidades();
+}
+function applyOpOp(val, btn) {
+  opOpFilter = val;
+  document.querySelectorAll('#op-o-all,#op-o-renta,#op-o-venta').forEach(function(b) { b.className = 'btn'+(b===btn?' on':''); });
+  renderOportunidades();
+}
+function applyOpStatus(val, btn) {
+  opStatusFilter = val;
+  document.querySelectorAll('#op-s-all,#op-s-hoy,#op-s-seen').forEach(function(b) { b.className = 'btn'+(b===btn?' on':''); });
+  renderOportunidades();
+}
+function applyOpDom(val, btn) {
+  opDomFilter = val;
+  document.querySelectorAll('#op-d-all,#op-d-30,#op-d-60,#op-d-90').forEach(function(b) { b.className = 'btn dom-btn'+(b===btn?' on':''); });
+  renderOportunidades();
+}
+
+function buildOportCard(p, otype) {
+  // Inject extra badge into card via is_new-style trick: add a custom extra badge after building
+  var extraBadge = otype==='delisted'
+    ? '<span class="badge-opp" style="background:#dc2626">🔴 DE BAJA</span>'
+    : '<span class="badge-opp" style="background:#059669">🟢 -'+(p.total_drop_pct||0)+'% PRECIO</span>';
+  // Add extra info to card-foot via price field swap for price_drop
+  var pClone = Object.assign({}, p);
+  if (otype==='drop' && p.original_precio) {
+    pClone._extraPrecio = '<span class="price-old" style="font-size:.72rem">'+esc(p.original_precio)+'</span> <span style="color:#16a34a;font-weight:700">→ '+esc(p.current_precio)+'</span>';
+  }
+  pClone._oportBadge = extraBadge;
+  return buildCardOport(pClone);
+}
+
+function buildCardOport(p) {
+  var idShort = (p.id||'').substring(0,12);
+  var domNum  = p.days_on_market || p.days_listed || 0;
+  var domLabel= domNum===0 ? 'Hoy' : domNum+' día'+(domNum!==1?'s':'');
+  var domCls  = domNum===0 ? 'dom-new' : domNum<=7 ? 'dom-mid' : 'dom-old';
+  var fotos   = (p.fotos_local||[]).slice(0,4).map(function(s){
+    return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
+  }).join('');
+  return '<div class="card" id="oc-'+idShort+'" '+
+    'data-id="'+p.id+'" data-op="'+esc(p.op_key||'')+'" '+
+    'data-city="'+esc(p.municipio||'')+'" data-dom="'+domNum+'">'+
+    '<div class="card-top">'+
+      '<div class="card-badges">'+
+        (p._oportBadge||'')+
+        '<span class="dom-badge '+domCls+'">⏱ '+domLabel+'</span>'+
+      '</div>'+
+      '<span class="code">'+esc(p.code||'')+'</span>'+
+      '<h3>'+esc(p.title||'')+'</h3>'+
+    '</div>'+
+    (fotos?'<div class="fotos">'+fotos+'</div>':'')+
+    '<div class="card-body">'+
+      '<div class="field"><span class="lbl">Tipo</span><span class="val">'+esc(p.tipo||'')+'</span></div>'+
+      '<div class="field"><span class="lbl">Categoría</span><span class="val">'+esc(p.categoria||'')+'</span></div>'+
+      '<div class="field"><span class="lbl">Ciudad</span><span class="val">'+esc(p.municipio||'')+'</span></div>'+
+      '<div class="field"><span class="lbl">Superficie</span><span class="val">'+esc(p.superficie||'—')+'</span></div>'+
+      (p._extraPrecio
+        ? '<div class="field"><span class="lbl">Precio</span><span class="val">'+p._extraPrecio+'</span></div>'
+        : '<div class="field"><span class="lbl">Precio</span><span class="val price">'+esc(p.precio||'—')+'</span></div>')+
+      '<div class="field"><span class="lbl">Precio/m²</span><span class="val price-m2">'+esc(p.precio_m2||'—')+'</span></div>'+
+      '<div class="field"><span class="lbl">Broker</span><span class="val">'+esc(p.broker||'—')+'</span></div>'+
+    '</div>'+
+    '<div class="card-foot">'+
+      (p.link?'<a href="'+esc(p.link)+'" target="_blank" rel="noopener" class="btn-ver">Ver listing →</a>':'')+
+    '</div>'+
+  '</div>';
+}
+
+function oprtFilter(list) {
+  return list.filter(function(p) {
+    if (opCityFilter !== 'all' && p.municipio !== opCityFilter) return false;
+    if (opOpFilter  !== 'all' && p.op_key    !== opOpFilter)   return false;
+    if (opDomFilter > 0 && (p.days_on_market||p.days_listed||0) > opDomFilter) return false;
+    if (opStatusFilter === 'hoy'  && (p.days_on_market||0) !== 0) return false;
+    if (opStatusFilter === 'seen' && (p.days_on_market||0) === 0) return false;
+    return true;
   });
-  document.getElementById('oport-delisted-wrap').style.display = (val==='all'||val==='delisted') ? '' : 'none';
-  document.getElementById('oport-drops-wrap').style.display    = (val==='all'||val==='drops')    ? '' : 'none';
 }
 
 var oportunidadesRendered = false;
 function renderOportunidades() {
-  if (oportunidadesRendered) return;
   oportunidadesRendered = true;
 
-  // Contador en el tab
   var total = DELISTED.length + PRICE_DROPS.length;
   var badge = document.getElementById('oport-count');
   if (badge && total > 0) { badge.textContent = total; badge.style.display='inline'; }
 
-  // Deslistadas
-  var delEl = document.getElementById('oport-delisted');
-  if (!DELISTED.length) {
-    delEl.innerHTML = '<p style="color:var(--muted);font-size:.85rem;padding:1rem 0">Sin propiedades deslistadas registradas aún. Se irán acumulando con cada actualización.</p>';
-  } else {
-    delEl.innerHTML = DELISTED.map(function(p) {
-      var hist = p.precio_history || [];
-      var priceChg = '';
-      if (hist.length >= 2 && hist[0].precio !== hist[hist.length-1].precio) {
-        priceChg = '<div class="oport-detail" style="margin-top:.3rem">Precios: <span class="price-old">'+esc(hist[0].precio||'')+'</span> → '+esc(hist[hist.length-1].precio||'')+'</div>';
-      }
-      var fotos = (p.fotos_local||[]).map(function(s){
-        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
-      }).join('');
-      return '<div class="oport-card delisted">'+
-        '<span class="oport-badge badge-delisted">🔴 DESLISTADA</span>'+
-        (fotos ? '<div class="fotos" style="margin:.4rem 0 .5rem">'+fotos+'</div>' : '')+
-        '<div class="oport-title">'+esc(p.title||'')+'</div>'+
-        '<div class="oport-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
-        '<div class="oport-detail">'+esc(p.superficie||'')+'</div>'+
-        '<div class="oport-price">'+esc(p.precio||'')+'</div>'+
-        priceChg+
-        '<div class="oport-meta">'+
-          '🏢 Broker: <b>'+esc(p.broker||'—')+'</b><br>'+
-          '📅 Publicado: <b>'+esc(p.first_seen||'')+'</b><br>'+
-          '❌ Deslistado: <b>'+esc(p.delisted_at||'')+'</b><br>'+
-          '⏱ Tiempo en mercado: <b>'+p.days_listed+' días</b>'+
-        '</div>'+
-        (p.link ? '<div style="margin-top:.6rem"><a href="'+esc(p.link)+'" target="_blank" rel="noopener" class="btn-ver" style="font-size:.72rem;padding:.28rem .7rem">Ver listing →</a></div>' : '')+
-      '</div>';
-    }).join('');
-  }
+  var showDel  = opTabFilter==='all' || opTabFilter==='delisted';
+  var showDrop = opTabFilter==='all' || opTabFilter==='drops';
 
-  // Bajaron de precio
+  document.getElementById('oport-delisted-wrap').style.display = showDel  ? '' : 'none';
+  document.getElementById('oport-drops-wrap').style.display    = showDrop ? '' : 'none';
+
+  var delFiltered  = showDel  ? oprtFilter(DELISTED)     : [];
+  var dropFiltered = showDrop ? oprtFilter(PRICE_DROPS)  : [];
+  var totalVisible = delFiltered.length + dropFiltered.length;
+  var countEl = document.getElementById('op-count');
+  if (countEl) countEl.textContent = totalVisible + ' propiedades';
+
+  var delEl = document.getElementById('oport-delisted');
+  if (delEl) delEl.innerHTML = delFiltered.length
+    ? delFiltered.map(function(p){ return buildOportCard(p,'delisted'); }).join('')
+    : '<div class="empty" style="margin:1rem 0">Sin resultados con estos filtros.</div>';
+
   var dropEl = document.getElementById('oport-drops');
-  if (!PRICE_DROPS.length) {
-    dropEl.innerHTML = '<p style="color:var(--muted);font-size:.85rem;padding:1rem 0">Sin bajas de precio detectadas aún. Se registran al comparar cada actualización con la anterior.</p>';
-  } else {
-    dropEl.innerHTML = PRICE_DROPS.map(function(p) {
-      var fotos = (p.fotos_local||[]).map(function(s){
-        return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
-      }).join('');
-      return '<div class="oport-card price-drop">'+
-        '<span class="oport-badge badge-drop">💚 -'+p.total_drop_pct+'% PRECIO</span>'+
-        (fotos ? '<div class="fotos" style="margin:.4rem 0 .5rem">'+fotos+'</div>' : '')+
-        '<div class="oport-title">'+esc(p.title||'')+'</div>'+
-        '<div class="oport-detail">'+esc(p.tipo||'')+' · '+esc(p.municipio||'')+'</div>'+
-        '<div class="oport-detail">'+esc(p.superficie||'')+'</div>'+
-        '<div class="oport-price">'+
-          '<span class="price-old">'+esc(p.original_precio||'')+'</span>'+
-          '<span class="price-arrow">→</span>'+
-          esc(p.current_precio||'')+
-        '</div>'+
-        '<div class="oport-meta">'+
-          '📅 Detectado desde: <b>'+esc(p.first_seen||'')+'</b><br>'+
-          '📉 Última baja: <b>'+esc(p.last_drop_date||'')+'</b>'+
-        '</div>'+
-        (p.link ? '<div style="margin-top:.6rem"><a href="'+esc(p.link)+'" target="_blank" rel="noopener" class="btn-ver" style="font-size:.72rem;padding:.28rem .7rem">Ver listing →</a></div>' : '')+
-      '</div>';
-    }).join('');
-  }
+  if (dropEl) dropEl.innerHTML = dropFiltered.length
+    ? dropFiltered.map(function(p){ return buildOportCard(p,'drop'); }).join('')
+    : '<div class="empty" style="margin:1rem 0">Sin resultados con estos filtros.</div>';
 }
 
 // ── Oportunidades (alertas precio) ────────────────────────────────────────────
