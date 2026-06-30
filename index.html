@@ -297,7 +297,191 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
     <span class="count" id="count">propiedades</span>
     <span id="nuevas-badge" style="display:none;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:20px;margin-left:.5rem;align-items:center;gap:.25rem"></span>
   </div>
-  <div class="grid" id="grid">
+  <div class="grid" id="grid"></div>
+</div><!-- /#tab-props -->
+
+<!-- TAB: Favoritos -->
+<div id="tab-favs" style="display:none">
+  <div id="favs-content"></div>
+</div>
+
+<!-- TAB: Oportunidades -->
+<div id="tab-oportunidades" style="display:none">
+  <div class="section">
+    <div class="toolbar" style="margin-bottom:.85rem">
+      <div class="tb-group">
+        <button class="btn on" id="op-tab-all"   onclick="applyOpTab('all',this)">Todas</button>
+        <button class="btn"    id="op-tab-delist" onclick="applyOpTab('delisted',this)">🔴 Dados de baja</button>
+        <button class="btn"    id="op-tab-drop"   onclick="applyOpTab('drops',this)">🟢 Baja de precio</button>
+      </div>
+    </div>
+    <div id="oport-delisted-wrap">
+      <div class="section-card">
+        <h2>🔴 Propiedades dadas de baja (posible cierre)</h2>
+        <div class="oport-grid" id="oport-delisted"></div>
+      </div>
+    </div>
+    <div id="oport-drops-wrap">
+      <div class="section-card">
+        <h2>🟢 Bajas de precio recientes</h2>
+        <div class="oport-grid" id="oport-drops"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TAB: Mapa -->
+<div id="tab-mapa" style="display:none">
+  <div class="section">
+    <div class="map-toolbar">
+      <div class="tb-group">
+        <span class="tb-lbl">Operación</span>
+        <button class="btn on" id="mp-op-all"   onclick="applyMapOp('all',this)">Todas</button>
+        <button class="btn"    id="mp-op-renta" onclick="applyMapOp('renta',this)">Renta</button>
+        <button class="btn"    id="mp-op-venta" onclick="applyMapOp('venta',this)">Venta</button>
+      </div>
+      <div class="tb-group" style="margin-left:auto">
+        <button class="btn on" id="mp-pins"    onclick="applyMapView('pins',this)">📍 Pins</button>
+        <button class="btn"    id="mp-heat"    onclick="applyMapView('heat',this)">🌡️ Calor</button>
+        <button class="btn"    id="mp-density" onclick="applyMapView('density',this)">🏘️ Densidad</button>
+      </div>
+      <span id="map-count" style="font-size:.78rem;color:var(--muted);margin-left:.5rem"></span>
+    </div>
+    <div id="map-container"></div>
+  </div>
+</div>
+
+<!-- TAB: Analizador de Ubicación -->
+<div id="tab-analizador" style="display:none">
+  <div class="section">
+    <div class="toolbar" style="margin-bottom:.85rem">
+      <div class="tb-group">
+        <button class="btn on" id="loc-tab-ageb" onclick="switchLocTab('ageb',this)">📍 AGEB</button>
+        <button class="btn"    id="loc-tab-iso"  onclick="switchLocTab('iso',this)">⏱ Isócrona</button>
+        <button class="btn"    id="loc-tab-comp" onclick="switchLocTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
+      </div>
+    </div>
+    <div id="analizador-layout">
+      <div id="analizador-map-col">
+        <div id="ageb-map-container"></div>
+      </div>
+      <div id="ageb-panel">
+        <div id="loc-pane-ageb">
+          <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem;flex-wrap:wrap">
+            <h3 style="margin:0">Zona AGEB</h3>
+            <select class="ageb-select" id="ageb-city-sel" onchange="switchAgebCity(this.value)">
+              <option value="all">Todas las ciudades</option>
+              <option value="torreon">Torreón</option>
+              <option value="gomezpalacio">Gómez Palacio</option>
+              <option value="matamoros">Matamoros</option>
+            </select>
+            <select class="ageb-select" id="ageb-indicator-sel" onchange="switchAgebIndicator(this.value)">
+              <option value="none">Sin colorear</option>
+              <option value="poblacion_total">Población</option>
+              <option value="dens_pob_km2">Densidad pob.</option>
+              <option value="dens_viv_km2">Densidad viv.</option>
+              <option value="grado_promedio_escolaridad">Escolaridad</option>
+              <option value="pct_internet">% Internet</option>
+              <option value="pct_automovil">% Automóvil</option>
+              <option value="pct_desocupacion">% Desocupación</option>
+            </select>
+          </div>
+          <span id="ageb-count" style="font-size:.7rem;color:var(--muted)"></span>
+          <div id="ageb-legend" class="ageb-legend" style="margin-top:.5rem"></div>
+          <div id="ageb-empty" style="color:var(--muted);font-size:.82rem;text-align:center;padding:2.5rem 1rem">Haz clic en una zona del mapa para ver sus indicadores demográficos y de vivienda.</div>
+        </div>
+        <div id="loc-pane-iso" style="display:none">
+          <h3 style="margin-bottom:.7rem">⏱ Isócrona</h3>
+          <div class="iso-search-wrap">
+            <input id="iso-search" class="ageb-select" style="flex:1" placeholder="Buscar dirección…" onkeydown="if(event.key==='Enter')isoSearch()">
+            <button id="iso-search-btn" class="save-btn" onclick="isoSearch()">Buscar</button>
+          </div>
+          <div id="iso-location-info"></div>
+          <span class="iso-ctrl-lbl">Modo de transporte</span>
+          <div class="iso-mode-group">
+            <button class="iso-mode-btn on" id="iso-mode-walk"  onclick="isoSetMode('walk',this)">🚶 A pie</button>
+            <button class="iso-mode-btn"    id="iso-mode-bike"  onclick="isoSetMode('bike',this)">🚲 Bici</button>
+            <button class="iso-mode-btn"    id="iso-mode-drive" onclick="isoSetMode('drive',this)">🚗 Auto</button>
+          </div>
+          <span class="iso-ctrl-lbl">Tiempos (minutos)</span>
+          <div class="iso-times-group">
+            <button class="iso-time-btn on" onclick="isoToggleTime(5,this)">5</button>
+            <button class="iso-time-btn on" onclick="isoToggleTime(10,this)">10</button>
+            <button class="iso-time-btn on" onclick="isoToggleTime(15,this)">15</button>
+            <button class="iso-time-btn"    onclick="isoToggleTime(20,this)">20</button>
+            <button class="iso-time-btn"    onclick="isoToggleTime(30,this)">30</button>
+          </div>
+          <button id="iso-run-btn" onclick="isoRun()">Calcular isócrona</button>
+          <div id="iso-hint">Haz clic en el mapa o busca una dirección para fijar el punto de origen.</div>
+          <div id="iso-spinner">⏳ Calculando…</div>
+          <div id="iso-results">
+            <div id="iso-legend" class="iso-legend"></div>
+          </div>
+          <div class="iso-save-wrap" id="iso-save-wrap" style="display:none">
+            <span class="lbl">Guardar zona</span>
+            <div class="iso-save-row">
+              <input id="iso-save-name" placeholder="Nombre de zona…">
+              <button id="iso-save-btn" onclick="isoSaveZone()">Guardar</button>
+            </div>
+          </div>
+        </div>
+        <div id="loc-pane-comp" style="display:none">
+          <h3 style="margin-bottom:.75rem">📊 Comparar zonas</h3>
+          <div class="comp-saved-list" id="comp-content"></div>
+          <div class="comp-ctrl-row">
+            <select class="comp-select" id="comp-metric-sel" onchange="isoUpdateCompChart()">
+              <option value="total_props">Propiedades</option>
+              <option value="avg_pm2">Precio/m² prom.</option>
+              <option value="pct_renta">% Renta</option>
+            </select>
+          </div>
+          <div class="comp-chart-wrap"><canvas id="comp-chart"></canvas></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TAB: Brokers -->
+<div id="tab-brokers" style="display:none">
+  <div class="section">
+    <div class="toolbar" style="margin-bottom:.85rem">
+      <div class="tb-group">
+        <span class="tb-lbl">Ciudad</span>
+        <button class="btn on-city on" id="bk-all" onclick="applyBkCity('all',this)">Todas</button>
+        <button class="btn"            id="bk-tor" onclick="applyBkCity('Torreón',this)">Torreón</button>
+        <button class="btn"            id="bk-gp"  onclick="applyBkCity('Gómez Palacio',this)">Gómez Palacio</button>
+        <button class="btn"            id="bk-mat" onclick="applyBkCity('Matamoros',this)">Matamoros</button>
+      </div>
+    </div>
+    <div class="section-card">
+      <h2>🏆 Ranking de Brokers / Agencias</h2>
+      <div id="broker-wrap"></div>
+    </div>
+  </div>
+</div>
+
+<!-- TAB: Estadísticas -->
+<div id="tab-stats" style="display:none">
+  <div class="section">
+    <div class="toolbar" style="margin-bottom:.85rem">
+      <div class="tb-group">
+        <span class="tb-lbl">Ciudad</span>
+        <button class="btn on-city on" id="st-all" onclick="applyStCity('all',this)">Todas</button>
+        <button class="btn"            id="st-tor" onclick="applyStCity('Torreón',this)">Torreón</button>
+        <button class="btn"            id="st-gp"  onclick="applyStCity('Gómez Palacio',this)">Gómez Palacio</button>
+        <button class="btn"            id="st-mat" onclick="applyStCity('Matamoros',this)">Matamoros</button>
+      </div>
+    </div>
+    <div class="section-card">
+      <h2>📊 Publicaciones nuevas por semana</h2>
+      <div id="weekly-wrap"><div class="chart-wrap"><canvas id="chart-weekly"></canvas></div></div>
+    </div>
+    <div class="section-card">
+      <h2>💰 Precio/m² promedio por semana y tipo</h2>
+      <div id="pm2-wrap"><div class="chart-wrap"><canvas id="chart-pm2"></canvas></div></div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -313,7 +497,7 @@ function buildCard(p) {
   var isNew   = p.is_new ? 1 : 0;
   var domNum  = p.days_on_market || 0;
   var domLabel= domNum===0 ? 'Hoy' : domNum+' día'+(domNum!==1?'s':'');
-  var domCls  = domNum===0 ? 'dom-new' : domNum<=7 ? 'dom-recent' : 'dom-old';
+  var domCls  = domNum===0 ? 'dom-new' : domNum<=7 ? 'dom-mid' : 'dom-old';
   var fotos   = (p.fotos_local||[]).slice(0,4).map(function(s){
     return '<img src="'+esc(s)+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">';
   }).join('');
