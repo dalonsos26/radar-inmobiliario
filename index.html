@@ -1610,6 +1610,11 @@ function isoToggleTime(min, btn) {
 
 function isoSetPoint(lat, lng, label) {
   _isoPoint = { lat: lat, lng: lng };
+  _isoLastResult = null;
+  var saveWrap = document.getElementById('iso-save-wrap');
+  if (saveWrap) saveWrap.style.display = 'none';
+  var results = document.getElementById('iso-results');
+  if (results) results.style.display = 'none';
   if (_isoMarker && _agebMap) _agebMap.removeLayer(_isoMarker);
   if (_agebMap) {
     _isoMarker = L.marker([lat, lng], {
@@ -1822,7 +1827,8 @@ function isoRun() {
     features.forEach(function(feat, i) {
       var col = ISO_COLORS[i % ISO_COLORS.length];
       var layer = L.geoJSON(feat, {
-        style: { color: col, weight: 2.5, fillColor: col, fillOpacity: 0.13, dashArray: '5 4' }
+        style: { color: col, weight: 2.5, fillColor: col, fillOpacity: 0.13, dashArray: '5 4' },
+        interactive: false
       }).addTo(_agebMap);
       _isoLayers.push(layer);
     });
@@ -1905,7 +1911,9 @@ function isoRun() {
           pct_internet: st.pct_internet, pct_auto: st.pct_auto, pct_agua: st.pct_agua,
           pct_drenaje: st.pct_drenaje, pct_electricidad: st.pct_electricidad,
           pct_sin_salud: st.pct_sin_salud, pct_piso_tierra: st.pct_piso_tierra,
-          esc_prom: st.esc_prom
+          pct_celular: st.pct_celular, pct_computadora: st.pct_computadora,
+          pct_refrigerador: st.pct_refrigerador, pct_lavadora: st.pct_lavadora,
+          pct_desocupacion: st.pct_desocupacion, esc_prom: st.esc_prom
         }};
       })
     };
@@ -1987,6 +1995,48 @@ var _compMetric = 'poblacion';
 var _compRingIdx = 0;
 var _compChart = null;
 
+var _compRingMin = null; // selected minutes for comparison
+
+var COMP_GROUPS = [
+  { label: '👥 Demografía', metrics: [
+    { key:'poblacion',   label:'Población total',       fmt:'n' },
+    { key:'pob_0_14',    label:'Pob. 0–14 años',        fmt:'n' },
+    { key:'pob_15_64',   label:'Pob. 15–64 años',       fmt:'n' },
+    { key:'pob_65',      label:'Pob. 65+ años',         fmt:'n' },
+    { key:'pea',         label:'PEA',                   fmt:'n' },
+    { key:'esc_prom',    label:'Escolaridad prom.',      fmt:'f', suffix:' años' },
+  ]},
+  { label: '🏘️ Vivienda', metrics: [
+    { key:'viviendas',   label:'Viviendas totales',     fmt:'n' },
+    { key:'hogares',     label:'Hogares',               fmt:'n' },
+    { key:'pct_agua',    label:'Agua entubada',         fmt:'pct' },
+    { key:'pct_drenaje', label:'Drenaje',               fmt:'pct' },
+    { key:'pct_electricidad', label:'Electricidad',     fmt:'pct' },
+    { key:'pct_piso_tierra',  label:'Piso de tierra',   fmt:'pct' },
+  ]},
+  { label: '💻 Conectividad', metrics: [
+    { key:'pct_internet',    label:'Internet',          fmt:'pct' },
+    { key:'pct_auto',        label:'Automóvil',         fmt:'pct' },
+    { key:'pct_celular',     label:'Celular',           fmt:'pct' },
+    { key:'pct_computadora', label:'Computadora',       fmt:'pct' },
+  ]},
+  { label: '🏥 Salud y bienestar', metrics: [
+    { key:'pct_sin_salud',   label:'Sin acceso salud',  fmt:'pct' },
+    { key:'pct_desocupacion',label:'Desocupación',      fmt:'pct' },
+    { key:'pct_refrigerador',label:'Refrigerador',      fmt:'pct' },
+    { key:'pct_lavadora',    label:'Lavadora',          fmt:'pct' },
+  ]},
+];
+
+function fmtCompVal(v, fmt, suffix) {
+  if (v === undefined || v === null || v === '') return '—';
+  var n = parseFloat(v);
+  if (isNaN(n)) return '—';
+  if (fmt === 'pct') return n.toFixed(1) + '%';
+  if (fmt === 'f')   return n.toFixed(1) + (suffix||'');
+  return Math.round(n).toLocaleString('es-MX');
+}
+
 function renderCompTab() {
   var saved = isoGetSaved();
   var el = document.getElementById('comp-content');
@@ -1997,92 +2047,82 @@ function renderCompTab() {
     return;
   }
 
-  // Get union of all ring times available
   var allTimes = {};
   saved.forEach(function(s){ (s.rings||[]).forEach(function(r){ allTimes[r.mins] = 1; }); });
   var timeOptions = Object.keys(allTimes).map(Number).sort(function(a,b){return a-b;});
+  if (!_compRingMin || !allTimes[_compRingMin]) _compRingMin = timeOptions[0];
 
-  var html = '<div class="comp-saved-list">';
+  var html = '';
+
+  // ── Zone legend ──
+  html += '<div style="display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:1rem">';
   saved.forEach(function(s, i) {
     var col = COMP_COLORS[i % COMP_COLORS.length];
-    var modeLabel = s.mode === 'foot-walking' ? '🚶 Caminando' : '🚗 Conduciendo';
-    var rings = (s.rings||[]).map(function(r){ return r.mins+'min'; }).join(', ');
-    html += '<div class="comp-saved-item">' +
-      '<div class="comp-saved-dot" style="background:'+col+'"></div>' +
-      '<div style="flex:1;min-width:0">' +
-        '<div class="comp-saved-name">'+esc(s.name)+'</div>' +
-        '<div class="comp-saved-meta">'+modeLabel+' · '+esc(s.address||'')+'<br>'+rings+' · '+esc(s.savedAt||'')+'</div>' +
-      '</div>' +
-      '<button class="comp-saved-del" onclick="isoDeleteSaved('+s.id+')" title="Eliminar">✕</button>' +
+    var modeIcon = s.mode === 'foot-walking' ? '🚶' : s.mode === 'cycling-regular' ? '🚲' : '🚗';
+    html += '<div style="display:flex;align-items:center;gap:.35rem;background:var(--surface);border:1.5px solid '+col+';border-radius:20px;padding:.25rem .65rem;font-size:.75rem">' +
+      '<span style="width:10px;height:10px;border-radius:50%;background:'+col+';flex-shrink:0"></span>' +
+      '<span style="font-weight:700">'+esc(s.name)+'</span>' +
+      '<span style="color:var(--muted)">'+modeIcon+' '+esc((s.address||'').split(',')[0])+'</span>' +
+      '<button onclick="isoDeleteSaved('+s.id+')" style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:.8rem;padding:0;margin-left:.2rem;line-height:1">✕</button>' +
     '</div>';
   });
   html += '</div>';
 
-  html += '<div class="comp-ctrl-row">' +
-    '<select class="comp-select" id="comp-metric-sel" onchange="_compMetric=this.value;renderCompChart()">' +
-    COMP_METRICS.map(function(m){ return '<option value="'+m.key+'"'+(m.key===_compMetric?' selected':'')+'>'+m.label+'</option>'; }).join('') +
-    '</select>' +
-    '<select class="comp-select" id="comp-ring-sel" style="max-width:110px" onchange="_compRingIdx=+this.value;renderCompChart()">' +
-    timeOptions.map(function(t,i){ return '<option value="'+i+'"'+(i===_compRingIdx?' selected':'')+'>'+t+' min</option>'; }).join('') +
-    '</select>' +
-  '</div>';
-
-  html += '<div class="comp-chart-wrap"><canvas id="comp-chart"></canvas></div>';
-
-  // Full data table
-  html += '<div style="overflow-x:auto;margin-top:.5rem">' +
-    '<table style="width:100%;border-collapse:collapse;font-size:.72rem">' +
-    '<thead><tr>' +
-    '<th style="text-align:left;padding:.3rem .4rem;border-bottom:2px solid var(--border);color:var(--muted);font-size:.65rem;text-transform:uppercase">Análisis</th>' +
-    timeOptions.map(function(t){ return '<th style="text-align:right;padding:.3rem .4rem;border-bottom:2px solid var(--border);color:var(--muted);font-size:.65rem">'+t+'min</th>'; }).join('') +
-    '</tr></thead><tbody>';
-  saved.forEach(function(s, i) {
-    var col = COMP_COLORS[i % COMP_COLORS.length];
-    var metric = COMP_METRICS.find(function(m){ return m.key===_compMetric; }) || COMP_METRICS[0];
-    html += '<tr>';
-    html += '<td style="padding:.3rem .4rem;border-bottom:1px solid var(--border);font-weight:600"><span style="display:inline-block;width:8px;height:8px;background:'+col+';border-radius:50%;margin-right:.3rem"></span>'+esc(s.name)+'</td>';
-    timeOptions.forEach(function(t) {
-      var ring = (s.rings||[]).find(function(r){ return r.mins===t; });
-      var v = ring ? ring.stats[_compMetric] : '—';
-      html += '<td style="text-align:right;padding:.3rem .4rem;border-bottom:1px solid var(--border)">'+(v!==undefined&&v!=='—'?v:'—')+'</td>';
-    });
-    html += '</tr>';
+  // ── Ring time selector ──
+  html += '<div style="display:flex;align-items:center;gap:.4rem;margin-bottom:1.1rem;flex-wrap:wrap">';
+  html += '<span style="font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Radio de tiempo:</span>';
+  timeOptions.forEach(function(t) {
+    var on = t === _compRingMin;
+    html += '<button onclick="_compRingMin='+t+';renderCompTab()" style="border:1.5px solid '+(on?'var(--accent)':'var(--border2)')+';background:'+(on?'var(--accent)':'var(--surface)')+';color:'+(on?'#fff':'var(--text)')+';font-size:.75rem;font-weight:600;padding:.28rem .7rem;border-radius:20px;cursor:pointer">'+t+' min</button>';
   });
-  html += '</tbody></table></div>';
+  html += '</div>';
+
+  // ── Metric groups ──
+  COMP_GROUPS.forEach(function(grp) {
+    html += '<div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1rem;margin-bottom:.85rem;box-shadow:var(--sh)">';
+    html += '<div style="font-size:.8rem;font-weight:700;color:var(--text);margin-bottom:.75rem;padding-bottom:.45rem;border-bottom:1px solid var(--border)">'+grp.label+'</div>';
+
+    grp.metrics.forEach(function(m) {
+      // Collect values for each zone at the selected ring
+      var vals = saved.map(function(s) {
+        var ring = (s.rings||[]).find(function(r){ return r.mins === _compRingMin; });
+        return ring ? parseFloat(ring.stats[m.key]) : NaN;
+      });
+      var maxVal = Math.max.apply(null, vals.filter(function(v){ return !isNaN(v); })) || 1;
+      var isPct = m.fmt === 'pct';
+      // For "bad" metrics (lower = better), invert bar direction visually
+      var lowerBetter = m.key === 'pct_piso_tierra' || m.key === 'pct_sin_salud' || m.key === 'pct_desocupacion';
+
+      html += '<div style="margin-bottom:.65rem">';
+      html += '<div style="font-size:.72rem;font-weight:600;color:var(--muted);margin-bottom:.3rem;text-transform:uppercase;letter-spacing:.04em">'+m.label+'</div>';
+
+      saved.forEach(function(s, i) {
+        var col = COMP_COLORS[i % COMP_COLORS.length];
+        var v = vals[i];
+        var pct = isNaN(v) ? 0 : Math.round((v / maxVal) * 100);
+        if (lowerBetter) pct = 100 - pct; // invert: shorter bar = better
+        var displayVal = fmtCompVal(v, m.fmt, m.suffix);
+        var barCol = lowerBetter ? (v > maxVal * 0.6 ? '#dc2626' : '#f59e0b') : col;
+        html += '<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.18rem">' +
+          '<div style="width:8px;height:8px;border-radius:50%;background:'+col+';flex-shrink:0"></div>' +
+          '<div style="font-size:.72rem;font-weight:600;min-width:80px;color:var(--text)">'+esc(s.name)+'</div>' +
+          '<div style="flex:1;height:8px;background:var(--surface2);border-radius:4px;overflow:hidden">' +
+            '<div style="height:100%;width:'+pct+'%;background:'+barCol+';border-radius:4px;transition:width .4s"></div>' +
+          '</div>' +
+          '<div style="font-size:.72rem;font-weight:700;color:var(--text);min-width:52px;text-align:right">'+displayVal+'</div>' +
+        '</div>';
+      });
+
+      html += '</div>';
+    });
+
+    html += '</div>';
+  });
 
   el.innerHTML = html;
-  renderCompChart();
 }
 
-function renderCompChart() {
-  var saved = isoGetSaved();
-  var canvas = document.getElementById('comp-chart');
-  if (!canvas) return;
-
-  var allTimes = {};
-  saved.forEach(function(s){ (s.rings||[]).forEach(function(r){ allTimes[r.mins] = 1; }); });
-  var timeOptions = Object.keys(allTimes).map(Number).sort(function(a,b){return a-b;});
-  var selectedTime = timeOptions[_compRingIdx] || timeOptions[0];
-
-  var metric = COMP_METRICS.find(function(m){ return m.key===_compMetric; }) || COMP_METRICS[0];
-  var labels = saved.map(function(s){ return s.name; });
-  var values = saved.map(function(s) {
-    var ring = (s.rings||[]).find(function(r){ return r.mins===selectedTime; });
-    return ring ? (parseFloat(ring.stats[_compMetric])||0) : 0;
-  });
-  var colors = saved.map(function(s,i){ return COMP_COLORS[i%COMP_COLORS.length]; });
-
-  if (_compChart) { _compChart.destroy(); _compChart = null; }
-  _compChart = new Chart(canvas, {
-    type: 'bar',
-    data: { labels: labels, datasets: [{ label: metric.label+' ('+selectedTime+' min)', data: values, backgroundColor: colors, borderRadius: 6 }] },
-    options: {
-      responsive: true, maintainAspectRatio: false,
-      plugins: { legend: { display: false }, tooltip: { callbacks: { label: function(ctx){ return ' '+ctx.parsed.y.toLocaleString('es-MX'); } } } },
-      scales: { y: { beginAtZero: true, ticks: { font: { size: 10 } } }, x: { ticks: { font: { size: 10 } } } }
-    }
-  });
-}
+function renderCompChart() { /* legacy – no-op, replaced by renderCompTab */ }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 initData();
