@@ -2052,9 +2052,12 @@ function renderCompTab() {
   _compCharts.forEach(function(c){ try{ c.destroy(); }catch(e){} });
   _compCharts = [];
 
+  var dbg = 'renderCompTab: saved='+saved.length+' chartsArea='+(chartsArea?'found':'NULL');
+  if (chartsArea) chartsArea.innerHTML = '<div style="padding:.5rem;font-size:.75rem;color:#666">'+dbg+'</div>';
+
   if (!saved.length) {
     if (contentEl) contentEl.innerHTML = '<div class="comp-empty">Calcula isócronas y guárdalas para comparar.</div>';
-    if (chartsArea) chartsArea.innerHTML = '';
+    if (chartsArea) chartsArea.innerHTML = '<div style="padding:1rem;color:#888">Sin zonas guardadas.</div>';
     return;
   }
 
