@@ -2063,6 +2063,16 @@ function renderCompTab() {
   saved.forEach(function(s){ (s.rings||[]).forEach(function(r){ allTimes[r.mins]=1; }); });
   var timeOptions = Object.keys(allTimes).map(Number).sort(function(a,b){return a-b;});
 
+  // If no ring data (zones saved with old version), show message
+  if (!timeOptions.length) {
+    if (contentEl) contentEl.innerHTML = '';
+    if (chartsArea) chartsArea.innerHTML =
+      '<div style="padding:2rem;text-align:center;color:var(--muted);font-size:.9rem;background:var(--surface);border-radius:14px;border:1px dashed var(--border)">' +
+      '⚠️ Las zonas guardadas no tienen datos estadísticos.<br>Por favor, ve a <b>Isócrona</b>, recalcula cada zona y vuelve a guardarlas.' +
+      '<br><br><button onclick="var btn=document.getElementById(\'loc-tab-iso\');if(btn)locSwitchTab(\'iso\',btn)" style="background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.5rem 1.2rem;font-size:.85rem;font-weight:600;cursor:pointer">→ Ir a Isócrona</button></div>';
+    return;
+  }
+
   // Zone list in side panel
   if (contentEl) {
     var zoneHtml = '';
@@ -2159,7 +2169,7 @@ function renderCompTab() {
     });
     _compCharts.push(instance);
   });
-  }, 50); // defer 50ms so canvases have size
+  }, 200); // defer so canvases have layout dimensions
 }
 
 function renderCompChart() { /* legacy no-op */ }
