@@ -2106,9 +2106,10 @@ function _renderCompTab() {
     var col = COMP_COLORS[i%COMP_COLORS.length];
     var icon = s.mode==='foot-walking'?'🚶':s.mode==='cycling-regular'?'🚲':'🚗';
     hdr += '<span style="display:inline-flex;align-items:center;gap:.3rem;background:var(--surface);border:1.5px solid '+col+
-           ';border-radius:20px;padding:.2rem .6rem;font-size:.75rem;font-weight:600">' +
-           '<span style="width:10px;height:10px;border-radius:50%;background:'+col+'"></span>'+
-           esc(s.name)+' <span style="color:var(--muted);font-weight:400">'+icon+' '+esc((s.address||'').split(',')[0])+'</span></span>';
+           ';border-radius:20px;padding:.2rem .5rem .2rem .6rem;font-size:.75rem;font-weight:600">' +
+           '<span style="width:10px;height:10px;border-radius:50%;background:'+col+';flex-shrink:0"></span>'+
+           esc(s.name)+' <span style="color:var(--muted);font-weight:400">'+icon+' '+esc((s.address||'').split(',')[0])+'</span>'+
+           '<button onclick="isoDeleteSaved('+s.id+')" title="Eliminar zona" style="margin-left:.2rem;background:none;border:none;cursor:pointer;color:var(--muted);font-size:.8rem;padding:0 .1rem;line-height:1;border-radius:50%" onmouseover="this.style.color=\'#dc2626\'" onmouseout="this.style.color=\'var(--muted)\'">✕</button></span>';
   });
   hdr += '</div>';
   // Ring selector
