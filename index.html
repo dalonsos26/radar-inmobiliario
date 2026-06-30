@@ -388,6 +388,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
     </div>
+    <!-- Map + side panel (AGEB / Iso) -->
     <div id="analizador-layout">
       <div id="analizador-map-col">
         <div id="ageb-map-container"></div>
@@ -441,9 +442,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
           <button id="iso-run-btn" onclick="isoRun()">Calcular isócrona</button>
           <div id="iso-hint">Haz clic en el mapa o busca una dirección para fijar el punto de origen.</div>
           <div id="iso-spinner">⏳ Calculando…</div>
-          <div id="iso-results">
-            <div id="iso-legend" class="iso-legend"></div>
-          </div>
+          <div id="iso-results"></div>
           <div class="iso-save-wrap" id="iso-save-wrap" style="display:none">
             <span class="lbl">Guardar zona</span>
             <div class="iso-save-row">
@@ -452,20 +451,23 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
             </div>
           </div>
         </div>
-        <div id="loc-pane-comp" style="display:none">
-          <h3 style="margin-bottom:.75rem">📊 Comparar zonas</h3>
-          <div class="comp-saved-list" id="comp-content"></div>
-          <div class="comp-ctrl-row">
+        <div id="loc-pane-comp" style="display:none; font-size:.82rem; color:var(--muted); padding:1rem 0">
+          Las gráficas de comparativa aparecen abajo del mapa.<br>
+          Guarda al menos dos zonas en la pestaña Isócrona para empezar.
+          <div class="comp-saved-list" id="comp-content" style="margin-top:.75rem"></div>
+          <div style="display:none"><!-- legacy selects kept for compat -->
             <select class="comp-select" id="comp-metric-sel" onchange="isoUpdateCompChart()">
               <option value="total_props">Propiedades</option>
               <option value="avg_pm2">Precio/m² prom.</option>
               <option value="pct_renta">% Renta</option>
             </select>
           </div>
-          <div class="comp-chart-wrap"><canvas id="comp-chart"></canvas></div>
         </div>
       </div>
     </div>
+
+    <!-- Full-width comparison charts (shown below map when on Comparar tab) -->
+    <div id="comp-charts-area" style="display:none;margin-top:1.2rem"></div>
   </div>
 </div>
 
@@ -1578,6 +1580,11 @@ function locSwitchTab(tab, btn) {
   document.getElementById('loc-pane-ageb').style.display = tab==='ageb' ? 'block' : 'none';
   document.getElementById('loc-pane-iso').style.display  = tab==='iso'  ? 'block' : 'none';
   document.getElementById('loc-pane-comp').style.display = tab==='comp' ? 'block' : 'none';
+  // On Comparar: hide the side panel, show full-width chart area below map
+  var panel = document.getElementById('ageb-panel');
+  var chartsArea = document.getElementById('comp-charts-area');
+  if (panel) panel.style.display = tab==='comp' ? 'none' : '';
+  if (chartsArea) chartsArea.style.display = tab==='comp' ? 'block' : 'none';
   if (tab==='comp') renderCompTab();
 }
 
@@ -1888,14 +1895,15 @@ function isoRun() {
       panelHtml += '</div></div>';
     });
 
-    // Legend
-    document.getElementById('iso-legend').innerHTML = features.map(function(feat,i){
-      var col = ISO_COLORS[i%ISO_COLORS.length];
-      return '<span><span class="iso-legend-dot" style="background:'+col+'"></span>'+(feat.properties.contour||0)+' min</span>';
-    }).join('');
+    // Build legend inline (iso-legend gets destroyed when results.innerHTML is set, so include it here)
+    var legendHtml = '<div class="iso-legend" style="margin-bottom:.5rem">'+
+      features.map(function(feat,i){
+        var col = ISO_COLORS[i%ISO_COLORS.length];
+        return '<span><span class="iso-legend-dot" style="background:'+col+'"></span>'+(feat.properties.contour||0)+' min</span>';
+      }).join('') + '</div>';
 
-    // Show results
-    results.innerHTML = panelHtml;
+    // Show results (replaces inner content of iso-results including old iso-legend)
+    results.innerHTML = legendHtml + panelHtml;
     results.style.display = 'block';
 
     // Store for save
@@ -1995,134 +2003,163 @@ var _compMetric = 'poblacion';
 var _compRingIdx = 0;
 var _compChart = null;
 
-var _compRingMin = null; // selected minutes for comparison
+// ── Comparison charts ─────────────────────────────────────────────────────────
+var _compCharts = []; // Chart.js instances to destroy on re-render
 
-var COMP_GROUPS = [
-  { label: '👥 Demografía', metrics: [
-    { key:'poblacion',   label:'Población total',       fmt:'n' },
-    { key:'pob_0_14',    label:'Pob. 0–14 años',        fmt:'n' },
-    { key:'pob_15_64',   label:'Pob. 15–64 años',       fmt:'n' },
-    { key:'pob_65',      label:'Pob. 65+ años',         fmt:'n' },
-    { key:'pea',         label:'PEA',                   fmt:'n' },
-    { key:'esc_prom',    label:'Escolaridad prom.',      fmt:'f', suffix:' años' },
+// Key charts to show — one Chart.js bar chart per entry
+var COMP_CHARTS = [
+  { id:'cc-demo',  title:'👥 Demografía',       metrics:[
+      {key:'poblacion', label:'Población'},
+      {key:'viviendas', label:'Viviendas'},
+      {key:'hogares',   label:'Hogares'},
+      {key:'pea',       label:'PEA'},
   ]},
-  { label: '🏘️ Vivienda', metrics: [
-    { key:'viviendas',   label:'Viviendas totales',     fmt:'n' },
-    { key:'hogares',     label:'Hogares',               fmt:'n' },
-    { key:'pct_agua',    label:'Agua entubada',         fmt:'pct' },
-    { key:'pct_drenaje', label:'Drenaje',               fmt:'pct' },
-    { key:'pct_electricidad', label:'Electricidad',     fmt:'pct' },
-    { key:'pct_piso_tierra',  label:'Piso de tierra',   fmt:'pct' },
+  {id:'cc-edad',  title:'🎂 Estructura de edad', metrics:[
+      {key:'pob_0_14',  label:'0–14 años'},
+      {key:'pob_15_64', label:'15–64 años'},
+      {key:'pob_65',    label:'65+ años'},
   ]},
-  { label: '💻 Conectividad', metrics: [
-    { key:'pct_internet',    label:'Internet',          fmt:'pct' },
-    { key:'pct_auto',        label:'Automóvil',         fmt:'pct' },
-    { key:'pct_celular',     label:'Celular',           fmt:'pct' },
-    { key:'pct_computadora', label:'Computadora',       fmt:'pct' },
+  {id:'cc-serv',  title:'🏠 Servicios básicos (%)', metrics:[
+      {key:'pct_agua',         label:'Agua'},
+      {key:'pct_drenaje',      label:'Drenaje'},
+      {key:'pct_electricidad', label:'Electricidad'},
   ]},
-  { label: '🏥 Salud y bienestar', metrics: [
-    { key:'pct_sin_salud',   label:'Sin acceso salud',  fmt:'pct' },
-    { key:'pct_desocupacion',label:'Desocupación',      fmt:'pct' },
-    { key:'pct_refrigerador',label:'Refrigerador',      fmt:'pct' },
-    { key:'pct_lavadora',    label:'Lavadora',          fmt:'pct' },
+  {id:'cc-conn',  title:'💻 Conectividad (%)', metrics:[
+      {key:'pct_internet',    label:'Internet'},
+      {key:'pct_celular',     label:'Celular'},
+      {key:'pct_computadora', label:'Computadora'},
+      {key:'pct_auto',        label:'Automóvil'},
+  ]},
+  {id:'cc-bien',  title:'🏡 Bienes del hogar (%)', metrics:[
+      {key:'pct_refrigerador', label:'Refrigerador'},
+      {key:'pct_lavadora',     label:'Lavadora'},
+  ]},
+  {id:'cc-social', title:'🏥 Salud y educación', metrics:[
+      {key:'pct_sin_salud',    label:'Sin salud (%)'},
+      {key:'pct_desocupacion', label:'Desocupación (%)'},
+      {key:'esc_prom',         label:'Escolaridad (años)'},
+      {key:'pct_piso_tierra',  label:'Piso tierra (%)'},
   ]},
 ];
 
-function fmtCompVal(v, fmt, suffix) {
-  if (v === undefined || v === null || v === '') return '—';
-  var n = parseFloat(v);
-  if (isNaN(n)) return '—';
-  if (fmt === 'pct') return n.toFixed(1) + '%';
-  if (fmt === 'f')   return n.toFixed(1) + (suffix||'');
-  return Math.round(n).toLocaleString('es-MX');
-}
-
 function renderCompTab() {
   var saved = isoGetSaved();
-  var el = document.getElementById('comp-content');
-  if (!el) return;
+  var contentEl = document.getElementById('comp-content');
+  var chartsArea = document.getElementById('comp-charts-area');
+
+  // Destroy previous Chart.js instances
+  _compCharts.forEach(function(c){ try{ c.destroy(); }catch(e){} });
+  _compCharts = [];
 
   if (!saved.length) {
-    el.innerHTML = '<div class="comp-empty">No hay análisis guardados aún.<br>Calcula isócronas y guárdalas para comparar.</div>';
+    if (contentEl) contentEl.innerHTML = '<div class="comp-empty">Calcula isócronas y guárdalas para comparar.</div>';
+    if (chartsArea) chartsArea.innerHTML = '';
     return;
   }
 
+  // Collect all ring times
   var allTimes = {};
-  saved.forEach(function(s){ (s.rings||[]).forEach(function(r){ allTimes[r.mins] = 1; }); });
+  saved.forEach(function(s){ (s.rings||[]).forEach(function(r){ allTimes[r.mins]=1; }); });
   var timeOptions = Object.keys(allTimes).map(Number).sort(function(a,b){return a-b;});
-  if (!_compRingMin || !allTimes[_compRingMin]) _compRingMin = timeOptions[0];
 
-  var html = '';
-
-  // ── Zone legend ──
-  html += '<div style="display:flex;flex-wrap:wrap;gap:.45rem;margin-bottom:1rem">';
-  saved.forEach(function(s, i) {
-    var col = COMP_COLORS[i % COMP_COLORS.length];
-    var modeIcon = s.mode === 'foot-walking' ? '🚶' : s.mode === 'cycling-regular' ? '🚲' : '🚗';
-    html += '<div style="display:flex;align-items:center;gap:.35rem;background:var(--surface);border:1.5px solid '+col+';border-radius:20px;padding:.25rem .65rem;font-size:.75rem">' +
-      '<span style="width:10px;height:10px;border-radius:50%;background:'+col+';flex-shrink:0"></span>' +
-      '<span style="font-weight:700">'+esc(s.name)+'</span>' +
-      '<span style="color:var(--muted)">'+modeIcon+' '+esc((s.address||'').split(',')[0])+'</span>' +
-      '<button onclick="isoDeleteSaved('+s.id+')" style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:.8rem;padding:0;margin-left:.2rem;line-height:1">✕</button>' +
-    '</div>';
-  });
-  html += '</div>';
-
-  // ── Ring time selector ──
-  html += '<div style="display:flex;align-items:center;gap:.4rem;margin-bottom:1.1rem;flex-wrap:wrap">';
-  html += '<span style="font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Radio de tiempo:</span>';
-  timeOptions.forEach(function(t) {
-    var on = t === _compRingMin;
-    html += '<button onclick="_compRingMin='+t+';renderCompTab()" style="border:1.5px solid '+(on?'var(--accent)':'var(--border2)')+';background:'+(on?'var(--accent)':'var(--surface)')+';color:'+(on?'#fff':'var(--text)')+';font-size:.75rem;font-weight:600;padding:.28rem .7rem;border-radius:20px;cursor:pointer">'+t+' min</button>';
-  });
-  html += '</div>';
-
-  // ── Metric groups ──
-  COMP_GROUPS.forEach(function(grp) {
-    html += '<div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1rem;margin-bottom:.85rem;box-shadow:var(--sh)">';
-    html += '<div style="font-size:.8rem;font-weight:700;color:var(--text);margin-bottom:.75rem;padding-bottom:.45rem;border-bottom:1px solid var(--border)">'+grp.label+'</div>';
-
-    grp.metrics.forEach(function(m) {
-      // Collect values for each zone at the selected ring
-      var vals = saved.map(function(s) {
-        var ring = (s.rings||[]).find(function(r){ return r.mins === _compRingMin; });
-        return ring ? parseFloat(ring.stats[m.key]) : NaN;
-      });
-      var maxVal = Math.max.apply(null, vals.filter(function(v){ return !isNaN(v); })) || 1;
-      var isPct = m.fmt === 'pct';
-      // For "bad" metrics (lower = better), invert bar direction visually
-      var lowerBetter = m.key === 'pct_piso_tierra' || m.key === 'pct_sin_salud' || m.key === 'pct_desocupacion';
-
-      html += '<div style="margin-bottom:.65rem">';
-      html += '<div style="font-size:.72rem;font-weight:600;color:var(--muted);margin-bottom:.3rem;text-transform:uppercase;letter-spacing:.04em">'+m.label+'</div>';
-
-      saved.forEach(function(s, i) {
-        var col = COMP_COLORS[i % COMP_COLORS.length];
-        var v = vals[i];
-        var pct = isNaN(v) ? 0 : Math.round((v / maxVal) * 100);
-        if (lowerBetter) pct = 100 - pct; // invert: shorter bar = better
-        var displayVal = fmtCompVal(v, m.fmt, m.suffix);
-        var barCol = lowerBetter ? (v > maxVal * 0.6 ? '#dc2626' : '#f59e0b') : col;
-        html += '<div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.18rem">' +
-          '<div style="width:8px;height:8px;border-radius:50%;background:'+col+';flex-shrink:0"></div>' +
-          '<div style="font-size:.72rem;font-weight:600;min-width:80px;color:var(--text)">'+esc(s.name)+'</div>' +
-          '<div style="flex:1;height:8px;background:var(--surface2);border-radius:4px;overflow:hidden">' +
-            '<div style="height:100%;width:'+pct+'%;background:'+barCol+';border-radius:4px;transition:width .4s"></div>' +
-          '</div>' +
-          '<div style="font-size:.72rem;font-weight:700;color:var(--text);min-width:52px;text-align:right">'+displayVal+'</div>' +
-        '</div>';
-      });
-
-      html += '</div>';
+  // Zone list in side panel
+  if (contentEl) {
+    var zoneHtml = '';
+    saved.forEach(function(s, i) {
+      var col = COMP_COLORS[i%COMP_COLORS.length];
+      var modeIcon = s.mode==='foot-walking'?'🚶':s.mode==='cycling-regular'?'🚲':'🚗';
+      zoneHtml += '<div class="comp-saved-item">' +
+        '<div class="comp-saved-dot" style="background:'+col+'"></div>' +
+        '<div style="flex:1;min-width:0"><div class="comp-saved-name">'+esc(s.name)+'</div>' +
+        '<div class="comp-saved-meta">'+modeIcon+' '+esc((s.address||'').split(',')[0])+'</div></div>' +
+        '<button class="comp-saved-del" onclick="isoDeleteSaved('+s.id+')">✕</button></div>';
     });
+    contentEl.innerHTML = zoneHtml;
+  }
 
-    html += '</div>';
+  if (!chartsArea) return;
+
+  // Header
+  var hdr = '<div style="margin-bottom:1.2rem">';
+  hdr += '<div style="font-size:1rem;font-weight:800;margin-bottom:.6rem">📊 Reporte Comparativo</div>';
+  // Zone legend
+  hdr += '<div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.8rem">';
+  saved.forEach(function(s,i){
+    var col = COMP_COLORS[i%COMP_COLORS.length];
+    var icon = s.mode==='foot-walking'?'🚶':s.mode==='cycling-regular'?'🚲':'🚗';
+    hdr += '<span style="display:inline-flex;align-items:center;gap:.3rem;background:var(--surface);border:1.5px solid '+col+
+           ';border-radius:20px;padding:.2rem .6rem;font-size:.75rem;font-weight:600">' +
+           '<span style="width:10px;height:10px;border-radius:50%;background:'+col+'"></span>'+
+           esc(s.name)+' <span style="color:var(--muted);font-weight:400">'+icon+' '+esc((s.address||'').split(',')[0])+'</span></span>';
   });
+  hdr += '</div>';
+  // Ring selector
+  hdr += '<div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">';
+  hdr += '<span style="font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Radio:</span>';
+  timeOptions.forEach(function(t){
+    var on = t===(_compRingMin||timeOptions[0]);
+    hdr += '<button onclick="_compRingMin='+t+';renderCompTab()" style="border:1.5px solid '+(on?'var(--accent)':'var(--border2)')+
+           ';background:'+(on?'var(--accent)':'var(--surface)')+';color:'+(on?'#fff':'var(--text)')+
+           ';font-size:.75rem;font-weight:600;padding:.28rem .7rem;border-radius:20px;cursor:pointer">'+t+' min</button>';
+  });
+  hdr += '</div></div>';
 
-  el.innerHTML = html;
+  if (!_compRingMin || !allTimes[_compRingMin]) _compRingMin = timeOptions[0];
+  var selTime = _compRingMin;
+
+  // Build grid of Chart.js charts
+  var grid = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:1rem">';
+  COMP_CHARTS.forEach(function(ch){
+    grid += '<div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.1rem;box-shadow:var(--sh)">' +
+            '<div style="font-size:.88rem;font-weight:700;margin-bottom:.75rem">'+ch.title+'</div>' +
+            '<div style="position:relative;height:220px"><canvas id="'+ch.id+'"></canvas></div></div>';
+  });
+  grid += '</div>';
+
+  chartsArea.innerHTML = hdr + grid;
+
+  // Draw each chart after DOM is updated
+  COMP_CHARTS.forEach(function(ch){
+    var canvas = document.getElementById(ch.id);
+    if (!canvas) return;
+    var labels = ch.metrics.map(function(m){ return m.label; });
+    var datasets = saved.map(function(s, i){
+      var ring = (s.rings||[]).find(function(r){ return r.mins===selTime; });
+      var data = ch.metrics.map(function(m){
+        return ring ? (parseFloat(ring.stats[m.key])||0) : 0;
+      });
+      return {
+        label: s.name,
+        data: data,
+        backgroundColor: COMP_COLORS[i%COMP_COLORS.length]+'cc',
+        borderColor: COMP_COLORS[i%COMP_COLORS.length],
+        borderWidth: 1.5,
+        borderRadius: 5,
+      };
+    });
+    var instance = new Chart(canvas, {
+      type: 'bar',
+      data: { labels: labels, datasets: datasets },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { position:'bottom', labels:{ font:{size:11}, padding:10, boxWidth:12 } },
+          tooltip: { callbacks: { label: function(ctx){
+            var v = ctx.parsed.y;
+            return ' '+ctx.dataset.label+': '+(Number.isInteger(v)?v.toLocaleString('es-MX'):v.toFixed(1));
+          }}}
+        },
+        scales: {
+          y: { beginAtZero: true, ticks:{ font:{size:10} }, grid:{ color:'rgba(0,0,0,.05)' } },
+          x: { ticks:{ font:{size:10} } }
+        }
+      }
+    });
+    _compCharts.push(instance);
+  });
 }
 
-function renderCompChart() { /* legacy – no-op, replaced by renderCompTab */ }
+function renderCompChart() { /* legacy no-op */ }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 initData();
