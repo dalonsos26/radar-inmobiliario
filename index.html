@@ -433,11 +433,11 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
           </div>
           <span class="iso-ctrl-lbl">Tiempos (minutos)</span>
           <div class="iso-times-group">
+            <button class="iso-time-btn on" onclick="isoToggleTime(3,this)">3</button>
             <button class="iso-time-btn on" onclick="isoToggleTime(5,this)">5</button>
             <button class="iso-time-btn on" onclick="isoToggleTime(10,this)">10</button>
-            <button class="iso-time-btn on" onclick="isoToggleTime(15,this)">15</button>
+            <button class="iso-time-btn"    onclick="isoToggleTime(15,this)">15</button>
             <button class="iso-time-btn"    onclick="isoToggleTime(20,this)">20</button>
-            <button class="iso-time-btn"    onclick="isoToggleTime(30,this)">30</button>
           </div>
           <button id="iso-run-btn" onclick="isoRun()">Calcular isócrona</button>
           <div id="iso-hint">Haz clic en el mapa o busca una dirección para fijar el punto de origen.</div>
@@ -1585,13 +1585,14 @@ function locSwitchTab(tab, btn) {
   var chartsArea = document.getElementById('comp-charts-area');
   if (panel) panel.style.display = tab==='comp' ? 'none' : '';
   if (chartsArea) chartsArea.style.display = tab==='comp' ? 'block' : 'none';
+  if (_agebMap) setTimeout(function(){ _agebMap.invalidateSize(); }, 50);
   if (tab==='comp') renderCompTab();
 }
 
 // ── Isócronas ─────────────────────────────────────────────────────────────────
 var _isoMarker = null, _isoLayers = [], _isoPoint = null;
 var _isoMode = 'foot-walking';
-var _isoTimes = [5, 10, 15];
+var _isoTimes = [3, 5, 10];
 var _isoAgebData = {};
 
 var ISO_COLORS = ['#f97316','#fb923c','#fbbf24','#a3e635','#34d399'];
@@ -2118,7 +2119,8 @@ function renderCompTab() {
 
   chartsArea.innerHTML = hdr + grid;
 
-  // Draw each chart after DOM is updated
+  // Defer chart drawing so the DOM has time to layout the canvases
+  setTimeout(function() {
   COMP_CHARTS.forEach(function(ch){
     var canvas = document.getElementById(ch.id);
     if (!canvas) return;
@@ -2157,6 +2159,7 @@ function renderCompTab() {
     });
     _compCharts.push(instance);
   });
+  }, 50); // defer 50ms so canvases have size
 }
 
 function renderCompChart() { /* legacy no-op */ }
