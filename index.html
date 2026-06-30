@@ -2044,6 +2044,12 @@ var COMP_CHARTS = [
 ];
 
 function renderCompTab() {
+  try { _renderCompTab(); } catch(e) {
+    var ca = document.getElementById('comp-charts-area');
+    if (ca) ca.innerHTML = '<div style="padding:1rem;background:#fee2e2;border-radius:8px;font-size:.8rem;color:#dc2626">ERROR: '+e.message+'<br><pre>'+e.stack+'</pre></div>';
+  }
+}
+function _renderCompTab() {
   var saved = isoGetSaved();
   var contentEl = document.getElementById('comp-content');
   var chartsArea = document.getElementById('comp-charts-area');
@@ -2051,9 +2057,6 @@ function renderCompTab() {
   // Destroy previous Chart.js instances
   _compCharts.forEach(function(c){ try{ c.destroy(); }catch(e){} });
   _compCharts = [];
-
-  var dbg = 'renderCompTab: saved='+saved.length+' chartsArea='+(chartsArea?'found':'NULL');
-  if (chartsArea) chartsArea.innerHTML = '<div style="padding:.5rem;font-size:.75rem;color:#666">'+dbg+'</div>';
 
   if (!saved.length) {
     if (contentEl) contentEl.innerHTML = '<div class="comp-empty">Calcula isócronas y guárdalas para comparar.</div>';
