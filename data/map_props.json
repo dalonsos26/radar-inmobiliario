@@ -116,7 +116,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "b575414e-fdda-4574-93ce-019d8a464f72",
@@ -447,8 +447,8 @@
     "tipo": "Terreno",
     "municipio": "Torreón",
     "superficie": "219 m²",
-    "precio": "6,576 MXN Renta",
-    "precio_m2": "$30.0/m²",
+    "precio": "5,500 MXN Renta",
+    "precio_m2": "$25.1/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/024e237a-f60a-43a3-9410-019e7500a684",
     "fotos_local": [
@@ -600,8 +600,8 @@
     "tipo": "Oficina",
     "municipio": "Torreón",
     "superficie": "200 m²",
-    "precio": "20,000 MXN Renta",
-    "precio_m2": "$100.0/m²",
+    "precio": "16,000 MXN Renta",
+    "precio_m2": "$80.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/d2d354b6-6071-406f-9f8e-019dc1e8b5d3",
     "fotos_local": [
@@ -855,8 +855,8 @@
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "90 m²",
-    "precio": "16,500 MXN Renta",
-    "precio_m2": "$183.3/m²",
+    "precio": "18,000 MXN Renta",
+    "precio_m2": "$200.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/1a87f188-e68d-4a1d-890c-019e6b259ae6",
     "fotos_local": [
@@ -915,7 +915,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "d0de863d-29d0-4e0f-b0eb-0196031beb2b",
@@ -936,12 +936,12 @@
   },
   {
     "id": "d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
-    "title": "Renta de Local Comercial en Avenida en Villas de la Hacienda, Torreón",
+    "title": "Renta de Local Comercial en paseo del tec, en Villas de la Hacienda, Torreón",
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "70 m²",
-    "precio": "11,000 MXN Renta",
-    "precio_m2": "$157.1/m²",
+    "precio": "9,000 MXN Renta",
+    "precio_m2": "$180.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
     "fotos_local": [
@@ -1085,7 +1085,7 @@
     ],
     "lat": 25.4872544,
     "lng": -103.3419495,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "c6f6c6e7-4d3d-4216-aaba-01920caa9185",
@@ -1255,7 +1255,7 @@
     ],
     "lat": 25.5491255,
     "lng": -103.4473793,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "5e376eba-c5f8-4dff-8217-019d8ddf7a68",
@@ -1578,7 +1578,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "884d186c-12ec-4092-8ca7-019e52331f28",
@@ -2275,7 +2275,7 @@
     ],
     "lat": 25.5752622,
     "lng": -103.4335239,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "305bf7e7-6b86-4051-adcf-019e469f12a0",
@@ -2292,7 +2292,7 @@
     ],
     "lat": 25.5846293,
     "lng": -103.371814,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1fa4d615-fbda-410d-98e1-019e46a70239",
@@ -2309,7 +2309,7 @@
     ],
     "lat": 25.60179,
     "lng": -103.3806448,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1203a8a0-ceee-4f3f-83ad-019e46d10205",
@@ -2402,8 +2402,8 @@
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "50 m²",
-    "precio": "12,000 MXN Renta",
-    "precio_m2": "$240.0/m²",
+    "precio": "11,000 MXN Renta",
+    "precio_m2": "$220.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
     "fotos_local": [
@@ -2419,8 +2419,8 @@
     "tipo": "Bodega",
     "municipio": "Torreón",
     "superficie": "400 m²",
-    "precio": "32,000 MXN Renta",
-    "precio_m2": "$80.0/m²",
+    "precio": "30,000 MXN Renta",
+    "precio_m2": "$75.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/70476eae-707b-4eba-80f4-0199074495cc",
     "fotos_local": [
@@ -2615,7 +2615,7 @@
     ],
     "lat": 25.5795578,
     "lng": -103.4082889,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "76279b6a-ed3d-4cb9-b113-019dbc238fa4",
@@ -2632,7 +2632,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "962bf202-c7cf-4498-b195-019e410ec052",
@@ -2819,7 +2819,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "4c2179b5-3b45-4b3f-8bfc-018b26f49fb8",
