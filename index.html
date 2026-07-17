@@ -56,6 +56,19 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 .btn.on-city{background:var(--surface);color:var(--teal);box-shadow:0 1px 4px rgba(0,0,0,.12);font-weight:700}
 .sort-btn.on,.dom-btn.on{background:var(--surface);color:var(--accent);box-shadow:0 1px 4px rgba(0,0,0,.12);font-weight:700}
 .count{font-size:.78rem;color:var(--muted);margin-left:auto;white-space:nowrap}
+/* ── Pill dropdowns ── */
+.dd{position:relative;display:inline-block}
+.dd-btn{display:inline-flex;align-items:center;gap:.4rem;border:1.5px solid var(--border);background:var(--surface);color:var(--text);font-size:.78rem;font-weight:600;padding:.42rem .95rem;border-radius:999px;cursor:pointer;transition:border-color .15s;white-space:nowrap;line-height:1.2}
+.dd-btn:hover{border-color:var(--accent)}
+.dd-btn .dd-val{color:var(--accent);font-weight:700}
+.dd-btn::after{content:"";width:7px;height:7px;border-right:1.6px solid var(--muted);border-bottom:1.6px solid var(--muted);transform:rotate(45deg) translateY(-2px);flex-shrink:0}
+.dd.open .dd-btn{border-color:var(--accent)}
+.dd-menu{position:absolute;top:calc(100% + 6px);left:0;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.14);padding:.35rem;min-width:165px;z-index:1200;display:none}
+.dd.open .dd-menu{display:block}
+.dd-item{display:flex;align-items:center;justify-content:space-between;gap:.6rem;width:100%;background:none;border:none;text-align:left;font-size:.79rem;font-weight:500;color:var(--text);padding:.45rem .7rem;border-radius:8px;cursor:pointer;white-space:nowrap}
+.dd-item:hover{background:var(--surface2)}
+.dd-item.sel{color:var(--accent);font-weight:700}
+.dd-item.sel::after{content:"✓"}
 .grid{max-width:1420px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1rem}@media(min-width:1100px){.grid{grid-template-columns:repeat(4,1fr)}}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--sh);transition:transform .15s,box-shadow .15s}
 .card:hover{transform:translateY(-2px);box-shadow:var(--sh2)}
@@ -235,6 +248,25 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 </head>
 <body>
 
+<!-- ── Login ── -->
+<div id="login-overlay" style="display:none;position:fixed;inset:0;background:#111827;z-index:5000;align-items:center;justify-content:center">
+  <div style="background:#fff;border-radius:18px;padding:2.2rem 2.4rem;width:340px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.4)">
+    <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem">
+      <div style="width:38px;height:38px;background:#ea580c;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:900;color:#fff">NR</div>
+      <div>
+        <div style="font-size:1.05rem;font-weight:800;color:#111827">NEAR Real Estate</div>
+        <div style="font-size:.7rem;color:#6b7280">Radar Inmobiliario · Laguna</div>
+      </div>
+    </div>
+    <label style="font-size:.68rem;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.3rem">Usuario</label>
+    <input id="login-user" autocomplete="username" style="width:100%;border:1.5px solid #d1d5db;border-radius:10px;padding:.55rem .8rem;font-size:.9rem;margin-bottom:.9rem;outline:none;color:#111827;background:#fff" onkeydown="if(event.key==='Enter')document.getElementById('login-pass').focus()">
+    <label style="font-size:.68rem;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.3rem">Contraseña</label>
+    <input id="login-pass" type="password" autocomplete="current-password" style="width:100%;border:1.5px solid #d1d5db;border-radius:10px;padding:.55rem .8rem;font-size:.9rem;margin-bottom:1.1rem;outline:none;color:#111827;background:#fff" onkeydown="if(event.key==='Enter')doLogin()">
+    <button onclick="doLogin()" id="login-btn" style="width:100%;background:#ea580c;color:#fff;border:none;border-radius:10px;padding:.65rem;font-size:.9rem;font-weight:700;cursor:pointer">Entrar</button>
+    <div id="login-err" style="display:none;color:#dc2626;font-size:.78rem;margin-top:.7rem;text-align:center"></div>
+  </div>
+</div>
+
 <aside class="sidebar">
   <div class="sidebar-logo">
     <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:.3rem">
@@ -259,8 +291,17 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
   <div class="sidebar-update">
     Actualizado:<br><strong id="update-label">—</strong><br>
-    <button class="update-btn" id="update-btn" onclick="triggerUpdate()" style="margin-top:.4rem">🔄 Actualizar</button>
-    <span id="update-status"></span>
+    <span id="update-wrap" style="display:none">
+      <button class="update-btn" id="update-btn" onclick="triggerUpdate()" style="margin-top:.4rem">🔄 Actualizar</button>
+      <span id="update-status"></span>
+    </span>
+    <div id="user-chip" style="display:none;align-items:center;gap:.5rem;margin-top:.9rem;padding-top:.8rem;border-top:1px solid rgba(255,255,255,.09)">
+      <div id="user-avatar" style="width:28px;height:28px;background:#ea580c;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.68rem;font-weight:800;color:#fff;flex-shrink:0"></div>
+      <div style="flex:1;min-width:0">
+        <div id="user-name" style="font-size:.75rem;font-weight:700;color:#e5e7eb;white-space:nowrap;overflow:hidden;text-overflow:ellipsis"></div>
+        <button onclick="doLogout()" style="background:none;border:none;color:#6b7280;font-size:.68rem;cursor:pointer;padding:0;text-decoration:underline">Cerrar sesión</button>
+      </div>
+    </div>
   </div>
 </aside>
 
@@ -269,41 +310,47 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 <!-- TAB: Propiedades -->
 <div id="tab-props">
   <div class="toolbar">
-    <div class="tb-group">
-      <span class="tb-lbl">Ciudad</span>
-      <button class="btn on-city on" id="cy-all"  onclick="applyCity('all',this)">Todas</button>
-      <button class="btn"            id="cy-tor"  onclick="applyCity('Torreón',this)">Torreón</button>
-      <button class="btn"            id="cy-gp"   onclick="applyCity('Gómez Palacio',this)">Gómez Palacio</button>
-      <button class="btn"            id="cy-mat"  onclick="applyCity('Matamoros',this)">Matamoros</button>
+    <div class="dd" id="dd-city">
+      <button class="dd-btn" onclick="ddToggle('dd-city')">Ciudad: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-city','all','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-city','Torreón','Torreón',this)">Torreón</button>
+        <button class="dd-item" onclick="ddPick('dd-city','Gómez Palacio','Gómez Palacio',this)">Gómez Palacio</button>
+        <button class="dd-item" onclick="ddPick('dd-city','Matamoros','Matamoros',this)">Matamoros</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Novedad</span>
-      <button class="btn on" id="f-all"  onclick="applyFilter('status','all',this)">Todas</button>
-      <button class="btn"    id="f-new"  onclick="applyFilter('status','new',this)">★ Nuevas</button>
-      <button class="btn"    id="f-seen" onclick="applyFilter('status','seen',this)">Ya vistas</button>
+    <div class="dd" id="dd-status">
+      <button class="dd-btn" onclick="ddToggle('dd-status')">Novedad: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-status','all','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-status','new','★ Nuevas',this)">★ Nuevas</button>
+        <button class="dd-item" onclick="ddPick('dd-status','seen','Ya vistas',this)">Ya vistas</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Operación</span>
-      <button class="btn on"  id="o-all"   onclick="applyFilter('op','all',this)">Todas</button>
-      <button class="btn"     id="o-renta" onclick="applyFilter('op','renta',this)">Renta</button>
-      <button class="btn"     id="o-venta" onclick="applyFilter('op','venta',this)">Venta</button>
+    <div class="dd" id="dd-op">
+      <button class="dd-btn" onclick="ddToggle('dd-op')">Operación: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-op','all','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-op','renta','Renta',this)">Renta</button>
+        <button class="dd-item" onclick="ddPick('dd-op','venta','Venta',this)">Venta</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Ordenar</span>
-      <button class="btn sort-btn on" id="s-desc" onclick="applySort('desc',this)">Más reciente</button>
-      <button class="btn sort-btn"    id="s-asc"  onclick="applySort('asc',this)">Más antiguo</button>
-      <button class="btn sort-btn"    id="s-dom"  onclick="applySort('dom',this)">Más tiempo</button>
+    <div class="dd" id="dd-sort">
+      <button class="dd-btn" onclick="ddToggle('dd-sort')">Ordenar: <span class="dd-val">Más reciente</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-sort','desc','Más reciente',this)">Más reciente</button>
+        <button class="dd-item" onclick="ddPick('dd-sort','asc','Más antiguo',this)">Más antiguo</button>
+        <button class="dd-item" onclick="ddPick('dd-sort','dom','Más tiempo publicado',this)">Más tiempo publicado</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Antigüedad</span>
-      <button class="btn dom-btn on" id="d-all" onclick="applyDom(0,this)">Todas</button>
-      <button class="btn dom-btn"   id="d-30"  onclick="applyDom(30,this)">≤30d</button>
-      <button class="btn dom-btn"   id="d-60"  onclick="applyDom(60,this)">≤60d</button>
-      <button class="btn dom-btn"   id="d-90"  onclick="applyDom(90,this)">≤90d</button>
+    <div class="dd" id="dd-dom">
+      <button class="dd-btn" onclick="ddToggle('dd-dom')">Antigüedad: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-dom','0','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-dom','30','≤30 días',this)">≤30 días</button>
+        <button class="dd-item" onclick="ddPick('dd-dom','60','≤60 días',this)">≤60 días</button>
+        <button class="dd-item" onclick="ddPick('dd-dom','90','≤90 días',this)">≤90 días</button>
+      </div>
     </div>
     <span class="count" id="count">propiedades</span>
     <span id="nuevas-badge" style="display:none;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:20px;margin-left:.5rem;align-items:center;gap:.25rem"></span>
@@ -319,41 +366,47 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 <!-- TAB: Oportunidades -->
 <div id="tab-oportunidades" style="display:none">
   <div class="toolbar">
-    <div class="tb-group">
-      <span class="tb-lbl">Tipo</span>
-      <button class="btn on" id="op-tab-all"   onclick="applyOpTab('all',this)">Todas</button>
-      <button class="btn"    id="op-tab-delist" onclick="applyOpTab('delisted',this)">🔴 De baja</button>
-      <button class="btn"    id="op-tab-drop"   onclick="applyOpTab('drops',this)">🟢 Baja precio</button>
+    <div class="dd" id="dd-optab">
+      <button class="dd-btn" onclick="ddToggle('dd-optab')">Tipo: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-optab','all','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-optab','delisted','🔴 De baja',this)">🔴 De baja</button>
+        <button class="dd-item" onclick="ddPick('dd-optab','drops','🟢 Baja precio',this)">🟢 Baja precio</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Ciudad</span>
-      <button class="btn on-city on" id="op-cy-all" onclick="applyOpCity('all',this)">Todas</button>
-      <button class="btn"            id="op-cy-tor" onclick="applyOpCity('Torreón',this)">Torreón</button>
-      <button class="btn"            id="op-cy-gp"  onclick="applyOpCity('Gómez Palacio',this)">GP</button>
-      <button class="btn"            id="op-cy-mat" onclick="applyOpCity('Matamoros',this)">Matamoros</button>
+    <div class="dd" id="dd-opcity">
+      <button class="dd-btn" onclick="ddToggle('dd-opcity')">Ciudad: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-opcity','all','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-opcity','Torreón','Torreón',this)">Torreón</button>
+        <button class="dd-item" onclick="ddPick('dd-opcity','Gómez Palacio','Gómez Palacio',this)">Gómez Palacio</button>
+        <button class="dd-item" onclick="ddPick('dd-opcity','Matamoros','Matamoros',this)">Matamoros</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Operación</span>
-      <button class="btn on" id="op-o-all"   onclick="applyOpOp('all',this)">Todas</button>
-      <button class="btn"    id="op-o-renta" onclick="applyOpOp('renta',this)">Renta</button>
-      <button class="btn"    id="op-o-venta" onclick="applyOpOp('venta',this)">Venta</button>
+    <div class="dd" id="dd-opop">
+      <button class="dd-btn" onclick="ddToggle('dd-opop')">Operación: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-opop','all','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-opop','renta','Renta',this)">Renta</button>
+        <button class="dd-item" onclick="ddPick('dd-opop','venta','Venta',this)">Venta</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Estatus</span>
-      <button class="btn on" id="op-s-all" onclick="applyOpStatus('all',this)">Todas</button>
-      <button class="btn"    id="op-s-hoy" onclick="applyOpStatus('hoy',this)">📅 Hoy</button>
-      <button class="btn"    id="op-s-seen" onclick="applyOpStatus('seen',this)">Ya vistas</button>
+    <div class="dd" id="dd-opstatus">
+      <button class="dd-btn" onclick="ddToggle('dd-opstatus')">Estatus: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-opstatus','all','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-opstatus','hoy','📅 Hoy',this)">📅 Hoy</button>
+        <button class="dd-item" onclick="ddPick('dd-opstatus','seen','Ya vistas',this)">Ya vistas</button>
+      </div>
     </div>
-    <div class="tb-sep"></div>
-    <div class="tb-group">
-      <span class="tb-lbl">Antigüedad</span>
-      <button class="btn dom-btn on" id="op-d-all" onclick="applyOpDom(0,this)">Todas</button>
-      <button class="btn dom-btn"   id="op-d-30"  onclick="applyOpDom(30,this)">≤30d</button>
-      <button class="btn dom-btn"   id="op-d-60"  onclick="applyOpDom(60,this)">≤60d</button>
-      <button class="btn dom-btn"   id="op-d-90"  onclick="applyOpDom(90,this)">≤90d</button>
+    <div class="dd" id="dd-opdom">
+      <button class="dd-btn" onclick="ddToggle('dd-opdom')">Antigüedad: <span class="dd-val">Todas</span></button>
+      <div class="dd-menu">
+        <button class="dd-item sel" onclick="ddPick('dd-opdom','0','Todas',this)">Todas</button>
+        <button class="dd-item" onclick="ddPick('dd-opdom','30','≤30 días',this)">≤30 días</button>
+        <button class="dd-item" onclick="ddPick('dd-opdom','60','≤60 días',this)">≤60 días</button>
+        <button class="dd-item" onclick="ddPick('dd-opdom','90','≤90 días',this)">≤90 días</button>
+      </div>
     </div>
     <span class="count" id="op-count"></span>
   </div>
@@ -372,11 +425,13 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 <div id="tab-mapa" style="display:none">
   <div class="section">
     <div class="map-toolbar">
-      <div class="tb-group">
-        <span class="tb-lbl">Operación</span>
-        <button class="btn on" id="mp-op-all"   onclick="applyMapOp('all',this)">Todas</button>
-        <button class="btn"    id="mp-op-renta" onclick="applyMapOp('renta',this)">Renta</button>
-        <button class="btn"    id="mp-op-venta" onclick="applyMapOp('venta',this)">Venta</button>
+      <div class="dd" id="dd-mapop">
+        <button class="dd-btn" onclick="ddToggle('dd-mapop')">Operación: <span class="dd-val">Todas</span></button>
+        <div class="dd-menu">
+          <button class="dd-item sel" onclick="ddPick('dd-mapop','all','Todas',this)">Todas</button>
+          <button class="dd-item" onclick="ddPick('dd-mapop','renta','Renta',this)">Renta</button>
+          <button class="dd-item" onclick="ddPick('dd-mapop','venta','Venta',this)">Venta</button>
+        </div>
       </div>
       <div class="tb-group" style="margin-left:auto">
         <button class="btn on" id="mp-pins"    onclick="applyMapView('pins',this)">📍 Pins</button>
@@ -656,6 +711,91 @@ function showTab(name, btn) {
   if (name==='mapa')          initMap();
   if (name==='analizador')    initAnalizador();
 }
+
+// ── Auth ──────────────────────────────────────────────────────────────────────
+var AUTH_KEY = 'radar_session_v1';
+function getSession() {
+  try { return JSON.parse(localStorage.getItem(AUTH_KEY)); } catch(e) { return null; }
+}
+function initAuth() {
+  var sess = getSession();
+  var overlay = document.getElementById('login-overlay');
+  if (!sess || !sess.token) {
+    overlay.style.display = 'flex';
+    return;
+  }
+  overlay.style.display = 'none';
+  var chip = document.getElementById('user-chip');
+  if (chip) {
+    chip.style.display = 'flex';
+    document.getElementById('user-name').textContent = sess.user + (sess.role==='admin' ? ' · admin' : '');
+    document.getElementById('user-avatar').textContent = (sess.user||'?').slice(0,2).toUpperCase();
+  }
+  var uw = document.getElementById('update-wrap');
+  if (uw) uw.style.display = sess.role === 'admin' ? '' : 'none';
+}
+function doLogin() {
+  var user = document.getElementById('login-user').value.trim();
+  var pass = document.getElementById('login-pass').value;
+  var err = document.getElementById('login-err');
+  var btn = document.getElementById('login-btn');
+  err.style.display = 'none';
+  btn.disabled = true; btn.textContent = '⏳ Entrando…';
+  fetch('/api/login', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ user: user, pass: pass })
+  })
+  .then(function(r){ return r.json().then(function(d){ return { status: r.status, d: d }; }); })
+  .then(function(res) {
+    btn.disabled = false; btn.textContent = 'Entrar';
+    if (res.status === 200 && res.d.ok) {
+      localStorage.setItem(AUTH_KEY, JSON.stringify({ user: res.d.user, role: res.d.role, token: res.d.token }));
+      initAuth();
+    } else {
+      err.textContent = res.d.error || 'Error al iniciar sesión';
+      err.style.display = 'block';
+    }
+  })
+  .catch(function() {
+    btn.disabled = false; btn.textContent = 'Entrar';
+    err.textContent = 'Error de conexión'; err.style.display = 'block';
+  });
+}
+function doLogout() {
+  localStorage.removeItem(AUTH_KEY);
+  location.reload();
+}
+
+// ── Pill dropdowns ────────────────────────────────────────────────────────────
+var DD_APPLY = {
+  'dd-city':     function(v){ applyCity(v, null); },
+  'dd-status':   function(v){ applyFilter('status', v, null); },
+  'dd-op':       function(v){ applyFilter('op', v, null); },
+  'dd-sort':     function(v){ applySort(v, null); },
+  'dd-dom':      function(v){ applyDom(parseInt(v,10), null); },
+  'dd-optab':    function(v){ applyOpTab(v, null); },
+  'dd-opcity':   function(v){ applyOpCity(v, null); },
+  'dd-opop':     function(v){ applyOpOp(v, null); },
+  'dd-opstatus': function(v){ applyOpStatus(v, null); },
+  'dd-opdom':    function(v){ applyOpDom(parseInt(v,10), null); },
+  'dd-mapop':    function(v){ applyMapOp(v, null); }
+};
+function ddToggle(id) {
+  document.querySelectorAll('.dd.open').forEach(function(d){ if (d.id !== id) d.classList.remove('open'); });
+  document.getElementById(id).classList.toggle('open');
+}
+function ddPick(id, val, label, btn) {
+  var dd = document.getElementById(id);
+  dd.querySelectorAll('.dd-item').forEach(function(b){ b.classList.remove('sel'); });
+  btn.classList.add('sel');
+  dd.querySelector('.dd-val').textContent = label;
+  dd.classList.remove('open');
+  if (DD_APPLY[id]) DD_APPLY[id](val);
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.dd')) document.querySelectorAll('.dd.open').forEach(function(d){ d.classList.remove('open'); });
+});
 
 // ── City filter (props) ───────────────────────────────────────────────────────
 function applyCity(city, btn) {
@@ -1552,7 +1692,8 @@ function triggerUpdate() {
   btn.textContent = '⏳ Iniciando...';
   st.textContent  = '';
   st.style.color  = 'var(--muted)';
-  fetch('/api/update', {method:'POST'})
+  var sess = getSession();
+  fetch('/api/update', {method:'POST', headers:{ 'Authorization': 'Bearer ' + (sess ? sess.token : '') }})
     .then(function(r){ return r.json(); })
     .then(function(d) {
       if (d.ok) {
@@ -2194,6 +2335,7 @@ function _renderCompTab() {
 function renderCompChart() { /* legacy no-op */ }
 
 // ── Init ──────────────────────────────────────────────────────────────────────
+initAuth();
 initData();
 var _hf = document.getElementById('hdr-favs'); if (_hf) _hf.textContent = FAVS.size;
 isoUpdateCompBadge();
