@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-const ALLOWED = new Set(['properties', 'oportunidades', 'map_props', 'weekly_stats']);
+const ALLOWED = new Set(['properties', 'oportunidades', 'map_props', 'weekly_stats', 'denue']);
 
 export default function handler(req, res) {
   const { file } = req.query;

@@ -456,7 +456,25 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <button class="btn"    id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
         <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
-      <div class="dd" id="dd-agebstyle" style="margin-left:auto">
+      <div class="dd" id="dd-denue" style="margin-left:auto">
+        <button class="dd-btn" onclick="ddToggle('dd-denue')">Negocios: <span class="dd-val">Ninguno</span></button>
+        <div class="dd-menu" style="max-height:320px;overflow-y:auto">
+          <button class="dd-item sel" onclick="ddPick('dd-denue','none','Ninguno',this)">Ninguno</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','all','Todos',this)">Todos</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','comercio','🛒 Comercio',this)">🛒 Comercio</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','comida','🍽 Restaurantes/Hoteles',this)">🍽 Restaurantes/Hoteles</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','finanzas','🏦 Bancos/Finanzas',this)">🏦 Bancos/Finanzas</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','salud','🏥 Salud',this)">🏥 Salud</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','educacion','🎓 Educación',this)">🎓 Educación</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','industria','🏭 Industria',this)">🏭 Industria</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','oficinas','💼 Oficinas/Profesional',this)">💼 Oficinas/Profesional</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','entretenimiento','🎬 Entretenimiento',this)">🎬 Entretenimiento</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','transporte','🚚 Transporte',this)">🚚 Transporte</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','gobierno','🏛 Gobierno',this)">🏛 Gobierno</button>
+          <button class="dd-item" onclick="ddPick('dd-denue','otros','Otros',this)">Otros</button>
+        </div>
+      </div>
+      <div class="dd" id="dd-agebstyle">
         <button class="dd-btn" onclick="ddToggle('dd-agebstyle')">Mapa: <span class="dd-val">Claro</span></button>
         <div class="dd-menu" style="left:auto;right:0">
           <button class="dd-item sel" onclick="ddPick('dd-agebstyle','light-v11','Claro',this)">Claro</button>
@@ -591,6 +609,16 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
     <div class="section-card">
       <h2>💰 Precio/m² promedio por semana y tipo</h2>
       <div id="pm2-wrap"><div class="chart-wrap"><canvas id="chart-pm2"></canvas></div></div>
+    </div>
+    <div class="section-card">
+      <h2>🏗 Mercado de vivienda — SNIIV (SEDATU)</h2>
+      <div style="font-size:.75rem;color:var(--muted);margin-bottom:.9rem">Vivienda nueva registrada (RUV) y financiamientos hipotecarios del año en curso por municipio. Los avalúos de cada crédito alimentan estos registros: donde crecen, ahí se está moviendo el mercado. <a href="https://sniiv.sedatu.gob.mx" target="_blank" rel="noopener" style="color:var(--accent)">Fuente ↗</a></div>
+      <div id="sniiv-kpis" style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem"></div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:1rem">
+        <div><div style="font-size:.8rem;font-weight:700;margin-bottom:.5rem">Vivienda nueva registrada (unidades)</div><div class="chart-wrap" style="height:240px"><canvas id="chart-sniiv-reg"></canvas></div></div>
+        <div><div style="font-size:.8rem;font-weight:700;margin-bottom:.5rem">Financiamientos por destino (acciones)</div><div class="chart-wrap" style="height:240px"><canvas id="chart-sniiv-fin"></canvas></div></div>
+      </div>
+      <div id="sniiv-status" style="font-size:.78rem;color:var(--muted);text-align:center;padding:.6rem"></div>
     </div>
   </div>
 </div>
@@ -795,8 +823,141 @@ var DD_APPLY = {
   'dd-opdom':    function(v){ applyOpDom(parseInt(v,10), null); },
   'dd-mapop':    function(v){ applyMapOp(v, null); },
   'dd-mapstyle': function(v){ applyMapStyle(v); },
-  'dd-agebstyle':function(v){ applyAgebStyle(v); }
+  'dd-agebstyle':function(v){ applyAgebStyle(v); },
+  'dd-denue':    function(v){ applyDenue(v); }
 };
+
+// ── Capa DENUE (negocios INEGI) ───────────────────────────────────────────────
+var DENUE_DATA = null, _denueLayer = null;
+var DENUE_COLORS = {
+  comercio:'#f97316', comida:'#ef4444', finanzas:'#0ea5e9', salud:'#10b981',
+  educacion:'#8b5cf6', industria:'#64748b', oficinas:'#06b6d4',
+  entretenimiento:'#ec4899', transporte:'#a16207', gobierno:'#334155', otros:'#9ca3af'
+};
+function applyDenue(cat) {
+  if (!_agebMap) return;
+  if (_denueLayer) { _agebMap.removeLayer(_denueLayer); _denueLayer = null; }
+  if (cat === 'none') return;
+  function draw() {
+    var cats = cat === 'all' ? Object.keys(DENUE_DATA) : [cat];
+    var group = (typeof L.markerClusterGroup === 'function')
+      ? L.markerClusterGroup({ chunkedLoading: true, disableClusteringAtZoom: 16 })
+      : L.layerGroup();
+    cats.forEach(function(c) {
+      var col = DENUE_COLORS[c] || '#9ca3af';
+      (DENUE_DATA[c] || []).forEach(function(p) {
+        var m = L.circleMarker([p[0], p[1]], { radius: 5, color: '#fff', weight: 1, fillColor: col, fillOpacity: .85 });
+        m.bindPopup('<b>' + esc(p[2] || '(sin nombre)') + '</b><br>' +
+          '<span style="font-size:.75rem;color:#6b7280">' + c + ' · ' + esc(p[3] || '') + ' · ' + esc(p[4] || '') + '</span>');
+        group.addLayer(m);
+      });
+    });
+    _denueLayer = group.addTo(_agebMap);
+  }
+  if (DENUE_DATA) { draw(); return; }
+  var pending = 1 + (typeof L.markerClusterGroup !== 'function' ? 1 : 0);
+  function done() { if (--pending === 0) draw(); }
+  var _gh = 'https://raw.githubusercontent.com/dalonsos26/radar-inmobiliario/main/data';
+  var _isProd = location.hostname !== 'localhost' && location.hostname !== '127.0.0.1';
+  fetch(_isProd ? _gh + '/denue.json' : '/data/denue.json')
+    .then(function(r){ return r.json(); })
+    .then(function(d){ DENUE_DATA = d; done(); })
+    .catch(function(){ alert('No se pudo cargar la capa de negocios.'); });
+  if (typeof L.markerClusterGroup !== 'function') {
+    var s = document.createElement('script');
+    s.src = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js';
+    s.onload = done; document.head.appendChild(s);
+  }
+}
+
+// ── SNIIV (mercado de vivienda) ───────────────────────────────────────────────
+var _sniivLoaded = false, _sniivCharts = [];
+function loadSniiv() {
+  if (_sniivLoaded) return;
+  _sniivLoaded = true;
+  var MUNIS = [
+    { ent:'05', mun:'035', name:'Torreón' },
+    { ent:'10', mun:'007', name:'Gómez Palacio' },
+    { ent:'05', mun:'017', name:'Matamoros' },
+  ];
+  var year = new Date().getFullYear();
+  var st = document.getElementById('sniiv-status');
+  if (st) st.textContent = '⏳ Cargando datos del SNIIV…';
+  function get(cubo, m) {
+    return fetch('/api/sniiv?cubo=' + cubo + '&ent=' + m.ent + '&mun=' + m.mun + '&years=' + year)
+      .then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; });
+  }
+  Promise.all(MUNIS.map(function(m){ return get('registro', m); }).concat(
+              MUNIS.map(function(m){ return get('financiamiento', m); })))
+  .then(function(res) {
+    var regs = res.slice(0, 3), fins = res.slice(3);
+    var MUNI_COLORS = ['#ea580c', '#3b82f6', '#059669'];
+
+    // KPIs
+    var kpiEl = document.getElementById('sniiv-kpis');
+    if (kpiEl) {
+      kpiEl.innerHTML = MUNIS.map(function(m, i) {
+        var viv = regs[i].reduce(function(a,r){ return a + (r.viviendas||0); }, 0);
+        var acc = fins[i].reduce(function(a,r){ return a + (r.acciones||0); }, 0);
+        var mto = fins[i].reduce(function(a,r){ return a + (r.monto||0); }, 0);
+        return '<div style="flex:1;min-width:180px;background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:.7rem .9rem">' +
+          '<div style="font-size:.72rem;font-weight:700;color:'+MUNI_COLORS[i]+'">'+m.name+' · '+year+'</div>' +
+          '<div style="font-size:.78rem;margin-top:.3rem;line-height:1.7">' +
+          '🏠 <b>'+viv.toLocaleString()+'</b> viviendas registradas<br>' +
+          '💳 <b>'+acc.toLocaleString()+'</b> financiamientos<br>' +
+          '💰 <b>$'+(mto/1e6).toFixed(0)+'M</b> MXN colocados</div></div>';
+      }).join('');
+    }
+
+    // Chart: registro por tipo
+    var regCanvas = document.getElementById('chart-sniiv-reg');
+    if (regCanvas) {
+      var tipos = {};
+      regs.forEach(function(r){ r.forEach(function(x){ tipos[x.tipo_vivienda]=1; }); });
+      var tipoKeys = Object.keys(tipos);
+      _sniivCharts.push(new Chart(regCanvas, {
+        type: 'bar',
+        data: { labels: MUNIS.map(function(m){return m.name;}),
+          datasets: tipoKeys.map(function(t, ti) {
+            return { label: t, backgroundColor: ['#ea580c','#fdba74','#7c3aed'][ti%3],
+              data: MUNIS.map(function(m, i) {
+                var row = regs[i].find(function(x){ return x.tipo_vivienda===t; });
+                return row ? row.viviendas : 0;
+              }) };
+          }) },
+        options: { responsive:true, maintainAspectRatio:false,
+          plugins:{ legend:{ position:'bottom', labels:{font:{size:11}} } },
+          scales:{ x:{ stacked:true }, y:{ stacked:true, beginAtZero:true } } }
+      }));
+    }
+
+    // Chart: financiamientos por destino (top 5)
+    var finCanvas = document.getElementById('chart-sniiv-fin');
+    if (finCanvas) {
+      var totals = {};
+      fins.forEach(function(f){ f.forEach(function(x){ totals[x.destino_credito] = (totals[x.destino_credito]||0) + (x.acciones||0); }); });
+      var top = Object.keys(totals).sort(function(a,b){ return totals[b]-totals[a]; }).slice(0,5);
+      _sniivCharts.push(new Chart(finCanvas, {
+        type: 'bar',
+        data: { labels: top,
+          datasets: MUNIS.map(function(m, i) {
+            return { label: m.name, backgroundColor: MUNI_COLORS[i]+'cc', borderColor: MUNI_COLORS[i], borderWidth: 1.5, borderRadius: 4,
+              data: top.map(function(t) {
+                var row = fins[i].find(function(x){ return x.destino_credito===t; });
+                return row ? row.acciones : 0;
+              }) };
+          }) },
+        options: { responsive:true, maintainAspectRatio:false,
+          plugins:{ legend:{ position:'bottom', labels:{font:{size:11}} } },
+          scales:{ y:{ beginAtZero:true }, x:{ ticks:{ font:{size:9}, maxRotation:30 } } } }
+      }));
+    }
+    if (st) st.textContent = '';
+  })
+  .catch(function(e) {
+    if (st) st.textContent = '❌ No se pudieron cargar los datos del SNIIV.';
+  });
+}
 function ddToggle(id) {
   document.querySelectorAll('.dd.open').forEach(function(d){ if (d.id !== id) d.classList.remove('open'); });
   document.getElementById(id).classList.toggle('open');
@@ -1689,6 +1850,7 @@ function mkCanvas(wrapId, canvasId) {
 }
 
 function renderCharts() {
+  loadSniiv();
   var weeks = WEEKLY.weeks || {};
   var wkeys = Object.keys(weeks).sort();
 
