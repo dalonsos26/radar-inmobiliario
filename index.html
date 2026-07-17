@@ -858,6 +858,18 @@ function render() {
 }
 
 // ── Mapa ──────────────────────────────────────────────────────────────────────
+var MAPBOX_TOKEN = '';
+fetch('/api/config').then(function(r){ return r.json(); }).then(function(c){ MAPBOX_TOKEN = c.mapboxToken || ''; }).catch(function(){});
+function mapboxTiles(style) {
+  if (!MAPBOX_TOKEN) {
+    return L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors', maxZoom: 19
+    });
+  }
+  return L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/'+style+'/tiles/{z}/{x}/{y}@2x?access_token='+MAPBOX_TOKEN, {
+    attribution: '© Mapbox © OpenStreetMap', maxZoom: 20, tileSize: 512, zoomOffset: -1
+  });
+}
 var _map = null, _clusterLayer = null, _heatLayer = null;
 var mapCity = 'all', mapOp = 'all', mapView = 'pins';
 
@@ -1018,9 +1030,7 @@ function initMap() {
     loadScript('https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js', function() {
       loadScript('https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js', function() {
         _map = L.map('map-container').setView([25.543, -103.428], 12);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-          attribution: '© OpenStreetMap contributors', maxZoom: 19
-        }).addTo(_map);
+        mapboxTiles('streets-v12').addTo(_map);
         refreshMap();
       });
     });
@@ -1266,9 +1276,7 @@ function applyAgebTile(type, btn) {
       attribution: '© Esri · Earthstar Geographics', maxZoom: 19
     }).addTo(_agebMap);
   } else {
-    _agebTileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors', maxZoom: 19
-    }).addTo(_agebMap);
+    _agebTileLayer = mapboxTiles('light-v11').addTo(_agebMap);
   }
   // keep ageb layer on top
   if (_agebLayer) _agebLayer.bringToFront();
@@ -1286,9 +1294,7 @@ function initAnalizador() {
   }
   function ready() {
     _agebMap = L.map('ageb-map-container').setView([25.554, -103.394], 12);
-    _agebTileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap contributors', maxZoom: 19
-    }).addTo(_agebMap);
+    _agebTileLayer = mapboxTiles('light-v11').addTo(_agebMap);
     _agebMap.on('click', function(e) {
       // Always update isochrone point
       isoSetPoint(e.latlng.lat, e.latlng.lng, null);

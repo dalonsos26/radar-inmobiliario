@@ -1,3 +1,39 @@
+const MAPBOX_TOKEN = process.env.MAPBOX_TOKEN || '';
+
+const mapboxProfileMap = {
+  'driving-car':     'mapbox/driving-traffic', // typical traffic profiles
+  'foot-walking':    'mapbox/walking',
+  'cycling-regular': 'mapbox/cycling',
+};
+
+async function tryMapbox(lat, lng, mode, validMinutes) {
+  if (!MAPBOX_TOKEN) return null;
+  const profile = mapboxProfileMap[mode] || 'mapbox/driving-traffic';
+  const sorted = [...validMinutes].sort((a, b) => a - b);
+
+  // Mapbox allows max 4 contours per request — chunk if needed
+  const chunks = [];
+  for (let i = 0; i < sorted.length; i += 4) chunks.push(sorted.slice(i, i + 4));
+
+  const features = [];
+  for (const chunk of chunks) {
+    const url = `https://api.mapbox.com/isochrone/v1/${profile}/${lng},${lat}` +
+      `?contours_minutes=${chunk.join(',')}&polygons=true&denoise=1&access_token=${MAPBOX_TOKEN}`;
+    const res = await fetch(url, { signal: AbortSignal.timeout(10000) });
+    if (!res.ok) {
+      console.error('Mapbox error:', res.status, await res.text());
+      return null;
+    }
+    const gj = await res.json();
+    if (!gj.features) return null;
+    gj.features.forEach(f => {
+      f.properties.value = (f.properties.contour || 0) * 60;
+      features.push(f);
+    });
+  }
+  return { type: 'FeatureCollection', features };
+}
+
 const VALHALLA_HOSTS = [
   'https://valhalla1.openstreetmap.de',
   'https://valhalla2.openstreetmap.de',
@@ -135,7 +171,18 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Tiempos inválidos' });
   }
 
-  // 1. Try ORS (if API key configured)
+  // 1. Try Mapbox (traffic-aware profiles)
+  try {
+    const mb = await tryMapbox(lat, lng, mode, validMinutes);
+    if (mb) {
+      res.setHeader('Cache-Control', 's-maxage=300, stale-while-revalidate=600');
+      return res.status(200).json(mb);
+    }
+  } catch (e) {
+    console.error('Mapbox failed:', e.message);
+  }
+
+  // 2. Try ORS (if API key configured)
   try {
     const ors = await tryORS(lat, lng, mode, validMinutes);
     if (ors) {
