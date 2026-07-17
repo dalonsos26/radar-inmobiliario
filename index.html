@@ -456,7 +456,8 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <button class="btn"    id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
         <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
-      <div class="dd" id="dd-denue" style="margin-left:auto">
+      <button class="btn" id="sniiv-map-btn" onclick="toggleSniivLayer(this)" style="margin-left:auto;border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🏗 Mercado SNIIV</button>
+      <div class="dd" id="dd-denue">
         <button class="dd-btn" onclick="ddToggle('dd-denue')">Negocios: <span class="dd-val">Ninguno</span></button>
         <div class="dd-menu" style="max-height:320px;overflow-y:auto">
           <button class="dd-item sel" onclick="ddPick('dd-denue','none','Ninguno',this)">Ninguno</button>
@@ -868,6 +869,69 @@ function applyDenue(cat) {
     s.src = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js';
     s.onload = done; document.head.appendChild(s);
   }
+}
+
+// ── Capa SNIIV en el mapa (burbujas por municipio) ────────────────────────────
+var _sniivLayer = null, _sniivMapData = null;
+var SNIIV_CENTROIDS = {
+  'Torreón':       [25.548, -103.406],
+  'Gómez Palacio': [25.565, -103.496],
+  'Matamoros':     [25.528, -103.228],
+};
+function toggleSniivLayer(btn) {
+  if (!_agebMap) return;
+  if (_sniivLayer) {
+    _agebMap.removeLayer(_sniivLayer);
+    _sniivLayer = null;
+    btn.classList.remove('on');
+    return;
+  }
+  btn.classList.add('on');
+  function draw() {
+    var group = L.layerGroup();
+    var max = Math.max.apply(null, _sniivMapData.map(function(d){ return d.acc; })) || 1;
+    _sniivMapData.forEach(function(d) {
+      var c = SNIIV_CENTROIDS[d.name];
+      if (!c) return;
+      var r = 18 + 42 * Math.sqrt(d.acc / max);
+      var circle = L.circleMarker(c, {
+        radius: r, color: '#7c3aed', weight: 2, fillColor: '#7c3aed', fillOpacity: .25
+      });
+      circle.bindPopup('<b>🏗 ' + d.name + ' · ' + d.year + '</b><br>' +
+        '<span style="font-size:.8rem;line-height:1.7">' +
+        '🏠 <b>' + d.viv.toLocaleString() + '</b> viviendas nuevas registradas<br>' +
+        '💳 <b>' + d.acc.toLocaleString() + '</b> financiamientos hipotecarios<br>' +
+        '💰 <b>$' + (d.monto/1e6).toFixed(0) + 'M</b> MXN colocados<br>' +
+        '<span style="color:#6b7280;font-size:.7rem">Fuente: SNIIV / SEDATU</span></span>');
+      var label = L.marker(c, {
+        icon: L.divIcon({ className:'', iconAnchor:[30,-8],
+          html: '<div style="background:#7c3aed;color:#fff;font-size:.66rem;font-weight:700;padding:.2rem .5rem;border-radius:12px;white-space:nowrap;box-shadow:0 2px 5px rgba(0,0,0,.3)">' + d.name + ' · ' + d.acc.toLocaleString() + ' créditos</div>' }),
+        interactive: false
+      });
+      group.addLayer(circle); group.addLayer(label);
+    });
+    _sniivLayer = group.addTo(_agebMap);
+  }
+  if (_sniivMapData) { draw(); return; }
+  var MUNIS = [
+    { ent:'05', mun:'035', name:'Torreón' },
+    { ent:'10', mun:'007', name:'Gómez Palacio' },
+    { ent:'05', mun:'017', name:'Matamoros' },
+  ];
+  var year = new Date().getFullYear();
+  Promise.all(MUNIS.map(function(m) {
+    return Promise.all([
+      fetch('/api/sniiv?cubo=registro&ent='+m.ent+'&mun='+m.mun+'&years='+year).then(function(r){return r.ok?r.json():[];}).catch(function(){return [];}),
+      fetch('/api/sniiv?cubo=financiamiento&ent='+m.ent+'&mun='+m.mun+'&years='+year).then(function(r){return r.ok?r.json():[];}).catch(function(){return [];}),
+    ]).then(function(res) {
+      return {
+        name: m.name, year: year,
+        viv:   res[0].reduce(function(a,r){ return a+(r.viviendas||0); }, 0),
+        acc:   res[1].reduce(function(a,r){ return a+(r.acciones||0); }, 0),
+        monto: res[1].reduce(function(a,r){ return a+(r.monto||0); }, 0),
+      };
+    });
+  })).then(function(data) { _sniivMapData = data; draw(); });
 }
 
 // ── SNIIV (mercado de vivienda) ───────────────────────────────────────────────
