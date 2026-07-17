@@ -425,6 +425,16 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
           <button class="dd-item" onclick="ddPick('dd-mapop','venta','Venta',this)">Venta</button>
         </div>
       </div>
+      <div class="dd" id="dd-mapstyle">
+        <button class="dd-btn" onclick="ddToggle('dd-mapstyle')">Mapa: <span class="dd-val">Calles</span></button>
+        <div class="dd-menu">
+          <button class="dd-item sel" onclick="ddPick('dd-mapstyle','streets-v12','Calles',this)">Calles</button>
+          <button class="dd-item" onclick="ddPick('dd-mapstyle','light-v11','Claro',this)">Claro</button>
+          <button class="dd-item" onclick="ddPick('dd-mapstyle','dark-v11','Oscuro',this)">Oscuro</button>
+          <button class="dd-item" onclick="ddPick('dd-mapstyle','satellite-streets-v12','🛰 Satélite',this)">🛰 Satélite</button>
+          <button class="dd-item" onclick="ddPick('dd-mapstyle','outdoors-v12','Terreno',this)">Terreno</button>
+        </div>
+      </div>
       <div class="tb-group" style="margin-left:auto">
         <button class="btn on" id="mp-pins"    onclick="applyMapView('pins',this)">📍 Pins</button>
         <button class="btn"    id="mp-heat"    onclick="applyMapView('heat',this)">🌡️ Calor</button>
@@ -433,6 +443,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
       <span id="map-count" style="font-size:.78rem;color:var(--muted);margin-left:.5rem"></span>
     </div>
     <div id="map-container"></div>
+    <div id="usage-bar-mapa"></div>
   </div>
 </div>
 
@@ -445,11 +456,22 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <button class="btn"    id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
         <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
+      <div class="dd" id="dd-agebstyle" style="margin-left:auto">
+        <button class="dd-btn" onclick="ddToggle('dd-agebstyle')">Mapa: <span class="dd-val">Claro</span></button>
+        <div class="dd-menu" style="left:auto;right:0">
+          <button class="dd-item sel" onclick="ddPick('dd-agebstyle','light-v11','Claro',this)">Claro</button>
+          <button class="dd-item" onclick="ddPick('dd-agebstyle','streets-v12','Calles',this)">Calles</button>
+          <button class="dd-item" onclick="ddPick('dd-agebstyle','dark-v11','Oscuro',this)">Oscuro</button>
+          <button class="dd-item" onclick="ddPick('dd-agebstyle','satellite-streets-v12','🛰 Satélite',this)">🛰 Satélite</button>
+          <button class="dd-item" onclick="ddPick('dd-agebstyle','outdoors-v12','Terreno',this)">Terreno</button>
+        </div>
+      </div>
     </div>
     <!-- Map + side panel (AGEB / Iso) -->
     <div id="analizador-layout">
       <div id="analizador-map-col">
         <div id="ageb-map-container"></div>
+        <div id="usage-bar-ageb"></div>
       </div>
       <div id="ageb-panel">
         <div id="loc-pane-ageb">
@@ -771,7 +793,9 @@ var DD_APPLY = {
   'dd-opop':     function(v){ applyOpOp(v, null); },
   'dd-opstatus': function(v){ applyOpStatus(v, null); },
   'dd-opdom':    function(v){ applyOpDom(parseInt(v,10), null); },
-  'dd-mapop':    function(v){ applyMapOp(v, null); }
+  'dd-mapop':    function(v){ applyMapOp(v, null); },
+  'dd-mapstyle': function(v){ applyMapStyle(v); },
+  'dd-agebstyle':function(v){ applyAgebStyle(v); }
 };
 function ddToggle(id) {
   document.querySelectorAll('.dd.open').forEach(function(d){ if (d.id !== id) d.classList.remove('open'); });
@@ -866,11 +890,57 @@ function mapboxTiles(style) {
       attribution: '© OpenStreetMap contributors', maxZoom: 19
     });
   }
-  return L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/'+style+'/tiles/{z}/{x}/{y}@2x?access_token='+MAPBOX_TOKEN, {
+  var layer = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/'+style+'/tiles/{z}/{x}/{y}@2x?access_token='+MAPBOX_TOKEN, {
     attribution: '© Mapbox © OpenStreetMap', maxZoom: 20, tileSize: 512, zoomOffset: -1
   });
+  layer.on('tileload', function(){ usageBump('tiles'); });
+  return layer;
 }
-var _map = null, _clusterLayer = null, _heatLayer = null;
+// ── Uso Mapbox (contador aproximado, este navegador) ──────────────────────────
+var USAGE_KEY = 'mapbox_usage_' + new Date().toISOString().slice(0,7); // por mes
+function usageGet() {
+  try { return JSON.parse(localStorage.getItem(USAGE_KEY)) || { tiles:0, isos:0 }; }
+  catch(e) { return { tiles:0, isos:0 }; }
+}
+var _usageRenderT = null;
+function usageBump(kind, n) {
+  var u = usageGet();
+  u[kind] = (u[kind]||0) + (n||1);
+  localStorage.setItem(USAGE_KEY, JSON.stringify(u));
+  if (_usageRenderT) clearTimeout(_usageRenderT);
+  _usageRenderT = setTimeout(usageRender, 400);
+}
+function usageRender() {
+  var u = usageGet();
+  var TILE_LIMIT = 200000, ISO_LIMIT = 100000;
+  ['usage-bar-mapa','usage-bar-ageb'].forEach(function(id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var pctT = Math.min(100, u.tiles/TILE_LIMIT*100);
+    var pctI = Math.min(100, u.isos/ISO_LIMIT*100);
+    el.innerHTML =
+      '<div style="display:flex;gap:1.2rem;flex-wrap:wrap;align-items:center;font-size:.68rem;color:var(--muted);padding:.45rem .2rem 0">' +
+      '<span style="font-weight:700;text-transform:uppercase;letter-spacing:.05em">Uso Mapbox (aprox. este navegador / mes)</span>' +
+      '<span style="display:inline-flex;align-items:center;gap:.4rem">Mapa: '+u.tiles.toLocaleString()+' / 200k' +
+        '<span style="width:70px;height:5px;background:var(--surface2);border-radius:3px;overflow:hidden;display:inline-block"><span style="display:block;height:100%;width:'+pctT+'%;background:'+(pctT>75?'#dc2626':pctT>50?'#d97706':'var(--new)')+'"></span></span></span>' +
+      '<span style="display:inline-flex;align-items:center;gap:.4rem">Isócronas: '+u.isos.toLocaleString()+' / 100k' +
+        '<span style="width:70px;height:5px;background:var(--surface2);border-radius:3px;overflow:hidden;display:inline-block"><span style="display:block;height:100%;width:'+pctI+'%;background:'+(pctI>75?'#dc2626':pctI>50?'#d97706':'var(--new)')+'"></span></span></span>' +
+      '<a href="https://console.mapbox.com/account/statistics/" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;font-weight:600">Uso exacto ↗</a></div>';
+  });
+}
+
+var _map = null, _clusterLayer = null, _heatLayer = null, _mapTileLayer = null;
+function applyMapStyle(style) {
+  if (!_map) return;
+  if (_mapTileLayer) _map.removeLayer(_mapTileLayer);
+  _mapTileLayer = mapboxTiles(style).addTo(_map);
+}
+function applyAgebStyle(style) {
+  if (!_agebMap) return;
+  if (_agebTileLayer) _agebMap.removeLayer(_agebTileLayer);
+  _agebTileLayer = mapboxTiles(style).addTo(_agebMap);
+  if (_agebLayer) _agebLayer.bringToFront();
+}
 var mapCity = 'all', mapOp = 'all', mapView = 'pins';
 
 var TIPO_COLORS = {
@@ -1030,7 +1100,8 @@ function initMap() {
     loadScript('https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js', function() {
       loadScript('https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js', function() {
         _map = L.map('map-container').setView([25.543, -103.428], 12);
-        mapboxTiles('streets-v12').addTo(_map);
+        _mapTileLayer = mapboxTiles('streets-v12').addTo(_map);
+        usageRender();
         refreshMap();
       });
     });
@@ -1295,6 +1366,7 @@ function initAnalizador() {
   function ready() {
     _agebMap = L.map('ageb-map-container').setView([25.554, -103.394], 12);
     _agebTileLayer = mapboxTiles('light-v11').addTo(_agebMap);
+    usageRender();
     _agebMap.on('click', function(e) {
       // Always update isochrone point
       isoSetPoint(e.latlng.lat, e.latlng.lng, null);
@@ -1768,11 +1840,8 @@ function isoToggleTime(min, btn) {
 
 function isoSetPoint(lat, lng, label) {
   _isoPoint = { lat: lat, lng: lng };
-  _isoLastResult = null;
-  var saveWrap = document.getElementById('iso-save-wrap');
-  if (saveWrap) saveWrap.style.display = 'none';
-  var results = document.getElementById('iso-results');
-  if (results) results.style.display = 'none';
+  // Nota: el resultado y el cuadro de guardar se conservan hasta recalcular —
+  // así un clic accidental en el mapa no impide guardar la isócrona mostrada.
   if (_isoMarker && _agebMap) _agebMap.removeLayer(_isoMarker);
   if (_agebMap) {
     _isoMarker = L.marker([lat, lng], {
@@ -1958,6 +2027,10 @@ function isoRun() {
   var results = document.getElementById('iso-results');
   btn.disabled = true; btn.textContent = '⏳ Calculando…';
   spinner.style.display = ''; hint.style.display = 'none'; results.style.display = 'none';
+  _isoLastResult = null;
+  var _sw = document.getElementById('iso-save-wrap');
+  if (_sw) _sw.style.display = 'none';
+  usageBump('isos', Math.ceil(times.length / 4)); // Mapbox: máx 4 contornos por request
 
   _isoLayers.forEach(function(l){ _agebMap.removeLayer(l); });
   _isoLayers = [];
