@@ -18,17 +18,18 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 header{display:none}
 .stats{display:none}
 /* ── Sidebar ── */
-.sidebar{width:210px;min-height:100vh;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;padding:1.2rem .85rem;box-shadow:2px 0 8px rgba(0,0,0,.04);flex-shrink:0;position:sticky;top:0;height:100vh;overflow-y:auto}
-.sidebar-logo{margin-bottom:1.4rem;padding-bottom:1rem;border-bottom:1px solid var(--border)}
-.sidebar-logo h1{font-size:1.25rem;font-weight:900;line-height:1.1}
-.sidebar-logo .sub{color:var(--muted);font-size:.7rem;line-height:1.5;margin-top:.25rem}
-.sidebar-update{margin-top:auto;padding-top:.8rem;border-top:1px solid var(--border);font-size:.7rem;color:var(--muted);line-height:1.6}
-.main-content{flex:1;min-width:0;padding:1.2rem 1.4rem;overflow:auto}
+.sidebar{width:230px;min-height:100vh;background:#111827;border-right:none;display:flex;flex-direction:column;padding:1.3rem 1rem;box-shadow:none;flex-shrink:0;position:sticky;top:0;height:100vh;overflow-y:auto}
+.sidebar-logo{margin-bottom:1.6rem;padding-bottom:1.1rem;border-bottom:1px solid rgba(255,255,255,.09)}
+.sidebar-logo h1{font-size:1.2rem;font-weight:900;line-height:1.15;letter-spacing:-.01em}
+.sidebar-logo .sub{color:#6b7280;font-size:.68rem;line-height:1.5;margin-top:.25rem}
+.sidebar-update{margin-top:auto;padding-top:.85rem;border-top:1px solid rgba(255,255,255,.09);font-size:.7rem;color:#6b7280;line-height:1.7}
+.sidebar-update strong{color:#9ca3af}
+.main-content{flex:1;min-width:0;padding:1.5rem 1.8rem;overflow:auto;background:var(--bg)}
 /* ── Sidebar nav ── */
-.tab-bar{display:flex;flex-direction:column;gap:.15rem}
-.tab-btn{display:flex;align-items:center;gap:.55rem;width:100%;text-align:left;background:transparent;border:none;color:var(--muted);font-size:.82rem;font-weight:600;padding:.55rem .75rem;border-radius:9px;cursor:pointer;transition:all .15s;white-space:nowrap}
-.tab-btn:hover{background:var(--surface2);color:var(--text)}
-.tab-btn.active{background:#fff5f0;color:var(--accent)}
+.tab-bar{display:flex;flex-direction:column;gap:.18rem}
+.tab-btn{display:flex;align-items:center;gap:.55rem;width:100%;text-align:left;background:transparent;border:none;color:#9ca3af;font-size:.82rem;font-weight:600;padding:.58rem .8rem;border-radius:9px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.tab-btn:hover{background:rgba(255,255,255,.07);color:#e5e7eb}
+.tab-btn.active{background:rgba(234,88,12,.18);color:#ea580c}
 /* override max-width for content areas inside main */
 .toolbar{max-width:none;margin-left:0;margin-right:0}
 .grid{max-width:none;margin-left:0;margin-right:0}
@@ -38,7 +39,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 .stat .n{font-size:1.6rem;font-weight:800;line-height:1;color:var(--accent)}
 .stat .n.g{color:var(--new)}.stat .n.m{color:var(--muted)}.stat .n.f{color:var(--amber)}
 .stat .d{font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-top:.1rem}
-.toolbar{max-width:1420px;margin:0 auto .85rem;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:.7rem 1.1rem;box-shadow:var(--sh);display:flex;flex-wrap:wrap;gap:.8rem;align-items:center}
+.toolbar{max-width:1420px;margin:0 auto .85rem;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:.75rem 1.2rem;box-shadow:0 1px 3px rgba(0,0,0,.05);display:flex;flex-wrap:wrap;gap:.8rem;align-items:center}
 .tb-group{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
 .tb-sep{width:1px;height:22px;background:var(--border);align-self:center}
 .tb-lbl{font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
@@ -105,8 +106,8 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 .save-ok{color:var(--new);font-size:.8rem;margin-left:.8rem;display:none}
 .favs-empty{text-align:center;color:var(--muted);padding:4rem 2rem}
 .favs-empty .icon{font-size:2.5rem;margin-bottom:.7rem}
-.update-btn{background:none;border:1.5px solid var(--border2);border-radius:20px;
-             color:var(--muted);font-size:.75rem;font-weight:600;padding:.25rem .7rem;
+.update-btn{background:none;border:1.5px solid rgba(255,255,255,.15);border-radius:20px;
+             color:#6b7280;font-size:.75rem;font-weight:600;padding:.25rem .7rem;
              cursor:pointer;transition:all .15s;vertical-align:middle}
 .update-btn:hover{border-color:var(--accent);color:var(--accent)}
 .update-btn:disabled{opacity:.5;cursor:default}
@@ -232,8 +233,14 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <aside class="sidebar">
   <div class="sidebar-logo">
-    <h1><span style="color:#ea580c;font-weight:900;letter-spacing:-.01em">NEAR</span><span style="font-weight:300;font-size:.95rem;color:#374151;letter-spacing:.03em"> Real Estate</span></h1>
-    <p class="sub" style="margin-top:.2rem;font-size:.68rem">Radar Inmobiliario<br>Torreón · GP · Matamoros</p>
+    <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:.3rem">
+      <div style="width:34px;height:34px;background:var(--accent);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:900;color:#fff;letter-spacing:-.02em;flex-shrink:0">NR</div>
+      <div>
+        <div style="font-size:.95rem;font-weight:800;color:#f9fafb;letter-spacing:-.01em">NEAR</div>
+        <div style="font-size:.65rem;color:#6b7280;letter-spacing:.03em;font-weight:500">Real Estate</div>
+      </div>
+    </div>
+    <p class="sub" style="font-size:.67rem;padding-left:.1rem">Radar Inmobiliario · Laguna</p>
   </div>
 
   <div class="tab-bar">
