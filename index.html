@@ -249,14 +249,12 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 <body>
 
 <!-- ── Login ── -->
-<div id="login-overlay" style="display:none;position:fixed;inset:0;background:#111827;z-index:5000;align-items:center;justify-content:center">
-  <div style="background:#fff;border-radius:18px;padding:2.2rem 2.4rem;width:340px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.4)">
-    <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:1.4rem">
-      <div style="width:38px;height:38px;background:#ea580c;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:900;color:#fff">NR</div>
-      <div>
-        <div style="font-size:1.05rem;font-weight:800;color:#111827">NEAR Real Estate</div>
-        <div style="font-size:.7rem;color:#6b7280">Radar Inmobiliario · Laguna</div>
-      </div>
+<div id="login-overlay" style="display:none;position:fixed;inset:0;background:#111827 url('assets/login-bg.jpg') center/cover no-repeat;z-index:5000;align-items:center;justify-content:center">
+  <div style="position:absolute;inset:0;background:rgba(17,24,39,.55)"></div>
+  <div style="position:relative;background:#fff;border-radius:18px;padding:2.2rem 2.4rem;width:340px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.4)">
+    <div style="margin-bottom:1.4rem">
+      <img src="assets/logo-near.png" alt="NEAR Developments" style="width:170px;height:auto;display:block;margin-bottom:.4rem">
+      <div style="font-size:.7rem;color:#6b7280">Radar Inmobiliario · Laguna</div>
     </div>
     <label style="font-size:.68rem;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.06em;display:block;margin-bottom:.3rem">Usuario</label>
     <input id="login-user" autocomplete="username" style="width:100%;border:1.5px solid #d1d5db;border-radius:10px;padding:.55rem .8rem;font-size:.9rem;margin-bottom:.9rem;outline:none;color:#111827;background:#fff" onkeydown="if(event.key==='Enter')document.getElementById('login-pass').focus()">
@@ -269,13 +267,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <aside class="sidebar">
   <div class="sidebar-logo">
-    <div style="display:flex;align-items:center;gap:.6rem;margin-bottom:.3rem">
-      <div style="width:34px;height:34px;background:var(--accent);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:900;color:#fff;letter-spacing:-.02em;flex-shrink:0">NR</div>
-      <div>
-        <div style="font-size:.95rem;font-weight:800;color:#f9fafb;letter-spacing:-.01em">NEAR</div>
-        <div style="font-size:.65rem;color:#6b7280;letter-spacing:.03em;font-weight:500">Real Estate</div>
-      </div>
-    </div>
+    <img src="assets/logo-near.png" alt="NEAR Developments" style="width:100%;max-width:160px;height:auto;display:block;margin-bottom:.5rem">
     <p class="sub" style="font-size:.67rem;padding-left:.1rem">Radar Inmobiliario · Laguna</p>
   </div>
 
