@@ -1,6 +1,86 @@
 {
   "delisted": [
     {
+      "id": "5f9314c2-2acf-4aaa-af79-019ac0f98679",
+      "code": "NN-BS1000416",
+      "title": "Local en Renta en Residencial el Fresno, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "26,750 MXN Renta",
+      "precio_num": 26750.0,
+      "superficie": "76 m²",
+      "area_num": 76.0,
+      "precio_m2": "$352.0/m²",
+      "pm2_num": 351.97,
+      "ubicacion": "Residencial el Fresno, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Dingler Bienes Raíces",
+      "fecha_publicacion": "2026-03-21",
+      "days_on_market": 118,
+      "link": "https://app.nocnok.com/crm/154940/properties/5f9314c2-2acf-4aaa-af79-019ac0f98679",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-251126102256-4d82636bfdb046bab30d77d2bc3f319es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251126102256-9dba96127692406fabe8a8f9e675ad4fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251126102256-f19d6259437f4ffb9ef7b516e59207a0s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-07-18",
+      "status": "delisted",
+      "delisted_at": "2026-07-19",
+      "days_listed": 48,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 26750.0,
+          "precio": "26,750 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "3f50b034-c5ed-4797-bb93-019d2d3377c3",
+      "code": "NN-GWO972",
+      "title": "Bodega en Renta Ciudad Industrial",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "20,000 MXN Renta",
+      "precio_num": 20000.0,
+      "superficie": "300 m²",
+      "area_num": 300.0,
+      "precio_m2": "$66.7/m²",
+      "pm2_num": 66.67,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Diana Arenas",
+      "fecha_publicacion": "2026-03-25",
+      "days_on_market": 114,
+      "link": "https://app.nocnok.com/crm/154940/properties/3f50b034-c5ed-4797-bb93-019d2d3377c3",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260326205902-e9e9ce3f213541939ddee3ca8746d68bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260326205852-7c98af294afb45e9bc95b86d053e3fc1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260326205840-1a422a7525214aef9755541303dd5433s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-07-18",
+      "status": "delisted",
+      "delisted_at": "2026-07-19",
+      "days_listed": 48,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 20000.0,
+          "precio": "20,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "6bc41367-ffeb-462a-9ae9-019d6f8b7950",
       "code": "NN-GXC250",
       "title": "Oficina en Venta en La Union, Torreón, Coahuila de Zaragoza",
@@ -25254,7 +25334,7 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 1,
+      "days_on_market": 2,
       "link": "https://app.nocnok.com/crm/154940/properties/d93a39af-6266-41a5-8996-019c4d946334",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260211104421-cc5ff912d7294fb282f3d41f1a2e5539s.webp",
@@ -25262,7 +25342,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260211104422-b458a20b2e8243a5bbeadf5db38348fas.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -25305,7 +25385,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-04-12",
-      "days_on_market": 96,
+      "days_on_market": 97,
       "link": "https://app.nocnok.com/crm/154940/properties/5569bcf4-9800-4736-be77-019d8839bfd0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260413130451-6150ae5c12c043baac6ff55c9f9b8c92s.webp",
@@ -25313,7 +25393,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260413130453-09e63fb9fa0f43b38e6c2f71fd315b12s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 40,
@@ -25356,7 +25436,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 1,
+      "days_on_market": 2,
       "link": "https://app.nocnok.com/crm/154940/properties/161bd133-7dae-4ac2-b6a9-0197d17541cb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250703121713-8635d6bb69934596948e72fb087b44b5s.webp",
@@ -25364,7 +25444,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250703121711-2cd8f1e704fb4a6e84208e89647a0c11s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -25407,7 +25487,7 @@
       "estado": "Durango",
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-20",
-      "days_on_market": 58,
+      "days_on_market": 59,
       "link": "https://app.nocnok.com/crm/154940/properties/700c99c2-e906-411f-b92f-019e4cec8748",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521174400-a5ee73a928d742efbc9b6b5ff339375ds.webp",
@@ -25415,7 +25495,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260521174400-d112b41d2c1c4c09831780cd254543acs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -25458,7 +25538,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Luxury Bienes Raìces de la Laguna",
       "fecha_publicacion": "2026-04-23",
-      "days_on_market": 85,
+      "days_on_market": 86,
       "link": "https://app.nocnok.com/crm/154940/properties/8094fd4b-ac35-42a8-8d62-019bfd41b660",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260126202257-6d01832472fb44b7b53db8aecf7abadcs.webp",
@@ -25466,7 +25546,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260126202321-76c2b1bc38cb4cf4bd0d54331d967f0fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 29,
@@ -25509,7 +25589,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALMA PATRICIA IZAGUIRRE",
       "fecha_publicacion": "2026-04-08",
-      "days_on_market": 100,
+      "days_on_market": 101,
       "link": "https://app.nocnok.com/crm/154940/properties/5bef74c7-fd42-4ee0-ada2-019d74bdf0d2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260414113105-73669b95288c4b2fbc4d71a00a208450s.webp",
@@ -25517,7 +25597,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260414113105-a848a886e5814f518b67e3cd3dafc76fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 40,
@@ -25560,14 +25640,14 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2025-03-13",
-      "days_on_market": 491,
+      "days_on_market": 492,
       "link": "https://app.nocnok.com/crm/154940/properties/5321a551-270a-4a1a-a8d9-019595351c6b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250903122854-82b62c40ae654939a0d04a43f519843ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250314113034-606966f1d13b48df85dc5c75681a768fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -25610,7 +25690,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Open Doors Inmobiliaria",
       "fecha_publicacion": "2026-05-04",
-      "days_on_market": 74,
+      "days_on_market": 75,
       "link": "https://app.nocnok.com/crm/154940/properties/479e9b49-8a2d-475b-b2c7-019dfaa28caa",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260505181421-9a23a91d649348c4b72d442b542dc14fs.webp",
@@ -25618,7 +25698,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260505181444-8d72e0d6a3ab488db849a2a5f2f0d166s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
@@ -25665,7 +25745,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RED Bienes Raíces",
       "fecha_publicacion": "2026-05-08",
-      "days_on_market": 70,
+      "days_on_market": 71,
       "link": "https://app.nocnok.com/crm/154940/properties/f4c9d5bd-09cb-4b2e-871d-019e0dee0d72",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260509121255-3aad3e44b4934cfaa5251d3a096af3a7s.webp",
@@ -25673,7 +25753,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260509121253-8301c78393904d97b371fe0265e2438es.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -25721,7 +25801,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-20",
-      "days_on_market": 58,
+      "days_on_market": 59,
       "link": "https://app.nocnok.com/crm/154940/properties/52c88327-1941-4593-9af6-01976fe3af28",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250614132133-bfbc2db5535c4053808733822b7dc65ds.webp",
@@ -25729,7 +25809,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250614132137-f773fefeb44a4f579294676e4efb6581s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -25774,7 +25854,7 @@
       "estado": "Durango",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2025-11-23",
-      "days_on_market": 236,
+      "days_on_market": 237,
       "link": "https://app.nocnok.com/crm/154940/properties/b50cb056-8ff3-4485-8ebb-0194c225996d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250201093705-c11a11dda13e41fea6158b681b6542a4s.webp",
@@ -25782,7 +25862,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250201093704-7ac159fed1b84c4dad988dac54acc160s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -25825,7 +25905,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ORDUÑA Y ASOCIADOS",
       "fecha_publicacion": "2026-02-05",
-      "days_on_market": 162,
+      "days_on_market": 163,
       "link": "https://app.nocnok.com/crm/154940/properties/5ed7741e-79a8-445a-84d9-018b28430d69",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230401130226-9a12ed45a4524d4e809f12e8f595d9d9.jpg",
@@ -25833,7 +25913,7 @@
         "https://s3.amazonaws.com/nocnok-img/220629171403-ea119853a65c4ff49f18b98c4dc44727.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
@@ -25875,7 +25955,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 51,
+      "days_on_market": 52,
       "link": "https://app.nocnok.com/crm/154940/properties/d2d354b6-6071-406f-9f8e-019dc1e8b5d3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260521183737-20638ebdcf57424099d058e739722cc5s.webp",
@@ -25883,7 +25963,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260521183738-b1351e52f94a415b938e0db0c82ee847s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -25928,7 +26008,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-04-12",
-      "days_on_market": 96,
+      "days_on_market": 97,
       "link": "https://app.nocnok.com/crm/154940/properties/2bd2a1c3-6f04-4cee-a231-019c43f397b3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260211125929-9ed63d40833746fc8d4013c4d4005ades.webp",
@@ -25936,7 +26016,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260211125929-5cd623ca251b4bb2a8ff6a9f7a1fd183s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 40,
@@ -25988,9 +26068,9 @@
       ],
       "first_seen": "2026-06-20",
       "last_seen": "2026-07-18",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-07-19",
+      "days_listed": 29,
       "precio_history": [
         {
           "date": "2026-06-20",
@@ -26003,6 +26083,7 @@
           "precio": "4,000,000 MXN Venta"
         }
       ],
+      "delisted_reason": "subscription_lapse",
       "original_precio": "5,000,000 MXN Venta",
       "original_precio_num": 5000000.0,
       "current_precio": "4,000,000 MXN Venta",
@@ -26029,7 +26110,7 @@
       "estado": "Durango",
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-04-12",
-      "days_on_market": 96,
+      "days_on_market": 97,
       "link": "https://app.nocnok.com/crm/154940/properties/357fa0cb-2661-4be3-aca1-018f06b6ef4d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240422100421-2983754609204750bb322eb59011a55c.jpg",
@@ -26037,7 +26118,7 @@
         "https://s3.amazonaws.com/nocnok-img/240422100825-6c596947abb542f39802f7de20f2eb1f.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -26080,7 +26161,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "SAMAX Inmobiliaria",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 52,
+      "days_on_market": 53,
       "link": "https://app.nocnok.com/crm/154940/properties/d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527172743-90db875bc2214ce6b7e2cd8c26bce14fs.webp",
@@ -26088,7 +26169,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260527172142-4f5cf1554fa244ba992d0f1cd6bd219fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -26133,7 +26214,7 @@
       "estado": "Durango",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-06-16",
-      "days_on_market": 18,
+      "days_on_market": 19,
       "link": "https://app.nocnok.com/crm/154940/properties/6d830241-ecb3-40d3-980c-019ed159526a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260616105303-f023ed05f36c468ebadd1116d5422248s.webp",
@@ -26141,7 +26222,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260616105304-513028f52b774e18982e614912b655cfs.webp"
       ],
       "first_seen": "2026-06-17",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 21,
@@ -26184,7 +26265,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NASSAR Promoción y publicidad",
       "fecha_publicacion": "2026-04-05",
-      "days_on_market": 103,
+      "days_on_market": 104,
       "link": "https://app.nocnok.com/crm/154940/properties/092cf804-c260-49cb-adf6-019d65801077",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260406191337-20241032c2bd4efebb2d36fd5160f58bs.webp",
@@ -26192,7 +26273,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260406191335-9706e9bab0a941e8b2b5e5b824ee502bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 40,
@@ -26235,7 +26316,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Mercado Inmobiliario",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 1,
+      "days_on_market": 2,
       "link": "https://app.nocnok.com/crm/154940/properties/0903cc09-f38d-4b8e-b581-019c2442c24c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260203100920-305b2e25c50e441aa1726a056d82679es.webp",
@@ -26243,7 +26324,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260203100920-f304bd29c4ad45b08635c62ed7843b1bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -26286,7 +26367,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ENLACE INMOBILIARIO",
       "fecha_publicacion": "2026-06-10",
-      "days_on_market": 38,
+      "days_on_market": 39,
       "link": "https://app.nocnok.com/crm/154940/properties/98e14487-62a2-4d01-95d9-019eb3d42e8d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260611142558-235832b4b5b549558b6000156d4c84bas.webp",
@@ -26294,7 +26375,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260611142558-d63c246bed5f44fc9d47e53c82a691c3s.webp"
       ],
       "first_seen": "2026-06-12",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 14,
@@ -26337,7 +26418,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-05-28",
-      "days_on_market": 50,
+      "days_on_market": 51,
       "link": "https://app.nocnok.com/crm/154940/properties/024e237a-f60a-43a3-9410-019e7500a684",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260529123052-57a91014405c4182b668769d8375f695s.webp",
@@ -26345,7 +26426,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260529123052-cfeb19be7ab34d0983b6ea335b8c5989s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -26423,6 +26504,59 @@
       "last_drop_date": "2026-06-04"
     },
     {
+      "id": "87183fd4-fde9-49a8-b970-019e4d041645",
+      "code": "NN-GZQ925",
+      "title": "Oficina en Renta en San Isidro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "17,000 MXN Renta",
+      "precio_num": 17000.0,
+      "superficie": "230 m²",
+      "area_num": 230.0,
+      "precio_m2": "$73.9/m²",
+      "pm2_num": 73.91,
+      "ubicacion": "San Isidro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "INVIERTE LAGUNA",
+      "fecha_publicacion": "2026-05-20",
+      "days_on_market": 59,
+      "link": "https://app.nocnok.com/crm/154940/properties/87183fd4-fde9-49a8-b970-019e4d041645",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260525162902-9d0410e21454450ca77a6fd1e35559a0s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260525162903-c32439feeec64cb787a79502656155b2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260525162903-b0fbd06c434a4c3e80b24dae55cd81e2s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-07-19",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 25,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 20000.0,
+          "precio": "20,000 MXN Renta"
+        },
+        {
+          "date": "2026-07-19",
+          "precio_num": 17000.0,
+          "precio": "17,000 MXN Renta"
+        }
+      ],
+      "lat": 25.5642818,
+      "lng": -103.4357007,
+      "delisted_reason": null,
+      "original_precio": "20,000 MXN Renta",
+      "original_precio_num": 20000.0,
+      "current_precio": "17,000 MXN Renta",
+      "current_precio_num": 17000.0,
+      "total_drop_pct": 15.0,
+      "last_drop_date": "2026-07-19"
+    },
+    {
       "id": "3bc48e6f-ae0b-4a9e-896c-019d22a01818",
       "code": "NN-GWM183",
       "title": "Terreno industrial en renta sobre Av Unión- la partida.",
@@ -26441,7 +26575,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NASSAR Promoción y publicidad",
       "fecha_publicacion": "2026-03-23",
-      "days_on_market": 116,
+      "days_on_market": 117,
       "link": "https://app.nocnok.com/crm/154940/properties/3bc48e6f-ae0b-4a9e-896c-019d22a01818",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260324194535-511e306765974e2d87422bc19664c3ces.webp",
@@ -26449,7 +26583,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260324194529-9c78fb0972934e268585f434c8530786s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -26492,7 +26626,7 @@
       "estado": "Durango",
       "broker": "2S Propiedades Inmobiliaria",
       "fecha_publicacion": "2026-05-07",
-      "days_on_market": 71,
+      "days_on_market": 72,
       "link": "https://app.nocnok.com/crm/154940/properties/057fbc68-08bb-42cc-9987-019e0659950d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260508005044-b978b902498a4810a81baeb829cfe0c5s.webp",
@@ -26500,7 +26634,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260508005043-f50144b16a424ec996c11363b403bb4as.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -26543,7 +26677,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Liliana Inda",
       "fecha_publicacion": "2026-05-10",
-      "days_on_market": 68,
+      "days_on_market": 69,
       "link": "https://app.nocnok.com/crm/154940/properties/a5f66552-1791-4701-a12d-019d5bd08c03",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260404220533-ff034e7c7c4a4c8d851ce97795ea3c0es.webp",
@@ -26551,7 +26685,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260404220556-39ece107c5eb483aa4db8b8f85bd9b51s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -26603,9 +26737,9 @@
       ],
       "first_seen": "2026-06-20",
       "last_seen": "2026-07-18",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-07-19",
+      "days_listed": 29,
       "precio_history": [
         {
           "date": "2026-06-20",
@@ -26618,6 +26752,7 @@
           "precio": "13,000,000 MXN Venta"
         }
       ],
+      "delisted_reason": "subscription_lapse",
       "original_precio": "15,000,000 MXN Venta",
       "original_precio_num": 15000000.0,
       "current_precio": "13,000,000 MXN Venta",
@@ -26644,7 +26779,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Dingler Bienes Raíces",
       "fecha_publicacion": "2026-04-09",
-      "days_on_market": 43,
+      "days_on_market": 44,
       "link": "https://app.nocnok.com/crm/154940/properties/8b8f7ea1-3a2c-4562-9b24-019d78f32d46",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260410135226-88e60154bf6147e0a80f8eac6b28ccc3s.webp",
@@ -26652,7 +26787,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260410135228-a11c41044ced40d9a852d8b2d985d784s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -26728,6 +26863,57 @@
       "last_drop_date": "2026-07-09"
     },
     {
+      "id": "9ceeeb29-d2e2-46ef-b5fe-019eb2a62366",
+      "code": "NN-HAD079",
+      "title": "Terreno con Nave de Almacenamiento y Patio de Maniobras",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "46,000,000 MXN Venta",
+      "precio_num": 46000000.0,
+      "superficie": "5,985 m²",
+      "area_num": 5985.0,
+      "precio_m2": "$7,686/m²",
+      "pm2_num": 7685.88,
+      "ubicacion": "El Ranchito, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Suma Laguna Bienes Raíces",
+      "fecha_publicacion": "2026-06-11",
+      "days_on_market": 38,
+      "link": "https://app.nocnok.com/crm/154940/properties/9ceeeb29-d2e2-46ef-b5fe-019eb2a62366",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260610114938-ef9424af20654d3cbddb5e6a0ba4fff6s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260610114941-cea7b40120014c3aa15af90a784f1b86s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260611105222-3c0b6d936bfd4522ab7c37b0e84de08as.webp"
+      ],
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-07-19",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 35,
+      "precio_history": [
+        {
+          "date": "2026-06-12",
+          "precio_num": 52500000.0,
+          "precio": "52,500,000 MXN Venta"
+        },
+        {
+          "date": "2026-07-19",
+          "precio_num": 46000000.0,
+          "precio": "46,000,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": null,
+      "original_precio": "52,500,000 MXN Venta",
+      "original_precio_num": 52500000.0,
+      "current_precio": "46,000,000 MXN Venta",
+      "current_precio_num": 46000000.0,
+      "total_drop_pct": 12.4,
+      "last_drop_date": "2026-07-19"
+    },
+    {
       "id": "4a29100c-280e-4bab-a71d-019611636b71",
       "code": "MX25-VM10088",
       "title": "Local en Renta en El Tajito, Torreón, Coahuila de Zaragoza",
@@ -26797,7 +26983,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AARAI BIENES RAICES",
       "fecha_publicacion": "2026-05-20",
-      "days_on_market": 58,
+      "days_on_market": 59,
       "link": "https://app.nocnok.com/crm/154940/properties/3e66e499-ba59-44d8-9049-0199b138f5d6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251004155545-5665b7f952784fcd9cec6b89fd324a7es.webp",
@@ -26805,7 +26991,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251004155545-09823dde4cf54b6d826dc88b41659392s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -26850,7 +27036,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "2S Propiedades Inmobiliaria",
       "fecha_publicacion": "2026-05-25",
-      "days_on_market": 53,
+      "days_on_market": 54,
       "link": "https://app.nocnok.com/crm/154940/properties/6cc2abc9-6739-42db-bb20-019e65ab65f5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260526130816-d42a2b071dc340aa873306ec8eb3338fs.webp",
@@ -26858,7 +27044,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260526130822-9ddbff39bb1d479f9abb014b4741e402s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -26903,7 +27089,7 @@
       "estado": "Durango",
       "broker": "TREBOL INMOBILIARIA",
       "fecha_publicacion": "2026-04-12",
-      "days_on_market": 96,
+      "days_on_market": 97,
       "link": "https://app.nocnok.com/crm/154940/properties/c10acfd5-d1a5-453b-9472-019d89de306f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260414224533-6d185839075c4386b1cfaa5a89d83cf8s.webp",
@@ -26911,7 +27097,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260414224533-428719472e434a07a64ca74557e836e9s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -26954,7 +27140,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Mercado Inmobiliario",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 1,
+      "days_on_market": 2,
       "link": "https://app.nocnok.com/crm/154940/properties/d585fbe6-8167-4c0d-a769-019a5fbd060d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251107135707-36ad46880dec4c5aaf3c8648fad02b97s.webp",
@@ -26962,7 +27148,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251107135712-31eb79a135684dadb9ca2e52e4e07b36s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -27005,7 +27191,7 @@
       "estado": "Durango",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-30",
-      "days_on_market": 48,
+      "days_on_market": 49,
       "link": "https://app.nocnok.com/crm/154940/properties/78f30e43-e39a-4304-ad3c-019e7ed2e84f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260531101759-2a7b2c05e2254da08dc0359eea090e9es.webp",
@@ -27013,7 +27199,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260601094631-1269163ccb0a4e02bf64bba25e36d728s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 23,
@@ -27056,7 +27242,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Sofía Medinilla Bienes Raíces",
       "fecha_publicacion": "2026-06-20",
-      "days_on_market": 28,
+      "days_on_market": 29,
       "link": "https://app.nocnok.com/crm/154940/properties/afb6c040-1838-4217-81d6-019c8201afb9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260221150248-e8b4460728d048a5ac398c4a979fa482s.webp",
@@ -27064,7 +27250,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260221150300-13fee564e5434d6f9b151d72c6a57774s.webp"
       ],
       "first_seen": "2026-06-22",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
@@ -27106,7 +27292,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 26,
+      "days_on_market": 27,
       "link": "https://app.nocnok.com/crm/154940/properties/3fd95ca9-4482-462e-a61b-019ef0e0b63b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260623095157-dc0267cb2238475a817176857a75db84s.webp",
@@ -27114,7 +27300,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622134900-c3d463ccf8f6450580968ff0609531b5s.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
@@ -27156,7 +27342,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-21",
-      "days_on_market": 57,
+      "days_on_market": 58,
       "link": "https://app.nocnok.com/crm/154940/properties/b78ccbe3-1f29-469f-a27b-019e51bf5326",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260522164333-8c1533706de74e07b8f0af4c975e5ac1s.webp",
@@ -27164,7 +27350,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260522164332-3168454955d74d0088f830735936758fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -27260,7 +27446,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Real Place Corporativo Inmobiliario",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 52,
+      "days_on_market": 53,
       "link": "https://app.nocnok.com/crm/154940/properties/a958cc41-a85b-4f6e-9c50-0199f3ad893d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251105220002-e6fb2dad824a407eac98de6c8fd49452s.webp",
@@ -27268,7 +27454,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251017134158-8bb06a8fdc64486e9f1e4bfcf3bc5355s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -27364,7 +27550,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "estefany torres",
       "fecha_publicacion": "2026-06-05",
-      "days_on_market": 43,
+      "days_on_market": 44,
       "link": "https://app.nocnok.com/crm/154940/properties/f4338b66-f3cf-4946-add5-019e96f6b0ec",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260605024718-ddb76589db5a4d95a1502f339d7c78f3s.webp",
@@ -27372,7 +27558,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260605024715-0a6138d9b0494450b90c96ef61dd91a0s.webp"
       ],
       "first_seen": "2026-06-05",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 21,
@@ -27415,7 +27601,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-04-21",
-      "days_on_market": 87,
+      "days_on_market": 88,
       "link": "https://app.nocnok.com/crm/154940/properties/22f089f3-6c7e-475a-9b04-019db826039a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260422202341-7257e6e315c24a0994ed0a5505ffc760s.webp",
@@ -27423,7 +27609,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260422202340-d1cd580d98ca4f09ab67ca080af5b8c6s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 29,
@@ -27466,7 +27652,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2025-09-14",
-      "days_on_market": 306,
+      "days_on_market": 307,
       "link": "https://app.nocnok.com/crm/154940/properties/a965e819-ef41-49d1-aec2-01994e70a421",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260213110507-1fdac247ff204ebc9b139e90fd808139s.webp",
@@ -27474,7 +27660,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260213110506-b09bf904edc746ae9673960130db4811s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -27517,7 +27703,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-03-26",
-      "days_on_market": 26,
+      "days_on_market": 27,
       "link": "https://app.nocnok.com/crm/154940/properties/143a5300-6b6a-4807-9318-019d309655a0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260408161025-61de12e8070c494ba315879dbdcb0c33s.webp",
@@ -27525,7 +27711,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260408161127-57e70807590542939ce0005670bec693s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
@@ -27572,7 +27758,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALMA PATRICIA IZAGUIRRE",
       "fecha_publicacion": "2026-05-26",
-      "days_on_market": 52,
+      "days_on_market": 53,
       "link": "https://app.nocnok.com/crm/154940/properties/1a87f188-e68d-4a1d-890c-019e6b259ae6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260527143951-4de153ea33074c7096d5b2ad45f463dds.webp",
@@ -27580,7 +27766,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260527143901-cb2acd74fa384a77813c2456e39f03d4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -27625,7 +27811,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "RE/MAX LAGUNA",
       "fecha_publicacion": "2026-05-18",
-      "days_on_market": 60,
+      "days_on_market": 61,
       "link": "https://app.nocnok.com/crm/154940/properties/c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250516175650-abc4a13f6a9f4bbabaf91e784686632bs.webp",
@@ -27633,7 +27819,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250516175649-5156c77b5a9c438ba8a9892218763dfcs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -27678,7 +27864,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CENTURY 21 AVANCE",
       "fecha_publicacion": "2026-04-27",
-      "days_on_market": 81,
+      "days_on_market": 82,
       "link": "https://app.nocnok.com/crm/154940/properties/5a51fcd5-b175-4ebf-91cd-019dd6715101",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260428174228-e9fc497ac48542e1bd9e27c130eab8a3s.webp",
@@ -27686,7 +27872,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260428173602-16e18b5a16424a57b622e4b01061ad66s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 29,
@@ -27729,7 +27915,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-06-15",
-      "days_on_market": 33,
+      "days_on_market": 34,
       "link": "https://app.nocnok.com/crm/154940/properties/e72b9e13-dd7f-44ff-8c28-019ece6358ea",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260615210737-4d124ab60cfe41b4917be1e00593397fs.webp",
@@ -27737,7 +27923,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260615210738-40d28a3a559541e68584cdab038495cfs.webp"
       ],
       "first_seen": "2026-06-17",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
@@ -27779,7 +27965,7 @@
       "estado": "Durango",
       "broker": "ORDUÑA Y ASOCIADOS",
       "fecha_publicacion": "2026-02-05",
-      "days_on_market": 162,
+      "days_on_market": 163,
       "link": "https://app.nocnok.com/crm/154940/properties/ae4eeee2-26b0-4622-8e70-019acbde8ebb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251128131341-93f3a54b59aa4562a23e3cc5fb2bf3dds.webp",
@@ -27787,7 +27973,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251128131341-21c9f88241d44024a3d387c13406c4a4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -27830,7 +28016,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "INVIERTE LAGUNA",
       "fecha_publicacion": "2026-05-10",
-      "days_on_market": 68,
+      "days_on_market": 69,
       "link": "https://app.nocnok.com/crm/154940/properties/960448d4-580b-4794-ab35-019e193ec4a5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260511165713-8567c2e9744445679e2bec5a20f50473s.webp",
@@ -27838,7 +28024,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260511165708-528f944a83b447ee9564f55a62f33f34s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -27881,7 +28067,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 26,
+      "days_on_market": 27,
       "link": "https://app.nocnok.com/crm/154940/properties/a594c1ef-0e93-49c1-b962-019ef0e5963b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622135415-f2d7fac859b44313a7bd3ec6bfac6e58s.webp",
@@ -27889,7 +28075,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622135415-b8cce45761324360a046a45e5cef7269s.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
@@ -27931,7 +28117,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-22",
-      "days_on_market": 24,
+      "days_on_market": 25,
       "link": "https://app.nocnok.com/crm/154940/properties/a045c43d-4b38-4c2c-b100-019cdf0060be",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260311162449-aaf871e4bc25463eae8cc516e1b4925es.webp",
@@ -27939,7 +28125,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260311162528-3cc69325395a4b18bce2b0044beba1dbs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 23,
@@ -27984,7 +28170,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-22",
-      "days_on_market": 24,
+      "days_on_market": 25,
       "link": "https://app.nocnok.com/crm/154940/properties/e6ed9b81-2e7e-49a7-b5ba-019cdefa891b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260311161859-56c69f2fc2af4051b8f541a1037fe012s.webp",
@@ -27992,7 +28178,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260311161902-97498cfac76641e293ca933660595d37s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 23,
@@ -28037,7 +28223,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Marilu Portilla Wolff",
       "fecha_publicacion": "2026-05-22",
-      "days_on_market": 24,
+      "days_on_market": 25,
       "link": "https://app.nocnok.com/crm/154940/properties/b0f9e407-80d1-48fa-972b-019cdeebf3d1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260311160243-d345dd8b04eb49ce9f4dcec5f825ae4ds.webp",
@@ -28045,7 +28231,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260311160351-4c6091c4c23449078450a14d204580b7s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 23,
@@ -28141,7 +28327,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 1,
+      "days_on_market": 2,
       "link": "https://app.nocnok.com/crm/154940/properties/c7d43ac0-5d30-4908-adea-019c7d86b4c7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260220181142-8f55557db3564164b42b6dcc79e24f72s.webp",
@@ -28149,7 +28335,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260220181143-05ba7f472dd34ea198111acae01b815bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 45,
@@ -28192,7 +28378,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Acerta.Laguna  Inmobiliaria",
       "fecha_publicacion": "2026-04-19",
-      "days_on_market": 89,
+      "days_on_market": 90,
       "link": "https://app.nocnok.com/crm/154940/properties/ee7d9c96-d8b3-4a8d-a39c-0195954a3d87",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250314093646-210a0258794a478abe43b700d9442ff1s.webp",
@@ -28200,7 +28386,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250314093643-74a44bde9b7d407eb57dd5d757287faas.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 29,
@@ -28243,7 +28429,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-05-03",
-      "days_on_market": 75,
+      "days_on_market": 76,
       "link": "https://app.nocnok.com/crm/154940/properties/4a308df7-d097-428e-a402-019df49e1514",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260515152746-27511e711445463680ddbb533f8210aes.webp",
@@ -28251,7 +28437,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260515152737-bda6a2c8a8dc4ecdbbca1c02ade0473fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 29,
@@ -28294,7 +28480,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOMUS ASESORÍA INMOBILIARIA",
       "fecha_publicacion": "2026-04-27",
-      "days_on_market": 81,
+      "days_on_market": 82,
       "link": "https://app.nocnok.com/crm/154940/properties/dd003939-1bb3-457a-b6ce-019dd595a96f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260515153129-12f7a2ff57bc49cdbc8b12c2df8962bcs.webp",
@@ -28302,7 +28488,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260515153131-bf4382b41fee44ebbc6c11fb4672070bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 29,
@@ -28345,7 +28531,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Avanza Inmobiliaria",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 16,
+      "days_on_market": 17,
       "link": "https://app.nocnok.com/crm/154940/properties/9773a099-69b5-4aab-b778-019c15cbd968",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260513111716-2aff202c068b4c0db975784e58fce00fs.webp",
@@ -28353,7 +28539,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260208130740-58d8bbb6118142508ebf0fa7fe43677as.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 19,
@@ -28396,7 +28582,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "LOI Promotora Inmobiliaria",
       "fecha_publicacion": "2026-05-27",
-      "days_on_market": 51,
+      "days_on_market": 52,
       "link": "https://app.nocnok.com/crm/154940/properties/89d8b8cf-bfe7-41f5-940b-019dded3e7d4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260430083910-ac83b01b8acb4325bd1de5679f296a77s.webp",
@@ -28404,7 +28590,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260430083911-e61fc9348587418ea63389047c7c1771s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -28500,7 +28686,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "API Inmobiliaria",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 66,
+      "days_on_market": 67,
       "link": "https://app.nocnok.com/crm/154940/properties/b0df5ee8-a8dd-4407-a121-019e22d72444",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260513133746-a59df52146f04e5787d6683fd12097fes.webp",
@@ -28508,7 +28694,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260513133746-dce67257a27d4d0fbd0e87f04194df97s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 25,
@@ -28551,7 +28737,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Punto Clave by Keller Williams",
       "fecha_publicacion": "2026-04-07",
-      "days_on_market": 101,
+      "days_on_market": 102,
       "link": "https://app.nocnok.com/crm/154940/properties/9b059c7a-57d0-456f-97c2-0194dc53485d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260408104218-d7905b6d5b7248ba84a5cc7987b48994s.webp",
@@ -28559,7 +28745,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260408104207-5088705a88ce41ceab4d7ffc6aab2d69s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 40,
@@ -28602,7 +28788,7 @@
       "estado": "Durango",
       "broker": "Helue Sabag Bienes Raices",
       "fecha_publicacion": "2026-03-25",
-      "days_on_market": 114,
+      "days_on_market": 115,
       "link": "https://app.nocnok.com/crm/154940/properties/f30f64cc-f563-473c-969a-019bec1ea75a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260123123317-084a17b043134fb3a19f1578c1cb76efs.webp",
@@ -28610,7 +28796,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260123123325-704e8a98ab8d4848b0ef3fe9a1707497s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 46,
@@ -28653,7 +28839,7 @@
       "estado": "Durango",
       "broker": "NATALIA GTZ & ASOC",
       "fecha_publicacion": "2026-06-18",
-      "days_on_market": 30,
+      "days_on_market": 31,
       "link": "https://app.nocnok.com/crm/154940/properties/0074dc66-7aa2-4b77-ae2e-019edbe3d128",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260618120017-7a85e3cf418f48aeb733f753031913a3s.webp",
@@ -28661,7 +28847,7 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260618120016-d63bb9b8120d41809ee6e8540e871860s.webp"
       ],
       "first_seen": "2026-06-20",
-      "last_seen": "2026-07-18",
+      "last_seen": "2026-07-19",
       "status": "active",
       "delisted_at": null,
       "days_listed": 0,
