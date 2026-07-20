@@ -1093,7 +1093,7 @@ function showCorredores() {
     cats.forEach(function(c) {
       (DENUE_DATA[c] || []).forEach(function(p) {
         var street = p[5], city = p[4];
-        if (!street || street.length < 4) return;
+        if (!street || street.length < 4 || /ninguno/i.test(street)) return;
         if (_denueSizeMin && denueEmpMin(p[3]) < _denueSizeMin) return;
         var k = street + '|' + city;
         if (!agg[k]) agg[k] = { street: street, city: city, n: 0, cats: {} };
