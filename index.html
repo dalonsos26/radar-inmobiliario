@@ -465,6 +465,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
                onkeydown="if(event.key==='Enter')denueSearchGo()">
         <button class="btn" onclick="denueSearchGo()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .8rem">Buscar</button>
         <button class="btn" id="denue-clear-btn" onclick="denueSearchClear()" style="display:none;border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .7rem">✕</button>
+        <button class="btn" id="coverage-btn" onclick="toggleCoverage(this)" style="display:none;border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">📡 Cobertura</button>
       </div>
       <div class="dd" id="dd-densize">
         <button class="dd-btn" onclick="ddToggle('dd-densize')">Tamaño: <span class="dd-val">Todos</span></button>
@@ -948,8 +949,12 @@ function denueRedraw() {
         if (_denueSizeMin && denueEmpMin(p[3]) < _denueSizeMin) return;
         var m = L.circleMarker([p[0], p[1]], { radius: 5, color: '#fff', weight: 1, fillColor: col, fillOpacity: .85 });
         m.bindPopup('<b>' + esc(p[2] || '(sin nombre)') + '</b><br>' +
-          '<span style="font-size:.75rem;color:#6b7280">' + c + ' · ' + esc(p[3] || '') + '<br>' +
-          esc(p[5] || '') + ' · ' + esc(p[4] || '') + '</span>');
+          '<span style="font-size:.73rem;color:#6b7280;line-height:1.5">' +
+          esc(p[7] || c) + '<br>' +
+          '👥 ' + esc(p[3] || '') + (p[9] ? ' · alta ' + esc(p[9]) : '') + '<br>' +
+          '📍 ' + esc(p[5] || '') + (p[6] ? ', ' + esc(p[6]) : '') + ' · ' + esc(p[4] || '') +
+          (p[8] ? '<br>🏬 ' + esc(p[8]) : '') +
+          (p[10] ? '<br>📞 ' + esc(p[10]) : '') + '</span>');
         group.addLayer(m);
         shown++;
       });
@@ -973,13 +978,85 @@ function denueSearchGo() {
   var el = document.getElementById('denue-search');
   _denueSearch = (el.value || '').trim();
   document.getElementById('denue-clear-btn').style.display = _denueSearch ? '' : 'none';
+  document.getElementById('coverage-btn').style.display = _denueSearch ? '' : 'none';
   denueRedraw();
+  if (_covActive) covApply();
 }
 function denueSearchClear() {
   document.getElementById('denue-search').value = '';
   _denueSearch = '';
   document.getElementById('denue-clear-btn').style.display = 'none';
+  document.getElementById('coverage-btn').style.display = 'none';
+  if (_covActive) toggleCoverage(document.getElementById('coverage-btn'));
   denueRedraw();
+}
+
+// ── Cobertura de cadena (dónde está y dónde falta sucursal) ───────────────────
+var _covActive = false, _covLayer = null;
+function covMatches() {
+  var q = denueNorm(_denueSearch);
+  var pts = [];
+  Object.keys(DENUE_DATA || {}).forEach(function(c) {
+    DENUE_DATA[c].forEach(function(p) {
+      if (denueNorm(p[2]).indexOf(q) !== -1) pts.push(p);
+    });
+  });
+  return pts;
+}
+function covDistKm(lat1, lng1, lat2, lng2) {
+  var kx = 111.32 * Math.cos(lat1 * Math.PI / 180), ky = 111.32;
+  var dx = (lng2 - lng1) * kx, dy = (lat2 - lat1) * ky;
+  return Math.sqrt(dx * dx + dy * dy);
+}
+function covApply() {
+  if (!_agebMap || !_agebLayer || !_denueSearch) return;
+  denueEnsure(function() {
+    if (_covLayer) { _agebMap.removeLayer(_covLayer); _covLayer = null; }
+    var pts = covMatches();
+    if (!pts.length) { alert('No se encontraron sucursales de "' + _denueSearch + '".'); return; }
+    // Radio de servicio de 1.5 km por sucursal
+    var group = L.layerGroup();
+    pts.forEach(function(p) {
+      group.addLayer(L.circle([p[0], p[1]], {
+        radius: 1500, color: '#0ea5e9', weight: 1.5, fillColor: '#0ea5e9', fillOpacity: .10, interactive: false
+      }));
+    });
+    _covLayer = group.addTo(_agebMap);
+    // Colorear AGEBs por distancia a la sucursal más cercana
+    _agebLayer.eachLayer(function(l) {
+      var f = l.feature;
+      var b = l.getBounds().getCenter();
+      var pop = (f.properties.censo2020 || {}).poblacion_total || 0;
+      var min = Infinity;
+      for (var i = 0; i < pts.length; i++) {
+        var d = covDistKm(b.lat, b.lng, pts[i][0], pts[i][1]);
+        if (d < min) min = d;
+      }
+      var col, fo;
+      if (min <= 1)                    { col = '#059669'; fo = .4; }   // cubierto
+      else if (min <= 2.5)             { col = '#f59e0b'; fo = .4; }   // parcial
+      else if (pop >= 1000)            { col = '#dc2626'; fo = .55; }  // falta sucursal
+      else                             { col = '#e5e7eb'; fo = .2; }
+      l.setStyle({ fillColor: col, fillOpacity: fo, color: '#9ca3af', weight: 1 });
+      l.bindTooltip(pop.toLocaleString() + ' hab · sucursal más cercana: ' + min.toFixed(1) + ' km', { sticky: true });
+    });
+    var leg = document.getElementById('ageb-legend');
+    if (leg) leg.innerHTML = '<strong style="color:var(--text)">Cobertura "' + esc(_denueSearch) + '" (' + pts.length + ' sucursales):</strong>' +
+      '<span class="sw" style="background:#059669"></span><span>&le;1 km</span>' +
+      '<span class="sw" style="background:#f59e0b"></span><span>1–2.5 km</span>' +
+      '<span class="sw" style="background:#dc2626"></span><span>&gt;2.5 km y 1,000+ hab — falta sucursal</span>';
+  });
+}
+function toggleCoverage(btn) {
+  _covActive = !_covActive;
+  btn.classList.toggle('on', _covActive);
+  if (_covActive) {
+    if (_gapActive) toggleGapLayer(document.getElementById('gap-btn'));
+    covApply();
+  } else {
+    if (_covLayer) { _agebMap.removeLayer(_covLayer); _covLayer = null; }
+    refreshAgebLayer();
+  }
 }
 
 // Cuenta negocios DENUE dentro de un polígono de isócrona (bbox + point-in-polygon)
