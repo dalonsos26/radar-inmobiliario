@@ -460,7 +460,24 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <button class="btn"    id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
         <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
-      <button class="btn" id="sniiv-map-btn" onclick="toggleSniivLayer(this)" style="margin-left:auto;border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🏗 Mercado SNIIV</button>
+      <div style="display:flex;align-items:center;gap:.4rem;margin-left:auto">
+        <input id="denue-search" placeholder="🔍 Buscar cadena (OXXO, Coppel…)" style="border:1.5px solid var(--border);border-radius:999px;padding:.42rem .9rem;font-size:.78rem;width:210px;outline:none"
+               onkeydown="if(event.key==='Enter')denueSearchGo()">
+        <button class="btn" onclick="denueSearchGo()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .8rem">Buscar</button>
+        <button class="btn" id="denue-clear-btn" onclick="denueSearchClear()" style="display:none;border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .7rem">✕</button>
+      </div>
+      <div class="dd" id="dd-densize">
+        <button class="dd-btn" onclick="ddToggle('dd-densize')">Tamaño: <span class="dd-val">Todos</span></button>
+        <div class="dd-menu">
+          <button class="dd-item sel" onclick="ddPick('dd-densize','0','Todos',this)">Todos</button>
+          <button class="dd-item" onclick="ddPick('dd-densize','6','6+ empleados',this)">6+ empleados</button>
+          <button class="dd-item" onclick="ddPick('dd-densize','11','11+ empleados',this)">11+ empleados</button>
+          <button class="dd-item" onclick="ddPick('dd-densize','51','51+ (anclas)',this)">51+ (anclas)</button>
+        </div>
+      </div>
+      <button class="btn" id="gap-btn" onclick="toggleGapLayer(this)" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🕳 Huecos</button>
+      <button class="btn" id="corr-btn" onclick="showCorredores()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🛣 Corredores</button>
+      <button class="btn" id="sniiv-map-btn" onclick="toggleSniivLayer(this)" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🏗 Mercado SNIIV</button>
       <div class="dd" id="dd-denue">
         <button class="dd-btn" onclick="ddToggle('dd-denue')">Negocios: <span class="dd-val">Ninguno</span></button>
         <div class="dd-menu" style="max-height:320px;overflow-y:auto">
@@ -862,7 +879,8 @@ var DD_APPLY = {
   'dd-mapop':    function(v){ applyMapOp(v, null); },
   'dd-mapstyle': function(v){ applyMapStyle(v); },
   'dd-agebstyle':function(v){ applyAgebStyle(v); },
-  'dd-denue':    function(v){ applyDenue(v); }
+  'dd-denue':    function(v){ applyDenue(v); },
+  'dd-densize':  function(v){ applyDenueSize(v); }
 };
 
 // ── Capa DENUE (negocios INEGI) ───────────────────────────────────────────────
@@ -872,40 +890,239 @@ var DENUE_COLORS = {
   educacion:'#8b5cf6', industria:'#64748b', oficinas:'#06b6d4',
   entretenimiento:'#ec4899', transporte:'#a16207', gobierno:'#334155', otros:'#9ca3af'
 };
-function applyDenue(cat) {
-  if (!_agebMap) return;
-  if (_denueLayer) { _agebMap.removeLayer(_denueLayer); _denueLayer = null; }
-  if (cat === 'none') return;
-  function draw() {
-    var cats = cat === 'all' ? Object.keys(DENUE_DATA) : [cat];
-    var group = (typeof L.markerClusterGroup === 'function')
-      ? L.markerClusterGroup({ chunkedLoading: true, disableClusteringAtZoom: 16 })
-      : L.layerGroup();
-    cats.forEach(function(c) {
-      var col = DENUE_COLORS[c] || '#9ca3af';
-      (DENUE_DATA[c] || []).forEach(function(p) {
-        var m = L.circleMarker([p[0], p[1]], { radius: 5, color: '#fff', weight: 1, fillColor: col, fillOpacity: .85 });
-        m.bindPopup('<b>' + esc(p[2] || '(sin nombre)') + '</b><br>' +
-          '<span style="font-size:.75rem;color:#6b7280">' + c + ' · ' + esc(p[3] || '') + ' · ' + esc(p[4] || '') + '</span>');
-        group.addLayer(m);
-      });
-    });
-    _denueLayer = group.addTo(_agebMap);
+var _denueCat = 'none', _denueSearch = '', _denueSizeMin = 0;
+var _denueLoading = false, _denueCbs = [];
+
+function denueEnsure(cb) {
+  if (DENUE_DATA && typeof L.markerClusterGroup === 'function') { cb(); return; }
+  _denueCbs.push(cb);
+  if (_denueLoading) return;
+  _denueLoading = true;
+  var pending = (DENUE_DATA ? 0 : 1) + (typeof L.markerClusterGroup === 'function' ? 0 : 1);
+  if (pending === 0) { _denueLoading = false; return; }
+  function done() {
+    if (--pending === 0) {
+      _denueLoading = false;
+      var cbs = _denueCbs; _denueCbs = [];
+      cbs.forEach(function(f){ try{ f(); }catch(e){} });
+    }
   }
-  if (DENUE_DATA) { draw(); return; }
-  var pending = 1 + (typeof L.markerClusterGroup !== 'function' ? 1 : 0);
-  function done() { if (--pending === 0) draw(); }
-  var _gh = 'https://raw.githubusercontent.com/dalonsos26/radar-inmobiliario/main/data';
-  var _isProd = location.hostname !== 'localhost' && location.hostname !== '127.0.0.1';
-  fetch(_isProd ? _gh + '/denue.json' : '/data/denue.json')
-    .then(function(r){ return r.json(); })
-    .then(function(d){ DENUE_DATA = d; done(); })
-    .catch(function(){ alert('No se pudo cargar la capa de negocios.'); });
+  if (!DENUE_DATA) {
+    var _gh = 'https://raw.githubusercontent.com/dalonsos26/radar-inmobiliario/main/data';
+    var _isProd = location.hostname !== 'localhost' && location.hostname !== '127.0.0.1';
+    fetch(_isProd ? _gh + '/denue.json' : '/data/denue.json')
+      .then(function(r){ return r.json(); })
+      .then(function(d){ DENUE_DATA = d; done(); })
+      .catch(function(){ _denueLoading = false; _denueCbs = []; });
+  }
   if (typeof L.markerClusterGroup !== 'function') {
     var s = document.createElement('script');
     s.src = 'https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js';
     s.onload = done; document.head.appendChild(s);
   }
+}
+
+function denueNorm(s) {
+  return (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+function denueEmpMin(perOcu) {
+  var m = /(\d+)/.exec(perOcu || '');
+  return m ? parseInt(m[1], 10) : 0;
+}
+
+function denueRedraw() {
+  if (!_agebMap) return;
+  if (_denueLayer) { _agebMap.removeLayer(_denueLayer); _denueLayer = null; }
+  var hasSearch = _denueSearch.length > 0;
+  if (!hasSearch && _denueCat === 'none') return;
+  denueEnsure(function() {
+    if (_denueLayer) { _agebMap.removeLayer(_denueLayer); _denueLayer = null; }
+    var cats = (hasSearch || _denueCat === 'all') ? Object.keys(DENUE_DATA) : [_denueCat];
+    var q = denueNorm(_denueSearch);
+    var group = L.markerClusterGroup({ chunkedLoading: true, disableClusteringAtZoom: 16 });
+    var shown = 0;
+    cats.forEach(function(c) {
+      var col = DENUE_COLORS[c] || '#9ca3af';
+      (DENUE_DATA[c] || []).forEach(function(p) {
+        if (hasSearch && denueNorm(p[2]).indexOf(q) === -1) return;
+        if (_denueSizeMin && denueEmpMin(p[3]) < _denueSizeMin) return;
+        var m = L.circleMarker([p[0], p[1]], { radius: 5, color: '#fff', weight: 1, fillColor: col, fillOpacity: .85 });
+        m.bindPopup('<b>' + esc(p[2] || '(sin nombre)') + '</b><br>' +
+          '<span style="font-size:.75rem;color:#6b7280">' + c + ' · ' + esc(p[3] || '') + '<br>' +
+          esc(p[5] || '') + ' · ' + esc(p[4] || '') + '</span>');
+        group.addLayer(m);
+        shown++;
+      });
+    });
+    _denueLayer = group.addTo(_agebMap);
+    var cnt = document.getElementById('ageb-count');
+    if (cnt && (hasSearch || _denueSizeMin)) cnt.textContent = shown.toLocaleString() + ' negocios mostrados';
+  });
+}
+
+function applyDenue(cat) {
+  _denueCat = cat;
+  denueRedraw();
+}
+function applyDenueSize(v) {
+  _denueSizeMin = parseInt(v, 10) || 0;
+  denueRedraw();
+  if (_gapActive) gapApply();
+}
+function denueSearchGo() {
+  var el = document.getElementById('denue-search');
+  _denueSearch = (el.value || '').trim();
+  document.getElementById('denue-clear-btn').style.display = _denueSearch ? '' : 'none';
+  denueRedraw();
+}
+function denueSearchClear() {
+  document.getElementById('denue-search').value = '';
+  _denueSearch = '';
+  document.getElementById('denue-clear-btn').style.display = 'none';
+  denueRedraw();
+}
+
+// Cuenta negocios DENUE dentro de un polígono de isócrona (bbox + point-in-polygon)
+function isoCountBiz(feat) {
+  var g = feat.geometry;
+  var minx=180,miny=90,maxx=-180,maxy=-90;
+  var polys = g.type === 'Polygon' ? [g.coordinates] : g.coordinates;
+  polys.forEach(function(rings){ rings[0].forEach(function(c){
+    if(c[0]<minx)minx=c[0]; if(c[0]>maxx)maxx=c[0];
+    if(c[1]<miny)miny=c[1]; if(c[1]>maxy)maxy=c[1];
+  });});
+  var out = { total: 0 };
+  Object.keys(DENUE_DATA || {}).forEach(function(c) {
+    DENUE_DATA[c].forEach(function(p) {
+      var lng = p[1], lat = p[0];
+      if (lng < minx || lng > maxx || lat < miny || lat > maxy) return;
+      if (pointInPolygon([lng, lat], g)) { out.total++; out[c] = (out[c] || 0) + 1; }
+    });
+  });
+  return out;
+}
+
+// ── Huecos / saturación por AGEB ──────────────────────────────────────────────
+var _gapActive = false, _gapCache = {};
+function gapCounts(cat) {
+  var key = cat + '|' + _denueSizeMin;
+  if (_gapCache[key]) return _gapCache[key];
+  var fc = agebFC();
+  // bbox por AGEB para acelerar el point-in-polygon
+  var boxes = fc.features.map(function(f) {
+    var minx=180,miny=90,maxx=-180,maxy=-90;
+    var polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+    polys.forEach(function(rings){ rings[0].forEach(function(c){
+      if(c[0]<minx)minx=c[0]; if(c[0]>maxx)maxx=c[0];
+      if(c[1]<miny)miny=c[1]; if(c[1]>maxy)maxy=c[1];
+    });});
+    return [minx,miny,maxx,maxy];
+  });
+  var counts = {};
+  var cats = cat === 'all' ? Object.keys(DENUE_DATA) : [cat];
+  cats.forEach(function(c) {
+    (DENUE_DATA[c] || []).forEach(function(p) {
+      if (_denueSizeMin && denueEmpMin(p[3]) < _denueSizeMin) return;
+      var lng = p[1], lat = p[0];
+      for (var i = 0; i < fc.features.length; i++) {
+        var b = boxes[i];
+        if (lng < b[0] || lng > b[2] || lat < b[1] || lat > b[3]) continue;
+        if (pointInPolygon([lng, lat], fc.features[i].geometry)) {
+          var cv = fc.features[i].properties.cvegeo;
+          counts[cv] = (counts[cv] || 0) + 1;
+          break;
+        }
+      }
+    });
+  });
+  _gapCache[key] = counts;
+  return counts;
+}
+function gapApply() {
+  if (!_agebMap || !_agebLayer) return;
+  var cat = _denueCat === 'none' ? 'comercio' : _denueCat;
+  denueEnsure(function() {
+    var counts = gapCounts(cat);
+    _agebLayer.eachLayer(function(l) {
+      var f = l.feature;
+      var pop = (f.properties.censo2020 || {}).poblacion_total || 0;
+      var n = counts[f.properties.cvegeo] || 0;
+      var col, fo;
+      if (n === 0 && pop >= 500)      { col = '#dc2626'; fo = .55; }   // hueco: gente sin negocios
+      else if (n === 0)               { col = '#e5e7eb'; fo = .25; }
+      else {
+        var habPorNeg = pop / n;
+        col = habPorNeg > 800 ? '#f59e0b' : habPorNeg > 300 ? '#84cc16' : '#059669';
+        fo = .45;
+      }
+      l.setStyle({ fillColor: col, fillOpacity: fo, color: '#9ca3af', weight: 1 });
+      l.bindTooltip(n + ' negocio' + (n!==1?'s':'') + ' · ' + pop.toLocaleString() + ' hab' +
+        (n>0 ? ' · ' + Math.round(pop/n) + ' hab/negocio' : ''), { sticky: true });
+    });
+    var leg = document.getElementById('ageb-legend');
+    if (leg) leg.innerHTML = '<strong style="color:var(--text)">Huecos — ' + esc(cat) + ':</strong>' +
+      '<span class="sw" style="background:#dc2626"></span><span>Sin negocios (500+ hab)</span>' +
+      '<span class="sw" style="background:#f59e0b"></span><span>&gt;800 hab/negocio</span>' +
+      '<span class="sw" style="background:#84cc16"></span><span>300–800</span>' +
+      '<span class="sw" style="background:#059669"></span><span>&lt;300 (saturado)</span>';
+  });
+}
+function toggleGapLayer(btn) {
+  _gapActive = !_gapActive;
+  btn.classList.toggle('on', _gapActive);
+  if (_gapActive) {
+    if (_denueCat === 'none') {
+      var dd = document.querySelector('#dd-denue .dd-val');
+      _denueCat = 'comercio';
+      if (dd) dd.textContent = '🛒 Comercio';
+      denueRedraw();
+    }
+    gapApply();
+  } else {
+    refreshAgebLayer();
+  }
+}
+
+// ── Corredores comerciales ────────────────────────────────────────────────────
+function showCorredores() {
+  var existing = document.getElementById('corr-panel');
+  if (existing) { existing.remove(); return; }
+  denueEnsure(function() {
+    var agg = {};
+    var cats = _denueCat === 'none' || _denueCat === 'all' ? Object.keys(DENUE_DATA) : [_denueCat];
+    cats.forEach(function(c) {
+      (DENUE_DATA[c] || []).forEach(function(p) {
+        var street = p[5], city = p[4];
+        if (!street || street.length < 4) return;
+        if (_denueSizeMin && denueEmpMin(p[3]) < _denueSizeMin) return;
+        var k = street + '|' + city;
+        if (!agg[k]) agg[k] = { street: street, city: city, n: 0, cats: {} };
+        agg[k].n++;
+        agg[k].cats[c] = (agg[k].cats[c] || 0) + 1;
+      });
+    });
+    var top = Object.keys(agg).map(function(k){ return agg[k]; })
+      .sort(function(a,b){ return b.n - a.n; }).slice(0, 20);
+    var catLbl = _denueCat === 'none' || _denueCat === 'all' ? 'todos los giros' : _denueCat;
+    var rows = top.map(function(r, i) {
+      var topCat = Object.keys(r.cats).sort(function(a,b){ return r.cats[b]-r.cats[a]; })[0];
+      return '<tr><td style="color:var(--muted);font-weight:700">'+(i+1)+'</td>' +
+        '<td><b>'+esc(r.street)+'</b><br><span style="font-size:.68rem;color:var(--muted)">'+esc(r.city)+'</span></td>' +
+        '<td style="text-align:right;font-weight:700">'+r.n.toLocaleString()+'</td>' +
+        '<td style="font-size:.7rem;color:var(--muted)">'+esc(topCat)+'</td></tr>';
+    }).join('');
+    var panel = document.createElement('div');
+    panel.id = 'corr-panel';
+    panel.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.3);padding:1.3rem 1.5rem;z-index:3000;max-width:520px;width:92vw;max-height:80vh;overflow-y:auto';
+    panel.innerHTML = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem">' +
+      '<div style="font-weight:800">🛣 Top 20 corredores — ' + esc(catLbl) + '</div>' +
+      '<button onclick="this.closest(\'#corr-panel\').remove()" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--muted)">✕</button></div>' +
+      '<div style="font-size:.72rem;color:var(--muted);margin-bottom:.7rem">Vialidades con más negocios activos (DENUE). Cambia el giro o tamaño en los filtros y vuelve a abrir para recalcular.</div>' +
+      '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' +
+      '<tr style="text-align:left;color:var(--muted);font-size:.68rem;text-transform:uppercase"><th>#</th><th>Vialidad</th><th style="text-align:right">Negocios</th><th>Giro top</th></tr>' +
+      rows + '</table>';
+    document.body.appendChild(panel);
+  });
 }
 
 // ── Capa SNIIV en el mapa (burbujas por municipio) ────────────────────────────
@@ -1629,6 +1846,7 @@ function initAnalizador() {
     _agebMap = L.map('ageb-map-container').setView([25.554, -103.394], 12);
     _agebTileLayer = mapboxTiles('light-v11').addTo(_agebMap);
     usageRender();
+    denueEnsure(function(){}); // precarga en segundo plano para conteos en isócronas
     _agebMap.on('click', function(e) {
       // Always update isochrone point
       isoSetPoint(e.latlng.lat, e.latlng.lng, null);
@@ -2379,7 +2597,18 @@ function isoRun() {
       panelHtml += '</div>';
       panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Bienes y conectividad</div>';
       panelHtml += fldH('% Internet', s.pct_internet+'%','') + fldH('% Automóvil', s.pct_auto+'%','') + fldH('% Celular', s.pct_celular+'%','') + fldH('% Computadora', s.pct_computadora+'%','') + fldH('% Refrigerador', s.pct_refrigerador+'%','') + fldH('% Lavadora', s.pct_lavadora+'%','');
-      panelHtml += '</div></div>';
+      panelHtml += '</div>';
+      // Entorno comercial (DENUE) dentro del anillo
+      if (DENUE_DATA) {
+        var bc = isoCountBiz(feat);
+        panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Entorno comercial (DENUE)</div>';
+        panelHtml += fldH('Negocios totales', fmtN(bc.total),'');
+        ['comercio','comida','finanzas','salud','educacion','industria','oficinas'].forEach(function(cn){
+          if (bc[cn]) panelHtml += fldH(cn.charAt(0).toUpperCase()+cn.slice(1), fmtN(bc[cn]),'');
+        });
+        panelHtml += '</div>';
+      }
+      panelHtml += '</div>';
     });
 
     // Build legend inline (iso-legend gets destroyed when results.innerHTML is set, so include it here)
