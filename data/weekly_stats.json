@@ -807,26 +807,26 @@
     },
     "2026-W12": {
       "week": "2026-W12",
-      "total": 385,
+      "total": 399,
       "cities": {
         "Torreón": {
-          "total": 353,
+          "total": 367,
           "tipos_m2": {
             "Oficina": {
               "sum": 350.0,
               "count": 1
             },
             "Terreno": {
-              "sum": 102104.12155555045,
-              "count": 44
+              "sum": 112808.24220994717,
+              "count": 46
             },
             "Bodega": {
-              "sum": 188442.50895125582,
-              "count": 132
+              "sum": 188567.52319627008,
+              "count": 134
             },
             "Local": {
-              "sum": 63258.99680870322,
-              "count": 159
+              "sum": 70815.18595773335,
+              "count": 169
             },
             "Edificio": {
               "sum": 1685.3197674418607,
@@ -5037,6 +5037,34 @@
             "Terreno": {
               "sum": 7147.622950819672,
               "count": 7
+            }
+          }
+        }
+      }
+    },
+    "2026-W30": {
+      "week": "2026-W30",
+      "total": 3,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 6000.0,
+              "count": 1
+            },
+            "Bodega": {
+              "sum": 90.0,
+              "count": 1
+            }
+          }
+        },
+        "Matamoros": {
+          "total": 1,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 475.0,
+              "count": 1
             }
           }
         }
