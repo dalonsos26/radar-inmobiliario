@@ -220,7 +220,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 /* ── Mobile responsive ── */
 @media(max-width:700px){
   body{flex-direction:column}
-  .sidebar{width:100%;min-height:unset;height:auto;flex-direction:column;position:fixed;bottom:0;left:0;right:0;z-index:100;padding:.4rem .6rem .5rem;box-shadow:0 -2px 12px rgba(0,0,0,.08);border-right:none;border-top:1px solid var(--border)}
+  .sidebar{width:100%;min-height:unset;height:auto;top:auto;overflow-y:visible;flex-direction:column;position:fixed;bottom:0;left:0;right:0;z-index:100;padding:.4rem .6rem .5rem;box-shadow:0 -2px 12px rgba(0,0,0,.3);border-right:none;border-top:1px solid rgba(255,255,255,.09)}
   .sidebar-logo{display:none}
   .sidebar-update{display:none}
   .tab-bar{flex-direction:row;gap:.2rem;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding-bottom:2px}
@@ -631,6 +631,31 @@ var DELISTED    = [];
 var PRICE_DROPS = [];
 var MAP_PROPS   = [];
 
+// ── Nuevas por usuario (verde hasta que este navegador las vea) ───────────────
+var SEEN_KEY = 'seen_props_v1';
+function markUnseenCards() {
+  var stored = null;
+  try { stored = JSON.parse(localStorage.getItem(SEEN_KEY)); } catch(e) {}
+  var firstVisit = !Array.isArray(stored);
+  var seenSet = new Set(stored || []);
+  var cards = document.querySelectorAll('#grid .card');
+  var currentIds = [];
+  cards.forEach(function(c) {
+    var id = c.dataset.id;
+    currentIds.push(id);
+    // Primera visita: solo las nuevas del scraper; después: todo lo no visto por este usuario
+    var unseen = firstVisit ? c.dataset.new === '1' : !seenSet.has(id);
+    c.dataset.new = unseen ? '1' : '0';
+    c.classList.toggle('new', unseen);
+    var badges = c.querySelector('.card-badges');
+    var badge = badges && badges.querySelector('.badge-new');
+    if (unseen && badges && !badge) badges.insertAdjacentHTML('afterbegin', '<span class="badge-new">★ NUEVA</span>');
+    if (!unseen && badge) badge.remove();
+  });
+  // Al cargar quedan registradas como vistas: el verde dura esta sesión y desaparece en la próxima
+  localStorage.setItem(SEEN_KEY, JSON.stringify(currentIds));
+}
+
 // ── Card builder & dynamic data ─────────────────────────────────────────────
 function buildCard(p) {
   var idShort = (p.id||'').substring(0,12);
@@ -709,7 +734,7 @@ function initData() {
     PRICE_DROPS = oport.price_drops || [];
     WEEKLY      = results[2];
     MAP_PROPS   = results[3];
-    if (grid) grid.innerHTML = PROPS.map(buildCard).join('');
+    if (grid) { grid.innerHTML = PROPS.map(buildCard).join(''); markUnseenCards(); }
     var newCount = propsData.new_count || 0;
     var badge    = document.getElementById('nuevas-badge');
     if (badge) { badge.textContent = newCount+' nuevas hoy'; badge.style.display = newCount>0?'inline-flex':'none'; }
