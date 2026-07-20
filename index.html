@@ -461,11 +461,25 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
         <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
       <div style="display:flex;align-items:center;gap:.4rem;margin-left:auto">
-        <input id="denue-search" placeholder="🔍 Buscar cadena (OXXO, Coppel…)" style="border:1.5px solid var(--border);border-radius:999px;padding:.42rem .9rem;font-size:.78rem;width:210px;outline:none"
-               onkeydown="if(event.key==='Enter')denueSearchGo()">
-        <button class="btn" onclick="denueSearchGo()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .8rem">Buscar</button>
+        <div style="position:relative">
+          <input id="denue-search" placeholder="🔍 Buscar cadena (OXXO, Coppel…)" autocomplete="off" style="border:1.5px solid var(--border);border-radius:999px;padding:.42rem .9rem;font-size:.78rem;width:210px;outline:none"
+                 oninput="denueSuggest()" onkeydown="if(event.key==='Enter'){denueHideSuggest();denueSearchGo();}">
+          <div id="denue-suggest" style="display:none;position:absolute;top:calc(100% + 6px);left:0;background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,.14);padding:.35rem;min-width:260px;max-height:280px;overflow-y:auto;z-index:1300"></div>
+        </div>
+        <button class="btn" onclick="denueHideSuggest();denueSearchGo()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .8rem">Buscar</button>
         <button class="btn" id="denue-clear-btn" onclick="denueSearchClear()" style="display:none;border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .7rem">✕</button>
         <button class="btn" id="coverage-btn" onclick="toggleCoverage(this)" style="display:none;border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">📡 Cobertura</button>
+        <div class="dd" id="dd-covradius" style="display:none">
+          <button class="dd-btn" onclick="ddToggle('dd-covradius')">Radio: <span class="dd-val">Auto</span></button>
+          <div class="dd-menu">
+            <button class="dd-item sel" onclick="ddPick('dd-covradius','auto','Auto',this)">Auto (según # sucursales)</button>
+            <button class="dd-item" onclick="ddPick('dd-covradius','300','300 m',this)">300 m</button>
+            <button class="dd-item" onclick="ddPick('dd-covradius','500','500 m',this)">500 m</button>
+            <button class="dd-item" onclick="ddPick('dd-covradius','1000','1 km',this)">1 km</button>
+            <button class="dd-item" onclick="ddPick('dd-covradius','1500','1.5 km',this)">1.5 km</button>
+            <button class="dd-item" onclick="ddPick('dd-covradius','2500','2.5 km',this)">2.5 km</button>
+          </div>
+        </div>
       </div>
       <div class="dd" id="dd-densize">
         <button class="dd-btn" onclick="ddToggle('dd-densize')">Tamaño: <span class="dd-val">Todos</span></button>
@@ -881,7 +895,8 @@ var DD_APPLY = {
   'dd-mapstyle': function(v){ applyMapStyle(v); },
   'dd-agebstyle':function(v){ applyAgebStyle(v); },
   'dd-denue':    function(v){ applyDenue(v); },
-  'dd-densize':  function(v){ applyDenueSize(v); }
+  'dd-densize':  function(v){ applyDenueSize(v); },
+  'dd-covradius':function(v){ applyCovRadius(v); }
 };
 
 // ── Capa DENUE (negocios INEGI) ───────────────────────────────────────────────
@@ -974,11 +989,50 @@ function applyDenueSize(v) {
   denueRedraw();
   if (_gapActive) gapApply();
 }
+// Autocompletado de cadenas
+var _suggestT = null;
+function denueSuggest() {
+  if (_suggestT) clearTimeout(_suggestT);
+  _suggestT = setTimeout(function() {
+    var q = denueNorm((document.getElementById('denue-search').value || '').trim());
+    var box = document.getElementById('denue-suggest');
+    if (q.length < 3) { box.style.display = 'none'; return; }
+    denueEnsure(function() {
+      var counts = {};
+      Object.keys(DENUE_DATA).forEach(function(c) {
+        DENUE_DATA[c].forEach(function(p) {
+          if (denueNorm(p[2]).indexOf(q) !== -1) counts[p[2]] = (counts[p[2]] || 0) + 1;
+        });
+      });
+      var names = Object.keys(counts).sort(function(a,b){ return counts[b] - counts[a]; }).slice(0, 8);
+      if (!names.length) { box.style.display = 'none'; return; }
+      box.innerHTML = names.map(function(n) {
+        return '<button class="dd-item" style="justify-content:space-between" onclick="denuePickSuggest(this.dataset.n)" data-n="' + esc(n) + '">' +
+          '<span>' + esc(n) + '</span><span style="color:var(--muted);font-size:.7rem">' + counts[n] + '</span></button>';
+      }).join('');
+      box.style.display = 'block';
+    });
+  }, 250);
+}
+function denueHideSuggest() {
+  var box = document.getElementById('denue-suggest');
+  if (box) box.style.display = 'none';
+}
+function denuePickSuggest(name) {
+  document.getElementById('denue-search').value = name;
+  denueHideSuggest();
+  denueSearchGo();
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('#denue-search') && !e.target.closest('#denue-suggest')) denueHideSuggest();
+});
+
 function denueSearchGo() {
   var el = document.getElementById('denue-search');
   _denueSearch = (el.value || '').trim();
   document.getElementById('denue-clear-btn').style.display = _denueSearch ? '' : 'none';
   document.getElementById('coverage-btn').style.display = _denueSearch ? '' : 'none';
+  document.getElementById('dd-covradius').style.display = (_denueSearch && _covActive) ? '' : 'none';
   denueRedraw();
   if (_covActive) covApply();
 }
@@ -1008,21 +1062,35 @@ function covDistKm(lat1, lng1, lat2, lng2) {
   var dx = (lng2 - lng1) * kx, dy = (lat2 - lat1) * ky;
   return Math.sqrt(dx * dx + dy * dy);
 }
+var _covRadiusSel = 'auto';
+function covAutoRadius(n) {
+  // Cadenas densas (muchas sucursales) sirven radios chicos; escasas, grandes
+  if (n >= 80) return 400;
+  if (n >= 40) return 600;
+  if (n >= 15) return 1000;
+  if (n >= 6)  return 1500;
+  return 2500;
+}
+function applyCovRadius(v) {
+  _covRadiusSel = v;
+  if (_covActive) covApply();
+}
 function covApply() {
   if (!_agebMap || !_agebLayer || !_denueSearch) return;
   denueEnsure(function() {
     if (_covLayer) { _agebMap.removeLayer(_covLayer); _covLayer = null; }
     var pts = covMatches();
     if (!pts.length) { alert('No se encontraron sucursales de "' + _denueSearch + '".'); return; }
-    // Radio de servicio de 1.5 km por sucursal
+    var radiusM = _covRadiusSel === 'auto' ? covAutoRadius(pts.length) : parseInt(_covRadiusSel, 10);
+    var rKm = radiusM / 1000;
     var group = L.layerGroup();
     pts.forEach(function(p) {
       group.addLayer(L.circle([p[0], p[1]], {
-        radius: 1500, color: '#0ea5e9', weight: 1.5, fillColor: '#0ea5e9', fillOpacity: .10, interactive: false
+        radius: radiusM, color: '#0ea5e9', weight: 1.5, fillColor: '#0ea5e9', fillOpacity: .10, interactive: false
       }));
     });
     _covLayer = group.addTo(_agebMap);
-    // Colorear AGEBs por distancia a la sucursal más cercana
+    // Colorear AGEBs por distancia a la sucursal más cercana (umbral escala con el radio)
     _agebLayer.eachLayer(function(l) {
       var f = l.feature;
       var b = l.getBounds().getCenter();
@@ -1033,23 +1101,25 @@ function covApply() {
         if (d < min) min = d;
       }
       var col, fo;
-      if (min <= 1)                    { col = '#059669'; fo = .4; }   // cubierto
-      else if (min <= 2.5)             { col = '#f59e0b'; fo = .4; }   // parcial
+      if (min <= rKm)                  { col = '#059669'; fo = .4; }   // cubierto
+      else if (min <= rKm * 2)         { col = '#f59e0b'; fo = .4; }   // parcial
       else if (pop >= 1000)            { col = '#dc2626'; fo = .55; }  // falta sucursal
       else                             { col = '#e5e7eb'; fo = .2; }
       l.setStyle({ fillColor: col, fillOpacity: fo, color: '#9ca3af', weight: 1 });
       l.bindTooltip(pop.toLocaleString() + ' hab · sucursal más cercana: ' + min.toFixed(1) + ' km', { sticky: true });
     });
+    var fmtR = function(km){ return km < 1 ? Math.round(km*1000)+' m' : km.toFixed(1).replace('.0','')+' km'; };
     var leg = document.getElementById('ageb-legend');
-    if (leg) leg.innerHTML = '<strong style="color:var(--text)">Cobertura "' + esc(_denueSearch) + '" (' + pts.length + ' sucursales):</strong>' +
-      '<span class="sw" style="background:#059669"></span><span>&le;1 km</span>' +
-      '<span class="sw" style="background:#f59e0b"></span><span>1–2.5 km</span>' +
-      '<span class="sw" style="background:#dc2626"></span><span>&gt;2.5 km y 1,000+ hab — falta sucursal</span>';
+    if (leg) leg.innerHTML = '<strong style="color:var(--text)">Cobertura "' + esc(_denueSearch) + '" (' + pts.length + ' suc. · radio ' + fmtR(rKm) + '):</strong>' +
+      '<span class="sw" style="background:#059669"></span><span>&le;' + fmtR(rKm) + '</span>' +
+      '<span class="sw" style="background:#f59e0b"></span><span>' + fmtR(rKm) + '–' + fmtR(rKm*2) + '</span>' +
+      '<span class="sw" style="background:#dc2626"></span><span>&gt;' + fmtR(rKm*2) + ' y 1,000+ hab — falta sucursal</span>';
   });
 }
 function toggleCoverage(btn) {
   _covActive = !_covActive;
   btn.classList.toggle('on', _covActive);
+  document.getElementById('dd-covradius').style.display = _covActive ? '' : 'none';
   if (_covActive) {
     if (_gapActive) toggleGapLayer(document.getElementById('gap-btn'));
     covApply();
