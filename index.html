@@ -218,6 +218,16 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 .comp-empty{text-align:center;color:var(--muted);padding:2rem 1rem;font-size:.82rem}
 
 /* ── Mobile responsive ── */
+/* ── Reporte de ubicación ── */
+#report-overlay{position:fixed;inset:0;background:#374151;z-index:6000;overflow-y:auto}
+@media print{
+  body>*{display:none!important}
+  body>#report-overlay{display:block!important;position:static;background:#fff;overflow:visible}
+  #report-overlay .report-actions{display:none!important}
+  #report-doc{padding:0!important;max-width:none!important}
+  h2{break-after:avoid}
+  table,canvas,img{break-inside:avoid}
+}
 #menu-fab{display:none;position:fixed;top:.7rem;left:.7rem;z-index:1101;width:42px;height:42px;background:#111827;color:#fff;border:none;border-radius:10px;font-size:1.15rem;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.35);align-items:center;justify-content:center}
 #menu-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:1099}
 @media(max-width:700px){
@@ -527,6 +537,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
       <div id="analizador-map-col">
         <div id="ageb-map-container"></div>
         <div id="usage-bar-ageb"></div>
+        <div id="denue-list"></div>
       </div>
       <div id="ageb-panel">
         <div id="loc-pane-ageb">
@@ -946,22 +957,33 @@ function denueEmpMin(perOcu) {
   return m ? parseInt(m[1], 10) : 0;
 }
 
+// Exclusiones e inclusiones manuales de la búsqueda de cadenas
+var _denueExcl = {};        // llaves "lat|lng|nombre" quitadas por el usuario
+var _denueExtraNames = {};  // nombres exactos agregados manualmente
+function denueKey(p) { return p[0] + '|' + p[1] + '|' + p[2]; }
+function denueMatch(p) {
+  if (_denueExcl[denueKey(p)]) return false;
+  if (_denueExtraNames[p[2]]) return true;
+  return denueNorm(p[2]).indexOf(denueNorm(_denueSearch)) !== -1;
+}
+
 function denueRedraw() {
   if (!_agebMap) return;
   if (_denueLayer) { _agebMap.removeLayer(_denueLayer); _denueLayer = null; }
   var hasSearch = _denueSearch.length > 0;
+  if (!hasSearch) { var dl = document.getElementById('denue-list'); if (dl) dl.innerHTML = ''; }
   if (!hasSearch && _denueCat === 'none') return;
   denueEnsure(function() {
     if (_denueLayer) { _agebMap.removeLayer(_denueLayer); _denueLayer = null; }
     var cats = (hasSearch || _denueCat === 'all') ? Object.keys(DENUE_DATA) : [_denueCat];
-    var q = denueNorm(_denueSearch);
     var group = L.markerClusterGroup({ chunkedLoading: true, disableClusteringAtZoom: 16 });
-    var shown = 0;
+    var shown = 0, listed = [];
     cats.forEach(function(c) {
       var col = DENUE_COLORS[c] || '#9ca3af';
       (DENUE_DATA[c] || []).forEach(function(p) {
-        if (hasSearch && denueNorm(p[2]).indexOf(q) === -1) return;
+        if (hasSearch && !denueMatch(p)) return;
         if (_denueSizeMin && denueEmpMin(p[3]) < _denueSizeMin) return;
+        if (hasSearch) listed.push([p, c]);
         var m = L.circleMarker([p[0], p[1]], { radius: 5, color: '#fff', weight: 1, fillColor: col, fillOpacity: .85 });
         m.bindPopup('<b>' + esc(p[2] || '(sin nombre)') + '</b><br>' +
           '<span style="font-size:.73rem;color:#6b7280;line-height:1.5">' +
@@ -977,8 +999,65 @@ function denueRedraw() {
     _denueLayer = group.addTo(_agebMap);
     var cnt = document.getElementById('ageb-count');
     if (cnt && (hasSearch || _denueSizeMin)) cnt.textContent = shown.toLocaleString() + ' negocios mostrados';
+    if (hasSearch) denueRenderList(listed);
   });
 }
+
+// Listado editable de resultados de la búsqueda
+function denueRenderList(listed) {
+  var el = document.getElementById('denue-list');
+  if (!el) return;
+  listed.sort(function(a, b) { return (a[0][2] || '').localeCompare(b[0][2] || ''); });
+  var rows = listed.map(function(it) {
+    var p = it[0], c = it[1];
+    return '<tr>' +
+      '<td><b>' + esc(p[2] || '(sin nombre)') + '</b>' +
+      (_denueExtraNames[p[2]] ? ' <span style="font-size:.62rem;background:#ecfdf5;color:#059669;padding:.1rem .35rem;border-radius:8px;font-weight:700">agregado</span>' : '') +
+      '<br><span style="font-size:.68rem;color:var(--muted)">' + esc(p[7] || c) + '</span></td>' +
+      '<td style="font-size:.72rem">' + esc(p[5] || '') + (p[6] ? '<br><span style="color:var(--muted)">' + esc(p[6]) + '</span>' : '') + '</td>' +
+      '<td style="font-size:.72rem">' + esc(p[4] || '') + '</td>' +
+      '<td style="font-size:.72rem;white-space:nowrap">' + esc(p[3] || '') + '</td>' +
+      '<td><button onclick="denueExclude(this.dataset.k)" data-k="' + esc(denueKey(p)) + '" title="Quitar del análisis" style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:.85rem" onmouseover="this.style.color=\'#dc2626\'" onmouseout="this.style.color=\'var(--muted)\'">✕</button></td></tr>';
+  }).join('');
+
+  // Nombres parecidos no incluidos (comparten alguna palabra de 4+ letras con la búsqueda)
+  var tokens = denueNorm(_denueSearch).split(/\s+/).filter(function(t){ return t.length >= 4; });
+  var simCounts = {};
+  if (tokens.length) {
+    Object.keys(DENUE_DATA).forEach(function(c) {
+      DENUE_DATA[c].forEach(function(p) {
+        if (denueMatch(p)) return;
+        var n = denueNorm(p[2]);
+        for (var i = 0; i < tokens.length; i++) {
+          if (n.indexOf(tokens[i]) !== -1) { simCounts[p[2]] = (simCounts[p[2]] || 0) + 1; break; }
+        }
+      });
+    });
+  }
+  var similar = Object.keys(simCounts).sort(function(a,b){ return simCounts[b]-simCounts[a]; }).slice(0, 6);
+  var simHtml = '';
+  if (similar.length) {
+    simHtml = '<div style="margin-top:.7rem;padding-top:.7rem;border-top:1px solid var(--border)">' +
+      '<div style="font-size:.7rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem">¿Faltó alguno? Nombres parecidos:</div>' +
+      '<div style="display:flex;flex-wrap:wrap;gap:.4rem">' +
+      similar.map(function(n) {
+        return '<button onclick="denueInclude(this.dataset.n)" data-n="' + esc(n) + '" style="border:1.5px dashed var(--border2);background:var(--surface);color:var(--text);font-size:.72rem;font-weight:600;padding:.3rem .7rem;border-radius:999px;cursor:pointer">+ ' + esc(n) + ' <span style="color:var(--muted)">(' + simCounts[n] + ')</span></button>';
+      }).join('') + '</div></div>';
+  }
+
+  var exclCount = Object.keys(_denueExcl).length;
+  el.innerHTML = '<div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1rem 1.2rem;margin-top:.8rem;box-shadow:var(--sh)">' +
+    '<div style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-bottom:.6rem">' +
+    '<span style="font-weight:800;font-size:.9rem">📋 ' + listed.length + ' negocios en el análisis</span>' +
+    (exclCount ? '<button onclick="denueResetExcl()" style="border:none;background:none;color:var(--accent);font-size:.72rem;font-weight:600;cursor:pointer;text-decoration:underline">restaurar ' + exclCount + ' quitado' + (exclCount>1?'s':'') + '</button>' : '') +
+    '</div>' +
+    '<div style="max-height:320px;overflow-y:auto"><table style="width:100%;border-collapse:collapse;font-size:.78rem">' +
+    '<tr style="text-align:left;color:var(--muted);font-size:.66rem;text-transform:uppercase;position:sticky;top:0;background:var(--surface)"><th style="padding:.3rem 0">Negocio</th><th>Ubicación</th><th>Ciudad</th><th>Empleados</th><th></th></tr>' +
+    rows + '</table></div>' + simHtml + '</div>';
+}
+function denueExclude(key) { _denueExcl[key] = 1; denueRedraw(); if (_covActive) covApply(); }
+function denueInclude(name) { _denueExtraNames[name] = 1; denueRedraw(); if (_covActive) covApply(); }
+function denueResetExcl() { _denueExcl = {}; denueRedraw(); if (_covActive) covApply(); }
 
 function applyDenue(cat) {
   _denueCat = cat;
@@ -1029,7 +1108,9 @@ document.addEventListener('click', function(e) {
 
 function denueSearchGo() {
   var el = document.getElementById('denue-search');
-  _denueSearch = (el.value || '').trim();
+  var next = (el.value || '').trim();
+  if (next !== _denueSearch) { _denueExcl = {}; _denueExtraNames = {}; }
+  _denueSearch = next;
   document.getElementById('denue-clear-btn').style.display = _denueSearch ? '' : 'none';
   document.getElementById('coverage-btn').style.display = _denueSearch ? '' : 'none';
   document.getElementById('dd-covradius').style.display = (_denueSearch && _covActive) ? '' : 'none';
@@ -1039,6 +1120,7 @@ function denueSearchGo() {
 function denueSearchClear() {
   document.getElementById('denue-search').value = '';
   _denueSearch = '';
+  _denueExcl = {}; _denueExtraNames = {};
   document.getElementById('denue-clear-btn').style.display = 'none';
   document.getElementById('coverage-btn').style.display = 'none';
   if (_covActive) toggleCoverage(document.getElementById('coverage-btn'));
@@ -1048,11 +1130,10 @@ function denueSearchClear() {
 // ── Cobertura de cadena (dónde está y dónde falta sucursal) ───────────────────
 var _covActive = false, _covLayer = null;
 function covMatches() {
-  var q = denueNorm(_denueSearch);
   var pts = [];
   Object.keys(DENUE_DATA || {}).forEach(function(c) {
     DENUE_DATA[c].forEach(function(p) {
-      if (denueNorm(p[2]).indexOf(q) !== -1) pts.push(p);
+      if (denueMatch(p)) pts.push(p);
     });
   });
   return pts;
@@ -1147,6 +1228,156 @@ function isoCountBiz(feat) {
     });
   });
   return out;
+}
+
+// ── Reporte de ubicación ──────────────────────────────────────────────────────
+var _isoReportData = null, _reportCharts = [];
+function showIsoReport() {
+  if (!_isoReportData) { alert('Calcula una isócrona primero.'); return; }
+  denueEnsure(function() { buildIsoReport(); });
+}
+function closeIsoReport() {
+  _reportCharts.forEach(function(c){ try{ c.destroy(); }catch(e){} });
+  _reportCharts = [];
+  var ov = document.getElementById('report-overlay');
+  if (ov) ov.remove();
+}
+function buildIsoReport() {
+  closeIsoReport();
+  var D = _isoReportData;
+  var modeLbl = D.mode === 'foot-walking' ? '🚶 A pie' : D.mode === 'cycling-regular' ? '🚲 En bicicleta' : '🚗 En auto (con tráfico)';
+  var ringsAsc = D.rings.slice().sort(function(a,b){ return a.mins - b.mins; });
+  var featByMins = {};
+  D.feats.forEach(function(f){ featByMins[f.properties.contour || 0] = f; });
+  var RING_COLORS = ['#059669', '#0ea5e9', '#7c3aed', '#d97706', '#dc2626'];
+
+  // Conteos de negocios por anillo + análisis del anillo mayor
+  var bizByRing = ringsAsc.map(function(r){ return featByMins[r.mins] ? isoCountBiz(featByMins[r.mins]) : { total: 0 }; });
+  var largestFeat = featByMins[ringsAsc[ringsAsc.length-1].mins];
+  var CAT_LBL = { comercio:'🛒 Comercio', comida:'🍽 Restaurantes/Hoteles', finanzas:'🏦 Bancos/Finanzas', salud:'🏥 Salud',
+    educacion:'🎓 Educación', industria:'🏭 Industria', oficinas:'💼 Oficinas', entretenimiento:'🎬 Entretenimiento',
+    transporte:'🚚 Transporte', gobierno:'🏛 Gobierno', otros:'Otros' };
+  var missing = [], anchors = [], plazas = {};
+  if (largestFeat && DENUE_DATA) {
+    var lastBiz = bizByRing[bizByRing.length-1];
+    Object.keys(CAT_LBL).forEach(function(c){ if (c !== 'otros' && !lastBiz[c]) missing.push(CAT_LBL[c]); });
+    Object.keys(DENUE_DATA).forEach(function(c) {
+      DENUE_DATA[c].forEach(function(p) {
+        if (denueEmpMin(p[3]) < 51 && !p[8]) return;
+        var g = largestFeat.geometry;
+        if (!pointInPolygon([p[1], p[0]], g)) return;
+        if (denueEmpMin(p[3]) >= 51 && anchors.length < 12) anchors.push(p);
+        if (p[8]) plazas[p[8]] = (plazas[p[8]] || 0) + 1;
+      });
+    });
+  }
+
+  function row(label, fn, fmt) {
+    return '<tr><td style="color:#6b7280;padding:.32rem .5rem .32rem 0">' + label + '</td>' +
+      ringsAsc.map(function(r, i){ return '<td style="text-align:right;font-weight:600;padding:.32rem .6rem">' + (fmt||fmtN)(fn(r.stats)) + '</td>'; }).join('') + '</tr>';
+  }
+  var pct = function(v){ return v + '%'; };
+  var thRings = '<tr><th style="text-align:left;padding:.3rem .5rem .3rem 0;color:#6b7280;font-size:.66rem;text-transform:uppercase">Indicador</th>' +
+    ringsAsc.map(function(r, i){ return '<th style="text-align:right;padding:.3rem .6rem;color:' + RING_COLORS[i%5] + ';font-size:.72rem">' + r.mins + ' min</th>'; }).join('') + '</tr>';
+
+  var bizRows = Object.keys(CAT_LBL).map(function(c) {
+    var any = bizByRing.some(function(b){ return b[c]; });
+    if (!any) return '';
+    return '<tr><td style="color:#6b7280;padding:.32rem .5rem .32rem 0">' + CAT_LBL[c] + '</td>' +
+      bizByRing.map(function(b){ return '<td style="text-align:right;font-weight:600;padding:.32rem .6rem">' + fmtN(b[c] || 0) + '</td>'; }).join('') + '</tr>';
+  }).join('');
+
+  var staticMap = MAPBOX_TOKEN ?
+    '<img src="https://api.mapbox.com/styles/v1/mapbox/light-v11/static/pin-l+ea580c(' + D.point.lng + ',' + D.point.lat + ')/' +
+    D.point.lng + ',' + D.point.lat + ',13.2,0/900x360@2x?access_token=' + MAPBOX_TOKEN + '"' +
+    ' style="width:100%;border-radius:12px;border:1px solid #e5e7eb" alt="Mapa">' : '';
+
+  var plazaList = Object.keys(plazas).sort(function(a,b){ return plazas[b]-plazas[a]; }).slice(0, 8);
+
+  var html =
+    '<div id="report-doc" style="max-width:860px;margin:0 auto;background:#fff;color:#111827;padding:2.2rem 2.4rem;font-family:\'Plus Jakarta Sans\',\'Segoe UI\',sans-serif">' +
+    // Header
+    '<div style="display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid #ea580c;padding-bottom:1rem;margin-bottom:1.4rem">' +
+      '<img src="assets/logo-near.png" alt="NEAR Developments" style="height:44px">' +
+      '<div style="text-align:right"><div style="font-size:1.15rem;font-weight:800">Reporte de Ubicación</div>' +
+      '<div style="font-size:.72rem;color:#6b7280">' + D.date.toLocaleDateString('es-MX', {day:'numeric',month:'long',year:'numeric'}) + '</div></div></div>' +
+    // Location
+    '<div style="margin-bottom:1.2rem"><div style="font-size:1rem;font-weight:800">📍 ' + esc(D.address) + '</div>' +
+    '<div style="font-size:.74rem;color:#6b7280">' + D.point.lat.toFixed(5) + ', ' + D.point.lng.toFixed(5) + ' · Isócronas ' + modeLbl + ': ' +
+    ringsAsc.map(function(r){ return r.mins; }).join(', ') + ' minutos</div></div>' +
+    staticMap +
+    // Demografía
+    '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Demografía por tiempo de traslado</h2>' +
+    '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' + thRings +
+      row('Población total', function(s){return s.poblacion;}) +
+      row('Hogares', function(s){return s.hogares;}) +
+      row('Viviendas', function(s){return s.viviendas;}) +
+      row('PEA (económicamente activa)', function(s){return s.pea;}) +
+      row('Población 0–14 años', function(s){return s.pob_0_14;}) +
+      row('Población 15–64 años', function(s){return s.pob_15_64;}) +
+      row('Población 65+ años', function(s){return s.pob_65;}) +
+      row('Escolaridad promedio (años)', function(s){return s.esc_prom;}, function(v){return v;}) +
+    '</table>' +
+    // Charts
+    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.4rem">' +
+      '<div><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Estructura de edad</div><div style="position:relative;height:200px"><canvas id="rc-edad"></canvas></div></div>' +
+      '<div><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Conectividad y bienes (%)</div><div style="position:relative;height:200px"><canvas id="rc-conn"></canvas></div></div>' +
+    '</div>' +
+    // Entorno comercial
+    '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Entorno comercial (DENUE · INEGI)</h2>' +
+    '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' + thRings.replace(/Indicador/, 'Giro') +
+      '<tr><td style="font-weight:800;padding:.32rem .5rem .32rem 0">Negocios totales</td>' +
+      bizByRing.map(function(b){ return '<td style="text-align:right;font-weight:800;padding:.32rem .6rem">' + fmtN(b.total) + '</td>'; }).join('') + '</tr>' +
+      bizRows + '</table>' +
+    (missing.length ? '<div style="background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:.7rem .9rem;margin-top:.9rem;font-size:.78rem">' +
+      '<b style="color:#dc2626">Giros ausentes en la zona (' + ringsAsc[ringsAsc.length-1].mins + ' min):</b> ' + missing.join(' · ') +
+      ' — <i>posibles oportunidades de negocio local.</i></div>' : '') +
+    (anchors.length ? '<div style="margin-top:1rem"><div style="font-size:.8rem;font-weight:700;margin-bottom:.4rem">Anclas generadoras de tráfico (51+ empleados)</div>' +
+      '<div style="font-size:.75rem;line-height:1.8;color:#374151">' + anchors.slice(0,10).map(function(p){
+        return '• <b>' + esc(p[2]) + '</b> <span style="color:#6b7280">(' + esc(p[3]) + ' · ' + esc(p[6] || p[5] || '') + ')</span>';
+      }).join('<br>') + '</div></div>' : '') +
+    (plazaList.length ? '<div style="margin-top:1rem"><div style="font-size:.8rem;font-weight:700;margin-bottom:.4rem">Plazas comerciales en la zona</div>' +
+      '<div style="font-size:.75rem;line-height:1.8;color:#374151">' + plazaList.map(function(n){
+        return '• ' + esc(n) + ' <span style="color:#6b7280">(' + plazas[n] + ' locales activos)</span>';
+      }).join('<br>') + '</div></div>' : '') +
+    // Footer
+    '<div style="margin-top:1.8rem;padding-top:.8rem;border-top:1px solid #e5e7eb;font-size:.66rem;color:#9ca3af;display:flex;justify-content:space-between">' +
+      '<span>Fuentes: INEGI Censo 2020 (AGEB) · INEGI DENUE mayo 2026 · Isócronas Mapbox</span>' +
+      '<span>NEAR Developments · Radar Inmobiliario</span></div>' +
+    '</div>';
+
+  var ov = document.createElement('div');
+  ov.id = 'report-overlay';
+  ov.innerHTML =
+    '<div class="report-actions" style="position:sticky;top:0;z-index:10;background:#111827;padding:.7rem 1.2rem;display:flex;gap:.7rem;justify-content:flex-end">' +
+    '<button onclick="window.print()" style="background:#ea580c;color:#fff;border:none;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:700;cursor:pointer">🖨 Exportar PDF</button>' +
+    '<button onclick="closeIsoReport()" style="background:transparent;color:#e5e7eb;border:1.5px solid #374151;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:600;cursor:pointer">✕ Cerrar</button></div>' + html;
+  document.body.appendChild(ov);
+
+  // Charts
+  setTimeout(function() {
+    var labels = ringsAsc.map(function(r){ return r.mins + ' min'; });
+    var edad = document.getElementById('rc-edad');
+    if (edad) _reportCharts.push(new Chart(edad, { type: 'bar',
+      data: { labels: labels, datasets: [
+        { label: '0–14', data: ringsAsc.map(function(r){return r.stats.pob_0_14;}), backgroundColor: '#fdba74' },
+        { label: '15–64', data: ringsAsc.map(function(r){return r.stats.pob_15_64;}), backgroundColor: '#ea580c' },
+        { label: '65+', data: ringsAsc.map(function(r){return r.stats.pob_65;}), backgroundColor: '#7c2d12' }]},
+      options: { responsive: true, maintainAspectRatio: false, animation: false,
+        plugins: { legend: { position: 'bottom', labels: { font: { size: 10 } } } },
+        scales: { x: { stacked: true }, y: { stacked: true, ticks: { font: { size: 9 } } } } }
+    }));
+    var conn = document.getElementById('rc-conn');
+    if (conn) _reportCharts.push(new Chart(conn, { type: 'bar',
+      data: { labels: ['Internet', 'Automóvil', 'Celular', 'Computadora'], datasets: ringsAsc.map(function(r, i) {
+        return { label: r.mins + ' min', backgroundColor: RING_COLORS[i%5] + 'cc',
+          data: [r.stats.pct_internet, r.stats.pct_auto, r.stats.pct_celular, r.stats.pct_computadora] };
+      })},
+      options: { responsive: true, maintainAspectRatio: false, animation: false,
+        plugins: { legend: { position: 'bottom', labels: { font: { size: 10 } } } },
+        scales: { y: { beginAtZero: true, max: 100, ticks: { font: { size: 9 } } } } }
+    }));
+  }, 100);
 }
 
 // ── Huecos / saturación por AGEB ──────────────────────────────────────────────
@@ -2758,8 +2989,17 @@ function isoRun() {
       panelHtml += '</div>';
     });
 
+    // Datos para el reporte de ubicación
+    var addrEl0 = document.getElementById('iso-search');
+    _isoReportData = {
+      address: addrEl0 ? addrEl0.value : (_isoPoint.lat.toFixed(4)+','+_isoPoint.lng.toFixed(4)),
+      mode: _isoMode, point: { lat: _isoPoint.lat, lng: _isoPoint.lng },
+      feats: features, rings: rings, date: new Date()
+    };
+
     // Build legend inline (iso-legend gets destroyed when results.innerHTML is set, so include it here)
-    var legendHtml = '<div class="iso-legend" style="margin-bottom:.5rem">'+
+    var legendHtml = '<div style="margin-bottom:.6rem"><button onclick="showIsoReport()" style="width:100%;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.8rem;font-weight:700;cursor:pointer">📄 Generar reporte de ubicación</button></div>' +
+      '<div class="iso-legend" style="margin-bottom:.5rem">'+
       features.map(function(feat,i){
         var col = ISO_COLORS[i%ISO_COLORS.length];
         return '<span><span class="iso-legend-dot" style="background:'+col+'"></span>'+(feat.properties.contour||0)+' min</span>';
