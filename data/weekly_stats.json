@@ -807,10 +807,10 @@
     },
     "2026-W12": {
       "week": "2026-W12",
-      "total": 401,
+      "total": 403,
       "cities": {
         "Torreón": {
-          "total": 369,
+          "total": 371,
           "tipos_m2": {
             "Oficina": {
               "sum": 350.0,
@@ -825,8 +825,8 @@
               "count": 134
             },
             "Local": {
-              "sum": 70999.80134234873,
-              "count": 171
+              "sum": 71186.98082952821,
+              "count": 173
             },
             "Edificio": {
               "sum": 1685.3197674418607,
@@ -5044,56 +5044,60 @@
     },
     "2026-W30": {
       "week": "2026-W30",
-      "total": 71,
+      "total": 82,
       "cities": {
         "Torreón": {
-          "total": 57,
+          "total": 64,
           "tipos_m2": {
             "Terreno": {
-              "sum": 9539.25,
-              "count": 4
+              "sum": 14539.25,
+              "count": 5
             },
             "Bodega": {
-              "sum": 24575.274748225667,
-              "count": 21
+              "sum": 49630.98903393996,
+              "count": 23
             },
             "Oficina": {
-              "sum": 17140.31207024225,
-              "count": 4
+              "sum": 17376.675706605885,
+              "count": 5
             },
             "Local": {
-              "sum": 33697.78599895167,
-              "count": 20
+              "sum": 33885.28599895167,
+              "count": 21
             },
             "Nave": {
               "sum": 485.82056074766354,
               "count": 6
             },
             "Casa": {
-              "sum": 24137.931034482757,
-              "count": 2
-            }
-          }
-        },
-        "Matamoros": {
-          "total": 1,
-          "tipos_m2": {
-            "Terreno": {
-              "sum": 475.0,
+              "sum": 41214.433766723196,
+              "count": 3
+            },
+            "Consultorio": {
+              "sum": 3500.0,
               "count": 1
             }
           }
         },
-        "Gómez Palacio": {
-          "total": 13,
+        "Matamoros": {
+          "total": 2,
           "tipos_m2": {
             "Terreno": {
-              "sum": 3975.597332779585,
-              "count": 5
+              "sum": 3075.0,
+              "count": 2
+            }
+          }
+        },
+        "Gómez Palacio": {
+          "total": 16,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 5775.5973327795855,
+              "count": 6
             },
             "Bodega": {
-              "sum": 8061.4929971988795,
-              "count": 3
+              "sum": 8246.90935732929,
+              "count": 5
             },
             "Local": {
               "sum": 269.04761904761904,
