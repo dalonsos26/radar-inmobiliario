@@ -1216,18 +1216,51 @@ function isoCountBiz(feat) {
     if(c[0]<minx)minx=c[0]; if(c[0]>maxx)maxx=c[0];
     if(c[1]<miny)miny=c[1]; if(c[1]>maxy)maxy=c[1];
   });});
-  var out = { total: 0, retail: {} };
+  var out = { total: 0, retail: {}, retailRel: {} };
   Object.keys(DENUE_DATA || {}).forEach(function(c) {
     DENUE_DATA[c].forEach(function(p) {
       var lng = p[1], lat = p[0];
       if (lng < minx || lng > maxx || lat < miny || lat > maxy) return;
       if (pointInPolygon([lng, lat], g)) {
         out.total++; out[c] = (out[c] || 0) + 1;
-        if (p[11]) out.retail[p[11]] = (out.retail[p[11]] || 0) + 1;
+        if (p[11]) {
+          out.retail[p[11]] = (out.retail[p[11]] || 0) + 1;
+          // "Competencia real": 6+ empleados (excluye misceláneas y changarros)
+          if (denueEmpMin(p[3]) >= 6) out.retailRel[p[11]] = (out.retailRel[p[11]] || 0) + 1;
+        }
       }
     });
   });
   return out;
+}
+
+// Benchmark metropolitano: hab/negocio-relevante por sub-giro en toda La Laguna
+var _retailBench = null;
+function retailBench() {
+  if (_retailBench) return _retailBench;
+  var metroPop = 0;
+  ['torreon','gomezpalacio','matamoros'].forEach(function(c) {
+    if (AGEB_DATA[c]) AGEB_DATA[c].features.forEach(function(f) {
+      metroPop += (f.properties.censo2020 || {}).poblacion_total || 0;
+    });
+  });
+  var counts = {};
+  Object.keys(DENUE_DATA || {}).forEach(function(c) {
+    DENUE_DATA[c].forEach(function(p) {
+      if (!p[11]) return;
+      if (!counts[p[11]]) counts[p[11]] = { n: 0, rel: 0 };
+      counts[p[11]].n++;
+      if (denueEmpMin(p[3]) >= 6) counts[p[11]].rel++;
+    });
+  });
+  _retailBench = { pop: metroPop, bySub: {} };
+  Object.keys(counts).forEach(function(rid) {
+    _retailBench.bySub[rid] = {
+      rel: counts[rid].rel,
+      habPerRel: counts[rid].rel ? metroPop / counts[rid].rel : Infinity
+    };
+  });
+  return _retailBench;
 }
 
 // ── Reporte de ubicación ──────────────────────────────────────────────────────
@@ -1242,6 +1275,55 @@ function closeIsoReport() {
   var ov = document.getElementById('report-overlay');
   if (ov) ov.remove();
 }
+// Ranking de sub-giros por oportunidad: compara la zona vs el promedio de La Laguna
+function buildRetailOpportunities(bizByRing, ringsAsc) {
+  var last = bizByRing[bizByRing.length - 1];
+  var pop = ringsAsc[ringsAsc.length - 1].stats.poblacion || 0;
+  var mins = ringsAsc[ringsAsc.length - 1].mins;
+  if (!pop || !last.retailRel) return '';
+  var bench = retailBench();
+  var rows = [];
+  Object.keys(RETAIL_LBL).forEach(function(rid) {
+    var b = bench.bySub[rid];
+    if (!b || b.rel < 20) return; // sub-giro sin masa crítica en la metrópoli: no es comparable
+    var zoneRel = last.retailRel[rid] || 0;
+    var fit = pop / b.habPerRel;            // cuántos "caben" según el promedio metropolitano
+    var gap = fit - zoneRel;                // cuántos faltan
+    var score = zoneRel ? (pop / zoneRel) / b.habPerRel : Infinity;
+    rows.push({ rid: rid, zoneRel: zoneRel, fit: fit, gap: gap, score: score });
+  });
+  var opps = rows.filter(function(r){ return r.gap >= 1 && r.score >= 1.3; })
+    .sort(function(a, b){ return b.gap - a.gap; }).slice(0, 8);
+  var sat = rows.filter(function(r){ return r.zoneRel > 0 && r.score <= 0.7; })
+    .sort(function(a, b){ return a.score - b.score; }).slice(0, 3);
+  if (!opps.length && !sat.length) return '';
+
+  var html = '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #059669;padding-left:.6rem">🎯 Oportunidades — sub-giros menos saturados de la zona (' + mins + ' min)</h2>';
+  if (opps.length) {
+    html += '<table style="width:100%;border-collapse:collapse;font-size:.78rem">' +
+      '<tr style="color:#6b7280;font-size:.64rem;text-transform:uppercase;text-align:left"><th style="padding:.3rem 0">Sub-giro</th><th style="text-align:right">Hay</th><th style="text-align:right">Caben*</th><th style="text-align:right">Faltan</th><th>Lectura</th></tr>' +
+      opps.map(function(r) {
+        var lectura = r.zoneRel === 0
+          ? 'Sin competencia real en la zona'
+          : 'La zona soporta ' + (r.score >= 3 ? '3×' : r.score >= 2 ? '2×' : Math.round(r.score * 10) / 10 + '×') + ' más que lo que hay';
+        return '<tr>' +
+          '<td style="font-weight:700;padding:.3rem .5rem .3rem 0">' + RETAIL_LBL[r.rid] + '</td>' +
+          '<td style="text-align:right;padding:.3rem .6rem">' + r.zoneRel + '</td>' +
+          '<td style="text-align:right;padding:.3rem .6rem">' + Math.round(r.fit) + '</td>' +
+          '<td style="text-align:right;padding:.3rem .6rem;color:#059669;font-weight:800">+' + Math.round(r.gap) + '</td>' +
+          '<td style="font-size:.7rem;color:#6b7280;padding:.3rem 0">' + lectura + '</td></tr>';
+      }).join('') + '</table>' +
+      '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">*"Caben" = negocios que soportaría la población de la zona según el promedio de La Laguna (' +
+      bench.pop.toLocaleString() + ' hab). Solo se consideran negocios de 6+ empleados.</div>';
+  }
+  if (sat.length) {
+    html += '<div style="background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:.6rem .9rem;margin-top:.8rem;font-size:.74rem">' +
+      '<b style="color:#b45309">⚠️ Saturados (evitar):</b> ' +
+      sat.map(function(r){ return RETAIL_LBL[r.rid] + ' (' + r.zoneRel + ' vs ' + Math.round(r.fit) + ' que caben)'; }).join(' · ') + '</div>';
+  }
+  return html;
+}
+
 function buildIsoReport() {
   closeIsoReport();
   var D = _isoReportData;
@@ -1329,23 +1411,28 @@ function buildIsoReport() {
       '<tr><td style="font-weight:800;padding:.32rem .5rem .32rem 0">Negocios totales</td>' +
       bizByRing.map(function(b){ return '<td style="text-align:right;font-weight:800;padding:.32rem .6rem">' + fmtN(b.total) + '</td>'; }).join('') + '</tr>' +
       bizRows + '</table>' +
-    // Retail detallado (tenant mix)
-    '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Retail detallado — qué hay y qué falta</h2>' +
+    // Retail detallado (tenant mix) — solo competencia real (6+ empleados)
+    '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Retail detallado — competencia real (6+ empleados)</h2>' +
     '<table style="width:100%;border-collapse:collapse;font-size:.78rem">' + thRings.replace(/Indicador/, 'Sub-giro') +
     RETAIL_CATS.map(function(gr) {
       return '<tr><td colspan="' + (ringsAsc.length + 1) + '" style="font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#ea580c;padding:.55rem .5rem .2rem 0">' + gr.g + '</td></tr>' +
         gr.items.map(function(it) {
-          var lastN = (bizByRing[bizByRing.length-1].retail || {})[it[0]] || 0;
+          var lastB = bizByRing[bizByRing.length-1];
+          var lastRel = (lastB.retailRel || {})[it[0]] || 0;
           return '<tr><td style="color:#6b7280;padding:.28rem .5rem .28rem 0">' + it[1] + '</td>' +
             bizByRing.map(function(b, bi) {
-              var n = (b.retail || {})[it[0]] || 0;
-              if (bi === bizByRing.length-1 && !lastN)
-                return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span></td>';
-              return '<td style="text-align:right;font-weight:600;padding:.28rem .6rem">' + (n || '·') + '</td>';
+              var rel = (b.retailRel || {})[it[0]] || 0;
+              var micro = ((b.retail || {})[it[0]] || 0) - rel;
+              if (bi === bizByRing.length-1 && !lastRel)
+                return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>' +
+                  (micro ? ' <span style="color:#9ca3af;font-size:.62rem">(' + micro + ' micro)</span>' : '') + '</td>';
+              return '<td style="text-align:right;font-weight:600;padding:.28rem .6rem">' + (rel || '·') +
+                (micro ? ' <span style="color:#9ca3af;font-weight:400;font-size:.62rem">+' + micro + 'µ</span>' : '') + '</td>';
             }).join('') + '</tr>';
         }).join('');
     }).join('') + '</table>' +
-    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem"><b style="color:#dc2626">FALTA</b> = ningún negocio de ese sub-giro dentro de la isócrona mayor — candidatos naturales para un local en esta ubicación.</div>' +
+    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">Cifra principal = negocios con 6+ empleados (competencia comercial real). "+Nµ" = micronegocios de 0–5 empleados (misceláneas, changarros). <b style="color:#dc2626">FALTA</b> = sin competencia real en la isócrona mayor.</div>' +
+    buildRetailOpportunities(bizByRing, ringsAsc) +
     (missing.length ? '<div style="background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:.7rem .9rem;margin-top:.9rem;font-size:.78rem">' +
       '<b style="color:#dc2626">Giros ausentes en la zona (' + ringsAsc[ringsAsc.length-1].mins + ' min):</b> ' + missing.join(' · ') +
       ' — <i>posibles oportunidades de negocio local.</i></div>' : '') +
