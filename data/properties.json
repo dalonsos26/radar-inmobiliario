@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-07-27 10:18:43",
+  "run_at": "2026-07-27 10:38:01",
   "total": 2935,
-  "new_count": 8,
+  "new_count": 0,
   "properties": [
     {
       "id": "56aa0e84-e3e4-48c3-bcdb-019fa037ea86",
@@ -30803,33 +30803,6 @@
       ]
     },
     {
-      "id": "c786a9dc-b00a-4fa9-bcb7-0194bee149af",
-      "code": "MX25-SW10008",
-      "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Edificio",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "115,000 MXN Renta",
-      "precio_num": 115000.0,
-      "superficie": "800 m²",
-      "area_num": 800.0,
-      "precio_m2": "$143.8/m²",
-      "pm2_num": 143.75,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "API Inmobiliaria",
-      "fecha_publicacion": "2026-04-13",
-      "days_on_market": 105,
-      "link": "https://app.nocnok.com/crm/154940/properties/c786a9dc-b00a-4fa9-bcb7-0194bee149af",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250131182112-76f75c62db7a400ca9d927dd6849437es.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250131182111-9c19c16cb63e43a788485b9ef9bfbaffs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250131182111-b03b375b21da4cf187cf543c18c04172s.webp"
-      ]
-    },
-    {
       "id": "8f5a5064-6732-4f81-93c4-019668a1edb8",
       "code": "MX25-SW10174",
       "title": "Local en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
@@ -32204,6 +32177,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250331184048-079153fa527841b78a3944996adc9640s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250331184052-3476fbe8dc0645e5b57d3e5a7fb95b59s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250331184048-0040ae8d480b4eea8434939ecf03383cs.webp"
+      ]
+    },
+    {
+      "id": "c786a9dc-b00a-4fa9-bcb7-0194bee149af",
+      "code": "MX25-SW10008",
+      "title": "EDIFICIO CON OFICINAS EN RENTA EN EL CENTRO DE TORREON COAH.",
+      "categoria": "Comercial",
+      "tipo": "Edificio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "115,000 MXN Renta",
+      "precio_num": 115000.0,
+      "superficie": "800 m²",
+      "area_num": 800.0,
+      "precio_m2": "$143.8/m²",
+      "pm2_num": 143.75,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-04-13",
+      "days_on_market": 105,
+      "link": "https://app.nocnok.com/crm/154940/properties/c786a9dc-b00a-4fa9-bcb7-0194bee149af",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250131182112-76f75c62db7a400ca9d927dd6849437es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250131182111-9c19c16cb63e43a788485b9ef9bfbaffs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250131182111-b03b375b21da4cf187cf543c18c04172s.webp"
       ]
     },
     {
@@ -39209,7 +39209,8 @@
       "link": "https://app.nocnok.com/crm/154940/properties/98b4ed28-e9a5-4fe6-b655-019eb2c8b69e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260610122631-4b78796dd58f47b9b54e1be41b8c2b40s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260610122658-7afde60720e1458dad70ff09b30b110as.webp"
+        "https://s3.amazonaws.com/nocnok-img/pp-260610122658-7afde60720e1458dad70ff09b30b110as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260727103732-376c15c0388d4f059b439ddc01ceaee0s.webp"
       ]
     },
     {
@@ -56074,9 +56075,7 @@
       "days_on_market": 10,
       "link": "https://app.nocnok.com/crm/154940/properties/8c9b41ea-34dd-45cc-b948-019edb8860c1",
       "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260727095514-0b1f95368b8f404fb606fc12519e91f6s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260727095516-03df58d1be6649bfbb8e8fe8b0e28a49s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260727095515-f84705c8bf784768add8ce954f33c171s.webp"
+        "https://s3.amazonaws.com/nocnok-img/pp-260618102022-b400f251b02a4405a1816dd6bb5407fbs.webp"
       ]
     },
     {
@@ -59330,33 +59329,6 @@
       ]
     },
     {
-      "id": "d62777ba-65ad-4247-8fcb-0190e73a1097",
-      "code": "MX24-TM2546",
-      "title": "Edificio en Venta en Gomez Palacio Centro, Gómez Palacio, Durango",
-      "categoria": "Comercial",
-      "tipo": "Edificio",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "3,700,000 MXN Venta",
-      "precio_num": 3700000.0,
-      "superficie": "466 m²",
-      "area_num": 466.0,
-      "precio_m2": "$7,940/m²",
-      "pm2_num": 7939.91,
-      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "API Inmobiliaria",
-      "fecha_publicacion": "2026-04-13",
-      "days_on_market": 105,
-      "link": "https://app.nocnok.com/crm/154940/properties/d62777ba-65ad-4247-8fcb-0190e73a1097",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-240724182508-05dcc34b8a434010b35138cca1298f7as.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240724182510-97ea5827896443a98ea9ef5aa39a6d2ds.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240724182512-90190d8b4d9a4d488c62b88b750f0c09s.webp"
-      ]
-    },
-    {
       "id": "d898db74-e493-4d56-932e-01978e3c3915",
       "code": "MX25-SW10296",
       "title": "Terreno en Venta en El Refugio, Gómez Palacio, Durango",
@@ -59678,6 +59650,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260723182444-6c59af9bf5bb40d38346135f59cf888es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260723182444-c06062e09089484794720a58302b124as.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260723182444-c141496a486f4517b4cb043e15dd299ds.webp"
+      ]
+    },
+    {
+      "id": "d62777ba-65ad-4247-8fcb-0190e73a1097",
+      "code": "MX24-TM2546",
+      "title": "EDIFICIO COMERCIAL VENTA CENTRO GOMEZ PALACIO DURANGO",
+      "categoria": "Comercial",
+      "tipo": "Edificio",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "3,700,000 MXN Venta",
+      "precio_num": 3700000.0,
+      "superficie": "466.92 m²",
+      "area_num": 466.92,
+      "precio_m2": "$7,924/m²",
+      "pm2_num": 7924.27,
+      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-04-13",
+      "days_on_market": 105,
+      "link": "https://app.nocnok.com/crm/154940/properties/d62777ba-65ad-4247-8fcb-0190e73a1097",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-240724182508-05dcc34b8a434010b35138cca1298f7as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240724182510-97ea5827896443a98ea9ef5aa39a6d2ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240724182512-90190d8b4d9a4d488c62b88b750f0c09s.webp"
       ]
     },
     {
@@ -74913,33 +74912,6 @@
       ]
     },
     {
-      "id": "56efc97b-cdb5-44bb-838e-018f896448cb",
-      "code": "MX24-QG6123",
-      "title": "Terreno en Venta en Benavides (morelos Uno), Matamoros, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "27,833,890 MXN Venta",
-      "precio_num": 27833890.0,
-      "superficie": "166,670 m²",
-      "area_num": 166670.0,
-      "precio_m2": "$167.0/m²",
-      "pm2_num": 167.0,
-      "ubicacion": "Benavides (morelos Uno), Matamoros, Coahuila de Zaragoza",
-      "municipio": "Matamoros",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "API Inmobiliaria",
-      "fecha_publicacion": "2026-04-13",
-      "days_on_market": 105,
-      "link": "https://app.nocnok.com/crm/154940/properties/56efc97b-cdb5-44bb-838e-018f896448cb",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/240517185534-cd376b1c38454f10870474459d13e906.jpg",
-        "https://s3.amazonaws.com/nocnok-img/240517185543-42037029b2df403cbe432faa8e56593b.jpg",
-        "https://s3.amazonaws.com/nocnok-img/240517185542-80a22fd251a641d19161a5918814b0ea.jpg"
-      ]
-    },
-    {
       "id": "1772269f-2c64-46fa-8bba-018ee8758c16",
       "code": "MX24-QE0527",
       "title": "Terreno en Venta en Benito Juárez, Matamoros, Coahuila de Zaragoza",
@@ -75072,6 +75044,33 @@
         "https://s3.amazonaws.com/nocnok-img/240411113534-0e2e9f937a7c415a864e50b4ed10fe1e.jpg",
         "https://s3.amazonaws.com/nocnok-img/240411113552-aab8b0cfcf3a4ddbaabfaa50eb0db7dd.jpg",
         "https://s3.amazonaws.com/nocnok-img/240411113538-4b4c7a89ceac46568381d7bf1c4e67e2.jpg"
+      ]
+    },
+    {
+      "id": "56efc97b-cdb5-44bb-838e-018f896448cb",
+      "code": "MX24-QG6123",
+      "title": "TERRENO AGRICOLA MATAMOROS COAHUILA",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "27,833,890 MXN Venta",
+      "precio_num": 27833890.0,
+      "superficie": "166,670 m²",
+      "area_num": 166670.0,
+      "precio_m2": "$167.0/m²",
+      "pm2_num": 167.0,
+      "ubicacion": "Benavides (morelos Uno), Matamoros, Coahuila de Zaragoza",
+      "municipio": "Matamoros",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-04-13",
+      "days_on_market": 105,
+      "link": "https://app.nocnok.com/crm/154940/properties/56efc97b-cdb5-44bb-838e-018f896448cb",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/240517185534-cd376b1c38454f10870474459d13e906.jpg",
+        "https://s3.amazonaws.com/nocnok-img/240517185543-42037029b2df403cbe432faa8e56593b.jpg",
+        "https://s3.amazonaws.com/nocnok-img/240517185542-80a22fd251a641d19161a5918814b0ea.jpg"
       ]
     },
     {

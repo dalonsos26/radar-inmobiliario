@@ -30645,7 +30645,7 @@
     "c786a9dc-b00a-4fa9-bcb7-0194bee149af": {
       "id": "c786a9dc-b00a-4fa9-bcb7-0194bee149af",
       "code": "MX25-SW10008",
-      "title": "Edificio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "title": "EDIFICIO CON OFICINAS EN RENTA EN EL CENTRO DE TORREON COAH.",
       "categoria": "Comercial",
       "tipo": "Edificio",
       "operacion": "Renta",
@@ -85011,7 +85011,7 @@
     "d62777ba-65ad-4247-8fcb-0190e73a1097": {
       "id": "d62777ba-65ad-4247-8fcb-0190e73a1097",
       "code": "MX24-TM2546",
-      "title": "Edificio en Venta en Gomez Palacio Centro, Gómez Palacio, Durango",
+      "title": "EDIFICIO COMERCIAL VENTA CENTRO GOMEZ PALACIO DURANGO",
       "categoria": "Comercial",
       "tipo": "Edificio",
       "operacion": "Venta",
@@ -85020,8 +85020,8 @@
       "precio_num": 3700000.0,
       "superficie": "466 m²",
       "area_num": 466.0,
-      "precio_m2": "$7,940/m²",
-      "pm2_num": 7939.91,
+      "precio_m2": "$7,924/m²",
+      "pm2_num": 7924.27,
       "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
       "municipio": "Gómez Palacio",
       "estado": "Durango",
@@ -108741,7 +108741,7 @@
     "56efc97b-cdb5-44bb-838e-018f896448cb": {
       "id": "56efc97b-cdb5-44bb-838e-018f896448cb",
       "code": "MX24-QG6123",
-      "title": "Terreno en Venta en Benavides (morelos Uno), Matamoros, Coahuila de Zaragoza",
+      "title": "TERRENO AGRICOLA MATAMOROS COAHUILA",
       "categoria": "Comercial",
       "tipo": "Terreno",
       "operacion": "Venta",
