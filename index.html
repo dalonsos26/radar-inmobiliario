@@ -1225,13 +1225,36 @@ function isoCountBiz(feat) {
         out.total++; out[c] = (out[c] || 0) + 1;
         if (p[11]) {
           out.retail[p[11]] = (out.retail[p[11]] || 0) + 1;
-          // "Competencia real": 6+ empleados (excluye misceláneas y changarros)
-          if (denueEmpMin(p[3]) >= 6) out.retailRel[p[11]] = (out.retailRel[p[11]] || 0) + 1;
+          if (denueIsRelevant(p)) out.retailRel[p[11]] = (out.retailRel[p[11]] || 0) + 1;
         }
       }
     });
   });
   return out;
+}
+
+// Competencia relevante: 6+ empleados, O sucursal de cadena (nombre repetido 3+
+// veces en la metrópoli), O local dentro de plaza comercial. Así una casa de
+// empeño o un OXXO de 4 personas sí cuentan; la miscelánea de la esquina no.
+var _chainNames = null;
+function denueChainNames() {
+  if (_chainNames) return _chainNames;
+  var counts = {};
+  Object.keys(DENUE_DATA || {}).forEach(function(c) {
+    DENUE_DATA[c].forEach(function(p) {
+      var n = denueNorm(p[2]);
+      if (n.length < 4) return;
+      counts[n] = (counts[n] || 0) + 1;
+    });
+  });
+  _chainNames = {};
+  Object.keys(counts).forEach(function(n) { if (counts[n] >= 3) _chainNames[n] = 1; });
+  return _chainNames;
+}
+function denueIsRelevant(p) {
+  if (denueEmpMin(p[3]) >= 6) return true;
+  if (p[8]) return true; // dentro de plaza comercial
+  return !!denueChainNames()[denueNorm(p[2])];
 }
 
 // Benchmark metropolitano: hab/negocio-relevante por sub-giro en toda La Laguna
@@ -1250,7 +1273,7 @@ function retailBench() {
       if (!p[11]) return;
       if (!counts[p[11]]) counts[p[11]] = { n: 0, rel: 0 };
       counts[p[11]].n++;
-      if (denueEmpMin(p[3]) >= 6) counts[p[11]].rel++;
+      if (denueIsRelevant(p)) counts[p[11]].rel++;
     });
   });
   _retailBench = { pop: metroPop, bySub: {} };
@@ -1315,7 +1338,7 @@ function buildRetailOpportunities(bizByRing, ringsAsc, anaIdx) {
           '<td style="font-size:.7rem;color:#6b7280;padding:.3rem 0">' + lectura + '</td></tr>';
       }).join('') + '</table>' +
       '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">*"Caben" = negocios que soportaría la población de la zona según el promedio de La Laguna (' +
-      bench.pop.toLocaleString() + ' hab). Solo se consideran negocios de 6+ empleados.</div>';
+      bench.pop.toLocaleString() + ' hab). Solo se considera competencia relevante (6+ empleados, cadenas o locales en plaza).</div>';
   }
   if (sat.length) {
     html += '<div style="background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:.6rem .9rem;margin-top:.8rem;font-size:.74rem">' +
@@ -1417,7 +1440,7 @@ function buildIsoReport() {
       bizByRing.map(function(b){ return '<td style="text-align:right;font-weight:800;padding:.32rem .6rem">' + fmtN(b.total) + '</td>'; }).join('') + '</tr>' +
       bizRows + '</table>' +
     // Retail detallado (tenant mix) — solo competencia real (6+ empleados)
-    '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Retail detallado — competencia real (6+ empleados)</h2>' +
+    '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Retail detallado — competencia relevante</h2>' +
     '<table style="width:100%;border-collapse:collapse;font-size:.78rem">' + thRings.replace(/Indicador/, 'Sub-giro') +
     RETAIL_CATS.map(function(gr) {
       return '<tr><td colspan="' + (ringsAsc.length + 1) + '" style="font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#ea580c;padding:.55rem .5rem .2rem 0">' + gr.g + '</td></tr>' +
@@ -1436,7 +1459,7 @@ function buildIsoReport() {
             }).join('') + '</tr>';
         }).join('');
     }).join('') + '</table>' +
-    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">Cifra principal = negocios con 6+ empleados (competencia comercial real). "+Nµ" = micronegocios de 0–5 empleados (misceláneas, changarros). <b style="color:#dc2626">FALTA</b> = sin competencia real en el anillo de análisis (' + anaMins + ' min' + (D.mode==='driving-car' ? ' — en auto se usa el anillo corto para que el micromercado sea realista' : '') + ').</div>' +
+    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">Cifra principal = competencia relevante: 6+ empleados, sucursales de cadena (nombre con 3+ ubicaciones en La Laguna) o locales en plaza comercial. "+Nµ" = micronegocios independientes restantes. <b style="color:#dc2626">FALTA</b> = sin competencia relevante en el anillo de análisis (' + anaMins + ' min' + (D.mode==='driving-car' ? ' — en auto se usa el anillo corto para que el micromercado sea realista' : '') + ').</div>' +
     buildRetailOpportunities(bizByRing, ringsAsc, anaIdx) +
     (missing.length ? '<div style="background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:.7rem .9rem;margin-top:.9rem;font-size:.78rem">' +
       '<b style="color:#dc2626">Giros ausentes en la zona (' + anaMins + ' min):</b> ' + missing.join(' · ') +
