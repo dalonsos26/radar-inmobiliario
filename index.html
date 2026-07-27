@@ -1276,10 +1276,11 @@ function closeIsoReport() {
   if (ov) ov.remove();
 }
 // Ranking de sub-giros por oportunidad: compara la zona vs el promedio de La Laguna
-function buildRetailOpportunities(bizByRing, ringsAsc) {
-  var last = bizByRing[bizByRing.length - 1];
-  var pop = ringsAsc[ringsAsc.length - 1].stats.poblacion || 0;
-  var mins = ringsAsc[ringsAsc.length - 1].mins;
+function buildRetailOpportunities(bizByRing, ringsAsc, anaIdx) {
+  if (anaIdx === undefined) anaIdx = bizByRing.length - 1;
+  var last = bizByRing[anaIdx];
+  var pop = ringsAsc[anaIdx].stats.poblacion || 0;
+  var mins = ringsAsc[anaIdx].mins;
   if (!pop || !last.retailRel) return '';
   var bench = retailBench();
   var rows = [];
@@ -1333,15 +1334,19 @@ function buildIsoReport() {
   D.feats.forEach(function(f){ featByMins[f.properties.contour || 0] = f; });
   var RING_COLORS = ['#059669', '#0ea5e9', '#7c3aed', '#d97706', '#dc2626'];
 
-  // Conteos de negocios por anillo + análisis del anillo mayor
+  // Conteos de negocios por anillo. El análisis competitivo usa:
+  // - Auto: anillo de 5 min (15 min cubre media ciudad y diluye los datos)
+  // - A pie / bici: el anillo mayor
   var bizByRing = ringsAsc.map(function(r){ return featByMins[r.mins] ? isoCountBiz(featByMins[r.mins]) : { total: 0 }; });
-  var largestFeat = featByMins[ringsAsc[ringsAsc.length-1].mins];
+  var anaIdx = D.mode === 'driving-car' ? 0 : ringsAsc.length - 1;
+  var anaMins = ringsAsc[anaIdx].mins;
+  var largestFeat = featByMins[anaMins];
   var CAT_LBL = { comercio:'🛒 Comercio', comida:'🍽 Restaurantes/Hoteles', finanzas:'🏦 Bancos/Finanzas', salud:'🏥 Salud',
     educacion:'🎓 Educación', industria:'🏭 Industria', oficinas:'💼 Oficinas', entretenimiento:'🎬 Entretenimiento',
     transporte:'🚚 Transporte', gobierno:'🏛 Gobierno', otros:'Otros' };
   var missing = [], anchors = [], plazas = {};
   if (largestFeat && DENUE_DATA) {
-    var lastBiz = bizByRing[bizByRing.length-1];
+    var lastBiz = bizByRing[anaIdx];
     Object.keys(CAT_LBL).forEach(function(c){ if (c !== 'otros' && !lastBiz[c]) missing.push(CAT_LBL[c]); });
     Object.keys(DENUE_DATA).forEach(function(c) {
       DENUE_DATA[c].forEach(function(p) {
@@ -1417,13 +1422,13 @@ function buildIsoReport() {
     RETAIL_CATS.map(function(gr) {
       return '<tr><td colspan="' + (ringsAsc.length + 1) + '" style="font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#ea580c;padding:.55rem .5rem .2rem 0">' + gr.g + '</td></tr>' +
         gr.items.map(function(it) {
-          var lastB = bizByRing[bizByRing.length-1];
+          var lastB = bizByRing[anaIdx];
           var lastRel = (lastB.retailRel || {})[it[0]] || 0;
           return '<tr><td style="color:#6b7280;padding:.28rem .5rem .28rem 0">' + it[1] + '</td>' +
             bizByRing.map(function(b, bi) {
               var rel = (b.retailRel || {})[it[0]] || 0;
               var micro = ((b.retail || {})[it[0]] || 0) - rel;
-              if (bi === bizByRing.length-1 && !lastRel)
+              if (bi === anaIdx && !lastRel)
                 return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>' +
                   (micro ? ' <span style="color:#9ca3af;font-size:.62rem">(' + micro + ' micro)</span>' : '') + '</td>';
               return '<td style="text-align:right;font-weight:600;padding:.28rem .6rem">' + (rel || '·') +
@@ -1431,10 +1436,10 @@ function buildIsoReport() {
             }).join('') + '</tr>';
         }).join('');
     }).join('') + '</table>' +
-    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">Cifra principal = negocios con 6+ empleados (competencia comercial real). "+Nµ" = micronegocios de 0–5 empleados (misceláneas, changarros). <b style="color:#dc2626">FALTA</b> = sin competencia real en la isócrona mayor.</div>' +
-    buildRetailOpportunities(bizByRing, ringsAsc) +
+    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">Cifra principal = negocios con 6+ empleados (competencia comercial real). "+Nµ" = micronegocios de 0–5 empleados (misceláneas, changarros). <b style="color:#dc2626">FALTA</b> = sin competencia real en el anillo de análisis (' + anaMins + ' min' + (D.mode==='driving-car' ? ' — en auto se usa el anillo corto para que el micromercado sea realista' : '') + ').</div>' +
+    buildRetailOpportunities(bizByRing, ringsAsc, anaIdx) +
     (missing.length ? '<div style="background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:.7rem .9rem;margin-top:.9rem;font-size:.78rem">' +
-      '<b style="color:#dc2626">Giros ausentes en la zona (' + ringsAsc[ringsAsc.length-1].mins + ' min):</b> ' + missing.join(' · ') +
+      '<b style="color:#dc2626">Giros ausentes en la zona (' + anaMins + ' min):</b> ' + missing.join(' · ') +
       ' — <i>posibles oportunidades de negocio local.</i></div>' : '') +
     (anchors.length ? '<div style="margin-top:1rem"><div style="font-size:.8rem;font-weight:700;margin-bottom:.4rem">Anclas generadoras de tráfico (51+ empleados)</div>' +
       '<div style="font-size:.75rem;line-height:1.8;color:#374151">' + anchors.slice(0,10).map(function(p){
