@@ -940,8 +940,8 @@
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "70 m²",
-    "precio": "9,000 MXN Renta",
-    "precio_m2": "$180.0/m²",
+    "precio": "9,200 MXN Renta",
+    "precio_m2": "$184.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
     "fotos_local": [
@@ -1943,8 +1943,8 @@
     "tipo": "Consultorio",
     "municipio": "Torreón",
     "superficie": "230 m²",
-    "precio": "20,000 MXN Renta",
-    "precio_m2": "$87.0/m²",
+    "precio": "17,000 MXN Renta",
+    "precio_m2": "$73.9/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/60b3321c-68c6-4813-8eac-019e4ce6e6db",
     "fotos_local": [
@@ -1986,7 +1986,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "b5f53994-3942-4b5c-b4a4-0197fb97ad12",
@@ -2037,7 +2037,7 @@
     ],
     "lat": 25.5581092,
     "lng": -103.4117788,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1313aad6-c8df-4199-bbfa-0199d4f39ba8",
@@ -2071,7 +2071,7 @@
     ],
     "lat": 25.5910781,
     "lng": -103.3670831,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "decd1ede-8ec1-4ed8-a252-018e58b157f7",
@@ -2122,7 +2122,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "59cee791-89b7-4dc0-93d3-019cee6a9516",
@@ -2334,8 +2334,8 @@
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "555 m²",
-    "precio": "24,000 MXN Renta",
-    "precio_m2": "$43.2/m²",
+    "precio": "25,000 MXN Renta",
+    "precio_m2": "$45.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/2bf11eb4-fb42-4785-b761-018b27d13f7c",
     "fotos_local": [
@@ -2836,7 +2836,7 @@
     ],
     "lat": 25.5697952,
     "lng": -103.3825129,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "ca0b264e-62ed-47f9-a69a-018b261c49b1",
