@@ -747,34 +747,34 @@
     },
     "2026-W13": {
       "week": "2026-W13",
-      "total": 321,
+      "total": 339,
       "cities": {
         "Torreón": {
-          "total": 262,
+          "total": 280,
           "tipos_m2": {
             "Local": {
-              "sum": 392183.5119205286,
-              "count": 50
+              "sum": 440827.4691397799,
+              "count": 54
             },
             "Consultorio": {
-              "sum": 2106.6666666666665,
-              "count": 14
+              "sum": 2368.333333333333,
+              "count": 16
             },
             "Bodega": {
-              "sum": 105217.06406914529,
-              "count": 119
+              "sum": 119236.15167382661,
+              "count": 129
             },
             "Oficina": {
-              "sum": 19435.977564102563,
-              "count": 37
+              "sum": 19785.977564102563,
+              "count": 38
             },
             "Hotel": {
               "sum": 36738.57868020305,
               "count": 6
             },
             "Terreno": {
-              "sum": 64694.41176470589,
-              "count": 35
+              "sum": 64741.4705882353,
+              "count": 36
             },
             "Casa": {
               "sum": 71.875,
@@ -807,30 +807,30 @@
     },
     "2026-W12": {
       "week": "2026-W12",
-      "total": 416,
+      "total": 460,
       "cities": {
         "Torreón": {
-          "total": 384,
+          "total": 428,
           "tipos_m2": {
             "Oficina": {
               "sum": 350.0,
               "count": 1
             },
             "Terreno": {
-              "sum": 112808.24220994717,
-              "count": 46
+              "sum": 127782.29391361796,
+              "count": 51
             },
             "Bodega": {
-              "sum": 188567.52319627008,
-              "count": 134
+              "sum": 219212.3571721809,
+              "count": 147
             },
             "Local": {
-              "sum": 74004.7460874227,
-              "count": 186
+              "sum": 84330.0789184608,
+              "count": 211
             },
             "Edificio": {
-              "sum": 1685.3197674418607,
-              "count": 16
+              "sum": 1747.8197674418607,
+              "count": 17
             },
             "Consultorio": {
               "sum": 555.5555555555555,
@@ -872,38 +872,38 @@
     },
     "2026-W11": {
       "week": "2026-W11",
-      "total": 682,
+      "total": 847,
       "cities": {
         "Torreón": {
-          "total": 586,
+          "total": 751,
           "tipos_m2": {
             "Terreno": {
-              "sum": 220631.6915456925,
-              "count": 70
+              "sum": 343711.3189527227,
+              "count": 107
             },
             "Local": {
-              "sum": 845109.9855549529,
-              "count": 193
+              "sum": 1194436.3576488341,
+              "count": 271
             },
             "Oficina": {
-              "sum": 5057.996752305404,
-              "count": 37
+              "sum": 6909.6285746388185,
+              "count": 50
             },
             "Bodega": {
-              "sum": 556346.2518997475,
-              "count": 245
+              "sum": 651839.4480328826,
+              "count": 268
             },
             "Consultorio": {
-              "sum": 298194.38998779,
-              "count": 27
+              "sum": 375192.90553520556,
+              "count": 34
             },
             "Casa": {
-              "sum": 48435.71428571429,
-              "count": 6
+              "sum": 67061.90476190476,
+              "count": 9
             },
             "Edificio": {
-              "sum": 17537.901459854013,
-              "count": 4
+              "sum": 35075.802919708025,
+              "count": 8
             },
             "Nave": {
               "sum": 300.0,
@@ -957,38 +957,38 @@
     },
     "2026-W10": {
       "week": "2026-W10",
-      "total": 195,
+      "total": 256,
       "cities": {
         "Torreón": {
-          "total": 144,
+          "total": 205,
           "tipos_m2": {
             "Local": {
-              "sum": 104884.8258746489,
-              "count": 43
+              "sum": 167659.98078896583,
+              "count": 68
             },
             "Terreno": {
-              "sum": 36183.91264635768,
-              "count": 20
+              "sum": 45898.08140157907,
+              "count": 28
             },
             "Oficina": {
-              "sum": 3629.000337723742,
-              "count": 11
+              "sum": 5916.334008780817,
+              "count": 18
             },
             "Bodega": {
-              "sum": 48038.53152001445,
-              "count": 49
+              "sum": 54778.77283527574,
+              "count": 61
             },
             "Edificio": {
-              "sum": 25471.028062950332,
-              "count": 7
+              "sum": 39436.94084694891,
+              "count": 11
             },
             "Consultorio": {
-              "sum": 160896.09427609426,
-              "count": 4
+              "sum": 222453.51445489374,
+              "count": 7
             },
             "Casa": {
-              "sum": 38406.034169392944,
-              "count": 4
+              "sum": 57609.05125408941,
+              "count": 6
             },
             "Nave": {
               "sum": 450.0,
@@ -1034,34 +1034,34 @@
     },
     "2026-W09": {
       "week": "2026-W09",
-      "total": 172,
+      "total": 202,
       "cities": {
         "Torreón": {
-          "total": 124,
+          "total": 154,
           "tipos_m2": {
             "Edificio": {
-              "sum": 26023.418666054415,
-              "count": 2
-            },
-            "Oficina": {
-              "sum": 1157.5012712117887,
-              "count": 7
-            },
-            "Consultorio": {
-              "sum": 160172.44755244756,
+              "sum": 40756.51475146366,
               "count": 3
             },
+            "Oficina": {
+              "sum": 1809.2995373786116,
+              "count": 12
+            },
+            "Consultorio": {
+              "sum": 219883.35664335664,
+              "count": 5
+            },
             "Local": {
-              "sum": 26741.77807026652,
-              "count": 14
+              "sum": 50501.963906906654,
+              "count": 26
             },
             "Terreno": {
-              "sum": 12937.194256230641,
-              "count": 13
+              "sum": 20733.931462079396,
+              "count": 17
             },
             "Bodega": {
-              "sum": 155711.98545060857,
-              "count": 51
+              "sum": 156166.94566281015,
+              "count": 57
             },
             "Nave": {
               "sum": 65828.65967613674,
@@ -1103,29 +1103,37 @@
     },
     "2026-W08": {
       "week": "2026-W08",
-      "total": 165,
+      "total": 211,
       "cities": {
         "Torreón": {
-          "total": 132,
+          "total": 178,
           "tipos_m2": {
             "Local": {
-              "sum": 4973.651544258904,
-              "count": 4
+              "sum": 30408.675121641045,
+              "count": 19
             },
             "Consultorio": {
-              "sum": 59090.90909090909,
-              "count": 1
+              "sum": 77503.55133972781,
+              "count": 6
             },
             "Terreno": {
-              "sum": 28660.0,
-              "count": 9
+              "sum": 41984.56114824038,
+              "count": 17
             },
             "Bodega": {
-              "sum": 166748.77374424294,
-              "count": 117
+              "sum": 177517.9939816666,
+              "count": 124
             },
             "Oficina": {
-              "sum": 100.0,
+              "sum": 8781.7064924426,
+              "count": 8
+            },
+            "Edificio": {
+              "sum": 13184.37062937063,
+              "count": 3
+            },
+            "Casa": {
+              "sum": 85.71428571428571,
               "count": 1
             }
           }
@@ -1168,22 +1176,34 @@
     },
     "2026-W07": {
       "week": "2026-W07",
-      "total": 64,
+      "total": 97,
       "cities": {
         "Torreón": {
-          "total": 44,
+          "total": 77,
           "tipos_m2": {
             "Bodega": {
-              "sum": 1486.7356807256037,
-              "count": 21
+              "sum": 118211.69579172228,
+              "count": 30
             },
             "Terreno": {
-              "sum": 31560.90137381213,
-              "count": 20
+              "sum": 35528.16035816838,
+              "count": 24
             },
             "Nave": {
               "sum": 204.0,
               "count": 3
+            },
+            "Oficina": {
+              "sum": 11551.369592606705,
+              "count": 12
+            },
+            "Consultorio": {
+              "sum": 133548.92205638476,
+              "count": 3
+            },
+            "Local": {
+              "sum": 799.7139303482586,
+              "count": 5
             }
           }
         },
@@ -1217,22 +1237,38 @@
     },
     "2026-W06": {
       "week": "2026-W06",
-      "total": 85,
+      "total": 130,
       "cities": {
         "Torreón": {
-          "total": 44,
+          "total": 89,
           "tipos_m2": {
             "Bodega": {
-              "sum": 8164.9901529117105,
-              "count": 34
+              "sum": 22986.19843009235,
+              "count": 47
             },
             "Terreno": {
-              "sum": 2500.012131104151,
-              "count": 5
+              "sum": 31799.165584727045,
+              "count": 19
             },
             "Nave": {
               "sum": 350.0,
               "count": 5
+            },
+            "Oficina": {
+              "sum": 65448.70129870129,
+              "count": 3
+            },
+            "Consultorio": {
+              "sum": 54246.76561085973,
+              "count": 2
+            },
+            "Local": {
+              "sum": 36324.61477047119,
+              "count": 11
+            },
+            "Edificio": {
+              "sum": 101828.11764705883,
+              "count": 2
             }
           }
         },
@@ -1278,18 +1314,22 @@
     },
     "2026-W05": {
       "week": "2026-W05",
-      "total": 42,
+      "total": 64,
       "cities": {
         "Torreón": {
-          "total": 30,
+          "total": 52,
           "tipos_m2": {
             "Bodega": {
-              "sum": 1644.26486013986,
-              "count": 26
+              "sum": 21591.836228755623,
+              "count": 33
             },
             "Terreno": {
-              "sum": 120.0,
-              "count": 4
+              "sum": 6101.012658227848,
+              "count": 5
+            },
+            "Local": {
+              "sum": 67957.58094270075,
+              "count": 14
             }
           }
         },
@@ -1318,22 +1358,34 @@
     },
     "2026-W04": {
       "week": "2026-W04",
-      "total": 72,
+      "total": 97,
       "cities": {
         "Torreón": {
-          "total": 41,
+          "total": 66,
           "tipos_m2": {
             "Bodega": {
-              "sum": 67185.68461007591,
-              "count": 33
+              "sum": 67425.41991506077,
+              "count": 38
             },
             "Terreno": {
-              "sum": 18412.352941176472,
-              "count": 6
+              "sum": 28626.521206882735,
+              "count": 9
             },
             "Nave": {
               "sum": 120.0,
               "count": 2
+            },
+            "Edificio": {
+              "sum": 48825.557292571364,
+              "count": 3
+            },
+            "Oficina": {
+              "sum": 30684.298362206013,
+              "count": 6
+            },
+            "Local": {
+              "sum": 35232.48832910093,
+              "count": 8
             }
           }
         },
@@ -1367,26 +1419,38 @@
     },
     "2026-W03": {
       "week": "2026-W03",
-      "total": 62,
+      "total": 80,
       "cities": {
         "Torreón": {
-          "total": 34,
+          "total": 52,
           "tipos_m2": {
             "Bodega": {
-              "sum": 2040.365403224821,
-              "count": 26
+              "sum": 9629.260140066926,
+              "count": 34
             },
             "Nave": {
               "sum": 60.0,
               "count": 1
             },
             "Oficina": {
-              "sum": 314.68531468531467,
-              "count": 3
+              "sum": 23523.65650653694,
+              "count": 7
             },
             "Terreno": {
-              "sum": 60.60606060606061,
-              "count": 4
+              "sum": 105.59095486587934,
+              "count": 5
+            },
+            "Consultorio": {
+              "sum": 37272.72727272727,
+              "count": 1
+            },
+            "Hotel": {
+              "sum": 9685.920799692425,
+              "count": 1
+            },
+            "Local": {
+              "sum": 280.0,
+              "count": 3
             }
           }
         },
@@ -1415,22 +1479,38 @@
     },
     "2026-W02": {
       "week": "2026-W02",
-      "total": 42,
+      "total": 58,
       "cities": {
         "Torreón": {
-          "total": 31,
+          "total": 47,
           "tipos_m2": {
             "Bodega": {
-              "sum": 674.6090819348469,
-              "count": 10
+              "sum": 1254.6193912131976,
+              "count": 19
             },
             "Terreno": {
-              "sum": 11852.651515151516,
-              "count": 11
+              "sum": 15851.284648574365,
+              "count": 14
             },
             "Nave": {
               "sum": 207.8471992045078,
               "count": 10
+            },
+            "Local": {
+              "sum": 179.41176470588235,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 458.3333333333333,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 300.0,
+              "count": 1
+            },
+            "Hotel": {
+              "sum": 9225.09225092251,
+              "count": 1
             }
           }
         },
@@ -1464,18 +1544,26 @@
     },
     "2026-W01": {
       "week": "2026-W01",
-      "total": 18,
+      "total": 29,
       "cities": {
         "Torreón": {
-          "total": 9,
+          "total": 20,
           "tipos_m2": {
             "Bodega": {
-              "sum": 400.0,
-              "count": 5
+              "sum": 712.6511852926947,
+              "count": 9
             },
             "Nave": {
               "sum": 85.80882352941177,
               "count": 4
+            },
+            "Terreno": {
+              "sum": 267.0,
+              "count": 6
+            },
+            "Casa": {
+              "sum": 17866.666666666668,
+              "count": 1
             }
           }
         },
@@ -1505,14 +1593,30 @@
     },
     "2025-W52": {
       "week": "2025-W52",
-      "total": 12,
+      "total": 16,
       "cities": {
         "Torreón": {
-          "total": 10,
+          "total": 14,
           "tipos_m2": {
             "Nave": {
               "sum": 25150.0,
               "count": 10
+            },
+            "Bodega": {
+              "sum": 61.224489795918366,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 92.3076923076923,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 13333.333333333334,
+              "count": 1
+            },
+            "Local": {
+              "sum": 100.0,
+              "count": 1
             }
           }
         },
@@ -1533,18 +1637,22 @@
     },
     "2025-W51": {
       "week": "2025-W51",
-      "total": 33,
+      "total": 41,
       "cities": {
         "Torreón": {
-          "total": 12,
+          "total": 20,
           "tipos_m2": {
             "Bodega": {
-              "sum": 603.3333333333334,
-              "count": 7
+              "sum": 6697.39443364235,
+              "count": 12
             },
             "Terreno": {
               "sum": 125.0030474178213,
               "count": 5
+            },
+            "Local": {
+              "sum": 25651.274559386973,
+              "count": 3
             }
           }
         },
@@ -1565,18 +1673,34 @@
     },
     "2025-W50": {
       "week": "2025-W50",
-      "total": 31,
+      "total": 45,
       "cities": {
         "Torreón": {
-          "total": 25,
+          "total": 39,
           "tipos_m2": {
             "Terreno": {
               "sum": 51246.19289340102,
               "count": 15
             },
             "Bodega": {
-              "sum": 728.125,
-              "count": 10
+              "sum": 11157.053445597514,
+              "count": 13
+            },
+            "Local": {
+              "sum": 12346.149789029534,
+              "count": 3
+            },
+            "Oficina": {
+              "sum": 21049.71994908165,
+              "count": 5
+            },
+            "Consultorio": {
+              "sum": 969.3486590038315,
+              "count": 2
+            },
+            "Edificio": {
+              "sum": 12348.178137651821,
+              "count": 1
             }
           }
         },
@@ -1601,14 +1725,26 @@
     },
     "2025-W49": {
       "week": "2025-W49",
-      "total": 19,
+      "total": 33,
       "cities": {
         "Torreón": {
-          "total": 13,
+          "total": 27,
           "tipos_m2": {
             "Bodega": {
-              "sum": 950.0,
-              "count": 13
+              "sum": 8769.687569299847,
+              "count": 17
+            },
+            "Terreno": {
+              "sum": 7226.588943211734,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 358.33333333333337,
+              "count": 2
+            },
+            "Local": {
+              "sum": 97999.11457542154,
+              "count": 6
             }
           }
         },
@@ -1638,22 +1774,38 @@
     },
     "2025-W48": {
       "week": "2025-W48",
-      "total": 55,
+      "total": 86,
       "cities": {
         "Torreón": {
-          "total": 34,
+          "total": 65,
           "tipos_m2": {
             "Bodega": {
-              "sum": 821.1436480186482,
-              "count": 15
+              "sum": 10643.510303893103,
+              "count": 23
             },
             "Terreno": {
-              "sum": 43060.0,
-              "count": 15
+              "sum": 62826.40116611428,
+              "count": 19
             },
             "Nave": {
               "sum": 0.002369668246445498,
               "count": 4
+            },
+            "Edificio": {
+              "sum": 12575.247524752474,
+              "count": 2
+            },
+            "Consultorio": {
+              "sum": 119695.05494505494,
+              "count": 2
+            },
+            "Local": {
+              "sum": 66479.21777098157,
+              "count": 8
+            },
+            "Oficina": {
+              "sum": 39945.2380952381,
+              "count": 7
             }
           }
         },
@@ -1687,22 +1839,38 @@
     },
     "2025-W47": {
       "week": "2025-W47",
-      "total": 37,
+      "total": 52,
       "cities": {
         "Torreón": {
-          "total": 22,
+          "total": 37,
           "tipos_m2": {
             "Nave": {
               "sum": 248.75059241706163,
               "count": 5
             },
             "Bodega": {
-              "sum": 308.38709677419354,
-              "count": 5
+              "sum": 694.6781222718612,
+              "count": 10
             },
             "Terreno": {
-              "sum": 19596.196660482372,
-              "count": 12
+              "sum": 25999.795908400716,
+              "count": 15
+            },
+            "Casa": {
+              "sum": 17683.817901234568,
+              "count": 1
+            },
+            "Local": {
+              "sum": 1081.3823857302118,
+              "count": 4
+            },
+            "Edificio": {
+              "sum": 111.11111111111111,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 125.0,
+              "count": 1
             }
           }
         },
@@ -1736,22 +1904,34 @@
     },
     "2025-W46": {
       "week": "2025-W46",
-      "total": 33,
+      "total": 45,
       "cities": {
         "Torreón": {
-          "total": 22,
+          "total": 34,
           "tipos_m2": {
             "Nave": {
               "sum": 332.795714849921,
               "count": 9
             },
             "Bodega": {
-              "sum": 388.7466135694089,
-              "count": 10
+              "sum": 525.0250498871895,
+              "count": 12
             },
             "Terreno": {
-              "sum": 4899.049165120594,
-              "count": 3
+              "sum": 6493.430478251907,
+              "count": 6
+            },
+            "Local": {
+              "sum": 8263.823965340325,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 21505.76923076923,
+              "count": 4
+            },
+            "Edificio": {
+              "sum": 143.75,
+              "count": 1
             }
           }
         },
@@ -1785,22 +1965,34 @@
     },
     "2025-W45": {
       "week": "2025-W45",
-      "total": 79,
+      "total": 95,
       "cities": {
         "Torreón": {
-          "total": 43,
+          "total": 59,
           "tipos_m2": {
             "Bodega": {
-              "sum": 1664.1097547564063,
-              "count": 29
+              "sum": 2153.1097547564063,
+              "count": 36
             },
             "Nave": {
               "sum": 446.6666666666666,
               "count": 6
             },
             "Terreno": {
-              "sum": 9301.58878504673,
-              "count": 8
+              "sum": 10463.987706879614,
+              "count": 9
+            },
+            "Local": {
+              "sum": 16643.325471698114,
+              "count": 6
+            },
+            "Oficina": {
+              "sum": 58.8235294117647,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 163.9344262295082,
+              "count": 1
             }
           }
         },
@@ -1834,18 +2026,30 @@
     },
     "2025-W44": {
       "week": "2025-W44",
-      "total": 38,
+      "total": 54,
       "cities": {
         "Torreón": {
-          "total": 19,
+          "total": 35,
           "tipos_m2": {
             "Bodega": {
-              "sum": 1067.0,
-              "count": 15
+              "sum": 1196.7945205479452,
+              "count": 17
             },
             "Terreno": {
-              "sum": 14004.14030261348,
+              "sum": 54237.675814720424,
+              "count": 12
+            },
+            "Edificio": {
+              "sum": 10000.0,
+              "count": 1
+            },
+            "Local": {
+              "sum": 989.9860035634683,
               "count": 4
+            },
+            "Oficina": {
+              "sum": 60.0,
+              "count": 1
             }
           }
         },
@@ -1883,22 +2087,38 @@
     },
     "2025-W43": {
       "week": "2025-W43",
-      "total": 35,
+      "total": 49,
       "cities": {
         "Torreón": {
-          "total": 18,
+          "total": 32,
           "tipos_m2": {
             "Bodega": {
-              "sum": 908.0,
-              "count": 13
+              "sum": 37319.88172043011,
+              "count": 17
             },
             "Terreno": {
-              "sum": 3501.03507565337,
-              "count": 1
+              "sum": 3532.28507565337,
+              "count": 2
             },
             "Nave": {
               "sum": 280.0,
               "count": 4
+            },
+            "Consultorio": {
+              "sum": 12892.241379310344,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 400.0,
+              "count": 2
+            },
+            "Local": {
+              "sum": 22595.0,
+              "count": 3
+            },
+            "Casa": {
+              "sum": 25953.947368421053,
+              "count": 2
             }
           }
         },
@@ -1936,18 +2156,30 @@
     },
     "2025-W42": {
       "week": "2025-W42",
-      "total": 35,
+      "total": 51,
       "cities": {
         "Torreón": {
-          "total": 19,
+          "total": 35,
           "tipos_m2": {
             "Nave": {
               "sum": 70.0,
               "count": 1
             },
             "Bodega": {
-              "sum": 1165.0641025641025,
-              "count": 18
+              "sum": 1231.0641025641025,
+              "count": 19
+            },
+            "Terreno": {
+              "sum": 4499.997488497317,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 1379.2585605545753,
+              "count": 8
+            },
+            "Local": {
+              "sum": 16221.130765304672,
+              "count": 6
             }
           }
         },
@@ -1985,18 +2217,38 @@
     },
     "2025-W41": {
       "week": "2025-W41",
-      "total": 47,
+      "total": 97,
       "cities": {
         "Torreón": {
-          "total": 21,
+          "total": 71,
           "tipos_m2": {
             "Bodega": {
-              "sum": 734.6153846153845,
-              "count": 10
+              "sum": 9120.991437560844,
+              "count": 16
             },
             "Nave": {
               "sum": 37374.26356589147,
               "count": 11
+            },
+            "Local": {
+              "sum": 59184.28852684287,
+              "count": 17
+            },
+            "Oficina": {
+              "sum": 2128.2253554423937,
+              "count": 9
+            },
+            "Casa": {
+              "sum": 15705.57587850571,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 19905.36338881612,
+              "count": 14
+            },
+            "Edificio": {
+              "sum": 7482.03427307905,
+              "count": 2
             }
           }
         },
@@ -2034,18 +2286,34 @@
     },
     "2025-W40": {
       "week": "2025-W40",
-      "total": 19,
+      "total": 34,
       "cities": {
         "Torreón": {
-          "total": 7,
+          "total": 22,
           "tipos_m2": {
             "Nave": {
               "sum": 170.0,
               "count": 2
             },
             "Terreno": {
-              "sum": 27500.0,
-              "count": 5
+              "sum": 29327.85936341113,
+              "count": 7
+            },
+            "Oficina": {
+              "sum": 575.2380952380952,
+              "count": 3
+            },
+            "Local": {
+              "sum": 1044.2645074224022,
+              "count": 6
+            },
+            "Bodega": {
+              "sum": 137.8401942653575,
+              "count": 2
+            },
+            "Edificio": {
+              "sum": 12684.084778420038,
+              "count": 2
             }
           }
         },
@@ -2066,14 +2334,22 @@
     },
     "2025-W39": {
       "week": "2025-W39",
-      "total": 22,
+      "total": 32,
       "cities": {
         "Torreón": {
-          "total": 9,
+          "total": 19,
           "tipos_m2": {
             "Bodega": {
-              "sum": 774.3243243243243,
-              "count": 9
+              "sum": 22295.157657657655,
+              "count": 12
+            },
+            "Local": {
+              "sum": 1178.3016654298144,
+              "count": 6
+            },
+            "Terreno": {
+              "sum": 53.789731051344745,
+              "count": 1
             }
           }
         },
@@ -2098,18 +2374,38 @@
     },
     "2025-W37": {
       "week": "2025-W37",
-      "total": 42,
+      "total": 67,
       "cities": {
         "Torreón": {
-          "total": 25,
+          "total": 50,
           "tipos_m2": {
             "Bodega": {
-              "sum": 1345.0,
-              "count": 15
+              "sum": 19193.938903863436,
+              "count": 22
             },
             "Terreno": {
-              "sum": 8408.333333333334,
-              "count": 10
+              "sum": 19799.242424242424,
+              "count": 14
+            },
+            "Oficina": {
+              "sum": 1296.010101010101,
+              "count": 5
+            },
+            "Consultorio": {
+              "sum": 700.0,
+              "count": 1
+            },
+            "Local": {
+              "sum": 1022.8351153677241,
+              "count": 6
+            },
+            "Casa": {
+              "sum": 17542.016806722688,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 504.3859649122807,
+              "count": 1
             }
           }
         },
@@ -2138,18 +2434,30 @@
     },
     "2025-W36": {
       "week": "2025-W36",
-      "total": 12,
+      "total": 30,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 24,
           "tipos_m2": {
             "Oficina": {
-              "sum": 937.5,
-              "count": 3
+              "sum": 2050.0,
+              "count": 6
             },
             "Terreno": {
-              "sum": 37.22854188210962,
-              "count": 3
+              "sum": 11392.228541882108,
+              "count": 6
+            },
+            "Local": {
+              "sum": 23727.723078122413,
+              "count": 4
+            },
+            "Bodega": {
+              "sum": 8106.701615923221,
+              "count": 7
+            },
+            "Consultorio": {
+              "sum": 500.0,
+              "count": 1
             }
           }
         },
@@ -2179,22 +2487,30 @@
     },
     "2025-W35": {
       "week": "2025-W35",
-      "total": 40,
+      "total": 55,
       "cities": {
         "Torreón": {
-          "total": 23,
+          "total": 38,
           "tipos_m2": {
             "Nave": {
               "sum": 30350.0,
               "count": 9
             },
             "Bodega": {
-              "sum": 590.2777777777778,
-              "count": 5
+              "sum": 936.4823137850155,
+              "count": 10
             },
             "Terreno": {
-              "sum": 7533.865974159043,
-              "count": 9
+              "sum": 14769.338383164015,
+              "count": 14
+            },
+            "Local": {
+              "sum": 117407.4074074074,
+              "count": 3
+            },
+            "Oficina": {
+              "sum": 21132.63888888889,
+              "count": 2
             }
           }
         },
@@ -2219,22 +2535,34 @@
     },
     "2025-W34": {
       "week": "2025-W34",
-      "total": 28,
+      "total": 37,
       "cities": {
         "Torreón": {
-          "total": 5,
+          "total": 14,
           "tipos_m2": {
             "Nave": {
               "sum": 7500.0,
               "count": 1
             },
             "Terreno": {
-              "sum": 1798.954372623574,
-              "count": 1
+              "sum": 20047.149948792474,
+              "count": 6
             },
             "Bodega": {
               "sum": 150.6276150627615,
               "count": 3
+            },
+            "Local": {
+              "sum": 10956.608300907912,
+              "count": 2
+            },
+            "Consultorio": {
+              "sum": 500.0,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 7407.407407407408,
+              "count": 1
             }
           }
         },
@@ -2272,18 +2600,26 @@
     },
     "2025-W33": {
       "week": "2025-W33",
-      "total": 33,
+      "total": 40,
       "cities": {
         "Torreón": {
-          "total": 26,
+          "total": 33,
           "tipos_m2": {
             "Terreno": {
-              "sum": 28500.0039640779,
-              "count": 15
+              "sum": 37800.0039640779,
+              "count": 17
             },
             "Bodega": {
-              "sum": 720.7780725022104,
-              "count": 11
+              "sum": 7872.195076550794,
+              "count": 13
+            },
+            "Edificio": {
+              "sum": 10416.666666666666,
+              "count": 1
+            },
+            "Local": {
+              "sum": 26051.88802383256,
+              "count": 2
             }
           }
         },
@@ -2313,22 +2649,34 @@
     },
     "2025-W32": {
       "week": "2025-W32",
-      "total": 47,
+      "total": 60,
       "cities": {
         "Torreón": {
-          "total": 14,
+          "total": 27,
           "tipos_m2": {
             "Bodega": {
-              "sum": 327.01149425287355,
-              "count": 4
+              "sum": 537.456628828443,
+              "count": 7
             },
             "Nave": {
               "sum": 402.0100502512563,
               "count": 5
             },
             "Terreno": {
-              "sum": 13000.0,
-              "count": 5
+              "sum": 13157.335235076598,
+              "count": 9
+            },
+            "Local": {
+              "sum": 125470.0,
+              "count": 4
+            },
+            "Edificio": {
+              "sum": 100.0,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 12765.95744680851,
+              "count": 1
             }
           }
         },
@@ -2370,18 +2718,34 @@
     },
     "2025-W31": {
       "week": "2025-W31",
-      "total": 43,
+      "total": 65,
       "cities": {
         "Torreón": {
-          "total": 37,
+          "total": 59,
           "tipos_m2": {
             "Terreno": {
-              "sum": 9689.454545454544,
-              "count": 13
+              "sum": 25060.563690909014,
+              "count": 17
             },
             "Bodega": {
-              "sum": 40930.83333333333,
-              "count": 24
+              "sum": 48883.19848864586,
+              "count": 29
+            },
+            "Local": {
+              "sum": 11235.29654785013,
+              "count": 7
+            },
+            "Consultorio": {
+              "sum": 1064.9038461538462,
+              "count": 2
+            },
+            "Casa": {
+              "sum": 12156.862745098038,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 456.21621621621625,
+              "count": 3
             }
           }
         },
@@ -2402,18 +2766,26 @@
     },
     "2025-W30": {
       "week": "2025-W30",
-      "total": 37,
+      "total": 62,
       "cities": {
         "Torreón": {
-          "total": 27,
+          "total": 52,
           "tipos_m2": {
             "Bodega": {
-              "sum": 10415.601405622489,
-              "count": 10
+              "sum": 10953.287221085797,
+              "count": 18
             },
             "Terreno": {
-              "sum": 52036.0,
-              "count": 17
+              "sum": 59564.154943620415,
+              "count": 22
+            },
+            "Local": {
+              "sum": 27211.174837067694,
+              "count": 11
+            },
+            "Oficina": {
+              "sum": 13168.316831683169,
+              "count": 1
             }
           }
         },
@@ -2447,18 +2819,34 @@
     },
     "2025-W29": {
       "week": "2025-W29",
-      "total": 42,
+      "total": 70,
       "cities": {
         "Torreón": {
-          "total": 21,
+          "total": 49,
           "tipos_m2": {
             "Terreno": {
-              "sum": 28389.942233632864,
-              "count": 13
+              "sum": 34039.79266729975,
+              "count": 17
             },
             "Bodega": {
-              "sum": 532.0,
-              "count": 8
+              "sum": 1133.9011922159498,
+              "count": 17
+            },
+            "Edificio": {
+              "sum": 15322.58064516129,
+              "count": 1
+            },
+            "Local": {
+              "sum": 70108.39396074394,
+              "count": 12
+            },
+            "Casa": {
+              "sum": 9615.384615384615,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 72000.0,
+              "count": 1
             }
           }
         },
@@ -2479,14 +2867,26 @@
     },
     "2025-W28": {
       "week": "2025-W28",
-      "total": 30,
+      "total": 38,
       "cities": {
         "Torreón": {
-          "total": 2,
+          "total": 10,
           "tipos_m2": {
             "Bodega": {
-              "sum": 133.0,
+              "sum": 245.5,
+              "count": 4
+            },
+            "Oficina": {
+              "sum": 7304.423436041083,
+              "count": 3
+            },
+            "Consultorio": {
+              "sum": 50909.09090909091,
               "count": 2
+            },
+            "Local": {
+              "sum": 45.45454545454545,
+              "count": 1
             }
           }
         },
@@ -2524,14 +2924,30 @@
     },
     "2025-W27": {
       "week": "2025-W27",
-      "total": 24,
+      "total": 33,
       "cities": {
         "Torreón": {
-          "total": 5,
+          "total": 14,
           "tipos_m2": {
             "Nave": {
               "sum": 629.8499210110584,
               "count": 5
+            },
+            "Terreno": {
+              "sum": 6190.476190476191,
+              "count": 1
+            },
+            "Local": {
+              "sum": 21769.21835409899,
+              "count": 5
+            },
+            "Bodega": {
+              "sum": 159.15384615384616,
+              "count": 2
+            },
+            "Casa": {
+              "sum": 109.375,
+              "count": 1
             }
           }
         },
@@ -2569,14 +2985,30 @@
     },
     "2025-W26": {
       "week": "2025-W26",
-      "total": 34,
+      "total": 52,
       "cities": {
         "Torreón": {
-          "total": 7,
+          "total": 25,
           "tipos_m2": {
             "Bodega": {
-              "sum": 499.3874345549738,
-              "count": 7
+              "sum": 564.3874345549739,
+              "count": 8
+            },
+            "Local": {
+              "sum": 17818.20858181676,
+              "count": 13
+            },
+            "Oficina": {
+              "sum": 225.0,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 5500.0,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 653.8461538461538,
+              "count": 1
             }
           }
         },
@@ -2597,22 +3029,38 @@
     },
     "2025-W25": {
       "week": "2025-W25",
-      "total": 66,
+      "total": 84,
       "cities": {
         "Torreón": {
-          "total": 57,
+          "total": 75,
           "tipos_m2": {
             "Bodega": {
-              "sum": 227369.31144881513,
-              "count": 37
+              "sum": 227444.31144881513,
+              "count": 38
             },
             "Nave": {
               "sum": 840.9745472776776,
               "count": 14
             },
             "Terreno": {
-              "sum": 21000.0,
-              "count": 6
+              "sum": 22655.965407695025,
+              "count": 8
+            },
+            "Local": {
+              "sum": 1624.1262658909718,
+              "count": 11
+            },
+            "Edificio": {
+              "sum": 15968.858131487888,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 520.0,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 20996.323529411766,
+              "count": 2
             }
           }
         },
@@ -2637,22 +3085,30 @@
     },
     "2025-W24": {
       "week": "2025-W24",
-      "total": 20,
+      "total": 29,
       "cities": {
         "Torreón": {
-          "total": 12,
+          "total": 21,
           "tipos_m2": {
             "Bodega": {
-              "sum": 75386.3448275862,
-              "count": 7
+              "sum": 115053.01149425286,
+              "count": 9
             },
             "Nave": {
               "sum": 176.67901575922585,
               "count": 3
             },
             "Terreno": {
-              "sum": 7000.0,
-              "count": 2
+              "sum": 15299.414800617502,
+              "count": 5
+            },
+            "Local": {
+              "sum": 322.02023988006,
+              "count": 3
+            },
+            "Casa": {
+              "sum": 9638.55421686747,
+              "count": 1
             }
           }
         },
@@ -2677,14 +3133,26 @@
     },
     "2025-W23": {
       "week": "2025-W23",
-      "total": 22,
+      "total": 30,
       "cities": {
         "Torreón": {
-          "total": 20,
+          "total": 28,
           "tipos_m2": {
             "Bodega": {
-              "sum": 99706.65337332038,
-              "count": 20
+              "sum": 99859.65337332038,
+              "count": 22
+            },
+            "Local": {
+              "sum": 15869.888153297288,
+              "count": 4
+            },
+            "Oficina": {
+              "sum": 62.5,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 625.0,
+              "count": 1
             }
           }
         },
@@ -2701,18 +3169,26 @@
     },
     "2025-W22": {
       "week": "2025-W22",
-      "total": 33,
+      "total": 43,
       "cities": {
         "Torreón": {
-          "total": 25,
+          "total": 35,
           "tipos_m2": {
             "Bodega": {
               "sum": 24389.835467980294,
               "count": 15
             },
             "Terreno": {
-              "sum": 12821.42857142857,
-              "count": 10
+              "sum": 14781.44428234766,
+              "count": 12
+            },
+            "Local": {
+              "sum": 11981.28787878788,
+              "count": 7
+            },
+            "Edificio": {
+              "sum": 12871.287128712871,
+              "count": 1
             }
           }
         },
@@ -2742,22 +3218,42 @@
     },
     "2025-W20": {
       "week": "2025-W20",
-      "total": 11,
+      "total": 30,
       "cities": {
         "Torreón": {
-          "total": 11,
+          "total": 30,
           "tipos_m2": {
             "Nave": {
               "sum": 6896.484375,
               "count": 2
             },
             "Terreno": {
-              "sum": 15151.515151515152,
-              "count": 5
+              "sum": 28716.612266489807,
+              "count": 11
             },
             "Bodega": {
-              "sum": 280.0,
-              "count": 4
+              "sum": 1648.8073394495414,
+              "count": 6
+            },
+            "Local": {
+              "sum": 37035.490525824825,
+              "count": 6
+            },
+            "Oficina": {
+              "sum": 24.0,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 1114.6723646723647,
+              "count": 2
+            },
+            "Edificio": {
+              "sum": 17803.030303030304,
+              "count": 1
+            },
+            "Casa": {
+              "sum": 5857.142857142857,
+              "count": 1
             }
           }
         }
@@ -2765,14 +3261,30 @@
     },
     "2025-W19": {
       "week": "2025-W19",
-      "total": 13,
+      "total": 19,
       "cities": {
         "Torreón": {
-          "total": 10,
+          "total": 16,
           "tipos_m2": {
             "Bodega": {
               "sum": 700.8771929824561,
               "count": 10
+            },
+            "Oficina": {
+              "sum": 733.6898395721926,
+              "count": 3
+            },
+            "Terreno": {
+              "sum": 5500.022240194096,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 620.0,
+              "count": 1
+            },
+            "Local": {
+              "sum": 16238.244514106584,
+              "count": 1
             }
           }
         },
@@ -2789,13 +3301,21 @@
     },
     "2025-W18": {
       "week": "2025-W18",
-      "total": 1,
+      "total": 8,
       "cities": {
         "Torreón": {
-          "total": 1,
+          "total": 8,
           "tipos_m2": {
             "Bodega": {
-              "sum": 70.0,
+              "sum": 220.0,
+              "count": 3
+            },
+            "Local": {
+              "sum": 52682.83456486043,
+              "count": 4
+            },
+            "Oficina": {
+              "sum": 216.21621621621622,
               "count": 1
             }
           }
@@ -2804,10 +3324,10 @@
     },
     "2025-W16": {
       "week": "2025-W16",
-      "total": 9,
+      "total": 13,
       "cities": {
         "Torreón": {
-          "total": 9,
+          "total": 13,
           "tipos_m2": {
             "Bodega": {
               "sum": 470.89285714285717,
@@ -2816,6 +3336,18 @@
             "Terreno": {
               "sum": 5400.0,
               "count": 4
+            },
+            "Local": {
+              "sum": 476.81553398058253,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 7578.79339846553,
+              "count": 2
+            },
+            "Casa": {
+              "sum": 10801.393728222996,
+              "count": 1
             }
           }
         }
@@ -2823,18 +3355,26 @@
     },
     "2025-W15": {
       "week": "2025-W15",
-      "total": 4,
+      "total": 12,
       "cities": {
         "Torreón": {
-          "total": 4,
+          "total": 12,
           "tipos_m2": {
             "Terreno": {
-              "sum": 1350.0,
-              "count": 1
+              "sum": 6147.664559315731,
+              "count": 5
             },
             "Bodega": {
               "sum": 189.0,
               "count": 3
+            },
+            "Oficina": {
+              "sum": 81451.88087774295,
+              "count": 3
+            },
+            "Local": {
+              "sum": 200.0,
+              "count": 1
             }
           }
         }
@@ -2842,14 +3382,22 @@
     },
     "2025-W13": {
       "week": "2025-W13",
-      "total": 25,
+      "total": 28,
       "cities": {
         "Torreón": {
-          "total": 20,
+          "total": 23,
           "tipos_m2": {
             "Terreno": {
-              "sum": 72014.16683749153,
-              "count": 20
+              "sum": 76513.7574984982,
+              "count": 21
+            },
+            "Edificio": {
+              "sum": 17564.102564102563,
+              "count": 1
+            },
+            "Local": {
+              "sum": 17605.6338028169,
+              "count": 1
             }
           }
         },
@@ -2875,18 +3423,30 @@
     },
     "2025-W12": {
       "week": "2025-W12",
-      "total": 18,
+      "total": 27,
       "cities": {
         "Torreón": {
-          "total": 15,
+          "total": 24,
           "tipos_m2": {
             "Bodega": {
-              "sum": 26099.144223508683,
-              "count": 10
+              "sum": 26423.352472331153,
+              "count": 15
             },
             "Nave": {
               "sum": 24385.85451799648,
               "count": 5
+            },
+            "Local": {
+              "sum": 7579.372623574145,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 183.90804597701148,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 7287.705956907478,
+              "count": 1
             }
           }
         },
@@ -2903,14 +3463,26 @@
     },
     "2025-W11": {
       "week": "2025-W11",
-      "total": 20,
+      "total": 30,
       "cities": {
         "Torreón": {
-          "total": 5,
+          "total": 15,
           "tipos_m2": {
             "Bodega": {
-              "sum": 400.0,
+              "sum": 530.2497123130034,
+              "count": 7
+            },
+            "Local": {
+              "sum": 1141.3026021703295,
               "count": 5
+            },
+            "Oficina": {
+              "sum": 133.33333333333334,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 23000.0,
+              "count": 2
             }
           }
         },
@@ -2935,14 +3507,30 @@
     },
     "2025-W10": {
       "week": "2025-W10",
-      "total": 9,
+      "total": 14,
       "cities": {
         "Torreón": {
-          "total": 5,
+          "total": 10,
           "tipos_m2": {
             "Bodega": {
               "sum": 350.0,
               "count": 5
+            },
+            "Oficina": {
+              "sum": 144.44444444444446,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 2022.9265003371545,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 770.8333333333333,
+              "count": 2
+            },
+            "Local": {
+              "sum": 13392.857142857143,
+              "count": 1
             }
           }
         },
@@ -2959,10 +3547,10 @@
     },
     "2025-W09": {
       "week": "2025-W09",
-      "total": 10,
+      "total": 16,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 12,
           "tipos_m2": {
             "Bodega": {
               "sum": 65.0,
@@ -2971,6 +3559,14 @@
             "Terreno": {
               "sum": 15000.0,
               "count": 5
+            },
+            "Local": {
+              "sum": 465.5128205128205,
+              "count": 3
+            },
+            "Oficina": {
+              "sum": 50552.07713181733,
+              "count": 3
             }
           }
         },
@@ -2987,18 +3583,30 @@
     },
     "2025-W08": {
       "week": "2025-W08",
-      "total": 12,
+      "total": 25,
       "cities": {
         "Torreón": {
-          "total": 9,
+          "total": 22,
           "tipos_m2": {
             "Bodega": {
               "sum": 295.0,
               "count": 5
             },
             "Terreno": {
-              "sum": 100.0,
-              "count": 4
+              "sum": 12426.210996361498,
+              "count": 7
+            },
+            "Local": {
+              "sum": 1432.8809094539333,
+              "count": 6
+            },
+            "Edificio": {
+              "sum": 9953.014305177112,
+              "count": 2
+            },
+            "Consultorio": {
+              "sum": 1083.3333333333335,
+              "count": 2
             }
           }
         },
@@ -3015,14 +3623,22 @@
     },
     "2025-W07": {
       "week": "2025-W07",
-      "total": 22,
+      "total": 26,
       "cities": {
         "Torreón": {
-          "total": 15,
+          "total": 19,
           "tipos_m2": {
             "Terreno": {
-              "sum": 15486.597633136094,
-              "count": 15
+              "sum": 17488.638449462625,
+              "count": 16
+            },
+            "Edificio": {
+              "sum": 11265.580057526366,
+              "count": 2
+            },
+            "Local": {
+              "sum": 9000.0,
+              "count": 1
             }
           }
         },
@@ -3056,18 +3672,22 @@
     },
     "2025-W06": {
       "week": "2025-W06",
-      "total": 25,
+      "total": 30,
       "cities": {
         "Torreón": {
-          "total": 16,
+          "total": 21,
           "tipos_m2": {
             "Terreno": {
-              "sum": 3850.3994082840236,
-              "count": 6
+              "sum": 4310.399408284024,
+              "count": 7
             },
             "Bodega": {
-              "sum": 782.7072372081193,
-              "count": 10
+              "sum": 845.7072372081193,
+              "count": 11
+            },
+            "Local": {
+              "sum": 619.4871794871794,
+              "count": 3
             }
           }
         },
@@ -3092,18 +3712,22 @@
     },
     "2025-W05": {
       "week": "2025-W05",
-      "total": 9,
+      "total": 15,
       "cities": {
         "Torreón": {
-          "total": 8,
+          "total": 14,
           "tipos_m2": {
             "Nave": {
               "sum": 23904.38247011952,
               "count": 3
             },
             "Bodega": {
-              "sum": 325.0,
-              "count": 5
+              "sum": 552.639751552795,
+              "count": 8
+            },
+            "Local": {
+              "sum": 638.0952380952381,
+              "count": 3
             }
           }
         },
@@ -3120,14 +3744,22 @@
     },
     "2025-W04": {
       "week": "2025-W04",
-      "total": 9,
+      "total": 15,
       "cities": {
         "Torreón": {
-          "total": 5,
+          "total": 11,
           "tipos_m2": {
             "Bodega": {
-              "sum": 350.0,
-              "count": 5
+              "sum": 11720.027870680045,
+              "count": 9
+            },
+            "Oficina": {
+              "sum": 57.142857142857146,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 2000.0,
+              "count": 1
             }
           }
         },
@@ -3144,18 +3776,34 @@
     },
     "2025-W03": {
       "week": "2025-W03",
-      "total": 65,
+      "total": 82,
       "cities": {
         "Torreón": {
-          "total": 35,
+          "total": 52,
           "tipos_m2": {
             "Bodega": {
-              "sum": 930.0,
-              "count": 14
+              "sum": 1126.2616035913547,
+              "count": 17
             },
             "Terreno": {
-              "sum": 43215.358786930534,
-              "count": 21
+              "sum": 45215.358786930534,
+              "count": 22
+            },
+            "Consultorio": {
+              "sum": 1703.8461538461538,
+              "count": 3
+            },
+            "Local": {
+              "sum": 849.5601908126847,
+              "count": 7
+            },
+            "Oficina": {
+              "sum": 602.6315789473684,
+              "count": 2
+            },
+            "Edificio": {
+              "sum": 133.46534653465346,
+              "count": 1
             }
           }
         },
@@ -3193,18 +3841,26 @@
     },
     "2025-W02": {
       "week": "2025-W02",
-      "total": 38,
+      "total": 58,
       "cities": {
         "Torreón": {
-          "total": 25,
+          "total": 45,
           "tipos_m2": {
             "Bodega": {
-              "sum": 382.5,
-              "count": 6
+              "sum": 5184.087301587301,
+              "count": 8
             },
             "Terreno": {
-              "sum": 64683.490862371196,
-              "count": 19
+              "sum": 73138.68490044134,
+              "count": 24
+            },
+            "Oficina": {
+              "sum": 13655.202526941659,
+              "count": 5
+            },
+            "Local": {
+              "sum": 126079.1849863218,
+              "count": 8
             }
           }
         },
@@ -3275,10 +3931,10 @@
     },
     "2024-W51": {
       "week": "2024-W51",
-      "total": 22,
+      "total": 26,
       "cities": {
         "Torreón": {
-          "total": 19,
+          "total": 23,
           "tipos_m2": {
             "Bodega": {
               "sum": 850.0,
@@ -3287,6 +3943,18 @@
             "Nave": {
               "sum": 64.51907997909044,
               "count": 5
+            },
+            "Edificio": {
+              "sum": 6318.339453284373,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 504.3859649122807,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 3000.0,
+              "count": 1
             }
           }
         },
@@ -3303,18 +3971,34 @@
     },
     "2024-W50": {
       "week": "2024-W50",
-      "total": 78,
+      "total": 115,
       "cities": {
         "Torreón": {
-          "total": 54,
+          "total": 91,
           "tipos_m2": {
             "Bodega": {
-              "sum": 44017.524294480936,
-              "count": 42
+              "sum": 44077.524294480936,
+              "count": 43
             },
             "Terreno": {
-              "sum": 14400.0,
-              "count": 12
+              "sum": 22548.418803418805,
+              "count": 20
+            },
+            "Oficina": {
+              "sum": 756.2390109890109,
+              "count": 5
+            },
+            "Local": {
+              "sum": 2271.802552678444,
+              "count": 19
+            },
+            "Edificio": {
+              "sum": 45789.649441622794,
+              "count": 3
+            },
+            "Consultorio": {
+              "sum": 384.61538461538464,
+              "count": 1
             }
           }
         },
@@ -3348,18 +4032,34 @@
     },
     "2024-W49": {
       "week": "2024-W49",
-      "total": 9,
+      "total": 17,
       "cities": {
         "Torreón": {
-          "total": 9,
+          "total": 17,
           "tipos_m2": {
             "Bodega": {
-              "sum": 562.5,
-              "count": 6
+              "sum": 632.5280112044818,
+              "count": 7
             },
             "Nave": {
               "sum": 20507.8125,
               "count": 3
+            },
+            "Local": {
+              "sum": 490.0264187866927,
+              "count": 3
+            },
+            "Casa": {
+              "sum": 33020.822488287355,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 5800.0,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 5144.0329218107,
+              "count": 1
             }
           }
         }
@@ -3367,22 +4067,38 @@
     },
     "2024-W48": {
       "week": "2024-W48",
-      "total": 204,
+      "total": 296,
       "cities": {
         "Torreón": {
-          "total": 83,
+          "total": 175,
           "tipos_m2": {
             "Bodega": {
-              "sum": 2675.057815191975,
-              "count": 41
+              "sum": 33077.78513991459,
+              "count": 59
             },
             "Terreno": {
-              "sum": 44195.63626509221,
-              "count": 36
+              "sum": 74869.61304573694,
+              "count": 62
             },
             "Nave": {
               "sum": 438.8714733542319,
               "count": 6
+            },
+            "Consultorio": {
+              "sum": 144839.25144420797,
+              "count": 3
+            },
+            "Local": {
+              "sum": 128468.75850866635,
+              "count": 37
+            },
+            "Oficina": {
+              "sum": 6816.196583850932,
+              "count": 6
+            },
+            "Casa": {
+              "sum": 11840.428571428572,
+              "count": 2
             }
           }
         },
@@ -3428,22 +4144,34 @@
     },
     "2024-W47": {
       "week": "2024-W47",
-      "total": 80,
+      "total": 109,
       "cities": {
         "Torreón": {
-          "total": 22,
+          "total": 51,
           "tipos_m2": {
             "Bodega": {
-              "sum": 619.0,
-              "count": 10
+              "sum": 8877.765510961035,
+              "count": 15
             },
             "Nave": {
               "sum": 302.50648228176317,
               "count": 6
             },
             "Terreno": {
-              "sum": 9000.0,
-              "count": 6
+              "sum": 9036.806375442738,
+              "count": 8
+            },
+            "Local": {
+              "sum": 108583.06420158388,
+              "count": 12
+            },
+            "Oficina": {
+              "sum": 16367.123105018643,
+              "count": 8
+            },
+            "Edificio": {
+              "sum": 30801.61054172767,
+              "count": 2
             }
           }
         },
@@ -3485,22 +4213,38 @@
     },
     "2024-W46": {
       "week": "2024-W46",
-      "total": 153,
+      "total": 202,
       "cities": {
         "Torreón": {
-          "total": 95,
+          "total": 144,
           "tipos_m2": {
             "Bodega": {
-              "sum": 1762.8578553658613,
-              "count": 25
+              "sum": 46540.13427814246,
+              "count": 35
             },
             "Terreno": {
-              "sum": 59466.47561339505,
-              "count": 41
+              "sum": 76683.39197418427,
+              "count": 46
             },
             "Nave": {
               "sum": 181243.74552146703,
               "count": 29
+            },
+            "Edificio": {
+              "sum": 24745.254404386247,
+              "count": 5
+            },
+            "Consultorio": {
+              "sum": 14695.844385499558,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 733.6070596070596,
+              "count": 4
+            },
+            "Local": {
+              "sum": 50467.31691541259,
+              "count": 23
             }
           }
         },
@@ -3542,22 +4286,38 @@
     },
     "2024-W45": {
       "week": "2024-W45",
-      "total": 104,
+      "total": 128,
       "cities": {
         "Torreón": {
-          "total": 53,
+          "total": 77,
           "tipos_m2": {
             "Terreno": {
-              "sum": 10804.356256373452,
-              "count": 13
+              "sum": 41940.21977840925,
+              "count": 22
             },
             "Bodega": {
-              "sum": 37714.43279328495,
-              "count": 39
+              "sum": 77403.05596841169,
+              "count": 45
             },
             "Nave": {
               "sum": 7370.852713178295,
               "count": 1
+            },
+            "Local": {
+              "sum": 22588.693389390497,
+              "count": 5
+            },
+            "Edificio": {
+              "sum": 171.38599105812222,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 112.5,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 42912.72727272727,
+              "count": 2
             }
           }
         },
@@ -3599,18 +4359,30 @@
     },
     "2024-W44": {
       "week": "2024-W44",
-      "total": 94,
+      "total": 122,
       "cities": {
         "Torreón": {
-          "total": 48,
+          "total": 76,
           "tipos_m2": {
             "Bodega": {
-              "sum": 8594.364031638375,
-              "count": 31
+              "sum": 8909.190118594897,
+              "count": 36
             },
             "Terreno": {
-              "sum": 25904.854075729836,
-              "count": 17
+              "sum": 44590.0242886943,
+              "count": 27
+            },
+            "Local": {
+              "sum": 6512.200514161415,
+              "count": 10
+            },
+            "Consultorio": {
+              "sum": 250.0,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 9922.103386809269,
+              "count": 2
             }
           }
         },
@@ -3652,18 +4424,30 @@
     },
     "2024-W43": {
       "week": "2024-W43",
-      "total": 13,
+      "total": 24,
       "cities": {
         "Torreón": {
-          "total": 4,
+          "total": 15,
           "tipos_m2": {
             "Terreno": {
-              "sum": 3500.964566929134,
-              "count": 1
+              "sum": 3596.2466182111853,
+              "count": 4
             },
             "Bodega": {
               "sum": 106.86700922622578,
               "count": 3
+            },
+            "Local": {
+              "sum": 101381.57554211616,
+              "count": 6
+            },
+            "Oficina": {
+              "sum": 83.33333333333333,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 5925.925925925926,
+              "count": 1
             }
           }
         },
@@ -3697,14 +4481,18 @@
     },
     "2024-W42": {
       "week": "2024-W42",
-      "total": 3,
+      "total": 6,
       "cities": {
         "Torreón": {
-          "total": 3,
+          "total": 6,
           "tipos_m2": {
             "Bodega": {
-              "sum": 184.83412322274881,
-              "count": 3
+              "sum": 249.83412322274881,
+              "count": 4
+            },
+            "Oficina": {
+              "sum": 379.3224989946301,
+              "count": 2
             }
           }
         }
@@ -3712,14 +4500,26 @@
     },
     "2024-W41": {
       "week": "2024-W41",
-      "total": 19,
+      "total": 31,
       "cities": {
         "Torreón": {
-          "total": 4,
+          "total": 16,
           "tipos_m2": {
             "Bodega": {
-              "sum": 275.8571428571429,
-              "count": 4
+              "sum": 475.91399904443387,
+              "count": 7
+            },
+            "Local": {
+              "sum": 1689.9946034547975,
+              "count": 7
+            },
+            "Oficina": {
+              "sum": 658.3333333333334,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 65.0,
+              "count": 1
             }
           }
         },
@@ -3744,14 +4544,34 @@
     },
     "2024-W40": {
       "week": "2024-W40",
-      "total": 30,
+      "total": 47,
       "cities": {
         "Torreón": {
-          "total": 20,
+          "total": 37,
           "tipos_m2": {
             "Bodega": {
-              "sum": 1296.4285714285716,
-              "count": 20
+              "sum": 1618.9285714285716,
+              "count": 25
+            },
+            "Edificio": {
+              "sum": 17803.030303030304,
+              "count": 1
+            },
+            "Casa": {
+              "sum": 17542.016806722688,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 2472.824387701928,
+              "count": 1
+            },
+            "Local": {
+              "sum": 1005.2380952380952,
+              "count": 8
+            },
+            "Oficina": {
+              "sum": 42.780748663101605,
+              "count": 1
             }
           }
         },
@@ -3780,13 +4600,21 @@
     },
     "2024-W39": {
       "week": "2024-W39",
-      "total": 3,
+      "total": 13,
       "cities": {
         "Torreón": {
-          "total": 2,
+          "total": 12,
           "tipos_m2": {
             "Bodega": {
-              "sum": 128.0,
+              "sum": 494.19117370884504,
+              "count": 7
+            },
+            "Local": {
+              "sum": 434.8484848484849,
+              "count": 3
+            },
+            "Terreno": {
+              "sum": 960.4166666666666,
               "count": 2
             }
           }
@@ -3804,13 +4632,25 @@
     },
     "2024-W38": {
       "week": "2024-W38",
-      "total": 9,
+      "total": 13,
       "cities": {
         "Torreón": {
-          "total": 1,
+          "total": 5,
           "tipos_m2": {
             "Bodega": {
               "sum": 62.0,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 548.135426889107,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 16666.666666666668,
+              "count": 1
+            },
+            "Local": {
+              "sum": 9093.023255813954,
               "count": 1
             }
           }
@@ -3832,14 +4672,22 @@
     },
     "2024-W37": {
       "week": "2024-W37",
-      "total": 11,
+      "total": 15,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 10,
           "tipos_m2": {
             "Bodega": {
-              "sum": 420.0,
-              "count": 6
+              "sum": 485.0,
+              "count": 7
+            },
+            "Local": {
+              "sum": 446.9466423209576,
+              "count": 2
+            },
+            "Edificio": {
+              "sum": 20819.77878985036,
+              "count": 1
             }
           }
         },
@@ -3860,14 +4708,18 @@
     },
     "2024-W34": {
       "week": "2024-W34",
-      "total": 6,
+      "total": 8,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 8,
           "tipos_m2": {
             "Bodega": {
-              "sum": 420.0,
-              "count": 6
+              "sum": 4911.525423728814,
+              "count": 7
+            },
+            "Edificio": {
+              "sum": 16883.116883116883,
+              "count": 1
             }
           }
         }
@@ -3875,18 +4727,34 @@
     },
     "2024-W24": {
       "week": "2024-W24",
-      "total": 34,
+      "total": 56,
       "cities": {
         "Torreón": {
-          "total": 22,
+          "total": 44,
           "tipos_m2": {
             "Terreno": {
-              "sum": 2100.0,
-              "count": 6
+              "sum": 26099.552817353357,
+              "count": 12
             },
             "Nave": {
               "sum": 1303.7008149845617,
               "count": 16
+            },
+            "Bodega": {
+              "sum": 29719.018903237884,
+              "count": 7
+            },
+            "Local": {
+              "sum": 14979.913589945012,
+              "count": 5
+            },
+            "Edificio": {
+              "sum": 17569.546120058567,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 85599.17037037037,
+              "count": 3
             }
           }
         },
@@ -3920,18 +4788,34 @@
     },
     "2024-W23": {
       "week": "2024-W23",
-      "total": 26,
+      "total": 46,
       "cities": {
         "Torreón": {
-          "total": 8,
+          "total": 28,
           "tipos_m2": {
             "Nave": {
               "sum": 126.26126871226532,
               "count": 2
             },
             "Terreno": {
-              "sum": 5400.0,
-              "count": 6
+              "sum": 17570.18846096256,
+              "count": 12
+            },
+            "Oficina": {
+              "sum": 121.95121951219512,
+              "count": 1
+            },
+            "Casa": {
+              "sum": 2587.878787878788,
+              "count": 1
+            },
+            "Local": {
+              "sum": 6435.612211297888,
+              "count": 10
+            },
+            "Bodega": {
+              "sum": 155.0,
+              "count": 2
             }
           }
         },
@@ -3981,14 +4865,22 @@
     },
     "2024-W15": {
       "week": "2024-W15",
-      "total": 18,
+      "total": 23,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 11,
           "tipos_m2": {
             "Bodega": {
-              "sum": 420.0,
-              "count": 6
+              "sum": 482.0,
+              "count": 7
+            },
+            "Local": {
+              "sum": 16887.676230593057,
+              "count": 3
+            },
+            "Terreno": {
+              "sum": 3800.0,
+              "count": 1
             }
           }
         },
@@ -4024,14 +4916,22 @@
     },
     "2024-W02": {
       "week": "2024-W02",
-      "total": 10,
+      "total": 16,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 12,
           "tipos_m2": {
             "Bodega": {
-              "sum": 300.0,
-              "count": 6
+              "sum": 360.0,
+              "count": 7
+            },
+            "Local": {
+              "sum": 500.0,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 6002.257953568358,
+              "count": 4
             }
           }
         },
@@ -4048,14 +4948,22 @@
     },
     "2023-W30": {
       "week": "2023-W30",
-      "total": 8,
+      "total": 10,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 8,
           "tipos_m2": {
             "Bodega": {
               "sum": 360.0,
               "count": 6
+            },
+            "Local": {
+              "sum": 231.95876288659792,
+              "count": 1
+            },
+            "Oficina": {
+              "sum": 382.3529411764706,
+              "count": 1
             }
           }
         },
@@ -4087,14 +4995,22 @@
     },
     "2023-W28": {
       "week": "2023-W28",
-      "total": 19,
+      "total": 24,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 11,
           "tipos_m2": {
             "Bodega": {
               "sum": 27.499999999999996,
               "count": 6
+            },
+            "Local": {
+              "sum": 399.69242424242424,
+              "count": 3
+            },
+            "Terreno": {
+              "sum": 28.070067187714248,
+              "count": 2
             }
           }
         },
@@ -4115,14 +5031,26 @@
     },
     "2023-W20": {
       "week": "2023-W20",
-      "total": 10,
+      "total": 17,
       "cities": {
         "Torreón": {
-          "total": 6,
+          "total": 13,
           "tipos_m2": {
             "Nave": {
               "sum": 570.2127659574468,
               "count": 6
+            },
+            "Local": {
+              "sum": 15381.089661089662,
+              "count": 4
+            },
+            "Bodega": {
+              "sum": 72.45326764237068,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 10335.897435897436,
+              "count": 2
             }
           }
         },
@@ -4182,7 +5110,7 @@
     },
     "2025-W38": {
       "week": "2025-W38",
-      "total": 11,
+      "total": 23,
       "cities": {
         "Gómez Palacio": {
           "total": 7,
@@ -4198,10 +5126,18 @@
           }
         },
         "Torreón": {
-          "total": 4,
+          "total": 16,
           "tipos_m2": {
             "Bodega": {
-              "sum": 251.49532710280374,
+              "sum": 10475.807253708308,
+              "count": 9
+            },
+            "Oficina": {
+              "sum": 60138.50779967159,
+              "count": 3
+            },
+            "Local": {
+              "sum": 415.53608955066267,
               "count": 4
             }
           }
@@ -4210,7 +5146,7 @@
     },
     "2025-W21": {
       "week": "2025-W21",
-      "total": 20,
+      "total": 25,
       "cities": {
         "Gómez Palacio": {
           "total": 12,
@@ -4226,11 +5162,27 @@
           }
         },
         "Torreón": {
-          "total": 8,
+          "total": 13,
           "tipos_m2": {
             "Nave": {
               "sum": 27585.9375,
               "count": 8
+            },
+            "Local": {
+              "sum": 568.75,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 1282.4623276691248,
+              "count": 1
+            },
+            "Bodega": {
+              "sum": 75.0,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 687.5,
+              "count": 1
             }
           }
         }
@@ -4238,7 +5190,7 @@
     },
     "2024-W32": {
       "week": "2024-W32",
-      "total": 1,
+      "total": 7,
       "cities": {
         "Gómez Palacio": {
           "total": 1,
@@ -4248,12 +5200,25 @@
               "count": 1
             }
           }
+        },
+        "Torreón": {
+          "total": 6,
+          "tipos_m2": {
+            "Oficina": {
+              "sum": 175.0,
+              "count": 1
+            },
+            "Local": {
+              "sum": 1190.5304964539007,
+              "count": 5
+            }
+          }
         }
       }
     },
     "2024-W01": {
       "week": "2024-W01",
-      "total": 3,
+      "total": 16,
       "cities": {
         "Gómez Palacio": {
           "total": 3,
@@ -4261,6 +5226,27 @@
             "Terreno": {
               "sum": 1113.8888888888887,
               "count": 3
+            }
+          }
+        },
+        "Torreón": {
+          "total": 13,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 9952.32142857143,
+              "count": 7
+            },
+            "Local": {
+              "sum": 32388.294329152333,
+              "count": 3
+            },
+            "Bodega": {
+              "sum": 126.32656514382403,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 80.0,
+              "count": 1
             }
           }
         }
@@ -4283,7 +5269,7 @@
     },
     "2023-W45": {
       "week": "2023-W45",
-      "total": 4,
+      "total": 5,
       "cities": {
         "Gómez Palacio": {
           "total": 4,
@@ -4291,6 +5277,15 @@
             "Local": {
               "sum": 250.0,
               "count": 4
+            }
+          }
+        },
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 350.0,
+              "count": 1
             }
           }
         }
@@ -4313,7 +5308,7 @@
     },
     "2024-W35": {
       "week": "2024-W35",
-      "total": 4,
+      "total": 7,
       "cities": {
         "Gómez Palacio": {
           "total": 4,
@@ -4321,6 +5316,23 @@
             "Bodega": {
               "sum": 61855.67010309279,
               "count": 4
+            }
+          }
+        },
+        "Torreón": {
+          "total": 3,
+          "tipos_m2": {
+            "Local": {
+              "sum": 129.87012987012986,
+              "count": 1
+            },
+            "Bodega": {
+              "sum": 63.0,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 66000.0,
+              "count": 1
             }
           }
         }
@@ -4343,7 +5355,7 @@
     },
     "2024-W07": {
       "week": "2024-W07",
-      "total": 8,
+      "total": 11,
       "cities": {
         "Gómez Palacio": {
           "total": 8,
@@ -4351,6 +5363,19 @@
             "Bodega": {
               "sum": 92000.0,
               "count": 8
+            }
+          }
+        },
+        "Torreón": {
+          "total": 3,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 3500.0,
+              "count": 2
+            },
+            "Consultorio": {
+              "sum": 90.0,
+              "count": 1
             }
           }
         }
@@ -4396,7 +5421,7 @@
     },
     "2024-W36": {
       "week": "2024-W36",
-      "total": 1,
+      "total": 6,
       "cities": {
         "Matamoros": {
           "total": 1,
@@ -4404,6 +5429,15 @@
             "Terreno": {
               "sum": 334.19977720014856,
               "count": 1
+            }
+          }
+        },
+        "Torreón": {
+          "total": 5,
+          "tipos_m2": {
+            "Local": {
+              "sum": 357.0560224089636,
+              "count": 5
             }
           }
         }
@@ -4456,13 +5490,22 @@
     },
     "2023-W21": {
       "week": "2023-W21",
-      "total": 2,
+      "total": 4,
       "cities": {
         "Matamoros": {
           "total": 2,
           "tipos_m2": {
             "Terreno": {
               "sum": 390.0,
+              "count": 2
+            }
+          }
+        },
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Bodega": {
+              "sum": 187.1238095238095,
               "count": 2
             }
           }
@@ -4783,7 +5826,7 @@
     },
     "2022-W45": {
       "week": "2022-W45",
-      "total": 3,
+      "total": 7,
       "cities": {
         "Gómez Palacio": {
           "total": 3,
@@ -4791,6 +5834,27 @@
             "Terreno": {
               "sum": 1500.0,
               "count": 3
+            }
+          }
+        },
+        "Torreón": {
+          "total": 4,
+          "tipos_m2": {
+            "Local": {
+              "sum": 16666.666666666668,
+              "count": 1
+            },
+            "Bodega": {
+              "sum": 73.37526205450733,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 6030.701754385965,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 27.891409445890666,
+              "count": 1
             }
           }
         }
@@ -5242,6 +6306,400 @@
             },
             "Oficina": {
               "sum": 66.66666666666667,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2025-W17": {
+      "week": "2025-W17",
+      "total": 5,
+      "cities": {
+        "Torreón": {
+          "total": 5,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 7601.25768321513,
+              "count": 2
+            },
+            "Bodega": {
+              "sum": 75.0,
+              "count": 1
+            },
+            "Edificio": {
+              "sum": 74.6268656716418,
+              "count": 1
+            },
+            "Local": {
+              "sum": 222.22222222222223,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2025-W14": {
+      "week": "2025-W14",
+      "total": 10,
+      "cities": {
+        "Torreón": {
+          "total": 10,
+          "tipos_m2": {
+            "Local": {
+              "sum": 25264.619883040938,
+              "count": 4
+            },
+            "Casa": {
+              "sum": 18918.91891891892,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 100.0,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 935.3846153846154,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 5705.882352941177,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2024-W33": {
+      "week": "2024-W33",
+      "total": 5,
+      "cities": {
+        "Torreón": {
+          "total": 5,
+          "tipos_m2": {
+            "Local": {
+              "sum": 1010.8585858585859,
+              "count": 4
+            },
+            "Terreno": {
+              "sum": 35.0,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2024-W25": {
+      "week": "2024-W25",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Casa": {
+              "sum": 1661.0169491525423,
+              "count": 1
+            },
+            "Terreno": {
+              "sum": 4000.0,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2024-W22": {
+      "week": "2024-W22",
+      "total": 7,
+      "cities": {
+        "Torreón": {
+          "total": 7,
+          "tipos_m2": {
+            "Local": {
+              "sum": 19524.66852954534,
+              "count": 4
+            },
+            "Bodega": {
+              "sum": 61.0,
+              "count": 1
+            },
+            "Casa": {
+              "sum": 3205.5702917771882,
+              "count": 2
+            }
+          }
+        }
+      }
+    },
+    "2024-W17": {
+      "week": "2024-W17",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Bodega": {
+              "sum": 30.00409836065574,
+              "count": 1
+            },
+            "Local": {
+              "sum": 7142.857142857143,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2024-W14": {
+      "week": "2024-W14",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Oficina": {
+              "sum": 156.25,
+              "count": 1
+            },
+            "Bodega": {
+              "sum": 61.690140845070424,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2023-W51": {
+      "week": "2023-W51",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Local": {
+              "sum": 11538.461538461539,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2023-W38": {
+      "week": "2023-W38",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 3800.0,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2023-W37": {
+      "week": "2023-W37",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Edificio": {
+              "sum": 9649.122807017544,
+              "count": 1
+            },
+            "Consultorio": {
+              "sum": 10000.0,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2023-W36": {
+      "week": "2023-W36",
+      "total": 3,
+      "cities": {
+        "Torreón": {
+          "total": 3,
+          "tipos_m2": {
+            "Local": {
+              "sum": 312.6520681265207,
+              "count": 2
+            },
+            "Bodega": {
+              "sum": 63.0,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2023-W35": {
+      "week": "2023-W35",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Oficina": {
+              "sum": 198.11320754716982,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2023-W15": {
+      "week": "2023-W15",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Local": {
+              "sum": 9347.826086956522,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2023-W07": {
+      "week": "2023-W07",
+      "total": 3,
+      "cities": {
+        "Torreón": {
+          "total": 3,
+          "tipos_m2": {
+            "Local": {
+              "sum": 316.6666666666667,
+              "count": 3
+            }
+          }
+        }
+      }
+    },
+    "2022-W38": {
+      "week": "2022-W38",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Local": {
+              "sum": 312.5,
+              "count": 2
+            }
+          }
+        }
+      }
+    },
+    "2022-W37": {
+      "week": "2022-W37",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Local": {
+              "sum": 276.9159456118665,
+              "count": 2
+            }
+          }
+        }
+      }
+    },
+    "2022-W28": {
+      "week": "2022-W28",
+      "total": 3,
+      "cities": {
+        "Torreón": {
+          "total": 3,
+          "tipos_m2": {
+            "Consultorio": {
+              "sum": 98222.22222222222,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 37.5,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2022-W21": {
+      "week": "2022-W21",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 50.0,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2021-W29": {
+      "week": "2021-W29",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 21.48997134670487,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2020-W11": {
+      "week": "2020-W11",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Bodega": {
+              "sum": 113.86666666666667,
+              "count": 2
+            }
+          }
+        }
+      }
+    },
+    "2020-W02": {
+      "week": "2020-W02",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Local": {
+              "sum": 117.1875,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2019-W29": {
+      "week": "2019-W29",
+      "total": 1,
+      "cities": {
+        "Torreón": {
+          "total": 1,
+          "tipos_m2": {
+            "Edificio": {
+              "sum": 85.71428571428571,
               "count": 1
             }
           }
