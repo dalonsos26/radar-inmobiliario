@@ -287,17 +287,26 @@ def build_api_url(location: str, category: str, page: int) -> str:
 
 
 def fetch_one_stream(location: str, category: str, token: str, cookies: str) -> list:
+    # Nota: el pageCount de la API viene topado en 36, así que las páginas
+    # reales se calculan desde totalItems (bug corregido: truncaba Torreón
+    # Commercial de 2,971 a 1,296 propiedades).
     results, page, total_pages = [], 1, None
+    MAX_PAGES = 300  # tope de seguridad
     while True:
         url  = build_api_url(location, category, page)
         data = api_get(url, token, cookies)
         if not data or not data.get("success"):
             log(f"    ⚠ Respuesta inválida (pág {page})")
             break
-        items       = data["data"].get("items", [])
-        total_pages = total_pages or data["data"].get("pageCount", 1)
-        if page == 1:
-            log(f"    {data['data'].get('totalItems',0):,} items / {total_pages} páginas")
+        items = data["data"].get("items", [])
+        if total_pages is None:
+            total_items = data["data"].get("totalItems", 0)
+            reported    = data["data"].get("pageCount", 1)
+            computed    = max(1, -(-total_items // PAGE_SIZE))  # ceil
+            total_pages = min(max(reported, computed), MAX_PAGES)
+            log(f"    {total_items:,} items / {total_pages} páginas")
+        if not items:
+            break
         for item in items:
             results.append(normalize_item(item))
         if page >= total_pages:
