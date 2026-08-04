@@ -1,6 +1,46 @@
 {
   "delisted": [
     {
+      "id": "3fad29d2-543c-4df7-9fe9-019db60444d3",
+      "code": "NN-GXX007",
+      "title": "Bodega en Renta en Pequeña Zona Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "125,000 MXN Renta",
+      "precio_num": 125000.0,
+      "superficie": "2,000 m²",
+      "area_num": 2000.0,
+      "precio_m2": "$62.5/m²",
+      "pm2_num": 62.5,
+      "ubicacion": "Pequeña Zona Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Sofía Medinilla Bienes Raíces",
+      "fecha_publicacion": "2026-04-21",
+      "days_on_market": 45,
+      "link": "https://app.nocnok.com/crm/154940/properties/3fad29d2-543c-4df7-9fe9-019db60444d3",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260422103234-4685af8f24c64d0eac17bdf9cef058fcs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260422102801-2f7ea5e27646429facccd5533404f026s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260422102801-f866af972e034ae1a879deb59ad6da85s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-08-04",
+      "status": "delisted",
+      "delisted_at": "2026-08-04",
+      "days_listed": 64,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 125000.0,
+          "precio": "125,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "42a7d1d0-6daf-4204-b350-019db0f6471f",
       "code": "NN-GXV175",
       "title": "Bodega en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
@@ -36,45 +76,6 @@
           "date": "2026-06-01",
           "precio_num": 25000.0,
           "precio": "25,000 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "47d2855f-29ae-45b6-b898-019691981b07",
-      "code": "MX25-OH10029",
-      "title": "Lotes Comerciales En Venta",
-      "categoria": "Comercial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "7,420,500 MXN Venta",
-      "precio_num": 7420500.0,
-      "superficie": "1,649 m²",
-      "area_num": 1649.0,
-      "precio_m2": "$4,500/m²",
-      "pm2_num": 4500.0,
-      "ubicacion": "La Partida, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Revot Inmobiliaria",
-      "fecha_publicacion": "2026-03-25",
-      "days_on_market": 130,
-      "link": "https://app.nocnok.com/crm/154940/properties/47d2855f-29ae-45b6-b898-019691981b07",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250502092321-db9e98f3d4c84610af91bff5da7878f6s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250502092321-291cf517ce764e0db749f15b04e15dbds.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-08-03",
-      "status": "delisted",
-      "delisted_at": "2026-08-04",
-      "days_listed": 64,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 7420500.0,
-          "precio": "7,420,500 MXN Venta"
         }
       ],
       "delisted_reason": "sold"
@@ -473,6 +474,46 @@
           "date": "2026-06-01",
           "precio_num": 580000.0,
           "precio": "580,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "ee7f76de-ceec-46d0-8c42-019393696744",
+      "code": "MX24-JU2370",
+      "title": "Nave en Venta en Anna, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "17,500,000 MXN Venta",
+      "precio_num": 17500000.0,
+      "superficie": "2,560 m²",
+      "area_num": 2560.0,
+      "precio_m2": "$6,836/m²",
+      "pm2_num": 6835.94,
+      "ubicacion": "Anna, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "TITANIUM ASESORES",
+      "fecha_publicacion": "2024-12-03",
+      "days_on_market": 608,
+      "link": "https://app.nocnok.com/crm/154940/properties/ee7f76de-ceec-46d0-8c42-019393696744",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-241204144355-0708ee85a16544ab85f7ec07b9479430s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-241204144409-f208e03140df4c09b33cee201efa9f5cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250120140710-d70e9b04d3944b10997cb3611cfe5f4as.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-08-04",
+      "status": "delisted",
+      "delisted_at": "2026-08-04",
+      "days_listed": 64,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 17500000.0,
+          "precio": "17,500,000 MXN Venta"
         }
       ],
       "delisted_reason": "sold"

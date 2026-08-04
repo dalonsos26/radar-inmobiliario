@@ -25639,9 +25639,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-08-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 19,
+      "status": "delisted",
+      "delisted_at": "2026-08-04",
+      "days_listed": 64,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -25649,7 +25649,7 @@
           "precio": "125,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "e5085447-4a0f-47d7-ab64-019db62e6dea": {
       "id": "e5085447-4a0f-47d7-ab64-019db62e6dea",
@@ -37481,16 +37481,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Revot Inmobiliaria",
       "fecha_publicacion": "2026-03-25",
-      "days_on_market": 130,
+      "days_on_market": 131,
       "link": "https://app.nocnok.com/crm/154940/properties/47d2855f-29ae-45b6-b898-019691981b07",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250502092321-db9e98f3d4c84610af91bff5da7878f6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250502092321-291cf517ce764e0db749f15b04e15dbds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-08-03",
-      "status": "delisted",
-      "delisted_at": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 64,
       "precio_history": [
         {
@@ -37499,7 +37499,7 @@
           "precio": "7,420,500 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "a7a6b808-8603-4a47-ac9e-019988492288": {
       "id": "a7a6b808-8603-4a47-ac9e-019988492288",
@@ -77643,9 +77643,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-08-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-08-04",
+      "days_listed": 64,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -77653,7 +77653,7 @@
           "precio": "17,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "1a7691fd-1113-4ee3-839f-018b279c5342": {
       "id": "1a7691fd-1113-4ee3-839f-018b279c5342",
@@ -146427,12 +146427,12 @@
       "tipo": "Terreno",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "28,000 MXN Renta",
-      "precio_num": 28000.0,
+      "precio": "30,000 MXN Renta",
+      "precio_num": 30000.0,
       "superficie": "800 m²",
       "area_num": 800.0,
-      "precio_m2": "$35.0/m²",
-      "pm2_num": 35.0,
+      "precio_m2": "$37.5/m²",
+      "pm2_num": 37.5,
       "ubicacion": "Villas Diamante, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -150311,6 +150311,45 @@
           "date": "2026-08-04",
           "precio_num": 20000.0,
           "precio": "20,000 MXN Renta"
+        }
+      ]
+    },
+    "e9422cdc-c370-4b75-bb18-019fcdc3322d": {
+      "id": "e9422cdc-c370-4b75-bb18-019fcdc3322d",
+      "code": "NN-HDF369",
+      "title": "BODEGA INDUSTRIAL EN RENTA",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "408,960 MXN Renta",
+      "precio_num": 408960.0,
+      "superficie": "5,112 m²",
+      "area_num": 5112.0,
+      "precio_m2": "$80.0/m²",
+      "pm2_num": 80.0,
+      "ubicacion": "Mieleras, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ORDUÑA Y ASOCIADOS",
+      "fecha_publicacion": "2026-08-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/e9422cdc-c370-4b75-bb18-019fcdc3322d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260804111246-fc2aed2d9c0440d28157ae4ecdadde09s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260804111246-41530b5710774ecabf3801de12e526efs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260804111246-e33821a9e3754022b915b30b8a2b5e91s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 408960.0,
+          "precio": "408,960 MXN Renta"
         }
       ]
     }
