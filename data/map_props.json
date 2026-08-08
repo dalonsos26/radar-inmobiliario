@@ -1034,7 +1034,7 @@
     ],
     "lat": 25.5330669,
     "lng": -103.3752735,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "da9642d5-2c97-4c0b-b4fa-018b293c22b4",
@@ -1994,8 +1994,8 @@
     "tipo": "Terreno",
     "municipio": "Torreón",
     "superficie": "386 m²",
-    "precio": "1,285,380 MXN Venta",
-    "precio_m2": "$3,330/m²",
+    "precio": "1,544,000 MXN Venta",
+    "precio_m2": "$4,000/m²",
     "op_key": "venta",
     "link": "https://app.nocnok.com/crm/154940/properties/b5f53994-3942-4b5c-b4a4-0197fb97ad12",
     "fotos_local": [
