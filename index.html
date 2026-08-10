@@ -673,29 +673,59 @@ var DELISTED    = [];
 var PRICE_DROPS = [];
 var MAP_PROPS   = [];
 
-// ── Nuevas por usuario (verde hasta que este navegador las vea) ───────────────
-var SEEN_KEY = 'seen_props_v1';
+// ── Nuevas por usuario (verde hasta que la tarjeta pase por la pantalla) ──────
+var SEEN_KEY = 'seen_props_v2';
+var _seenSet = null, _seenSaveT = null, _seenObserver = null;
+function seenSave() {
+  if (_seenSaveT) clearTimeout(_seenSaveT);
+  _seenSaveT = setTimeout(function() {
+    localStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(_seenSet)));
+  }, 800);
+}
 function markUnseenCards() {
   var stored = null;
   try { stored = JSON.parse(localStorage.getItem(SEEN_KEY)); } catch(e) {}
   var firstVisit = !Array.isArray(stored);
-  var seenSet = new Set(stored || []);
   var cards = document.querySelectorAll('#grid .card');
   var currentIds = [];
+  cards.forEach(function(c) { currentIds.push(c.dataset.id); });
+
+  if (firstVisit) {
+    // Primera visita con este sistema: partir de lo actual como visto,
+    // dejando en verde solo las nuevas del scraper
+    _seenSet = new Set(currentIds.filter(function(id, i) {
+      return cards[i].dataset.new !== '1';
+    }));
+  } else {
+    // Podar ids que ya no existen en el catálogo para que no crezca infinito
+    var cur = new Set(currentIds);
+    _seenSet = new Set(stored.filter(function(id) { return cur.has(id); }));
+  }
+  localStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(_seenSet)));
+
+  // Observador: una tarjeta cuenta como vista solo cuando el 60% de ella
+  // estuvo en pantalla — así el verde persiste días y corridas del scraper
+  if (_seenObserver) _seenObserver.disconnect();
+  _seenObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(en) {
+      if (!en.isIntersecting) return;
+      var id = en.target.dataset.id;
+      if (id && !_seenSet.has(id)) { _seenSet.add(id); seenSave(); }
+      _seenObserver.unobserve(en.target);
+    });
+  }, { threshold: 0.6 });
+
   cards.forEach(function(c) {
     var id = c.dataset.id;
-    currentIds.push(id);
-    // Primera visita: solo las nuevas del scraper; después: todo lo no visto por este usuario
-    var unseen = firstVisit ? c.dataset.new === '1' : !seenSet.has(id);
+    var unseen = !_seenSet.has(id);
     c.dataset.new = unseen ? '1' : '0';
     c.classList.toggle('new', unseen);
     var badges = c.querySelector('.card-badges');
     var badge = badges && badges.querySelector('.badge-new');
     if (unseen && badges && !badge) badges.insertAdjacentHTML('afterbegin', '<span class="badge-new">★ NUEVA</span>');
     if (!unseen && badge) badge.remove();
+    if (unseen) _seenObserver.observe(c); // el verde se queda hasta que la veas de verdad
   });
-  // Al cargar quedan registradas como vistas: el verde dura esta sesión y desaparece en la próxima
-  localStorage.setItem(SEEN_KEY, JSON.stringify(currentIds));
 }
 
 // ── Card builder & dynamic data ─────────────────────────────────────────────
