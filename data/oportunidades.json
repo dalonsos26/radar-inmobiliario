@@ -132,6 +132,46 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "d01bb2e2-d09a-437f-adc6-019db188ebbc",
+      "code": "NN-GXV451",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "8,000 MXN Renta",
+      "precio_num": 8000.0,
+      "superficie": "42 m²",
+      "area_num": 42.0,
+      "precio_m2": "$190.5/m²",
+      "pm2_num": 190.48,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Kali Bienes Raíces",
+      "fecha_publicacion": "2026-04-20",
+      "days_on_market": 113,
+      "link": "https://app.nocnok.com/crm/154940/properties/d01bb2e2-d09a-437f-adc6-019db188ebbc",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260421133416-86f26a9378fc402fb705f709119c04c1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260421133435-199e236af8ea4e98961ff97b1504315ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260421133435-49004e2b048949f8b329015c4f2218c8s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-08-12",
+      "status": "delisted",
+      "delisted_at": "2026-08-12",
+      "days_listed": 72,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 8000.0,
+          "precio": "8,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "6fe07e5c-f84b-4b37-9b55-019a4ade7ded",
       "code": "NN-SW1000617",
       "title": "BODEGA EN VENTA EN LA COL. NAVARRO, TORREÓN, COH.",
@@ -366,6 +406,46 @@
           "date": "2026-08-04",
           "precio_num": 12000.0,
           "precio": "12,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "b688ba7d-3bd8-4b11-af56-019b38c4833b",
+      "code": "NN-NE1000160",
+      "title": "Casa con terreno en esquina en venta sobre Av. Bravo – Uso de suelo mixto con alto flujo vehicular",
+      "categoria": "Comercial",
+      "tipo": "Casa",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "2,680,000 MXN Venta",
+      "precio_num": 2680000.0,
+      "superficie": "150 m²",
+      "area_num": 150.0,
+      "precio_m2": "$17,867/m²",
+      "pm2_num": 17866.67,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Blokxy Propiedades",
+      "fecha_publicacion": "2025-12-31",
+      "days_on_market": 224,
+      "link": "https://app.nocnok.com/crm/154940/properties/b688ba7d-3bd8-4b11-af56-019b38c4833b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-251219170046-68730f62c9584b38bdf235f433bfd3f6s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251219170134-aee558e531c34b40aff2224dac2f043es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251219170135-f90a24bc3b4c4b0697db5cbce12b35b0s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-08-12",
+      "status": "delisted",
+      "delisted_at": "2026-08-12",
+      "days_listed": 8,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 2680000.0,
+          "precio": "2,680,000 MXN Venta"
         }
       ],
       "delisted_reason": "sold"

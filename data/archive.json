@@ -25207,9 +25207,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-08-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-08-12",
+      "days_listed": 72,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -25217,7 +25217,7 @@
           "precio": "42,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "04b5e5af-496d-4960-8adc-019bfd2f4cc6": {
       "id": "04b5e5af-496d-4960-8adc-019bfd2f4cc6",
@@ -25247,9 +25247,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-08-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-08-12",
+      "days_listed": 72,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -25257,7 +25257,7 @@
           "precio": "19,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "251e633a-9625-4d84-aa60-019db73cfbb8": {
       "id": "251e633a-9625-4d84-aa60-019db73cfbb8",
@@ -26128,9 +26128,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-08-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-08-12",
+      "days_listed": 72,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -26138,7 +26138,7 @@
           "precio": "8,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "62ac41ac-1424-4484-bff1-019db203a07b": {
       "id": "62ac41ac-1424-4484-bff1-019db203a07b",
@@ -158733,16 +158733,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-08-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-08-12",
+      "days_listed": 8,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 2680000.0,
           "precio": "2,680,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "40e2f58a-644e-429a-9b05-019b7071e1dd": {
       "id": "40e2f58a-644e-429a-9b05-019b7071e1dd",
@@ -205677,6 +205678,123 @@
           "date": "2026-08-12",
           "precio_num": 15392.0,
           "precio": "15,392 USD Renta"
+        }
+      ]
+    },
+    "2d27d84b-83b6-43b4-9d69-019ff6c4106b": {
+      "id": "2d27d84b-83b6-43b4-9d69-019ff6c4106b",
+      "code": "NN-HDP167",
+      "title": "NAVE INDUSTRIAL ZONA INDUSTRIAL TORREON",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "87,500 MXN Renta",
+      "precio_num": 87500.0,
+      "superficie": "1,680 m²",
+      "area_num": 1680.0,
+      "precio_m2": "$52.1/m²",
+      "pm2_num": 52.08,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-08-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/2d27d84b-83b6-43b4-9d69-019ff6c4106b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260812101913-f5cb52f00bcb44f79d7bbeb7ec40b762s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812101913-39d4e372f7014f5f8d6700e295a01443s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812101913-8450cbb5242241faa0a1307215087e4es.webp"
+      ],
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-08-12",
+          "precio_num": 87500.0,
+          "precio": "87,500 MXN Renta"
+        }
+      ]
+    },
+    "cdb8e12c-93a5-445a-a1fc-019ff6c875e8": {
+      "id": "cdb8e12c-93a5-445a-a1fc-019ff6c875e8",
+      "code": "NN-HDP169",
+      "title": "BODEGA INDUSTRIAL ZONA INDUSTRIAL TORREON",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "19,700,000 MXN Venta",
+      "precio_num": 19700000.0,
+      "superficie": "1,680 m²",
+      "area_num": 1680.0,
+      "precio_m2": "$11,726/m²",
+      "pm2_num": 11726.19,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-08-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/cdb8e12c-93a5-445a-a1fc-019ff6c875e8",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260812102254-5661733c2f8a44abaf30349e8d8c9f11s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812102254-ddd8c6218e49496089c2cbfb7274e8f5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812102254-437ca64f9cdd42538d92526d172a82c5s.webp"
+      ],
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-08-12",
+          "precio_num": 19700000.0,
+          "precio": "19,700,000 MXN Venta"
+        }
+      ]
+    },
+    "5494b014-7276-45ac-9de4-019ff6cae3fc": {
+      "id": "5494b014-7276-45ac-9de4-019ff6cae3fc",
+      "code": "NN-HDP170",
+      "title": "NAVE INDUSTRIAL ZONA INDUSTRIAL TORREON",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "19,700,000 MXN Venta",
+      "precio_num": 19700000.0,
+      "superficie": "1,680 m²",
+      "area_num": 1680.0,
+      "precio_m2": "$11,726/m²",
+      "pm2_num": 11726.19,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-08-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/5494b014-7276-45ac-9de4-019ff6cae3fc",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260812102534-1b90e64474db46caa9f29e34108e9924s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812102534-21b4710f66374528b9fcaf82398a3941s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812102534-d16d422771fc432eaea9232b8cad328es.webp"
+      ],
+      "first_seen": "2026-08-12",
+      "last_seen": "2026-08-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-08-12",
+          "precio_num": 19700000.0,
+          "precio": "19,700,000 MXN Venta"
         }
       ]
     }
