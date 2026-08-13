@@ -6725,31 +6725,35 @@
     },
     "2026-W33": {
       "week": "2026-W33",
-      "total": 22,
+      "total": 31,
       "cities": {
         "Torreón": {
-          "total": 19,
+          "total": 27,
           "tipos_m2": {
             "Nave": {
-              "sum": 11799.264183966394,
-              "count": 8
+              "sum": 11849.743739746304,
+              "count": 9
             },
             "Terreno": {
-              "sum": 27250.75691402488,
-              "count": 6
+              "sum": 38691.10811482172,
+              "count": 8
             },
             "Local": {
-              "sum": 187.5,
-              "count": 1
+              "sum": 396.875,
+              "count": 3
             },
             "Bodega": {
-              "sum": 24359.52380952381,
-              "count": 4
+              "sum": 33028.1746031746,
+              "count": 6
+            },
+            "Consultorio": {
+              "sum": 28650.963597430407,
+              "count": 1
             }
           }
         },
         "Gómez Palacio": {
-          "total": 3,
+          "total": 4,
           "tipos_m2": {
             "Terreno": {
               "sum": 3000.0,
@@ -6758,6 +6762,10 @@
             "Nave": {
               "sum": 13.992896944711806,
               "count": 2
+            },
+            "Bodega": {
+              "sum": 6764.705882352941,
+              "count": 1
             }
           }
         }
