@@ -427,14 +427,14 @@
     },
     "2026-W17": {
       "week": "2026-W17",
-      "total": 316,
+      "total": 317,
       "cities": {
         "Torreón": {
-          "total": 285,
+          "total": 286,
           "tipos_m2": {
             "Bodega": {
-              "sum": 163743.34878414,
-              "count": 91
+              "sum": 163782.01545080665,
+              "count": 92
             },
             "Local": {
               "sum": 227617.45025978226,
@@ -6725,26 +6725,26 @@
     },
     "2026-W33": {
       "week": "2026-W33",
-      "total": 45,
+      "total": 53,
       "cities": {
         "Torreón": {
-          "total": 39,
+          "total": 46,
           "tipos_m2": {
             "Nave": {
-              "sum": 11849.743739746304,
-              "count": 9
+              "sum": 24217.234905824043,
+              "count": 10
             },
             "Terreno": {
               "sum": 55530.46498857286,
               "count": 12
             },
             "Local": {
-              "sum": 622.947607260726,
-              "count": 5
+              "sum": 885.8047501178689,
+              "count": 6
             },
             "Bodega": {
-              "sum": 42591.50793650794,
-              "count": 9
+              "sum": 55115.76993591901,
+              "count": 13
             },
             "Consultorio": {
               "sum": 45317.630264097075,
@@ -6757,19 +6757,23 @@
             "Edificio": {
               "sum": 19469.026548672566,
               "count": 1
+            },
+            "Oficina": {
+              "sum": 187.5,
+              "count": 1
             }
           }
         },
         "Gómez Palacio": {
-          "total": 5,
+          "total": 6,
           "tipos_m2": {
             "Terreno": {
               "sum": 3000.0,
               "count": 1
             },
             "Nave": {
-              "sum": 13.992896944711806,
-              "count": 2
+              "sum": 107.45084086994545,
+              "count": 3
             },
             "Bodega": {
               "sum": 6764.705882352941,
