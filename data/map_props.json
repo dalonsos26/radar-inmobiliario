@@ -1000,7 +1000,7 @@
     ],
     "lat": 25.5752622,
     "lng": -103.4335239,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "d0449037-fae9-42d5-b73a-019e667997a2",
@@ -1017,7 +1017,7 @@
     ],
     "lat": 25.5491255,
     "lng": -103.4473793,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "32e0fc74-c7c9-42d5-88ed-019e655cc1a0",
@@ -1085,7 +1085,7 @@
     ],
     "lat": 25.4872544,
     "lng": -103.3419495,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "c6f6c6e7-4d3d-4216-aaba-01920caa9185",
@@ -1136,7 +1136,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "31fe5987-8ed9-4bea-9eb3-019e5fe0c5ed",
@@ -1867,7 +1867,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "ad664e9b-ce7a-4786-bba6-019e4c32fe34",
@@ -1952,7 +1952,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "ca3ecd79-9b01-471e-b37e-019e4bc02e5c",
@@ -2139,7 +2139,7 @@
     ],
     "lat": 25.5374733,
     "lng": -103.4608878,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "3381e13a-6e28-45df-8a1c-019df53dc55e",
@@ -2275,7 +2275,7 @@
     ],
     "lat": 25.5752622,
     "lng": -103.4335239,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "305bf7e7-6b86-4051-adcf-019e469f12a0",
@@ -2292,7 +2292,7 @@
     ],
     "lat": 25.5846293,
     "lng": -103.371814,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1fa4d615-fbda-410d-98e1-019e46a70239",
@@ -2309,7 +2309,7 @@
     ],
     "lat": 25.60179,
     "lng": -103.3806448,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1203a8a0-ceee-4f3f-83ad-019e46d10205",
@@ -2513,7 +2513,7 @@
     ],
     "lat": 25.5498144,
     "lng": -103.366187,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "a091a1c8-e3a2-4f4a-aee7-019e409d807d",
@@ -2530,7 +2530,7 @@
     ],
     "lat": 25.5498144,
     "lng": -103.366187,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "5a40642c-5e4c-49b1-9ba1-019c19c21480",
