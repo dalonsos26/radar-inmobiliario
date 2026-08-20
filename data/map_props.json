@@ -82,7 +82,7 @@
     ],
     "lat": 25.5236037,
     "lng": -103.3315284,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "a5074fdf-99f1-447d-a6a5-019ac1713dee",
@@ -787,8 +787,8 @@
     "tipo": "Bodega",
     "municipio": "Torreón",
     "superficie": "132 m²",
-    "precio": "12,800 MXN Renta",
-    "precio_m2": "$97.0/m²",
+    "precio": "15,000 MXN Renta",
+    "precio_m2": "$113.6/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/9357907c-f4ce-46cb-8214-019e6b6dd4f7",
     "fotos_local": [
@@ -2870,6 +2870,6 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "delisted"
+    "status": "active"
   }
 ]
