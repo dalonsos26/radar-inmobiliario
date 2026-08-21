@@ -6798,10 +6798,10 @@
     },
     "2026-W34": {
       "week": "2026-W34",
-      "total": 37,
+      "total": 47,
       "cities": {
         "Torreón": {
-          "total": 33,
+          "total": 41,
           "tipos_m2": {
             "Terreno": {
               "sum": 28960.6707403813,
@@ -6812,29 +6812,41 @@
               "count": 2
             },
             "Bodega": {
-              "sum": 8344.042890915232,
-              "count": 17
+              "sum": 25558.581660968706,
+              "count": 22
             },
             "Casa": {
               "sum": 69.56521739130434,
               "count": 1
             },
             "Local": {
-              "sum": 1284.2281669807185,
-              "count": 5
+              "sum": 1479.2281669807185,
+              "count": 6
+            },
+            "Oficina": {
+              "sum": 12162.162162162162,
+              "count": 1
+            },
+            "Finca-Rancho": {
+              "sum": 47.16981132075472,
+              "count": 1
             }
           }
         },
         "Gómez Palacio": {
-          "total": 4,
+          "total": 6,
           "tipos_m2": {
             "Local": {
               "sum": 9289.967637540452,
               "count": 2
             },
             "Bodega": {
-              "sum": 126.66666666666667,
-              "count": 2
+              "sum": 8191.1827956989255,
+              "count": 3
+            },
+            "Terreno": {
+              "sum": 1083.3333333333333,
+              "count": 1
             }
           }
         }
