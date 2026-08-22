@@ -473,7 +473,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1e7f2fe3-fc83-47f1-9a82-019e70b98564",
@@ -490,7 +490,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "6f68fb38-292c-4efb-bb81-019d5f6204c3",
@@ -847,7 +847,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "1a87f188-e68d-4a1d-890c-019e6b259ae6",
@@ -864,7 +864,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "a5b1d788-bc70-471e-b54a-019e6aedf98c",
@@ -919,7 +919,7 @@
   },
   {
     "id": "d0de863d-29d0-4e0f-b0eb-0196031beb2b",
-    "title": "OFICINA EN RENTA EN PLANTA ALTA",
+    "title": "Oficina en Renta en Torreon Jardin, Torreón, Coahuila de Zaragoza",
     "tipo": "Oficina",
     "municipio": "Torreón",
     "superficie": "125 m²",
@@ -1068,7 +1068,7 @@
     ],
     "lat": 25.5724766,
     "lng": -103.447842,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "2fc042ce-d9f5-48e7-8733-019e6032e879",
@@ -1085,7 +1085,7 @@
     ],
     "lat": 25.4872544,
     "lng": -103.3419495,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "c6f6c6e7-4d3d-4216-aaba-01920caa9185",
@@ -2275,7 +2275,7 @@
     ],
     "lat": 25.5752622,
     "lng": -103.4335239,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "305bf7e7-6b86-4051-adcf-019e469f12a0",
@@ -2292,7 +2292,7 @@
     ],
     "lat": 25.5846293,
     "lng": -103.371814,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "1fa4d615-fbda-410d-98e1-019e46a70239",
@@ -2309,7 +2309,7 @@
     ],
     "lat": 25.60179,
     "lng": -103.3806448,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "1203a8a0-ceee-4f3f-83ad-019e46d10205",
@@ -2360,7 +2360,7 @@
     ],
     "lat": 25.2684398,
     "lng": -103.498528,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "49fe40e9-d9f2-4b3b-9d42-019a7ae2079e",
@@ -2377,7 +2377,7 @@
     ],
     "lat": 25.5752622,
     "lng": -103.4335239,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "215f75e8-1d8a-4125-84da-0196667e5fab",
@@ -2394,7 +2394,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
@@ -2462,7 +2462,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "febdeb8a-4ed4-4cbd-bc16-019cdec74a83",
@@ -2496,7 +2496,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "e6c848b8-75a5-4d82-8435-019e40986d8a",
@@ -2581,7 +2581,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "68744fa0-8f62-448a-b94d-019c269f3b6d",
@@ -2598,7 +2598,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "56bcf5bb-5445-4513-a83d-019db38c626f",
