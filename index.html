@@ -703,15 +703,34 @@ function markUnseenCards() {
   }
   localStorage.setItem(SEEN_KEY, JSON.stringify(Array.from(_seenSet)));
 
-  // Observador: una tarjeta cuenta como vista solo cuando el 60% de ella
-  // estuvo en pantalla — así el verde persiste días y corridas del scraper
+  // Observador: una tarjeta cuenta como vista solo si estuvo 2 segundos
+  // continuos en pantalla CON la pestaña activa. Sin esto, las nuevas (que
+  // van al tope de la lista) se marcaban solas al cargar la página aunque
+  // nadie las estuviera mirando.
   if (_seenObserver) _seenObserver.disconnect();
+  var _seenPending = {};
+  function seenCancelAll() {
+    Object.keys(_seenPending).forEach(function(id) { clearTimeout(_seenPending[id]); delete _seenPending[id]; });
+  }
+  document.addEventListener('visibilitychange', function() {
+    if (document.visibilityState !== 'visible') seenCancelAll();
+  });
   _seenObserver = new IntersectionObserver(function(entries) {
     entries.forEach(function(en) {
-      if (!en.isIntersecting) return;
-      var id = en.target.dataset.id;
-      if (id && !_seenSet.has(id)) { _seenSet.add(id); seenSave(); }
-      _seenObserver.unobserve(en.target);
+      var el = en.target, id = el.dataset.id;
+      if (!id || _seenSet.has(id)) { _seenObserver.unobserve(el); return; }
+      if (en.isIntersecting && document.visibilityState === 'visible') {
+        if (_seenPending[id]) return;
+        _seenPending[id] = setTimeout(function() {
+          delete _seenPending[id];
+          _seenSet.add(id);
+          seenSave();
+          _seenObserver.unobserve(el);
+        }, 2000);
+      } else if (_seenPending[id]) {
+        clearTimeout(_seenPending[id]);
+        delete _seenPending[id];
+      }
     });
   }, { threshold: 0.6 });
 
