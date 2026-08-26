@@ -3552,10 +3552,13 @@ function _renderCompTab() {
     var on = si >= 0;
     var col = on ? COMP_COLORS[si%COMP_COLORS.length] : '#d1d5db';
     var icon = s.mode==='foot-walking'?'🚶':s.mode==='cycling-regular'?'🚲':'🚗';
+    var empty = !(s.rings||[]).some(function(r){ return (r.stats||{}).poblacion > 0; });
     hdr += '<span onclick="toggleCompZone('+s.id+')" style="cursor:pointer;display:inline-flex;align-items:center;gap:.3rem;background:var(--surface);border:1.5px solid '+col+
            ';border-radius:20px;padding:.2rem .5rem .2rem .6rem;font-size:.75rem;font-weight:600;opacity:'+(on?'1':'.55')+'">' +
            '<span style="width:10px;height:10px;border-radius:50%;background:'+col+';flex-shrink:0"></span>'+
-           esc(s.name)+' <span style="color:var(--muted);font-weight:400">'+icon+' '+esc((s.address||'').split(',')[0])+'</span>'+
+           esc(s.name)+
+           (empty ? ' <span title="Guardada sin datos: recalcula la isócrona y vuelve a guardarla" style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">⚠ RECALCULAR</span>' : '')+
+           ' <span style="color:var(--muted);font-weight:400">'+icon+' '+esc((s.address||'').split(',')[0])+'</span>'+
            '<button onclick="event.stopPropagation();isoDeleteSaved('+s.id+')" title="Eliminar zona" style="margin-left:.2rem;background:none;border:none;cursor:pointer;color:var(--muted);font-size:.8rem;padding:0 .1rem;line-height:1;border-radius:50%" onmouseover="this.style.color=\'#dc2626\'" onmouseout="this.style.color=\'var(--muted)\'">✕</button></span>';
   });
   hdr += '</div>';
