@@ -6858,46 +6858,71 @@
     },
     "2026-W35": {
       "week": "2026-W35",
-      "total": 14,
+      "total": 65,
       "cities": {
         "Torreón": {
-          "total": 9,
+          "total": 50,
           "tipos_m2": {
             "Casa": {
               "sum": 5882.35294117647,
               "count": 1
             },
             "Oficina": {
-              "sum": 151.78571428571428,
-              "count": 1
+              "sum": 14677.951530612243,
+              "count": 4
             },
             "Consultorio": {
               "sum": 29035.699897575967,
               "count": 3
             },
             "Local": {
-              "sum": 28900.699897575967,
-              "count": 3
+              "sum": 30143.061251561277,
+              "count": 11
             },
             "Bodega": {
-              "sum": 12500.0,
+              "sum": 19694.42885657257,
+              "count": 9
+            },
+            "Terreno": {
+              "sum": 50161.42233856894,
+              "count": 19
+            },
+            "Edificio": {
+              "sum": 304.49319877139095,
+              "count": 2
+            },
+            "Nave": {
+              "sum": 0.05263157894736842,
               "count": 1
             }
           }
         },
         "Gómez Palacio": {
-          "total": 5,
+          "total": 14,
           "tipos_m2": {
             "Oficina": {
               "sum": 253.05263157894737,
               "count": 2
             },
             "Bodega": {
-              "sum": 25000.0,
-              "count": 2
+              "sum": 25115.0,
+              "count": 4
             },
             "Nave": {
-              "sum": 68.18181818181819,
+              "sum": 8363.96223604335,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 4618.200431034483,
+              "count": 6
+            }
+          }
+        },
+        "Matamoros": {
+          "total": 1,
+          "tipos_m2": {
+            "Terreno": {
+              "sum": 350.0054746685606,
               "count": 1
             }
           }
