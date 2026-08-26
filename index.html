@@ -2995,10 +2995,32 @@ function isoIntersects(isoFeature, agebFeature) {
   }
 
   var agRings = agebRings(agebGeom);
-  for (var ai = 0; ai < agRings.length; ai++) {
+  var ai, ii, k;
+
+  // 1) Centro del AGEB dentro de la isócrona (AGEB chico dentro de anillo grande)
+  for (ai = 0; ai < agRings.length; ai++) {
     var centroid = isoCentroid(agRings[ai]);
-    for (var ii = 0; ii < isoRings.length; ii++) {
+    for (ii = 0; ii < isoRings.length; ii++) {
       if (isoPolyContains(isoRings[ii], centroid)) return true;
+    }
+  }
+  // 2) Vértice de la isócrona dentro del AGEB (anillo chico — p.ej. 5 min a pie —
+  //    dentro de un AGEB grande; antes este caso regresaba 0 datos)
+  for (ii = 0; ii < isoRings.length; ii++) {
+    var outer = isoRings[ii][0] || [];
+    var step = Math.max(1, Math.floor(outer.length / 30));
+    for (k = 0; k < outer.length; k += step) {
+      if (pointInPolygon(outer[k], agebGeom)) return true;
+    }
+  }
+  // 3) Vértice del AGEB dentro de la isócrona (traslapes parciales de orilla)
+  for (ai = 0; ai < agRings.length; ai++) {
+    var aouter = agRings[ai][0] || [];
+    var astep = Math.max(1, Math.floor(aouter.length / 30));
+    for (k = 0; k < aouter.length; k += astep) {
+      for (ii = 0; ii < isoRings.length; ii++) {
+        if (isoPolyContains(isoRings[ii], aouter[k])) return true;
+      }
     }
   }
   return false;
