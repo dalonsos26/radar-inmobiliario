@@ -447,8 +447,8 @@
     "tipo": "Terreno",
     "municipio": "Torreón",
     "superficie": "219 m²",
-    "precio": "5,500 MXN Renta",
-    "precio_m2": "$25.1/m²",
+    "precio": "5,000 MXN Renta",
+    "precio_m2": "$22.8/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/024e237a-f60a-43a3-9410-019e7500a684",
     "fotos_local": [
@@ -1306,7 +1306,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "504eb852-c3de-4108-ab35-019e5c6f370e",
