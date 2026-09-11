@@ -121,6 +121,46 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "574525f7-6882-4bd7-9239-01977ea50d02",
+      "code": "MX25-CC10056",
+      "title": "¡Haz que tu logística fluya sin obstáculos! Bodega en Renta en el Centro de Torreón.",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "7,650 MXN Renta",
+      "precio_num": 7650.0,
+      "superficie": "109.42 m²",
+      "area_num": 109.42,
+      "precio_m2": "$69.9/m²",
+      "pm2_num": 69.91,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CENTURY 21 AVANCE",
+      "fecha_publicacion": "2025-12-05",
+      "days_on_market": 280,
+      "link": "https://app.nocnok.com/crm/154940/properties/574525f7-6882-4bd7-9239-01977ea50d02",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250617100715-8e6ab4a31c124334a9f843b846121c4fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250617100715-d83035df01984af290370b788679719es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250617100716-ed66e87e0491415ea886c48bc228ff40s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-09-11",
+      "status": "delisted",
+      "delisted_at": "2026-09-11",
+      "days_listed": 38,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 7650.0,
+          "precio": "7,650 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "88d67292-bc66-4dc6-b647-0199349b97ef",
       "code": "NN-EI1000297",
       "title": "Bodega en Renta en Ejido Ignacio Allende, Torreón, Coahuila de Zaragoza",
@@ -154,6 +194,46 @@
           "date": "2026-08-04",
           "precio_num": 40000.0,
           "precio": "40,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "10e0d2fa-986d-4c02-9485-018b1d49f8f1",
+      "code": "MX15-BH9846",
+      "title": "Terreno en Venta en La Joya, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "23,532,000 MXN Venta",
+      "precio_num": 23532000.0,
+      "superficie": "5,883 m²",
+      "area_num": 5883.0,
+      "precio_m2": "$4,000/m²",
+      "pm2_num": 4000.0,
+      "ubicacion": "La Joya, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Punto Clave by Keller Williams",
+      "fecha_publicacion": "2024-06-17",
+      "days_on_market": 816,
+      "link": "https://app.nocnok.com/crm/154940/properties/10e0d2fa-986d-4c02-9485-018b1d49f8f1",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250603125945-e91b2414cdd14d42b45c8be12852540es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250603125945-375574bd8ba04e6cacf233b4e84ab086s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250603125945-33e852c0720f429ca082526de6da087fs.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-09-11",
+      "status": "delisted",
+      "delisted_at": "2026-09-11",
+      "days_listed": 38,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 23532000.0,
+          "precio": "23,532,000 MXN Venta"
         }
       ],
       "delisted_reason": "sold"

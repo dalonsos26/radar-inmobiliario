@@ -115163,7 +115163,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "rSm Inmobiliaria Mirisa",
       "fecha_publicacion": "2026-05-31",
-      "days_on_market": 29,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/078bb940-5613-4e11-a665-019cb966f270",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260304091528-7b70d063cd3d43a2979c036962e372a5s.webp",
@@ -115171,9 +115171,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260317195751-8caa806477134f898d35fe4bcf8ae088s.webp"
       ],
       "first_seen": "2026-06-02",
-      "last_seen": "2026-08-13",
-      "status": "delisted",
-      "delisted_at": "2026-08-14",
+      "last_seen": "2026-09-11",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 73,
       "precio_history": [
         {
@@ -115182,7 +115182,7 @@
           "precio": "45,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8da695af-d8cf-453a-b35c-018b268a3e63": {
       "id": "8da695af-d8cf-453a-b35c-018b268a3e63",
@@ -160224,16 +160224,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-09-11",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-11",
+      "days_listed": 38,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 7650.0,
           "precio": "7,650 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "541b147c-5b39-4e90-9943-019af079b022": {
       "id": "541b147c-5b39-4e90-9943-019af079b022",
@@ -198611,16 +198612,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-09-11",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-11",
+      "days_listed": 38,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 23532000.0,
           "precio": "23,532,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "87ec81a0-4adf-4b76-85c3-01901815d4f2": {
       "id": "87ec81a0-4adf-4b76-85c3-01901815d4f2",
@@ -214115,7 +214117,7 @@
     "03380079-f920-4ec5-a2ad-01a05913a832": {
       "id": "03380079-f920-4ec5-a2ad-01a05913a832",
       "code": "NN-HED928",
-      "title": "Bodega en Renta en Moctezuma, Torreón, Coahuila de Zaragoza",
+      "title": "Renta de Bodega Comercial en Torreón, Coahuila",
       "categoria": "Comercial",
       "tipo": "Bodega",
       "operacion": "Renta",
@@ -214126,7 +214128,7 @@
       "area_num": 300.0,
       "precio_m2": "$66.7/m²",
       "pm2_num": 66.67,
-      "ubicacion": "Moctezuma, Torreón, Coahuila de Zaragoza",
+      "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
       "broker": "SAMAX Inmobiliaria",
@@ -219609,6 +219611,123 @@
           "date": "2026-09-11",
           "precio_num": 2500000.0,
           "precio": "2,500,000 MXN Venta"
+        }
+      ]
+    },
+    "9a39ce4e-fccf-4070-ab82-01a091327462": {
+      "id": "9a39ce4e-fccf-4070-ab82-01a091327462",
+      "code": "NN-HET887",
+      "title": "Terreno en Renta en Los Ciruelos, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "194,001 MXN Renta",
+      "precio_num": 194001.0,
+      "superficie": "5,388 m²",
+      "area_num": 5388.0,
+      "precio_m2": "$36.0/m²",
+      "pm2_num": 36.01,
+      "ubicacion": "Los Ciruelos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-09-11",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/9a39ce4e-fccf-4070-ab82-01a091327462",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260911100538-3123658c765b46acbd851084908c0d2ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911100535-39ba88e85364491cadf2d6f646fee569s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911100536-c312a3785e8943038238030f43003e21s.webp"
+      ],
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-09-11",
+          "precio_num": 194001.0,
+          "precio": "194,001 MXN Renta"
+        }
+      ]
+    },
+    "0a00bab4-43e5-45a8-be67-01a09164c641": {
+      "id": "0a00bab4-43e5-45a8-be67-01a09164c641",
+      "code": "NN-HFD595",
+      "title": "Oficina en Renta en Nuevo San Isidro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "15,000 MXN Renta",
+      "precio_num": 15000.0,
+      "superficie": "350 m²",
+      "area_num": 350.0,
+      "precio_m2": "$42.9/m²",
+      "pm2_num": 42.86,
+      "ubicacion": "Nuevo San Isidro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RED Bienes Raíces",
+      "fecha_publicacion": "2026-09-11",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/0a00bab4-43e5-45a8-be67-01a09164c641",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260911105708-22193399e2334231a1ef0f7984fb6835s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911105708-779398ff8ef1473ea45cf4a25e591dbas.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911105706-b4ad996804294f98829cf8ad53239220s.webp"
+      ],
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-09-11",
+          "precio_num": 15000.0,
+          "precio": "15,000 MXN Renta"
+        }
+      ]
+    },
+    "2f9302f2-3e1b-468e-9815-01a091879fca": {
+      "id": "2f9302f2-3e1b-468e-9815-01a091879fca",
+      "code": "NN-HFD617",
+      "title": "BODEGA PASO DEL AGUILA",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "10,000 MXN Renta",
+      "precio_num": 10000.0,
+      "superficie": "90 m²",
+      "area_num": 90.0,
+      "precio_m2": "$111.1/m²",
+      "pm2_num": 111.11,
+      "ubicacion": "Paso del Aguila, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-09-11",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/2f9302f2-3e1b-468e-9815-01a091879fca",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260911113351-e15c50162cbc4908bd83a75cb944acbcs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911113352-5e61d6d4968a443e8a9254b4a10c929ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911113351-2eea11ea1fa9406eb3d659a21145b4f8s.webp"
+      ],
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-09-11",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-09-11",
+          "precio_num": 10000.0,
+          "precio": "10,000 MXN Renta"
         }
       ]
     }
