@@ -277,8 +277,8 @@
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "600 m²",
-    "precio": "45,000 MXN Renta",
-    "precio_m2": "$75.0/m²",
+    "precio": "35,000 MXN Renta",
+    "precio_m2": "$58.3/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/0753c0bf-2f05-44b3-955b-019e74b4c585",
     "fotos_local": [
@@ -966,7 +966,7 @@
     ],
     "lat": 25.5795578,
     "lng": -103.4082889,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "4b5d017a-1472-4ec6-bb52-019e6c298844",
