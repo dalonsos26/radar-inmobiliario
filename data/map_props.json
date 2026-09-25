@@ -69,7 +69,7 @@
   },
   {
     "id": "096c1e59-b84b-4eb4-944a-019e75b9ef8a",
-    "title": "PROPIEDAD PARA QUINTA EN OBRA AVANZADA",
+    "title": "Finca-Rancho en Venta en El Aguila, Torreón, Coahuila de Zaragoza",
     "tipo": "Finca-Rancho",
     "municipio": "Torreón",
     "superficie": "731 m²",
@@ -184,7 +184,7 @@
     ],
     "lat": 25.5476194,
     "lng": -103.3782374,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1a324ee2-813c-4e03-9e4c-019e7514d087",
@@ -787,8 +787,8 @@
     "tipo": "Bodega",
     "municipio": "Torreón",
     "superficie": "132 m²",
-    "precio": "15,000 MXN Renta",
-    "precio_m2": "$113.6/m²",
+    "precio": "12,800 MXN Renta",
+    "precio_m2": "$97.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/9357907c-f4ce-46cb-8214-019e6b6dd4f7",
     "fotos_local": [
@@ -966,7 +966,7 @@
     ],
     "lat": 25.5795578,
     "lng": -103.4082889,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "4b5d017a-1472-4ec6-bb52-019e6c298844",
@@ -1799,7 +1799,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "3e66e499-ba59-44d8-9049-0199b138f5d6",
@@ -1986,7 +1986,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "b5f53994-3942-4b5c-b4a4-0197fb97ad12",
@@ -2037,7 +2037,7 @@
     ],
     "lat": 25.5581092,
     "lng": -103.4117788,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "1313aad6-c8df-4199-bbfa-0199d4f39ba8",
@@ -2071,7 +2071,7 @@
     ],
     "lat": 25.5910781,
     "lng": -103.3670831,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "decd1ede-8ec1-4ed8-a252-018e58b157f7",
@@ -2360,7 +2360,7 @@
     ],
     "lat": 25.2684398,
     "lng": -103.498528,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "49fe40e9-d9f2-4b3b-9d42-019a7ae2079e",
@@ -2394,7 +2394,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
@@ -2810,8 +2810,8 @@
     "tipo": "Edificio",
     "municipio": "Torreón",
     "superficie": "240 m²",
-    "precio": "7,000,000 MXN Venta",
-    "precio_m2": "$29,167/m²",
+    "precio": "6,500,000 MXN Venta",
+    "precio_m2": "$27,083/m²",
     "op_key": "venta",
     "link": "https://app.nocnok.com/crm/154940/properties/df0a6db7-ad59-4076-9128-018b25e352da",
     "fotos_local": [
