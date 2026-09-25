@@ -90,9 +90,18 @@ def save_json(path: Path, data):
 # ── Auth ──────────────────────────────────────────────────────────────────────
 
 async def login_and_get_session(username: str, password: str):
+    # Nocnok activó Cloudflare (sep 2026): el modo headless clásico queda
+    # bloqueado. Se usa navegador con ventana (xvfb en CI) + flags anti-detección.
     pw  = await async_playwright().start()
-    br  = await pw.chromium.launch(headless=True)
-    ctx = await br.new_context(viewport={"width": 1440, "height": 900}, locale="es-MX")
+    br  = await pw.chromium.launch(
+        headless=False,
+        args=["--disable-blink-features=AutomationControlled"],
+    )
+    ctx = await br.new_context(
+        viewport={"width": 1440, "height": 900}, locale="es-MX",
+        user_agent=("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"),
+    )
     pg  = await ctx.new_page()
     token = None
 
@@ -106,7 +115,15 @@ async def login_and_get_session(username: str, password: str):
 
     pg.on("request", capture_auth)
     log("Login en SSO…")
-    await pg.goto(LOGIN_URL, wait_until="networkidle", timeout=30000)
+    await pg.goto(LOGIN_URL, wait_until="domcontentloaded", timeout=40000)
+    try:
+        await pg.locator("input[type='email']").first.wait_for(timeout=25000)
+    except Exception:
+        title = await pg.title()
+        body = (await pg.inner_text("body"))[:300].replace("\n", " ")
+        log(f"  ⚠ Formulario de login no encontrado. Título: {title!r}")
+        log(f"  ⚠ Contenido: {body}")
+        raise
     await pg.locator("input[type='email']").first.fill(username)
     await pg.locator("input[type='password']").first.fill(password)
     await pg.locator("button[type='submit']").first.click()

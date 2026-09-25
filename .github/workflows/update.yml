@@ -28,7 +28,7 @@ jobs:
         env:
           NOCNOK_USER: ${{ secrets.NOCNOK_USER }}
           NOCNOK_PASS: ${{ secrets.NOCNOK_PASS }}
-        run: python3 scraper.py -u "$NOCNOK_USER" -p "$NOCNOK_PASS"
+        run: xvfb-run -a python3 scraper.py -u "$NOCNOK_USER" -p "$NOCNOK_PASS"
 
       - name: Guardar cambios
         run: |
