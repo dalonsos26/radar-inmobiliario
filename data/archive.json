@@ -224358,6 +224358,45 @@
           "precio": "1,271,000 MXN Venta"
         }
       ]
+    },
+    "146c4d8a-919a-4143-bb4b-01a0d97b0e3e": {
+      "id": "146c4d8a-919a-4143-bb4b-01a0d97b0e3e",
+      "code": "NN-HFY657",
+      "title": "Terreno Industrial en Venta en Ejido el Perú, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "32,847,430 MXN Venta",
+      "precio_num": 32847430.0,
+      "superficie": "22,653.4 m²",
+      "area_num": 22653.4,
+      "precio_m2": "$1,450/m²",
+      "pm2_num": 1450.0,
+      "ubicacion": "El Perú, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-09-25",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/146c4d8a-919a-4143-bb4b-01a0d97b0e3e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260925105225-f28097e475cb4002a185ab8a960e9342s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260925105225-e32b886b759f44798f4d6c8c17d25ffbs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260925105225-6ef13fb30a644431a2a33e25d7787261s.webp"
+      ],
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-09-25",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-09-25",
+          "precio_num": 32847430.0,
+          "precio": "32,847,430 MXN Venta"
+        }
+      ]
     }
   }
 }
