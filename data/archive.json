@@ -139435,8 +139435,8 @@
       "precio_num": 12000.0,
       "superficie": "703 m²",
       "area_num": 703.0,
-      "precio_m2": "$17.1/m²",
-      "pm2_num": 17.07,
+      "precio_m2": "$23.0/m²",
+      "pm2_num": 22.99,
       "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -160772,12 +160772,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "35,000 MXN Renta",
-      "precio_num": 35000.0,
+      "precio": "47,400 MXN Renta",
+      "precio_num": 47400.0,
       "superficie": "160 m²",
       "area_num": 160.0,
-      "precio_m2": "$218.8/m²",
-      "pm2_num": 218.75,
+      "precio_m2": "$200.0/m²",
+      "pm2_num": 200.0,
       "ubicacion": "Navarro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -162634,16 +162634,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-09-25",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-25",
+      "days_listed": 52,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 40000.0,
           "precio": "40,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "5b02f161-4196-4562-b096-0194c2383efd": {
       "id": "5b02f161-4196-4562-b096-0194c2383efd",
@@ -215028,16 +215029,17 @@
       ],
       "first_seen": "2026-09-01",
       "last_seen": "2026-09-25",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-25",
+      "days_listed": 24,
       "precio_history": [
         {
           "date": "2026-09-01",
           "precio_num": 4300000.0,
           "precio": "4,300,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "fc705058-4764-4868-8999-01a05981cd11": {
       "id": "fc705058-4764-4868-8999-01a05981cd11",

@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-09-25 11:13:58",
-  "total": 4644,
-  "new_count": 1,
+  "run_at": "2026-09-25 12:46:08",
+  "total": 4642,
+  "new_count": 0,
   "properties": [
     {
       "id": "54473866-5ebd-444a-8221-01a0d936d7db",
@@ -14409,33 +14409,6 @@
       ]
     },
     {
-      "id": "043bd7a8-cca0-4318-a001-01a05ac51df0",
-      "code": "NN-HEE999",
-      "title": "Consultorio Médico en Venta en Residencial Senderos, Torreón",
-      "categoria": "Comercial",
-      "tipo": "Consultorio",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "4,300,000 MXN Venta",
-      "precio_num": 4300000.0,
-      "superficie": "78 m²",
-      "area_num": 78.0,
-      "precio_m2": "$55,128/m²",
-      "pm2_num": 55128.21,
-      "ubicacion": "Residencial Senderos, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "COLDWELL BANKER COMARCA",
-      "fecha_publicacion": "2026-08-31",
-      "days_on_market": 25,
-      "link": "https://app.nocnok.com/crm/154940/properties/043bd7a8-cca0-4318-a001-01a05ac51df0",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260831202118-bff051b6ceb14636ab719677f56cfda0s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260831202118-f36cd57ce8fd421582a5ad5e81175b92s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260831202118-d5420b1d70a4452a8619e56005fd5dc6s.webp"
-      ]
-    },
-    {
       "id": "03380079-f920-4ec5-a2ad-01a05913a832",
       "code": "NN-HED928",
       "title": "Renta de Bodega Comercial en Torreón, Coahuila",
@@ -26346,33 +26319,6 @@
       ]
     },
     {
-      "id": "23ec750c-50fc-40a1-9273-019f4cfacbbd",
-      "code": "NN-HBL020",
-      "title": "TERRENO COMERCIAL EN RENTA",
-      "categoria": "Comercial",
-      "tipo": "Terreno",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "12,000 MXN Renta",
-      "precio_num": 12000.0,
-      "superficie": "703 m²",
-      "area_num": 703.0,
-      "precio_m2": "$17.1/m²",
-      "pm2_num": 17.07,
-      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "ORDUÑA Y ASOCIADOS",
-      "fecha_publicacion": "2026-07-10",
-      "days_on_market": 77,
-      "link": "https://app.nocnok.com/crm/154940/properties/23ec750c-50fc-40a1-9273-019f4cfacbbd",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-444742ee1e9946c781fcab6eefd04b64s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-30a3f2fc26364ca18cac5c55b4319148s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-af82efedbfca46c5b140cf186615d351s.webp"
-      ]
-    },
-    {
       "id": "badd85f3-9227-48f3-88c5-019f4e68471f",
       "code": "NN-HBL705",
       "title": "Local en Renta en Villas Diamante, Torreón, Coahuila de Zaragoza",
@@ -26505,6 +26451,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260710191151-1dd93ff7650f41eca0f94dd416d8b5ces.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260710185441-065c400374db4107931f103e7c56f208s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260710185425-2e8cc7c9ec964b258fd809618d46d8fes.webp"
+      ]
+    },
+    {
+      "id": "23ec750c-50fc-40a1-9273-019f4cfacbbd",
+      "code": "NN-HBL020",
+      "title": "TERRENO COMERCIAL EN RENTA",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "12,000 MXN Renta",
+      "precio_num": 12000.0,
+      "superficie": "522 m²",
+      "area_num": 522.0,
+      "precio_m2": "$23.0/m²",
+      "pm2_num": 22.99,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ORDUÑA Y ASOCIADOS",
+      "fecha_publicacion": "2026-07-10",
+      "days_on_market": 77,
+      "link": "https://app.nocnok.com/crm/154940/properties/23ec750c-50fc-40a1-9273-019f4cfacbbd",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-444742ee1e9946c781fcab6eefd04b64s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-30a3f2fc26364ca18cac5c55b4319148s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-af82efedbfca46c5b140cf186615d351s.webp"
       ]
     },
     {
@@ -57024,12 +56997,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "35,000 MXN Renta",
-      "precio_num": 35000.0,
-      "superficie": "160 m²",
-      "area_num": 160.0,
-      "precio_m2": "$218.8/m²",
-      "pm2_num": 218.75,
+      "precio": "47,400 MXN Renta",
+      "precio_num": 47400.0,
+      "superficie": "237 m²",
+      "area_num": 237.0,
+      "precio_m2": "$200.0/m²",
+      "pm2_num": 200.0,
       "ubicacion": "Navarro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -57818,33 +57791,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251118185420-cf9fd083a3dd4070a29fe4298bd2e4e9s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251118185420-57f016e747c14035acee38d30b33e685s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251118185420-bdb24f89c6604ae9acca6ad6e9560209s.webp"
-      ]
-    },
-    {
-      "id": "72df0012-ac46-4c0d-a20f-018d89a05081",
-      "code": "MX24-PX1756",
-      "title": "Bodega en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "40,000 MXN Renta",
-      "precio_num": 40000.0,
-      "superficie": "542 m²",
-      "area_num": 542.0,
-      "precio_m2": "$73.8/m²",
-      "pm2_num": 73.8,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Federico Obeso Anaya",
-      "fecha_publicacion": "2025-11-17",
-      "days_on_market": 312,
-      "link": "https://app.nocnok.com/crm/154940/properties/72df0012-ac46-4c0d-a20f-018d89a05081",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/240208102940-e93ba001ae5148fdbe96af6ec2af0edb.jpg",
-        "https://s3.amazonaws.com/nocnok-img/240208102942-9e8e9ecf81684c5fb4269cb4d3e779f5.jpg",
-        "https://s3.amazonaws.com/nocnok-img/240208102943-eb086a265c4e4b618843c2cbe0981a4f.jpg"
       ]
     },
     {
