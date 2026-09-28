@@ -7209,13 +7209,17 @@
     },
     "2026-W40": {
       "week": "2026-W40",
-      "total": 1,
+      "total": 2,
       "cities": {
         "Torreón": {
-          "total": 1,
+          "total": 2,
           "tipos_m2": {
             "Terreno": {
               "sum": 40.0,
+              "count": 1
+            },
+            "Local": {
+              "sum": 500.0,
               "count": 1
             }
           }

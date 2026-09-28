@@ -6691,9 +6691,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-09-28",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 25,
+      "status": "delisted",
+      "delisted_at": "2026-09-28",
+      "days_listed": 119,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -6703,7 +6703,7 @@
       ],
       "lat": 25.5545124,
       "lng": -103.4450046,
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "2412a96c-7078-4c5b-9cc2-019e4c1b5dca": {
       "id": "2412a96c-7078-4c5b-9cc2-019e4c1b5dca",
@@ -58786,7 +58786,7 @@
     "377ef205-dafc-4f62-9783-018eb0746321": {
       "id": "377ef205-dafc-4f62-9783-018eb0746321",
       "code": "MX24-QD2111",
-      "title": "Bodega en Pequeña Zona Industrial",
+      "title": "Bodega en Pequeña Zona Industrial cercana a Periférico",
       "categoria": "Industrial",
       "tipo": "Bodega",
       "operacion": "Renta",
@@ -111773,16 +111773,17 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-09-28",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-28",
+      "days_listed": 119,
       "precio_history": [
         {
           "date": "2026-06-01",
           "precio_num": 1725000.0,
           "precio": "1,725,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "001d4fe0-45cb-4b7d-a7eb-018b293a6d9d": {
       "id": "001d4fe0-45cb-4b7d-a7eb-018b293a6d9d",
@@ -118887,9 +118888,9 @@
       ],
       "first_seen": "2026-06-05",
       "last_seen": "2026-09-28",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 93,
+      "status": "delisted",
+      "delisted_at": "2026-09-28",
+      "days_listed": 115,
       "precio_history": [
         {
           "date": "2026-06-05",
@@ -118897,7 +118898,7 @@
           "precio": "10,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "f8764b8b-86af-4385-bf15-019e958858e1": {
       "id": "f8764b8b-86af-4385-bf15-019e958858e1",
@@ -126743,12 +126744,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "12,540 MXN Renta",
-      "precio_num": 12540.0,
+      "precio": "13,000 MXN Renta",
+      "precio_num": 13000.0,
       "superficie": "69 m²",
       "area_num": 69.0,
-      "precio_m2": "$181.7/m²",
-      "pm2_num": 181.74,
+      "precio_m2": "$188.4/m²",
+      "pm2_num": 188.41,
       "ubicacion": "Torreon Jardin, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -151117,12 +151118,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "13,600 MXN Renta",
-      "precio_num": 13600.0,
+      "precio": "14,000 MXN Renta",
+      "precio_num": 14000.0,
       "superficie": "68 m²",
       "area_num": 68.0,
-      "precio_m2": "$200.0/m²",
-      "pm2_num": 200.0,
+      "precio_m2": "$205.9/m²",
+      "pm2_num": 205.88,
       "ubicacion": "Torreon Jardin, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -153918,16 +153919,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-09-28",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-28",
+      "days_listed": 55,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 18000.0,
           "precio": "18,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "9ce95f1c-fdf9-46ea-89c6-019c43f36bcb": {
       "id": "9ce95f1c-fdf9-46ea-89c6-019c43f36bcb",
@@ -220316,16 +220318,17 @@
       ],
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-28",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-28",
+      "days_listed": 16,
       "precio_history": [
         {
           "date": "2026-09-12",
           "precio_num": 70363.0,
           "precio": "70,363 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "subscription_lapse"
     },
     "e9ab99aa-caf6-454f-98e9-01a09541ec7c": {
       "id": "e9ab99aa-caf6-454f-98e9-01a09541ec7c",
@@ -220353,16 +220356,17 @@
       ],
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-28",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-28",
+      "days_listed": 16,
       "precio_history": [
         {
           "date": "2026-09-12",
           "precio_num": 34004.0,
           "precio": "34,004 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "subscription_lapse"
     },
     "f537569d-c13f-4b9f-8a78-01a09541ec3f": {
       "id": "f537569d-c13f-4b9f-8a78-01a09541ec3f",
@@ -220390,16 +220394,17 @@
       ],
       "first_seen": "2026-09-12",
       "last_seen": "2026-09-28",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-09-28",
+      "days_listed": 16,
       "precio_history": [
         {
           "date": "2026-09-12",
           "precio_num": 50171.0,
           "precio": "50,171 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "subscription_lapse"
     },
     "d760a33b-2b3f-48fb-a42e-01a09289108b": {
       "id": "d760a33b-2b3f-48fb-a42e-01a09289108b",
@@ -225026,6 +225031,45 @@
           "date": "2026-09-28",
           "precio_num": 30000.0,
           "precio": "30,000 MXN Renta"
+        }
+      ]
+    },
+    "72f9944b-72f9-43bf-b7d6-01a0e9421a68": {
+      "id": "72f9944b-72f9-43bf-b7d6-01a0e9421a68",
+      "code": "NN-HGB461",
+      "title": "LOCAL EN MERCAHORRO  ABASTOS AL ORIENTE  DE TORREON",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "4,000 MXN Renta",
+      "precio_num": 4000.0,
+      "superficie": "8 m²",
+      "area_num": 8.0,
+      "precio_m2": "$500.0/m²",
+      "pm2_num": 500.0,
+      "ubicacion": "Real del Sol I, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Laguna Homes",
+      "fecha_publicacion": "2026-09-28",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/72f9944b-72f9-43bf-b7d6-01a0e9421a68",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260928122618-c66abacda6d54b2984ff347755b74113s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260928123109-461c222ac3474433ac455fffb0a89871s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260928123109-729dff9d6dd24b6cbff2d9dbdabc5f7as.webp"
+      ],
+      "first_seen": "2026-09-28",
+      "last_seen": "2026-09-28",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-09-28",
+          "precio_num": 4000.0,
+          "precio": "4,000 MXN Renta"
         }
       ]
     }
