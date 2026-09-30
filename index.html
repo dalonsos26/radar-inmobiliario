@@ -1375,6 +1375,17 @@ function downloadReportPDF() {
             var el = cd.querySelector(sel);
             if (el) el.remove();
           });
+          // El paginador no puede reubicar celdas dentro de un grid CSS y las
+          // parte entre páginas: en el clon se vuelven bloques independientes
+          cd.querySelectorAll('#report-doc .rp-grid').forEach(function(g) {
+            g.style.display = 'block';
+            g.querySelectorAll(':scope > .rp-cell').forEach(function(c) {
+              c.style.display = 'inline-block';
+              c.style.width = '48%';
+              c.style.verticalAlign = 'top';
+              c.style.margin = '0 1% 1rem 0';
+            });
+          });
         } },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait', compress: true },
       // Nota: no poner 'table' en avoid — las tablas largas (retail, 24 filas)
@@ -1530,7 +1541,7 @@ function buildIsoReport() {
       row('Escolaridad promedio (años)', function(s){return s.esc_prom;}, function(v){return v;}) +
     '</table>' +
     // Charts
-    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.4rem">' +
+    '<div class="rp-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.4rem">' +
       '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Estructura de edad</div><div style="position:relative;height:200px"><canvas id="rc-edad"></canvas></div></div>' +
       '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Conectividad y bienes (%)</div><div style="position:relative;height:200px"><canvas id="rc-conn"></canvas></div></div>' +
     '</div>' +
@@ -3758,7 +3769,7 @@ function showCompReport() {
     '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Retail detallado a '+selTime+' min — qué hay y qué falta</h2>' +
     compRetailTable(selZones, selTime, true) +
     '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .8rem;border-left:4px solid #ea580c;padding-left:.6rem">Gráficas comparativas ('+selTime+' min)</h2>' +
-    '<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem">' + chartGrid + '</div>' +
+    '<div class="rp-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem">' + chartGrid + '</div>' +
     '<div style="margin-top:1.8rem;padding-top:.8rem;border-top:1px solid #e5e7eb;font-size:.66rem;color:#9ca3af;display:flex;justify-content:space-between">' +
       '<span>Fuente: INEGI Censo 2020 (AGEB) · Isócronas Mapbox</span>' +
       '<span>NEAR Developments · Radar Inmobiliario</span></div>' +
