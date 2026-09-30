@@ -220,6 +220,10 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 /* ── Mobile responsive ── */
 /* ── Reporte de ubicación ── */
 #report-overlay{position:fixed;inset:0;background:#374151;z-index:6000;overflow-y:auto}
+/* Cortes de página limpios (aplica a impresión y al generador de PDF) */
+#report-doc tr{page-break-inside:avoid;break-inside:avoid}
+#report-doc canvas,#report-doc img{page-break-inside:avoid;break-inside:avoid}
+#report-doc h2{page-break-after:avoid;break-after:avoid}
 @media print{
   body>*{display:none!important}
   body>#report-overlay{display:block!important;position:static;background:#fff;overflow:visible}
@@ -1362,8 +1366,8 @@ function downloadReportPDF() {
     html2pdf().set({
       margin: [8, 8, 10, 8],
       filename: nombre + '.pdf',
-      image: { type: 'jpeg', quality: 0.95 },
-      html2canvas: { scale: 1.5, useCORS: true, logging: false,
+      image: { type: 'png' },
+      html2canvas: { scale: 2.5, useCORS: true, logging: false,
         // El clon incluye toda la página; quitar la app evita recargar miles
         // de fotos de propiedades (saturaba la red y tardaba mucho)
         onclone: function(cd) {
@@ -1372,7 +1376,7 @@ function downloadReportPDF() {
             if (el) el.remove();
           });
         } },
-      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait', compress: true },
       // Nota: no poner 'table' en avoid — las tablas largas (retail, 24 filas)
       // no caben en una página y el generador se cuelga intentando no partirlas
       pagebreak: { mode: ['css', 'legacy'], avoid: ['canvas', 'img', 'h2'] }
