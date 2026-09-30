@@ -1341,6 +1341,44 @@ function showIsoReport() {
   if (!_isoReportData) { alert('Calcula una isócrona primero.'); return; }
   denueEnsure(function() { buildIsoReport(); });
 }
+// Descarga el reporte visible como PDF, pidiendo el nombre del archivo
+function downloadReportPDF() {
+  var doc = document.getElementById('report-doc');
+  if (!doc) return;
+  var isComp = doc.innerHTML.indexOf('Comparativo de Ubicaciones') > -1;
+  var hoy = new Date().toISOString().slice(0, 10);
+  var sugerido = (isComp ? 'Comparativo NEAR ' : 'Reporte Ubicacion NEAR ') + hoy;
+  var nombre = window.prompt('Nombre del archivo PDF:', sugerido);
+  if (nombre === null) return; // canceló
+  nombre = (nombre.trim() || sugerido).replace(/[\\/:*?"<>|]+/g, '-');
+
+  var btn = document.getElementById('report-dl-btn');
+  if (btn) { btn.disabled = true; btn.textContent = '⏳ Generando…'; }
+  function done(ok) {
+    if (btn) { btn.disabled = false; btn.textContent = ok ? '✓ Descargado' : '⬇ Descargar PDF'; }
+    if (ok && btn) setTimeout(function(){ btn.textContent = '⬇ Descargar PDF'; }, 2500);
+  }
+  function generate() {
+    html2pdf().set({
+      margin: [8, 8, 10, 8],
+      filename: nombre + '.pdf',
+      image: { type: 'jpeg', quality: 0.95 },
+      html2canvas: { scale: 2, useCORS: true, logging: false },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+      pagebreak: { mode: ['css', 'legacy'], avoid: ['table', 'canvas', 'img', 'h2'] }
+    }).from(doc).save().then(function(){ done(true); }).catch(function(e) {
+      done(false);
+      alert('No se pudo generar el PDF (' + e.message + '). Usa el botón Imprimir como alternativa.');
+    });
+  }
+  if (typeof html2pdf === 'function') { generate(); return; }
+  var s = document.createElement('script');
+  s.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';
+  s.onload = generate;
+  s.onerror = function(){ done(false); alert('No se pudo cargar el generador de PDF. Usa el botón Imprimir.'); };
+  document.head.appendChild(s);
+}
+
 function closeIsoReport() {
   _reportCharts.forEach(function(c){ try{ c.destroy(); }catch(e){} });
   _reportCharts = [];
@@ -1531,7 +1569,8 @@ function buildIsoReport() {
   ov.id = 'report-overlay';
   ov.innerHTML =
     '<div class="report-actions" style="position:sticky;top:0;z-index:10;background:#111827;padding:.7rem 1.2rem;display:flex;gap:.7rem;justify-content:flex-end">' +
-    '<button onclick="window.print()" style="background:#ea580c;color:#fff;border:none;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:700;cursor:pointer">🖨 Exportar PDF</button>' +
+    '<button id="report-dl-btn" onclick="downloadReportPDF()" style="background:#ea580c;color:#fff;border:none;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:700;cursor:pointer">⬇ Descargar PDF</button>' +
+    '<button onclick="window.print()" style="background:transparent;color:#e5e7eb;border:1.5px solid #374151;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:600;cursor:pointer">🖨 Imprimir</button>' +
     '<button onclick="closeIsoReport()" style="background:transparent;color:#e5e7eb;border:1.5px solid #374151;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:600;cursor:pointer">✕ Cerrar</button></div>' + html;
   document.body.appendChild(ov);
 
@@ -3715,7 +3754,8 @@ function showCompReport() {
   ov.id = 'report-overlay';
   ov.innerHTML =
     '<div class="report-actions" style="position:sticky;top:0;z-index:10;background:#111827;padding:.7rem 1.2rem;display:flex;gap:.7rem;justify-content:flex-end">' +
-    '<button onclick="window.print()" style="background:#ea580c;color:#fff;border:none;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:700;cursor:pointer">🖨 Exportar PDF</button>' +
+    '<button id="report-dl-btn" onclick="downloadReportPDF()" style="background:#ea580c;color:#fff;border:none;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:700;cursor:pointer">⬇ Descargar PDF</button>' +
+    '<button onclick="window.print()" style="background:transparent;color:#e5e7eb;border:1.5px solid #374151;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:600;cursor:pointer">🖨 Imprimir</button>' +
     '<button onclick="closeIsoReport()" style="background:transparent;color:#e5e7eb;border:1.5px solid #374151;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:600;cursor:pointer">✕ Cerrar</button></div>' + html;
   document.body.appendChild(ov);
 
