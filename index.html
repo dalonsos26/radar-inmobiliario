@@ -222,7 +222,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 #report-overlay{position:fixed;inset:0;background:#374151;z-index:6000;overflow-y:auto}
 /* Cortes de página limpios (aplica a impresión y al generador de PDF) */
 #report-doc tr{page-break-inside:avoid;break-inside:avoid}
-#report-doc canvas,#report-doc img{page-break-inside:avoid;break-inside:avoid}
+#report-doc .rp-cell{page-break-inside:avoid;break-inside:avoid}
 #report-doc h2{page-break-after:avoid;break-after:avoid}
 @media print{
   body>*{display:none!important}
@@ -1379,7 +1379,7 @@ function downloadReportPDF() {
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait', compress: true },
       // Nota: no poner 'table' en avoid — las tablas largas (retail, 24 filas)
       // no caben en una página y el generador se cuelga intentando no partirlas
-      pagebreak: { mode: ['css', 'legacy'], avoid: ['canvas', 'img', 'h2'] }
+      pagebreak: { mode: ['css', 'legacy'], avoid: ['.rp-cell', 'h2', 'img'] }
     }).from(doc).save().then(function(){ done(true); }).catch(function(e) {
       done(false);
       alert('No se pudo generar el PDF (' + e.message + '). Usa el botón Imprimir como alternativa.');
@@ -1531,8 +1531,8 @@ function buildIsoReport() {
     '</table>' +
     // Charts
     '<div style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.4rem">' +
-      '<div><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Estructura de edad</div><div style="position:relative;height:200px"><canvas id="rc-edad"></canvas></div></div>' +
-      '<div><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Conectividad y bienes (%)</div><div style="position:relative;height:200px"><canvas id="rc-conn"></canvas></div></div>' +
+      '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Estructura de edad</div><div style="position:relative;height:200px"><canvas id="rc-edad"></canvas></div></div>' +
+      '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Conectividad y bienes (%)</div><div style="position:relative;height:200px"><canvas id="rc-conn"></canvas></div></div>' +
     '</div>' +
     // Entorno comercial
     '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Entorno comercial (DENUE · INEGI)</h2>' +
@@ -3728,7 +3728,7 @@ function showCompReport() {
     }).join('');
 
   var chartGrid = COMP_CHARTS.map(function(ch){
-    return '<div><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">'+ch.title+'</div>' +
+    return '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">'+ch.title+'</div>' +
       '<div style="position:relative;height:190px"><canvas id="rp-'+ch.id+'"></canvas></div></div>';
   }).join('');
 
