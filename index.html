@@ -1363,7 +1363,15 @@ function downloadReportPDF() {
       margin: [8, 8, 10, 8],
       filename: nombre + '.pdf',
       image: { type: 'jpeg', quality: 0.95 },
-      html2canvas: { scale: 2, useCORS: true, logging: false },
+      html2canvas: { scale: 2, useCORS: true, logging: false,
+        // El clon incluye toda la página; quitar la app evita recargar miles
+        // de fotos de propiedades (saturaba la red y tardaba mucho)
+        onclone: function(cd) {
+          ['.sidebar', '.main-content', '#menu-fab', '#login-overlay'].forEach(function(sel) {
+            var el = cd.querySelector(sel);
+            if (el) el.remove();
+          });
+        } },
       jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
       pagebreak: { mode: ['css', 'legacy'], avoid: ['table', 'canvas', 'img', 'h2'] }
     }).from(doc).save().then(function(){ done(true); }).catch(function(e) {
