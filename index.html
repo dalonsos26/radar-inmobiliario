@@ -722,9 +722,10 @@ function markUnseenCards() {
     entries.forEach(function(en) {
       var el = en.target, id = el.dataset.id;
       if (!id || _seenSet.has(id)) { _seenObserver.unobserve(el); return; }
-      if (en.isIntersecting && document.visibilityState === 'visible') {
+      if (en.isIntersecting && document.visibilityState === 'visible' && !window._seenPaused) {
         if (_seenPending[id]) return;
         _seenPending[id] = setTimeout(function() {
+          if (window._seenPaused) { delete _seenPending[id]; return; }
           delete _seenPending[id];
           _seenSet.add(id);
           seenSave();
@@ -748,6 +749,47 @@ function markUnseenCards() {
     if (!unseen && badge) badge.remove();
     if (unseen) _seenObserver.observe(c); // el verde se queda hasta que la veas de verdad
   });
+  var unseenTotal = document.querySelectorAll('#grid .card.new').length;
+  if (unseenTotal > 0) showNuevasPopup(unseenTotal);
+}
+
+// ── Popup de bienvenida: pausa el marcado de "vistas" hasta que decidas ───────
+function showNuevasPopup(n) {
+  var login = document.getElementById('login-overlay');
+  if (login && login.style.display !== 'none' && login.style.display !== '') {
+    // si el login está visible, esperar a que entre
+  }
+  if (login && getComputedStyle(login).display !== 'none') return;
+  if (document.getElementById('nuevas-popup')) return;
+  window._seenPaused = true;
+  var ov = document.createElement('div');
+  ov.id = 'nuevas-popup';
+  ov.style.cssText = 'position:fixed;inset:0;background:rgba(17,24,39,.55);z-index:4500;display:flex;align-items:center;justify-content:center';
+  ov.innerHTML = '<div style="background:var(--surface);border-radius:18px;padding:1.8rem 2rem;width:360px;max-width:90vw;box-shadow:0 20px 60px rgba(0,0,0,.4);text-align:center">' +
+    '<div style="font-size:2.2rem;margin-bottom:.4rem">🏠</div>' +
+    '<div style="font-size:1.05rem;font-weight:800;margin-bottom:.3rem">Tienes ' + n + ' propiedad' + (n !== 1 ? 'es' : '') + ' sin ver</div>' +
+    '<div style="font-size:.8rem;color:var(--muted);margin-bottom:1.2rem">Seguirán marcadas en verde hasta que pasen por tu pantalla.</div>' +
+    '<div style="display:flex;gap:.6rem">' +
+    '<button onclick="nuevasPopupVer()" style="flex:1;background:var(--accent);color:#fff;border:none;border-radius:10px;padding:.6rem;font-size:.85rem;font-weight:700;cursor:pointer">Ver las nuevas</button>' +
+    '<button onclick="nuevasPopupCerrar()" style="flex:1;background:var(--surface2);color:var(--text);border:1.5px solid var(--border);border-radius:10px;padding:.6rem;font-size:.85rem;font-weight:600;cursor:pointer">Ahora no</button>' +
+    '</div></div>';
+  document.body.appendChild(ov);
+}
+function nuevasPopupCerrar() {
+  var ov = document.getElementById('nuevas-popup');
+  if (ov) ov.remove();
+  window._seenPaused = false;
+}
+function nuevasPopupVer() {
+  nuevasPopupCerrar();
+  showTab('props', document.getElementById('sb-props'));
+  applyFilter('status', 'new', null);
+  var dd = document.getElementById('dd-status');
+  if (dd) {
+    dd.querySelector('.dd-val').textContent = '★ Nuevas';
+    dd.querySelectorAll('.dd-item').forEach(function(b){ b.classList.toggle('sel', b.textContent.indexOf('Nuevas') > -1); });
+  }
+  window.scrollTo(0, 0);
 }
 
 // ── Card builder & dynamic data ─────────────────────────────────────────────
@@ -930,6 +972,8 @@ function doLogin() {
     if (res.status === 200 && res.d.ok) {
       localStorage.setItem(AUTH_KEY, JSON.stringify({ user: res.d.user, role: res.d.role, token: res.d.token }));
       initAuth();
+      var nv = document.querySelectorAll('#grid .card.new').length;
+      if (nv > 0) showNuevasPopup(nv);
     } else {
       err.textContent = res.d.error || 'Error al iniciar sesión';
       err.style.display = 'block';
