@@ -506,7 +506,6 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
       </div>
       <button class="btn" id="gap-btn" onclick="toggleGapLayer(this)" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🕳 Huecos</button>
       <button class="btn" id="corr-btn" onclick="showCorredores()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🛣 Corredores</button>
-      <button class="btn" id="env-btn" onclick="showEnviados()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">📤 Enviados</button>
       <button class="btn" id="sniiv-map-btn" onclick="toggleSniivLayer(this)" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🏗 Mercado SNIIV</button>
       <div class="dd" id="dd-denue">
         <button class="dd-btn" onclick="ddToggle('dd-denue')">Negocios: <span class="dd-val">Ninguno</span></button>
@@ -1348,7 +1347,7 @@ function shareIsoLink() {
     '&nom=' + encodeURIComponent(nombre) + '&modo=' + D.mode + '&t=' + times.join(',') + '&id=' + id;
   var sent = [];
   try { sent = JSON.parse(localStorage.getItem(SENT_KEY)) || []; } catch(e) {}
-  sent.unshift({ id: id, nom: nombre, url: url, creado: new Date().toISOString() });
+  sent.unshift({ id: id, nom: nombre, key: D.key || null, url: url, creado: new Date().toISOString() });
   localStorage.setItem(SENT_KEY, JSON.stringify(sent.slice(0, 100)));
   var btn = document.getElementById('iso-share-btn');
   function copied(ok) {
@@ -1359,6 +1358,31 @@ function shareIsoLink() {
     navigator.clipboard.writeText(url).then(function(){ copied(true); }).catch(function(){ copied(false); });
   } else { copied(false); }
 }
+// Visitas por ubicación: suma los abiertos de todos los links generados para ella
+function fillZoneVisits(saved) {
+  var sent = [];
+  try { sent = JSON.parse(localStorage.getItem(SENT_KEY)) || []; } catch(e) {}
+  fetch('https://raw.githubusercontent.com/dalonsos26/radar-inmobiliario/visitas/visitas.json?nocache=' + Date.now())
+    .then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
+    .then(function(vis) {
+      saved.forEach(function(z) {
+        var links = sent.filter(function(e){ return e.key === z.key || (!e.key && e.nom === z.name); });
+        var total = 0, last = null;
+        links.forEach(function(e) {
+          var v = vis[e.id];
+          if (v) { total += v.n || 0; if (v.ultima && (!last || v.ultima > last)) last = v.ultima; }
+        });
+        var nEl = document.getElementById('vz-' + z.id);
+        var uEl = document.getElementById('vu-' + z.id);
+        if (nEl) {
+          if (!links.length) { nEl.textContent = '—'; nEl.title = 'Sin links compartidos aún'; nEl.style.color = 'var(--muted)'; nEl.style.fontWeight = '400'; }
+          else { nEl.textContent = total; nEl.style.color = total ? 'var(--new)' : 'var(--muted)'; }
+        }
+        if (uEl && last) uEl.textContent = new Date(last).toLocaleDateString('es-MX',{day:'numeric',month:'short'}) + ' ' + new Date(last).toLocaleTimeString('es-MX',{hour:'2-digit',minute:'2-digit'});
+      });
+    });
+}
+
 // Link compartible desde una ubicación guardada
 function shareZoneLink(id, btn) {
   var z = isoGetSaved().find(function(s){ return s.id === id; });
@@ -1370,7 +1394,7 @@ function shareZoneLink(id, btn) {
     '&nom=' + encodeURIComponent(z.name) + '&modo=' + mode + '&t=' + (times.join(',') || '5,10,15') + '&id=' + rid;
   var sent = [];
   try { sent = JSON.parse(localStorage.getItem(SENT_KEY)) || []; } catch(e) {}
-  sent.unshift({ id: rid, nom: z.name, url: url, creado: new Date().toISOString() });
+  sent.unshift({ id: rid, nom: z.name, key: z.key || null, url: url, creado: new Date().toISOString() });
   localStorage.setItem(SENT_KEY, JSON.stringify(sent.slice(0, 100)));
   function done(ok) {
     if (btn) { btn.textContent = ok ? '✓ copiado' : '🔗 link'; setTimeout(function(){ btn.textContent = '🔗 link'; }, 2000); }
@@ -2998,12 +3022,12 @@ function locSwitchTab(tab, btn) {
   document.getElementById('loc-pane-ageb').style.display = tab==='ageb' ? 'block' : 'none';
   document.getElementById('loc-pane-iso').style.display  = tab==='iso'  ? 'block' : 'none';
   document.getElementById('loc-pane-comp').style.display = tab==='comp' ? 'block' : 'none';
-  // On Comparar: hide the side panel, show full-width chart area below map
-  var panel = document.getElementById('ageb-panel');
+  // En Ubicaciones: ocultar mapa y panel por completo; solo lista + comparación
+  var layout = document.getElementById('analizador-layout');
   var chartsArea = document.getElementById('comp-charts-area');
-  if (panel) panel.style.display = tab==='comp' ? 'none' : '';
+  if (layout) layout.style.display = tab==='comp' ? 'none' : '';
   if (chartsArea) chartsArea.style.display = tab==='comp' ? 'block' : 'none';
-  if (_agebMap) setTimeout(function(){ _agebMap.invalidateSize(); }, 50);
+  if (_agebMap && tab!=='comp') setTimeout(function(){ _agebMap.invalidateSize(); }, 50);
   if (tab==='comp') renderCompTab();
 }
 
@@ -3758,14 +3782,11 @@ function _renderCompTab() {
     (selZones.length ? '<button onclick="showCompReport()" style="margin-left:auto;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.45rem 1rem;font-size:.78rem;font-weight:700;cursor:pointer">🖨 Imprimir ' + (selZones.length > 1 ? 'comparativo' : 'reporte') + '</button>' : '') +
     '</div>' +
     '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' +
-    '<tr style="text-align:left;color:var(--muted);font-size:.64rem;text-transform:uppercase"><th style="padding:.3rem 0;width:30px"></th><th>Ubicación</th><th>Fecha</th><th>Modos</th><th></th></tr>' +
+    '<tr style="text-align:left;color:var(--muted);font-size:.64rem;text-transform:uppercase"><th style="padding:.3rem 0;width:30px"></th><th>Ubicación</th><th>Fecha</th><th style="text-align:right">Abiertos</th><th>Última visita</th><th></th></tr>' +
     saved.map(function(s) {
       var si = selZones.indexOf(s);
       var on = si >= 0;
       var col = on ? COMP_COLORS[si % COMP_COLORS.length] : '#d1d5db';
-      var modos = s.modes ? ['foot-walking','cycling-regular','driving-car'].filter(function(m){ return s.modes[m]; })
-                          : (s.mode ? [s.mode] : []);
-      var icons = { 'foot-walking':'🚶', 'cycling-regular':'🚲', 'driving-car':'🚗' };
       var legacy = !s.modes;
       return '<tr style="border-top:1px solid var(--border);cursor:pointer" onclick="toggleCompZone(' + s.id + ')">' +
         '<td style="padding:.45rem 0"><span style="display:inline-block;width:16px;height:16px;border-radius:5px;border:2px solid ' + col + ';background:' + (on ? col : 'transparent') + ';vertical-align:middle"></span></td>' +
@@ -3773,11 +3794,13 @@ function _renderCompTab() {
         (legacy ? ' <span title="Guardada con versión anterior: recalcula para tener los 3 modos" style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.58rem;padding:.1rem .35rem;border-radius:8px">⚠ RECALCULAR</span>' : '') +
         '<br><span style="font-size:.68rem;color:var(--muted)">' + esc((s.address||'').split(',').slice(0,2).join(',')) + '</span></td>' +
         '<td style="color:var(--muted);white-space:nowrap">' + esc(s.savedAt || '') + '</td>' +
-        '<td>' + modos.map(function(m){ return icons[m]; }).join(' ') + '</td>' +
+        '<td style="text-align:right;font-weight:800" id="vz-' + s.id + '">·</td>' +
+        '<td style="color:var(--muted);white-space:nowrap;font-size:.7rem" id="vu-' + s.id + '"></td>' +
         '<td style="text-align:right;white-space:nowrap">' +
         '<button onclick="event.stopPropagation();shareZoneLink(' + s.id + ', this)" title="Copiar link compartible" style="background:none;border:1px solid var(--border);border-radius:6px;cursor:pointer;font-size:.68rem;padding:.2rem .5rem;margin-right:.3rem">🔗 link</button>' +
         '<button onclick="event.stopPropagation();isoDeleteSaved(' + s.id + ')" title="Eliminar" style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:.85rem" onmouseover="this.style.color=\'#dc2626\'" onmouseout="this.style.color=\'var(--muted)\'">✕</button></td></tr>';
     }).join('') + '</table></div>';
+  setTimeout(function(){ fillZoneVisits(saved); }, 50);
 
   // Sin selección suficiente: solo la lista
   if (selZones.length < 2) {
