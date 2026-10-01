@@ -69,12 +69,12 @@
   },
   {
     "id": "096c1e59-b84b-4eb4-944a-019e75b9ef8a",
-    "title": "PROPIEDAD PARA QUINTA EN OBRA AVANZADA",
+    "title": "QUINTA EN OBRA NEGRA EXCELENTE UBICACION",
     "tipo": "Finca-Rancho",
     "municipio": "Torreón",
     "superficie": "731 m²",
-    "precio": "1,800,000 MXN Venta",
-    "precio_m2": "$2,462/m²",
+    "precio": "1,650,000 MXN Venta",
+    "precio_m2": "$13,750/m²",
     "op_key": "venta",
     "link": "https://app.nocnok.com/crm/154940/properties/096c1e59-b84b-4eb4-944a-019e75b9ef8a",
     "fotos_local": [
@@ -133,7 +133,7 @@
     ],
     "lat": 25.5697952,
     "lng": -103.3825129,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "35197e57-17a6-4dfe-8bb6-019cb5b6882a",
@@ -150,7 +150,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "a67ea7c8-09bb-49fd-9703-019e74d51f93",
@@ -1119,7 +1119,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "ade81bae-6a0b-445f-bfa3-019e61f0e0ec",
