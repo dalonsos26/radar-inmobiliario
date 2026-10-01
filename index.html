@@ -470,8 +470,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
   <div class="section">
     <div class="toolbar" style="margin-bottom:.85rem">
       <div class="tb-group">
-        <button class="btn on" id="loc-tab-ageb" onclick="locSwitchTab('ageb',this)">📍 AGEB</button>
-        <button class="btn"    id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
+        <button class="btn on" id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
         <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📌 Ubicaciones <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
       <div style="display:flex;align-items:center;gap:.4rem;margin-left:auto">
@@ -542,11 +541,13 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
     <div id="analizador-layout">
       <div id="analizador-map-col">
         <div id="ageb-map-container"></div>
+        <span id="ageb-count" style="font-size:.7rem;color:var(--muted)"></span>
+        <div id="ageb-legend" class="ageb-legend" style="margin-top:.3rem"></div>
         <div id="usage-bar-ageb"></div>
         <div id="denue-list"></div>
       </div>
       <div id="ageb-panel">
-        <div id="loc-pane-ageb">
+        <div id="loc-pane-ageb" style="display:none">
           <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.75rem;flex-wrap:wrap">
             <h3 style="margin:0">Zona AGEB</h3>
             <select class="ageb-select" id="ageb-city-sel" onchange="switchAgebCity(this.value)">
@@ -566,11 +567,9 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
               <option value="pct_desocupacion">% Desocupación</option>
             </select>
           </div>
-          <span id="ageb-count" style="font-size:.7rem;color:var(--muted)"></span>
-          <div id="ageb-legend" class="ageb-legend" style="margin-top:.5rem"></div>
           <div id="ageb-empty" style="color:var(--muted);font-size:.82rem;text-align:center;padding:2.5rem 1rem">Haz clic en una zona del mapa para ver sus indicadores demográficos y de vivienda.</div>
         </div>
-        <div id="loc-pane-iso" style="display:none">
+        <div id="loc-pane-iso">
           <h3 style="margin-bottom:.7rem">⏱ Isócrona</h3>
           <div class="iso-search-wrap">
             <input id="iso-search" class="ageb-select" style="flex:1" placeholder="Buscar dirección…" onkeydown="if(event.key==='Enter')isoGeocode()">
@@ -2662,18 +2661,8 @@ function initAnalizador() {
     usageRender();
     denueEnsure(function(){}); // precarga en segundo plano para conteos en isócronas
     _agebMap.on('click', function(e) {
-      // Always update isochrone point
+      // El clic fija el punto de la isócrona (la vista AGEB ya no existe)
       isoSetPoint(e.latlng.lat, e.latlng.lng, null);
-
-      var feat = findAgebAt(e.latlng.lat, e.latlng.lng);
-      if (!feat) {
-        if (_agebHighlight) { _agebHighlight.setStyle({weight: 1, color: '#9ca3af'}); _agebHighlight = null; }
-        renderAgebPanel(null);
-        return;
-      }
-      var matchLayer = null;
-      _agebLayer.eachLayer(function(l) { if (l.feature === feat) matchLayer = l; });
-      selectAgeb(feat, matchLayer, e.latlng);
     });
     refreshAgebLayer();
   }
