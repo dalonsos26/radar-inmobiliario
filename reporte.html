@@ -104,6 +104,52 @@ function intersects(isoG, agG) {
 
 // ── Estadísticas censales + NSE (mismo método que el radar) ─────────────────
 var NSE_LBL = {1:'Bajo',2:'Medio bajo',3:'Medio',4:'Medio alto',5:'Alto'};
+var AMAI_LEVELS = [
+  { min:135, l:'A/B', lbl:'Alto',               top:5,   med:55400, lo:41300, hi:112000, col:'#7c3aed', bg:'#f5f3ff' },
+  { min:115, l:'C+',  lbl:'Medio-alto',          top:19,  med:29765, lo:20543, hi:41230,  col:'#059669', bg:'#ecfdf5' },
+  { min:100, l:'C',   lbl:'Medio típico',        top:33,  med:23400, lo:17800, hi:30900,  col:'#0ea5e9', bg:'#eff6ff' },
+  { min:88,  l:'C-',  lbl:'Medio emergente',     top:50,  med:18200, lo:13900, hi:23600,  col:'#84cc16', bg:'#f7fee7' },
+  { min:78,  l:'D+',  lbl:'Bajo con capacidad',  top:69,  med:14300, lo:10900, hi:18500,  col:'#f59e0b', bg:'#fffbeb' },
+  { min:65,  l:'D',   lbl:'Bajo',                top:90,  med:10800, lo:7900,  hi:14000,  col:'#f97316', bg:'#fff7ed' },
+  { min:-99, l:'E',   lbl:'Muy bajo',            top:100, med:7200,  lo:4800,  hi:9800,   col:'#dc2626', bg:'#fef2f2' }
+];
+var ESTATAL_URBANA_MED = 21897;
+function amaiLevel(ipa){ for (var i=0;i<AMAI_LEVELS.length;i++) if (ipa>=AMAI_LEVELS[i].min) return AMAI_LEVELS[i]; return AMAI_LEVELS[AMAI_LEVELS.length-1]; }
+function fmtMXN(n){ return '$'+Math.round(n).toLocaleString('es-MX'); }
+function nseProfileCards(stats, mins) {
+  var L=amaiLevel(stats.ipa);
+  var idx=Math.max(0,Math.min(100,Math.round(stats.ipa/2)));
+  var diff=Math.round((L.med/ESTATAL_URBANA_MED-1)*100);
+  var barMax=60000, w1=Math.min(100,L.med/barMax*100), w2=Math.min(100,ESTATAL_URBANA_MED/barMax*100);
+  return '<h2>Perfil socioeconómico y de mercado</h2>'+
+  '<div class="rp-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">'+
+    '<div class="rp-cell" style="background:#eef2ff;border-radius:14px;padding:1.1rem">'+
+      '<div style="font-size:.85rem;font-weight:800">Nivel socioeconómico de la zona</div>'+
+      '<div style="font-size:.66rem;color:#6b7280;margin-bottom:.7rem">Isócrona de '+mins+' min · Censo INEGI 2020</div>'+
+      '<div style="background:'+L.bg+';border-radius:12px;padding:.85rem 1rem;display:flex;gap:.8rem;align-items:center;margin-bottom:.8rem">'+
+        '<div style="font-size:1.7rem;font-weight:800;color:'+L.col+'">'+L.l+'</div>'+
+        '<div><div style="font-weight:800;font-size:.85rem">Nivel '+L.lbl.toLowerCase()+'</div>'+
+        '<span style="background:#fff;border-radius:8px;font-size:.6rem;font-weight:800;letter-spacing:.04em;padding:.15rem .45rem;color:#374151">TOP '+L.top+'% NACIONAL</span></div></div>'+
+      '<div style="display:flex;justify-content:space-between;font-size:.74rem;margin-bottom:.25rem"><span style="color:#6b7280">Índice socioeconómico</span><span><b>'+idx+'</b> / 100</span></div>'+
+      '<div style="height:8px;background:#e5e7eb;border-radius:4px;overflow:hidden"><div style="height:100%;width:'+idx+'%;background:'+L.col+'"></div></div>'+
+      '<div style="display:flex;justify-content:space-between;font-size:.6rem;color:#9ca3af;margin-top:.15rem"><span>0</span><span>50</span><span>100</span></div>'+
+      '<div style="font-size:.76rem;margin-top:.5rem">Está en el <b>'+L.top+'% más alto</b> del país.</div>'+
+      '<div style="font-size:.62rem;color:#9ca3af;font-style:italic;margin-top:.6rem">Nivel estimado de la zona con base en el Censo INEGI 2020 (estrato, escolaridad y equipamiento del hogar).</div>'+
+    '</div>'+
+    '<div class="rp-cell" style="background:#f8fafc;border:1px solid #e5e7eb;border-radius:14px;padding:1.1rem">'+
+      '<div style="font-size:.62rem;font-weight:800;color:#6b7280;letter-spacing:.06em;text-transform:uppercase">Poder adquisitivo</div>'+
+      '<div style="font-size:.85rem;font-weight:800;margin-bottom:.8rem">Ingreso de referencia: NSE vs. estatal</div>'+
+      '<div style="display:flex;justify-content:space-between;font-size:.76rem"><span>Referencia de ingreso NSE '+L.l+'</span><b style="font-size:.95rem">'+fmtMXN(L.med)+'/mes</b></div>'+
+      '<div style="height:7px;background:#e5e7eb;border-radius:4px;overflow:hidden;margin:.3rem 0 .1rem"><div style="height:100%;width:'+w1+'%;background:#374151"></div></div>'+
+      '<div style="font-size:.62rem;color:#9ca3af;margin-bottom:.7rem">Rango típico: '+fmtMXN(L.lo)+'–'+fmtMXN(L.hi)+'/mes</div>'+
+      '<div style="display:flex;justify-content:space-between;font-size:.76rem"><span>Mediana estatal urbana</span><b style="font-size:.95rem">'+fmtMXN(ESTATAL_URBANA_MED)+'/mes</b></div>'+
+      '<div style="height:7px;background:#e5e7eb;border-radius:4px;overflow:hidden;margin:.3rem 0 .1rem"><div style="height:100%;width:'+w2+'%;background:#6b7280"></div></div>'+
+      '<div style="font-size:.62rem;color:#9ca3af;margin-bottom:.7rem">Coahuila · urbano</div>'+
+      '<div style="background:#eef0f3;border-radius:9px;padding:.5rem .8rem;font-size:.78rem"><b>'+(diff>=0?'+':'')+diff+'%</b> respecto a la mediana estatal urbana</div>'+
+      '<div style="font-size:.62rem;color:#9ca3af;margin-top:.6rem">AMAI clasifica el nivel socioeconómico; ENIGH aporta los valores monetarios de referencia. El ingreso NSE '+L.l+' es estadístico (mediana de hogares del mismo nivel), no una medición directa del AGEB, la colonia, el radio o el predio.</div>'+
+    '</div>'+
+  '</div>';
+}
 function ipaLabel(v){ return v>=120?'Alto':v>=105?'Medio-alto':v>=90?'Medio':v>=75?'Medio-bajo':'Bajo'; }
 var _mb = null;
 function metroBaseline() {
@@ -317,6 +363,7 @@ function render(rings) {
     row('% NSE medio-alto/alto',function(s){return s.pct_nse_alto;},function(v){return v+'%';})+
     row('Poder adquisitivo (100=prom.)',function(s){return s.ipa;},function(v){return '<b>'+v+'</b> · '+ipaLabel(v);})+
     '</table><div class="note">NSE = estrato socioeconómico INEGI (1 Bajo – 5 Alto) ponderado por población. Poder adquisitivo = índice con proxies censales vs el promedio metropolitano.</div>'+
+    nseProfileCards(rings[anaIdx].stats, anaMins)+
     '<div class="rp-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.4rem">'+
       '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Estructura de edad</div><div style="position:relative;height:200px"><canvas id="ch-edad"></canvas></div></div>'+
       '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Conectividad y bienes (%)</div><div style="position:relative;height:200px"><canvas id="ch-conn"></canvas></div></div>'+
