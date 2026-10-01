@@ -1539,7 +1539,11 @@ function buildIsoReport() {
       row('Población 15–64 años', function(s){return s.pob_15_64;}) +
       row('Población 65+ años', function(s){return s.pob_65;}) +
       row('Escolaridad promedio (años)', function(s){return s.esc_prom;}, function(v){return v;}) +
+      row('NSE predominante', function(s){return NSE_LBL[s.nse_predominante]||'—';}, function(v){return v;}) +
+      row('% población NSE medio-alto/alto', function(s){return s.pct_nse_alto;}, function(v){return v+'%';}) +
+      row('Poder adquisitivo (100=prom. Laguna)', function(s){return s.ipa;}, function(v){return '<b>'+v+'</b> · '+ipaLabel(v);}) +
     '</table>' +
+    '<div style="font-size:.64rem;color:#9ca3af;margin-top:.3rem">NSE = estrato socioeconómico INEGI (1 Bajo – 5 Alto) ponderado por población. Poder adquisitivo = índice estimado con proxies censales (escolaridad, automóvil, computadora, internet, estrato) contra el promedio metropolitano.</div>' +
     // Charts
     '<div class="rp-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.4rem">' +
       '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Estructura de edad</div><div style="position:relative;height:200px"><canvas id="rc-edad"></canvas></div></div>' +
@@ -1559,6 +1563,11 @@ function buildIsoReport() {
         gr.items.map(function(it) {
           var lastB = bizByRing[anaIdx];
           var lastRel = (lastB.retailRel || {})[it[0]] || 0;
+          // Escasez vs el promedio metropolitano (hab por negocio relevante)
+          var bch = retailBench().bySub[it[0]];
+          var anaPop = ringsAsc[anaIdx].stats.poblacion || 0;
+          var escaso = lastRel > 0 && bch && bch.rel >= 20 && anaPop &&
+                       (anaPop / lastRel) / bch.habPerRel >= 2;
           return '<tr><td style="color:#6b7280;padding:.28rem .5rem .28rem 0">' + it[1] + '</td>' +
             bizByRing.map(function(b, bi) {
               var rel = (b.retailRel || {})[it[0]] || 0;
@@ -1567,6 +1576,7 @@ function buildIsoReport() {
                 return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>' +
                   (micro ? ' <span style="color:#9ca3af;font-size:.62rem">(' + micro + ' micro)</span>' : '') + '</td>';
               return '<td style="text-align:right;font-weight:600;padding:.28rem .6rem">' + (rel || '·') +
+                (bi === anaIdx && escaso ? ' <span style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">POCOS</span>' : '') +
                 (micro ? ' <span style="color:#9ca3af;font-weight:400;font-size:.62rem">+' + micro + 'µ</span>' : '') + '</td>';
             }).join('') + '</tr>';
         }).join('');
@@ -3111,11 +3121,14 @@ function isoSumFull(feats) {
     agebs: feats.length, poblacion:0, viviendas:0, hogares:0, pea:0,
     pob_desocupada:0, sin_salud:0,
     pob_0_14:0, pob_15_64:0, pob_65:0, escolaridad:[],
+    estratos: {1:0, 2:0, 3:0, 4:0, 5:0},
     _i:0, _au:0, _ag:0, _dr:0, _el:0, _re:0, _la:0, _ce:0, _co:0, _pi:0
   };
   feats.forEach(function(f) {
     var c = f.properties.censo2020 || {};
     var v = c.total_viviendas || 0;
+    var st = parseInt(f.properties.stratum, 10);
+    if (st >= 1 && st <= 5) s.estratos[st] += (c.poblacion_total || 0);
     s.poblacion      += c.poblacion_total || 0;
     s.viviendas      += v;
     s.hogares        += c.total_hogares || 0;
@@ -3153,7 +3166,66 @@ function isoSumFull(feats) {
   s.pct_desocupacion = +(s.pob_desocupada/dpea*100).toFixed(1);
   s.esc_prom = s.escolaridad.length
     ? +(s.escolaridad.reduce(function(a,b){return a+b;},0)/s.escolaridad.length).toFixed(1) : 0;
+
+  // Nivel socioeconómico (estrato INEGI 1-5, ponderado por población)
+  var stPop = 0, stSum = 0, maxSt = 0, maxPop = -1;
+  for (var k = 1; k <= 5; k++) {
+    stPop += s.estratos[k];
+    stSum += k * s.estratos[k];
+    if (s.estratos[k] > maxPop) { maxPop = s.estratos[k]; maxSt = k; }
+  }
+  s.nse_prom = stPop ? +(stSum / stPop).toFixed(2) : 0;
+  s.nse_predominante = maxSt;
+  s.pct_nse_alto = stPop ? +((s.estratos[4] + s.estratos[5]) / stPop * 100).toFixed(1) : 0;
+
+  // Índice de poder adquisitivo (100 = promedio de La Laguna; proxies censales)
+  var mb = metroBaseline();
+  if (mb) {
+    var ratios = [];
+    if (mb.esc)  ratios.push([0.25, s.esc_prom / mb.esc]);
+    if (mb.auto) ratios.push([0.25, s.pct_auto / mb.auto]);
+    if (mb.comp) ratios.push([0.20, s.pct_computadora / mb.comp]);
+    if (mb.inet) ratios.push([0.15, s.pct_internet / mb.inet]);
+    if (mb.nse)  ratios.push([0.15, s.nse_prom / mb.nse]);
+    var wsum = 0, acc = 0;
+    ratios.forEach(function(r){ wsum += r[0]; acc += r[0] * r[1]; });
+    s.ipa = wsum ? Math.round(acc / wsum * 100) : 0;
+  } else { s.ipa = 0; }
   return s;
+}
+
+var NSE_LBL = {1:'Bajo', 2:'Medio bajo', 3:'Medio', 4:'Medio alto', 5:'Alto'};
+var NSE_COLORS = {1:'#dc2626', 2:'#f59e0b', 3:'#84cc16', 4:'#0ea5e9', 5:'#7c3aed'};
+function ipaLabel(ipa) {
+  return ipa >= 120 ? 'Alto' : ipa >= 105 ? 'Medio-alto' : ipa >= 90 ? 'Medio' : ipa >= 75 ? 'Medio-bajo' : 'Bajo';
+}
+
+// Promedios metropolitanos para el índice de poder adquisitivo (se calcula una vez)
+var _metroBaseline = null;
+function metroBaseline() {
+  if (_metroBaseline) return _metroBaseline;
+  var pop = 0, viv = 0, esc = [], au = 0, co = 0, inet = 0, stSum = 0, stPop = 0;
+  ['torreon','gomezpalacio','matamoros'].forEach(function(cy) {
+    if (!AGEB_DATA[cy]) return;
+    AGEB_DATA[cy].features.forEach(function(f) {
+      var c = f.properties.censo2020 || {};
+      var v = c.total_viviendas || 0;
+      pop += c.poblacion_total || 0; viv += v;
+      if (c.grado_promedio_escolaridad) esc.push(c.grado_promedio_escolaridad);
+      au += (c.pct_automovil || 0) * v;
+      co += (c.pct_computadora || 0) * v;
+      inet += (c.pct_internet || 0) * v;
+      var st = parseInt(f.properties.stratum, 10);
+      if (st >= 1 && st <= 5) { stSum += st * (c.poblacion_total || 0); stPop += c.poblacion_total || 0; }
+    });
+  });
+  if (!viv) return null;
+  _metroBaseline = {
+    esc: esc.length ? esc.reduce(function(a,b){return a+b;},0) / esc.length : 0,
+    auto: au / viv, comp: co / viv, inet: inet / viv,
+    nse: stPop ? stSum / stPop : 0
+  };
+  return _metroBaseline;
 }
 
 function isoRun() {
@@ -3258,6 +3330,11 @@ function isoRun() {
       panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Empleo y salud</div>';
       panelHtml += fldH('PEA', fmtN(s.pea),'') + fldH('% Desocupación', s.pct_desocupacion+'%','') + fldH('Sin acceso salud', fmtN(s.sin_salud)+' ('+s.pct_sin_salud+'%)','');
       panelHtml += '</div>';
+      panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Nivel socioeconómico</div>';
+      panelHtml += fldH('NSE predominante', '<b style="color:'+(NSE_COLORS[s.nse_predominante]||'#6b7280')+'">'+(NSE_LBL[s.nse_predominante]||'—')+'</b>','');
+      panelHtml += fldH('% NSE medio-alto/alto', s.pct_nse_alto+'%','');
+      panelHtml += fldH('Poder adquisitivo', '<b>'+s.ipa+'</b> · '+ipaLabel(s.ipa)+' <span style="color:var(--muted);font-size:.65rem">(100 = prom. Laguna)</span>','');
+      panelHtml += '</div>';
       panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Bienes y conectividad</div>';
       panelHtml += fldH('% Internet', s.pct_internet+'%','') + fldH('% Automóvil', s.pct_auto+'%','') + fldH('% Celular', s.pct_celular+'%','') + fldH('% Computadora', s.pct_computadora+'%','') + fldH('% Refrigerador', s.pct_refrigerador+'%','') + fldH('% Lavadora', s.pct_lavadora+'%','');
       panelHtml += '</div>';
@@ -3309,7 +3386,9 @@ function isoRun() {
           pct_sin_salud: st.pct_sin_salud, pct_piso_tierra: st.pct_piso_tierra,
           pct_celular: st.pct_celular, pct_computadora: st.pct_computadora,
           pct_refrigerador: st.pct_refrigerador, pct_lavadora: st.pct_lavadora,
-          pct_desocupacion: st.pct_desocupacion, esc_prom: st.esc_prom
+          pct_desocupacion: st.pct_desocupacion, esc_prom: st.esc_prom,
+          nse_predominante: st.nse_predominante, nse_prom: st.nse_prom,
+          pct_nse_alto: st.pct_nse_alto, ipa: st.ipa
         }, biz: r.biz || null };
       })
     };
@@ -3477,10 +3556,13 @@ function compRetailTable(selZones, selTime, forPrint) {
           selZones.map(function(s) {
             var r = (s.rings||[]).find(function(x){ return x.mins===selTime; });
             if (!r || !r.biz || !r.biz.retail) return '<td style="text-align:right;padding:.26rem .6rem;color:'+muted+'">—</td>';
-            var n = r.biz.retail[it[0]] || 0;
+            var n = (r.biz.retailRel || r.biz.retail)[it[0]] || 0;
             if (!n) return '<td style="text-align:right;padding:.26rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span></td>';
             var pop = r.stats.poblacion || 0;
+            var bch = (typeof DENUE_DATA !== 'undefined' && DENUE_DATA) ? retailBench().bySub[it[0]] : null;
+            var escaso = bch && bch.rel >= 20 && pop && (pop/n) / bch.habPerRel >= 2;
             return '<td style="text-align:right;font-weight:600;padding:.26rem .6rem">' + n.toLocaleString() +
+              (escaso ? ' <span style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">POCOS</span>' : '') +
               ' <span style="color:'+muted+';font-weight:400;font-size:.66rem">(' + Math.round(pop/n).toLocaleString() + ')</span></td>';
           }).join('') + '</tr>';
       }).join('');
@@ -3761,6 +3843,9 @@ function showCompReport() {
       crow('PEA','pea') + crow('Escolaridad prom. (años)','esc_prom', function(v){return v;}) +
       crow('% Internet','pct_internet',pctf) + crow('% Automóvil','pct_auto',pctf) +
       crow('% Sin acceso a salud','pct_sin_salud',pctf) + crow('% Desocupación','pct_desocupacion',pctf) +
+      crow('NSE predominante','nse_predominante', function(v){return NSE_LBL[v]||'—';}) +
+      crow('% NSE medio-alto/alto','pct_nse_alto',pctf) +
+      crow('Poder adquisitivo (100=prom.)','ipa', function(v){return v ? '<b>'+v+'</b> · '+ipaLabel(v) : '—';}) +
     '</table>' +
     '<h2 style="font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Población por tiempo de traslado</h2>' +
     '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' + popTable + '</table>' +
