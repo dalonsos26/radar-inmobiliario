@@ -290,13 +290,10 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
   </div>
 
   <div class="tab-bar">
-    <button class="tab-btn active" onclick="showTab('props',this)">🏠 Propiedades</button>
-    <button class="tab-btn"        onclick="showTab('favs',this)">⭐ Favoritos</button>
-    <button class="tab-btn"        onclick="showTab('oportunidades',this)">🔍 Oportunidades <span id="oport-count" style="background:#dc2626;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
-    <button class="tab-btn"        onclick="showTab('mapa',this)">🗺️ Mapa</button>
-    <button class="tab-btn"        onclick="showTab('analizador',this)">📍 Location Analysis</button>
-    <button class="tab-btn"        onclick="showTab('brokers',this)">🏆 Brokers</button>
-    <button class="tab-btn"        onclick="showTab('stats',this)">📊 Estadísticas</button>
+    <button class="tab-btn active" id="sb-props" onclick="showTab('props',this)">🏠 Propiedades</button>
+    <button class="tab-btn"        id="sb-oport" onclick="showTab('oportunidades',this)">🔍 Oportunidades <span id="oport-count" style="background:#dc2626;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
+    <button class="tab-btn"        id="sb-ana"   onclick="showTab('analizador',this)">📍 Location Analysis</button>
+    <button class="tab-btn"        id="sb-stats" onclick="showTab('stats',this)">📊 Estadísticas</button>
   </div>
 
   <div class="sidebar-update">
@@ -319,6 +316,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <!-- TAB: Propiedades -->
 <div id="tab-props">
+<div class="toolbar" style="margin-bottom:.85rem;padding:.45rem .6rem;max-width:1420px;margin-left:auto;margin-right:auto"><div class="tb-group"><button class="btn sub-tab on" data-t="props" onclick="showTab('props',this)">🏠 Listado</button><button class="btn sub-tab" data-t="favs" onclick="showTab('favs',this)">⭐ Favoritos</button><button class="btn sub-tab" data-t="mapa" onclick="showTab('mapa',this)">🗺️ Mapa</button></div></div>
   <div class="toolbar">
     <div class="dd" id="dd-city">
       <button class="dd-btn" onclick="ddToggle('dd-city')">Ciudad: <span class="dd-val">Todas</span></button>
@@ -370,6 +368,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <!-- TAB: Favoritos -->
 <div id="tab-favs" style="display:none">
+<div class="toolbar" style="margin-bottom:.85rem;padding:.45rem .6rem;max-width:1420px;margin-left:auto;margin-right:auto"><div class="tb-group"><button class="btn sub-tab" data-t="props" onclick="showTab('props',this)">🏠 Listado</button><button class="btn sub-tab on" data-t="favs" onclick="showTab('favs',this)">⭐ Favoritos</button><button class="btn sub-tab" data-t="mapa" onclick="showTab('mapa',this)">🗺️ Mapa</button></div></div>
   <div id="favs-content"></div>
 </div>
 
@@ -433,6 +432,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <!-- TAB: Mapa -->
 <div id="tab-mapa" style="display:none">
+<div class="toolbar" style="margin-bottom:.85rem;padding:.45rem .6rem;max-width:1420px;margin-left:auto;margin-right:auto"><div class="tb-group"><button class="btn sub-tab" data-t="props" onclick="showTab('props',this)">🏠 Listado</button><button class="btn sub-tab" data-t="favs" onclick="showTab('favs',this)">⭐ Favoritos</button><button class="btn sub-tab on" data-t="mapa" onclick="showTab('mapa',this)">🗺️ Mapa</button></div></div>
   <div class="section">
     <div class="map-toolbar">
       <div class="dd" id="dd-mapop">
@@ -615,6 +615,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <!-- TAB: Brokers -->
 <div id="tab-brokers" style="display:none">
+<div class="toolbar" style="margin-bottom:.85rem;padding:.45rem .6rem;max-width:1420px;margin-left:auto;margin-right:auto"><div class="tb-group"><button class="btn sub-tab" data-t="stats" onclick="showTab('stats',this)">📊 Mercado</button><button class="btn sub-tab on" data-t="brokers" onclick="showTab('brokers',this)">🏆 Brokers</button></div></div>
   <div class="section">
     <div class="toolbar" style="margin-bottom:.85rem">
       <div class="tb-group">
@@ -636,6 +637,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
 
 <!-- TAB: Estadísticas -->
 <div id="tab-stats" style="display:none">
+<div class="toolbar" style="margin-bottom:.85rem;padding:.45rem .6rem;max-width:1420px;margin-left:auto;margin-right:auto"><div class="tb-group"><button class="btn sub-tab on" data-t="stats" onclick="showTab('stats',this)">📊 Mercado</button><button class="btn sub-tab" data-t="brokers" onclick="showTab('brokers',this)">🏆 Brokers</button></div></div>
   <div class="section">
     <div class="toolbar" style="margin-bottom:.85rem">
       <div class="tb-group">
@@ -869,8 +871,16 @@ function showTab(name, btn) {
   ['props','favs','mapa','oportunidades','brokers','stats','analizador'].forEach(function(t) {
     document.getElementById('tab-'+t).style.display = t===name ? '' : 'none';
   });
+  // El sidebar marca el grupo dueño: favs/mapa viven en Propiedades; brokers en Estadísticas
+  var owner = { props:'sb-props', favs:'sb-props', mapa:'sb-props',
+                oportunidades:'sb-oport', analizador:'sb-ana',
+                stats:'sb-stats', brokers:'sb-stats' }[name];
   document.querySelectorAll('.tab-btn').forEach(function(b) {
-    b.classList.toggle('active', b===btn);
+    b.classList.toggle('active', b.id === owner);
+  });
+  // Sub-pestañas activas dentro de cada grupo
+  document.querySelectorAll('.sub-tab').forEach(function(b) {
+    b.classList.toggle('on', b.dataset.t === name);
   });
   if (name==='favs')          renderFavs();
   if (name==='brokers')       renderBrokers();
