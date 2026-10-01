@@ -315,10 +315,9 @@ function render(rings) {
           rings.map(function(r,ri){
             var rel=(r.biz.retailRel||{})[it[0]]||0;
             var micro=((r.biz.retail||{})[it[0]]||0)-rel;
-            if(ri===anaIdx&&!aRel) return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>'+(micro?' <span style="color:#9ca3af;font-size:.62rem">('+micro+' micro)</span>':'')+'</td>';
+            if(ri===anaIdx&&!aRel) return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>'+'</td>';
             return '<td style="text-align:right;font-weight:600;padding:.28rem .6rem">'+(rel||'·')+
-              (ri===anaIdx&&escaso?' <span style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">POCOS</span>':'')+
-              (micro?' <span style="color:#9ca3af;font-weight:400;font-size:.62rem">+'+micro+'µ</span>':'')+'</td>';
+              (ri===anaIdx&&escaso?' <span style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">POCOS</span>':'')+'</td>';
           }).join('')+'</tr>';
       }).join('');
   }).join('');
@@ -371,7 +370,7 @@ function render(rings) {
     '<h2>Entorno comercial (DENUE · INEGI)</h2><table>'+th.replace(/Indicador/,'Giro')+
     '<tr><td style="font-weight:800;padding:.3rem .5rem .3rem 0">Negocios totales</td>'+rings.map(function(r){return '<td style="text-align:right;font-weight:800;padding:.3rem .6rem">'+fmtN(r.biz.total)+'</td>';}).join('')+'</tr>'+bizRows+'</table>'+
     '<h2>Retail detallado — competencia relevante</h2><table>'+th.replace(/Indicador/,'Sub-giro')+retailRows+'</table>'+
-    '<div class="note">Cifra principal = competencia relevante (6+ empleados, cadenas o locales en plaza). "+Nµ" = micronegocios independientes. <b style="color:#dc2626">FALTA</b> = sin competencia relevante · <b style="color:#b45309">POCOS</b> = menos de la mitad de lo que la zona soporta (anillo de '+anaMins+' min).</div>'+
+    '<div class="note">Cifra principal = competencia relevante (6+ empleados, cadenas o locales en plaza). <b style="color:#dc2626">FALTA</b> = sin competencia relevante · <b style="color:#b45309">POCOS</b> = menos de la mitad de lo que la zona soporta (anillo de '+anaMins+' min).</div>'+
     oppHtml +
     '<div style="margin-top:1.8rem;padding-top:.8rem;border-top:1px solid #e5e7eb;font-size:.66rem;color:#9ca3af;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.3rem">'+
       '<span>Fuentes: INEGI Censo 2020 (AGEB) · INEGI DENUE 2026 · Isócronas Mapbox</span>'+

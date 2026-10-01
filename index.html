@@ -472,7 +472,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
       <div class="tb-group">
         <button class="btn on" id="loc-tab-ageb" onclick="locSwitchTab('ageb',this)">📍 AGEB</button>
         <button class="btn"    id="loc-tab-iso"  onclick="locSwitchTab('iso',this)">⏱ Isócrona</button>
-        <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📊 Comparar <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
+        <button class="btn"    id="loc-tab-comp" onclick="locSwitchTab('comp',this)">📌 Ubicaciones <span id="comp-badge" style="background:#ea580c;color:#fff;border-radius:20px;font-size:.6rem;padding:.1rem .35rem;margin-left:.2rem;display:none"></span></button>
       </div>
       <div style="display:flex;align-items:center;gap:.4rem;margin-left:auto">
         <div style="position:relative">
@@ -578,13 +578,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
             <button id="iso-search-btn" class="save-btn" onclick="isoGeocode()">Buscar</button>
           </div>
           <div id="iso-location-info"></div>
-          <span class="iso-ctrl-lbl">Modo de transporte</span>
-          <div class="iso-mode-group">
-            <button class="iso-mode-btn on" id="iso-mode-walk"  onclick="isoSetMode('foot-walking',this)">🚶 A pie</button>
-            <button class="iso-mode-btn"    id="iso-mode-bike"  onclick="isoSetMode('cycling-regular',this)">🚲 Bici</button>
-            <button class="iso-mode-btn"    id="iso-mode-drive" onclick="isoSetMode('driving-car',this)">🚗 Auto</button>
-          </div>
-          <span class="iso-ctrl-lbl" id="iso-times-lbl">Tiempos: <b>5, 10, 20 min</b> (siempre se calculan todos)</span>
+          <span class="iso-ctrl-lbl" id="iso-times-lbl">Se calculan los 3 transportes: 🚶 5/10/20 · 🚲 5/10/20 · 🚗 5/10/15 min</span>
           <button id="iso-run-btn" onclick="isoRun()">Calcular isócrona</button>
           <div id="iso-hint">Haz clic en el mapa o busca una dirección para fijar el punto de origen.</div>
           <div id="iso-spinner">⏳ Calculando…</div>
@@ -1365,6 +1359,28 @@ function shareIsoLink() {
     navigator.clipboard.writeText(url).then(function(){ copied(true); }).catch(function(){ copied(false); });
   } else { copied(false); }
 }
+// Link compartible desde una ubicación guardada
+function shareZoneLink(id, btn) {
+  var z = isoGetSaved().find(function(s){ return s.id === id; });
+  if (!z || !z.point) { alert('Esta ubicación no tiene coordenadas guardadas; recalcúlala.'); return; }
+  var rid = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  var mode = z.modes ? (z.modes['driving-car'] ? 'driving-car' : Object.keys(z.modes)[0]) : (z.mode || 'driving-car');
+  var times = (zoneRings(z, mode) || []).map(function(r){ return r.mins; }).sort(function(a,b){ return a-b; });
+  var url = location.origin + '/reporte?lat=' + z.point.lat.toFixed(6) + '&lng=' + z.point.lng.toFixed(6) +
+    '&nom=' + encodeURIComponent(z.name) + '&modo=' + mode + '&t=' + (times.join(',') || '5,10,15') + '&id=' + rid;
+  var sent = [];
+  try { sent = JSON.parse(localStorage.getItem(SENT_KEY)) || []; } catch(e) {}
+  sent.unshift({ id: rid, nom: z.name, url: url, creado: new Date().toISOString() });
+  localStorage.setItem(SENT_KEY, JSON.stringify(sent.slice(0, 100)));
+  function done(ok) {
+    if (btn) { btn.textContent = ok ? '✓ copiado' : '🔗 link'; setTimeout(function(){ btn.textContent = '🔗 link'; }, 2000); }
+    if (!ok) window.prompt('Copia el link:', url);
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(function(){ done(true); }).catch(function(){ done(false); });
+  } else { done(false); }
+}
+
 function showEnviados() {
   var existing = document.getElementById('env-panel');
   if (existing) { existing.remove(); return; }
@@ -1636,15 +1652,13 @@ function buildIsoReport() {
               var rel = (b.retailRel || {})[it[0]] || 0;
               var micro = ((b.retail || {})[it[0]] || 0) - rel;
               if (bi === anaIdx && !lastRel)
-                return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>' +
-                  (micro ? ' <span style="color:#9ca3af;font-size:.62rem">(' + micro + ' micro)</span>' : '') + '</td>';
+                return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>' + '</td>';
               return '<td style="text-align:right;font-weight:600;padding:.28rem .6rem">' + (rel || '·') +
-                (bi === anaIdx && escaso ? ' <span style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">POCOS</span>' : '') +
-                (micro ? ' <span style="color:#9ca3af;font-weight:400;font-size:.62rem">+' + micro + 'µ</span>' : '') + '</td>';
+                (bi === anaIdx && escaso ? ' <span style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">POCOS</span>' : '') + '</td>';
             }).join('') + '</tr>';
         }).join('');
     }).join('') + '</table>' +
-    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">Cifra principal = competencia relevante: 6+ empleados, sucursales de cadena (nombre con 3+ ubicaciones en La Laguna) o locales en plaza comercial. "+Nµ" = micronegocios independientes restantes. <b style="color:#dc2626">FALTA</b> = sin competencia relevante en el anillo de análisis (' + anaMins + ' min' + (D.mode==='driving-car' ? ' — en auto se usa el anillo corto para que el micromercado sea realista' : '') + ').</div>' +
+    '<div style="font-size:.66rem;color:#9ca3af;margin-top:.4rem">Cifra principal = competencia relevante: 6+ empleados, sucursales de cadena (nombre con 3+ ubicaciones en La Laguna) o locales en plaza comercial. <b style="color:#dc2626">FALTA</b> = sin competencia relevante en el anillo de análisis (' + anaMins + ' min' + (D.mode==='driving-car' ? ' — en auto se usa el anillo corto para que el micromercado sea realista' : '') + ').</div>' +
     buildRetailOpportunities(bizByRing, ringsAsc, anaIdx) +
     (missing.length ? '<div style="background:#fef2f2;border:1px solid #fecaca;border-radius:10px;padding:.7rem .9rem;margin-top:.9rem;font-size:.78rem">' +
       '<b style="color:#dc2626">Giros ausentes en la zona (' + anaMins + ' min):</b> ' + missing.join(' · ') +
@@ -3366,158 +3380,129 @@ function isoRun() {
   _isoLayers.forEach(function(l){ _agebMap.removeLayer(l); });
   _isoLayers = [];
 
-  var valBody = {
-    locations: [{ lat: _isoPoint.lat, lon: _isoPoint.lng }],
-    costing: _isoMode === 'foot-walking' ? 'pedestrian' : 'auto',
-    contours: times.map(function(m){ return { time: m }; }),
-    polygons: true, denoise: 1, generalize: 150
-  };
+  var allAgeb = [];
+  ['torreon','gomezpalacio','matamoros'].forEach(function(c){
+    if (AGEB_DATA[c]) allAgeb = allAgeb.concat(AGEB_DATA[c].features);
+  });
+  var MODES = [['foot-walking','🚶 a pie'],['cycling-regular','🚲 bici'],['driving-car','🚗 auto']];
+  var addrEl = document.getElementById('iso-search');
+  var address = addrEl && addrEl.value ? addrEl.value : (_isoPoint.lat.toFixed(4)+','+_isoPoint.lng.toFixed(4));
+  var ringsFull = {}, featsByMode = {};
+  usageBump('isos', 3);
 
-  fetch('/api/isochrone', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ lat: _isoPoint.lat, lng: _isoPoint.lng, mode: _isoMode, times: times })
-  })
-  .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-  .then(function(geojson) {
-    btn.disabled = false; btn.textContent = '🔍 Calcular Isócronas'; spinner.style.display = 'none';
-
-    var features = (geojson.features || []).filter(function(f) {
-      return f && f.geometry && f.geometry.coordinates && f.geometry.coordinates.length &&
-             (f.geometry.type !== 'Polygon' || f.geometry.coordinates[0].length >= 4);
+  function trimRings(rings) {
+    return rings.map(function(r) {
+      var st = r.stats;
+      return { mins: r.mins, stats: {
+        poblacion: st.poblacion, viviendas: st.viviendas, hogares: st.hogares,
+        pea: st.pea, pob_0_14: st.pob_0_14, pob_15_64: st.pob_15_64, pob_65: st.pob_65,
+        pct_internet: st.pct_internet, pct_auto: st.pct_auto, pct_agua: st.pct_agua,
+        pct_drenaje: st.pct_drenaje, pct_electricidad: st.pct_electricidad,
+        pct_sin_salud: st.pct_sin_salud, pct_piso_tierra: st.pct_piso_tierra,
+        pct_celular: st.pct_celular, pct_computadora: st.pct_computadora,
+        pct_refrigerador: st.pct_refrigerador, pct_lavadora: st.pct_lavadora,
+        pct_desocupacion: st.pct_desocupacion, esc_prom: st.esc_prom,
+        nse_predominante: st.nse_predominante, nse_prom: st.nse_prom,
+        pct_nse_alto: st.pct_nse_alto, ipa: st.ipa
+      }, biz: r.biz || null };
     });
-    if (!features.length) throw new Error('La isócrona no devolvió polígonos válidos, intenta otro punto.');
-    features.sort(function(a,b){ return (b.properties.contour||0) - (a.properties.contour||0); });
+  }
 
-    // Draw polygons
-    features.forEach(function(feat, i) {
+  function runMode(i) {
+    if (i >= MODES.length) return Promise.resolve();
+    var mode = MODES[i][0];
+    btn.textContent = '⏳ Calculando ' + MODES[i][1] + '…';
+    var mTimes = (TIMES_BY_MODE[mode] || [5,10,20]).slice();
+    return fetch('/api/isochrone', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ lat: _isoPoint.lat, lng: _isoPoint.lng, mode: mode, times: mTimes })
+    })
+    .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function(gj) {
+      var feats = (gj.features || []).filter(function(f) {
+        return f && f.geometry && f.geometry.coordinates && f.geometry.coordinates.length &&
+               (f.geometry.type !== 'Polygon' || f.geometry.coordinates[0].length >= 4);
+      });
+      feats.sort(function(a,b){ return (b.properties.contour||0) - (a.properties.contour||0); });
+      featsByMode[mode] = feats;
+      ringsFull[mode] = feats.map(function(feat) {
+        var matching = allAgeb.filter(function(ag){ return isoIntersects(feat, ag); });
+        return { mins: feat.properties.contour || 0, stats: isoSumFull(matching),
+                 biz: DENUE_DATA ? isoCountBiz(feat) : null };
+      });
+      return runMode(i + 1);
+    });
+  }
+
+  runMode(0).then(function() {
+    btn.disabled = false; btn.textContent = '🔍 Calcular Isócronas'; spinner.style.display = 'none';
+    var drawMode = featsByMode['driving-car'] && featsByMode['driving-car'].length ? 'driving-car'
+                 : featsByMode['foot-walking'] && featsByMode['foot-walking'].length ? 'foot-walking' : 'cycling-regular';
+    var feats = featsByMode[drawMode] || [];
+    if (!feats.length) throw new Error('No se obtuvieron polígonos válidos.');
+
+    // Dibujar en el mapa los anillos en auto (referencia visual)
+    feats.forEach(function(feat, i) {
       var col = ISO_COLORS[i % ISO_COLORS.length];
       var layer = L.geoJSON(feat, {
         style: { color: col, weight: 2.5, fillColor: col, fillOpacity: 0.13, dashArray: '5 4' },
         interactive: false
       }).addTo(_agebMap);
       _isoLayers.push(layer);
+      var s = ringsFull[drawMode][i].stats;
+      var lm = L.marker(layer.getBounds().getCenter(), {
+        icon: L.divIcon({ className:'', iconAnchor:[0,0],
+          html:'<div style="background:'+col+';color:#fff;font-size:.63rem;font-weight:700;padding:.18rem .4rem;border-radius:14px;white-space:nowrap;box-shadow:0 2px 5px rgba(0,0,0,.3);pointer-events:none;line-height:1.4">'+(feat.properties.contour||0)+'min · '+fmtN(s.poblacion)+' hab</div>'
+        }), interactive: false, zIndexOffset: 500
+      }).addTo(_agebMap);
+      _isoLayers.push(lm);
     });
+    try { _agebMap.fitBounds(L.featureGroup(_isoLayers).getBounds(), { padding: [20, 20] }); } catch(e) {}
 
-    if (_isoLayers.length) {
-      try { _agebMap.fitBounds(L.featureGroup(_isoLayers).getBounds(), { padding: [20, 20] }); } catch(e) {}
-    }
-
-    // AGEB data (already in memory)
-    var allAgeb = [];
-    ['torreon','gomezpalacio','matamoros'].forEach(function(c){
-      if (AGEB_DATA[c]) allAgeb = allAgeb.concat(AGEB_DATA[c].features);
-    });
-
-    // Per-ring stats, labels and panel HTML
-    var geoLayers = _isoLayers.slice(); // snapshot before pushing labels
-    var rings = [];
-    var panelHtml = '';
-
-    features.forEach(function(feat, i) {
-      var col  = ISO_COLORS[i % ISO_COLORS.length];
-      var bg   = ISO_RING_BG[i % ISO_RING_BG.length];
-      var mins = feat.properties.contour || 0;
-      var matching = allAgeb.filter(function(ag){ return isoIntersects(feat, ag); });
-      var s = isoSumFull(matching);
-      rings.push({ mins: mins, stats: s, biz: DENUE_DATA ? isoCountBiz(feat) : null });
-
-      // Map label
-      var lyr = geoLayers[i];
-      if (lyr) {
-        var center = lyr.getBounds().getCenter();
-        var lm = L.marker(center, {
-          icon: L.divIcon({ className:'', iconAnchor:[0,0],
-            html:'<div style="background:'+col+';color:#fff;font-size:.63rem;font-weight:700;padding:.18rem .4rem;border-radius:14px;white-space:nowrap;box-shadow:0 2px 5px rgba(0,0,0,.3);pointer-events:none;line-height:1.4">'+mins+'min · '+fmtN(s.poblacion)+' hab</div>'
-          }), interactive: false, zIndexOffset: 500
-        }).addTo(_agebMap);
-        _isoLayers.push(lm);
-
-        // Click popup
-        lyr.bindPopup('<b style="color:'+col+'">'+mins+' min</b><br>Pob: <b>'+fmtN(s.poblacion)+'</b> · Viv: <b>'+fmtN(s.viviendas)+'</b><br>PEA: <b>'+fmtN(s.pea)+'</b> · Internet: <b>'+s.pct_internet+'%</b>', {maxWidth:200});
-      }
-
-      // Panel section
-      panelHtml += '<div class="iso-ring" style="border-color:'+col+';background:'+bg+';margin-bottom:.8rem">';
-      panelHtml += '<div class="iso-ring-title" style="color:'+col+'">⏱ '+mins+' min &nbsp;·&nbsp; '+s.agebs+' AGEBs</div>';
-      panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Demografía</div>';
-      panelHtml += fldH('Población total', fmtN(s.poblacion),'') + fldH('Pob. 0–14 años', fmtN(s.pob_0_14),'') + fldH('Pob. 15–64 años', fmtN(s.pob_15_64),'') + fldH('Pob. 65+ años', fmtN(s.pob_65),'') + fldH('Hogares', fmtN(s.hogares),'') + fldH('Escolaridad prom.', s.esc_prom+' años','');
-      panelHtml += '</div>';
-      panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Vivienda</div>';
-      panelHtml += fldH('Viviendas totales', fmtN(s.viviendas),'') + fldH('% Agua entubada', s.pct_agua+'%','') + fldH('% Drenaje', s.pct_drenaje+'%','') + fldH('% Electricidad', s.pct_electricidad+'%','') + fldH('% Piso de tierra', s.pct_piso_tierra+'%','');
-      panelHtml += '</div>';
-      panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Empleo y salud</div>';
-      panelHtml += fldH('PEA', fmtN(s.pea),'') + fldH('% Desocupación', s.pct_desocupacion+'%','') + fldH('Sin acceso salud', fmtN(s.sin_salud)+' ('+s.pct_sin_salud+'%)','');
-      panelHtml += '</div>';
-      panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Nivel socioeconómico</div>';
-      panelHtml += fldH('NSE predominante', '<b style="color:'+(NSE_COLORS[s.nse_predominante]||'#6b7280')+'">'+(NSE_LBL[s.nse_predominante]||'—')+'</b>','');
-      panelHtml += fldH('% NSE medio-alto/alto', s.pct_nse_alto+'%','');
-      panelHtml += fldH('Poder adquisitivo', '<b>'+s.ipa+'</b> · '+ipaLabel(s.ipa)+' <span style="color:var(--muted);font-size:.65rem">(100 = prom. Laguna)</span>','');
-      panelHtml += '</div>';
-      panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Bienes y conectividad</div>';
-      panelHtml += fldH('% Internet', s.pct_internet+'%','') + fldH('% Automóvil', s.pct_auto+'%','') + fldH('% Celular', s.pct_celular+'%','') + fldH('% Computadora', s.pct_computadora+'%','') + fldH('% Refrigerador', s.pct_refrigerador+'%','') + fldH('% Lavadora', s.pct_lavadora+'%','');
-      panelHtml += '</div>';
-      // Entorno comercial (DENUE) dentro del anillo
-      if (DENUE_DATA) {
-        var bc = isoCountBiz(feat);
-        panelHtml += '<div class="ageb-group"><div class="ageb-group-title">Entorno comercial (DENUE)</div>';
-        panelHtml += fldH('Negocios totales', fmtN(bc.total),'');
-        ['comercio','comida','finanzas','salud','educacion','industria','oficinas'].forEach(function(cn){
-          if (bc[cn]) panelHtml += fldH(cn.charAt(0).toUpperCase()+cn.slice(1), fmtN(bc[cn]),'');
-        });
-        panelHtml += '</div>';
-      }
-      panelHtml += '</div>';
-    });
-
-    // Datos para el reporte de ubicación
-    var addrEl0 = document.getElementById('iso-search');
+    // Datos para el reporte (en auto por defecto; el link compartible permite cambiar)
     _isoReportData = {
-      address: addrEl0 ? addrEl0.value : (_isoPoint.lat.toFixed(4)+','+_isoPoint.lng.toFixed(4)),
-      mode: _isoMode, point: { lat: _isoPoint.lat, lng: _isoPoint.lng },
-      feats: features, rings: rings, date: new Date()
+      address: address, mode: drawMode, point: { lat: _isoPoint.lat, lng: _isoPoint.lng },
+      feats: feats, rings: ringsFull[drawMode], date: new Date()
     };
 
-    // Build legend inline (iso-legend gets destroyed when results.innerHTML is set, so include it here)
-    var legendHtml = '<div style="margin-bottom:.6rem;display:flex;gap:.4rem">' +
+    // Auto-guardar la ubicación (los 3 modos) en 📌 Ubicaciones
+    var key = _isoPoint.lat.toFixed(4) + ',' + _isoPoint.lng.toFixed(4);
+    var modesTrim = {};
+    MODES.forEach(function(m){ if (ringsFull[m[0]]) modesTrim[m[0]] = trimRings(ringsFull[m[0]]); });
+    var saved = isoGetSaved();
+    var ex = saved.find(function(z){ return z.key === key; });
+    if (ex) {
+      ex.modes = modesTrim; ex.address = address; ex.savedAt = new Date().toLocaleDateString('es-MX');
+      _isoLastResult = ex;
+    } else {
+      var entry = { id: Date.now(), key: key, name: address.split(',')[0].slice(0, 40),
+        address: address, point: { lat: _isoPoint.lat, lng: _isoPoint.lng },
+        savedAt: new Date().toLocaleDateString('es-MX'), modes: modesTrim };
+      saved.unshift(entry);
+      _isoLastResult = entry;
+    }
+    isoSetSaved(saved);
+    _isoLastResult.rings = modesTrim[drawMode]; // compat con reporte/compartir
+    _isoLastResult.mode = drawMode;
+
+    // Resultado compacto: botones + leyenda (sin franja de estadísticas)
+    results.innerHTML =
+      '<div style="margin-bottom:.6rem;display:flex;gap:.4rem">' +
       '<button onclick="showIsoReport()" style="flex:1;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.78rem;font-weight:700;cursor:pointer">📄 Reporte</button>' +
       '<button id="iso-share-btn" onclick="shareIsoLink()" style="flex:1;background:#111827;color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.78rem;font-weight:700;cursor:pointer">🔗 Compartir link</button></div>' +
-      '<div class="iso-legend" style="margin-bottom:.5rem">'+
-      features.map(function(feat,i){
+      '<div class="iso-legend" style="margin-bottom:.5rem">' +
+      feats.map(function(feat,i){
         var col = ISO_COLORS[i%ISO_COLORS.length];
-        return '<span><span class="iso-legend-dot" style="background:'+col+'"></span>'+(feat.properties.contour||0)+' min</span>';
-      }).join('') + '</div>';
-
-    // Show results (replaces inner content of iso-results including old iso-legend)
-    results.innerHTML = legendHtml + panelHtml;
+        return '<span><span class="iso-legend-dot" style="background:'+col+'"></span>'+(feat.properties.contour||0)+' min 🚗</span>';
+      }).join('') + '</div>' +
+      '<div style="font-size:.72rem;color:var(--muted)">✓ Calculado a pie, bici y auto. La ubicación quedó guardada en <b>📌 Ubicaciones</b> — ponle nombre abajo si quieres.</div>';
     results.style.display = 'block';
 
-    // Store for save
-    var addrEl = document.getElementById('iso-search');
-    _isoLastResult = {
-      address: addrEl ? addrEl.value : (_isoPoint.lat.toFixed(4)+','+_isoPoint.lng.toFixed(4)),
-      mode: _isoMode,
-      rings: rings.map(function(r){
-        var st = r.stats;
-        return { mins: r.mins, stats: {
-          poblacion: st.poblacion, viviendas: st.viviendas, hogares: st.hogares,
-          pea: st.pea, pob_0_14: st.pob_0_14, pob_15_64: st.pob_15_64, pob_65: st.pob_65,
-          pct_internet: st.pct_internet, pct_auto: st.pct_auto, pct_agua: st.pct_agua,
-          pct_drenaje: st.pct_drenaje, pct_electricidad: st.pct_electricidad,
-          pct_sin_salud: st.pct_sin_salud, pct_piso_tierra: st.pct_piso_tierra,
-          pct_celular: st.pct_celular, pct_computadora: st.pct_computadora,
-          pct_refrigerador: st.pct_refrigerador, pct_lavadora: st.pct_lavadora,
-          pct_desocupacion: st.pct_desocupacion, esc_prom: st.esc_prom,
-          nse_predominante: st.nse_predominante, nse_prom: st.nse_prom,
-          pct_nse_alto: st.pct_nse_alto, ipa: st.ipa
-        }, biz: r.biz || null };
-      })
-    };
     var saveWrap = document.getElementById('iso-save-wrap');
     if (saveWrap) saveWrap.style.display = '';
+    var nameEl = document.getElementById('iso-save-name');
+    if (nameEl) nameEl.value = _isoLastResult.name || '';
     isoUpdateCompBadge();
-
-    // Auto-switch to iso sub-tab so results are visible
     var isoTabBtn = document.getElementById('loc-tab-iso');
     if (isoTabBtn && !isoTabBtn.classList.contains('on')) locSwitchTab('iso', isoTabBtn);
   })
@@ -3558,16 +3543,15 @@ function isoGetSaved() {
 function isoSetSaved(arr) { localStorage.setItem(ISO_SAVE_KEY, JSON.stringify(arr)); }
 
 function isoSaveAnalysis() {
-  if (!_isoLastResult) return;
+  // La ubicación ya se auto-guardó al calcular; este botón la renombra
+  if (!_isoLastResult || !_isoLastResult.id) return;
   var nameEl = document.getElementById('iso-save-name');
   var name = (nameEl.value || '').trim();
   if (!name) { nameEl.focus(); nameEl.style.borderColor='var(--red)'; return; }
   nameEl.style.borderColor='';
   var saved = isoGetSaved();
-  saved.push({ id: Date.now(), name: name, savedAt: new Date().toLocaleDateString('es-MX'),
-               address: _isoLastResult.address, mode: _isoLastResult.mode, rings: _isoLastResult.rings });
-  isoSetSaved(saved);
-  nameEl.value = '';
+  var z = saved.find(function(s){ return s.id === _isoLastResult.id; });
+  if (z) { z.name = name.slice(0, 40); isoSetSaved(saved); _isoLastResult.name = z.name; }
   var btn = document.getElementById('iso-save-btn');
   btn.textContent = '✓ Guardado'; btn.style.background='var(--new)';
   setTimeout(function(){ btn.textContent='Guardar'; btn.style.background=''; }, 2000);
@@ -3595,7 +3579,13 @@ var _compChart = null;
 var _compCharts = []; // Chart.js instances to destroy on re-render
 var _compRingMin = null;
 var _compSel = {};    // zonas seleccionadas para comparar (máx 4)
-var _compModes = { 'driving-car': 1, 'foot-walking': 1, 'cycling-regular': 1 };
+var _compMode = 'driving-car'; // modo de transporte activo en la comparación
+function setCompMode(m) { _compMode = m; renderCompTab(); }
+// Anillos de una ubicación para un modo (compatible con zonas guardadas viejas)
+function zoneRings(z, mode) {
+  if (z.modes) return z.modes[mode] || null;
+  return z.mode === mode ? (z.rings || null) : null;
+}
 var DENUE_CAT_LBL = { comercio:'🛒 Comercio', comida:'🍽 Restaurantes/Hoteles', finanzas:'🏦 Bancos/Finanzas', salud:'🏥 Salud',
   educacion:'🎓 Educación', industria:'🏭 Industria', oficinas:'💼 Oficinas', entretenimiento:'🎬 Entretenimiento',
   transporte:'🚚 Transporte', gobierno:'🏛 Gobierno' };
@@ -3633,7 +3623,7 @@ function toggleCompMode(m) {
 // Tabla comparativa de giros: negocios y concentración hab/negocio, marcando faltantes
 function compBizTable(selZones, selTime, forPrint) {
   var anyBiz = selZones.some(function(s){
-    var r = (s.rings||[]).find(function(x){ return x.mins===selTime; });
+    var r = (zoneRings(s,_compMode)||[]).find(function(x){ return x.mins===selTime; });
     return r && r.biz;
   });
   if (!anyBiz) return '<div style="font-size:.75rem;color:var(--muted);padding:.6rem 0">Las zonas guardadas no tienen datos de negocios — recalcula y vuelve a guardarlas para ver el entorno comercial.</div>';
@@ -3643,7 +3633,7 @@ function compBizTable(selZones, selTime, forPrint) {
   var rows = Object.keys(DENUE_CAT_LBL).map(function(c) {
     return '<tr><td style="color:'+muted+';padding:.32rem .5rem .32rem 0;white-space:nowrap">'+DENUE_CAT_LBL[c]+'</td>' +
       selZones.map(function(s) {
-        var r = (s.rings||[]).find(function(x){ return x.mins===selTime; });
+        var r = (zoneRings(s,_compMode)||[]).find(function(x){ return x.mins===selTime; });
         if (!r || !r.biz) return '<td style="text-align:right;padding:.32rem .6rem;color:'+muted+'">—</td>';
         var n = r.biz[c] || 0;
         var pop = r.stats.poblacion || 0;
@@ -3654,7 +3644,7 @@ function compBizTable(selZones, selTime, forPrint) {
   }).join('');
   var tot = '<tr><td style="font-weight:800;padding:.32rem .5rem .32rem 0">Negocios totales</td>' +
     selZones.map(function(s) {
-      var r = (s.rings||[]).find(function(x){ return x.mins===selTime; });
+      var r = (zoneRings(s,_compMode)||[]).find(function(x){ return x.mins===selTime; });
       return '<td style="text-align:right;font-weight:800;padding:.32rem .6rem">'+((r && r.biz) ? (r.biz.total||0).toLocaleString() : '—')+'</td>';
     }).join('') + '</tr>';
   return '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' + head + tot + rows + '</table>' +
@@ -3663,7 +3653,7 @@ function compBizTable(selZones, selTime, forPrint) {
 // Tabla comparativa retail detallado (24 sub-giros, agrupados)
 function compRetailTable(selZones, selTime, forPrint) {
   var anyR = selZones.some(function(s){
-    var r = (s.rings||[]).find(function(x){ return x.mins===selTime; });
+    var r = (zoneRings(s,_compMode)||[]).find(function(x){ return x.mins===selTime; });
     return r && r.biz && r.biz.retail;
   });
   if (!anyR) return '<div style="font-size:.75rem;color:var(--muted);padding:.6rem 0">Recalcula y vuelve a guardar las zonas para ver el detalle retail.</div>';
@@ -3675,7 +3665,7 @@ function compRetailTable(selZones, selTime, forPrint) {
       gr.items.map(function(it) {
         return '<tr><td style="color:'+muted+';padding:.26rem .5rem .26rem 0">' + it[1] + '</td>' +
           selZones.map(function(s) {
-            var r = (s.rings||[]).find(function(x){ return x.mins===selTime; });
+            var r = (zoneRings(s,_compMode)||[]).find(function(x){ return x.mins===selTime; });
             if (!r || !r.biz || !r.biz.retail) return '<td style="text-align:right;padding:.26rem .6rem;color:'+muted+'">—</td>';
             var n = (r.biz.retailRel || r.biz.retail)[it[0]] || 0;
             if (!n) return '<td style="text-align:right;padding:.26rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span></td>';
@@ -3743,105 +3733,86 @@ function renderCompTab() {
   }
 }
 function _renderCompTab() {
-  var saved = isoGetSaved().filter(function(s){ return _compModes[s.mode || 'driving-car'] !== 0; });
+  var saved = isoGetSaved();
   var contentEl = document.getElementById('comp-content');
   var chartsArea = document.getElementById('comp-charts-area');
 
   // Destroy previous Chart.js instances
   _compCharts.forEach(function(c){ try{ c.destroy(); }catch(e){} });
   _compCharts = [];
-
-  if (!saved.length) {
-    if (contentEl) contentEl.innerHTML = '<div class="comp-empty">Calcula isócronas y guárdalas para comparar.</div>';
-    if (chartsArea) chartsArea.innerHTML = '<div style="padding:1rem;color:#888">Sin zonas guardadas.</div>';
-    return;
-  }
-
-  // Collect all ring times
-  var allTimes = {};
-  saved.forEach(function(s){ (s.rings||[]).forEach(function(r){ allTimes[r.mins]=1; }); });
-  var timeOptions = Object.keys(allTimes).map(Number).sort(function(a,b){return a-b;});
-
-  // If no ring data (zones saved with old version), show message
-  if (!timeOptions.length) {
-    if (contentEl) contentEl.innerHTML = '';
-    if (chartsArea) chartsArea.innerHTML =
-      '<div style="padding:2rem;text-align:center;color:var(--muted);font-size:.9rem;background:var(--surface);border-radius:14px;border:1px dashed var(--border)">' +
-      '⚠️ Las zonas guardadas no tienen datos estadísticos.<br>Por favor, ve a <b>Isócrona</b>, recalcula cada zona y vuelve a guardarlas.' +
-      '<br><br><button onclick="var btn=document.getElementById(\'loc-tab-iso\');if(btn)locSwitchTab(\'iso\',btn)" style="background:var(--accent);color:#fff;border:none;border-radius:8px;padding:.5rem 1.2rem;font-size:.85rem;font-weight:600;cursor:pointer">→ Ir a Isócrona</button></div>';
-    return;
-  }
-
-  // Selección de zonas (máx 4): por defecto las primeras 4
-  var selZones = saved.filter(function(s){ return _compSel[s.id]; });
-  if (!selZones.length) {
-    saved.slice(0, 4).forEach(function(s){ _compSel[s.id] = 1; });
-    selZones = saved.filter(function(s){ return _compSel[s.id]; });
-  }
-
-  // Zone list in side panel
-  if (contentEl) {
-    var zoneHtml = '';
-    saved.forEach(function(s, i) {
-      var si = selZones.indexOf(s);
-      var col = si >= 0 ? COMP_COLORS[si%COMP_COLORS.length] : '#d1d5db';
-      var modeIcon = s.mode==='foot-walking'?'🚶':s.mode==='cycling-regular'?'🚲':'🚗';
-      zoneHtml += '<div class="comp-saved-item">' +
-        '<div class="comp-saved-dot" style="background:'+col+'"></div>' +
-        '<div style="flex:1;min-width:0"><div class="comp-saved-name">'+esc(s.name)+'</div>' +
-        '<div class="comp-saved-meta">'+modeIcon+' '+esc((s.address||'').split(',')[0])+'</div></div>' +
-        '<button class="comp-saved-del" onclick="isoDeleteSaved('+s.id+')">✕</button></div>';
-    });
-    contentEl.innerHTML = zoneHtml;
-  }
-
+  if (contentEl) contentEl.innerHTML = '';
   if (!chartsArea) return;
 
-  // Header
-  var hdr = '<div style="margin-bottom:1.2rem">';
-  hdr += '<div style="display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-bottom:.6rem">' +
-    '<span style="font-size:1rem;font-weight:800">📊 Reporte Comparativo</span>' +
-    '<span style="font-size:.7rem;color:var(--muted)">elige hasta 4 zonas haciendo clic</span>' +
-    '<button onclick="showCompReport()" style="margin-left:auto;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.45rem 1rem;font-size:.78rem;font-weight:700;cursor:pointer">🖨 Imprimir reporte</button></div>';
-  // Filtro por modo de transporte
-  hdr += '<div style="display:flex;align-items:center;gap:.4rem;margin-bottom:.6rem">' +
-    '<span style="font-size:.68rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Transporte:</span>' +
-    [['driving-car','🚗 Auto'],['foot-walking','🚶 A pie'],['cycling-regular','🚲 Bici']].map(function(m){
-      var on = _compModes[m[0]];
-      return '<button onclick="toggleCompMode(\''+m[0]+'\')" style="border:1.5px solid '+(on?'var(--accent)':'var(--border2)')+
-        ';background:'+(on?'var(--accent)':'var(--surface)')+';color:'+(on?'#fff':'var(--muted)')+
-        ';font-size:.72rem;font-weight:600;padding:.25rem .7rem;border-radius:20px;cursor:pointer">'+m[1]+'</button>';
-    }).join('') + '</div>';
-  // Zone selector pills (todas las guardadas; las no seleccionadas en gris)
-  hdr += '<div style="display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.8rem">';
-  saved.forEach(function(s){
-    var si = selZones.indexOf(s);
-    var on = si >= 0;
-    var col = on ? COMP_COLORS[si%COMP_COLORS.length] : '#d1d5db';
-    var icon = s.mode==='foot-walking'?'🚶':s.mode==='cycling-regular'?'🚲':'🚗';
-    var empty = !(s.rings||[]).some(function(r){ return (r.stats||{}).poblacion > 0; });
-    hdr += '<span onclick="toggleCompZone('+s.id+')" style="cursor:pointer;display:inline-flex;align-items:center;gap:.3rem;background:var(--surface);border:1.5px solid '+col+
-           ';border-radius:20px;padding:.2rem .5rem .2rem .6rem;font-size:.75rem;font-weight:600;opacity:'+(on?'1':'.55')+'">' +
-           '<span style="width:10px;height:10px;border-radius:50%;background:'+col+';flex-shrink:0"></span>'+
-           esc(s.name)+
-           (empty ? ' <span title="Guardada sin datos: recalcula la isócrona y vuelve a guardarla" style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">⚠ RECALCULAR</span>' : '')+
-           ' <span style="color:var(--muted);font-weight:400">'+icon+' '+esc((s.address||'').split(',')[0])+'</span>'+
-           '<button onclick="event.stopPropagation();isoDeleteSaved('+s.id+')" title="Eliminar zona" style="margin-left:.2rem;background:none;border:none;cursor:pointer;color:var(--muted);font-size:.8rem;padding:0 .1rem;line-height:1;border-radius:50%" onmouseover="this.style.color=\'#dc2626\'" onmouseout="this.style.color=\'var(--muted)\'">✕</button></span>';
-  });
-  hdr += '</div>';
-  // Ring selector
-  hdr += '<div style="display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">';
-  hdr += '<span style="font-size:.72rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em">Radio:</span>';
-  timeOptions.forEach(function(t){
-    var on = t===(_compRingMin||timeOptions[0]);
-    hdr += '<button onclick="_compRingMin='+t+';renderCompTab()" style="border:1.5px solid '+(on?'var(--accent)':'var(--border2)')+
-           ';background:'+(on?'var(--accent)':'var(--surface)')+';color:'+(on?'#fff':'var(--text)')+
-           ';font-size:.75rem;font-weight:600;padding:.28rem .7rem;border-radius:20px;cursor:pointer">'+t+' min</button>';
-  });
-  hdr += '</div></div>';
+  if (!saved.length) {
+    chartsArea.innerHTML = '<div style="padding:2rem;text-align:center;color:var(--muted);font-size:.9rem;background:var(--surface);border-radius:14px;border:1px dashed var(--border)">Aún no hay ubicaciones. Ve a <b>Isócrona</b>, elige un punto y calcula — se guarda aquí automáticamente.</div>';
+    return;
+  }
 
+  var selZones = saved.filter(function(s){ return _compSel[s.id]; });
+
+  // ── Listado de ubicaciones ──
+  var hdr = '<div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:1.1rem 1.2rem;box-shadow:var(--sh);margin-bottom:1rem">' +
+    '<div style="display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-bottom:.7rem">' +
+    '<span style="font-size:1rem;font-weight:800">📌 Ubicaciones analizadas (' + saved.length + ')</span>' +
+    '<span style="font-size:.7rem;color:var(--muted)">marca ☑ hasta 4 para compararlas</span>' +
+    (selZones.length ? '<button onclick="showCompReport()" style="margin-left:auto;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.45rem 1rem;font-size:.78rem;font-weight:700;cursor:pointer">🖨 Imprimir ' + (selZones.length > 1 ? 'comparativo' : 'reporte') + '</button>' : '') +
+    '</div>' +
+    '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' +
+    '<tr style="text-align:left;color:var(--muted);font-size:.64rem;text-transform:uppercase"><th style="padding:.3rem 0;width:30px"></th><th>Ubicación</th><th>Fecha</th><th>Modos</th><th></th></tr>' +
+    saved.map(function(s) {
+      var si = selZones.indexOf(s);
+      var on = si >= 0;
+      var col = on ? COMP_COLORS[si % COMP_COLORS.length] : '#d1d5db';
+      var modos = s.modes ? ['foot-walking','cycling-regular','driving-car'].filter(function(m){ return s.modes[m]; })
+                          : (s.mode ? [s.mode] : []);
+      var icons = { 'foot-walking':'🚶', 'cycling-regular':'🚲', 'driving-car':'🚗' };
+      var legacy = !s.modes;
+      return '<tr style="border-top:1px solid var(--border);cursor:pointer" onclick="toggleCompZone(' + s.id + ')">' +
+        '<td style="padding:.45rem 0"><span style="display:inline-block;width:16px;height:16px;border-radius:5px;border:2px solid ' + col + ';background:' + (on ? col : 'transparent') + ';vertical-align:middle"></span></td>' +
+        '<td><b>' + esc(s.name) + '</b>' +
+        (legacy ? ' <span title="Guardada con versión anterior: recalcula para tener los 3 modos" style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.58rem;padding:.1rem .35rem;border-radius:8px">⚠ RECALCULAR</span>' : '') +
+        '<br><span style="font-size:.68rem;color:var(--muted)">' + esc((s.address||'').split(',').slice(0,2).join(',')) + '</span></td>' +
+        '<td style="color:var(--muted);white-space:nowrap">' + esc(s.savedAt || '') + '</td>' +
+        '<td>' + modos.map(function(m){ return icons[m]; }).join(' ') + '</td>' +
+        '<td style="text-align:right;white-space:nowrap">' +
+        '<button onclick="event.stopPropagation();shareZoneLink(' + s.id + ', this)" title="Copiar link compartible" style="background:none;border:1px solid var(--border);border-radius:6px;cursor:pointer;font-size:.68rem;padding:.2rem .5rem;margin-right:.3rem">🔗 link</button>' +
+        '<button onclick="event.stopPropagation();isoDeleteSaved(' + s.id + ')" title="Eliminar" style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:.85rem" onmouseover="this.style.color=\'#dc2626\'" onmouseout="this.style.color=\'var(--muted)\'">✕</button></td></tr>';
+    }).join('') + '</table></div>';
+
+  // Sin selección suficiente: solo la lista
+  if (selZones.length < 2) {
+    chartsArea.innerHTML = hdr +
+      (selZones.length === 1 ? '<div style="padding:1rem;text-align:center;color:var(--muted);font-size:.82rem">1 seleccionada — marca otra para comparar, o imprime su reporte individual arriba.</div>'
+                             : '<div style="padding:1rem;text-align:center;color:var(--muted);font-size:.82rem">Marca 2 o más ubicaciones para ver la comparación aquí.</div>');
+    return;
+  }
+
+  // ── Comparación ──
+  // Tiempos disponibles del modo activo
+  var allTimes = {};
+  selZones.forEach(function(s){ (zoneRings(s, _compMode) || []).forEach(function(r){ allTimes[r.mins] = 1; }); });
+  var timeOptions = Object.keys(allTimes).map(Number).sort(function(a,b){ return a-b; });
+  if (!timeOptions.length) {
+    chartsArea.innerHTML = hdr + '<div style="padding:1.5rem;text-align:center;color:var(--muted);font-size:.85rem;background:var(--surface);border-radius:14px;border:1px dashed var(--border)">Las ubicaciones seleccionadas no tienen datos del modo elegido — recalcúlalas o cambia de transporte.' +
+      '<div style="margin-top:.6rem">' + [['driving-car','🚗 Auto'],['foot-walking','🚶 A pie'],['cycling-regular','🚲 Bici']].map(function(m){
+        return '<button onclick="setCompMode(\'' + m[0] + '\')" style="border:1.5px solid ' + (_compMode===m[0]?'var(--accent)':'var(--border2)') + ';background:' + (_compMode===m[0]?'var(--accent)':'var(--surface)') + ';color:' + (_compMode===m[0]?'#fff':'var(--text)') + ';font-size:.74rem;font-weight:600;padding:.3rem .8rem;border-radius:20px;cursor:pointer;margin:0 .2rem">' + m[1] + '</button>';
+      }).join('') + '</div></div>';
+    return;
+  }
   if (!_compRingMin || !allTimes[_compRingMin]) _compRingMin = timeOptions[0];
   var selTime = _compRingMin;
+
+  hdr += '<div style="margin-bottom:1rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap">' +
+    '<span style="font-size:.68rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Transporte:</span>' +
+    [['driving-car','🚗 Auto'],['foot-walking','🚶 A pie'],['cycling-regular','🚲 Bici']].map(function(m){
+      var on = _compMode === m[0];
+      return '<button onclick="setCompMode(\'' + m[0] + '\')" style="border:1.5px solid ' + (on?'var(--accent)':'var(--border2)') + ';background:' + (on?'var(--accent)':'var(--surface)') + ';color:' + (on?'#fff':'var(--muted)') + ';font-size:.72rem;font-weight:600;padding:.25rem .7rem;border-radius:20px;cursor:pointer">' + m[1] + '</button>';
+    }).join('') +
+    '<span style="font-size:.68rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-left:.6rem">Radio:</span>' +
+    timeOptions.map(function(t){
+      var on = t === selTime;
+      return '<button onclick="_compRingMin=' + t + ';renderCompTab()" style="border:1.5px solid ' + (on?'var(--accent)':'var(--border2)') + ';background:' + (on?'var(--accent)':'var(--surface)') + ';color:' + (on?'#fff':'var(--text)') + ';font-size:.72rem;font-weight:600;padding:.25rem .7rem;border-radius:20px;cursor:pointer">' + t + ' min</button>';
+    }).join('') + '</div>';
 
   // Build grid of Chart.js charts
   var grid = '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:1rem">';
@@ -3869,7 +3840,7 @@ function _renderCompTab() {
     if (!canvas) return;
     var labels = ch.metrics.map(function(m){ return m.label; });
     var datasets = selZones.map(function(s, i){
-      var ring = (s.rings||[]).find(function(r){ return r.mins===selTime; });
+      var ring = (zoneRings(s,_compMode)||[]).find(function(r){ return r.mins===selTime; });
       var data = ch.metrics.map(function(m){
         return ring ? (parseFloat(ring.stats[m.key])||0) : 0;
       });
@@ -3915,7 +3886,7 @@ function showCompReport() {
   closeIsoReport();
   var selTime = _compRingMin || 10;
   var modeIcon = function(m){ return m==='foot-walking'?'🚶 A pie':m==='cycling-regular'?'🚲 Bici':'🚗 Auto'; };
-  var ringOf = function(s){ return (s.rings||[]).find(function(r){ return r.mins===selTime; }); };
+  var ringOf = function(s){ return (zoneRings(s,_compMode)||[]).find(function(r){ return r.mins===selTime; }); };
 
   var zoneHdr = '<tr><th style="text-align:left;padding:.3rem .5rem .3rem 0;color:#6b7280;font-size:.66rem;text-transform:uppercase">Indicador</th>' +
     selZones.map(function(s,i){ return '<th style="text-align:right;padding:.3rem .6rem;color:'+COMP_COLORS[i%COMP_COLORS.length]+';font-size:.72rem">'+esc(s.name)+'</th>'; }).join('') + '</tr>';
@@ -3936,7 +3907,7 @@ function showCompReport() {
     times.map(function(t){
       return '<tr><td style="color:#6b7280;padding:.32rem .5rem .32rem 0">'+t+' min</td>' +
         selZones.map(function(s){
-          var r = (s.rings||[]).find(function(x){ return x.mins===t; });
+          var r = (zoneRings(s,_compMode)||[]).find(function(x){ return x.mins===t; });
           return '<td style="text-align:right;font-weight:600;padding:.32rem .6rem">'+(r ? (r.stats.poblacion||0).toLocaleString('es-MX') : '—')+'</td>';
         }).join('') + '</tr>';
     }).join('');
@@ -3956,7 +3927,7 @@ function showCompReport() {
       selZones.map(function(s,i){
         return '<span style="display:inline-flex;align-items:center;gap:.35rem;border:1.5px solid '+COMP_COLORS[i%COMP_COLORS.length]+';border-radius:20px;padding:.25rem .7rem;font-size:.75rem;font-weight:700">' +
           '<span style="width:10px;height:10px;border-radius:50%;background:'+COMP_COLORS[i%COMP_COLORS.length]+'"></span>'+esc(s.name)+
-          ' <span style="color:#6b7280;font-weight:400">'+modeIcon(s.mode)+' · '+esc((s.address||'').split(',').slice(0,2).join(','))+'</span></span>';
+          ' <span style="color:#6b7280;font-weight:400">'+modeIcon(_compMode)+' · '+esc((s.address||'').split(',').slice(0,2).join(','))+'</span></span>';
       }).join('') + '</div>' +
     '<h2 style="font-size:.95rem;font-weight:800;margin:1.2rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem">Indicadores clave a '+selTime+' minutos</h2>' +
     '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' + zoneHdr +
