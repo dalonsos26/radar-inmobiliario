@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reporte de Ubicación · NEAR Developments</title>
+<meta name="robots" content="noindex">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:#eef0f3;color:#111827;font-family:'Plus Jakarta Sans','Segoe UI',system-ui,sans-serif;min-height:100vh}
+.topbar{background:#111827;padding:.7rem 1.2rem;display:flex;gap:.7rem;justify-content:flex-end;position:sticky;top:0;z-index:10}
+.topbar button{border:none;border-radius:9px;padding:.5rem 1.2rem;font-size:.82rem;font-weight:700;cursor:pointer;font-family:inherit}
+#doc{max-width:860px;margin:0 auto;background:#fff;padding:2rem 2.2rem;min-height:100vh}
+h2{font-size:.95rem;font-weight:800;margin:1.6rem 0 .6rem;border-left:4px solid #ea580c;padding-left:.6rem}
+table{width:100%;border-collapse:collapse;font-size:.8rem}
+.note{font-size:.64rem;color:#9ca3af;margin-top:.35rem}
+.ctl{background:#f8fafc;border:1.5px dashed #d1d5db;border-radius:12px;padding:.9rem 1rem;margin:1rem 0;display:flex;gap:.9rem;flex-wrap:wrap;align-items:center}
+.ctl .lbl{font-size:.66rem;font-weight:700;color:#6b7280;text-transform:uppercase;letter-spacing:.05em}
+.pill{border:1.5px solid #d1d5db;background:#fff;color:#374151;font-size:.76rem;font-weight:600;padding:.32rem .8rem;border-radius:999px;cursor:pointer;font-family:inherit}
+.pill.on{background:#ea580c;border-color:#ea580c;color:#fff}
+.go{background:#ea580c;color:#fff;border:none;border-radius:9px;padding:.45rem 1.1rem;font-size:.8rem;font-weight:700;cursor:pointer;font-family:inherit;margin-left:auto}
+.rp-cell{page-break-inside:avoid;break-inside:avoid}
+#doc tr{page-break-inside:avoid;break-inside:avoid}
+#doc h2{page-break-after:avoid}
+#loading{text-align:center;padding:3rem;color:#6b7280;font-size:.9rem}
+@media print{ .topbar,.ctl{display:none!important} body{background:#fff} #doc{padding:0;max-width:none} }
+@media(max-width:700px){ #doc{padding:1.2rem .9rem} .ctl{gap:.5rem} }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <button id="dl-btn" onclick="descargarPDF()" style="background:#ea580c;color:#fff">⬇ Descargar PDF</button>
+  <button onclick="window.print()" style="background:transparent;color:#e5e7eb;border:1.5px solid #374151">🖨 Imprimir</button>
+</div>
+<div id="doc">
+  <div style="display:flex;align-items:center;justify-content:space-between;border-bottom:3px solid #ea580c;padding-bottom:1rem;margin-bottom:1rem">
+    <img src="assets/logo-near.png" alt="NEAR Developments" style="height:44px">
+    <div style="text-align:right"><div style="font-size:1.15rem;font-weight:800">Reporte de Ubicación</div>
+    <div id="fecha" style="font-size:.72rem;color:#6b7280"></div></div>
+  </div>
+  <div id="ubicacion" style="margin-bottom:.4rem"></div>
+  <div class="ctl" id="controles">
+    <span class="lbl">Transporte:</span>
+    <button class="pill" data-m="foot-walking" onclick="setModo(this)">🚶 A pie</button>
+    <button class="pill" data-m="cycling-regular" onclick="setModo(this)">🚲 Bici</button>
+    <button class="pill" data-m="driving-car" onclick="setModo(this)">🚗 Auto</button>
+    <span class="lbl">Minutos:</span>
+    <span id="tiempos"></span>
+    <button class="go" onclick="analizar()">Actualizar análisis</button>
+  </div>
+  <div id="contenido"><div id="loading">⏳ Cargando análisis…</div></div>
+</div>
+
+<script>
+// ── Parámetros del link ─────────────────────────────────────────────────────
+var Q = new URLSearchParams(location.search);
+var LAT = parseFloat(Q.get('lat')), LNG = parseFloat(Q.get('lng'));
+var NOM = Q.get('nom') || 'Ubicación';
+var MODO = Q.get('modo') || 'driving-car';
+var TIEMPOS = (Q.get('t') || '5,10,15').split(',').map(Number).filter(function(x){return x>0&&x<=60;});
+var RID = Q.get('id') || '';
+var TODOS_T = [3,5,10,15,20];
+
+var _gh = 'https://raw.githubusercontent.com/dalonsos26/radar-inmobiliario/main/data';
+var _isProd = location.hostname !== 'localhost' && location.hostname !== '127.0.0.1';
+function dataURL(f){ return _isProd ? _gh+'/'+f : '/data/'+f; }
+
+var AGEB = null, DENUE = null, MAPBOX_TOKEN = '', _charts = [];
+
+// ── Registro de visita (una por carga) ──────────────────────────────────────
+if (RID) {
+  fetch('/api/visita', { method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ id: RID, nom: NOM }) }).catch(function(){});
+}
+
+// ── Geometría ───────────────────────────────────────────────────────────────
+function pip(pt, geom) {
+  var polys = geom.type==='Polygon' ? [geom.coordinates] : geom.coordinates;
+  for (var p=0;p<polys.length;p++){
+    var inside=false, ring=polys[p][0];
+    for (var i=0,j=ring.length-1;i<ring.length;j=i++){
+      var xi=ring[i][0],yi=ring[i][1],xj=ring[j][0],yj=ring[j][1];
+      if (((yi>pt[1])!==(yj>pt[1])) && (pt[0] < (xj-xi)*(pt[1]-yi)/(yj-yi)+xi)) inside=!inside;
+    }
+    if (inside) return true;
+  }
+  return false;
+}
+function ringsOf(g){ return g.type==='Polygon' ? [g.coordinates] : g.coordinates; }
+function centroid(rings){ var r=rings[0],x=0,y=0; r.forEach(function(c){x+=c[0];y+=c[1];}); return [x/r.length,y/r.length]; }
+function intersects(isoG, agG) {
+  var ar = ringsOf(agG), ir = ringsOf(isoG), i, k;
+  for (i=0;i<ar.length;i++) if (pip(centroid([ar[i][0]]), isoG)) return true;
+  for (i=0;i<ir.length;i++){ var o=ir[i][0]||[], st=Math.max(1,Math.floor(o.length/30));
+    for (k=0;k<o.length;k+=st) if (pip(o[k], agG)) return true; }
+  for (i=0;i<ar.length;i++){ var ao=ar[i][0]||[], as=Math.max(1,Math.floor(ao.length/30));
+    for (k=0;k<ao.length;k+=as) if (pip(ao[k], isoG)) return true; }
+  return false;
+}
+
+// ── Estadísticas censales + NSE (mismo método que el radar) ─────────────────
+var NSE_LBL = {1:'Bajo',2:'Medio bajo',3:'Medio',4:'Medio alto',5:'Alto'};
+function ipaLabel(v){ return v>=120?'Alto':v>=105?'Medio-alto':v>=90?'Medio':v>=75?'Medio-bajo':'Bajo'; }
+var _mb = null;
+function metroBaseline() {
+  if (_mb) return _mb;
+  var pop=0,viv=0,esc=[],au=0,co=0,inet=0,stS=0,stP=0;
+  Object.keys(AGEB).forEach(function(cy){ AGEB[cy].features.forEach(function(f){
+    var c=f.properties.censo2020||{}, v=c.total_viviendas||0;
+    pop+=c.poblacion_total||0; viv+=v;
+    if (c.grado_promedio_escolaridad) esc.push(c.grado_promedio_escolaridad);
+    au+=(c.pct_automovil||0)*v; co+=(c.pct_computadora||0)*v; inet+=(c.pct_internet||0)*v;
+    var st=parseInt(f.properties.stratum,10);
+    if (st>=1&&st<=5){ stS+=st*(c.poblacion_total||0); stP+=c.poblacion_total||0; }
+  });});
+  _mb = { pop:pop, esc: esc.length?esc.reduce(function(a,b){return a+b;},0)/esc.length:0,
+          auto:au/viv, comp:co/viv, inet:inet/viv, nse:stP?stS/stP:0 };
+  return _mb;
+}
+function sumStats(feats) {
+  var s={agebs:feats.length,poblacion:0,viviendas:0,hogares:0,pea:0,pob_desocupada:0,sin_salud:0,
+    pob_0_14:0,pob_15_64:0,pob_65:0,esc:[],estratos:{1:0,2:0,3:0,4:0,5:0},
+    _i:0,_au:0,_ag:0,_dr:0,_el:0,_ce:0,_co:0};
+  feats.forEach(function(f){
+    var c=f.properties.censo2020||{}, v=c.total_viviendas||0;
+    var st=parseInt(f.properties.stratum,10);
+    if (st>=1&&st<=5) s.estratos[st]+=c.poblacion_total||0;
+    s.poblacion+=c.poblacion_total||0; s.viviendas+=v; s.hogares+=c.total_hogares||0;
+    s.pea+=c.poblacion_economicamente_activa||0; s.pob_desocupada+=c.poblacion_desocupada||0;
+    s.pob_0_14+=c.poblacion_0_14||0; s.pob_15_64+=c.poblacion_15_64||0; s.pob_65+=c.poblacion_65_mas||0;
+    s.sin_salud+=c.sin_acceso_salud||0;
+    if (c.grado_promedio_escolaridad) s.esc.push(c.grado_promedio_escolaridad);
+    s._i+=(c.pct_internet||0)*v; s._au+=(c.pct_automovil||0)*v; s._ag+=(c.pct_agua_entubada||0)*v;
+    s._dr+=(c.pct_drenaje||0)*v; s._el+=(c.pct_con_electricidad||0)*v;
+    s._ce+=(c.pct_celular||0)*v; s._co+=(c.pct_computadora||0)*v;
+  });
+  var dv=s.viviendas||1, dp=s.poblacion||1, de=s.pea||1;
+  function p(n){return +(n/dv).toFixed(1);}
+  s.pct_internet=p(s._i); s.pct_auto=p(s._au); s.pct_agua=p(s._ag); s.pct_drenaje=p(s._dr);
+  s.pct_electricidad=p(s._el); s.pct_celular=p(s._ce); s.pct_computadora=p(s._co);
+  s.pct_sin_salud=+(s.sin_salud/dp*100).toFixed(1);
+  s.pct_desocupacion=+(s.pob_desocupada/de*100).toFixed(1);
+  s.esc_prom=s.esc.length?+(s.esc.reduce(function(a,b){return a+b;},0)/s.esc.length).toFixed(1):0;
+  var stP=0,stS=0,mx=0,mp=-1;
+  for (var k=1;k<=5;k++){ stP+=s.estratos[k]; stS+=k*s.estratos[k]; if(s.estratos[k]>mp){mp=s.estratos[k];mx=k;} }
+  s.nse_prom=stP?+(stS/stP).toFixed(2):0; s.nse_predominante=mx;
+  s.pct_nse_alto=stP?+((s.estratos[4]+s.estratos[5])/stP*100).toFixed(1):0;
+  var mb=metroBaseline(), rs=[];
+  if (mb.esc) rs.push([0.25,s.esc_prom/mb.esc]); if (mb.auto) rs.push([0.25,s.pct_auto/mb.auto]);
+  if (mb.comp) rs.push([0.20,s.pct_computadora/mb.comp]); if (mb.inet) rs.push([0.15,s.pct_internet/mb.inet]);
+  if (mb.nse) rs.push([0.15,s.nse_prom/mb.nse]);
+  var w=0,a=0; rs.forEach(function(r){w+=r[0];a+=r[0]*r[1];});
+  s.ipa=w?Math.round(a/w*100):0;
+  return s;
+}
+
+// ── DENUE: competencia relevante, conteos y benchmark ───────────────────────
+var CAT_LBL={comercio:'🛒 Comercio',comida:'🍽 Restaurantes/Hoteles',finanzas:'🏦 Bancos/Finanzas',salud:'🏥 Salud',educacion:'🎓 Educación',industria:'🏭 Industria',oficinas:'💼 Oficinas',entretenimiento:'🎬 Entretenimiento',transporte:'🚚 Transporte',gobierno:'🏛 Gobierno'};
+var RETAIL_CATS=[
+ {g:'Alimentos y conveniencia',items:[[1,'Conveniencia/abarrotes'],[2,'Supermercados'],[3,'Tortillerías y panaderías'],[4,'Carnes, frutas y frescos'],[5,'Vinos y licores']]},
+ {g:'Salud y cuidado personal',items:[[6,'Farmacias'],[7,'Consultorios médicos/dentales'],[8,'Ópticas'],[9,'Salones de belleza/barberías'],[10,'Gimnasios']]},
+ {g:'Comercio especializado',items:[[11,'Ropa y calzado'],[12,'Mueblerías y decoración'],[13,'Electrónica y telefonía'],[14,'Ferreterías y construcción'],[15,'Refaccionarias/autopartes'],[16,'Papelerías y librerías'],[17,'Mascotas y veterinarias']]},
+ {g:'Alimentos preparados',items:[[18,'Comida rápida y antojitos'],[19,'Restaurantes serv. completo'],[20,'Cafeterías y neverías'],[21,'Bares y cantinas']]},
+ {g:'Servicios ancla',items:[[22,'Bancos y casas de empeño'],[23,'Lavanderías/tintorerías'],[24,'Escuelas y guarderías']]}];
+var RETAIL_LBL={}; RETAIL_CATS.forEach(function(g){g.items.forEach(function(it){RETAIL_LBL[it[0]]=it[1];});});
+function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+function empMin(x){var m=/(\d+)/.exec(x||'');return m?parseInt(m[1],10):0;}
+var _chains=null;
+function chains(){ if(_chains) return _chains; var c={};
+  Object.keys(DENUE).forEach(function(k){DENUE[k].forEach(function(p){var n=norm(p[2]); if(n.length>=4) c[n]=(c[n]||0)+1;});});
+  _chains={}; Object.keys(c).forEach(function(n){if(c[n]>=3)_chains[n]=1;}); return _chains; }
+function relevante(p){ return empMin(p[3])>=6 || !!p[8] || !!chains()[norm(p[2])]; }
+var _bench=null;
+function bench(){ if(_bench) return _bench; var mb=metroBaseline(), c={};
+  Object.keys(DENUE).forEach(function(k){DENUE[k].forEach(function(p){ if(!p[11])return;
+    if(!c[p[11]])c[p[11]]={rel:0}; if(relevante(p))c[p[11]].rel++; });});
+  _bench={pop:mb.pop,bySub:{}};
+  Object.keys(c).forEach(function(r){_bench.bySub[r]={rel:c[r].rel,habPerRel:c[r].rel?mb.pop/c[r].rel:Infinity};});
+  return _bench; }
+function countBiz(feat){
+  var g=feat.geometry,minx=180,miny=90,maxx=-180,maxy=-90;
+  ringsOf(g).forEach(function(r){r[0].forEach(function(c){ if(c[0]<minx)minx=c[0]; if(c[0]>maxx)maxx=c[0]; if(c[1]<miny)miny=c[1]; if(c[1]>maxy)maxy=c[1]; });});
+  var out={total:0,retail:{},retailRel:{}};
+  Object.keys(DENUE).forEach(function(c){DENUE[c].forEach(function(p){
+    var lng=p[1],lat=p[0];
+    if(lng<minx||lng>maxx||lat<miny||lat>maxy)return;
+    if(!pip([lng,lat],g))return;
+    out.total++; out[c]=(out[c]||0)+1;
+    if(p[11]){ out.retail[p[11]]=(out.retail[p[11]]||0)+1; if(relevante(p)) out.retailRel[p[11]]=(out.retailRel[p[11]]||0)+1; }
+  });});
+  return out;
+}
+function fmtN(n){ return (n||0).toLocaleString('es-MX'); }
+function esc_(t){ return String(t==null?'':t).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+
+// ── Controles ───────────────────────────────────────────────────────────────
+function setModo(btn){ MODO=btn.dataset.m; document.querySelectorAll('.pill[data-m]').forEach(function(b){b.classList.toggle('on',b===btn);}); }
+function renderTiempos(){
+  document.getElementById('tiempos').innerHTML = TODOS_T.map(function(t){
+    return '<button class="pill'+(TIEMPOS.indexOf(t)>-1?' on':'')+'" data-t="'+t+'" onclick="togT(this)" style="margin-right:.25rem">'+t+'</button>';
+  }).join('');
+}
+function togT(btn){ var t=parseInt(btn.dataset.t,10);
+  var i=TIEMPOS.indexOf(t);
+  if(i>-1){ if(TIEMPOS.length<=1)return; TIEMPOS.splice(i,1); btn.classList.remove('on'); }
+  else { if(TIEMPOS.length>=4){alert('Máximo 4 tiempos a la vez.');return;} TIEMPOS.push(t); TIEMPOS.sort(function(a,b){return a-b;}); btn.classList.add('on'); }
+}
+
+// ── Análisis principal ──────────────────────────────────────────────────────
+function analizar() {
+  var cont=document.getElementById('contenido');
+  cont.innerHTML='<div id="loading">⏳ Calculando isócronas y estadísticas…</div>';
+  _charts.forEach(function(c){try{c.destroy();}catch(e){}}); _charts=[];
+  fetch('/api/isochrone',{method:'POST',headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({lat:LAT,lng:LNG,mode:MODO,times:TIEMPOS.slice()})})
+  .then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
+  .then(function(gj){
+    var feats=(gj.features||[]).filter(function(f){return f&&f.geometry&&f.geometry.coordinates&&f.geometry.coordinates.length;});
+    if(!feats.length) throw new Error('sin polígonos');
+    feats.sort(function(a,b){return (a.properties.contour||0)-(b.properties.contour||0);});
+    var allAgeb=[]; Object.keys(AGEB).forEach(function(c){allAgeb=allAgeb.concat(AGEB[c].features);});
+    var rings=feats.map(function(f){
+      var mins=f.properties.contour||0;
+      var m=allAgeb.filter(function(ag){return intersects(f.geometry,ag.geometry);});
+      return {mins:mins,stats:sumStats(m),biz:countBiz(f),feat:f};
+    });
+    render(rings);
+  })
+  .catch(function(e){ cont.innerHTML='<div id="loading">❌ No se pudo calcular ('+esc_(e.message)+'). Intenta de nuevo.</div>'; });
+}
+
+function render(rings) {
+  var modeLbl = MODO==='foot-walking'?'🚶 A pie':MODO==='cycling-regular'?'🚲 En bicicleta':'🚗 En auto (con tráfico)';
+  var anaIdx = MODO==='driving-car' ? 0 : rings.length-1;
+  var anaMins = rings[anaIdx].mins;
+  var COLS=['#059669','#0ea5e9','#7c3aed','#d97706','#dc2626'];
+  document.getElementById('ubicacion').innerHTML =
+    '<div style="font-size:1rem;font-weight:800">📍 '+esc_(NOM)+'</div>'+
+    '<div style="font-size:.74rem;color:#6b7280">'+LAT.toFixed(5)+', '+LNG.toFixed(5)+' · '+modeLbl+': '+rings.map(function(r){return r.mins;}).join(', ')+' minutos</div>';
+
+  var th='<tr><th style="text-align:left;padding:.3rem .5rem .3rem 0;color:#6b7280;font-size:.66rem;text-transform:uppercase">Indicador</th>'+
+    rings.map(function(r,i){return '<th style="text-align:right;padding:.3rem .6rem;color:'+COLS[i%5]+';font-size:.72rem">'+r.mins+' min</th>';}).join('')+'</tr>';
+  function row(lbl,fn,fmt){ return '<tr><td style="color:#6b7280;padding:.3rem .5rem .3rem 0">'+lbl+'</td>'+
+    rings.map(function(r){return '<td style="text-align:right;font-weight:600;padding:.3rem .6rem">'+(fmt||fmtN)(fn(r.stats))+'</td>';}).join('')+'</tr>'; }
+  var idf=function(v){return v;};
+
+  var mapa = MAPBOX_TOKEN ?
+    '<img src="https://api.mapbox.com/styles/v1/mapbox/light-v11/static/pin-l+ea580c('+LNG+','+LAT+')/'+LNG+','+LAT+',13.2,0/860x330@2x?access_token='+MAPBOX_TOKEN+'" style="width:100%;border-radius:12px;border:1px solid #e5e7eb" alt="Mapa">' : '';
+
+  // Entorno comercial por giro
+  var bizRows=Object.keys(CAT_LBL).map(function(c){
+    if(!rings.some(function(r){return r.biz[c];})) return '';
+    return '<tr><td style="color:#6b7280;padding:.3rem .5rem .3rem 0">'+CAT_LBL[c]+'</td>'+
+      rings.map(function(r){return '<td style="text-align:right;font-weight:600;padding:.3rem .6rem">'+fmtN(r.biz[c]||0)+'</td>';}).join('')+'</tr>';
+  }).join('');
+
+  // Retail detallado con FALTA / POCOS
+  var retailRows=RETAIL_CATS.map(function(gr){
+    return '<tr><td colspan="'+(rings.length+1)+'" style="font-size:.66rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#ea580c;padding:.55rem .5rem .2rem 0">'+gr.g+'</td></tr>'+
+      gr.items.map(function(it){
+        var aRel=(rings[anaIdx].biz.retailRel||{})[it[0]]||0;
+        var bch=bench().bySub[it[0]], pop=rings[anaIdx].stats.poblacion||0;
+        var escaso=aRel>0&&bch&&bch.rel>=20&&pop&&(pop/aRel)/bch.habPerRel>=2;
+        return '<tr><td style="color:#6b7280;padding:.28rem .5rem .28rem 0">'+it[1]+'</td>'+
+          rings.map(function(r,ri){
+            var rel=(r.biz.retailRel||{})[it[0]]||0;
+            var micro=((r.biz.retail||{})[it[0]]||0)-rel;
+            if(ri===anaIdx&&!aRel) return '<td style="text-align:right;padding:.28rem .6rem"><span style="background:#fef2f2;color:#dc2626;font-weight:800;font-size:.64rem;padding:.12rem .4rem;border-radius:8px">FALTA</span>'+(micro?' <span style="color:#9ca3af;font-size:.62rem">('+micro+' micro)</span>':'')+'</td>';
+            return '<td style="text-align:right;font-weight:600;padding:.28rem .6rem">'+(rel||'·')+
+              (ri===anaIdx&&escaso?' <span style="background:#fffbeb;color:#b45309;font-weight:800;font-size:.6rem;padding:.1rem .35rem;border-radius:8px">POCOS</span>':'')+
+              (micro?' <span style="color:#9ca3af;font-weight:400;font-size:.62rem">+'+micro+'µ</span>':'')+'</td>';
+          }).join('')+'</tr>';
+      }).join('');
+  }).join('');
+
+  // Oportunidades
+  var b=bench(), pop=rings[anaIdx].stats.poblacion||0, opp=[], sat=[];
+  Object.keys(RETAIL_LBL).forEach(function(rid){
+    var bc=b.bySub[rid]; if(!bc||bc.rel<20||!pop)return;
+    var n=(rings[anaIdx].biz.retailRel||{})[rid]||0;
+    var fit=pop/bc.habPerRel, gap=fit-n, score=n?(pop/n)/bc.habPerRel:Infinity;
+    if(gap>=1&&score>=1.3) opp.push({rid:rid,n:n,fit:fit,gap:gap,score:score});
+    else if(n>0&&score<=0.7) sat.push({rid:rid,n:n,fit:fit,score:score});
+  });
+  opp.sort(function(a,c){return c.gap-a.gap;}); opp=opp.slice(0,8);
+  sat.sort(function(a,c){return a.score-c.score;}); sat=sat.slice(0,3);
+  var oppHtml='';
+  if(opp.length){
+    oppHtml='<h2 style="border-left-color:#059669">🎯 Oportunidades — sub-giros menos saturados ('+anaMins+' min)</h2>'+
+    '<table><tr style="color:#6b7280;font-size:.64rem;text-transform:uppercase;text-align:left"><th style="padding:.3rem 0">Sub-giro</th><th style="text-align:right">Hay</th><th style="text-align:right">Caben*</th><th style="text-align:right">Faltan</th><th>Lectura</th></tr>'+
+    opp.map(function(r){
+      var lect=r.n===0?'Sin competencia real en la zona':'La zona soporta '+(r.score>=3?'3×':r.score>=2?'2×':(Math.round(r.score*10)/10)+'×')+' más que lo que hay';
+      return '<tr><td style="font-weight:700;padding:.3rem .5rem .3rem 0">'+RETAIL_LBL[r.rid]+'</td><td style="text-align:right;padding:.3rem .6rem">'+r.n+'</td><td style="text-align:right;padding:.3rem .6rem">'+Math.round(r.fit)+'</td><td style="text-align:right;padding:.3rem .6rem;color:#059669;font-weight:800">+'+Math.round(r.gap)+'</td><td style="font-size:.7rem;color:#6b7280;padding:.3rem 0">'+lect+'</td></tr>';
+    }).join('')+'</table><div class="note">*"Caben" = negocios que soportaría la población de la zona según el promedio de La Laguna. Solo competencia relevante (6+ empleados, cadenas o locales en plaza).</div>';
+  }
+  if(sat.length){
+    oppHtml+='<div style="background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:.6rem .9rem;margin-top:.8rem;font-size:.74rem"><b style="color:#b45309">⚠️ Saturados (evitar):</b> '+
+      sat.map(function(r){return RETAIL_LBL[r.rid]+' ('+r.n+' vs '+Math.round(r.fit)+' que caben)';}).join(' · ')+'</div>';
+  }
+
+  document.getElementById('contenido').innerHTML =
+    mapa +
+    '<h2>Demografía por tiempo de traslado</h2><table>'+th+
+    row('Población total',function(s){return s.poblacion;})+
+    row('Hogares',function(s){return s.hogares;})+
+    row('Viviendas',function(s){return s.viviendas;})+
+    row('PEA',function(s){return s.pea;})+
+    row('Población 0–14 años',function(s){return s.pob_0_14;})+
+    row('Población 15–64 años',function(s){return s.pob_15_64;})+
+    row('Población 65+ años',function(s){return s.pob_65;})+
+    row('Escolaridad promedio (años)',function(s){return s.esc_prom;},idf)+
+    row('NSE predominante',function(s){return NSE_LBL[s.nse_predominante]||'—';},idf)+
+    row('% NSE medio-alto/alto',function(s){return s.pct_nse_alto;},function(v){return v+'%';})+
+    row('Poder adquisitivo (100=prom.)',function(s){return s.ipa;},function(v){return '<b>'+v+'</b> · '+ipaLabel(v);})+
+    '</table><div class="note">NSE = estrato socioeconómico INEGI (1 Bajo – 5 Alto) ponderado por población. Poder adquisitivo = índice con proxies censales vs el promedio metropolitano.</div>'+
+    '<div class="rp-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.4rem">'+
+      '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Estructura de edad</div><div style="position:relative;height:200px"><canvas id="ch-edad"></canvas></div></div>'+
+      '<div class="rp-cell"><div style="font-size:.78rem;font-weight:700;margin-bottom:.4rem">Conectividad y bienes (%)</div><div style="position:relative;height:200px"><canvas id="ch-conn"></canvas></div></div>'+
+    '</div>'+
+    '<h2>Entorno comercial (DENUE · INEGI)</h2><table>'+th.replace(/Indicador/,'Giro')+
+    '<tr><td style="font-weight:800;padding:.3rem .5rem .3rem 0">Negocios totales</td>'+rings.map(function(r){return '<td style="text-align:right;font-weight:800;padding:.3rem .6rem">'+fmtN(r.biz.total)+'</td>';}).join('')+'</tr>'+bizRows+'</table>'+
+    '<h2>Retail detallado — competencia relevante</h2><table>'+th.replace(/Indicador/,'Sub-giro')+retailRows+'</table>'+
+    '<div class="note">Cifra principal = competencia relevante (6+ empleados, cadenas o locales en plaza). "+Nµ" = micronegocios independientes. <b style="color:#dc2626">FALTA</b> = sin competencia relevante · <b style="color:#b45309">POCOS</b> = menos de la mitad de lo que la zona soporta (anillo de '+anaMins+' min).</div>'+
+    oppHtml +
+    '<div style="margin-top:1.8rem;padding-top:.8rem;border-top:1px solid #e5e7eb;font-size:.66rem;color:#9ca3af;display:flex;justify-content:space-between;flex-wrap:wrap;gap:.3rem">'+
+      '<span>Fuentes: INEGI Censo 2020 (AGEB) · INEGI DENUE 2026 · Isócronas Mapbox</span>'+
+      '<span>NEAR Developments · Radar Inmobiliario</span></div>';
+
+  setTimeout(function(){
+    var labels=rings.map(function(r){return r.mins+' min';});
+    var e=document.getElementById('ch-edad');
+    if(e)_charts.push(new Chart(e,{type:'bar',data:{labels:labels,datasets:[
+      {label:'0–14',data:rings.map(function(r){return r.stats.pob_0_14;}),backgroundColor:'#fdba74'},
+      {label:'15–64',data:rings.map(function(r){return r.stats.pob_15_64;}),backgroundColor:'#ea580c'},
+      {label:'65+',data:rings.map(function(r){return r.stats.pob_65;}),backgroundColor:'#7c2d12'}]},
+      options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{position:'bottom',labels:{font:{size:10}}}},scales:{x:{stacked:true},y:{stacked:true,ticks:{font:{size:9}}}}}}));
+    var c=document.getElementById('ch-conn');
+    if(c)_charts.push(new Chart(c,{type:'bar',data:{labels:['Internet','Automóvil','Celular','Computadora'],datasets:rings.map(function(r,i){
+      return {label:r.mins+' min',backgroundColor:COLS[i%5]+'cc',data:[r.stats.pct_internet,r.stats.pct_auto,r.stats.pct_celular,r.stats.pct_computadora]};})},
+      options:{responsive:true,maintainAspectRatio:false,animation:false,plugins:{legend:{position:'bottom',labels:{font:{size:10}}}},scales:{y:{beginAtZero:true,max:100,ticks:{font:{size:9}}}}}}));
+  },100);
+}
+
+// ── PDF ─────────────────────────────────────────────────────────────────────
+function descargarPDF() {
+  var nombre=window.prompt('Nombre del archivo PDF:','Reporte '+NOM.slice(0,30)+' '+new Date().toISOString().slice(0,10));
+  if(nombre===null)return;
+  nombre=(nombre.trim()||'Reporte NEAR').replace(/[\\/:*?"<>|]+/g,'-');
+  var btn=document.getElementById('dl-btn'); btn.disabled=true; btn.textContent='⏳ Generando…';
+  function go(){
+    html2pdf().set({margin:[8,8,10,8],filename:nombre+'.pdf',image:{type:'png'},
+      html2canvas:{scale:2.5,useCORS:true,logging:false,onclone:function(cd){
+        var tb=cd.querySelector('.topbar'); if(tb)tb.remove();
+        var ct=cd.querySelector('.ctl'); if(ct)ct.remove();
+        cd.querySelectorAll('.rp-grid').forEach(function(g){ g.style.display='block';
+          g.querySelectorAll(':scope > .rp-cell').forEach(function(c){ c.style.display='inline-block'; c.style.width='48%'; c.style.verticalAlign='top'; c.style.margin='0 1% 1rem 0'; }); });
+      }},
+      jsPDF:{unit:'mm',format:'a4',orientation:'portrait',compress:true},
+      pagebreak:{mode:['css','legacy'],avoid:['.rp-cell','h2','img']}
+    }).from(document.getElementById('doc')).save()
+      .then(function(){btn.disabled=false;btn.textContent='✓ Descargado';setTimeout(function(){btn.textContent='⬇ Descargar PDF';},2500);})
+      .catch(function(e){btn.disabled=false;btn.textContent='⬇ Descargar PDF';alert('No se pudo generar: '+e.message);});
+  }
+  if(typeof html2pdf==='function'){go();return;}
+  var s=document.createElement('script');
+  s.src='https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js';
+  s.onload=go; document.head.appendChild(s);
+}
+
+// ── Arranque ────────────────────────────────────────────────────────────────
+document.getElementById('fecha').textContent = new Date().toLocaleDateString('es-MX',{day:'numeric',month:'long',year:'numeric'});
+document.querySelectorAll('.pill[data-m]').forEach(function(b){ b.classList.toggle('on', b.dataset.m===MODO); });
+renderTiempos();
+if (isNaN(LAT) || isNaN(LNG)) {
+  document.getElementById('contenido').innerHTML='<div id="loading">Link inválido: faltan coordenadas.</div>';
+} else {
+  Promise.all([
+    fetch('/api/config').then(function(r){return r.json();}).catch(function(){return {};}),
+    fetch(dataURL('ageb_data.json')).then(function(r){return r.json();}),
+    fetch(dataURL('denue.json')).then(function(r){return r.json();})
+  ]).then(function(res){
+    MAPBOX_TOKEN = res[0].mapboxToken || '';
+    AGEB = res[1]; DENUE = res[2];
+    analizar();
+  }).catch(function(e){
+    document.getElementById('contenido').innerHTML='<div id="loading">❌ Error cargando datos ('+esc_(e.message)+').</div>';
+  });
+}
+</script>
+</body>
+</html>

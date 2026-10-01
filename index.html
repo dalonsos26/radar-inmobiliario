@@ -506,6 +506,7 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
       </div>
       <button class="btn" id="gap-btn" onclick="toggleGapLayer(this)" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🕳 Huecos</button>
       <button class="btn" id="corr-btn" onclick="showCorredores()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🛣 Corredores</button>
+      <button class="btn" id="env-btn" onclick="showEnviados()" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">📤 Enviados</button>
       <button class="btn" id="sniiv-map-btn" onclick="toggleSniivLayer(this)" style="border:1.5px solid var(--border);background:var(--surface);border-radius:999px;padding:.42rem .95rem">🏗 Mercado SNIIV</button>
       <div class="dd" id="dd-denue">
         <button class="dd-btn" onclick="ddToggle('dd-denue')">Negocios: <span class="dd-val">Ninguno</span></button>
@@ -1337,6 +1338,67 @@ function retailBench() {
     };
   });
   return _retailBench;
+}
+
+// ── Links de reporte compartibles + registro de visitas ───────────────────────
+var SENT_KEY = 'sent_reports_v1';
+function shareIsoLink() {
+  if (!_isoReportData) { alert('Calcula una isócrona primero.'); return; }
+  var D = _isoReportData;
+  var nombre = window.prompt('Nombre del reporte (lo verá tu cliente):', D.address.split(',')[0]);
+  if (nombre === null) return;
+  nombre = nombre.trim() || D.address.split(',')[0];
+  var id = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+  var times = D.rings.map(function(r){ return r.mins; }).sort(function(a,b){ return a-b; });
+  var url = location.origin + '/reporte?lat=' + D.point.lat.toFixed(6) + '&lng=' + D.point.lng.toFixed(6) +
+    '&nom=' + encodeURIComponent(nombre) + '&modo=' + D.mode + '&t=' + times.join(',') + '&id=' + id;
+  var sent = [];
+  try { sent = JSON.parse(localStorage.getItem(SENT_KEY)) || []; } catch(e) {}
+  sent.unshift({ id: id, nom: nombre, url: url, creado: new Date().toISOString() });
+  localStorage.setItem(SENT_KEY, JSON.stringify(sent.slice(0, 100)));
+  var btn = document.getElementById('iso-share-btn');
+  function copied(ok) {
+    if (btn) { btn.textContent = ok ? '✓ Link copiado' : '🔗 Compartir link'; setTimeout(function(){ btn.textContent = '🔗 Compartir link'; }, 2500); }
+    if (!ok) window.prompt('Copia el link manualmente:', url);
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(url).then(function(){ copied(true); }).catch(function(){ copied(false); });
+  } else { copied(false); }
+}
+function showEnviados() {
+  var existing = document.getElementById('env-panel');
+  if (existing) { existing.remove(); return; }
+  var sent = [];
+  try { sent = JSON.parse(localStorage.getItem(SENT_KEY)) || []; } catch(e) {}
+  var panel = document.createElement('div');
+  panel.id = 'env-panel';
+  panel.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.3);padding:1.3rem 1.5rem;z-index:3000;max-width:560px;width:94vw;max-height:80vh;overflow-y:auto';
+  panel.innerHTML = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem">' +
+    '<div style="font-weight:800">📤 Reportes enviados</div>' +
+    '<button onclick="this.closest(\'#env-panel\').remove()" style="background:none;border:none;font-size:1.1rem;cursor:pointer;color:var(--muted)">✕</button></div>' +
+    (sent.length ? '<div id="env-list" style="font-size:.8rem;color:var(--muted)">⏳ Cargando visitas…</div>'
+                 : '<div style="font-size:.8rem;color:var(--muted)">Aún no has compartido ningún link. Calcula una isócrona y usa "🔗 Compartir link".</div>');
+  document.body.appendChild(panel);
+  if (!sent.length) return;
+  fetch('https://raw.githubusercontent.com/dalonsos26/radar-inmobiliario/visitas/visitas.json?nocache=' + Date.now())
+    .then(function(r){ return r.ok ? r.json() : {}; }).catch(function(){ return {}; })
+    .then(function(vis) {
+      var list = document.getElementById('env-list');
+      if (!list) return;
+      list.innerHTML = '<table style="width:100%;border-collapse:collapse;font-size:.78rem">' +
+        '<tr style="text-align:left;color:var(--muted);font-size:.64rem;text-transform:uppercase"><th style="padding:.3rem 0">Reporte</th><th>Enviado</th><th style="text-align:right">Visitas</th><th>Última visita</th><th></th></tr>' +
+        sent.map(function(s) {
+          var v = vis[s.id];
+          var fmt = function(iso){ return iso ? new Date(iso).toLocaleDateString('es-MX',{day:'numeric',month:'short'}) + ' ' + new Date(iso).toLocaleTimeString('es-MX',{hour:'2-digit',minute:'2-digit'}) : '—'; };
+          return '<tr>' +
+            '<td style="padding:.35rem .5rem .35rem 0"><b>' + esc(s.nom) + '</b></td>' +
+            '<td style="color:var(--muted);white-space:nowrap">' + fmt(s.creado) + '</td>' +
+            '<td style="text-align:right;font-weight:800;color:' + (v && v.n ? 'var(--new)' : 'var(--muted)') + '">' + (v ? v.n : 0) + '</td>' +
+            '<td style="color:var(--muted);white-space:nowrap">' + fmt(v && v.ultima) + '</td>' +
+            '<td><button onclick="navigator.clipboard.writeText(this.dataset.u);this.textContent=\'✓\'" data-u="' + esc(s.url) + '" title="Copiar link" style="background:none;border:1px solid var(--border);border-radius:6px;cursor:pointer;font-size:.7rem;padding:.15rem .45rem">copiar</button></td></tr>';
+        }).join('') + '</table>' +
+        '<div style="font-size:.66rem;color:var(--muted);margin-top:.6rem">Las visitas cuentan cada vez que alguien abre el link (incluyéndote a ti si lo abres).</div>';
+    });
 }
 
 // ── Reporte de ubicación ──────────────────────────────────────────────────────
@@ -3360,7 +3422,9 @@ function isoRun() {
     };
 
     // Build legend inline (iso-legend gets destroyed when results.innerHTML is set, so include it here)
-    var legendHtml = '<div style="margin-bottom:.6rem"><button onclick="showIsoReport()" style="width:100%;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.8rem;font-weight:700;cursor:pointer">📄 Generar reporte de ubicación</button></div>' +
+    var legendHtml = '<div style="margin-bottom:.6rem;display:flex;gap:.4rem">' +
+      '<button onclick="showIsoReport()" style="flex:1;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.78rem;font-weight:700;cursor:pointer">📄 Reporte</button>' +
+      '<button id="iso-share-btn" onclick="shareIsoLink()" style="flex:1;background:#111827;color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.78rem;font-weight:700;cursor:pointer">🔗 Compartir link</button></div>' +
       '<div class="iso-legend" style="margin-bottom:.5rem">'+
       features.map(function(feat,i){
         var col = ISO_COLORS[i%ISO_COLORS.length];
