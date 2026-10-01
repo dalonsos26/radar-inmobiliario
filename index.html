@@ -577,7 +577,10 @@ h1{font-size:1.5rem;font-weight:800;margin-bottom:.15rem}
             <button id="iso-search-btn" class="save-btn" onclick="isoGeocode()">Buscar</button>
           </div>
           <div id="iso-location-info"></div>
-          <span class="iso-ctrl-lbl" id="iso-times-lbl">Se calculan los 3 transportes: 🚶 5/10/20 · 🚲 5/10/20 · 🚗 5/10/15 min</span>
+          <div class="iso-ctrl-lbl" id="iso-times-lbl" style="line-height:1.9">Se calculan los 3 transportes:<br>
+            🚶 &nbsp;5, 10 y 20 min<br>
+            🚲 &nbsp;5, 10 y 20 min<br>
+            🚗 &nbsp;5, 10 y 15 min</div>
           <button id="iso-run-btn" onclick="isoRun()">Calcular isócrona</button>
           <div id="iso-hint">Haz clic en el mapa o busca una dirección para fijar el punto de origen.</div>
           <div id="iso-spinner">⏳ Calculando…</div>
@@ -1381,6 +1384,24 @@ function fillZoneVisits(saved) {
         if (uEl && last) uEl.textContent = new Date(last).toLocaleDateString('es-MX',{day:'numeric',month:'short'}) + ' ' + new Date(last).toLocaleTimeString('es-MX',{hour:'2-digit',minute:'2-digit'});
       });
     });
+}
+
+// URL del reporte dinámico de una ubicación (sin id → no cuenta como visita)
+function zoneReportURL(z) {
+  var mode = z.modes ? (z.modes['driving-car'] ? 'driving-car' : Object.keys(z.modes)[0]) : (z.mode || 'driving-car');
+  var times = (zoneRings(z, mode) || []).map(function(r){ return r.mins; }).sort(function(a,b){ return a-b; });
+  return location.origin + '/reporte?lat=' + z.point.lat.toFixed(6) + '&lng=' + z.point.lng.toFixed(6) +
+    '&nom=' + encodeURIComponent(z.name) + '&modo=' + mode + '&t=' + (times.join(',') || '5,10,15');
+}
+// Abre el reporte dinámico de la última isócrona (vista propia, no cuenta visita)
+function viewIsoReport() {
+  if (!_isoLastResult || !_isoLastResult.point) { alert('Calcula una isócrona primero.'); return; }
+  window.open(zoneReportURL(_isoLastResult), '_blank');
+}
+function viewZoneReport(id) {
+  var z = isoGetSaved().find(function(s){ return s.id === id; });
+  if (!z || !z.point) { alert('Esta ubicación no tiene coordenadas; recalcúlala.'); return; }
+  window.open(zoneReportURL(z), '_blank');
 }
 
 // Link compartible desde una ubicación guardada
@@ -3512,7 +3533,7 @@ function isoRun() {
     // Resultado compacto: botones + leyenda (sin franja de estadísticas)
     results.innerHTML =
       '<div style="margin-bottom:.6rem;display:flex;gap:.4rem">' +
-      '<button onclick="showIsoReport()" style="flex:1;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.78rem;font-weight:700;cursor:pointer">📄 Reporte</button>' +
+      '<button onclick="viewIsoReport()" style="flex:1;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.78rem;font-weight:700;cursor:pointer">📄 Ver reporte</button>' +
       '<button id="iso-share-btn" onclick="shareIsoLink()" style="flex:1;background:#111827;color:#fff;border:none;border-radius:9px;padding:.5rem;font-size:.78rem;font-weight:700;cursor:pointer">🔗 Compartir link</button></div>' +
       '<div class="iso-legend" style="margin-bottom:.5rem">' +
       feats.map(function(feat,i){
@@ -3779,7 +3800,7 @@ function _renderCompTab() {
     '<div style="display:flex;align-items:center;gap:.8rem;flex-wrap:wrap;margin-bottom:.7rem">' +
     '<span style="font-size:1rem;font-weight:800">📌 Ubicaciones analizadas (' + saved.length + ')</span>' +
     '<span style="font-size:.7rem;color:var(--muted)">marca ☑ hasta 4 para compararlas</span>' +
-    (selZones.length ? '<button onclick="showCompReport()" style="margin-left:auto;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.45rem 1rem;font-size:.78rem;font-weight:700;cursor:pointer">🖨 Imprimir ' + (selZones.length > 1 ? 'comparativo' : 'reporte') + '</button>' : '') +
+    (selZones.length > 1 ? '<button onclick="showCompReport()" style="margin-left:auto;background:var(--accent);color:#fff;border:none;border-radius:9px;padding:.45rem 1rem;font-size:.78rem;font-weight:700;cursor:pointer">🖨 Imprimir comparativo</button>' : '') +
     '</div>' +
     '<table style="width:100%;border-collapse:collapse;font-size:.8rem">' +
     '<tr style="text-align:left;color:var(--muted);font-size:.64rem;text-transform:uppercase"><th style="padding:.3rem 0;width:30px"></th><th>Ubicación</th><th>Fecha</th><th style="text-align:right">Abiertos</th><th>Última visita</th><th></th></tr>' +
@@ -3797,6 +3818,7 @@ function _renderCompTab() {
         '<td style="text-align:right;font-weight:800" id="vz-' + s.id + '">·</td>' +
         '<td style="color:var(--muted);white-space:nowrap;font-size:.7rem" id="vu-' + s.id + '"></td>' +
         '<td style="text-align:right;white-space:nowrap">' +
+        '<button onclick="event.stopPropagation();viewZoneReport(' + s.id + ')" title="Ver el reporte dinámico (no cuenta como visita)" style="background:none;border:1px solid var(--border);border-radius:6px;cursor:pointer;font-size:.68rem;padding:.2rem .5rem;margin-right:.3rem">📄 ver</button>' +
         '<button onclick="event.stopPropagation();shareZoneLink(' + s.id + ', this)" title="Copiar link compartible" style="background:none;border:1px solid var(--border);border-radius:6px;cursor:pointer;font-size:.68rem;padding:.2rem .5rem;margin-right:.3rem">🔗 link</button>' +
         '<button onclick="event.stopPropagation();isoDeleteSaved(' + s.id + ')" title="Eliminar" style="background:none;border:none;cursor:pointer;color:var(--muted);font-size:.85rem" onmouseover="this.style.color=\'#dc2626\'" onmouseout="this.style.color=\'var(--muted)\'">✕</button></td></tr>';
     }).join('') + '</table></div>';
