@@ -52,11 +52,11 @@
   },
   {
     "id": "d72ea45a-e1a7-46a1-95d6-019e7a55c84f",
-    "title": "Terreno en Renta en Ex Hacienda los Angeles, Torreón, Coahuila de Zaragoza",
+    "title": "TERRENO A UNAS CUADRAS DE REVOLUCION Y DE CITY CLUB!",
     "tipo": "Terreno",
     "municipio": "Torreón",
     "superficie": "2,400 m²",
-    "precio": "60,000 MXN Renta",
+    "precio": "92,500 MXN Renta",
     "precio_m2": "$25.0/m²",
     "op_key": "renta",
     "link": "https://app.nocnok.com/crm/154940/properties/d72ea45a-e1a7-46a1-95d6-019e7a55c84f",
@@ -796,7 +796,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "10635c95-15ad-4724-b342-019e6a846db8",
@@ -1867,7 +1867,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "ad664e9b-ce7a-4786-bba6-019e4c32fe34",
@@ -1952,7 +1952,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "ca3ecd79-9b01-471e-b37e-019e4bc02e5c",
@@ -2394,7 +2394,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
