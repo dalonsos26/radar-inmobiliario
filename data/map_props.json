@@ -1510,7 +1510,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "36182305-7d12-42ff-a8e2-018b291ce843",
@@ -2360,7 +2360,7 @@
     ],
     "lat": 25.2684398,
     "lng": -103.498528,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "49fe40e9-d9f2-4b3b-9d42-019a7ae2079e",
