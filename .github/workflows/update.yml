@@ -3,8 +3,10 @@ name: Actualizar Radar
 on:
   workflow_dispatch:
   schedule:
-    # 9:00am hora CDMX/Torreón (UTC-6) = 15:00 UTC
-    - cron: '0 15 * * *'
+    # Respaldo vespertino: el disparo principal de las 9:00am CDMX lo hace
+    # el cron de Vercel (/api/cron-update), que sí es puntual. GitHub retrasa
+    # sus schedules horas en hora pico, por eso solo queda como red de seguridad.
+    - cron: '0 21 * * *'
 
 permissions:
   contents: write

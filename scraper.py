@@ -135,9 +135,14 @@ async def login_and_get_session(username: str, password: str):
     await pg.wait_for_load_state("networkidle", timeout=20000)
     log(f"  Post-login: {pg.url}")
 
-    await pg.locator("a:has-text('Bolsa')").first.click()
-    await pg.wait_for_load_state("networkidle", timeout=20000)
-    await pg.wait_for_timeout(2000)
+    # El clic en "Bolsa" solo calienta cookies; si algo lo tapa (overlays nuevos
+    # de Nocnok, oct 2026) no debe tumbar la corrida: el token ya está capturado.
+    try:
+        await pg.locator("a:has-text('Bolsa')").first.click(timeout=10000, force=True)
+        await pg.wait_for_load_state("networkidle", timeout=15000)
+        await pg.wait_for_timeout(2000)
+    except Exception as e:
+        log(f"  ⚠ No se pudo abrir Bolsa ({type(e).__name__}); continuando con el token capturado")
 
     all_cookies = await ctx.cookies()
     cookies_str = "; ".join(f"{c['name']}={c['value']}" for c in all_cookies)
