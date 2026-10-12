@@ -7273,30 +7273,30 @@
     },
     "2026-W41": {
       "week": "2026-W41",
-      "total": 51,
+      "total": 58,
       "cities": {
         "Torreón": {
-          "total": 44,
+          "total": 50,
           "tipos_m2": {
             "Oficina": {
               "sum": 1740.1229232689907,
               "count": 6
             },
             "Bodega": {
-              "sum": 21519.721371047428,
-              "count": 14
+              "sum": 21594.721371047428,
+              "count": 15
             },
             "Local": {
-              "sum": 29384.379123497878,
-              "count": 15
+              "sum": 30013.223209519383,
+              "count": 18
             },
             "Edificio": {
               "sum": 8765.77840112202,
               "count": 1
             },
             "Terreno": {
-              "sum": 15292.384894250445,
-              "count": 6
+              "sum": 17648.41187266771,
+              "count": 8
             },
             "Casa": {
               "sum": 7211.865559940128,
@@ -7309,15 +7309,15 @@
           }
         },
         "Gómez Palacio": {
-          "total": 6,
+          "total": 7,
           "tipos_m2": {
             "Local": {
               "sum": 68.75,
               "count": 1
             },
             "Bodega": {
-              "sum": 9999.652777777777,
-              "count": 2
+              "sum": 10084.761843469367,
+              "count": 3
             },
             "Terreno": {
               "sum": 239.0,
@@ -7338,6 +7338,25 @@
           "tipos_m2": {
             "Bodega": {
               "sum": 10204.081632653062,
+              "count": 1
+            }
+          }
+        }
+      }
+    },
+    "2026-W42": {
+      "week": "2026-W42",
+      "total": 2,
+      "cities": {
+        "Torreón": {
+          "total": 2,
+          "tipos_m2": {
+            "Casa": {
+              "sum": 50.0,
+              "count": 1
+            },
+            "Bodega": {
+              "sum": 48.275862068965516,
               "count": 1
             }
           }
