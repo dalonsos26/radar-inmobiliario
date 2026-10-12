@@ -730,10 +730,22 @@ function markUnseenCards() {
       card.dataset.new = '0';
       var b = card.querySelector('.badge-new');
       if (b) b.remove();
+      updateNuevasBadge();
     });
   }
+  updateNuevasBadge();
   var unseenTotal = document.querySelectorAll('#grid .card.new').length;
   if (unseenTotal > 0) showNuevasPopup(unseenTotal);
+}
+
+// Badge "sin ver": cuenta TU registro personal (igual que el filtro ★ Nuevas)
+function updateNuevasBadge() {
+  var n = document.querySelectorAll('#grid .card.new').length;
+  var badge = document.getElementById('nuevas-badge');
+  if (badge) {
+    badge.textContent = n + ' sin ver';
+    badge.style.display = n > 0 ? 'inline-flex' : 'none';
+  }
 }
 
 // ── Popup de bienvenida: pausa el marcado de "vistas" hasta que decidas ───────
@@ -854,9 +866,6 @@ function initData() {
     WEEKLY      = results[2];
     MAP_PROPS   = results[3];
     if (grid) { grid.innerHTML = PROPS.map(buildCard).join(''); markUnseenCards(); }
-    var newCount = propsData.new_count || 0;
-    var badge    = document.getElementById('nuevas-badge');
-    if (badge) { badge.textContent = newCount+' nuevas hoy'; badge.style.display = newCount>0?'inline-flex':'none'; }
     updateTimestamp(propsData.run_at);
     render();
     updateFavBtns();
