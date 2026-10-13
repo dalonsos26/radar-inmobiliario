@@ -1,7 +1,7 @@
 {
-  "run_at": "2026-10-12 11:27:34",
-  "total": 4674,
-  "new_count": 9,
+  "run_at": "2026-10-12 20:20:37",
+  "total": 4673,
+  "new_count": 8,
   "properties": [
     {
       "id": "04903fc9-60b4-4c50-bb01-01a0556968d3",
@@ -190,6 +190,87 @@
         "https://s3.amazonaws.com/nocnok-img/240201171027-8353634258d3445f961da13cdf9ae14b.jpg",
         "https://s3.amazonaws.com/nocnok-img/240201171004-4ba62a7dd2ef4c5baab5f1c2e13cd981.jpg",
         "https://s3.amazonaws.com/nocnok-img/240201171000-7aa2080b45394d8e981f7e0eeb98c559.jpg"
+      ]
+    },
+    {
+      "id": "2d7778a4-8034-4407-b6ed-01a13159aca7",
+      "code": "NN-HGS374",
+      "title": "Bodega en renta!",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "15,000 MXN Renta",
+      "precio_num": 15000.0,
+      "superficie": "200 m²",
+      "area_num": 200.0,
+      "precio_m2": "$75.0/m²",
+      "pm2_num": 75.0,
+      "ubicacion": "Zaragoza Sur, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "VIVE FIRME (SANTAMARIA Y ALANIS)",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/2d7778a4-8034-4407-b6ed-01a13159aca7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012122640-4433248814e346bc8255289eb09a0a25s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012122640-e885c4cf7f694f2b8412a94a3d7e18bas.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012122640-7cd8d44885b745f1ba2b689f4c67a84as.webp"
+      ]
+    },
+    {
+      "id": "3261ec49-f8a3-4d21-a199-01a1318ce91f",
+      "code": "NN-HGS488",
+      "title": "Terreno en Venta en Paso del Aguila, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "79,080,000 MXN Venta",
+      "precio_num": 79080000.0,
+      "superficie": "17,191.14 m²",
+      "area_num": 17191.14,
+      "precio_m2": "$4,600/m²",
+      "pm2_num": 4600.04,
+      "ubicacion": "Paso del Aguila, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/3261ec49-f8a3-4d21-a199-01a1318ce91f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012131800-c88985d82f6a4319966e57856a135bd7s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012131801-4b4ca30ff8aa4e4785e41ad314b1641as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012131801-3cb4e655111840399fc188e1b21a2933s.webp"
+      ]
+    },
+    {
+      "id": "e7ce47ca-b674-4a4d-95bd-01a131d3c6fe",
+      "code": "NN-HGS579",
+      "title": "Bodega de 300 m2 en renta , La Unión",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "21,000 MXN Renta",
+      "precio_num": 21000.0,
+      "superficie": "300 m²",
+      "area_num": 300.0,
+      "precio_m2": "$70.0/m²",
+      "pm2_num": 70.0,
+      "ubicacion": "Primera Rinconada de la Unión, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Avante Bienes Raices",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/e7ce47ca-b674-4a4d-95bd-01a131d3c6fe",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012143525-48a16d2948d54fb4a70f82999c7a3bd9s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012143525-3242d133536f4e70a30c64ed1b9c887as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012143525-527f35f27074419887edea7660afdbdds.webp"
       ]
     },
     {
@@ -5555,33 +5636,6 @@
       ]
     },
     {
-      "id": "a9a0e7bf-be81-4fa5-bab6-01a11334362d",
-      "code": "NN-HGK260",
-      "title": "Local Comercial en Renta en El Fresno, amplio estacionamiento",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "20,000 MXN Renta",
-      "precio_num": 20000.0,
-      "superficie": "120 m²",
-      "area_num": 120.0,
-      "precio_m2": "$166.7/m²",
-      "pm2_num": 166.67,
-      "ubicacion": "Residencial el Fresno, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "CRECIENDO BIENES RAICES",
-      "fecha_publicacion": "2026-10-06",
-      "days_on_market": 6,
-      "link": "https://app.nocnok.com/crm/154940/properties/a9a0e7bf-be81-4fa5-bab6-01a11334362d",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-261006155445-d9e52d00d73f4decb8f19bf8fb25750fs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261006155328-158e819fd08b4cd09a91b55a129ef09cs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261006155337-56b51ae467a4457abf08f9bd211bd11fs.webp"
-      ]
-    },
-    {
       "id": "7f8131f1-9f4c-4648-b721-01a1133f29af",
       "code": "NN-HGK392",
       "title": "Local Comercial en Renta, Zona El Fresno",
@@ -6227,6 +6281,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-261006111822-15567f1518f7429790348b3bfd285960s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261006111822-6bfaf65f8bb14b7d8586dab6ee28060ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261006111822-7da6aa265a44441391b662436d6fc0fds.webp"
+      ]
+    },
+    {
+      "id": "a9a0e7bf-be81-4fa5-bab6-01a11334362d",
+      "code": "NN-HGK260",
+      "title": "Local Comercial en Renta Planta Alta en El Fresno, amplio estacionamiento",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "20,000 MXN Renta",
+      "precio_num": 20000.0,
+      "superficie": "120 m²",
+      "area_num": 120.0,
+      "precio_m2": "$166.7/m²",
+      "pm2_num": 166.67,
+      "ubicacion": "Residencial el Fresno, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CRECIENDO BIENES RAICES",
+      "fecha_publicacion": "2026-10-06",
+      "days_on_market": 6,
+      "link": "https://app.nocnok.com/crm/154940/properties/a9a0e7bf-be81-4fa5-bab6-01a11334362d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261006155445-d9e52d00d73f4decb8f19bf8fb25750fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261006155328-158e819fd08b4cd09a91b55a129ef09cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261006155337-56b51ae467a4457abf08f9bd211bd11fs.webp"
       ]
     },
     {
@@ -7518,33 +7599,6 @@
       "link": "https://app.nocnok.com/crm/154940/properties/25255335-1d74-4efd-9c76-01a0c58bdef2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260921135926-529740609b334113aa6597ce2bfc8cfas.webp"
-      ]
-    },
-    {
-      "id": "34944c4a-4f40-49bb-9846-01a0edf21395",
-      "code": "NN-HGB975",
-      "title": "Bodega de 300 m2 en renta , La Unión",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "21,000 MXN Renta",
-      "precio_num": 21000.0,
-      "superficie": "300 m²",
-      "area_num": 300.0,
-      "precio_m2": "$70.0/m²",
-      "pm2_num": 70.0,
-      "ubicacion": "Primera Rinconada de la Unión, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Avante Bienes Raices",
-      "fecha_publicacion": "2026-09-29",
-      "days_on_market": 13,
-      "link": "https://app.nocnok.com/crm/154940/properties/34944c4a-4f40-49bb-9846-01a0edf21395",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260929101420-d9496ede09c14d9d959acf75d6fd5a05s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260929101420-608d447a9e384f8f943ecb23e9d58356s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260929101420-2d7031ed90214357a908debb85f01730s.webp"
       ]
     },
     {
@@ -19188,33 +19242,6 @@
       ]
     },
     {
-      "id": "1b033d69-1311-4129-ba0b-01974626dc27",
-      "code": "MX25-CM10163",
-      "title": "Bodega renta Periferico Raul Lopez Sanchez",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "21,000 MXN Renta",
-      "precio_num": 21000.0,
-      "superficie": "285 m²",
-      "area_num": 285.0,
-      "precio_m2": "$73.7/m²",
-      "pm2_num": 73.68,
-      "ubicacion": "Las Arboledas, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Bienes Raíces DIA ",
-      "fecha_publicacion": "2026-09-06",
-      "days_on_market": 36,
-      "link": "https://app.nocnok.com/crm/154940/properties/1b033d69-1311-4129-ba0b-01974626dc27",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250606105130-f244aebba0a44efea5556d8cca3568a3s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250606105128-49b3ae9978a7457d8310ffb77c56606es.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250606105124-14fcc62c252c428fbd64614b4c9c3c7bs.webp"
-      ]
-    },
-    {
       "id": "4e0d3176-f0ea-4cc1-a326-019d63bcc6e3",
       "code": "NN-GWV047",
       "title": "BODEGA RENTA PERIFERICO RAUL LOPEZ SANCHEZ",
@@ -19728,7 +19755,7 @@
     {
       "id": "bb761175-3d2a-4674-881d-0199e9ccada0",
       "code": "NN-DL1000154",
-      "title": "Local en Renta en Residencial Senderos, Torreón, Coahuila de Zaragoza",
+      "title": "Estudios en RENTA en Senderos",
       "categoria": "Comercial",
       "tipo": "Local",
       "operacion": "Renta",
@@ -27213,33 +27240,6 @@
       ]
     },
     {
-      "id": "d255c885-83c5-475e-a015-01a0112bbb64",
-      "code": "NN-HDT235",
-      "title": "Casa en Renta para Oficinas ó Consultorios en Fraccionamiento Provitec",
-      "categoria": "Comercial",
-      "tipo": "Casa",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "14,000 MXN Renta",
-      "precio_num": 14000.0,
-      "superficie": "230 m²",
-      "area_num": 230.0,
-      "precio_m2": "$60.9/m²",
-      "pm2_num": 60.87,
-      "ubicacion": "Provitec, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "FINKA RAICES",
-      "fecha_publicacion": "2026-08-17",
-      "days_on_market": 56,
-      "link": "https://app.nocnok.com/crm/154940/properties/d255c885-83c5-475e-a015-01a0112bbb64",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260818125801-65f6aaca314f45358d9f827c8dfafdecs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260817132319-55ee99fe7ccb4a6493e0057622f0ab87s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260817133119-9f3868aea20a436e9ccd930b6b0425fas.webp"
-      ]
-    },
-    {
       "id": "8cd8aa08-d199-42c1-bb7f-019fcf988c04",
       "code": "NN-HDF932",
       "title": "Local en Renta en Villas Diamante, Torreón, Coahuila de Zaragoza",
@@ -27264,6 +27264,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260804194521-925a7eebd68941e388b94a09c2e50368s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260821110313-e0e85b05e2554d86ad650de9bcb18fb0s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260821110313-d5f74e03bc484ad39e243d8cf9ac2791s.webp"
+      ]
+    },
+    {
+      "id": "d255c885-83c5-475e-a015-01a0112bbb64",
+      "code": "NN-HDT235",
+      "title": "Casa en Renta para Oficinas ó Consultorios en Fraccionamiento Provitec",
+      "categoria": "Comercial",
+      "tipo": "Casa",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "16,000 MXN Renta",
+      "precio_num": 16000.0,
+      "superficie": "230 m²",
+      "area_num": 230.0,
+      "precio_m2": "$69.6/m²",
+      "pm2_num": 69.57,
+      "ubicacion": "Provitec, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "FINKA RAICES",
+      "fecha_publicacion": "2026-08-17",
+      "days_on_market": 56,
+      "link": "https://app.nocnok.com/crm/154940/properties/d255c885-83c5-475e-a015-01a0112bbb64",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260818125801-65f6aaca314f45358d9f827c8dfafdecs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260817132319-55ee99fe7ccb4a6493e0057622f0ab87s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260817133119-9f3868aea20a436e9ccd930b6b0425fas.webp"
       ]
     },
     {
@@ -29306,31 +29333,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260801154219-e341566407c44350846547c5d9b6d1d4s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260801154218-d4cd2be45b7e4265a8d0ed6ebdc37bffs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260801154218-d1bdae5289c44739b665dcbd2b2eff9cs.webp"
-      ]
-    },
-    {
-      "id": "d3af0511-6814-4a89-907f-019fbf8138b0",
-      "code": "NN-HDB219",
-      "title": "Bodega en Renta en Abastos, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "16,000 MXN Renta",
-      "precio_num": 16000.0,
-      "superficie": "200 m²",
-      "area_num": 200.0,
-      "precio_m2": "$80.0/m²",
-      "pm2_num": 80.0,
-      "ubicacion": "Abastos, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Mayela Macias",
-      "fecha_publicacion": "2026-08-01",
-      "days_on_market": 72,
-      "link": "https://app.nocnok.com/crm/154940/properties/d3af0511-6814-4a89-907f-019fbf8138b0",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260801164552-db8c810bef9a4782855a8a07d8ae5965s.webp"
       ]
     },
     {
@@ -31591,8 +31593,8 @@
       "link": "https://app.nocnok.com/crm/154940/properties/23ec750c-50fc-40a1-9273-019f4cfacbbd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260710110249-444742ee1e9946c781fcab6eefd04b64s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-30a3f2fc26364ca18cac5c55b4319148s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-af82efedbfca46c5b140cf186615d351s.webp"
+        "https://s3.amazonaws.com/nocnok-img/pp-261012113621-6c5abbdc232a4f7ebdbafab4c507a932s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260710110249-30a3f2fc26364ca18cac5c55b4319148s.webp"
       ]
     },
     {
@@ -33931,33 +33933,6 @@
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622120342-9d83b45b51074d4f81e253485c353e8bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260622120342-dfeefcc23cee444abd596e0b5d919ea8s.webp"
-      ]
-    },
-    {
-      "id": "143a5300-6b6a-4807-9318-019d309655a0",
-      "code": "NN-GWP236",
-      "title": "Oficina en Renta en Santa Anita, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Oficina",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "9,700 MXN Renta",
-      "precio_num": 9700.0,
-      "superficie": "160 m²",
-      "area_num": 160.0,
-      "precio_m2": "$60.6/m²",
-      "pm2_num": 60.62,
-      "ubicacion": "Santa Anita, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "RE/MAX LAGUNA",
-      "fecha_publicacion": "2026-06-22",
-      "days_on_market": 112,
-      "link": "https://app.nocnok.com/crm/154940/properties/143a5300-6b6a-4807-9318-019d309655a0",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260408161025-61de12e8070c494ba315879dbdcb0c33s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260408161124-4ad68dda3e574211ada3183134ba7cees.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260408161127-57e70807590542939ce0005670bec693s.webp"
       ]
     },
     {
@@ -41842,33 +41817,6 @@
       ]
     },
     {
-      "id": "2ca8637b-2524-4368-9de0-019bdc921c3e",
-      "code": "NN-GRM427",
-      "title": "Local Avenida Juarez Centro",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "85,000 MXN Renta",
-      "precio_num": 85000.0,
-      "superficie": "790 m²",
-      "area_num": 790.0,
-      "precio_m2": "$107.6/m²",
-      "pm2_num": 107.59,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "TripleTresInmobiliaria",
-      "fecha_publicacion": "2026-05-05",
-      "days_on_market": 160,
-      "link": "https://app.nocnok.com/crm/154940/properties/2ca8637b-2524-4368-9de0-019bdc921c3e",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260120121332-1f6168167ce7491d93aaad86c4f5462fs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260120121322-675de4a6b33b4aa49b7bbc79a66cce75s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260120121322-3d6e0e66169b4580870dcda19f1d0a48s.webp"
-      ]
-    },
-    {
       "id": "5fd2f860-b375-4e17-b3f7-019df95759fa",
       "code": "NN-GYK943",
       "title": "TERRENO EN RENTA SOBRE CARRETERA TORREON SAN PEDRO ( ZONA NORTE), TORREON, COAH",
@@ -42163,6 +42111,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260505162756-351954bc65144cc7a25d5017a85458cbs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260505162854-ae9722417af5445d918f1947b912fbfcs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260505162911-e5eca81f8f1f4642bb044628cecc26c2s.webp"
+      ]
+    },
+    {
+      "id": "2ca8637b-2524-4368-9de0-019bdc921c3e",
+      "code": "NN-GRM427",
+      "title": "Local Avenida Juarez Centro",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "75,000 MXN Renta",
+      "precio_num": 75000.0,
+      "superficie": "790 m²",
+      "area_num": 790.0,
+      "precio_m2": "$94.9/m²",
+      "pm2_num": 94.94,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "TripleTresInmobiliaria",
+      "fecha_publicacion": "2026-05-05",
+      "days_on_market": 160,
+      "link": "https://app.nocnok.com/crm/154940/properties/2ca8637b-2524-4368-9de0-019bdc921c3e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260120121332-1f6168167ce7491d93aaad86c4f5462fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260120121322-675de4a6b33b4aa49b7bbc79a66cce75s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260120121322-3d6e0e66169b4580870dcda19f1d0a48s.webp"
       ]
     },
     {
@@ -58445,7 +58420,7 @@
     {
       "id": "5552cf0b-8ddd-4d3a-ad72-019746ef0d8f",
       "code": "MX25-RP10046",
-      "title": "TERRENO EN VENTA  MATAMOROS- LA PARTIDA",
+      "title": "TERRENO EN VENTA  ZONA NORTE Torreón",
       "categoria": "Comercial",
       "tipo": "Terreno",
       "operacion": "Venta",
@@ -79930,6 +79905,85 @@
       ]
     },
     {
+      "id": "75e8d4b4-a02f-45e9-9a28-01a131c30bbe",
+      "code": "NN-HGS565",
+      "title": "Bodega en Renta de 1,200 m² | Pequeña Zona Industrial, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "79,200 MXN Renta",
+      "precio_num": 79200.0,
+      "superficie": "1 m²",
+      "area_num": 1.0,
+      "precio_m2": "$79,200/m²",
+      "pm2_num": 79200.0,
+      "ubicacion": "Pequeña Zona Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "San Angel Asesores Inmobiliarios S.C",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/75e8d4b4-a02f-45e9-9a28-01a131c30bbe",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012150434-eefc33b71cf94333a3440e18ea704134s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012150646-69f5138065234735a6bde5f2e5e52c50s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012150951-61adb16e329c495680704d2189cf19abs.webp"
+      ]
+    },
+    {
+      "id": "e9bab62f-f5d4-4789-9d3c-01a13300190a",
+      "code": "NN-HGS988",
+      "title": "Terreno en Venta en Industrial Mieleras, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "1,250,000 USD Venta",
+      "precio_num": 1250000.0,
+      "superficie": "25,000 m²",
+      "area_num": 25000.0,
+      "precio_m2": "$50.0/m²",
+      "pm2_num": 50.0,
+      "ubicacion": "Industrial Mieleras, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/e9bab62f-f5d4-4789-9d3c-01a13300190a",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012200326-65d6c7de98cd4e38a38b27167c84d5a9s.webp"
+      ]
+    },
+    {
+      "id": "63278a16-96c1-4917-a526-01a132ffe9bd",
+      "code": "NN-HGS987",
+      "title": "Bodega en Renta en El Tajito, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "90,000 MXN Renta",
+      "precio_num": 90000.0,
+      "superficie": "1,200 m²",
+      "area_num": 1200.0,
+      "precio_m2": "$75.0/m²",
+      "pm2_num": 75.0,
+      "ubicacion": "El Tajito, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/63278a16-96c1-4917-a526-01a132ffe9bd",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012200314-4816404a3ae14053b1bb30792b82a0aes.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012200315-71f0d3b1e5c7423ca66484b8b98b935ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012200315-456c7125e87844589cf33a7664435fbbs.webp"
+      ]
+    },
+    {
       "id": "5f6c665a-3050-4f9d-8980-018b2929057e",
       "code": "MX23-OW3176",
       "title": "Oficina en Renta en Residencial el Fresno, Torreón, Coahuila de Zaragoza",
@@ -82298,10 +82352,10 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "105,000 MXN Renta",
-      "precio_num": 105000.0,
-      "superficie": "1,400 m²",
-      "area_num": 1400.0,
+      "precio": "98,700 MXN Renta",
+      "precio_num": 98700.0,
+      "superficie": "1,316 m²",
+      "area_num": 1316.0,
       "precio_m2": "$75.0/m²",
       "pm2_num": 75.0,
       "ubicacion": "San Agustín, Torreón, Coahuila de Zaragoza",
@@ -82822,33 +82876,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260918125001-86cb61911d0642c0b4a6e5d297fb95f2s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260918125014-0f37bcfe549c49b395e95640aa3a8670s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260918125018-f827045b84a9460c8c0530fa6d0cb1e8s.webp"
-      ]
-    },
-    {
-      "id": "40675375-6652-42c6-8a4b-01a0a67ace4f",
-      "code": "NN-HFQ105",
-      "title": "Terreno en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "100,000 MXN Renta",
-      "precio_num": 100000.0,
-      "superficie": "10,000 m²",
-      "area_num": 10000.0,
-      "precio_m2": "$10.0/m²",
-      "pm2_num": 10.0,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "AARAI BIENES RAICES",
-      "fecha_publicacion": "2026-09-15",
-      "days_on_market": 27,
-      "link": "https://app.nocnok.com/crm/154940/properties/40675375-6652-42c6-8a4b-01a0a67ace4f",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260915131113-10ce64fd09f74ca183efdac317af7d3es.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260915131114-cb9b48d299894a7cafc19600f559d56as.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260915131114-45e0fc25c9dc497d938d637cd822a400s.webp"
       ]
     },
     {
@@ -84092,33 +84119,6 @@
       ]
     },
     {
-      "id": "cca2b48f-5e13-4f65-a502-01a05aa881a8",
-      "code": "NN-HEE952",
-      "title": "Bodega en Renta en El Tajito, Torreón, Coahuila de Zaragoza",
-      "categoria": "Industrial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "90,000 MXN Renta",
-      "precio_num": 90000.0,
-      "superficie": "1,200 m²",
-      "area_num": 1200.0,
-      "precio_m2": "$75.0/m²",
-      "pm2_num": 75.0,
-      "ubicacion": "El Tajito, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "GRACE BRECEDA REAL ESTATE",
-      "fecha_publicacion": "2026-08-31",
-      "days_on_market": 42,
-      "link": "https://app.nocnok.com/crm/154940/properties/cca2b48f-5e13-4f65-a502-01a05aa881a8",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260831195214-78333e9c7d544b9ab162f97c484763e7s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260831195212-15ff9e1300144f679b0414c3f78c0f5ds.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260831195214-30effaa9ed6140c992c603ba2e26eda5s.webp"
-      ]
-    },
-    {
       "id": "100f9242-dd52-4e3b-9bd4-01a04ebb25d5",
       "code": "NN-HED398",
       "title": "Bodega en Renta en La Concha, Torreón, Coahuila de Zaragoza",
@@ -84170,58 +84170,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260827125904-d976edd08b124fedb0404d0c5d193f1bs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260827125913-81b5bc882d484c0abc86b0cf959be1cfs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260827130144-e71da94432b64a4fb6b47f9e0b6c2044s.webp"
-      ]
-    },
-    {
-      "id": "be4f6894-1035-4053-b55f-01a03f12b6eb",
-      "code": "NN-HEA866",
-      "title": "Bodega en Renta en La Union, Torreón, Coahuila de Zaragoza",
-      "categoria": "Industrial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "85,000 MXN Renta",
-      "precio_num": 85000.0,
-      "superficie": "1,800 m²",
-      "area_num": 1800.0,
-      "precio_m2": "$47.2/m²",
-      "pm2_num": 47.22,
-      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "GRACE BRECEDA REAL ESTATE",
-      "fecha_publicacion": "2026-08-26",
-      "days_on_market": 47,
-      "link": "https://app.nocnok.com/crm/154940/properties/be4f6894-1035-4053-b55f-01a03f12b6eb",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260826111626-535e82ce598d4a458f665f69de9528cfs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260826111626-177869a8b95648a1b24ebd3e45499914s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260826111627-bffb02861a294e8e8050be340273902cs.webp"
-      ]
-    },
-    {
-      "id": "098539cf-21f6-49b5-8a79-01a0404b9826",
-      "code": "NN-HEB231",
-      "title": "Terreno en Venta en Industrial Mieleras, Torreón, Coahuila de Zaragoza",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "1,250,000 USD Venta",
-      "precio_num": 1250000.0,
-      "superficie": "25,000 m²",
-      "area_num": 25000.0,
-      "precio_m2": "$50.0/m²",
-      "pm2_num": 50.0,
-      "ubicacion": "Industrial Mieleras, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "GRACE BRECEDA REAL ESTATE",
-      "fecha_publicacion": "2026-08-26",
-      "days_on_market": 47,
-      "link": "https://app.nocnok.com/crm/154940/properties/098539cf-21f6-49b5-8a79-01a0404b9826",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260826205751-9ee6bf59dbf340cdb5cf9305dcefffb2s.webp"
       ]
     },
     {
@@ -100771,6 +100719,33 @@
       ]
     },
     {
+      "id": "b4e0a3aa-92bf-47a2-af6d-01a1327fd10a",
+      "code": "NN-HGS817",
+      "title": "Bodega en Venta en Francisco Zarco, Gómez Palacio, Durango",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "1,570,000 MXN Venta",
+      "precio_num": 1570000.0,
+      "superficie": "271 m²",
+      "area_num": 271.0,
+      "precio_m2": "$5,793/m²",
+      "pm2_num": 5793.36,
+      "ubicacion": "Francisco Zarco, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "CENTURY 21 AVANCE",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/b4e0a3aa-92bf-47a2-af6d-01a1327fd10a",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012174427-f3f86e3bf8ec4f03abc48b06fcc04153s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012174450-4e79d6d988594770a4feb631d4967645s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012174451-23bf845236474035bfb09eb0273f016es.webp"
+      ]
+    },
+    {
       "id": "5523202d-f034-4a0c-897f-01904c7e0b76",
       "code": "MX24-DU0564",
       "title": "Terreno en Venta en Agrícola la Popular, Gómez Palacio, Durango",
@@ -112453,6 +112428,33 @@
       ]
     },
     {
+      "id": "c1c9661e-2e24-4974-9db6-01a133009c3e",
+      "code": "NN-HGS990",
+      "title": "Nave en Renta en Ex-Ejido Cuba, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "280,000 MXN Renta",
+      "precio_num": 280000.0,
+      "superficie": "3,000 m²",
+      "area_num": 3000.0,
+      "precio_m2": "$93.3/m²",
+      "pm2_num": 93.33,
+      "ubicacion": "Ex-Ejido Cuba, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-10-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/c1c9661e-2e24-4974-9db6-01a133009c3e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261012200400-46b48335a32a41fcab72a01476c1035es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012200400-ed28fca28af84631aca9809161e7f72cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012200401-92618fe29475466cb0e0502808f5cec3s.webp"
+      ]
+    },
+    {
       "id": "6341f7b9-854b-4bdd-a1dc-01a001a3542d",
       "code": "NN-HDR089",
       "title": "Se Renta  en Zona Industrial Gomez Palacio, Dgo.",
@@ -112693,33 +112695,6 @@
       ]
     },
     {
-      "id": "a1e50d9a-baa0-4995-8da8-01a10a9b43ff",
-      "code": "NN-HGF629",
-      "title": "Terreno en Renta en Hortensias, Gómez Palacio, Durango",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "120,160 MXN Renta",
-      "precio_num": 120160.0,
-      "superficie": "6,006 m²",
-      "area_num": 6006.0,
-      "precio_m2": "$20.0/m²",
-      "pm2_num": 20.01,
-      "ubicacion": "Hortensias, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "RE/MAX LAGUNA",
-      "fecha_publicacion": "2026-10-04",
-      "days_on_market": 8,
-      "link": "https://app.nocnok.com/crm/154940/properties/a1e50d9a-baa0-4995-8da8-01a10a9b43ff",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-261004234924-e198bd3501c542beaf9c097c42092ba5s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261004234924-5d0a1fb0fc834962894203da83556120s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261004234924-692ffa778efe44f3a3d5b77a9ecbfa89s.webp"
-      ]
-    },
-    {
       "id": "e67e3d6f-0ad6-47e2-a34a-01a10a8dc31c",
       "code": "NN-HGF627",
       "title": "Bodega en Renta en Jabonoso, Gómez Palacio, Durango",
@@ -112771,6 +112746,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-261004232420-932f30a7812641c3b6f3713acd0da428s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261004232420-1ac519e1be0946f58b7d6f3e0655f06es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261004232416-b1ce187e06244a60971becc47515c5dfs.webp"
+      ]
+    },
+    {
+      "id": "a1e50d9a-baa0-4995-8da8-01a10a9b43ff",
+      "code": "NN-HGF629",
+      "title": "Terreno en Renta en Hortensias, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "120,160 MXN Renta",
+      "precio_num": 120160.0,
+      "superficie": "6,006 m²",
+      "area_num": 6006.0,
+      "precio_m2": "$20.0/m²",
+      "pm2_num": 20.01,
+      "ubicacion": "Hortensias, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-10-04",
+      "days_on_market": 8,
+      "link": "https://app.nocnok.com/crm/154940/properties/a1e50d9a-baa0-4995-8da8-01a10a9b43ff",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261004234925-262ab5553d934464b7c5663857682b6ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261012150003-8cfbb769b9934bd29b0f93cf51767b4bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261004234926-c44d94a2a85d48509feee896afe1eca3s.webp"
       ]
     },
     {
@@ -113951,33 +113953,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260901225003-733d0cd959c844579e1f4b44469742a6s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260901225003-5011036a099548d980f6a32c366be508s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260901225003-8fd1f7570b4b461b8514dfbf73171df8s.webp"
-      ]
-    },
-    {
-      "id": "1a094458-9a3b-49f8-8c33-01a0596884fe",
-      "code": "NN-HEE668",
-      "title": "Nave en Renta en Ex-Ejido Cuba, Gómez Palacio, Durango",
-      "categoria": "Industrial",
-      "tipo": "Nave",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "280,000 MXN Renta",
-      "precio_num": 280000.0,
-      "superficie": "3,000 m²",
-      "area_num": 3000.0,
-      "precio_m2": "$93.3/m²",
-      "pm2_num": 93.33,
-      "ubicacion": "Ex-Ejido Cuba, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "GRACE BRECEDA REAL ESTATE",
-      "fecha_publicacion": "2026-08-31",
-      "days_on_market": 42,
-      "link": "https://app.nocnok.com/crm/154940/properties/1a094458-9a3b-49f8-8c33-01a0596884fe",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260831140017-dc92bfc365ee4c3ba70f21f2a178c538s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260831140017-e854e4cd5fcc4daaa1070b5907f56c50s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260831140017-f8726a4a141d4f8cbace7ff27bf15f21s.webp"
       ]
     },
     {
