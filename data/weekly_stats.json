@@ -7346,29 +7346,33 @@
     },
     "2026-W42": {
       "week": "2026-W42",
-      "total": 17,
+      "total": 25,
       "cities": {
         "Torreón": {
-          "total": 14,
+          "total": 22,
           "tipos_m2": {
             "Casa": {
               "sum": 50.0,
               "count": 1
             },
             "Bodega": {
-              "sum": 79650.90120957461,
-              "count": 8
+              "sum": 80410.90120957461,
+              "count": 10
             },
             "Terreno": {
-              "sum": 4660.043976141198,
-              "count": 3
+              "sum": 9775.624285222635,
+              "count": 7
             },
             "Edificio": {
               "sum": 9027.777777777777,
               "count": 1
             },
             "Local": {
-              "sum": 250.0,
+              "sum": 343.75,
+              "count": 2
+            },
+            "Oficina": {
+              "sum": 57.142857142857146,
               "count": 1
             }
           }
