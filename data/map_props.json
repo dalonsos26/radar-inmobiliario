@@ -821,8 +821,8 @@
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "70 m²",
-    "precio": "750,000 MXN Venta",
-    "precio_m2": "$10,714/m²",
+    "precio": "800,000 MXN Venta",
+    "precio_m2": "$11,429/m²",
     "op_key": "venta",
     "link": "https://app.nocnok.com/crm/154940/properties/190fe0ed-b523-4cd6-9cb2-019e6a642ca0",
     "fotos_local": [
@@ -1731,7 +1731,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "04b838dc-0060-424a-ab9d-0195bac3dc51",
@@ -1799,7 +1799,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "3e66e499-ba59-44d8-9049-0199b138f5d6",
