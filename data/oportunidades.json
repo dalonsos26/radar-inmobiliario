@@ -48,6 +48,166 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "b90a00dd-29f3-4b9c-b608-0192c498a30e",
+      "code": "MX24-RW9812",
+      "title": "Terreno en Venta en 5 de Mayo, Gómez Palacio, Durango",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "38,000,000 MXN Venta",
+      "precio_num": 38000000.0,
+      "superficie": "15,121 m²",
+      "area_num": 15121.0,
+      "precio_m2": "$2,513/m²",
+      "pm2_num": 2513.06,
+      "ubicacion": "5 de Mayo, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-05-04",
+      "days_on_market": 162,
+      "link": "https://app.nocnok.com/crm/154940/properties/b90a00dd-29f3-4b9c-b608-0192c498a30e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-241029135414-200a69704e0a4fcaa38ae8f3daff6b20s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-241029135414-b52a748ff34943819237988e09c9e650s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-241029135414-be10c9863f0247da9b4fae9f3964847es.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-14",
+      "status": "delisted",
+      "delisted_at": "2026-10-14",
+      "days_listed": 135,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 38000000.0,
+          "precio": "38,000,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "91d20c9f-fcb5-4c9c-85b4-019b0a9a798c",
+      "code": "NN-MM1000295",
+      "title": "Terreno en Venta en Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "16,500,000 MXN Venta",
+      "precio_num": 16500000.0,
+      "superficie": "6,780 m²",
+      "area_num": 6780.0,
+      "precio_m2": "$2,434/m²",
+      "pm2_num": 2433.63,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "ALARCON MURRA BIENES RAICES",
+      "fecha_publicacion": "2026-05-14",
+      "days_on_market": 25,
+      "link": "https://app.nocnok.com/crm/154940/properties/91d20c9f-fcb5-4c9c-85b4-019b0a9a798c",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-251210173423-28e199d5200049d1ad630dfaa68df114s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251210173424-f2a0f7275a224060b9ee50e1a0acfda1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251210173424-388e3622c51d4ff781ee4e10b39a53a1s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-14",
+      "status": "delisted",
+      "delisted_at": "2026-10-14",
+      "days_listed": 135,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 16500000.0,
+          "precio": "16,500,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "bc09b7ee-032c-444c-a242-018b2929c08c",
+      "code": "MX23-OX8486",
+      "title": "Terreno en Venta en Las Huertas, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "6,521,600 MXN Venta",
+      "precio_num": 6521600.0,
+      "superficie": "6,521 m²",
+      "area_num": 6521.0,
+      "precio_m2": "$1,000/m²",
+      "pm2_num": 1000.09,
+      "ubicacion": "Las Huertas, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2024-11-12",
+      "days_on_market": 700,
+      "link": "https://app.nocnok.com/crm/154940/properties/bc09b7ee-032c-444c-a242-018b2929c08c",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/230628171106-013405ac7dfd4650bab9f086e2b8f5ca.jpg",
+        "https://s3.amazonaws.com/nocnok-img/230628171107-5eff7459368f4911a8f761af6fbc2043.jpg",
+        "https://s3.amazonaws.com/nocnok-img/230628171107-7779770b05ad400b9503799ea3a1f4e3.jpg"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-14",
+      "status": "delisted",
+      "delisted_at": "2026-10-14",
+      "days_listed": 135,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 6521600.0,
+          "precio": "6,521,600 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "efc2d286-e32e-4d01-9e96-0192c0bec0ca",
+      "code": "MX24-JR6807",
+      "title": "Consultorio en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Consultorio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "5,000 MXN Renta",
+      "precio_num": 5000.0,
+      "superficie": "14 m²",
+      "area_num": 14.0,
+      "precio_m2": "$357.1/m²",
+      "pm2_num": 357.14,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Sofía Medinilla Bienes Raíces",
+      "fecha_publicacion": "2026-06-20",
+      "days_on_market": 116,
+      "link": "https://app.nocnok.com/crm/154940/properties/efc2d286-e32e-4d01-9e96-0192c0bec0ca",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-241024165721-92f7731ec49d494b9fd2f16dd9d4cea4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-241024165716-7656cb8ee3324977b046f7f15a604abbs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-241024165718-b1fdc52fd9f7494487c9d299e71b84cbs.webp"
+      ],
+      "first_seen": "2026-06-22",
+      "last_seen": "2026-10-14",
+      "status": "delisted",
+      "delisted_at": "2026-10-14",
+      "days_listed": 114,
+      "precio_history": [
+        {
+          "date": "2026-06-22",
+          "precio_num": 5000.0,
+          "precio": "5,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "ef80892c-1747-4257-b836-019be1421494",
       "code": "NN-GRO449",
       "title": "LOCALES EN PREVENTA",
@@ -49066,7 +49226,7 @@
     {
       "id": "d255c885-83c5-475e-a015-01a0112bbb64",
       "code": "NN-HDT235",
-      "title": "Casa en Renta para Oficinas ó Consultorios en Fraccionamiento Provitec",
+      "title": "Casa en renta  calle Pavorreal esq. Con Vasconcelos",
       "categoria": "Comercial",
       "tipo": "Casa",
       "operacion": "Renta",
