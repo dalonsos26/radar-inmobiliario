@@ -1,6 +1,86 @@
 {
   "delisted": [
     {
+      "id": "86a49fb8-bfcd-4c54-8853-019fde81ec8a",
+      "code": "NN-HDH741",
+      "title": "Local en Renta en Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "5,500 MXN Renta",
+      "precio_num": 5500.0,
+      "superficie": "25.6 m²",
+      "area_num": 25.6,
+      "precio_m2": "$214.8/m²",
+      "pm2_num": 214.84,
+      "ubicacion": "Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RED Bienes Raíces",
+      "fecha_publicacion": "2026-08-07",
+      "days_on_market": 71,
+      "link": "https://app.nocnok.com/crm/154940/properties/86a49fb8-bfcd-4c54-8853-019fde81ec8a",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260807171526-0c6ba5aeeac34732b978a33afee48139s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260807171526-556c4efb5b57425b8a5881d6cce6eb35s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260807171525-9ab7842aff0f4846977360135c34d1c9s.webp"
+      ],
+      "first_seen": "2026-08-08",
+      "last_seen": "2026-10-17",
+      "status": "delisted",
+      "delisted_at": "2026-10-17",
+      "days_listed": 70,
+      "precio_history": [
+        {
+          "date": "2026-08-08",
+          "precio_num": 5500.0,
+          "precio": "5,500 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "d790bc62-956b-49f3-9821-019ff73c2d91",
+      "code": "NN-HDP270",
+      "title": "TERRENO BARDADO EN ESQUINA EN VENTA",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "2,000,000 MXN Venta",
+      "precio_num": 2000000.0,
+      "superficie": "271.07 m²",
+      "area_num": 271.07,
+      "precio_m2": "$7,378/m²",
+      "pm2_num": 7378.17,
+      "ubicacion": "Nuevo Torreon, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-08-12",
+      "days_on_market": 66,
+      "link": "https://app.nocnok.com/crm/154940/properties/d790bc62-956b-49f3-9821-019ff73c2d91",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260812122917-43a9f83faf284920b2799bac63952871s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812122917-d56911f06caf4e9390242dfe53d19f4cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260812122917-8e05b7bdb0ec4e0ab1062bcc121acdc5s.webp"
+      ],
+      "first_seen": "2026-08-13",
+      "last_seen": "2026-10-17",
+      "status": "delisted",
+      "delisted_at": "2026-10-17",
+      "days_listed": 65,
+      "precio_history": [
+        {
+          "date": "2026-08-13",
+          "precio_num": 1800000.0,
+          "precio": "1,800,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "fb69187b-7706-4162-a7ce-019e19298ad1",
       "code": "NN-GYV403",
       "title": "Oficina en Renta en Ampliación la Rosita, Torreón, Coahuila de Zaragoza",

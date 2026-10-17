@@ -205603,16 +205603,17 @@
       ],
       "first_seen": "2026-08-08",
       "last_seen": "2026-10-17",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-10-17",
+      "days_listed": 70,
       "precio_history": [
         {
           "date": "2026-08-08",
           "precio_num": 5500.0,
           "precio": "5,500 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "efeb794c-5648-4983-b6be-019fde7f81da": {
       "id": "efeb794c-5648-4983-b6be-019fde7f81da",
@@ -206815,9 +206816,9 @@
       ],
       "first_seen": "2026-08-13",
       "last_seen": "2026-10-17",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 1,
+      "status": "delisted",
+      "delisted_at": "2026-10-17",
+      "days_listed": 65,
       "precio_history": [
         {
           "date": "2026-08-13",
@@ -206825,7 +206826,7 @@
           "precio": "1,800,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "c728abcb-5534-4538-8e32-019ff78b2124": {
       "id": "c728abcb-5534-4538-8e32-019ff78b2124",
@@ -228951,7 +228952,7 @@
     "f0c3435e-959c-4c62-9da5-01a1177350a5": {
       "id": "f0c3435e-959c-4c62-9da5-01a1177350a5",
       "code": "NN-HGL611",
-      "title": "Bodega en Renta en Jacarandas, Torreón, Coahuila de Zaragoza",
+      "title": "Bodega en Renta en Parque Industrial Santa Rita, Gómez Palacio, Durango",
       "categoria": "Industrial",
       "tipo": "Bodega",
       "operacion": "Renta",
@@ -228962,7 +228963,7 @@
       "area_num": 1250.0,
       "precio_m2": "$56.0/m²",
       "pm2_num": 56.0,
-      "ubicacion": "Jacarandas, Torreón, Coahuila de Zaragoza",
+      "ubicacion": "Parque Industrial Santa Rita, Gómez Palacio, Durango",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
       "broker": "Yuliana Martinez",
@@ -231930,6 +231931,45 @@
           "date": "2026-10-17",
           "precio_num": 7500.0,
           "precio": "7,500 MXN Renta"
+        }
+      ]
+    },
+    "8a64b279-358d-421a-80b5-01a14b3547e2": {
+      "id": "8a64b279-358d-421a-80b5-01a14b3547e2",
+      "code": "NN-HHG176",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "12,000 MXN Renta",
+      "precio_num": 12000.0,
+      "superficie": "75 m²",
+      "area_num": 75.0,
+      "precio_m2": "$160.0/m²",
+      "pm2_num": 160.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-10-17",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/8a64b279-358d-421a-80b5-01a14b3547e2",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261017131301-e11697f869914bca8b7800cf12c7d08as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261017131301-dff4d524b718422493dd09164efed60as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261017131301-567f7a10c415448d981c16669ddab7ces.webp"
+      ],
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-17",
+          "precio_num": 12000.0,
+          "precio": "12,000 MXN Renta"
         }
       ]
     }

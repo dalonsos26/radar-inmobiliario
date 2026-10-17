@@ -7346,10 +7346,10 @@
     },
     "2026-W42": {
       "week": "2026-W42",
-      "total": 64,
+      "total": 65,
       "cities": {
         "Torreón": {
-          "total": 54,
+          "total": 55,
           "tipos_m2": {
             "Casa": {
               "sum": 50.0,
@@ -7368,8 +7368,8 @@
               "count": 1
             },
             "Local": {
-              "sum": 98890.17906218878,
-              "count": 14
+              "sum": 99050.17906218878,
+              "count": 15
             },
             "Oficina": {
               "sum": 1575.0,

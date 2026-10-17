@@ -1,8 +1,35 @@
 {
-  "run_at": "2026-10-17 09:38:00",
-  "total": 4683,
-  "new_count": 3,
+  "run_at": "2026-10-17 16:49:02",
+  "total": 4682,
+  "new_count": 1,
   "properties": [
+    {
+      "id": "8a64b279-358d-421a-80b5-01a14b3547e2",
+      "code": "NN-HHG176",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "12,000 MXN Renta",
+      "precio_num": 12000.0,
+      "superficie": "75 m²",
+      "area_num": 75.0,
+      "precio_m2": "$160.0/m²",
+      "pm2_num": 160.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-10-17",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/8a64b279-358d-421a-80b5-01a14b3547e2",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261017131301-e11697f869914bca8b7800cf12c7d08as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261017131301-dff4d524b718422493dd09164efed60as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261017131301-567f7a10c415448d981c16669ddab7ces.webp"
+      ]
+    },
     {
       "id": "d867ba92-ba6e-4ea2-9b47-01a145482f84",
       "code": "NN-HGW754",
@@ -27879,33 +27906,6 @@
       ]
     },
     {
-      "id": "7ee61251-3107-4641-9db8-01a010bd7e58",
-      "code": "NN-HDT115",
-      "title": "Consultorio aclientado en centro de la ciudad.",
-      "categoria": "Comercial",
-      "tipo": "Consultorio",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "450,000 MXN Venta",
-      "precio_num": 450000.0,
-      "superficie": "52 m²",
-      "area_num": 52.0,
-      "precio_m2": "$8,654/m²",
-      "pm2_num": 8653.85,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Yolanda Alonso",
-      "fecha_publicacion": "2026-08-17",
-      "days_on_market": 61,
-      "link": "https://app.nocnok.com/crm/154940/properties/7ee61251-3107-4641-9db8-01a010bd7e58",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260817112217-bf6e199a9903482ea699d7bbb2be83e2s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260817112217-bcbabecb874e4fcea255728822694f51s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260817112212-854a962880794347b9289dc9cfce3b80s.webp"
-      ]
-    },
-    {
       "id": "d255c885-83c5-475e-a015-01a0112bbb64",
       "code": "NN-HDT235",
       "title": "Casa en renta  calle Pavorreal esq. Con Vasconcelos",
@@ -27930,6 +27930,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260818125801-65f6aaca314f45358d9f827c8dfafdecs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260817132319-55ee99fe7ccb4a6493e0057622f0ab87s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260817133119-9f3868aea20a436e9ccd930b6b0425fas.webp"
+      ]
+    },
+    {
+      "id": "7ee61251-3107-4641-9db8-01a010bd7e58",
+      "code": "NN-HDT115",
+      "title": "Consultorio aclientado en centro de la ciudad.",
+      "categoria": "Comercial",
+      "tipo": "Consultorio",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "450,000 MXN Venta",
+      "precio_num": 450000.0,
+      "superficie": "52 m²",
+      "area_num": 52.0,
+      "precio_m2": "$8,654/m²",
+      "pm2_num": 8653.85,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Yolanda Alonso",
+      "fecha_publicacion": "2026-08-17",
+      "days_on_market": 61,
+      "link": "https://app.nocnok.com/crm/154940/properties/7ee61251-3107-4641-9db8-01a010bd7e58",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260817112217-bf6e199a9903482ea699d7bbb2be83e2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260817112217-bcbabecb874e4fcea255728822694f51s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260817112212-854a962880794347b9289dc9cfce3b80s.webp"
       ]
     },
     {
@@ -28631,33 +28658,6 @@
       ]
     },
     {
-      "id": "d790bc62-956b-49f3-9821-019ff73c2d91",
-      "code": "NN-HDP270",
-      "title": "TERRENO BARDADO EN ESQUINA EN VENTA",
-      "categoria": "Comercial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "2,000,000 MXN Venta",
-      "precio_num": 2000000.0,
-      "superficie": "271.07 m²",
-      "area_num": 271.07,
-      "precio_m2": "$7,378/m²",
-      "pm2_num": 7378.17,
-      "ubicacion": "Nuevo Torreon, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "NATALIA GTZ & ASOC",
-      "fecha_publicacion": "2026-08-12",
-      "days_on_market": 66,
-      "link": "https://app.nocnok.com/crm/154940/properties/d790bc62-956b-49f3-9821-019ff73c2d91",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260812122917-43a9f83faf284920b2799bac63952871s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260812122917-d56911f06caf4e9390242dfe53d19f4cs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260813134854-74d0fda8be934e34b2b08a2e782b1139s.webp"
-      ]
-    },
-    {
       "id": "a90273c7-1e23-40b4-8206-019ff2d80384",
       "code": "NN-HDJ888",
       "title": "Renta de Bodega Comercial en Magdalenas, Torreón",
@@ -28817,33 +28817,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260807134444-a90b30ab06ec4149bf65862ce15d1bbfs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260807134443-4728b89df1a049d69f2e9e9c3b854307s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260807134443-ab24e5cb64a84607a4e66fb3f3639a09s.webp"
-      ]
-    },
-    {
-      "id": "86a49fb8-bfcd-4c54-8853-019fde81ec8a",
-      "code": "NN-HDH741",
-      "title": "Local en Renta en Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "5,500 MXN Renta",
-      "precio_num": 5500.0,
-      "superficie": "25.6 m²",
-      "area_num": 25.6,
-      "precio_m2": "$214.8/m²",
-      "pm2_num": 214.84,
-      "ubicacion": "Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "RED Bienes Raíces",
-      "fecha_publicacion": "2026-08-07",
-      "days_on_market": 71,
-      "link": "https://app.nocnok.com/crm/154940/properties/86a49fb8-bfcd-4c54-8853-019fde81ec8a",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260807171526-0c6ba5aeeac34732b978a33afee48139s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260807171526-556c4efb5b57425b8a5881d6cce6eb35s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260807171525-9ab7842aff0f4846977360135c34d1c9s.webp"
       ]
     },
     {
@@ -81587,33 +81560,6 @@
       ]
     },
     {
-      "id": "f0c3435e-959c-4c62-9da5-01a1177350a5",
-      "code": "NN-HGL611",
-      "title": "Bodega en Renta en Jacarandas, Torreón, Coahuila de Zaragoza",
-      "categoria": "Industrial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "70,000 MXN Renta",
-      "precio_num": 70000.0,
-      "superficie": "1,250 m²",
-      "area_num": 1250.0,
-      "precio_m2": "$56.0/m²",
-      "pm2_num": 56.0,
-      "ubicacion": "Jacarandas, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Yuliana Martinez",
-      "fecha_publicacion": "2026-10-07",
-      "days_on_market": 10,
-      "link": "https://app.nocnok.com/crm/154940/properties/f0c3435e-959c-4c62-9da5-01a1177350a5",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-261007114206-91d887733b984bfa866168fb073743cas.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261007114205-bd298c18f5c04bf485c1a444039525b8s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261007114205-3ef1cd762ede4b0d87268af7b8cb0c87s.webp"
-      ]
-    },
-    {
       "id": "d5e04dca-c44d-4ba7-9ea0-018b2929c08c",
       "code": "MX23-OX8373",
       "title": "NAVE INDUSTRIAL EN  RENTA  EN LA ZONA INDUSTRIAL DE TORREON",
@@ -113193,6 +113139,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260824182306-51d83edb7ca8409ea0792adc0e5453c5s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260824182304-1035a451153e4e15bf7416eff4fd2126s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260824182304-6a2e51e5fc4f4ca0aa5964c013b81de6s.webp"
+      ]
+    },
+    {
+      "id": "f0c3435e-959c-4c62-9da5-01a1177350a5",
+      "code": "NN-HGL611",
+      "title": "Bodega en Renta en Parque Industrial Santa Rita, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "70,000 MXN Renta",
+      "precio_num": 70000.0,
+      "superficie": "1,250 m²",
+      "area_num": 1250.0,
+      "precio_m2": "$56.0/m²",
+      "pm2_num": 56.0,
+      "ubicacion": "Parque Industrial Santa Rita, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "Yuliana Martinez",
+      "fecha_publicacion": "2026-10-07",
+      "days_on_market": 10,
+      "link": "https://app.nocnok.com/crm/154940/properties/f0c3435e-959c-4c62-9da5-01a1177350a5",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261007114206-91d887733b984bfa866168fb073743cas.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261007114205-bd298c18f5c04bf485c1a444039525b8s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261007114205-3ef1cd762ede4b0d87268af7b8cb0c87s.webp"
       ]
     },
     {
