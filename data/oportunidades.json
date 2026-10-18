@@ -1,6 +1,46 @@
 {
   "delisted": [
     {
+      "id": "83ec7d1c-e9e5-4b04-9380-01921049a648",
+      "code": "MX24-TX1724",
+      "title": "Oficina en Venta en Parque Industrial Laguna, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Oficina",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "7,280,000 MXN Venta",
+      "precio_num": 7280000.0,
+      "superficie": "1,057 m²",
+      "area_num": 1057.0,
+      "precio_m2": "$6,887/m²",
+      "pm2_num": 6887.42,
+      "ubicacion": "Parque Industrial Laguna, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "Link Bienes Raíces",
+      "fecha_publicacion": "2025-09-10",
+      "days_on_market": 402,
+      "link": "https://app.nocnok.com/crm/154940/properties/83ec7d1c-e9e5-4b04-9380-01921049a648",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-240920111551-38531416034d4f75aaef70ef46dc9ccds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240920111551-8acc71928e7c441b9491c2fafbf6392ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240920111553-3170a797e0314aa08738346ea55240e5s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-18",
+      "status": "delisted",
+      "delisted_at": "2026-10-18",
+      "days_listed": 139,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 7280000.0,
+          "precio": "7,280,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "86a49fb8-bfcd-4c54-8853-019fde81ec8a",
       "code": "NN-HDH741",
       "title": "Local en Renta en Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
@@ -46641,6 +46681,57 @@
       "current_precio_num": 35000.0,
       "total_drop_pct": 22.2,
       "last_drop_date": "2026-09-12"
+    },
+    {
+      "id": "03818624-6ae1-43e3-a7e2-019dc0841714",
+      "code": "NN-GXZ458",
+      "title": "BODEGA CON OFICINAS Y TERRENO COL. FCO. VILLA",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "19,500,000 MXN Venta",
+      "precio_num": 19500000.0,
+      "superficie": "1,000 m²",
+      "area_num": 1000.0,
+      "precio_m2": "$19,500/m²",
+      "pm2_num": 19500.0,
+      "ubicacion": "Francisco Villa, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-04-23",
+      "days_on_market": 42,
+      "link": "https://app.nocnok.com/crm/154940/properties/03818624-6ae1-43e3-a7e2-019dc0841714",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260424112321-466e1b9c5b5e4406b1405c97fefecd2bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260424112320-17a9b2fbf2c64848bc9d1ebe8a9bbd77s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260424112323-14384d503ebd4c36b8125cbb53dc69f5s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-18",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 97,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 25000000.0,
+          "precio": "25,000,000 MXN Venta"
+        },
+        {
+          "date": "2026-10-18",
+          "precio_num": 19500000.0,
+          "precio": "19,500,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": null,
+      "original_precio": "25,000,000 MXN Venta",
+      "original_precio_num": 25000000.0,
+      "current_precio": "19,500,000 MXN Venta",
+      "current_precio_num": 19500000.0,
+      "total_drop_pct": 22.0,
+      "last_drop_date": "2026-10-18"
     },
     {
       "id": "2cd28287-c08d-4a04-9fac-0194fc6b30ab",

@@ -1,6 +1,6 @@
 {
-  "run_at": "2026-10-18 09:37:45",
-  "total": 4681,
+  "run_at": "2026-10-18 16:42:29",
+  "total": 4680,
   "new_count": 0,
   "properties": [
     {
@@ -19745,33 +19745,6 @@
       ]
     },
     {
-      "id": "03818624-6ae1-43e3-a7e2-019dc0841714",
-      "code": "NN-GXZ458",
-      "title": "BODEGA CON OFICINAS Y TERRENO COL. FCO. VILLA",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "25,000,000 MXN Venta",
-      "precio_num": 25000000.0,
-      "superficie": "1,000 m²",
-      "area_num": 1000.0,
-      "precio_m2": "$25,000/m²",
-      "pm2_num": 25000.0,
-      "ubicacion": "Francisco Villa, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Bienes Raíces DIA ",
-      "fecha_publicacion": "2026-09-06",
-      "days_on_market": 42,
-      "link": "https://app.nocnok.com/crm/154940/properties/03818624-6ae1-43e3-a7e2-019dc0841714",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260424112321-466e1b9c5b5e4406b1405c97fefecd2bs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260424112320-17a9b2fbf2c64848bc9d1ebe8a9bbd77s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260424112323-14384d503ebd4c36b8125cbb53dc69f5s.webp"
-      ]
-    },
-    {
       "id": "50c7c732-6987-48ed-969a-018b27d4fe44",
       "code": "MX22-MI1632",
       "title": "Bodega en Renta en Eduardo Guerra, Torreón, Coahuila de Zaragoza",
@@ -20443,6 +20416,33 @@
         "https://s3.amazonaws.com/nocnok-img/200905134741-dfc2403168d448e4bf8626a0cc3bc931.jpg",
         "https://s3.amazonaws.com/nocnok-img/pp-261016184144-9f900523886f4a6eb1bf1189969e0b62s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261016184144-84e47be845824379a095e76541d8d214s.webp"
+      ]
+    },
+    {
+      "id": "03818624-6ae1-43e3-a7e2-019dc0841714",
+      "code": "NN-GXZ458",
+      "title": "BODEGA CON OFICINAS Y TERRENO COL. FCO. VILLA",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "19,500,000 MXN Venta",
+      "precio_num": 19500000.0,
+      "superficie": "1,000 m²",
+      "area_num": 1000.0,
+      "precio_m2": "$19,500/m²",
+      "pm2_num": 19500.0,
+      "ubicacion": "Francisco Villa, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-09-06",
+      "days_on_market": 42,
+      "link": "https://app.nocnok.com/crm/154940/properties/03818624-6ae1-43e3-a7e2-019dc0841714",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260424112321-466e1b9c5b5e4406b1405c97fefecd2bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260424112320-17a9b2fbf2c64848bc9d1ebe8a9bbd77s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260424112323-14384d503ebd4c36b8125cbb53dc69f5s.webp"
       ]
     },
     {
@@ -119203,33 +119203,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250915135511-92e0c8fc1f7046e0aedf6c1f59496725s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250915133136-3b8aa81fc87e4333991df22187e69ff3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250915133135-20b4dcdeec504876b50c9708c7606c01s.webp"
-      ]
-    },
-    {
-      "id": "83ec7d1c-e9e5-4b04-9380-01921049a648",
-      "code": "MX24-TX1724",
-      "title": "Oficina en Venta en Parque Industrial Laguna, Gómez Palacio, Durango",
-      "categoria": "Industrial",
-      "tipo": "Oficina",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "7,280,000 MXN Venta",
-      "precio_num": 7280000.0,
-      "superficie": "1,057 m²",
-      "area_num": 1057.0,
-      "precio_m2": "$6,887/m²",
-      "pm2_num": 6887.42,
-      "ubicacion": "Parque Industrial Laguna, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "Link Bienes Raíces",
-      "fecha_publicacion": "2025-09-11",
-      "days_on_market": 402,
-      "link": "https://app.nocnok.com/crm/154940/properties/83ec7d1c-e9e5-4b04-9380-01921049a648",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-240920111551-38531416034d4f75aaef70ef46dc9ccds.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240920111551-8acc71928e7c441b9491c2fafbf6392ds.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240920111553-3170a797e0314aa08738346ea55240e5s.webp"
       ]
     },
     {

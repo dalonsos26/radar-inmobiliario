@@ -24962,12 +24962,12 @@
       "tipo": "Bodega",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "25,000,000 MXN Venta",
-      "precio_num": 25000000.0,
+      "precio": "19,500,000 MXN Venta",
+      "precio_num": 19500000.0,
       "superficie": "1,000 m²",
       "area_num": 1000.0,
-      "precio_m2": "$25,000/m²",
-      "pm2_num": 25000.0,
+      "precio_m2": "$19,500/m²",
+      "pm2_num": 19500.0,
       "ubicacion": "Francisco Villa, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -24990,6 +24990,11 @@
           "date": "2026-06-01",
           "precio_num": 25000000.0,
           "precio": "25,000,000 MXN Venta"
+        },
+        {
+          "date": "2026-10-18",
+          "precio_num": 19500000.0,
+          "precio": "19,500,000 MXN Venta"
         }
       ],
       "delisted_reason": null
@@ -104762,9 +104767,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-18",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-10-18",
+      "days_listed": 139,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -104772,7 +104777,7 @@
           "precio": "7,280,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "65021b66-5110-4230-94fb-019934bb4355": {
       "id": "65021b66-5110-4230-94fb-019934bb4355",
