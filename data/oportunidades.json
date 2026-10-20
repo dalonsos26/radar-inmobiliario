@@ -41,6 +41,165 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "ca4c739c-dcf9-4287-8f59-0194700fc9ed",
+      "code": "MX25-NN9583",
+      "title": "Consultorio en Renta en Santa Bárbara, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Consultorio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "16,470 MXN Renta",
+      "precio_num": 16470.0,
+      "superficie": "27 m²",
+      "area_num": 27.0,
+      "precio_m2": "$610.0/m²",
+      "pm2_num": 610.0,
+      "ubicacion": "Santa Bárbara, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Inmobiliaria Karum",
+      "fecha_publicacion": "2026-04-04",
+      "days_on_market": 13,
+      "link": "https://app.nocnok.com/crm/154940/properties/ca4c739c-dcf9-4287-8f59-0194700fc9ed",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250116110207-977f3f46e11c4c679b85ab6e82f3c9dcs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250116110205-46d254c8d1034a9984ab3a2632c7ba0ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250116110203-4be506aafff44cd6adf8ddd1fb78f1efs.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-20",
+      "status": "delisted",
+      "delisted_at": "2026-10-20",
+      "days_listed": 141,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 16470.0,
+          "precio": "16,470 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "2496bcfe-ace2-492e-ab0d-019cbf58a180",
+      "code": "NN-GWB616",
+      "title": "Local en Renta en Los Angeles, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "10,000 MXN Renta",
+      "precio_num": 10000.0,
+      "superficie": "100 m²",
+      "area_num": 100.0,
+      "precio_m2": "$100.0/m²",
+      "pm2_num": 100.0,
+      "ubicacion": "Los Angeles, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-03-04",
+      "days_on_market": 229,
+      "link": "https://app.nocnok.com/crm/154940/properties/2496bcfe-ace2-492e-ab0d-019cbf58a180",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260305125303-6070f68c4cda4ce4b5498e13c7061621s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260305125303-e148305036764a86bc1087541892b460s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-20",
+      "status": "delisted",
+      "delisted_at": "2026-10-20",
+      "days_listed": 141,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 10000.0,
+          "precio": "10,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "af8c9941-2f8f-44af-a5fb-019e6bdf95f5",
+      "code": "NN-GZU692",
+      "title": "RENTA DE BODEGA INDUSTRIAL –  EN PARQUE INDUSTRIAL EN TORREON COAHUILA",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "155,993 MXN Renta",
+      "precio_num": 155993.0,
+      "superficie": "1,897 m²",
+      "area_num": 1897.0,
+      "precio_m2": "$82.2/m²",
+      "pm2_num": 82.23,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ROMLO",
+      "fecha_publicacion": "2026-05-26",
+      "days_on_market": 146,
+      "link": "https://app.nocnok.com/crm/154940/properties/af8c9941-2f8f-44af-a5fb-019e6bdf95f5",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260527181441-227513372ff04d4b86b7654a63ab3e84s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260527181442-eb3c4600a95a403d86d2b71add2af4ccs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260527181441-4e43580d9fcb4a9b811fdc8df365f088s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-20",
+      "status": "delisted",
+      "delisted_at": "2026-10-20",
+      "days_listed": 141,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 155993.0,
+          "precio": "155,993 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "9939d705-d7e4-4464-afaa-019c693101ab",
+      "code": "NN-GUR771",
+      "title": "Oficina en zona dorada de Torreón. inmejorble ubicación.",
+      "categoria": "Comercial",
+      "tipo": "Edificio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "31,000 MXN Renta",
+      "precio_num": 31000.0,
+      "superficie": "200 m²",
+      "area_num": 200.0,
+      "precio_m2": "$155.0/m²",
+      "pm2_num": 155.0,
+      "ubicacion": "San Isidro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Asesoria Inmobiliaria Ileana Portilla",
+      "fecha_publicacion": "2026-02-16",
+      "days_on_market": 246,
+      "link": "https://app.nocnok.com/crm/154940/properties/9939d705-d7e4-4464-afaa-019c693101ab",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260216192935-d0f449aabb4d461d85d8667a72115357s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260216193004-822778cd909045f2b6a8638f1e8b491as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260216193017-0297dbed1df44ae6a1765241319c20d5s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-10-20",
+      "status": "delisted",
+      "delisted_at": "2026-10-20",
+      "days_listed": 77,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 31000.0,
+          "precio": "31,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "ced37a23-6968-48e1-9c9d-0199302bb126",
       "code": "NN-FS1000262",
       "title": "Local en RENTA, EL FRESNO, Torreón Coah",
@@ -75,6 +234,46 @@
           "date": "2026-08-04",
           "precio_num": 34004.0,
           "precio": "34,004 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "7b1b9e83-fcbc-4e78-9b28-01991b7b7bdd",
+      "code": "NN-EI1000188",
+      "title": "Local en Renta en Magdalenas, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "12,500 MXN Renta",
+      "precio_num": 12500.0,
+      "superficie": "60 m²",
+      "area_num": 60.0,
+      "precio_m2": "$208.3/m²",
+      "pm2_num": 208.33,
+      "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2025-09-05",
+      "days_on_market": 410,
+      "link": "https://app.nocnok.com/crm/154940/properties/7b1b9e83-fcbc-4e78-9b28-01991b7b7bdd",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250905140516-9fc56eacb33b4e9090e14bf676192cc7s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250905140516-32ee6756c740425b859ab8b4859709eds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250905140515-e282f746050e4303be7d92c6c27925des.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-10-20",
+      "status": "delisted",
+      "delisted_at": "2026-10-20",
+      "days_listed": 77,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 12500.0,
+          "precio": "12,500 MXN Renta"
         }
       ],
       "delisted_reason": "sold"
