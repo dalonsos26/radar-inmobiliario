@@ -36,7 +36,28 @@ export function verifyToken(token) {
   }
 }
 
-export default function handler(req, res) {
+// Usuarios administrados desde el Portal Near (portal-near.vercel.app →
+// Usuarios). Si el usuario no está en APP_USERS (cuentas heredadas), se
+// valida contra el portal con la llave compartida PORTAL_MODULO_KEY.
+async function loginPortal(user, pass) {
+  const url = process.env.PORTAL_LOGIN_URL;
+  const key = process.env.PORTAL_MODULO_KEY;
+  if (!url || !key) return null;
+  try {
+    const r = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Portal-Key': key },
+      body: JSON.stringify({ usuario: user, contrasena: pass, modulo: 'radar' }),
+    });
+    const d = await r.json().catch(() => null);
+    if (!r.ok || !d || !d.ok) return null;
+    return { user: d.usuario, role: d.rol === 'admin' ? 'admin' : 'viewer' };
+  } catch (e) {
+    return null;
+  }
+}
+
+export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -44,10 +65,8 @@ export default function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   const users = parseUsers();
-  if (!users.length) return res.status(500).json({ error: 'No hay usuarios configurados (APP_USERS)' });
-
   const { user, pass } = req.body || {};
-  const match = users.find(u => u.user === user && u.pass === pass);
+  const match = users.find(u => u.user === user && u.pass === pass) || (await loginPortal(user, pass));
   if (!match) return res.status(401).json({ error: 'Usuario o contraseña incorrectos' });
 
   return res.status(200).json({ ok: true, user: match.user, role: match.role, token: signToken(match.user, match.role) });
