@@ -12751,9 +12751,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 78,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 143,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -12761,7 +12761,7 @@
           "precio": "4,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "d585fbe6-8167-4c0d-a769-019a5fbd060d": {
       "id": "d585fbe6-8167-4c0d-a769-019a5fbd060d",
@@ -17786,9 +17786,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 25,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 143,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -17806,7 +17806,7 @@
           "precio": "22,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "de9be639-9a88-4546-9260-018d9ede9074": {
       "id": "de9be639-9a88-4546-9260-018d9ede9074",
@@ -22963,9 +22963,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 143,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -22973,7 +22973,7 @@
           "precio": "18,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "5a51fcd5-b175-4ebf-91cd-019dd6715101": {
       "id": "5a51fcd5-b175-4ebf-91cd-019dd6715101",
@@ -112545,9 +112545,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 78,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 143,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -112560,7 +112560,7 @@
           "precio": "1,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "5ebe03c7-87da-4e0d-a2d5-0195a76f45b1": {
       "id": "5ebe03c7-87da-4e0d-a2d5-0195a76f45b1",
@@ -119157,9 +119157,9 @@
       ],
       "first_seen": "2026-06-05",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 19,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 139,
       "precio_history": [
         {
           "date": "2026-06-05",
@@ -119167,7 +119167,7 @@
           "precio": "13,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "6b0922e6-3f3b-4441-b9ce-019e9403b86b": {
       "id": "6b0922e6-3f3b-4441-b9ce-019e9403b86b",
@@ -119237,9 +119237,9 @@
       ],
       "first_seen": "2026-06-05",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 19,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 139,
       "precio_history": [
         {
           "date": "2026-06-05",
@@ -119247,7 +119247,7 @@
           "precio": "1,600,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "471c17bb-593d-4ffe-a335-01934cf55dd4": {
       "id": "471c17bb-593d-4ffe-a335-01934cf55dd4",
@@ -124554,16 +124554,17 @@
       ],
       "first_seen": "2026-06-17",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 127,
       "precio_history": [
         {
           "date": "2026-06-17",
           "precio_num": 51808.0,
           "precio": "51,808 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "10907d53-9c3b-4736-80d0-019ed19824fa": {
       "id": "10907d53-9c3b-4736-80d0-019ed19824fa",
@@ -129927,16 +129928,17 @@
       ],
       "first_seen": "2026-06-22",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 122,
       "precio_history": [
         {
           "date": "2026-06-22",
           "precio_num": 63212.0,
           "precio": "63,212 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "f2b3b6de-e588-41ea-8fec-019ee690589b": {
       "id": "f2b3b6de-e588-41ea-8fec-019ee690589b",
@@ -129966,16 +129968,17 @@
       ],
       "first_seen": "2026-06-22",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 122,
       "precio_history": [
         {
           "date": "2026-06-22",
           "precio_num": 55000.0,
           "precio": "55,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "ba53e5ad-17f2-4824-b91b-019ee7aa0b6a": {
       "id": "ba53e5ad-17f2-4824-b91b-019ee7aa0b6a",
@@ -130607,16 +130610,17 @@
       ],
       "first_seen": "2026-06-23",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 121,
       "precio_history": [
         {
           "date": "2026-06-23",
           "precio_num": 80000.0,
           "precio": "80,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "e47a8378-e276-4d5a-9cde-019ef0809ff0": {
       "id": "e47a8378-e276-4d5a-9cde-019ef0809ff0",
@@ -188255,16 +188259,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 79,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 26000.0,
           "precio": "26,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "c6ead5a0-e280-473f-9b0a-01912db03d27": {
       "id": "c6ead5a0-e280-473f-9b0a-01912db03d27",
@@ -219671,17 +219676,17 @@
     "bb9cac4d-4150-4fd0-8787-01a08cde1331": {
       "id": "bb9cac4d-4150-4fd0-8787-01a08cde1331",
       "code": "NN-HET513",
-      "title": "¡Bodega en Renta en Diagonal Reforma, Torreón!",
+      "title": "¡Bodega en Diagonal Reforma, Torreón!",
       "categoria": "Comercial",
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "29,000 MXN Renta",
-      "precio_num": 29000.0,
+      "precio": "4,000,000 MXN Venta | 29,000 MXN Renta",
+      "precio_num": 4000000.0,
       "superficie": "300 m²",
       "area_num": 300.0,
-      "precio_m2": "$96.7/m²",
-      "pm2_num": 96.67,
+      "precio_m2": "$13,333/m²",
+      "pm2_num": 13333.33,
       "ubicacion": "San Marcos, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -222437,16 +222442,17 @@
       ],
       "first_seen": "2026-09-25",
       "last_seen": "2026-10-22",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-10-22",
+      "days_listed": 27,
       "precio_history": [
         {
           "date": "2026-09-25",
           "precio_num": 20000.0,
           "precio": "20,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "f1e0ecb3-9b19-4549-87fa-01a0c5fe1043": {
       "id": "f1e0ecb3-9b19-4549-87fa-01a0c5fe1043",
@@ -226598,12 +226604,12 @@
       "tipo": "Terreno",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "127,050,000 MXN Venta",
-      "precio_num": 127050000.0,
+      "precio": "102,350,000 MXN Venta",
+      "precio_num": 102350000.0,
       "superficie": "35,292.11 m²",
       "area_num": 35292.11,
-      "precio_m2": "$3,600/m²",
-      "pm2_num": 3599.95,
+      "precio_m2": "$2,900/m²",
+      "pm2_num": 2900.08,
       "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -226626,6 +226632,11 @@
           "date": "2026-10-01",
           "precio_num": 91760000.0,
           "precio": "91,760,000 MXN Venta"
+        },
+        {
+          "date": "2026-10-22",
+          "precio_num": 102350000.0,
+          "precio": "102,350,000 MXN Venta"
         }
       ]
     },
@@ -228386,12 +228397,12 @@
       "tipo": "Terreno",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "10,559,214 MXN Venta",
-      "precio_num": 10559214.0,
+      "precio": "4,399,500 MXN Venta",
+      "precio_num": 4399500.0,
       "superficie": "5,866 m²",
       "area_num": 5866.0,
-      "precio_m2": "$1,800/m²",
-      "pm2_num": 1800.07,
+      "precio_m2": "$750.0/m²",
+      "pm2_num": 750.0,
       "ubicacion": "Lázaro Cárdenas, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -228414,6 +228425,11 @@
           "date": "2026-10-06",
           "precio_num": 10559214.0,
           "precio": "10,559,214 MXN Venta"
+        },
+        {
+          "date": "2026-10-22",
+          "precio_num": 4399500.0,
+          "precio": "4,399,500 MXN Venta"
         }
       ]
     },
@@ -232847,6 +232863,123 @@
           "date": "2026-10-22",
           "precio_num": 15500.0,
           "precio": "15,500 MXN Renta"
+        }
+      ]
+    },
+    "fb81391c-315b-4a8d-827a-01a165c99e81": {
+      "id": "fb81391c-315b-4a8d-827a-01a165c99e81",
+      "code": "NN-HHO002",
+      "title": "LOTES INDUSTRIALES EN PRE-VENTA EN TORREÓN, COAH.",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "3,045,000 MXN Venta",
+      "precio_num": 3045000.0,
+      "superficie": "1,218 m²",
+      "area_num": 1218.0,
+      "precio_m2": "$2,500/m²",
+      "pm2_num": 2500.0,
+      "ubicacion": "Villas Zaragoza, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-10-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/fb81391c-315b-4a8d-827a-01a165c99e81",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261022164647-9c74b9c8ffc847149c92d9ef8d702b6bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261022164647-884f8e5bc5e44d7abe3627f98b72dbacs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261022164647-f58ea3c054ba4fcbbe33caab63edca88s.webp"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-22",
+          "precio_num": 3045000.0,
+          "precio": "3,045,000 MXN Venta"
+        }
+      ]
+    },
+    "8f1c4957-375b-4c4d-8f4d-018b280a5832": {
+      "id": "8f1c4957-375b-4c4d-8f4d-018b280a5832",
+      "code": "MX22-MP3301",
+      "title": "Terreno en Venta en La Union, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "25,465,700 MXN Venta",
+      "precio_num": 25465700.0,
+      "superficie": "19,589 m²",
+      "area_num": 19589.0,
+      "precio_m2": "$1,300/m²",
+      "pm2_num": 1300.0,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Punto Clave by Keller Williams",
+      "fecha_publicacion": "2026-02-21",
+      "days_on_market": 243,
+      "link": "https://app.nocnok.com/crm/154940/properties/8f1c4957-375b-4c4d-8f4d-018b280a5832",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/220405190844-55af8183c7cd4c79bbcccdd9d5cc60e2.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220405190700-689e7920b4f34447b1e0c77156f22dd5.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220405190712-be7f3644aa94428c84bc52a4756e6f96.jpg"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-22",
+          "precio_num": 25465700.0,
+          "precio": "25,465,700 MXN Venta"
+        }
+      ]
+    },
+    "5b570763-92b2-4d58-a7cd-01a16489e271": {
+      "id": "5b570763-92b2-4d58-a7cd-01a16489e271",
+      "code": "NN-HHN400",
+      "title": "Bodega en Renta en Parque Industrial Santa Rita, Gómez Palacio, Durango",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "81,250 MXN Renta",
+      "precio_num": 81250.0,
+      "superficie": "1,250 m²",
+      "area_num": 1250.0,
+      "precio_m2": "$65.0/m²",
+      "pm2_num": 65.0,
+      "ubicacion": "Parque Industrial Santa Rita, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-10-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/5b570763-92b2-4d58-a7cd-01a16489e271",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261022105802-f36b54f8ea344ee983bdab31a280ffe1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261022105802-877ed55df79649098f13d2c5d4d3eb9es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261022105801-08f3c97a0226434f8f8fe45b570c3845s.webp"
+      ],
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-22",
+          "precio_num": 81250.0,
+          "precio": "81,250 MXN Renta"
         }
       ]
     }
