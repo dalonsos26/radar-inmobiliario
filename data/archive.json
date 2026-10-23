@@ -14000,7 +14000,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-05-13",
-      "days_on_market": 160,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a7168ddb-288a-4283-a761-019e27864fa0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260514112819-398791a6dcd94fc0992f2ec6f3a4b9b3s.webp",
@@ -14008,9 +14008,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260514112824-85b772b3eeaa455b86e8af9ba9dd6527s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -14019,7 +14019,7 @@
           "precio": "27,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "cc034151-e186-4f65-bcb7-019e27b6d645": {
       "id": "cc034151-e186-4f65-bcb7-019e27b6d645",
@@ -15717,7 +15717,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 161,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d0686bb6-ddfc-43e4-aa92-019e222dc6be",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260513103326-508f76a492114840904e6cc1878c54f4s.webp",
@@ -15725,9 +15725,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260513103322-be94989c5fc14d60a0ff1cc77adbafc8s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -15736,7 +15736,7 @@
           "precio": "2,700,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "057761eb-d093-4455-8809-019e22a78a6d": {
       "id": "057761eb-d093-4455-8809-019e22a78a6d",
@@ -18147,7 +18147,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-05-07",
-      "days_on_market": 166,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/93129fc2-1808-4521-b456-019e0a09e7ec",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260508180205-523e4d9af484474c90334f11a1a2e603s.webp",
@@ -18155,9 +18155,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260508180205-fe3ddb92b1d04b939efbd7cf728230d4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -18166,7 +18166,7 @@
           "precio": "125,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b0f013dc-4766-4a15-bcc0-019e099ad1d2": {
       "id": "b0f013dc-4766-4a15-bcc0-019e099ad1d2",
@@ -21804,7 +21804,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-04-28",
-      "days_on_market": 175,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/78ff8021-aebe-48d2-8da7-019dda5212ed",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260429113912-a3a6a8cfc737406390e2fcfc6b91a82bs.webp",
@@ -21812,9 +21812,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260429113913-63870cce790743ab96744ea7619c5bd4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -21823,7 +21823,7 @@
           "precio": "26,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "42671608-10d9-49af-8689-019ddb0d67df": {
       "id": "42671608-10d9-49af-8689-019ddb0d67df",
@@ -23964,7 +23964,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-04-26",
-      "days_on_market": 177,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8050aa58-a965-4dea-90a5-019dd08a6934",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260427140436-c41b39633d754dc1a7e7e12797879c6fs.webp",
@@ -23972,9 +23972,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260427140432-617c57334b374f33ac5fcb6f88463771s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -23983,7 +23983,7 @@
           "precio": "85,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5d56ef4b-cad7-4b86-a0cf-019dd0e638d3": {
       "id": "5d56ef4b-cad7-4b86-a0cf-019dd0e638d3",
@@ -28823,7 +28823,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-04-15",
-      "days_on_market": 188,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/94930d39-33aa-4eb0-a30b-019d97d06c33",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260416140043-d16b4fa242a54ef39e97d714cc40b7b2s.webp",
@@ -28831,9 +28831,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260416140041-cbc38c3e1b58417bb6490c65a9f608d6s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -28842,7 +28842,7 @@
           "precio": "2,700,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "3792c6ba-96d5-4ca1-91a2-019d98492c07": {
       "id": "3792c6ba-96d5-4ca1-91a2-019d98492c07",
@@ -49865,7 +49865,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-03-04",
-      "days_on_market": 230,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1197dd3c-0ef3-451f-a0a6-019cbf381c5c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260305121747-d7578426138b48ac9f0a060223d7997es.webp",
@@ -49873,9 +49873,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260305121747-204d37f986cd4f088ef5ffbbe7fcb56fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -49884,7 +49884,7 @@
           "precio": "50,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "ee1e0447-13bf-4d49-a4d3-019cbf3c5320": {
       "id": "ee1e0447-13bf-4d49-a4d3-019cbf3c5320",
@@ -56458,7 +56458,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOSCE DESPACHO INMOBILIARIO",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/69fa6aca-bbb8-4264-a9eb-019e2392b9ea",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525131123-a44fb446d7de4534819a1162b7932b72s.webp",
@@ -56466,9 +56466,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260525131311-8c554a6ed6ec47998ff42d93b0cb75e5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-22",
-      "status": "delisted",
-      "delisted_at": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -56477,7 +56477,7 @@
           "precio": "20,750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d56b1d92-375e-4481-b829-019e23d46f92": {
       "id": "d56b1d92-375e-4481-b829-019e23d46f92",
@@ -56498,7 +56498,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOSCE DESPACHO INMOBILIARIO",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d56b1d92-375e-4481-b829-019e23d46f92",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525124104-ad30c00b03e04deca2cd9b48e627e966s.webp",
@@ -56506,9 +56506,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260525131957-e206c758161f4ddaad28a782a77c3896s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-22",
-      "status": "delisted",
-      "delisted_at": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -56517,7 +56517,7 @@
           "precio": "20,750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "fdc1fb45-a010-44f2-b1ba-01987c81ee79": {
       "id": "fdc1fb45-a010-44f2-b1ba-01987c81ee79",
@@ -58216,7 +58216,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-04-23",
-      "days_on_market": 180,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/06dcb852-fcd3-4712-93f4-0197a39245be",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260424103433-337c2b5c8d624c32a737744f85323c9ds.webp",
@@ -58224,9 +58224,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250624153355-2fffcb8ee12745ab9f9f45d13eae905ds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -58235,7 +58235,7 @@
           "precio": "16,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "4d5cc5e5-971f-4869-8ad4-01996382ca42": {
       "id": "4d5cc5e5-971f-4869-8ad4-01996382ca42",
@@ -59008,7 +59008,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-04-15",
-      "days_on_market": 188,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3c074c64-847f-4d28-b8fd-019d98021c33",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260416143726-e6b4e871138d4c3d9461d9a333a6ee49s.webp",
@@ -59016,9 +59016,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260416143726-854cc25bd7df4b3b8a97e180d212dc9fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -59027,7 +59027,7 @@
           "precio": "240,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9d6a3039-cbfb-46e6-8f67-019d98a6c6c4": {
       "id": "9d6a3039-cbfb-46e6-8f67-019d98a6c6c4",
@@ -60968,7 +60968,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-04-12",
-      "days_on_market": 191,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2fcbe64a-fdf9-46dd-ba55-019d88acee27",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260413150930-baddcedc58064946807e7e5b0ce74dabs.webp",
@@ -60976,9 +60976,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260413150930-fdd4853cef5a4e35a23381ecd17ad436s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -60987,7 +60987,7 @@
           "precio": "42,898 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "2055a314-43b3-4b45-9194-019d4028128d": {
       "id": "2055a314-43b3-4b45-9194-019d4028128d",
@@ -62002,7 +62002,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOSCE DESPACHO INMOBILIARIO",
       "fecha_publicacion": "2026-04-07",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a065cae7-7772-407b-81af-019d6dd619a4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260408100401-beeb279805ac4b57950be33afbd171e9s.webp",
@@ -62010,9 +62010,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260408100401-25de76aaadf04c03b3feae5c9e7e1ed5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-22",
-      "status": "delisted",
-      "delisted_at": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -62026,7 +62026,7 @@
           "precio": "45,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5174d8bb-91cb-41a4-a20b-019d6e4463c7": {
       "id": "5174d8bb-91cb-41a4-a20b-019d6e4463c7",
@@ -67839,7 +67839,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-02-15",
-      "days_on_market": 247,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9945c57a-cb03-435b-bfe4-019c67a16e60",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260216120641-478c56cb4967422ea365e36eebfa2910s.webp",
@@ -67847,9 +67847,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260216120640-87029d56eea9426a8d1a3c9c224acb2cs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -67858,7 +67858,7 @@
           "precio": "42,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d278b0ec-5246-4b05-8e66-019c68aa8948": {
       "id": "d278b0ec-5246-4b05-8e66-019c68aa8948",
@@ -70245,7 +70245,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-12-17",
-      "days_on_market": 307,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b21bbe2d-cc21-473b-b4b8-019b3340bb98",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251218145742-5ee584bafe354dba9eed2ba697137cb6s.webp",
@@ -70253,9 +70253,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251218145742-ecfce7c58f644a229c257680e9e86dccs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -70264,7 +70264,7 @@
           "precio": "615,290 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8db20721-400d-41f3-ba17-019b29929c9c": {
       "id": "8db20721-400d-41f3-ba17-019b29929c9c",
@@ -70684,7 +70684,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOSCE DESPACHO INMOBILIARIO",
       "fecha_publicacion": "2025-11-26",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/01828642-b8a4-4e6a-8f64-018b28e6403c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251127122137-d46cc0e67f0d416bb723aeec6069e879s.webp",
@@ -70692,9 +70692,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251127133233-de66911de5a6433797b3efa86e66457as.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-22",
-      "status": "delisted",
-      "delisted_at": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -70703,7 +70703,7 @@
           "precio": "16,660,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5b26bc1a-d469-4dc5-b292-019ac19d04c6": {
       "id": "5b26bc1a-d469-4dc5-b292-019ac19d04c6",
@@ -73451,7 +73451,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-08-06",
-      "days_on_market": 440,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/516f7d75-1ce9-4efa-825e-018b272b1d73",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/210616200116-b378931d1a9240c99e291679b00ae8cb.jpg",
@@ -73459,9 +73459,9 @@
         "https://s3.amazonaws.com/nocnok-img/210616200119-3134c60993594184be9c42b857d0ae72.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -73470,7 +73470,7 @@
           "precio": "23,400,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "cca2cb19-037d-4029-b716-01986b885600": {
       "id": "cca2cb19-037d-4029-b716-01986b885600",
@@ -73616,15 +73616,15 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-27",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2ee98544-b5d4-4751-b99d-01973d64a0c6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250604180148-728ab1737c2442eaad4696a2d316d329s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -73633,7 +73633,7 @@
           "precio": "21,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d44e60e3-f5be-466b-ba7e-0198528fffbd": {
       "id": "d44e60e3-f5be-466b-ba7e-0198528fffbd",
@@ -73733,16 +73733,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-27",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b886122b-4987-42a2-aa0c-0192978b36eb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241016172810-9d232b1976214d16921a9c095ab669f5s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-241016172811-9a8d135d0984491a86578e90a731f051s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -73751,7 +73751,7 @@
           "precio": "216,050 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "da974713-5d39-47ed-86b9-0192979ee789": {
       "id": "da974713-5d39-47ed-86b9-0192979ee789",
@@ -73772,7 +73772,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-27",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/da974713-5d39-47ed-86b9-0192979ee789",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241016173909-cbb227ad7f09487aaf5df516e2f6e86as.webp",
@@ -73780,9 +73780,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-241016173909-d87a0bffd7504713a924fb6f62698ba0s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -73791,7 +73791,7 @@
           "precio": "550,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9816be1d-230a-4dba-90dc-01905bde55ff": {
       "id": "9816be1d-230a-4dba-90dc-01905bde55ff",
@@ -73812,7 +73812,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-27",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9816be1d-230a-4dba-90dc-01905bde55ff",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240627171228-813545917a654a9689039f2306902d6cs.webp",
@@ -73820,9 +73820,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240627171152-a740c341eec64accbd046d27b9c9435fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -73831,7 +73831,7 @@
           "precio": "50,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "bc34a24f-0153-4a7e-b354-019842c59957": {
       "id": "bc34a24f-0153-4a7e-b354-019842c59957",
@@ -73852,7 +73852,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-24",
-      "days_on_market": 453,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/bc34a24f-0153-4a7e-b354-019842c59957",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250725120835-22f41182b23c4707b5f3ff198c462b41s.webp",
@@ -73860,9 +73860,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250725131454-83b2ed794d5045d49787c65902fd1971s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -73871,7 +73871,7 @@
           "precio": "750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "be30a39e-2017-4b62-9bf4-019838c95dbc": {
       "id": "be30a39e-2017-4b62-9bf4-019838c95dbc",
@@ -81799,9 +81799,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 45,
+      "status": "delisted",
+      "delisted_at": "2026-10-23",
+      "days_listed": 144,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -81809,7 +81809,7 @@
           "precio": "2,490,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "40e75df0-aa3b-4427-aa19-019e6d22171d": {
       "id": "40e75df0-aa3b-4427-aa19-019e6d22171d",
@@ -82395,7 +82395,7 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-05-19",
-      "days_on_market": 154,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/50475dd8-5312-418c-bfdf-019e46d74d05",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520132529-0b5a0f4d60e84b7490d65cda7097d463s.webp",
@@ -82403,9 +82403,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260520132529-fdba85ec224b4cccbb54b3f500a65f3fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -82414,7 +82414,7 @@
           "precio": "1,360,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "cdef3d53-7b17-4213-955a-019e46d8b9d7": {
       "id": "cdef3d53-7b17-4213-955a-019e46d8b9d7",
@@ -90703,7 +90703,7 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-12-18",
-      "days_on_market": 306,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/fa2ef3ac-c2d5-4e64-9c71-019b38301d0c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251219135825-e7d7f4adcc694dccb0989f953e93a06ds.webp",
@@ -90711,9 +90711,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251219135826-84890aeada65484daa865c70ab39fc02s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -90722,7 +90722,7 @@
           "precio": "25,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "4a4e7176-ae85-4e06-8f50-019b337a2303": {
       "id": "4a4e7176-ae85-4e06-8f50-019b337a2303",
@@ -92064,7 +92064,7 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-10-03",
-      "days_on_market": 382,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/42f12720-4b05-448d-b0a5-0199affc8656",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251004101003-b076c1e75d7548f49a6fa64991a99abds.webp",
@@ -92072,9 +92072,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251004101003-57f9050d1d274a0097cc236f5d2614a5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -92083,7 +92083,7 @@
           "precio": "4,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "1634afdb-6738-4339-8d05-0199affe07e7": {
       "id": "1634afdb-6738-4339-8d05-0199affe07e7",
@@ -92104,16 +92104,16 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-10-03",
-      "days_on_market": 382,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1634afdb-6738-4339-8d05-0199affe07e7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251004101143-c47253e856fe4fc6b25a67d381d1242ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-251004101143-b95248c633ad479cb9371ec189afbe33s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -92122,7 +92122,7 @@
           "precio": "3,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "71777dde-187a-4dc5-8bc8-019996b70aab": {
       "id": "71777dde-187a-4dc5-8bc8-019996b70aab",
@@ -92341,7 +92341,7 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-09-10",
-      "days_on_market": 405,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3a482b34-2338-464f-a43a-0197d7aabefd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250704165949-0f9f342fd26e49d2a0cf75bb3d099bdfs.webp",
@@ -92349,9 +92349,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250704165949-4b1658a4afc84b5995038b8e32358287s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -92360,7 +92360,7 @@
           "precio": "7,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "75f68d40-6ab9-4392-9ab4-0196b75de551": {
       "id": "75f68d40-6ab9-4392-9ab4-0196b75de551",
@@ -92819,7 +92819,7 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-08-11",
-      "days_on_market": 435,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/ab901b91-3888-459d-8dd1-01989f6e9bdf",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250812115956-9b72f904c8a1484e89db60ae643b44f2s.webp",
@@ -92827,9 +92827,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250812115955-c8b3acd5fabd42299aa750b345e29fe1s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -92838,7 +92838,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "95a7c7b9-8371-4415-8cfd-019896b9d0dc": {
       "id": "95a7c7b9-8371-4415-8cfd-019896b9d0dc",
@@ -93139,16 +93139,16 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-27",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a5160881-386a-48a8-b379-0197d799e6ee",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250704164138-33b3d2791d1a4aa799520c64b57f7b4cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250704164141-62a27f2a5761462d848cd2cb8383480bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -93157,7 +93157,7 @@
           "precio": "4,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8ee6d0e7-ec5a-419e-b0fa-0194b341ca44": {
       "id": "8ee6d0e7-ec5a-419e-b0fa-0194b341ca44",
@@ -93661,7 +93661,7 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-06",
-      "days_on_market": 471,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/36ca643b-b462-42a7-a19f-0197e617a637",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250707121327-a813b46645b54e3a9bd1b20acde0280es.webp",
@@ -93669,9 +93669,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250707121327-10b484e07d484e9d8f72dfd84c81c527s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 143,
       "precio_history": [
         {
@@ -93680,7 +93680,7 @@
           "precio": "12,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "45b509a1-0813-4e1c-b444-0197d68aa5c0": {
       "id": "45b509a1-0813-4e1c-b444-0197d68aa5c0",
@@ -98836,9 +98836,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 78,
+      "status": "delisted",
+      "delisted_at": "2026-10-23",
+      "days_listed": 144,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -98846,7 +98846,7 @@
           "precio": "16,250,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "91d20c9f-fcb5-4c9c-85b4-019b0a9a798c": {
       "id": "91d20c9f-fcb5-4c9c-85b4-019b0a9a798c",
@@ -99867,7 +99867,7 @@
       "estado": "Durango",
       "broker": "DOSCE DESPACHO INMOBILIARIO",
       "fecha_publicacion": "2026-04-23",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/13587163-4824-446f-acf7-019dc1236daa",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260424190158-5445f12c898c490ab0bbef57b8f8d2d6s.webp",
@@ -99875,9 +99875,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260424190256-a17f6577d8eb4125b1d98bc5e1139ef9s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-22",
-      "status": "delisted",
-      "delisted_at": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -99886,7 +99886,7 @@
           "precio": "175,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e9781c24-a228-4b65-824f-019dbe4c6852": {
       "id": "e9781c24-a228-4b65-824f-019dbe4c6852",
@@ -116550,7 +116550,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-06-01",
-      "days_on_market": 141,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/151b6e90-4eb4-4a5a-b55d-019e8ab63c98",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260602174142-4f84c85618e94cf9b91b4a0d8424a682s.webp",
@@ -116558,9 +116558,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260602174141-c47fda8610e344b1bd4ba6407a2e4152s.webp"
       ],
       "first_seen": "2026-06-03",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 141,
       "precio_history": [
         {
@@ -116569,7 +116569,7 @@
           "precio": "5,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8736bf2d-eb1a-48e2-a1f1-019e8a7dec21": {
       "id": "8736bf2d-eb1a-48e2-a1f1-019e8a7dec21",
@@ -123435,7 +123435,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-06-11",
-      "days_on_market": 132,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d31f8a29-1134-46b5-b28e-019eb7880698",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260611103343-0f8ccdd5497e4b7e9ef0c0e1cd7cefd1s.webp",
@@ -123443,9 +123443,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260611103342-f36b761d788746c8aa56a477b2eb0248s.webp"
       ],
       "first_seen": "2026-06-12",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 132,
       "precio_history": [
         {
@@ -123454,7 +123454,7 @@
           "precio": "12,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "703e58b7-d864-4602-a4c3-019ebd631f2b": {
       "id": "703e58b7-d864-4602-a4c3-019ebd631f2b",
@@ -123635,7 +123635,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-06-12",
-      "days_on_market": 131,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2802e81a-c1fd-45c7-b1c9-019ebe21e5fb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260612171939-3be8abd5d18f47c08f0e2bf1885c0c28s.webp",
@@ -123643,9 +123643,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260612172056-4fee83091afe4f31bfd7a0599a5cf807s.webp"
       ],
       "first_seen": "2026-06-13",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 131,
       "precio_history": [
         {
@@ -123654,7 +123654,7 @@
           "precio": "7,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "42a09d17-8792-448c-b63c-019ebe10fb3e": {
       "id": "42a09d17-8792-448c-b63c-019ebe10fb3e",
@@ -127360,12 +127360,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "92,084 MXN Renta",
-      "precio_num": 92084.0,
+      "precio": "107,493 MXN Renta",
+      "precio_num": 107493.0,
       "superficie": "1,534 m²",
       "area_num": 1534.0,
-      "precio_m2": "$60.0/m²",
-      "pm2_num": 60.0,
+      "precio_m2": "$65.0/m²",
+      "pm2_num": 65.0,
       "ubicacion": "Parque Industrial Oriente, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -128725,12 +128725,12 @@
       "tipo": "Oficina",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "35,000 MXN Renta",
-      "precio_num": 35000.0,
+      "precio": "25,000 MXN Renta",
+      "precio_num": 25000.0,
       "superficie": "230 m²",
       "area_num": 230.0,
-      "precio_m2": "$152.2/m²",
-      "pm2_num": 152.17,
+      "precio_m2": "$227.3/m²",
+      "pm2_num": 227.27,
       "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -128753,6 +128753,11 @@
           "date": "2026-06-20",
           "precio_num": 35000.0,
           "precio": "35,000 MXN Renta"
+        },
+        {
+          "date": "2026-10-23",
+          "precio_num": 25000.0,
+          "precio": "25,000 MXN Renta"
         }
       ]
     },
@@ -139434,7 +139439,7 @@
       "estado": "Durango",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-07-09",
-      "days_on_market": 104,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c61093fe-fee3-4abb-a108-019f47d56fd9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260709110506-5723984cff224738ab3c120ae69408bfs.webp",
@@ -139442,9 +139447,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260709110505-7c39c10352934e13ba5a2a98378072a5s.webp"
       ],
       "first_seen": "2026-07-10",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 104,
       "precio_history": [
         {
@@ -139453,7 +139458,7 @@
           "precio": "6,000,000 MXN Venta | 85,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "1b30faf7-909c-4c21-b64e-019f49c5819d": {
       "id": "1b30faf7-909c-4c21-b64e-019f49c5819d",
@@ -152331,18 +152336,18 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "8,500 MXN Renta",
-      "precio_num": 8500.0,
+      "precio": "2,200,000 MXN Venta | 8,500 MXN Renta",
+      "precio_num": 2200000.0,
       "superficie": "42 m²",
       "area_num": 42.0,
-      "precio_m2": "$202.4/m²",
-      "pm2_num": 202.38,
+      "precio_m2": "$52,381/m²",
+      "pm2_num": 52380.95,
       "ubicacion": "Independencia, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-02-18",
-      "days_on_market": 245,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/04a41836-9be6-439b-bff3-019c721ef6a8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260218130023-65983a9149d34fb9857b34a848098f25s.webp",
@@ -152350,9 +152355,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260218130021-1dfae2ae4f8d498e80374851443df45es.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -152361,7 +152366,7 @@
           "precio": "8,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "2ad2e3d6-a645-43b1-8f98-019c722076da": {
       "id": "2ad2e3d6-a645-43b1-8f98-019c722076da",
@@ -153444,7 +153449,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-02-12",
-      "days_on_market": 251,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/664e24ef-51b8-4bf7-ac14-019c53a39ca9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260212145703-c8dc7a4aa33b4cbd8020b2941d3a544fs.webp",
@@ -153452,9 +153457,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260212145704-69673bc1858d4df087a6ce4bd687bdf0s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -153468,7 +153473,7 @@
           "precio": "1,600,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "7a9de534-0acd-4017-90ba-019c527148de": {
       "id": "7a9de534-0acd-4017-90ba-019c527148de",
@@ -153723,7 +153728,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-02-11",
-      "days_on_market": 252,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/cb5fd4e9-e8dc-428d-85e6-019c4e6e8a4f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260211144027-c2012d85e065400ea424de1f3f160a31s.webp",
@@ -153731,9 +153736,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260211144004-0d7c239c51eb43438967c38a68709eabs.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -153742,7 +153747,7 @@
           "precio": "6,800 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "90530532-5cbe-4d48-aa07-019c4ec4b39b": {
       "id": "90530532-5cbe-4d48-aa07-019c4ec4b39b",
@@ -157608,7 +157613,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-01-20",
-      "days_on_market": 274,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4b724a59-7f82-42a0-b2cb-019bdd437bcb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260120151859-21ac8e93dc904be183c1eb9270e1d4d3s.webp",
@@ -157616,9 +157621,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260120151901-44aa2d8ad4cd4f31ba46ce7ed04e2edes.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -157627,7 +157632,7 @@
           "precio": "6,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "fe4fb13a-3e43-4745-95db-019bdd53e83a": {
       "id": "fe4fb13a-3e43-4745-95db-019bdd53e83a",
@@ -158357,7 +158362,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-01-12",
-      "days_on_market": 282,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/51963efc-a6ef-45f7-9e81-019bb3a8b10e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260115111925-c4770cac8ef1419e8b554139156d9dd1s.webp",
@@ -158365,9 +158370,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260115111904-a7738f13ec944c88841d2679e7558b47s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -158376,7 +158381,7 @@
           "precio": "39,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "00c1c333-0f71-4eb8-b443-019bb3bbbb84": {
       "id": "00c1c333-0f71-4eb8-b443-019bb3bbbb84",
@@ -165582,7 +165587,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-10-15",
-      "days_on_market": 371,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2dd849c3-ae98-46d9-b92a-0199e9e298d7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251015160014-47d0f7182b844f9793f519013546d570s.webp",
@@ -165590,9 +165595,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251015160011-ec7263865c8342d68b6884e78a1ae946s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -165601,7 +165606,7 @@
           "precio": "14,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9dcf1e98-4be8-4cf5-bfbb-0199e447de1e": {
       "id": "9dcf1e98-4be8-4cf5-bfbb-0199e447de1e",
@@ -168332,7 +168337,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-09-27",
-      "days_on_market": 389,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/94a2ae3e-f6c1-4aac-a160-01998c533de4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250927115851-6c0d49fe75c3464997f9e1b88ecbf38as.webp",
@@ -168340,9 +168345,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250927115851-d859f83cba3a4e409c83390bad59ee26s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -168351,7 +168356,7 @@
           "precio": "20,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b59dbdf9-d52d-4154-a971-019987be0c14": {
       "id": "b59dbdf9-d52d-4154-a971-019987be0c14",
@@ -168800,7 +168805,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-09-19",
-      "days_on_market": 397,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4e92306d-29f6-411a-b75d-0193c201eda5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241213155449-472905a5267741feaf260d69e945a026s.webp",
@@ -168808,9 +168813,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-241213155445-32b637d126614452b44bf79f435f6ae7s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -168819,7 +168824,7 @@
           "precio": "15,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d3ab8974-2594-4e7e-a2c1-019962bd4f17": {
       "id": "d3ab8974-2594-4e7e-a2c1-019962bd4f17",
@@ -169744,7 +169749,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-09-10",
-      "days_on_market": 406,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/58e64147-9dee-4032-a628-019935335f88",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250910135711-1700f0ac3a7e437fb421034eccda1380s.webp",
@@ -169752,9 +169757,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250910135706-6bce08e28ead4ec3821f7d9749daabd3s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -169763,7 +169768,7 @@
           "precio": "2,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "bb66662d-89a0-4c6a-af3b-019935c3800a": {
       "id": "bb66662d-89a0-4c6a-af3b-019935c3800a",
@@ -170956,7 +170961,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-08-29",
-      "days_on_market": 418,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/af7af8e3-2e6f-4364-9406-0190bdeedea4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240716174509-d1797d7273524fe9b54916d97733e271s.webp",
@@ -170964,9 +170969,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240716174514-1eb0da9e5adf4db2aebacf2e62e92d44s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -170975,7 +170980,7 @@
           "precio": "18,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "665064ea-0c42-4dff-a655-0198f8160615": {
       "id": "665064ea-0c42-4dff-a655-0198f8160615",
@@ -172567,7 +172572,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-08-02",
-      "days_on_market": 445,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/41061460-6c3e-4197-876f-0190b7c332e8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240715130004-15595a75c57a438c824692128b656f01s.webp",
@@ -172575,9 +172580,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240715130010-d8e2585a56794a7ea0c72867dea1e054s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -172586,7 +172591,7 @@
           "precio": "40,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e4c2db13-fc2c-454a-892d-01986bcd841c": {
       "id": "e4c2db13-fc2c-454a-892d-01986bcd841c",
@@ -172880,7 +172885,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/bfdf6152-a5ae-4405-95a4-0191a4467af0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240830111317-04b3d121fae54df2932791ce66ddc65es.webp",
@@ -172888,9 +172893,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240830111318-5dc0077f2724471f9a68bb150683decds.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -172899,7 +172904,7 @@
           "precio": "12,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "fa1dd72c-256f-43bb-9907-0191a5217dad": {
       "id": "fa1dd72c-256f-43bb-9907-0191a5217dad",
@@ -172920,7 +172925,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/fa1dd72c-256f-43bb-9907-0191a5217dad",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240830151254-34c720a42f98468fa5059189d7e8ee1fs.webp",
@@ -172928,9 +172933,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240830151255-2673ea3e0fd84eb0afcb89337775aeces.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -172939,7 +172944,7 @@
           "precio": "27,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "cfa05968-a771-4a97-a2c0-01929794d359": {
       "id": "cfa05968-a771-4a97-a2c0-01929794d359",
@@ -172960,15 +172965,15 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/cfa05968-a771-4a97-a2c0-01929794d359",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241016174652-f1fa9613974d4e38a930e08d63f1baf6s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -172977,7 +172982,7 @@
           "precio": "32,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "6259038a-7cc4-4b7e-8dff-018bffe0c254": {
       "id": "6259038a-7cc4-4b7e-8dff-018bffe0c254",
@@ -173037,7 +173042,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d80699b1-1f25-4923-82af-018ccb4bf2b8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240102105831-16c806049bd549f29807c7f4fc0b432c.jpg",
@@ -173045,9 +173050,9 @@
         "https://s3.amazonaws.com/nocnok-img/240102105829-588d11a6a65649a480d5c01d82f7d58d.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -173056,7 +173061,7 @@
           "precio": "10,475 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "1b5638c6-4a82-42c5-a88c-0194e37f4d38": {
       "id": "1b5638c6-4a82-42c5-a88c-0194e37f4d38",
@@ -173116,7 +173121,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/378710d7-262e-4df9-b5a6-01955d41696a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250303125452-90676d55f7f64ad388d2cc6387ba9eces.webp",
@@ -173124,9 +173129,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250303125455-c57d8c328559403c971ad26d775c5babs.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -173135,7 +173140,7 @@
           "precio": "32,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "dfdfa497-21d5-4497-af4b-019563817958": {
       "id": "dfdfa497-21d5-4497-af4b-019563817958",
@@ -173156,7 +173161,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/dfdfa497-21d5-4497-af4b-019563817958",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250304173441-929ecade99b2468397a6b637a50bf954s.webp",
@@ -173164,9 +173169,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250304173442-fee6c1e974e54a23bf9fb2dcf6f7f84bs.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -173175,7 +173180,7 @@
           "precio": "1,300,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "58bcd2cb-9237-414d-b5f1-0195f8370c05": {
       "id": "58bcd2cb-9237-414d-b5f1-0195f8370c05",
@@ -173196,7 +173201,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/58bcd2cb-9237-414d-b5f1-0195f8370c05",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250402143659-3ab110c18f284dccbfbe9b77c43f4637s.webp",
@@ -173204,9 +173209,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250402143659-f2170ec8a97446bd837cb8f577455e9cs.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -173215,7 +173220,7 @@
           "precio": "15,200 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "632090d4-a329-4a7f-a978-0195f876800e": {
       "id": "632090d4-a329-4a7f-a978-0195f876800e",
@@ -173236,16 +173241,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/632090d4-a329-4a7f-a978-0195f876800e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250402154510-ae81c3e5eeef4b2e81f4f47a68873c1ds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250402154508-4a64641ebb164bcaba576c89f716247as.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -173254,7 +173259,7 @@
           "precio": "9,800 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9c984f44-343c-4c1d-b269-0195f87a82c4": {
       "id": "9c984f44-343c-4c1d-b269-0195f87a82c4",
@@ -173275,7 +173280,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9c984f44-343c-4c1d-b269-0195f87a82c4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250402155012-d543ca607f0243ab9f3c7d81d71e95ccs.webp",
@@ -173283,9 +173288,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250402155009-07cee4e8f60847fab97c0530fa5c863fs.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -173294,7 +173299,7 @@
           "precio": "7,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b73c0db0-c6b2-49e5-93ae-0195f87fb6b6": {
       "id": "b73c0db0-c6b2-49e5-93ae-0195f87fb6b6",
@@ -173315,7 +173320,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2025-07-28",
-      "days_on_market": 450,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b73c0db0-c6b2-49e5-93ae-0195f87fb6b6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250402155509-5569a1cca83a48889bf5218c4af55861s.webp",
@@ -173323,9 +173328,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250402155509-c518a32482e24529844d205459de0d5fs.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -173334,7 +173339,7 @@
           "precio": "10,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8dd2260b-ab52-4da5-9262-0198536a5387": {
       "id": "8dd2260b-ab52-4da5-9262-0198536a5387",
@@ -196674,12 +196679,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "34,241 MXN Renta",
-      "precio_num": 34241.0,
+      "precio": "34,240 MXN Renta",
+      "precio_num": 34240.0,
       "superficie": "103 m²",
       "area_num": 103.0,
       "precio_m2": "$332.4/m²",
-      "pm2_num": 332.44,
+      "pm2_num": 332.43,
       "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -213978,7 +213983,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-08-28",
-      "days_on_market": 54,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/bc3475d6-dc33-4f5e-931b-01a049e8da27",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260828134706-de80bb343f0945fbaa6df3d11f3560a3s.webp",
@@ -213986,9 +213991,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260828134707-fc1cd5f6c20043178dd8366e72e865bbs.webp"
       ],
       "first_seen": "2026-08-28",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 55,
       "precio_history": [
         {
@@ -213997,7 +214002,7 @@
           "precio": "2,800,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "196d713b-43b9-4829-a733-01a04a7121d3": {
       "id": "196d713b-43b9-4829-a733-01a04a7121d3",
@@ -218170,7 +218175,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-09-07",
-      "days_on_market": 44,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/bc449744-242e-43c4-a2bf-01a07cd56b48",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260907110628-e7e80de427a344aaa721e29946b56ef1s.webp",
@@ -218178,9 +218183,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260907110639-d20cd94bd5e24333a0ef276fc298ab1ds.webp"
       ],
       "first_seen": "2026-09-07",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 45,
       "precio_history": [
         {
@@ -218189,7 +218194,7 @@
           "precio": "18,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b54d6e0e-4bef-4660-b24a-01a07d06fbdd": {
       "id": "b54d6e0e-4bef-4660-b24a-01a07d06fbdd",
@@ -225398,17 +225403,17 @@
     "cf6e454b-3562-49d7-a647-01a0ebe421bb": {
       "id": "cf6e454b-3562-49d7-a647-01a0ebe421bb",
       "code": "NN-HGB936",
-      "title": "TERRENO EN VENTA A ESPALDAS DEL SANATORIO ESPAÑOL",
+      "title": "TERRENO EN VENTA A ESPALDAS DEL SANATORIO ESPAÑOL/REAL DEL NOGALAR",
       "categoria": "Comercial",
       "tipo": "Terreno",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "3,500 MXN Venta",
-      "precio_num": 3500.0,
+      "precio": "3,850,000 MXN Venta",
+      "precio_num": 3850000.0,
       "superficie": "1,000 m²",
       "area_num": 1000.0,
-      "precio_m2": "$3.5/m²",
-      "pm2_num": 3.5,
+      "precio_m2": "$3,500/m²",
+      "pm2_num": 3500.0,
       "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -233064,6 +233069,201 @@
           "date": "2026-10-23",
           "precio_num": 29000.0,
           "precio": "29,000 MXN Renta"
+        }
+      ]
+    },
+    "df11de1b-331a-4a30-8d84-01a16a4991b9": {
+      "id": "df11de1b-331a-4a30-8d84-01a16a4991b9",
+      "code": "NN-HHQ851",
+      "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "50,000 MXN Renta",
+      "precio_num": 50000.0,
+      "superficie": "320 m²",
+      "area_num": 320.0,
+      "precio_m2": "$156.2/m²",
+      "pm2_num": 156.25,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "INVIERTE LAGUNA",
+      "fecha_publicacion": "2026-10-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/df11de1b-331a-4a30-8d84-01a16a4991b9",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261023134429-93659fa4dba5426cb71c13166680c40cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261023134426-48f0a44b65b4421e95467f486831a969s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261023134426-9f12d964ec1b4b69ac3028277ac09548s.webp"
+      ],
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-23",
+          "precio_num": 50000.0,
+          "precio": "50,000 MXN Renta"
+        }
+      ]
+    },
+    "f3f0ad18-ab55-4454-a326-01a16975b566": {
+      "id": "f3f0ad18-ab55-4454-a326-01a16975b566",
+      "code": "NN-HHQ548",
+      "title": "CENTRICA BODEGA DIAGONAL REFORMA",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "29,000 MXN Renta",
+      "precio_num": 29000.0,
+      "superficie": "300 m²",
+      "area_num": 300.0,
+      "precio_m2": "$96.7/m²",
+      "pm2_num": 96.67,
+      "ubicacion": "Moctezuma, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-10-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/f3f0ad18-ab55-4454-a326-01a16975b566",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261023095159-28e2de7a7e044a03b5025a742aad1114s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261023095159-62a8563bd7aa448d8892d2c99ec2240ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261023095158-035ea36fee504fd1bbb4b9f3092d62f9s.webp"
+      ],
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-23",
+          "precio_num": 29000.0,
+          "precio": "29,000 MXN Renta"
+        }
+      ]
+    },
+    "939292d3-688e-4d3b-9f28-01a16af78486": {
+      "id": "939292d3-688e-4d3b-9f28-01a16af78486",
+      "code": "NN-HHQ980",
+      "title": "BODEGA EN RENTA, DOS PLANTAS, CON AMPLIAS OFICINAS Y ÁREA DE COCINA.",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "29,000 MXN Renta",
+      "precio_num": 29000.0,
+      "superficie": "300 m²",
+      "area_num": 300.0,
+      "precio_m2": "$96.7/m²",
+      "pm2_num": 96.67,
+      "ubicacion": "Abastos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Raíces inmobiliaria",
+      "fecha_publicacion": "2026-10-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/939292d3-688e-4d3b-9f28-01a16af78486",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261023165404-a0522f1e8cb44f02ab7d070d40d7240fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261023165442-d715e56ac61f4f3194ea86e3b060f272s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261023165510-9b27cc0e70cc443995292589a01ed141s.webp"
+      ],
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-23",
+          "precio_num": 29000.0,
+          "precio": "29,000 MXN Renta"
+        }
+      ]
+    },
+    "d3432596-575d-45e4-8066-018b291b8c38": {
+      "id": "d3432596-575d-45e4-8066-018b291b8c38",
+      "code": "MX23-ON2593",
+      "title": "LOCAL P. BAJA PLAZA LAS ROSAS GOMEZ",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "17,000 MXN Renta",
+      "precio_num": 17000.0,
+      "superficie": "60 m²",
+      "area_num": 60.0,
+      "precio_m2": "$283.3/m²",
+      "pm2_num": 283.33,
+      "ubicacion": "Las Rosas, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-10-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/d3432596-575d-45e4-8066-018b291b8c38",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/230412135618-4aae2fa2469c474b8b5b359da05bb580.jpg",
+        "https://s3.amazonaws.com/nocnok-img/pp-250909093517-77ee7aedd030481096e08386afbdfcc2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250909093514-baa07b593e004c929e3b2218d914bacfs.webp"
+      ],
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-23",
+          "precio_num": 17000.0,
+          "precio": "17,000 MXN Renta"
+        }
+      ]
+    },
+    "58aed023-11a3-43e7-87a6-018b283eee1e": {
+      "id": "58aed023-11a3-43e7-87a6-018b283eee1e",
+      "code": "MX22-MV4247",
+      "title": "Bodega en Renta en Ex-Ejido Cuba, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "436,500 MXN Renta",
+      "precio_num": 436500.0,
+      "superficie": "4,850 m²",
+      "area_num": 4850.0,
+      "precio_m2": "$90.0/m²",
+      "pm2_num": 90.0,
+      "ubicacion": "Ex-Ejido Cuba, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "MONTARA Bienes Raíces",
+      "fecha_publicacion": "2026-10-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/58aed023-11a3-43e7-87a6-018b283eee1e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/220518084459-660f4d66a88c4466a42e85398900bd96.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220518084450-483ee7a3fed246cd899726f0dab95e52.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220518084446-e0359e4a3cd0401eb1fd82e45cca8c32.jpg"
+      ],
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-23",
+          "precio_num": 436500.0,
+          "precio": "436,500 MXN Renta"
         }
       ]
     }

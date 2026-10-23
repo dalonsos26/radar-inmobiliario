@@ -40,6 +40,86 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "29d7e767-6b31-4688-a6f9-019e6ae59f86",
+      "code": "NN-GZU495",
+      "title": "Casa en Venta en Jerusalén, Gómez Palacio, Durango",
+      "categoria": "Comercial",
+      "tipo": "Casa",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "2,490,000 MXN Venta",
+      "precio_num": 2490000.0,
+      "superficie": "218 m²",
+      "area_num": 218.0,
+      "precio_m2": "$11,422/m²",
+      "pm2_num": 11422.02,
+      "ubicacion": "Jerusalén, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "RED Bienes Raíces",
+      "fecha_publicacion": "2026-05-26",
+      "days_on_market": 149,
+      "link": "https://app.nocnok.com/crm/154940/properties/29d7e767-6b31-4688-a6f9-019e6ae59f86",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260527132539-8113b0999d45457d9b8eb34853ba0390s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260527132539-0232dfebfc664d23892f825e02542c48s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260527132538-ffa0d65b9be8434785776952c2d12e73s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-23",
+      "status": "delisted",
+      "delisted_at": "2026-10-23",
+      "days_listed": 144,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 2490000.0,
+          "precio": "2,490,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "06651a31-9fb4-4299-9e11-01979e1db945",
+      "code": "MX25-MM10043",
+      "title": "Terreno en Venta en Las Huertas, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "16,250,000 MXN Venta",
+      "precio_num": 16250000.0,
+      "superficie": "10,000 m²",
+      "area_num": 10000.0,
+      "precio_m2": "$1,625/m²",
+      "pm2_num": 1625.0,
+      "ubicacion": "Las Huertas, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "ALARCON MURRA BIENES RAICES",
+      "fecha_publicacion": "2026-05-14",
+      "days_on_market": 34,
+      "link": "https://app.nocnok.com/crm/154940/properties/06651a31-9fb4-4299-9e11-01979e1db945",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260309190236-cdd0b2e2ead84c5d90c701cb0b57c414s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250623130101-3b353876e46342eab71f90cefcc3dc67s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250623130101-6d7f869a2743447f96f25440e84c2238s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-23",
+      "status": "delisted",
+      "delisted_at": "2026-10-23",
+      "days_listed": 144,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 16250000.0,
+          "precio": "16,250,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "f88b0933-0201-45d9-a9cc-019dfafb12bd",
       "code": "NN-GYL241",
       "title": "Bodega en Renta en Parque Industrial Laguna, Gómez Palacio, Durango",
@@ -47873,6 +47953,56 @@
       "last_drop_date": "2026-09-25"
     },
     {
+      "id": "011e0c29-adc3-4e87-95e6-018b2808a61c",
+      "code": "MX22-MM5985",
+      "title": "Oficina en Renta en Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "25,000 MXN Renta",
+      "precio_num": 25000.0,
+      "superficie": "230 m²",
+      "area_num": 230.0,
+      "precio_m2": "$227.3/m²",
+      "pm2_num": 227.27,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "FIRMEZA",
+      "fecha_publicacion": "2026-06-18",
+      "days_on_market": 127,
+      "link": "https://app.nocnok.com/crm/154940/properties/011e0c29-adc3-4e87-95e6-018b2808a61c",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/220318080619-384b81c422fa4ea9a628b19486c561ce.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220318071536-7d19c85b91794c35ae6a57d14384081b.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220318080615-ed48fc41efc84fcd9a2d5dcea590b21a.jpg"
+      ],
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-06-20",
+          "precio_num": 35000.0,
+          "precio": "35,000 MXN Renta"
+        },
+        {
+          "date": "2026-10-23",
+          "precio_num": 25000.0,
+          "precio": "25,000 MXN Renta"
+        }
+      ],
+      "original_precio": "35,000 MXN Renta",
+      "original_precio_num": 35000.0,
+      "current_precio": "25,000 MXN Renta",
+      "current_precio_num": 25000.0,
+      "total_drop_pct": 28.6,
+      "last_drop_date": "2026-10-23"
+    },
+    {
       "id": "a61fd994-16c6-4c61-ac9b-019dbfbfb2b2",
       "code": "NN-GXY972",
       "title": "OPORTUNIDAD DE INVERSIÓN ??????Terreno Comercial en Venta en el Centro de Torreón, Coahuila",
@@ -53726,7 +53856,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "DOSCE DESPACHO INMOBILIARIO",
       "fecha_publicacion": "2026-04-07",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a065cae7-7772-407b-81af-019d6dd619a4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260408100401-beeb279805ac4b57950be33afbd171e9s.webp",
@@ -53734,9 +53864,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260408100401-25de76aaadf04c03b3feae5c9e7e1ed5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-22",
-      "status": "delisted",
-      "delisted_at": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -53750,7 +53880,7 @@
           "precio": "45,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "45,000 MXN Renta",
@@ -56863,7 +56993,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "CORPORATIVO INMOBILIARIO",
       "fecha_publicacion": "2026-02-12",
-      "days_on_market": 251,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/664e24ef-51b8-4bf7-ac14-019c53a39ca9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260212145703-c8dc7a4aa33b4cbd8020b2941d3a544fs.webp",
@@ -56871,9 +57001,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260212145704-69673bc1858d4df087a6ce4bd687bdf0s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-10-21",
-      "status": "delisted",
-      "delisted_at": "2026-10-22",
+      "last_seen": "2026-10-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 79,
       "precio_history": [
         {
@@ -56887,7 +57017,7 @@
           "precio": "1,600,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "original_precio": "1,690,000 MXN Venta",
       "original_precio_num": 1690000.0,
       "current_precio": "1,600,000 MXN Venta",
