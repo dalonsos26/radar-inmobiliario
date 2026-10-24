@@ -251,6 +251,126 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "bec8a037-3382-4358-9020-0195de7534f6",
+      "code": "MX25-FB10267",
+      "title": "Terreno en Venta en Anna, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "5,832,330 MXN Venta",
+      "precio_num": 5832330.0,
+      "superficie": "1,666 m²",
+      "area_num": 1666.0,
+      "precio_m2": "$3,501/m²",
+      "pm2_num": 3500.8,
+      "ubicacion": "Anna, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2025-03-27",
+      "days_on_market": 575,
+      "link": "https://app.nocnok.com/crm/154940/properties/bec8a037-3382-4358-9020-0195de7534f6",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250328143348-4995b54f550649128e62cbe2388c91a1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250328143348-7bff8c3a1b3d4fd4963dfda5a02e3758s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250328143348-1923e2e8ae6c47a58db873715a7acc5ds.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 145,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 5832330.0,
+          "precio": "5,832,330 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "147684c7-ddb8-45ad-b1d6-018b5400872b",
+      "code": "MX23-PM9563",
+      "title": "Terreno en Venta en Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "4,234,510 MXN Venta",
+      "precio_num": 4234510.0,
+      "superficie": "1,210 m²",
+      "area_num": 1210.0,
+      "precio_m2": "$3,500/m²",
+      "pm2_num": 3499.6,
+      "ubicacion": "Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2025-03-27",
+      "days_on_market": 575,
+      "link": "https://app.nocnok.com/crm/154940/properties/147684c7-ddb8-45ad-b1d6-018b5400872b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/231021143033-608160d771a84765b66fafd40bddbe60.jpg",
+        "https://s3.amazonaws.com/nocnok-img/231021143024-dc50f161d4e34badbd274a3b1b2baeeb.jpg",
+        "https://s3.amazonaws.com/nocnok-img/231021143029-3b59c0e12774445a93f3fdbeb45b7575.jpg"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 145,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 4234510.0,
+          "precio": "4,234,510 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "a35985b4-29ef-497b-b24a-018b6305c0ef",
+      "code": "MX23-PN2049",
+      "title": "Terreno en Venta en Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "3,886,330 MXN Venta",
+      "precio_num": 3886330.0,
+      "superficie": "1,110 m²",
+      "area_num": 1110.0,
+      "precio_m2": "$3,501/m²",
+      "pm2_num": 3501.2,
+      "ubicacion": "Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2025-03-27",
+      "days_on_market": 575,
+      "link": "https://app.nocnok.com/crm/154940/properties/a35985b4-29ef-497b-b24a-018b6305c0ef",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250328142147-68da2afbdc9b417a9f04074b842f4dd7s.webp",
+        "https://s3.amazonaws.com/nocnok-img/231024165643-2236402f4a964232a45c3b4bdef2066e.jpg",
+        "https://s3.amazonaws.com/nocnok-img/231024165637-61a691dcfda6482785ae8932e75ddd24.jpg"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 145,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 3886330.0,
+          "precio": "3,886,330 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "c32169cf-9fa2-491e-b388-018b293a0440",
       "code": "MX23-PC3385",
       "title": "Bodega en renta en Nueva Laguna Norte, Torreón, Coahuila de Zaragoza",
@@ -711,6 +831,205 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "3ed9bbcc-deb4-4d45-bca2-019a999af301",
+      "code": "NN-FB1000237",
+      "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "25,000 MXN Renta",
+      "precio_num": 25000.0,
+      "superficie": "200 m²",
+      "area_num": 200.0,
+      "precio_m2": "$125.0/m²",
+      "pm2_num": 125.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2025-11-18",
+      "days_on_market": 340,
+      "link": "https://app.nocnok.com/crm/154940/properties/3ed9bbcc-deb4-4d45-bca2-019a999af301",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-251118185420-cf9fd083a3dd4070a29fe4298bd2e4e9s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251118185420-57f016e747c14035acee38d30b33e685s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251118185420-bdb24f89c6604ae9acca6ad6e9560209s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 81,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 25000.0,
+          "precio": "25,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "2f40b581-8f5e-4f58-aa16-019a60a42d85",
+      "code": "NN-FB1000656",
+      "title": "Bodega en Renta en Nuevo Torreon, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "50,400 MXN Renta",
+      "precio_num": 50400.0,
+      "superficie": "700 m²",
+      "area_num": 700.0,
+      "precio_m2": "$72.0/m²",
+      "pm2_num": 72.0,
+      "ubicacion": "Nuevo Torreon, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2025-11-07",
+      "days_on_market": 351,
+      "link": "https://app.nocnok.com/crm/154940/properties/2f40b581-8f5e-4f58-aa16-019a60a42d85",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-251112100100-30a67283499045beb1b6d16a971e5f1ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-251112100057-4eafe2b5c0fb48a2a30c17adf254ae57s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260724135512-3962bf20db68492e93b84a63d5db5337s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 81,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 50400.0,
+          "precio": "50,400 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "1cfd3a2c-a7c8-40ae-a96a-01980c5392cf",
+      "code": "NN-FS1000138",
+      "title": "LOCAL COMERCIAL EN AV. BRAVO",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "9,500 MXN Renta",
+      "precio_num": 9500.0,
+      "superficie": "170 m²",
+      "area_num": 170.0,
+      "precio_m2": "$55.9/m²",
+      "pm2_num": 55.88,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CRECIENDO BIENES RAICES",
+      "fecha_publicacion": "2025-07-14",
+      "days_on_market": 17,
+      "link": "https://app.nocnok.com/crm/154940/properties/1cfd3a2c-a7c8-40ae-a96a-01980c5392cf",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250714222624-8dbbc6b8c8cd42a68fbba2e6c9c0f2e7s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250714222624-67c501934cfd49b9bb23343bf047a675s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 81,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 9500.0,
+          "precio": "9,500 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "b533f380-b313-4a5b-aa9d-01979f666bdb",
+      "code": "MX25-FB10467",
+      "title": "Local en Renta en Residencial el Fresno, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "35,000 MXN Renta",
+      "precio_num": 35000.0,
+      "superficie": "172 m²",
+      "area_num": 172.0,
+      "precio_m2": "$203.5/m²",
+      "pm2_num": 203.49,
+      "ubicacion": "Residencial el Fresno, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2025-06-23",
+      "days_on_market": 488,
+      "link": "https://app.nocnok.com/crm/154940/properties/b533f380-b313-4a5b-aa9d-01979f666bdb",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250623184639-4ded8fa76521493b8691a902ec545178s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250623184638-cb69af569a274dde92f001935e008148s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250623184639-1d41b4ef45b14cd994f9d02aeaa6b2bbs.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 81,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 35000.0,
+          "precio": "35,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "e1cac8f0-f3a8-4cf0-92ec-018b5da87368",
+      "code": "MX23-PN0205",
+      "title": "Terreno en Venta en Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "7,419,825 MXN Venta",
+      "precio_num": 7419825.0,
+      "superficie": "1,649 m²",
+      "area_num": 1649.0,
+      "precio_m2": "$4,500/m²",
+      "pm2_num": 4499.59,
+      "ubicacion": "Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2025-03-28",
+      "days_on_market": 575,
+      "link": "https://app.nocnok.com/crm/154940/properties/e1cac8f0-f3a8-4cf0-92ec-018b5da87368",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/231023111929-5f3628d21c4847d4847fcaef6c59f49e.jpg",
+        "https://s3.amazonaws.com/nocnok-img/231023111919-1ed8b2628fb74203b4f9b9a4060d37cf.jpg",
+        "https://s3.amazonaws.com/nocnok-img/231023111924-3287a135ae2448a2b23846bb8b258184.jpg"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 81,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 7419825.0,
+          "precio": "7,419,825 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "3e6e3f3e-8595-4d7b-8972-019fd7f433fa",
       "code": "NN-HDG902",
       "title": "Bodega 2000 Mts El Tajito, Torreón, Coahuila.",
@@ -746,6 +1065,125 @@
           "date": "2026-08-12",
           "precio_num": 55000.0,
           "precio": "55,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "ab43d75e-8608-4ddb-a2bf-01a035fd4e7f",
+      "code": "NN-HDX698",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "40,000 MXN Renta",
+      "precio_num": 40000.0,
+      "superficie": "200 m²",
+      "area_num": 200.0,
+      "precio_m2": "$200.0/m²",
+      "pm2_num": 200.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-08-24",
+      "days_on_market": 61,
+      "link": "https://app.nocnok.com/crm/154940/properties/ab43d75e-8608-4ddb-a2bf-01a035fd4e7f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260824170049-65a618717fe74dc6bd31242909a32959s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260824170048-27514b308c684f18bfca0a40177f7a91s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260824170048-2f36dee449424f518eeef91450bd595bs.webp"
+      ],
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 60,
+      "precio_history": [
+        {
+          "date": "2026-08-25",
+          "precio_num": 40000.0,
+          "precio": "40,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "888dacae-b6c3-4895-8c72-01a12c502d98",
+      "code": "NN-HGR912",
+      "title": "Local Comercial en Planta Baja en Torreón",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "13,000 MXN Renta",
+      "precio_num": 13000.0,
+      "superficie": "62 m²",
+      "area_num": 62.0,
+      "precio_m2": "$209.7/m²",
+      "pm2_num": 209.68,
+      "ubicacion": "Residencial Senderos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CRECIENDO BIENES RAICES",
+      "fecha_publicacion": "2026-10-11",
+      "days_on_market": 13,
+      "link": "https://app.nocnok.com/crm/154940/properties/888dacae-b6c3-4895-8c72-01a12c502d98",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261011125504-80ecf596e11e4b31b4e3e0d760d7dc90s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261011125501-8e0c599492e64120be56ff77348bbbdes.webp"
+      ],
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 12,
+      "precio_history": [
+        {
+          "date": "2026-10-12",
+          "precio_num": 13000.0,
+          "precio": "13,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "80bc1837-5aed-4ccb-893b-01a12d13fcc1",
+      "code": "NN-HGR944",
+      "title": "Local Comercial en Renta en Residencial Senderos, Planta Baja",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "11,000 MXN Renta",
+      "precio_num": 11000.0,
+      "superficie": "48 m²",
+      "area_num": 48.0,
+      "precio_m2": "$229.2/m²",
+      "pm2_num": 229.17,
+      "ubicacion": "Residencial Senderos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CRECIENDO BIENES RAICES",
+      "fecha_publicacion": "2026-10-11",
+      "days_on_market": 13,
+      "link": "https://app.nocnok.com/crm/154940/properties/80bc1837-5aed-4ccb-893b-01a12d13fcc1",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261011162925-88aa11c489cc49b78a766d2a6d5db0f9s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261011162925-b745058782324b3db80794bffab50e1bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261011162925-d2601eff417a44bbbd17875bba2b1342s.webp"
+      ],
+      "first_seen": "2026-10-12",
+      "last_seen": "2026-10-24",
+      "status": "delisted",
+      "delisted_at": "2026-10-24",
+      "days_listed": 12,
+      "precio_history": [
+        {
+          "date": "2026-10-12",
+          "precio_num": 11000.0,
+          "precio": "11,000 MXN Renta"
         }
       ],
       "delisted_reason": "sold"
@@ -57314,6 +57752,56 @@
       "current_precio_num": 3000000.0,
       "total_drop_pct": 6.2,
       "last_drop_date": "2026-10-21"
+    },
+    {
+      "id": "6353f744-3864-4095-8695-01a092e7d157",
+      "code": "NN-HFE019",
+      "title": "Bodega en Renta en San Agustín, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "98,700 MXN Renta",
+      "precio_num": 98700.0,
+      "superficie": "1,400 m²",
+      "area_num": 1400.0,
+      "precio_m2": "$75.0/m²",
+      "pm2_num": 75.0,
+      "ubicacion": "San Agustín, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Kali Bienes Raíces",
+      "fecha_publicacion": "2026-09-11",
+      "days_on_market": 43,
+      "link": "https://app.nocnok.com/crm/154940/properties/6353f744-3864-4095-8695-01a092e7d157",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260911175830-219e5c02d1e14c24ad57fe5ff126d000s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911175827-2d92c3604d5e437ca892301726fc6957s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260911175827-b9524c756ae64e4c9c974e542705bf90s.webp"
+      ],
+      "first_seen": "2026-09-12",
+      "last_seen": "2026-10-24",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-09-12",
+          "precio_num": 105000.0,
+          "precio": "105,000 MXN Renta"
+        },
+        {
+          "date": "2026-10-24",
+          "precio_num": 98700.0,
+          "precio": "98,700 MXN Renta"
+        }
+      ],
+      "original_precio": "105,000 MXN Renta",
+      "original_precio_num": 105000.0,
+      "current_precio": "98,700 MXN Renta",
+      "current_precio_num": 98700.0,
+      "total_drop_pct": 6.0,
+      "last_drop_date": "2026-10-24"
     },
     {
       "id": "08125c5c-0694-4df7-9e6c-01a0c6dff402",
