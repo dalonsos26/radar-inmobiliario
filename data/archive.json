@@ -233642,6 +233642,45 @@
           "precio": "1,800,000 MXN Venta"
         }
       ]
+    },
+    "14070a6d-152f-4b0e-a4d6-01a175406e87": {
+      "id": "14070a6d-152f-4b0e-a4d6-01a175406e87",
+      "code": "NN-HHR349",
+      "title": "NAVE INDUSTRIAL, PARA ALMACENAMIENTO, DISTRIBUCIÓN, MANUFACTURA LIGERA, CEDIS. ETC",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "250,000 MXN Renta",
+      "precio_num": 250000.0,
+      "superficie": "6,500 m²",
+      "area_num": 6500.0,
+      "precio_m2": "$38.5/m²",
+      "pm2_num": 38.46,
+      "ubicacion": "Miguel Hidalgo, Matamoros, Coahuila de Zaragoza",
+      "municipio": "Matamoros",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "TREBOL INMOBILIARIA",
+      "fecha_publicacion": "2026-10-25",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/14070a6d-152f-4b0e-a4d6-01a175406e87",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261025164853-945ad7ea6d354df69e5d88aef8ffa6f2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261025164853-f137848e786742f3a2b6ce52c7cf1356s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261025164948-d95ef298d90f4cf098abe1a6118dc6bcs.webp"
+      ],
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-25",
+          "precio_num": 250000.0,
+          "precio": "250,000 MXN Renta"
+        }
+      ]
     }
   }
 }

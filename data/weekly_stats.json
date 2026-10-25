@@ -7414,7 +7414,7 @@
     },
     "2026-W43": {
       "week": "2026-W43",
-      "total": 54,
+      "total": 55,
       "cities": {
         "Torreón": {
           "total": 45,
@@ -7471,10 +7471,14 @@
           }
         },
         "Matamoros": {
-          "total": 1,
+          "total": 2,
           "tipos_m2": {
             "Terreno": {
               "sum": 4500.0,
+              "count": 1
+            },
+            "Nave": {
+              "sum": 38.46153846153846,
               "count": 1
             }
           }
