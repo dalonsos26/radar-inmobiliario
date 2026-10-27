@@ -2258,7 +2258,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "4d656530-0e9d-4d8e-ba3d-019e4697dbdd",
@@ -2347,7 +2347,7 @@
   },
   {
     "id": "8bd3a86f-68e7-47c2-8fbe-018d354c3241",
-    "title": "Local en Renta en Santa María, Torreón, Coahuila de Zaragoza",
+    "title": "Local nuevo en Calz. Abastos",
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "108 m²",
@@ -2377,7 +2377,7 @@
     ],
     "lat": 25.5752622,
     "lng": -103.4335239,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "215f75e8-1d8a-4125-84da-0196667e5fab",
@@ -2394,7 +2394,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "c0fb616d-c4ea-4ff9-8ebe-0196db860f62",
@@ -2462,7 +2462,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "febdeb8a-4ed4-4cbd-bc16-019cdec74a83",
@@ -2598,7 +2598,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "56bcf5bb-5445-4513-a83d-019db38c626f",
