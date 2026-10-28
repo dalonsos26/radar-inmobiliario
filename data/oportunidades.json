@@ -1,33 +1,73 @@
 {
   "delisted": [
     {
-      "id": "8aa583c0-d408-4454-b1df-018b20efe2e7",
-      "code": "MX17-DB8754",
-      "title": "Edificio en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "id": "4042cb83-1817-4dc6-a421-018b283f3ca7",
+      "code": "MX22-MV8300",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
       "categoria": "Comercial",
-      "tipo": "Edificio",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "15,000 MXN Renta",
+      "precio_num": 15000.0,
+      "superficie": "255 m²",
+      "area_num": 255.0,
+      "precio_m2": "$58.8/m²",
+      "pm2_num": 58.82,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ALARCON MURRA BIENES RAICES",
+      "fecha_publicacion": "2026-05-14",
+      "days_on_market": 38,
+      "link": "https://app.nocnok.com/crm/154940/properties/4042cb83-1817-4dc6-a421-018b283f3ca7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/220520134220-f05016c2e6cf455895073faf8279869a.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220520134221-e5db8b42a7bd47a59cccf55c8e81c58e.jpg",
+        "https://s3.amazonaws.com/nocnok-img/220520134221-28057ea36815447fa9dc4c2513391dd1.jpg"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-27",
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 15000.0,
+          "precio": "15,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "b2358b84-840b-4258-826e-01910fb02ee5",
+      "code": "MX24-NT9541",
+      "title": "Terreno en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
       "operacion": "Venta",
       "op_key": "venta",
       "precio": "3,500,000 MXN Venta",
       "precio_num": 3500000.0,
-      "superficie": "682 m²",
-      "area_num": 682.0,
-      "precio_m2": "$5,132/m²",
-      "pm2_num": 5131.96,
+      "superficie": "458 m²",
+      "area_num": 458.0,
+      "precio_m2": "$7,642/m²",
+      "pm2_num": 7641.92,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 62,
-      "link": "https://app.nocnok.com/crm/154940/properties/8aa583c0-d408-4454-b1df-018b20efe2e7",
+      "broker": "COLDWELL BANKER COMARCA",
+      "fecha_publicacion": "2026-03-09",
+      "days_on_market": 231,
+      "link": "https://app.nocnok.com/crm/154940/properties/b2358b84-840b-4258-826e-01910fb02ee5",
       "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/170711225717-a1ae54c046ae4debad59a7ce293241be.jpg",
-        "https://s3.amazonaws.com/nocnok-img/170711230517-8e9059c74ec3420cb4c79e602936fb1c.jpg",
-        "https://s3.amazonaws.com/nocnok-img/170711230033-646ce029a7884940b41950f921ae741b.jpg"
+        "https://s3.amazonaws.com/nocnok-img/pp-240801144510-cd2f1a6ecff9435fad339e82023c8a1bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240801144502-0db4688549924e8897d4f548e425eea8s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240801144505-d98150d6ba1a4b489667f29ed262662cs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "status": "delisted",
       "delisted_at": "2026-10-27",
       "days_listed": 148,
@@ -41,397 +81,78 @@
       "delisted_reason": "sold"
     },
     {
-      "id": "1ce73233-3ca8-4a22-946e-0196d9db76fa",
-      "code": "MX25-EQ10054",
-      "title": "LOCAL EN VENTA EN EL CENTRO DE TORREON",
+      "id": "038e6048-bcc6-4435-9c10-019d2b8dbc28",
+      "code": "NN-GWO466",
+      "title": "Terreno en Renta en Miguel de la Madrid Hurtado, Gómez Palacio, Durango",
       "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "1,200,000 MXN Venta",
-      "precio_num": 1200000.0,
-      "superficie": "175 m²",
-      "area_num": 175.0,
-      "precio_m2": "$6,857/m²",
-      "pm2_num": 6857.14,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/1ce73233-3ca8-4a22-946e-0196d9db76fa",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "17,000 MXN Renta",
+      "precio_num": 17000.0,
+      "superficie": "462 m²",
+      "area_num": 462.0,
+      "precio_m2": "$36.8/m²",
+      "pm2_num": 36.8,
+      "ubicacion": "Miguel de la Madrid Hurtado, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "rSm Inmobiliaria Mirisa",
+      "fecha_publicacion": "2026-05-08",
+      "days_on_market": 70,
+      "link": "https://app.nocnok.com/crm/154940/properties/038e6048-bcc6-4435-9c10-019d2b8dbc28",
       "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260415192919-b2df1db8e2fe43d8b51749cee7ddb1abs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260415192657-7808a5d1f6554d4aa4e80be7826136e8s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260415192657-5b409a0c679c4d82bc25e52566b5fb36s.webp"
+        "https://s3.amazonaws.com/nocnok-img/pp-260326131058-0ad0f6fbbf5e430b90eb1d2528a1b2fas.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260326131112-e67221151a5042d9a8e0c5b3c8d70a24s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260326131101-9f60dce0c3524944ac552bd7fcaa927ds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "status": "delisted",
       "delisted_at": "2026-10-27",
       "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-01",
-          "precio_num": 1050000.0,
-          "precio": "1,050,000 MXN Venta"
+          "precio_num": 20000.0,
+          "precio": "20,000 MXN Renta"
         },
         {
-          "date": "2026-08-12",
-          "precio_num": 1200000.0,
-          "precio": "1,200,000 MXN Venta"
+          "date": "2026-08-19",
+          "precio_num": 17000.0,
+          "precio": "17,000 MXN Renta"
         }
       ],
       "delisted_reason": "sold"
     },
     {
-      "id": "b2128a77-81fd-48e5-be00-01900f809267",
-      "code": "MX24-QI6457",
-      "title": "Bodega en Venta en Residencial Paraíso del Nazas, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "26,200,000 MXN Venta",
-      "precio_num": 26200000.0,
-      "superficie": "2,693 m²",
-      "area_num": 2693.0,
-      "precio_m2": "$9,729/m²",
-      "pm2_num": 9728.93,
-      "ubicacion": "Residencial Paraíso del Nazas, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/b2128a77-81fd-48e5-be00-01900f809267",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/240612205205-0eb0db339b384489967019f30a7e1113.jpg",
-        "https://s3.amazonaws.com/nocnok-img/240613192328-3febc33ef7884d95a7909cc306e97928.jpg",
-        "https://s3.amazonaws.com/nocnok-img/240612205055-6c1ac54690494bb786fe63821b91894a.jpg"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 26200000.0,
-          "precio": "26,200,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "9e9c9dd1-2119-4b5c-a0dd-019a5ff40f55",
-      "code": "NN-EQ1000175",
-      "title": "RENTA LOCAL EN EL CENTRO, EN 2° PISO",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "70,000 MXN Renta",
-      "precio_num": 70000.0,
-      "superficie": "847 m²",
-      "area_num": 847.0,
-      "precio_m2": "$82.6/m²",
-      "pm2_num": 82.64,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/9e9c9dd1-2119-4b5c-a0dd-019a5ff40f55",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-251107141420-062e590466c64e929f4abe20798ee7b6s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-251107141422-cd6215081d9e4dbab888c8de5aca9f88s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-251107141420-ea4cbc852e6144028c7ca4529c819df0s.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 70000.0,
-          "precio": "70,000 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "fb3c2020-d1ae-4432-9d2f-01956f1158b5",
-      "code": "MX25-EQ10028",
-      "title": "Edificio Comercial a la Venta enfrente de Palacio Federal, Torreón Centro, Coahuila",
-      "categoria": "Comercial",
-      "tipo": "Edificio",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "6,990,000 MXN Venta",
-      "precio_num": 6990000.0,
-      "superficie": "686 m²",
-      "area_num": 686.0,
-      "precio_m2": "$10,190/m²",
-      "pm2_num": 10189.5,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 62,
-      "link": "https://app.nocnok.com/crm/154940/properties/fb3c2020-d1ae-4432-9d2f-01956f1158b5",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250615210314-c1f80696701e400f8140da8d70e4882es.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250306233106-c10068eaa408489880391470fb318de4s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250306233106-25886c34e71442198d004274256f603cs.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 6990000.0,
-          "precio": "6,990,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "dec90d67-d189-48a4-b5c1-01904747b86e",
-      "code": "MX24-KN2080",
-      "title": "Bodega en Venta en Paraíso del Nazas, Torreón, Coahuila de Zaragoza",
+      "id": "892f708a-f04a-448c-b93c-019c44a0d433",
+      "code": "NN-GUC098",
+      "title": "Bodega en Renta en Parque Industrial Lagunero, Gómez Palacio",
       "categoria": "Industrial",
       "tipo": "Bodega",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "5,000,000 MXN Venta",
-      "precio_num": 5000000.0,
-      "superficie": "751 m²",
-      "area_num": 751.0,
-      "precio_m2": "$6,658/m²",
-      "pm2_num": 6657.79,
-      "ubicacion": "Paraíso del Nazas, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/dec90d67-d189-48a4-b5c1-01904747b86e",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-240623164816-b256357ae49e475bad741a255cd2d2afs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240623164820-89d55204567644c5a8a4cdde955b635bs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240623164829-8d06faeca52847628b285ec8e76e4a59s.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 5000000.0,
-          "precio": "5,000,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "03ae0e51-c963-4603-8458-019182797583",
-      "code": "MX24-ST6386",
-      "title": "Terreno en Venta en La Concha, Torreón, Coahuila de Zaragoza",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "3,282,000 MXN Venta",
-      "precio_num": 3282000.0,
-      "superficie": "7,298 m²",
-      "area_num": 7298.0,
-      "precio_m2": "$449.7/m²",
-      "pm2_num": 449.71,
-      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/03ae0e51-c963-4603-8458-019182797583",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-240823214204-42d129c4a00145df963806c21ce0f6b2s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240823214205-92351f8b2d5543f5be5bf9173c0660c5s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-240823214204-a957adde848e4f67b70eaaea8318cb0cs.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 3282000.0,
-          "precio": "3,282,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "1296a174-fa22-443b-b128-018bfdbb713a",
-      "code": "MX23-PQ4372",
-      "title": "Oficina en Renta en Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
-      "categoria": "Comercial",
-      "tipo": "Oficina",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "26,000 MXN Renta",
-      "precio_num": 26000.0,
-      "superficie": "283 m²",
-      "area_num": 283.0,
-      "precio_m2": "$91.9/m²",
-      "pm2_num": 91.87,
-      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/1296a174-fa22-443b-b128-018bfdbb713a",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/231123134602-465b2b125f1c41a8aef5f28d6103af9c.jpg",
-        "https://s3.amazonaws.com/nocnok-img/231123134429-b1ba4a48aaad4eb683e89cc12ec6fa25.jpg",
-        "https://s3.amazonaws.com/nocnok-img/231123134521-abc9b9e5e4ef487aa3a39b2d0b270f98.jpg"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 26000.0,
-          "precio": "26,000 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "9bcf8e0f-4bc3-482d-b26f-018b28e5440a",
-      "code": "MX23-OE7653",
-      "title": "Terreno en Renta en El Vergel, Gómez Palacio, Durango",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "160,000 MXN Renta",
-      "precio_num": 160000.0,
-      "superficie": "40,161 m²",
-      "area_num": 40161.0,
-      "precio_m2": "$4.0/m²",
-      "pm2_num": 3.98,
-      "ubicacion": "El Vergel, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/9bcf8e0f-4bc3-482d-b26f-018b28e5440a",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/230203235316-441dc12890f3427ebe48a036cc8c26e4.jpg",
-        "https://s3.amazonaws.com/nocnok-img/230203235312-a6de92efad46490c9d11cb5dbecc1d51.jpg",
-        "https://s3.amazonaws.com/nocnok-img/230203235244-18dd13fcbb5c48d6b96d212194ca676d.jpg"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 160000.0,
-          "precio": "160,000 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "8c7b4fab-baba-4649-a2a2-019776715997",
-      "code": "MX25-EQ10085",
-      "title": "TERRENO EN VENTA, EJIDO MARIA ANTONIETA, MPIO DE GOMEZ PALACIO DGO.",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "1,000,000 MXN Venta",
-      "precio_num": 1000000.0,
-      "superficie": "3,300 m²",
-      "area_num": 3300.0,
-      "precio_m2": "$303.0/m²",
-      "pm2_num": 303.03,
-      "ubicacion": "Maria Antonieta, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/8c7b4fab-baba-4649-a2a2-019776715997",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250615201024-8b7c9da3b10d4b4c802aead848ab78e3s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250615201023-bddb9bded11249b49453da85c978ddd4s.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 1000000.0,
-          "precio": "1,000,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "c9831297-7910-45ff-8ea7-019d9e426473",
-      "code": "NN-GXQ027",
-      "title": "Nave Industrial en Renta en Parque Industrial Laguna, Gómez Palacio",
-      "categoria": "Industrial",
-      "tipo": "Nave",
       "operacion": "Renta",
       "op_key": "renta",
       "precio": "175,000 MXN Renta",
       "precio_num": 175000.0,
-      "superficie": "2,948 m²",
-      "area_num": 2948.0,
-      "precio_m2": "$59.4/m²",
-      "pm2_num": 59.36,
-      "ubicacion": "Parque Industrial Laguna, Gómez Palacio, Durango",
+      "superficie": "3,030 m²",
+      "area_num": 3030.0,
+      "precio_m2": "$57.8/m²",
+      "pm2_num": 57.76,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
       "municipio": "Gómez Palacio",
       "estado": "Durango",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/c9831297-7910-45ff-8ea7-019d9e426473",
+      "broker": "Murra Realty",
+      "fecha_publicacion": "2026-05-28",
+      "days_on_market": 151,
+      "link": "https://app.nocnok.com/crm/154940/properties/892f708a-f04a-448c-b93c-019c44a0d433",
       "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260417195925-ad282f791b6846a68c75acd7bac8445fs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260417195957-613775efa3254c8ba78e448de14847bas.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260417195957-0a02e2d4a5284e738528f8ad1af83b6ds.webp"
+        "https://s3.amazonaws.com/nocnok-img/pp-260209165851-8fc227d73bcf4d6bb1663eb9f8892201s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260209165851-1557b1ddce064c69871061c69f2c79e4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260209165851-84b9c6292f0a49338e50f2c540a4b5c6s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "status": "delisted",
       "delisted_at": "2026-10-27",
       "days_listed": 148,
@@ -480,6 +201,46 @@
           "date": "2026-06-01",
           "precio_num": 6500000.0,
           "precio": "6,500,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "ad6ebab5-9e27-4c72-9ff3-019cba1fec51",
+      "code": "NN-GWA969",
+      "title": "Renta de Bodega Industrial en Parque Industrial Carlos A. Herrera Araluce, Gómez Palacio",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "185,000 MXN Renta",
+      "precio_num": 185000.0,
+      "superficie": "2,810 m²",
+      "area_num": 2810.0,
+      "precio_m2": "$61.1/m²",
+      "pm2_num": 61.06,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-03-03",
+      "days_on_market": 237,
+      "link": "https://app.nocnok.com/crm/154940/properties/ad6ebab5-9e27-4c72-9ff3-019cba1fec51",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260304123313-bbb1db88bb784bda85e81d590458b66es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260304123313-f572117100c043348d4e7831c2cd656cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260304123313-c12886fb4fd840d6959868ce7dd59deas.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-27",
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 175000.0,
+          "precio": "175,000 MXN Renta"
         }
       ],
       "delisted_reason": "sold"
@@ -565,126 +326,6 @@
       "delisted_reason": "sold"
     },
     {
-      "id": "839463cc-8b0d-47dd-afcd-018b26f8aabf",
-      "code": "MX21-KR1740",
-      "title": "Terreno VENTA carretera a Mieleras, el Esterito.",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "5,150,000 MXN Venta",
-      "precio_num": 5150000.0,
-      "superficie": "17,606 m²",
-      "area_num": 17606.0,
-      "precio_m2": "$292.5/m²",
-      "pm2_num": 292.51,
-      "ubicacion": "Ejido San Miguel, Matamoros, Coahuila de Zaragoza",
-      "municipio": "Matamoros",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/839463cc-8b0d-47dd-afcd-018b26f8aabf",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/210607142656-4e9170d3bb584a55a15d2c630f1992a0.jpg",
-        "https://s3.amazonaws.com/nocnok-img/220707175721-c286c5ab5a894d4795370d109022d502.jpg",
-        "https://s3.amazonaws.com/nocnok-img/220707175724-c150b78afd6c4e8fad9cb5ec69ba87cc.jpg"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 5150000.0,
-          "precio": "5,150,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "d9d5d707-d426-4411-a428-0196c29473e3",
-      "code": "MX25-EQ10053",
-      "title": "Terreno Industrial en Venta, El Dólar, Matamoros, Coahuila",
-      "categoria": "Industrial",
-      "tipo": "Terreno",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "7,000,000 MXN Venta",
-      "precio_num": 7000000.0,
-      "superficie": "450,000 m²",
-      "area_num": 450000.0,
-      "precio_m2": "$15.6/m²",
-      "pm2_num": 15.56,
-      "ubicacion": "El Dólar, Matamoros, Coahuila de Zaragoza",
-      "municipio": "Matamoros",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/d9d5d707-d426-4411-a428-0196c29473e3",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250511214359-127873bdad7748dea6f13c4a3b173b14s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250511214400-c08621e3e445455aa0dbade34b5300ebs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250511214359-eb0732dbf66b47edbd3b267e48d1a3e0s.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 148,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 7000000.0,
-          "precio": "7,000,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "58b7801a-ce06-4816-88d6-019eb356277b",
-      "code": "NN-HAD231",
-      "title": "EDIFICIO EN VENTA EN EL CENTRO DE TORREON",
-      "categoria": "Comercial",
-      "tipo": "Edificio",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "2,750,000 MXN Venta",
-      "precio_num": 2750000.0,
-      "superficie": "300 m²",
-      "area_num": 300.0,
-      "precio_m2": "$9,167/m²",
-      "pm2_num": 9166.67,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-06-10",
-      "days_on_market": 62,
-      "link": "https://app.nocnok.com/crm/154940/properties/58b7801a-ce06-4816-88d6-019eb356277b",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260610193145-95e081391b9a430095e5e83ea9d33d51s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260610193148-cc13c15e31ce442ca5e3501127d7129as.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260610193145-17aaea6bd7574a7a922a5170f65506b5s.webp"
-      ],
-      "first_seen": "2026-06-11",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 138,
-      "precio_history": [
-        {
-          "date": "2026-06-11",
-          "precio_num": 2750000.0,
-          "precio": "2,750,000 MXN Venta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
       "id": "2410bfd2-f232-43d9-9cfe-019f216f43a2",
       "code": "NN-HBA424",
       "title": "Local Comercial en Av. Juarez Oriente",
@@ -730,46 +371,6 @@
           "date": "2026-10-07",
           "precio_num": 11000.0,
           "precio": "11,000 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "f49ffd45-1c33-4745-a5e9-018b25e4df7c",
-      "code": "MX20-HW1221",
-      "title": "Local en Renta en Valle Dorado, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "14,000 MXN Renta",
-      "precio_num": 14000.0,
-      "superficie": "225 m²",
-      "area_num": 225.0,
-      "precio_m2": "$62.2/m²",
-      "pm2_num": 62.22,
-      "ubicacion": "Valle Dorado, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-07-21",
-      "days_on_market": 30,
-      "link": "https://app.nocnok.com/crm/154940/properties/f49ffd45-1c33-4745-a5e9-018b25e4df7c",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/200304113133-c4f6ad120c074d0f88625669bf83c37a.jpg",
-        "https://s3.amazonaws.com/nocnok-img/200304113112-26d9db8ba94a45afbd348a52af529f01.jpg",
-        "https://s3.amazonaws.com/nocnok-img/200304113122-43bbaa0d7cb04b138ee2c364d7cd0672.jpg"
-      ],
-      "first_seen": "2026-07-22",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 97,
-      "precio_history": [
-        {
-          "date": "2026-07-22",
-          "precio_num": 14000.0,
-          "precio": "14,000 MXN Renta"
         }
       ],
       "delisted_reason": "sold"
@@ -849,46 +450,6 @@
           "date": "2026-08-01",
           "precio_num": 15.0,
           "precio": "15 MXN Venta | 3,500 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "6f549434-ccee-47f8-a9c3-01a0936d5167",
-      "code": "NN-HFE099",
-      "title": "EDIFICIO EN VENTA EN EL CENTRO DE TORREON",
-      "categoria": "Comercial",
-      "tipo": "Edificio",
-      "operacion": "Venta",
-      "op_key": "venta",
-      "precio": "2,750,000 MXN Venta",
-      "precio_num": 2750000.0,
-      "superficie": "300 m²",
-      "area_num": 300.0,
-      "precio_m2": "$9,167/m²",
-      "pm2_num": 9166.67,
-      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
-      "fecha_publicacion": "2026-09-11",
-      "days_on_market": 45,
-      "link": "https://app.nocnok.com/crm/154940/properties/6f549434-ccee-47f8-a9c3-01a0936d5167",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260911202422-db654bea94154d328e21c32ddf4f3423s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260911202432-6d56c059aa6f43cd901fceb2b87169e8s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260911202435-a2665c76c10044c281373cbb0dbe2a03s.webp"
-      ],
-      "first_seen": "2026-09-12",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
-      "days_listed": 45,
-      "precio_history": [
-        {
-          "date": "2026-09-12",
-          "precio_num": 2750000.0,
-          "precio": "2,750,000 MXN Venta"
         }
       ],
       "delisted_reason": "sold"
@@ -50286,12 +49847,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "97,000 MXN Renta",
-      "precio_num": 97000.0,
+      "precio": "100,000 MXN Renta",
+      "precio_num": 100000.0,
       "superficie": "3,460 m²",
       "area_num": 3460.0,
-      "precio_m2": "$28.0/m²",
-      "pm2_num": 28.03,
+      "precio_m2": "$34.5/m²",
+      "pm2_num": 34.48,
       "ubicacion": "Parque Industrial Oriente, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -51029,16 +50590,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-24",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d37f46e6-04e0-47b0-a36b-019e602b8161",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525112549-82927896a6494905a2c4c453d5fa10dbs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525112549-6ab7e0f6b1bd439e8c6eec98ec2782b5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -51052,7 +50613,7 @@
           "precio": "750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "original_precio": "950,000 MXN Venta",
       "original_precio_num": 950000.0,
       "current_precio": "750,000 MXN Venta",
@@ -51840,6 +51401,56 @@
       "current_precio_num": 3000000.0,
       "total_drop_pct": 18.9,
       "last_drop_date": "2026-07-30"
+    },
+    {
+      "id": "bd55113e-4169-4ea6-b3e1-01a0d4f675c0",
+      "code": "NN-HFX910",
+      "title": "Local en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "980,000 MXN Venta",
+      "precio_num": 980000.0,
+      "superficie": "175 m²",
+      "area_num": 175.0,
+      "precio_m2": "$5,600/m²",
+      "pm2_num": 5600.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-09-24",
+      "days_on_market": 33,
+      "link": "https://app.nocnok.com/crm/154940/properties/bd55113e-4169-4ea6-b3e1-01a0d4f675c0",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260924135141-e851868c358e458aa76d5655d8f5429bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260924135141-fddc1938486448db82f001540280e237s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260924135142-ac5436f229b6412ab2ee93182c4f4a2es.webp"
+      ],
+      "first_seen": "2026-09-25",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-09-25",
+          "precio_num": 1200000.0,
+          "precio": "1,200,000 MXN Venta"
+        },
+        {
+          "date": "2026-10-27",
+          "precio_num": 980000.0,
+          "precio": "980,000 MXN Venta"
+        }
+      ],
+      "original_precio": "1,200,000 MXN Venta",
+      "original_precio_num": 1200000.0,
+      "current_precio": "980,000 MXN Venta",
+      "current_precio_num": 980000.0,
+      "total_drop_pct": 18.3,
+      "last_drop_date": "2026-10-27"
     },
     {
       "id": "d0dada87-1e43-42ce-a7f0-019e6ba8c76f",
@@ -53269,9 +52880,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-27",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 74,
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -53284,7 +52895,7 @@
           "precio": "17,000 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "original_precio": "20,000 MXN Renta",
       "original_precio_num": 20000.0,
       "current_precio": "17,000 MXN Renta",
@@ -56368,12 +55979,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "20,000 MXN Renta",
-      "precio_num": 20000.0,
+      "precio": "21,000 MXN Renta",
+      "precio_num": 21000.0,
       "superficie": "68 m²",
       "area_num": 68.0,
-      "precio_m2": "$294.1/m²",
-      "pm2_num": 294.12,
+      "precio_m2": "$308.8/m²",
+      "pm2_num": 308.82,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",

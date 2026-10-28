@@ -3214,7 +3214,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-24",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2fc042ce-d9f5-48e7-8733-019e6032e879",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525113351-397c68bc17644ade9cdb76c1e3b4e545s.webp",
@@ -3222,9 +3222,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260525113351-c2387a5c91b04a1bacfe6f0fc0fa5abas.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -3235,7 +3235,7 @@
       ],
       "lat": 25.4872544,
       "lng": -103.3419495,
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "c6f6c6e7-4d3d-4216-aaba-01920caa9185": {
       "id": "c6f6c6e7-4d3d-4216-aaba-01920caa9185",
@@ -7909,7 +7909,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-19",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4d656530-0e9d-4d8e-ba3d-019e4697dbdd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520121356-93d3a4aac55a47f2b50ac5d0a665e5f2s.webp",
@@ -7917,9 +7917,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260520121355-aa40b28a285749b1816e908e51b20cc4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -7928,7 +7928,7 @@
           "precio": "28,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "lat": 25.5752622,
       "lng": -103.4335239
     },
@@ -7951,7 +7951,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-19",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/305bf7e7-6b86-4051-adcf-019e469f12a0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520122204-007a7a2fbae0407daeb5fc82cbaac546s.webp",
@@ -7959,9 +7959,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260520122203-9773b58a6d93459eb2eec5ce512b8fdds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -7970,7 +7970,7 @@
           "precio": "2,900,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "lat": 25.5846293,
       "lng": -103.371814
     },
@@ -7993,7 +7993,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-19",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1fa4d615-fbda-410d-98e1-019e46a70239",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260520123036-2e0bc64bd7d74e198710d43991c1a291s.webp",
@@ -8001,9 +8001,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260520123036-c42e42b6fa994f568f9e478e1a6c8bd2s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -8012,7 +8012,7 @@
           "precio": "5,000,000 MXN Remate"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "lat": 25.60179,
       "lng": -103.3806448
     },
@@ -10083,7 +10083,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 62,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8aa583c0-d408-4454-b1df-018b20efe2e7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/170711225717-a1ae54c046ae4debad59a7ce293241be.jpg",
@@ -10091,9 +10091,9 @@
         "https://s3.amazonaws.com/nocnok-img/170711230033-646ce029a7884940b41950f921ae741b.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -10102,7 +10102,7 @@
           "precio": "3,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "f89b4115-bc92-4ea7-8342-019718de15d6": {
       "id": "f89b4115-bc92-4ea7-8342-019718de15d6",
@@ -10203,7 +10203,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1ce73233-3ca8-4a22-946e-0196d9db76fa",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260415192919-b2df1db8e2fe43d8b51749cee7ddb1abs.webp",
@@ -10211,9 +10211,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260415192657-5b409a0c679c4d82bc25e52566b5fb36s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -10227,7 +10227,7 @@
           "precio": "1,200,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "a03a2c12-0d4b-477a-b9fb-0197221520f9": {
       "id": "a03a2c12-0d4b-477a-b9fb-0197221520f9",
@@ -10647,7 +10647,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b2128a77-81fd-48e5-be00-01900f809267",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240612205205-0eb0db339b384489967019f30a7e1113.jpg",
@@ -10655,9 +10655,9 @@
         "https://s3.amazonaws.com/nocnok-img/240612205055-6c1ac54690494bb786fe63821b91894a.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -10666,7 +10666,7 @@
           "precio": "26,200,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "05d0ccff-224e-45f0-9f56-01910f64c3f0": {
       "id": "05d0ccff-224e-45f0-9f56-01910f64c3f0",
@@ -10807,7 +10807,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9e9c9dd1-2119-4b5c-a0dd-019a5ff40f55",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251107141420-062e590466c64e929f4abe20798ee7b6s.webp",
@@ -10815,9 +10815,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251107141420-ea4cbc852e6144028c7ca4529c819df0s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -10826,7 +10826,7 @@
           "precio": "70,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "e45ff31c-bfd4-47f3-883c-019b39160779": {
       "id": "e45ff31c-bfd4-47f3-883c-019b39160779",
@@ -11127,7 +11127,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 62,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/fb3c2020-d1ae-4432-9d2f-01956f1158b5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250615210314-c1f80696701e400f8140da8d70e4882es.webp",
@@ -11135,9 +11135,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250306233106-25886c34e71442198d004274256f603cs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -11146,7 +11146,7 @@
           "precio": "6,990,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "af21e2a5-4b00-48ac-89d4-019d233bc141": {
       "id": "af21e2a5-4b00-48ac-89d4-019d233bc141",
@@ -11946,9 +11946,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-27",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 78,
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -11956,7 +11956,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "9d53f395-f889-4d4f-bfff-018b2841c0d0": {
       "id": "9d53f395-f889-4d4f-bfff-018b2841c0d0",
@@ -32890,7 +32890,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-09",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b0fd4508-e847-4bf8-945b-0196d151a93e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250514182231-307c72ef81cd4263adc981f8fc66399bs.webp",
@@ -32898,9 +32898,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250514182233-c331d4eb95dd47918d45168a65a9960bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -32909,7 +32909,7 @@
           "precio": "8,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "cc98be3b-9c3b-4813-b9bd-0194dcf1a978": {
       "id": "cc98be3b-9c3b-4813-b9bd-0194dcf1a978",
@@ -33054,7 +33054,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-09",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7ca3ee9e-62bf-4aae-b62f-019d793953c6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260410150829-b56a1a31b6824d1ca73a8ed545785762s.webp",
@@ -33062,9 +33062,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260410150829-1e5b52356aab4aaab6f600979cd98777s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -33073,7 +33073,7 @@
           "precio": "50,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "24fa485c-9879-4148-99e5-019d79da2078": {
       "id": "24fa485c-9879-4148-99e5-019d79da2078",
@@ -34464,16 +34464,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/940109c9-3ca9-48cf-aa1e-0196ac6341e9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250507141617-c974af1fe0b446298443276d23b9b451s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250507141620-0bf6f6b617b44878bca5cbe770cc2a2fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -34482,7 +34482,7 @@
           "precio": "17,847,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "685a4865-932d-4fe8-a770-01911f9793b6": {
       "id": "685a4865-932d-4fe8-a770-01911f9793b6",
@@ -34583,16 +34583,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/833d7ad0-9508-404d-9974-0194fb948407",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250212131449-aa8f188f23a241f991af00046357239es.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250212131447-430090d8b6e045ac94b14fc56e1e5effs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -34601,7 +34601,7 @@
           "precio": "2,349,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d6e27232-86be-4e47-a9ad-01950fa1c663": {
       "id": "d6e27232-86be-4e47-a9ad-01950fa1c663",
@@ -34902,7 +34902,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/bf4d6194-c3bd-4f98-957b-019c770c8902",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260219115741-3d6b7b3c146e43f586a514eb7beea889s.webp",
@@ -34910,9 +34910,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260219115742-9dcb754eedd94267b5d6cd03cb22098as.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -34921,7 +34921,7 @@
           "precio": "100,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "3d48c88b-efb5-424d-b2bd-019c76f451ed": {
       "id": "3d48c88b-efb5-424d-b2bd-019c76f451ed",
@@ -34942,7 +34942,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3d48c88b-efb5-424d-b2bd-019c76f451ed",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260219113950-cdd5f1a37cda497fad29306c351e0865s.webp",
@@ -34950,9 +34950,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260219113139-269c39269a894cd1b89216b11a5e8694s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -34961,7 +34961,7 @@
           "precio": "30,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "ea73845e-800c-4272-874b-019c7c4900ff": {
       "id": "ea73845e-800c-4272-874b-019c7c4900ff",
@@ -34982,7 +34982,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/ea73845e-800c-4272-874b-019c7c4900ff",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260220122147-2b9e2f5e289b4eb9bbad2e20facfeaeas.webp",
@@ -34990,9 +34990,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260220122147-2a0f50177c33408197e8b08f8ec42f8cs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -35001,7 +35001,7 @@
           "precio": "30,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "ed6012f5-44fd-4d4e-b729-018b28796174": {
       "id": "ed6012f5-44fd-4d4e-b729-018b28796174",
@@ -38420,7 +38420,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-03-22",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3ab46615-01b3-40a4-b696-0194941a847f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250207122128-6b08577989474ff39ae9873635d3c68as.webp",
@@ -38428,9 +38428,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260323123835-ab9c322e68cb4d659a42dd8777b41994s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -38439,7 +38439,7 @@
           "precio": "9,790,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "2c801a68-3af7-499c-b7f3-019d1c113b6f": {
       "id": "2c801a68-3af7-499c-b7f3-019d1c113b6f",
@@ -38460,7 +38460,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-03-22",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2c801a68-3af7-499c-b7f3-019d1c113b6f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260323130209-f9c39103f5c1474ca2813848e5e63d7ds.webp",
@@ -38468,9 +38468,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260323130209-a17b88ea44c34f46a84767abe45c5b02s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -38479,7 +38479,7 @@
           "precio": "2,600,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "142a03a9-3325-4d08-8ce0-019d1c1d26ee": {
       "id": "142a03a9-3325-4d08-8ce0-019d1c1d26ee",
@@ -45892,9 +45892,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-27",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 21,
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -45902,7 +45902,7 @@
           "precio": "3,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "2842726e-2b29-4e1f-b595-0190eb9e9d6e": {
       "id": "2842726e-2b29-4e1f-b595-0190eb9e9d6e",
@@ -51443,7 +51443,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-02-25",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8eb031dd-4cd3-4069-b409-019c9ac52757",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260226102554-8c2698a55f56498287eee26d910e1551s.webp",
@@ -51451,9 +51451,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260226102603-8433acfbfe434feba7763b272b6962fcs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -51462,7 +51462,7 @@
           "precio": "50,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "79837c7c-aecb-4142-9a1f-019c9acc73ec": {
       "id": "79837c7c-aecb-4142-9a1f-019c9acc73ec",
@@ -53726,12 +53726,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "97,000 MXN Renta",
-      "precio_num": 97000.0,
+      "precio": "100,000 MXN Renta",
+      "precio_num": 100000.0,
       "superficie": "3,460 m²",
       "area_num": 3460.0,
-      "precio_m2": "$28.0/m²",
-      "pm2_num": 28.03,
+      "precio_m2": "$34.5/m²",
+      "pm2_num": 34.48,
       "ubicacion": "Parque Industrial Oriente, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -54740,7 +54740,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/dec90d67-d189-48a4-b5c1-01904747b86e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240623164816-b256357ae49e475bad741a255cd2d2afs.webp",
@@ -54748,9 +54748,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240623164829-8d06faeca52847628b285ec8e76e4a59s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -54759,7 +54759,7 @@
           "precio": "5,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "03ae0e51-c963-4603-8458-019182797583": {
       "id": "03ae0e51-c963-4603-8458-019182797583",
@@ -54780,7 +54780,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/03ae0e51-c963-4603-8458-019182797583",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240823214204-42d129c4a00145df963806c21ce0f6b2s.webp",
@@ -54788,9 +54788,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240823214204-a957adde848e4f67b70eaaea8318cb0cs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -54799,7 +54799,7 @@
           "precio": "3,282,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "50cfa1e9-5977-491f-b3ed-018fa6c9e9b0": {
       "id": "50cfa1e9-5977-491f-b3ed-018fa6c9e9b0",
@@ -62166,16 +62166,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/976f7826-0c96-43e5-982d-019485458495",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250226163404-b60deeec383e4169b42839976af741ces.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250226163405-394fd26df3a64bd38b5b50d9382c90b9s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -62184,7 +62184,7 @@
           "precio": "71,848,500 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d1bdf25d-f8b9-4161-abcc-018b293cc6b8": {
       "id": "d1bdf25d-f8b9-4161-abcc-018b293cc6b8",
@@ -63486,7 +63486,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-03-23",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/032c31ab-2e57-4cf5-acdf-019d20ff968f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260324120025-24c9bf2fe01b4cb2a8df84ec85cd2ac6s.webp",
@@ -63494,9 +63494,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260324120036-f842dd93ad0f493b965aeb8af6b7d966s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -63505,7 +63505,7 @@
           "precio": "33,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "45c5c7aa-5479-46a9-9bf9-019d1ce34304": {
       "id": "45c5c7aa-5479-46a9-9bf9-019d1ce34304",
@@ -81950,7 +81950,7 @@
       "estado": "Durango",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-24",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1e61df48-2f55-4b79-9557-019c7cdc7585",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260220150253-5e37e03ba9134f6a8cf835d589bd3075s.webp",
@@ -81958,9 +81958,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260220150335-2c5a093b3d7d45f59a8d32d93b7bcf61s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -81969,7 +81969,7 @@
           "precio": "5,900,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "06a7a383-39d8-4bcd-ae20-018b292ada1c": {
       "id": "06a7a383-39d8-4bcd-ae20-018b292ada1c",
@@ -82555,7 +82555,7 @@
       "estado": "Durango",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1296a174-fa22-443b-b128-018bfdbb713a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/231123134602-465b2b125f1c41a8aef5f28d6103af9c.jpg",
@@ -82563,9 +82563,9 @@
         "https://s3.amazonaws.com/nocnok-img/231123134521-abc9b9e5e4ef487aa3a39b2d0b270f98.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -82574,7 +82574,7 @@
           "precio": "26,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "b63d87d1-ed05-4305-b27c-0192548960db": {
       "id": "b63d87d1-ed05-4305-b27c-0192548960db",
@@ -83484,9 +83484,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-27",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 74,
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -83499,7 +83499,7 @@
           "precio": "17,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "2d97ee9b-49a6-4633-94af-019dea04b2a6": {
       "id": "2d97ee9b-49a6-4633-94af-019dea04b2a6",
@@ -86344,7 +86344,7 @@
       "estado": "Durango",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d62f263e-26ea-48bd-8bac-019c7ce97efe",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260220151852-197a1bdce84b4ada857af82d3fa4feees.webp",
@@ -86352,9 +86352,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260220151850-1134e0d038794130b15ffb1aa12da75ds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -86363,7 +86363,7 @@
           "precio": "6,150,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "a5278e04-00d6-48f6-89c6-019d6646232c": {
       "id": "a5278e04-00d6-48f6-89c6-019d6646232c",
@@ -98197,9 +98197,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-27",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -98207,7 +98207,7 @@
           "precio": "175,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "0a919464-b271-451d-90d5-019e6f6078bd": {
       "id": "0a919464-b271-451d-90d5-019e6f6078bd",
@@ -98591,7 +98591,7 @@
       "estado": "Durango",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9bcf8e0f-4bc3-482d-b26f-018b28e5440a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230203235316-441dc12890f3427ebe48a036cc8c26e4.jpg",
@@ -98599,9 +98599,9 @@
         "https://s3.amazonaws.com/nocnok-img/230203235244-18dd13fcbb5c48d6b96d212194ca676d.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -98610,7 +98610,7 @@
           "precio": "160,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "8c7b4fab-baba-4649-a2a2-019776715997": {
       "id": "8c7b4fab-baba-4649-a2a2-019776715997",
@@ -98631,16 +98631,16 @@
       "estado": "Durango",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8c7b4fab-baba-4649-a2a2-019776715997",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250615201024-8b7c9da3b10d4b4c802aead848ab78e3s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250615201023-bddb9bded11249b49453da85c978ddd4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -98649,7 +98649,7 @@
           "precio": "1,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "c9e99b8a-f105-41d7-b2bd-019b03851305": {
       "id": "c9e99b8a-f105-41d7-b2bd-019b03851305",
@@ -98748,7 +98748,7 @@
       "estado": "Durango",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c9831297-7910-45ff-8ea7-019d9e426473",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260417195925-ad282f791b6846a68c75acd7bac8445fs.webp",
@@ -98756,9 +98756,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260417195957-0a02e2d4a5284e738528f8ad1af83b6ds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -98767,7 +98767,7 @@
           "precio": "175,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "e45bf8c8-7e4b-4abc-a766-018b293c6b71": {
       "id": "e45bf8c8-7e4b-4abc-a766-018b293c6b71",
@@ -101261,7 +101261,7 @@
       "estado": "Durango",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-07",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/13ec8f96-6265-4273-bd4a-019d6f1712f9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260408155454-3069b49a5f0b480591729c822b01796cs.webp",
@@ -101269,9 +101269,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260408155452-57466d62abb2444590752971e5406ba5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -101280,7 +101280,7 @@
           "precio": "9,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9cd6f07a-69bb-458f-937b-018cd5cf9f5d": {
       "id": "9cd6f07a-69bb-458f-937b-018cd5cf9f5d",
@@ -101381,7 +101381,7 @@
       "estado": "Durango",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-06",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/09704a66-27b2-4e3d-85cc-019c7c2cc0b4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260220115122-2cdead41a01d444eb3fd05791f77a1e7s.webp",
@@ -101389,9 +101389,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260220115156-4bd6e4f499d346f78383c5013cfec601s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -101400,7 +101400,7 @@
           "precio": "63,700 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "c721d367-f092-4dc9-9c15-019b994343c7": {
       "id": "c721d367-f092-4dc9-9c15-019b994343c7",
@@ -102747,9 +102747,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-10-27",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -102757,7 +102757,7 @@
           "precio": "175,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "66c9f3df-40b4-4575-b4fc-019c96ab9af2": {
       "id": "66c9f3df-40b4-4575-b4fc-019c96ab9af2",
@@ -108279,16 +108279,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-24",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d37f46e6-04e0-47b0-a36b-019e602b8161",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260525112549-82927896a6494905a2c4c453d5fa10dbs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260525112549-6ab7e0f6b1bd439e8c6eec98ec2782b5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -108302,7 +108302,7 @@
           "precio": "750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "eb5357fe-5abb-416d-88cd-019e3800c7d0": {
       "id": "eb5357fe-5abb-416d-88cd-019e3800c7d0",
@@ -112461,7 +112461,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/839463cc-8b0d-47dd-afcd-018b26f8aabf",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/210607142656-4e9170d3bb584a55a15d2c630f1992a0.jpg",
@@ -112469,9 +112469,9 @@
         "https://s3.amazonaws.com/nocnok-img/220707175724-c150b78afd6c4e8fad9cb5ec69ba87cc.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -112480,7 +112480,7 @@
           "precio": "5,150,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "d9d5d707-d426-4411-a428-0196c29473e3": {
       "id": "d9d5d707-d426-4411-a428-0196c29473e3",
@@ -112501,7 +112501,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-05-17",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d9d5d707-d426-4411-a428-0196c29473e3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250511214359-127873bdad7748dea6f13c4a3b173b14s.webp",
@@ -112509,9 +112509,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250511214359-eb0732dbf66b47edbd3b267e48d1a3e0s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 148,
       "precio_history": [
         {
@@ -112520,7 +112520,7 @@
           "precio": "7,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "0903cc09-f38d-4b8e-b581-019c2442c24c": {
       "id": "0903cc09-f38d-4b8e-b581-019c2442c24c",
@@ -113148,15 +113148,15 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-09",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/da01cf2f-cc9c-445b-9bc8-0197d1a71f45",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250703125936-f2bbba0dfc0f49388f24243d15c3ecf8s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -113165,7 +113165,7 @@
           "precio": "5,600,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "f0e05e2d-dfed-4030-ad58-0193d1cd338a": {
       "id": "f0e05e2d-dfed-4030-ad58-0193d1cd338a",
@@ -113225,7 +113225,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-09",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2e4d940b-67ca-40e8-963c-01946200a028",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250113173049-47397196e2f74e29a8b114e876287ab9s.webp",
@@ -113233,9 +113233,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250113173135-0d097821e577439b9176f04685a20424s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -113244,7 +113244,7 @@
           "precio": "210,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5741d94e-1a98-4ae7-a909-01938ed25e45": {
       "id": "5741d94e-1a98-4ae7-a909-01938ed25e45",
@@ -113265,7 +113265,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-04-09",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/5741d94e-1a98-4ae7-a909-01938ed25e45",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241203172045-dd260501d12647768686f8a0b53d04f9s.webp",
@@ -113273,9 +113273,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-241203172045-081cd48c35ef4715abec4d472c6d8a34s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -113284,7 +113284,7 @@
           "precio": "375,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "835a05b2-d3d0-43a5-ba17-0190cc79cd55": {
       "id": "835a05b2-d3d0-43a5-ba17-0190cc79cd55",
@@ -114997,7 +114997,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-31",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1eb45ac1-b20b-4a22-988c-019e84cd77c6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260601141054-5d3ead23ad264c1c9f91d525b8bf97cfs.webp",
@@ -115005,9 +115005,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260601141054-2312d9ceb0de433d93137602245949e2s.webp"
       ],
       "first_seen": "2026-06-02",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -115016,7 +115016,7 @@
           "precio": "20,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "07494348-1717-4b5b-b188-019e84d657e0": {
       "id": "07494348-1717-4b5b-b188-019e84d657e0",
@@ -115122,16 +115122,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-31",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/529c3777-c814-45c5-9a3f-019e84e6e463",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260601143640-f275b180bfc541aab1660dca67d73c80s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260601143641-7dc610ab461942c495fcbca75b82cb3es.webp"
       ],
       "first_seen": "2026-06-02",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -115140,7 +115140,7 @@
           "precio": "3,800,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "acbdc72f-d795-4f85-845f-019e84ee3073": {
       "id": "acbdc72f-d795-4f85-845f-019e84ee3073",
@@ -115201,7 +115201,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-31",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/91c0509f-660f-44ea-9b7d-019e85005c22",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260601150444-3ebd96e8ac0c4f85a89972cdf41e44b6s.webp",
@@ -115209,9 +115209,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260601150445-2ee92d8eae18406b944247ee8da00125s.webp"
       ],
       "first_seen": "2026-06-02",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -115220,7 +115220,7 @@
           "precio": "28,800 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "60aa92be-ec74-407d-ae05-019e8511cbae": {
       "id": "60aa92be-ec74-407d-ae05-019e8511cbae",
@@ -115478,7 +115478,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-05-31",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e5384e11-f28e-4fb8-8bf8-019e84d8284f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260601142033-006b65649afa4e6faf889d412749ddd9s.webp",
@@ -115486,9 +115486,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260601165138-32c4ee5907264048bd0f461461504ba6s.webp"
       ],
       "first_seen": "2026-06-02",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 144,
       "precio_history": [
         {
@@ -115497,7 +115497,7 @@
           "precio": "8,912,500 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "6ec7abc1-43a6-47fd-8b8a-019e8585e8b4": {
       "id": "6ec7abc1-43a6-47fd-8b8a-019e8585e8b4",
@@ -121484,7 +121484,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-06-10",
-      "days_on_market": 62,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/58b7801a-ce06-4816-88d6-019eb356277b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260610193145-95e081391b9a430095e5e83ea9d33d51s.webp",
@@ -121492,9 +121492,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260610193145-17aaea6bd7574a7a922a5170f65506b5s.webp"
       ],
       "first_seen": "2026-06-11",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 138,
       "precio_history": [
         {
@@ -121503,7 +121503,7 @@
           "precio": "2,750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "30c998f7-73e9-46cb-a408-019eb3005d95": {
       "id": "30c998f7-73e9-46cb-a408-019eb3005d95",
@@ -121804,7 +121804,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-06-09",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/43c6ce8c-4b08-4b60-9cd7-019c58790b24",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260218105506-8a64afa0227f47af8791fb0ff24a1cbbs.webp",
@@ -121812,9 +121812,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260218105503-70b6f61c39004521ab8465d93328fec3s.webp"
       ],
       "first_seen": "2026-06-11",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 135,
       "precio_history": [
         {
@@ -121823,7 +121823,7 @@
           "precio": "4,500,000 MXN Venta | 30,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "39c7e321-63d3-4036-b943-019eade80322": {
       "id": "39c7e321-63d3-4036-b943-019eade80322",
@@ -122444,16 +122444,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-06-10",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/98b4ed28-e9a5-4fe6-b655-019eb2c8b69e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260610122631-4b78796dd58f47b9b54e1be41b8c2b40s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260610122658-7afde60720e1458dad70ff09b30b110as.webp"
       ],
       "first_seen": "2026-06-11",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 135,
       "precio_history": [
         {
@@ -122462,7 +122462,7 @@
           "precio": "1,480,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "19d41468-f655-42c9-a5b6-018b293c3b03": {
       "id": "19d41468-f655-42c9-a5b6-018b293c3b03",
@@ -124191,8 +124191,8 @@
       "precio_num": 62000.0,
       "superficie": "16 m²",
       "area_num": 16.0,
-      "precio_m2": "$3,875/m²",
-      "pm2_num": 3875.0,
+      "precio_m2": "$65.6/m²",
+      "pm2_num": 65.61,
       "ubicacion": "Oscar Flores Tapia, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -127576,16 +127576,16 @@
       "estado": "Durango",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-06-18",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8c9b41ea-34dd-45cc-b948-019edb8860c1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260618102022-826214b1cf16462e93a979fda3a4be23s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260618102022-b400f251b02a4405a1816dd6bb5407fbs.webp"
       ],
       "first_seen": "2026-06-18",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 128,
       "precio_history": [
         {
@@ -127594,7 +127594,7 @@
           "precio": "3,087,500 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "69113886-8bcb-4c46-b36d-019ed76cade3": {
       "id": "69113886-8bcb-4c46-b36d-019ed76cade3",
@@ -141280,15 +141280,15 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-07-13",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e5c14fd0-05d8-4acb-bbc0-019f5cef4fe9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260713132350-807ec0a3d41b49bb8db25c948eeb7fd3s.webp"
       ],
       "first_seen": "2026-07-14",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 102,
       "precio_history": [
         {
@@ -141297,7 +141297,7 @@
           "precio": "60,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "2e378963-41cd-4821-bfc7-019ccac1d755": {
       "id": "2e378963-41cd-4821-bfc7-019ccac1d755",
@@ -144274,9 +144274,9 @@
       ],
       "first_seen": "2026-07-18",
       "last_seen": "2026-10-27",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-10-27",
+      "days_listed": 101,
       "precio_history": [
         {
           "date": "2026-07-18",
@@ -144284,7 +144284,7 @@
           "precio": "7,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "baddc5d6-b15d-4911-b468-019f5ce9b0f6": {
       "id": "baddc5d6-b15d-4911-b468-019f5ce9b0f6",
@@ -144814,7 +144814,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-07-21",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/f49ffd45-1c33-4745-a5e9-018b25e4df7c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200304113133-c4f6ad120c074d0f88625669bf83c37a.jpg",
@@ -144822,9 +144822,9 @@
         "https://s3.amazonaws.com/nocnok-img/200304113122-43bbaa0d7cb04b138ee2c364d7cd0672.jpg"
       ],
       "first_seen": "2026-07-22",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -144833,7 +144833,7 @@
           "precio": "14,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "af42d5f8-03bb-45af-b502-019c06f5fde0": {
       "id": "af42d5f8-03bb-45af-b502-019c06f5fde0",
@@ -149639,12 +149639,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "20,000 MXN Renta",
-      "precio_num": 20000.0,
+      "precio": "21,000 MXN Renta",
+      "precio_num": 21000.0,
       "superficie": "68 m²",
       "area_num": 68.0,
-      "precio_m2": "$294.1/m²",
-      "pm2_num": 294.12,
+      "precio_m2": "$308.8/m²",
+      "pm2_num": 308.82,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -205188,7 +205188,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-08-05",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d6bfefce-586c-496f-a1bc-019fd3da1f58",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260805153532-8940c29dfa0348228564837065b8e14bs.webp",
@@ -205196,9 +205196,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260805153532-88b38b9247934b2f9bb28e81a3beeffas.webp"
       ],
       "first_seen": "2026-08-07",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 78,
       "precio_history": [
         {
@@ -205207,7 +205207,7 @@
           "precio": "83,720,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "88ab6532-5fec-4aa9-a6eb-019fd531d2d3": {
       "id": "88ab6532-5fec-4aa9-a6eb-019fd531d2d3",
@@ -206242,7 +206242,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-08-10",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8b9a0663-e26a-444b-846a-019fedb6a857",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260810160700-9be0414440014b21bc70e05277eaecabs.webp",
@@ -206250,9 +206250,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260810160700-8e209976a8c243248d455641aa15c428s.webp"
       ],
       "first_seen": "2026-08-11",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 74,
       "precio_history": [
         {
@@ -206261,7 +206261,7 @@
           "precio": "70,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "cd001510-b2e7-4f67-9c80-019fec901b3d": {
       "id": "cd001510-b2e7-4f67-9c80-019fec901b3d",
@@ -206361,7 +206361,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-08-10",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7b0e47bf-1820-476a-ba91-019fedc30b85",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260810162031-16941d09a39b4042bb02b0cf7898c6bcs.webp",
@@ -206369,9 +206369,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260810162031-78a5a196b700433aac2de5d69c880de4s.webp"
       ],
       "first_seen": "2026-08-11",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 74,
       "precio_history": [
         {
@@ -206380,7 +206380,7 @@
           "precio": "80,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "4ad2e7e1-3d84-48cb-ae72-019fedee5e72": {
       "id": "4ad2e7e1-3d84-48cb-ae72-019fedee5e72",
@@ -206440,7 +206440,7 @@
       "estado": "Durango",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-08-10",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b2ebd176-ac5d-4c93-9c35-019fed99ed7e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260810153616-1c7dc87938c64467a0f6016b940a287as.webp",
@@ -206448,9 +206448,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260810153616-b4957a9f0b074f649a31530c50725508s.webp"
       ],
       "first_seen": "2026-08-11",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 74,
       "precio_history": [
         {
@@ -206459,7 +206459,7 @@
           "precio": "420,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "a90273c7-1e23-40b4-8206-019ff2d80384": {
       "id": "a90273c7-1e23-40b4-8206-019ff2d80384",
@@ -207463,16 +207463,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-08-13",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6aa9d2f1-9514-49bb-86e2-019ffca184ad",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260813133808-bd89398c9a894169b7a7c2a9640cd0fas.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260813133808-cb69d455f243438889de1ba14bcacef6s.webp"
       ],
       "first_seen": "2026-08-14",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 71,
       "precio_history": [
         {
@@ -207481,7 +207481,7 @@
           "precio": "14,800,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "c96bdc27-62d7-440b-947d-01980b9e22c1": {
       "id": "c96bdc27-62d7-440b-947d-01980b9e22c1",
@@ -207737,15 +207737,15 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-08-13",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c3144a8f-9dcc-4e68-b390-019ffc97b2df",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260813132726-b3fae951fe8d474c820940ef29c3292ds.webp"
       ],
       "first_seen": "2026-08-14",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 71,
       "precio_history": [
         {
@@ -207754,7 +207754,7 @@
           "precio": "600,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e60270bb-df6c-42d4-b511-01a002495f66": {
       "id": "e60270bb-df6c-42d4-b511-01a002495f66",
@@ -218825,7 +218825,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-09-08",
-      "days_on_market": 45,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d56692c4-10ce-4e83-a1dc-01a082db2cc8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260908151032-27574719280b4fbfa0cd63c760f97962s.webp",
@@ -218833,9 +218833,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260908151031-819bf2d1296c42e5bc84b527f091dc33s.webp"
       ],
       "first_seen": "2026-09-09",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 45,
       "precio_history": [
         {
@@ -218844,7 +218844,7 @@
           "precio": "17,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5c7fb25e-04e6-4eb7-9ca6-01a0834ce6c2": {
       "id": "5c7fb25e-04e6-4eb7-9ca6-01a0834ce6c2",
@@ -220316,7 +220316,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MURRA Y ASOCIADOS BIENES RAICES S.C.",
       "fecha_publicacion": "2026-09-11",
-      "days_on_market": 45,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6f549434-ccee-47f8-a9c3-01a0936d5167",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260911202422-db654bea94154d328e21c32ddf4f3423s.webp",
@@ -220324,9 +220324,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260911202435-a2665c76c10044c281373cbb0dbe2a03s.webp"
       ],
       "first_seen": "2026-09-12",
-      "last_seen": "2026-10-26",
-      "status": "delisted",
-      "delisted_at": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 45,
       "precio_history": [
         {
@@ -220335,7 +220335,7 @@
           "precio": "2,750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "ac73eb85-14ec-43d0-a1cb-01a0938f753d": {
       "id": "ac73eb85-14ec-43d0-a1cb-01a0938f753d",
@@ -221407,12 +221407,12 @@
       "tipo": "Local",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "1,200,000 MXN Venta",
-      "precio_num": 1200000.0,
+      "precio": "980,000 MXN Venta",
+      "precio_num": 980000.0,
       "superficie": "175 m²",
       "area_num": 175.0,
-      "precio_m2": "$6,857/m²",
-      "pm2_num": 6857.14,
+      "precio_m2": "$5,600/m²",
+      "pm2_num": 5600.0,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -221435,6 +221435,11 @@
           "date": "2026-09-25",
           "precio_num": 1200000.0,
           "precio": "1,200,000 MXN Venta"
+        },
+        {
+          "date": "2026-10-27",
+          "precio_num": 980000.0,
+          "precio": "980,000 MXN Venta"
         }
       ]
     },
@@ -224128,7 +224133,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-09-18",
-      "days_on_market": 35,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/adb499c6-e59a-449c-a6fe-01a0b68db0c4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260918160553-c9fec904d12a4e238a168ba7d14a0826s.webp",
@@ -224136,9 +224141,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260918160553-a66313cee75b44c68e97a8ec44601d9ds.webp"
       ],
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 29,
       "precio_history": [
         {
@@ -224147,7 +224152,7 @@
           "precio": "75,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5de7fbfb-118b-499b-a09b-01a0b82b4c40": {
       "id": "5de7fbfb-118b-499b-a09b-01a0b82b4c40",
@@ -224753,7 +224758,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MC BROKERS REAL ESTATE",
       "fecha_publicacion": "2026-09-23",
-      "days_on_market": 30,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/467a9b4b-1cd0-4d65-bdec-01a0d01e016a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260923151401-eed54959d1c24cbe91d16c37969d3526s.webp",
@@ -224761,9 +224766,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260923151400-ab3e738d76d54d018eb7f296e872a5f7s.webp"
       ],
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-23",
-      "status": "delisted",
-      "delisted_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 29,
       "precio_history": [
         {
@@ -224772,7 +224777,7 @@
           "precio": "1,271,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "146c4d8a-919a-4143-bb4b-01a0d97b0e3e": {
       "id": "146c4d8a-919a-4143-bb4b-01a0d97b0e3e",
@@ -229031,7 +229036,7 @@
     "75b5f87d-959e-4cd2-8e55-01a113654790": {
       "id": "75b5f87d-959e-4cd2-8e55-01a113654790",
       "code": "NN-HGK741",
-      "title": "Terreno en Renta en Residencial Senderos, Torreón, Coahuila de Zaragoza",
+      "title": "SE RENTA TERRENO COMERCIAL BLVD. SENDEROS",
       "categoria": "Comercial",
       "tipo": "Terreno",
       "operacion": "Renta",
@@ -233590,12 +233595,12 @@
       "tipo": "Bodega",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "9,913,750 MXN Venta",
-      "precio_num": 9913750.0,
+      "precio": "9,915,000 MXN Venta",
+      "precio_num": 9915000.0,
       "superficie": "793.1 m²",
       "area_num": 793.1,
-      "precio_m2": "$12,500/m²",
-      "pm2_num": 12500.0,
+      "precio_m2": "$12,502/m²",
+      "pm2_num": 12501.58,
       "ubicacion": "Miravalle, Gómez Palacio, Durango",
       "municipio": "Gómez Palacio",
       "estado": "Durango",
@@ -234593,6 +234598,236 @@
           "date": "2026-10-27",
           "precio_num": 71576.0,
           "precio": "71,576 USD Renta"
+        }
+      ]
+    },
+    "51effbd2-2c15-4e3f-bbcf-01a17eda79fa": {
+      "id": "51effbd2-2c15-4e3f-bbcf-01a17eda79fa",
+      "code": "NN-HHS709",
+      "title": "LOCALES EN VENTA EN OPEN SKIES ZONA NORTE TORREON, COAH",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "3,480,000 MXN Venta",
+      "precio_num": 3480000.0,
+      "superficie": "58 m²",
+      "area_num": 58.0,
+      "precio_m2": "$60,000/m²",
+      "pm2_num": 60000.0,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-10-27",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/51effbd2-2c15-4e3f-bbcf-01a17eda79fa",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261027133434-15d510fb9601449cb1203eae4fd75507s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027133435-501d8ee94bb249a48fad93a6b2e6415as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027133435-d51af415013a46b0a6a82b938d41bbd0s.webp"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-27",
+          "precio_num": 3480000.0,
+          "precio": "3,480,000 MXN Venta"
+        }
+      ]
+    },
+    "371db992-210e-495e-984a-01a17f371dce": {
+      "id": "371db992-210e-495e-984a-01a17f371dce",
+      "code": "NN-HHS768",
+      "title": "TERRENO EN VENTA",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "800,000 MXN Venta",
+      "precio_num": 800000.0,
+      "superficie": "286 m²",
+      "area_num": 286.0,
+      "precio_m2": "$2,797/m²",
+      "pm2_num": 2797.2,
+      "ubicacion": "Universidad, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CORPORATIVO INMOBILIARIO",
+      "fecha_publicacion": "2026-10-27",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/371db992-210e-495e-984a-01a17f371dce",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261027151451-e76933d081214dcbbe4901ef78bd5b1bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027151451-34dfa5791da445c9b7c229c88f91b56bs.webp"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-27",
+          "precio_num": 800000.0,
+          "precio": "800,000 MXN Venta"
+        }
+      ]
+    },
+    "c84052f8-42cd-415b-8157-01a17fd0698b": {
+      "id": "c84052f8-42cd-415b-8157-01a17fd0698b",
+      "code": "NN-HHT139",
+      "title": "Local en renta sobre calle de alto flujo",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "13,000 MXN Renta",
+      "precio_num": 13000.0,
+      "superficie": "50 m²",
+      "area_num": 50.0,
+      "precio_m2": "$260.0/m²",
+      "pm2_num": 260.0,
+      "ubicacion": "San Isidro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CRECIENDO BIENES RAICES",
+      "fecha_publicacion": "2026-10-27",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/c84052f8-42cd-415b-8157-01a17fd0698b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261027180225-54a3c15d02af48e9a2938c33ff3e961cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027180224-bc990c406bc34ddda3d7df1699a02a8fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027180224-f768f97e9214478ca50f896f51757a1es.webp"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-27",
+          "precio_num": 13000.0,
+          "precio": "13,000 MXN Renta"
+        }
+      ]
+    },
+    "9fcf9100-b2f6-4186-bf3c-019d69538af7": {
+      "id": "9fcf9100-b2f6-4186-bf3c-019d69538af7",
+      "code": "NN-GWV722",
+      "title": "Bodega en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "60,000 MXN Renta",
+      "precio_num": 60000.0,
+      "superficie": "160 m²",
+      "area_num": 160.0,
+      "precio_m2": "$375.0/m²",
+      "pm2_num": 375.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "MONTARA Bienes Raíces",
+      "fecha_publicacion": "2026-10-27",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/9fcf9100-b2f6-4186-bf3c-019d69538af7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261027113149-667226018383422898d7a2ef4eb651a9s.webp"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-27",
+          "precio_num": 60000.0,
+          "precio": "60,000 MXN Renta"
+        }
+      ]
+    },
+    "52a021da-3216-489c-84f6-01a17e61f057": {
+      "id": "52a021da-3216-489c-84f6-01a17e61f057",
+      "code": "NN-HHS545",
+      "title": "LOCALES EN RENTA EN GÓMEZ PALACIO",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "6,500 MXN Renta",
+      "precio_num": 6500.0,
+      "superficie": "60 m²",
+      "area_num": 60.0,
+      "precio_m2": "$108.3/m²",
+      "pm2_num": 108.33,
+      "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "ESPACIO INMOBILIARIO",
+      "fecha_publicacion": "2026-10-27",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/52a021da-3216-489c-84f6-01a17e61f057",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261027112150-8e25484ee30844f4a21ac7d5be0a4f99s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027112150-e24a46d8bc18472c9ae3a3f59cce7c42s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027112150-39b6f2b1b2564500a1f75459a6135706s.webp"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-27",
+          "precio_num": 6500.0,
+          "precio": "6,500 MXN Renta"
+        }
+      ]
+    },
+    "bfb53190-9c02-4def-b686-01a17ee018c2": {
+      "id": "bfb53190-9c02-4def-b686-01a17ee018c2",
+      "code": "NN-HHS714",
+      "title": "TERRENO EN VENTA",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "700,000 MXN Venta",
+      "precio_num": 700000.0,
+      "superficie": "535 m²",
+      "area_num": 535.0,
+      "precio_m2": "$1,308/m²",
+      "pm2_num": 1308.41,
+      "ubicacion": "Ejido Santo Tomás, Matamoros, Coahuila de Zaragoza",
+      "municipio": "Matamoros",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CORPORATIVO INMOBILIARIO",
+      "fecha_publicacion": "2026-10-27",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/bfb53190-9c02-4def-b686-01a17ee018c2",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261027134046-dff91d470af04b2fb4ddabd311098211s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027134046-c79adf61155549788b484f0996c73ac4s.webp"
+      ],
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-27",
+          "precio_num": 700000.0,
+          "precio": "700,000 MXN Venta"
         }
       ]
     }
