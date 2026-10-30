@@ -35586,46 +35586,6 @@
       "delisted_reason": "sold"
     },
     {
-      "id": "f68a8d6b-83dd-4fae-a460-018da84f918a",
-      "code": "MX24-PX9040",
-      "title": "Local en renta en Las Rosas, Gómez Palacio, Durango",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "13,000 MXN Renta",
-      "precio_num": 13000.0,
-      "superficie": "45 m²",
-      "area_num": 45.0,
-      "precio_m2": "$288.9/m²",
-      "pm2_num": 288.89,
-      "ubicacion": "Las Rosas, Gómez Palacio, Durango",
-      "municipio": "Gómez Palacio",
-      "estado": "Durango",
-      "broker": "Bienes Raíces DIA ",
-      "fecha_publicacion": "2026-02-10",
-      "days_on_market": 156,
-      "link": "https://app.nocnok.com/crm/154940/properties/f68a8d6b-83dd-4fae-a460-018da84f918a",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/240214094424-5b1a426dfb804bfbb04c22a6cfd6e9cd.jpg",
-        "https://s3.amazonaws.com/nocnok-img/240214094426-1977049a3d8a437eb42f822e847f8ced.jpg",
-        "https://s3.amazonaws.com/nocnok-img/pp-250128090447-4cca8e1677604ae895dac2cc300030e8s.webp"
-      ],
-      "first_seen": "2026-06-01",
-      "last_seen": "2026-07-17",
-      "status": "delisted",
-      "delisted_at": "2026-07-18",
-      "days_listed": 47,
-      "precio_history": [
-        {
-          "date": "2026-06-01",
-          "precio_num": 13000.0,
-          "precio": "13,000 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
       "id": "30a8103d-87cc-42ad-bca7-01995d5dd09d",
       "code": "NN-IP1000277",
       "title": "SE RENTA OFICINA NVO SAN ISIDRO TORREÓN COAHUILA",
