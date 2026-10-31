@@ -1,6 +1,126 @@
 {
   "delisted": [
     {
+      "id": "4d5cc5e5-971f-4869-8ad4-01996382ca42",
+      "code": "NN-UQ1000168",
+      "title": "Terreno Industrial en Venta en La Unión, Torreón, Coahuila",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "2,370,000 MXN Venta",
+      "precio_num": 2370000.0,
+      "superficie": "810 m²",
+      "area_num": 810.0,
+      "precio_m2": "$2,926/m²",
+      "pm2_num": 2925.93,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "PEPE PROPIEDADES",
+      "fecha_publicacion": "2026-04-23",
+      "days_on_market": 12,
+      "link": "https://app.nocnok.com/crm/154940/properties/4d5cc5e5-971f-4869-8ad4-01996382ca42",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250919134649-dd25ab0f512a4da59e33a13092a6ab52s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250919134651-d1d3dcfc0fa54be1a20e2de07756dfd1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250919134651-39d2b02b4b0f4eec9e94f0f10e0053a9s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-10-31",
+      "status": "delisted",
+      "delisted_at": "2026-10-31",
+      "days_listed": 152,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 2370000.0,
+          "precio": "2,370,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "474fd618-d503-4587-a128-01a188c06354",
+      "code": "NN-HHU510",
+      "title": "Local en Renta en Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "16,300 MXN Renta",
+      "precio_num": 16300.0,
+      "superficie": "113 m²",
+      "area_num": 113.0,
+      "precio_m2": "$144.2/m²",
+      "pm2_num": 144.25,
+      "ubicacion": "Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CORPORATIVO INMOBILIARIO",
+      "fecha_publicacion": "2026-10-29",
+      "days_on_market": 2,
+      "link": "https://app.nocnok.com/crm/154940/properties/474fd618-d503-4587-a128-01a188c06354",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261029114128-5e5b3c54a98848f69f6ff35b84b3920ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261029114128-d24058f380c04c86ae8c210382d0a68es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261029114129-49e9ac6f27b54e01b797d07a63ee8155s.webp"
+      ],
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-31",
+      "status": "delisted",
+      "delisted_at": "2026-10-31",
+      "days_listed": 2,
+      "precio_history": [
+        {
+          "date": "2026-10-29",
+          "precio_num": 16300.0,
+          "precio": "16,300 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "4e6ac3f0-dae8-4fad-9481-01a18dcb8065",
+      "code": "NN-HHW048",
+      "title": "Bodega en Renta en Magdalenas, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "24,500 MXN Renta",
+      "precio_num": 24500.0,
+      "superficie": "400 m²",
+      "area_num": 400.0,
+      "precio_m2": "$61.2/m²",
+      "pm2_num": 61.25,
+      "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Sigma",
+      "fecha_publicacion": "2026-10-30",
+      "days_on_market": 1,
+      "link": "https://app.nocnok.com/crm/154940/properties/4e6ac3f0-dae8-4fad-9481-01a18dcb8065",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261030111126-5e3f28eb848749f8b7ce7da9862e9025s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261030111126-a1683dd245074faea7d084d1f6284296s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261030111127-fa5087ad27d64c7192338d495cc19821s.webp"
+      ],
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-31",
+      "status": "delisted",
+      "delisted_at": "2026-10-31",
+      "days_listed": 1,
+      "precio_history": [
+        {
+          "date": "2026-10-30",
+          "precio_num": 24500.0,
+          "precio": "24,500 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "86c32348-2b35-4a56-bfc9-019c9b15fbaf",
       "code": "NN-GVB798",
       "title": "Local en Renta en Navarro, Torreón, Coahuila de Zaragoza",
