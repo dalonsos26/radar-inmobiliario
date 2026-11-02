@@ -1,6 +1,46 @@
 {
   "delisted": [
     {
+      "id": "f62e7d7f-f820-4f07-91a5-0198af30de2f",
+      "code": "NN-CM1000265",
+      "title": "BODEGA LAS MAGDALENAS",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "24,500 MXN Renta",
+      "precio_num": 24500.0,
+      "superficie": "400 m²",
+      "area_num": 400.0,
+      "precio_m2": "$61.2/m²",
+      "pm2_num": 61.25,
+      "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-10-30",
+      "days_on_market": 2,
+      "link": "https://app.nocnok.com/crm/154940/properties/f62e7d7f-f820-4f07-91a5-0198af30de2f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250815132516-d4b948ddbd04466c9c75edb77dceb3d1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250815132515-3dc5c4121d6046d0a6d4e20cdfe09efds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250815132515-eece070a16a949e3ad5a1f960be75512s.webp"
+      ],
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-11-01",
+      "status": "delisted",
+      "delisted_at": "2026-11-01",
+      "days_listed": 2,
+      "precio_history": [
+        {
+          "date": "2026-10-30",
+          "precio_num": 24500.0,
+          "precio": "24,500 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "4d5cc5e5-971f-4869-8ad4-01996382ca42",
       "code": "NN-UQ1000168",
       "title": "Terreno Industrial en Venta en La Unión, Torreón, Coahuila",

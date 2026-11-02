@@ -1,6 +1,6 @@
 {
-  "run_at": "2026-11-01 09:37:46",
-  "total": 4671,
+  "run_at": "2026-11-01 18:07:03",
+  "total": 4670,
   "new_count": 0,
   "properties": [
     {
@@ -135,33 +135,6 @@
         "https://s3.amazonaws.com/nocnok-img/pp-261030105006-0f91b1c52bc142b6af38701a786efd19s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261030105006-b436dbfb0164463f96ed56487457e360s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261030105006-689826ff37c14ea6a16e99d021b058ees.webp"
-      ]
-    },
-    {
-      "id": "f62e7d7f-f820-4f07-91a5-0198af30de2f",
-      "code": "NN-CM1000265",
-      "title": "BODEGA LAS MAGDALENAS",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "24,500 MXN Renta",
-      "precio_num": 24500.0,
-      "superficie": "400 m²",
-      "area_num": 400.0,
-      "precio_m2": "$61.2/m²",
-      "pm2_num": 61.25,
-      "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Bienes Raíces DIA ",
-      "fecha_publicacion": "2026-10-30",
-      "days_on_market": 2,
-      "link": "https://app.nocnok.com/crm/154940/properties/f62e7d7f-f820-4f07-91a5-0198af30de2f",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250815132516-d4b948ddbd04466c9c75edb77dceb3d1s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250815132515-3dc5c4121d6046d0a6d4e20cdfe09efds.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250815132515-eece070a16a949e3ad5a1f960be75512s.webp"
       ]
     },
     {

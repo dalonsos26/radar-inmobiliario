@@ -236219,16 +236219,17 @@
       ],
       "first_seen": "2026-10-30",
       "last_seen": "2026-11-01",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-01",
+      "days_listed": 2,
       "precio_history": [
         {
           "date": "2026-10-30",
           "precio_num": 24500.0,
           "precio": "24,500 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "5c0157e1-434f-44ec-afb2-01a18dbbb783": {
       "id": "5c0157e1-434f-44ec-afb2-01a18dbbb783",
