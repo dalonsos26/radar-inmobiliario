@@ -7572,14 +7572,14 @@
     },
     "2026-W45": {
       "week": "2026-W45",
-      "total": 30,
+      "total": 32,
       "cities": {
         "Torreón": {
-          "total": 28,
+          "total": 29,
           "tipos_m2": {
             "Local": {
-              "sum": 1724.0239331842747,
-              "count": 10
+              "sum": 1912.548523348209,
+              "count": 11
             },
             "Consultorio": {
               "sum": 15005.213764337852,
@@ -7608,7 +7608,7 @@
           }
         },
         "Gómez Palacio": {
-          "total": 2,
+          "total": 3,
           "tipos_m2": {
             "Edificio": {
               "sum": 150.0,
@@ -7616,6 +7616,10 @@
             },
             "Local": {
               "sum": 160.77170418006432,
+              "count": 1
+            },
+            "Nave": {
+              "sum": 85.0,
               "count": 1
             }
           }
