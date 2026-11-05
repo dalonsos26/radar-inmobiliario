@@ -21293,9 +21293,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 33,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 156,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -21303,7 +21303,7 @@
           "precio": "1,450,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "e8495d27-6f73-410d-a3d8-019ddfc79c27": {
       "id": "e8495d27-6f73-410d-a3d8-019ddfc79c27",
@@ -27857,7 +27857,7 @@
     "2c75a494-16d3-4e30-a528-019c4a07bfe5": {
       "id": "2c75a494-16d3-4e30-a528-019c4a07bfe5",
       "code": "NN-GUC741",
-      "title": "Terreno en Renta Boulevard Matamoros",
+      "title": "Terreno en Renta Boulevard Torreón Matamoros",
       "categoria": "Comercial",
       "tipo": "Terreno",
       "operacion": "Renta",
@@ -31400,12 +31400,12 @@
       "tipo": "Terreno",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "31,821,400 MXN Venta",
-      "precio_num": 31821400.0,
+      "precio": "36,717,000 MXN Venta",
+      "precio_num": 36717000.0,
       "superficie": "12,239 m²",
       "area_num": 12239.0,
-      "precio_m2": "$2,600/m²",
-      "pm2_num": 2600.0,
+      "precio_m2": "$3,000/m²",
+      "pm2_num": 3000.0,
       "ubicacion": "Santa Fe, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -55521,9 +55521,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 78,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 156,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -55531,7 +55531,7 @@
           "precio": "1,300,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "3ed8351b-8581-4208-b2d5-01958776e390": {
       "id": "3ed8351b-8581-4208-b2d5-01958776e390",
@@ -90777,9 +90777,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 45,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 156,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -90787,7 +90787,7 @@
           "precio": "39,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "5fe7033e-573b-4eb5-9819-018b2763e200": {
       "id": "5fe7033e-573b-4eb5-9819-018b2763e200",
@@ -107913,9 +107913,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 156,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -107923,7 +107923,7 @@
           "precio": "32,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "e99fc5b0-50fb-4458-a98f-018da8867a4f": {
       "id": "e99fc5b0-50fb-4458-a98f-018da8867a4f",
@@ -111441,16 +111441,17 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 156,
       "precio_history": [
         {
           "date": "2026-06-01",
           "precio_num": 10900000.0,
           "precio": "10,900,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "2e3da01d-a66d-44bc-92d9-018b27641cb0": {
       "id": "2e3da01d-a66d-44bc-92d9-018b27641cb0",
@@ -143974,16 +143975,17 @@
       ],
       "first_seen": "2026-07-18",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 109,
       "precio_history": [
         {
           "date": "2026-07-18",
           "precio_num": 6864.0,
           "precio": "6,864 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "9dfa9b3b-0f1a-4ae5-8409-019f720ec77e": {
       "id": "9dfa9b3b-0f1a-4ae5-8409-019f720ec77e",
@@ -147022,16 +147024,17 @@
       ],
       "first_seen": "2026-07-25",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 102,
       "precio_history": [
         {
           "date": "2026-07-25",
           "precio_num": 80000.0,
           "precio": "80,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "95f2ceec-4b87-47db-803d-019f95eb107d": {
       "id": "95f2ceec-4b87-47db-803d-019f95eb107d",
@@ -147041,12 +147044,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "42,000 MXN Renta",
-      "precio_num": 42000.0,
+      "precio": "39,000 MXN Renta",
+      "precio_num": 39000.0,
       "superficie": "370 m²",
       "area_num": 370.0,
-      "precio_m2": "$113.5/m²",
-      "pm2_num": 113.51,
+      "precio_m2": "$105.4/m²",
+      "pm2_num": 105.41,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -147074,6 +147077,11 @@
           "date": "2026-10-08",
           "precio_num": 42000.0,
           "precio": "42,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-04",
+          "precio_num": 39000.0,
+          "precio": "39,000 MXN Renta"
         }
       ]
     },
@@ -153741,16 +153749,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 92,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 215990.0,
           "precio": "215,990 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "cb5fd4e9-e8dc-428d-85e6-019c4e6e8a4f": {
       "id": "cb5fd4e9-e8dc-428d-85e6-019c4e6e8a4f",
@@ -173541,16 +173550,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 92,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 1400000.0,
           "precio": "1,400,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "3c840890-43a4-4847-a629-019842728663": {
       "id": "3c840890-43a4-4847-a629-019842728663",
@@ -200799,16 +200809,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 92,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 1700000.0,
           "precio": "1,700,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "cb56558e-ea47-4eab-9eeb-018fc5423d26": {
       "id": "cb56558e-ea47-4eab-9eeb-018fc5423d26",
@@ -212506,16 +212517,17 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 70,
       "precio_history": [
         {
           "date": "2026-08-26",
           "precio_num": 30300000.0,
           "precio": "30,300,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "c04b6706-b74f-491b-b969-01a03bcd9f7a": {
       "id": "c04b6706-b74f-491b-b969-01a03bcd9f7a",
@@ -212545,16 +212557,17 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 70,
       "precio_history": [
         {
           "date": "2026-08-26",
           "precio_num": 23680000.0,
           "precio": "23,680,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "fc328091-9a99-42a2-9776-018b293b3b3c": {
       "id": "fc328091-9a99-42a2-9776-018b293b3b3c",
@@ -215007,12 +215020,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "199,750 MXN Renta",
-      "precio_num": 199750.0,
+      "precio": "165,704 MXN Renta",
+      "precio_num": 165704.0,
       "superficie": "1,883 m²",
       "area_num": 1883.0,
-      "precio_m2": "$106.1/m²",
-      "pm2_num": 106.08,
+      "precio_m2": "$88.0/m²",
+      "pm2_num": 88.0,
       "ubicacion": "Nueva Laguna Norte, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -215035,6 +215048,11 @@
           "date": "2026-08-31",
           "precio_num": 199750.0,
           "precio": "199,750 MXN Renta"
+        },
+        {
+          "date": "2026-11-04",
+          "precio_num": 165704.0,
+          "precio": "165,704 MXN Renta"
         }
       ],
       "delisted_reason": null
@@ -215187,9 +215205,9 @@
       ],
       "first_seen": "2026-08-31",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 9,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 65,
       "precio_history": [
         {
           "date": "2026-08-31",
@@ -215197,7 +215215,7 @@
           "precio": "15,200 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "0bc6b842-6412-4af0-9672-01a058b2a551": {
       "id": "0bc6b842-6412-4af0-9672-01a058b2a551",
@@ -216890,16 +216908,17 @@
       ],
       "first_seen": "2026-09-04",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 61,
       "precio_history": [
         {
           "date": "2026-09-04",
           "precio_num": 2900000.0,
           "precio": "2,900,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "259082c1-b3e5-416a-9493-01a06d82d71f": {
       "id": "259082c1-b3e5-416a-9493-01a06d82d71f",
@@ -217951,16 +217970,17 @@
       ],
       "first_seen": "2026-09-05",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 60,
       "precio_history": [
         {
           "date": "2026-09-05",
           "precio_num": 10000.0,
           "precio": "10,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "1f283319-e6dd-40d5-b9d9-01a06ed46ffe": {
       "id": "1f283319-e6dd-40d5-b9d9-01a06ed46ffe",
@@ -220420,16 +220440,17 @@
       ],
       "first_seen": "2026-09-12",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 53,
       "precio_history": [
         {
           "date": "2026-09-12",
           "precio_num": 29000.0,
           "precio": "29,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "04606dd3-06b9-43cf-83e4-01a091a11e55": {
       "id": "04606dd3-06b9-43cf-83e4-01a091a11e55",
@@ -234229,16 +234250,17 @@
       ],
       "first_seen": "2026-10-26",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 9,
       "precio_history": [
         {
           "date": "2026-10-26",
           "precio_num": 21000.0,
           "precio": "21,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "68196418-25bf-4309-b3ca-01a17a99d948": {
       "id": "68196418-25bf-4309-b3ca-01a17a99d948",
@@ -236053,16 +236075,17 @@
       ],
       "first_seen": "2026-10-30",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 5,
       "precio_history": [
         {
           "date": "2026-10-30",
           "precio_num": 70000.0,
           "precio": "70,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "a6526e69-bc93-4548-bc3c-01a18a67d943": {
       "id": "a6526e69-bc93-4548-bc3c-01a18a67d943",
@@ -236092,16 +236115,17 @@
       ],
       "first_seen": "2026-10-30",
       "last_seen": "2026-11-04",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-04",
+      "days_listed": 5,
       "precio_history": [
         {
           "date": "2026-10-30",
           "precio_num": 108000.0,
           "precio": "108,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "71cb0480-68bc-4719-b8b6-0196cb0055e6": {
       "id": "71cb0480-68bc-4719-b8b6-0196cb0055e6",
@@ -237316,7 +237340,7 @@
     "1aebe765-712a-46e8-b178-019519ced96f": {
       "id": "1aebe765-712a-46e8-b178-019519ced96f",
       "code": "MX25-ES10050",
-      "title": "Terreno en Venta en Ampliación la Joya, Torreón, Coahuila de Zaragoza",
+      "title": "Terreno en Venta en La Joya, Torreón, Coahuila de Zaragoza",
       "categoria": "Comercial",
       "tipo": "Terreno",
       "operacion": "Venta",
@@ -237327,7 +237351,7 @@
       "area_num": 3048.0,
       "precio_m2": "$4,500/m²",
       "pm2_num": 4500.0,
-      "ubicacion": "Ampliación la Joya, Torreón, Coahuila de Zaragoza",
+      "ubicacion": "La Joya, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
       "broker": "Punto Clave by Keller Williams",
@@ -237582,6 +237606,580 @@
           "date": "2026-11-04",
           "precio_num": 365500.0,
           "precio": "365,500 MXN Renta"
+        }
+      ]
+    },
+    "ddd999b5-8c1e-4a67-a0fb-01a1a775cc12": {
+      "id": "ddd999b5-8c1e-4a67-a0fb-01a1a775cc12",
+      "code": "NN-HIA028",
+      "title": "••Local a pie de calle en Saltillo 400••",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "5,000 MXN Renta",
+      "precio_num": 5000.0,
+      "superficie": "44 m²",
+      "area_num": 44.0,
+      "precio_m2": "$113.6/m²",
+      "pm2_num": 113.64,
+      "ubicacion": "Ex Hacienda Antigua los Ángeles, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ENLACE INMOBILIARIO",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/ddd999b5-8c1e-4a67-a0fb-01a1a775cc12",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104110153-4d511bcbfb7d42c5a38125e6851fd3efs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104110155-7cf88b02173649738c59736a43cac99cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104110151-ce73ef01b3c1466c813bd42586e6145fs.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 5000.0,
+          "precio": "5,000 MXN Renta"
+        }
+      ]
+    },
+    "a6742063-1f22-4120-9fcd-01a1a77d5cef": {
+      "id": "a6742063-1f22-4120-9fcd-01a1a77d5cef",
+      "code": "NN-HIA048",
+      "title": "BODEGA EN RENTA, SAN FELIPE",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "55,000 MXN Renta",
+      "precio_num": 55000.0,
+      "superficie": "640 m²",
+      "area_num": 640.0,
+      "precio_m2": "$85.9/m²",
+      "pm2_num": 85.94,
+      "ubicacion": "San Felipe, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ORDUÑA Y ASOCIADOS",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a6742063-1f22-4120-9fcd-01a1a77d5cef",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104105641-b6869e6ae18c43b29c0710d0322531ffs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104105640-e8f0c46677754306b89d8566fc7676e4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104105640-2f88c64dd8804362968620ae354228a4s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 55000.0,
+          "precio": "55,000 MXN Renta"
+        }
+      ]
+    },
+    "210f10d1-3ae7-445f-872c-01a1a7aaaedf": {
+      "id": "210f10d1-3ae7-445f-872c-01a1a7aaaedf",
+      "code": "NN-HIA212",
+      "title": "RENTA M2 DE TERRENO QUE NECESITES SOBRE CARRETERA TORREÓN - MATAMOROS",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "215,975 MXN Renta",
+      "precio_num": 215975.0,
+      "superficie": "8,639 m²",
+      "area_num": 8639.0,
+      "precio_m2": "$25.0/m²",
+      "pm2_num": 25.0,
+      "ubicacion": "Residencial el Secreto, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/210f10d1-3ae7-445f-872c-01a1a7aaaedf",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104114543-f3fc705c111d4b78978aa51a3925eff5s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 215975.0,
+          "precio": "215,975 MXN Renta"
+        }
+      ]
+    },
+    "0a896fe1-7c01-4ab3-b645-01a1a7c7c4a4": {
+      "id": "0a896fe1-7c01-4ab3-b645-01a1a7c7c4a4",
+      "code": "NN-HIA280",
+      "title": "PROPIEDAD COMERCIAL EN RENTA EN TORREÓN",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "20,000 MXN Renta",
+      "precio_num": 20000.0,
+      "superficie": "240 m²",
+      "area_num": 240.0,
+      "precio_m2": "$83.3/m²",
+      "pm2_num": 83.33,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "COFRADÍA",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/0a896fe1-7c01-4ab3-b645-01a1a7c7c4a4",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104121741-e153b75dd0034cc39db3b4bdd731070bs.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 20000.0,
+          "precio": "20,000 MXN Renta"
+        }
+      ]
+    },
+    "029b1be4-850a-43a4-aa7d-01a1a75ed286": {
+      "id": "029b1be4-850a-43a4-aa7d-01a1a75ed286",
+      "code": "NN-HHZ963",
+      "title": "••Local en planta alta en Saltillo 400••",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "9,000 MXN Renta",
+      "precio_num": 9000.0,
+      "superficie": "81 m²",
+      "area_num": 81.0,
+      "precio_m2": "$111.1/m²",
+      "pm2_num": 111.11,
+      "ubicacion": "Residencial Campestre la Rosita, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ENLACE INMOBILIARIO",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/029b1be4-850a-43a4-aa7d-01a1a75ed286",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104102640-ffc2533e622040cc884a9975e0bfd276s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104102640-b75ebb95cc604fa981f9e381eff06defs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104102637-de9ba4673bc24539b2429a52c909911bs.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 9000.0,
+          "precio": "9,000 MXN Renta"
+        }
+      ]
+    },
+    "c4b07d5f-cdf6-4b68-b501-01a1a76f95ba": {
+      "id": "c4b07d5f-cdf6-4b68-b501-01a1a76f95ba",
+      "code": "NN-HIA010",
+      "title": "LOCAL COMERCIAL RENTA",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "23,000 MXN Renta",
+      "precio_num": 23000.0,
+      "superficie": "122 m²",
+      "area_num": 122.0,
+      "precio_m2": "$188.5/m²",
+      "pm2_num": 188.52,
+      "ubicacion": "Pequeña Zona Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Bienes Raíces DIA ",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/c4b07d5f-cdf6-4b68-b501-01a1a76f95ba",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104104153-c4d703d4749f4b96bc5299d79ffc91fbs.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 23000.0,
+          "precio": "23,000 MXN Renta"
+        }
+      ]
+    },
+    "f5d429fb-6984-43a8-b9d0-01a1a81cec58": {
+      "id": "f5d429fb-6984-43a8-b9d0-01a1a81cec58",
+      "code": "NN-HIA366",
+      "title": "Local en Renta en Residencial los Fresnos, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "8,720 MXN Renta",
+      "precio_num": 8720.0,
+      "superficie": "38 m²",
+      "area_num": 38.0,
+      "precio_m2": "$229.5/m²",
+      "pm2_num": 229.47,
+      "ubicacion": "Residencial los Fresnos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Avante Bienes Raices",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/f5d429fb-6984-43a8-b9d0-01a1a81cec58",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135030-0b5d89272081489fb3a5bf02c7d49081s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135030-9c339e3fc74d4358a43a6b57398eadads.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135030-a2d46a9844344aa9817582309e3bc407s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 8720.0,
+          "precio": "8,720 MXN Renta"
+        }
+      ]
+    },
+    "41fa532a-36a2-472e-b919-01a1a8205ed6": {
+      "id": "41fa532a-36a2-472e-b919-01a1a8205ed6",
+      "code": "NN-HIA373",
+      "title": "Local Comercial en Renta en Blvd. Independencia, San Isidro, Torreón",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "70,000 MXN Renta",
+      "precio_num": 70000.0,
+      "superficie": "482.3 m²",
+      "area_num": 482.3,
+      "precio_m2": "$145.1/m²",
+      "pm2_num": 145.14,
+      "ubicacion": "San Isidro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Avante Bienes Raices",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/41fa532a-36a2-472e-b919-01a1a8205ed6",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135416-edc8a69f24354181b42a417df792baa8s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135416-ce637e9c58bc496c943a41c63233a925s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135416-ca4071d6223f46aeb451b6b99767efdcs.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 70000.0,
+          "precio": "70,000 MXN Renta"
+        }
+      ]
+    },
+    "7f17d93c-0997-485c-84fd-01a1a82bc185": {
+      "id": "7f17d93c-0997-485c-84fd-01a1a82bc185",
+      "code": "NN-HIA411",
+      "title": "Local Comercial en Renta en Torreón, Coahuila - Amplio Espacio en Nueva Los Ángeles",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "65,000 MXN Renta",
+      "precio_num": 65000.0,
+      "superficie": "250 m²",
+      "area_num": 250.0,
+      "precio_m2": "$260.0/m²",
+      "pm2_num": 260.0,
+      "ubicacion": "Nueva los Angeles, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CRECIENDO BIENES RAICES",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/7f17d93c-0997-485c-84fd-01a1a82bc185",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104140659-e3f40ba5c0c747919e873e553d5d0159s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104140659-d956e7918bff4983b3bd93c8ea854a50s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104140659-2e60fea6ec124cd6ab3a8cf366afd8a1s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 65000.0,
+          "precio": "65,000 MXN Renta"
+        }
+      ]
+    },
+    "54944b0c-ded0-4d0a-880c-01a1a820a51d": {
+      "id": "54944b0c-ded0-4d0a-880c-01a1a820a51d",
+      "code": "NN-HIA374",
+      "title": "Bodega Industrial de 1500 M2 en Renta en San Felipe, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "108,000 MXN Renta",
+      "precio_num": 108000.0,
+      "superficie": "1,500 m²",
+      "area_num": 1500.0,
+      "precio_m2": "$72.0/m²",
+      "pm2_num": 72.0,
+      "ubicacion": "San Felipe, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Avante Bienes Raices",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/54944b0c-ded0-4d0a-880c-01a1a820a51d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135434-02fb4080b4e2426db700c912ced8101es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135434-b7ab3136d3244d2ba538a0573cebabf0s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104135434-0b17cf0a3a194ea3b3079b2d93c8e896s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 108000.0,
+          "precio": "108,000 MXN Renta"
+        }
+      ]
+    },
+    "73f94318-d452-410d-8c1d-01a1a863a218": {
+      "id": "73f94318-d452-410d-8c1d-01a1a863a218",
+      "code": "NN-HIA443",
+      "title": "Terreno en Venta en Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "30,300,000 MXN Venta",
+      "precio_num": 30300000.0,
+      "superficie": "20,200 m²",
+      "area_num": 20200.0,
+      "precio_m2": "$1,500/m²",
+      "pm2_num": 1500.0,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/73f94318-d452-410d-8c1d-01a1a863a218",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104150744-0b09aea879df4169851390f1b3ca170cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104150744-17c55e4dc5ff4280a06f774c6f148c95s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 30300000.0,
+          "precio": "30,300,000 MXN Venta"
+        }
+      ]
+    },
+    "2e993bc1-bd70-46a0-8cad-01a1a86cabca": {
+      "id": "2e993bc1-bd70-46a0-8cad-01a1a86cabca",
+      "code": "NN-HIA459",
+      "title": "Terreno en Venta Zona Estratégica | Torreón, Coahuila.",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "37,800,000 MXN Venta",
+      "precio_num": 37800000.0,
+      "superficie": "18,000 m²",
+      "area_num": 18000.0,
+      "precio_m2": "$2,100/m²",
+      "pm2_num": 2100.0,
+      "ubicacion": "El Ranchito, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/2e993bc1-bd70-46a0-8cad-01a1a86cabca",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104152545-586de6c03d2e45bda064293356616373s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 37800000.0,
+          "precio": "37,800,000 MXN Venta"
+        }
+      ]
+    },
+    "7602883c-969e-4ce0-9d57-01a1a85fcf90": {
+      "id": "7602883c-969e-4ce0-9d57-01a1a85fcf90",
+      "code": "NN-HIA441",
+      "title": "Terreno en Venta Zona Estratégica | Torreón, Coahuila.",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "30,691,200 MXN Venta",
+      "precio_num": 30691200.0,
+      "superficie": "12,788 m²",
+      "area_num": 12788.0,
+      "precio_m2": "$2,400/m²",
+      "pm2_num": 2400.0,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/7602883c-969e-4ce0-9d57-01a1a85fcf90",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104153021-8a6717e38cd74e2c9b41097643b4ee91s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104150334-230e4f10855c45948036e08ea38b772cs.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 30691200.0,
+          "precio": "30,691,200 MXN Venta"
+        }
+      ]
+    },
+    "4964abc6-8430-40e8-81a5-01a1a8c3b1b5": {
+      "id": "4964abc6-8430-40e8-81a5-01a1a8c3b1b5",
+      "code": "NN-HIA635",
+      "title": "Venta de Local Comercial Independiente en Miravalle, Gómez Palacio",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "990,000 MXN Venta",
+      "precio_num": 990000.0,
+      "superficie": "80 m²",
+      "area_num": 80.0,
+      "precio_m2": "$12,375/m²",
+      "pm2_num": 12375.0,
+      "ubicacion": "Miravalle, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "SAMAX Inmobiliaria",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/4964abc6-8430-40e8-81a5-01a1a8c3b1b5",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104165416-04e45fc01b1c453396153a81a140f258s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104165416-2ebaa017612742eea1c51bc8ab89d50ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104165415-4316fe9e71a049099b596251b321e5acs.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 990000.0,
+          "precio": "990,000 MXN Venta"
+        }
+      ]
+    },
+    "7d4b469d-8ced-495b-ba6d-01a1a7bbcdc3": {
+      "id": "7d4b469d-8ced-495b-ba6d-01a1a7bbcdc3",
+      "code": "NN-HIA268",
+      "title": "Terreno en Venta en Corona, Matamoros, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "10,900,000 MXN Venta",
+      "precio_num": 10900000.0,
+      "superficie": "309,765 m²",
+      "area_num": 309765.0,
+      "precio_m2": "$35.2/m²",
+      "pm2_num": 35.19,
+      "ubicacion": "Corona, Matamoros, Coahuila de Zaragoza",
+      "municipio": "Matamoros",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-04",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/7d4b469d-8ced-495b-ba6d-01a1a7bbcdc3",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261104120425-f1b7f08d85ed48dd986514cc2ef3fd46s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261104120425-6c2f3cd7da7049af9c60cd93fcf0bc83s.webp"
+      ],
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-04",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-04",
+          "precio_num": 10900000.0,
+          "precio": "10,900,000 MXN Venta"
         }
       ]
     }
