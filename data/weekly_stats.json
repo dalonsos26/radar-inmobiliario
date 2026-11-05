@@ -7572,14 +7572,14 @@
     },
     "2026-W45": {
       "week": "2026-W45",
-      "total": 47,
+      "total": 48,
       "cities": {
         "Torreón": {
-          "total": 42,
+          "total": 43,
           "tipos_m2": {
             "Local": {
-              "sum": 2960.432153457082,
-              "count": 17
+              "sum": 3179.079018143551,
+              "count": 18
             },
             "Consultorio": {
               "sum": 15005.213764337852,
