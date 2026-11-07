@@ -1,6 +1,166 @@
 {
   "delisted": [
     {
+      "id": "08ba70a4-9dd0-4f69-a173-0196b78c2c60",
+      "code": "MX25-SW10223",
+      "title": "Terreno en Renta en Ampliación Senderos, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "15,000 MXN Renta",
+      "precio_num": 15000.0,
+      "superficie": "180 m²",
+      "area_num": 180.0,
+      "precio_m2": "$83.3/m²",
+      "pm2_num": 83.33,
+      "ubicacion": "Ampliación Senderos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-04-12",
+      "days_on_market": 207,
+      "link": "https://app.nocnok.com/crm/154940/properties/08ba70a4-9dd0-4f69-a173-0196b78c2c60",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250509181615-acf8cb8d1d0e4819bf51d19eeb3c9195s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250509181614-dba27e68305f40fcac84628279ba4dfcs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250509181615-fa6352a822d847d58d07da70a7470746s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-06",
+      "status": "delisted",
+      "delisted_at": "2026-11-06",
+      "days_listed": 158,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 15000.0,
+          "precio": "15,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "07d410d7-9e4b-46fb-aaac-019cba3df404",
+      "code": "NN-GWB014",
+      "title": "Renta de Bodega Comercial en Parque Industrial Oriente, Torreón",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "30,000 MXN Renta",
+      "precio_num": 30000.0,
+      "superficie": "240 m²",
+      "area_num": 240.0,
+      "precio_m2": "$125.0/m²",
+      "pm2_num": 125.0,
+      "ubicacion": "Parque Industrial Oriente, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-03-03",
+      "days_on_market": 247,
+      "link": "https://app.nocnok.com/crm/154940/properties/07d410d7-9e4b-46fb-aaac-019cba3df404",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260304130636-fa92fc645aab45a7b7846867981450f4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260304130636-cc604750a01b46e0b7037e04a9c2ebccs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260304130636-df002f646ddf46788c77d9d6475d50d9s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-06",
+      "status": "delisted",
+      "delisted_at": "2026-11-06",
+      "days_listed": 158,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 30000.0,
+          "precio": "30,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "b3d7de6b-111f-4bf8-904e-0194f1602cd6",
+      "code": "MX25-BS10037",
+      "title": "Terreno en Venta en Nueva Laguna Norte, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "1,000,000 MXN Venta",
+      "precio_num": 1000000.0,
+      "superficie": "272 m²",
+      "area_num": 272.0,
+      "precio_m2": "$3,676/m²",
+      "pm2_num": 3676.47,
+      "ubicacion": "Nueva Laguna Norte, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Dingler Bienes Raíces",
+      "fecha_publicacion": "2026-01-22",
+      "days_on_market": 287,
+      "link": "https://app.nocnok.com/crm/154940/properties/b3d7de6b-111f-4bf8-904e-0194f1602cd6",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250210134000-056387b7ab5c4812a19df874d432cdads.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250210134000-3d39836cd92f48919f07cda12e742302s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250210134000-60d70275595a4bd7b84e2b1198ebd82cs.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-06",
+      "status": "delisted",
+      "delisted_at": "2026-11-06",
+      "days_listed": 158,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 1000000.0,
+          "precio": "1,000,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "f99f2cb8-218a-4df5-95f2-019b9f0467e6",
+      "code": "NN-GQE033",
+      "title": "Bodega en Renta en Pequeña Zona Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "120,000 MXN Renta",
+      "precio_num": 120000.0,
+      "superficie": "1,500 m²",
+      "area_num": 1500.0,
+      "precio_m2": "$80.0/m²",
+      "pm2_num": 80.0,
+      "ubicacion": "Pequeña Zona Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-01-08",
+      "days_on_market": 302,
+      "link": "https://app.nocnok.com/crm/154940/properties/f99f2cb8-218a-4df5-95f2-019b9f0467e6",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260108132035-54ae1a8a4bb44fc8933315de63687cb3s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260108132028-2430f53b8ebc49ae90c26776a0bdd6b4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260108132028-a576f25903d14ca393c65de0da4aae70s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-11-06",
+      "status": "delisted",
+      "delisted_at": "2026-11-06",
+      "days_listed": 94,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 120000.0,
+          "precio": "120,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "7d72af6f-43a1-4993-a998-01a0a7237ff0",
       "code": "NN-HFQ285",
       "title": "¡OFICINAS EN RENTA EN PLAZA ESPAÑA, TORREÓN!",
@@ -18567,46 +18727,6 @@
           "date": "2026-07-10",
           "precio_num": 21000.0,
           "precio": "21,000 MXN Renta"
-        }
-      ],
-      "delisted_reason": "sold"
-    },
-    {
-      "id": "8001dd22-5a7f-4cc0-9a19-019c29e1b726",
-      "code": "NN-GTF175",
-      "title": "Bodega en Renta en Villa California, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Bodega",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "99,000 MXN Renta",
-      "precio_num": 99000.0,
-      "superficie": "1,500 m²",
-      "area_num": 1500.0,
-      "precio_m2": "$66.0/m²",
-      "pm2_num": 66.0,
-      "ubicacion": "Villa California, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Kali Bienes Raíces",
-      "fecha_publicacion": "2026-02-04",
-      "days_on_market": 221,
-      "link": "https://app.nocnok.com/crm/154940/properties/8001dd22-5a7f-4cc0-9a19-019c29e1b726",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-260204122116-e320fdc208f34ea5af87dfc797308eecs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260204122116-110bd06534604e029b6750707cea3304s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-260204122117-a35a44f4fe0346ccbfe3c6c3f97e8f48s.webp"
-      ],
-      "first_seen": "2026-08-04",
-      "last_seen": "2026-09-13",
-      "status": "delisted",
-      "delisted_at": "2026-09-14",
-      "days_listed": 41,
-      "precio_history": [
-        {
-          "date": "2026-08-04",
-          "precio_num": 99000.0,
-          "precio": "99,000 MXN Renta"
         }
       ],
       "delisted_reason": "sold"
