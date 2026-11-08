@@ -1,6 +1,86 @@
 {
   "delisted": [
     {
+      "id": "f3e107a1-41d0-4930-b251-0195bf214acb",
+      "code": "MX25-XX10078",
+      "title": "Local en renta en Mercahorro, Col. Real del Sol, Torreón, Coah.",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "7,000 MXN Renta",
+      "precio_num": 7000.0,
+      "superficie": "24 m²",
+      "area_num": 24.0,
+      "precio_m2": "$291.7/m²",
+      "pm2_num": 291.67,
+      "ubicacion": "Real del Sol I, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Kali Bienes Raíces",
+      "fecha_publicacion": "2025-03-22",
+      "days_on_market": 595,
+      "link": "https://app.nocnok.com/crm/154940/properties/f3e107a1-41d0-4930-b251-0195bf214acb",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250322123509-1e81b6e352e54ab4b263563f769f4eb7s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250322123509-dfc55c077608480ead95bf1d4b864ec4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250322123509-7a20484f4caa44d59338589bb4805210s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-11-07",
+      "status": "delisted",
+      "delisted_at": "2026-11-07",
+      "days_listed": 95,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 7000.0,
+          "precio": "7,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "e6add80e-a1c9-41f0-b6ad-0192fde0e7bd",
+      "code": "MX24-MK2733",
+      "title": "Consultorio en Renta en La Union, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Consultorio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "16,000 MXN Renta",
+      "precio_num": 16000.0,
+      "superficie": "25 m²",
+      "area_num": 25.0,
+      "precio_m2": "$640.0/m²",
+      "pm2_num": 640.0,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Kali Bienes Raíces",
+      "fecha_publicacion": "2024-11-05",
+      "days_on_market": 732,
+      "link": "https://app.nocnok.com/crm/154940/properties/e6add80e-a1c9-41f0-b6ad-0192fde0e7bd",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-241105135201-4e5acfb7c79a4ff785fc8036dedd0cafs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250122170050-bd08755bf90a49a9b3f23981f5570fd3s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250122165310-2769f562849c443dbb8581516bb22b0as.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-11-07",
+      "status": "delisted",
+      "delisted_at": "2026-11-07",
+      "days_listed": 95,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 16000.0,
+          "precio": "16,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "08ba70a4-9dd0-4f69-a173-0196b78c2c60",
       "code": "MX25-SW10223",
       "title": "Terreno en Renta en Ampliación Senderos, Torreón, Coahuila de Zaragoza",
@@ -57366,7 +57446,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Liliana Inda",
       "fecha_publicacion": "2026-05-10",
-      "days_on_market": 47,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a5f66552-1791-4701-a12d-019d5bd08c03",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260404220533-ff034e7c7c4a4c8d851ce97795ea3c0es.webp",
@@ -57374,9 +57454,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260404220556-39ece107c5eb483aa4db8b8f85bd9b51s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-06",
-      "status": "delisted",
-      "delisted_at": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 159,
       "precio_history": [
         {
@@ -57390,7 +57470,7 @@
           "precio": "65,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "original_precio": "75,000 MXN Renta",
       "original_precio_num": 75000.0,
       "current_precio": "65,000 MXN Renta",

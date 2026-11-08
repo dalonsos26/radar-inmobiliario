@@ -56716,7 +56716,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Liliana Inda",
       "fecha_publicacion": "2026-05-10",
-      "days_on_market": 47,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a5f66552-1791-4701-a12d-019d5bd08c03",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260404220533-ff034e7c7c4a4c8d851ce97795ea3c0es.webp",
@@ -56724,9 +56724,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260404220556-39ece107c5eb483aa4db8b8f85bd9b51s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-06",
-      "status": "delisted",
-      "delisted_at": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 159,
       "precio_history": [
         {
@@ -56740,7 +56740,7 @@
           "precio": "65,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "aa3f0d6b-317f-467b-a805-019e1838e184": {
       "id": "aa3f0d6b-317f-467b-a805-019e1838e184",
@@ -181343,16 +181343,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-07",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-07",
+      "days_listed": 95,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 7000.0,
           "precio": "7,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "f19cf63b-ec43-41a4-8efd-0195b9e4a883": {
       "id": "f19cf63b-ec43-41a4-8efd-0195b9e4a883",
@@ -194591,16 +194592,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-07",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-07",
+      "days_listed": 95,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 16000.0,
           "precio": "16,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "d277fe57-63ee-4273-ba60-018e33c91e7d": {
       "id": "d277fe57-63ee-4273-ba60-018e33c91e7d",
@@ -221830,7 +221832,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Liliana Inda",
       "fecha_publicacion": "2026-09-23",
-      "days_on_market": 44,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/69863ce1-8326-4113-8f04-01a0cfc8061c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260923134047-a04d0d69ae544d479fdcb0f6e88afdbes.webp",
@@ -221838,9 +221840,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260923134100-1f0e5454ab674350a01c2a42c7ab73c7s.webp"
       ],
       "first_seen": "2026-09-25",
-      "last_seen": "2026-11-06",
-      "status": "delisted",
-      "delisted_at": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 43,
       "precio_history": [
         {
@@ -221849,7 +221851,7 @@
           "precio": "7,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8087c321-520c-45b5-9847-01a0cffc69f6": {
       "id": "8087c321-520c-45b5-9847-01a0cffc69f6",
@@ -221870,7 +221872,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Liliana Inda",
       "fecha_publicacion": "2026-09-23",
-      "days_on_market": 44,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8087c321-520c-45b5-9847-01a0cffc69f6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260923143713-51336fea0c164a2fbc49451bea9dec64s.webp",
@@ -221878,9 +221880,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260923143737-d07d2ff35abc47f8a91ed8f588915099s.webp"
       ],
       "first_seen": "2026-09-25",
-      "last_seen": "2026-11-06",
-      "status": "delisted",
-      "delisted_at": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 43,
       "precio_history": [
         {
@@ -221889,7 +221891,7 @@
           "precio": "7,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "2e5eb82b-400f-496d-a51a-01a0cfc56aec": {
       "id": "2e5eb82b-400f-496d-a51a-01a0cfc56aec",
@@ -237319,7 +237321,7 @@
     "60573a3c-9781-4cff-b0ee-01a1a397ed8a": {
       "id": "60573a3c-9781-4cff-b0ee-01a1a397ed8a",
       "code": "NN-HHZ715",
-      "title": "Oficina en Renta en La Concha, Torreón, Coahuila de Zaragoza",
+      "title": "OFICINA EN RENTA | EDIFICIO PASEO MILEX",
       "categoria": "Comercial",
       "tipo": "Oficina",
       "operacion": "Renta",
@@ -237330,7 +237332,7 @@
       "area_num": 85.0,
       "precio_m2": "$647.1/m²",
       "pm2_num": 647.06,
-      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
       "broker": "Sofía Medinilla Bienes Raíces",
@@ -239245,6 +239247,84 @@
           "date": "2026-11-07",
           "precio_num": 5800.0,
           "precio": "5,800 MXN Venta"
+        }
+      ]
+    },
+    "84db1e70-b7f0-4fe2-b326-01a1b73bd8d4": {
+      "id": "84db1e70-b7f0-4fe2-b326-01a1b73bd8d4",
+      "code": "NN-HIF653",
+      "title": "Bodega en Renta en Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "49,000 MXN Renta",
+      "precio_num": 49000.0,
+      "superficie": "560 m²",
+      "area_num": 560.0,
+      "precio_m2": "$87.5/m²",
+      "pm2_num": 87.5,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NaHauss Bienes Raices",
+      "fecha_publicacion": "2026-11-07",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/84db1e70-b7f0-4fe2-b326-01a1b73bd8d4",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261107121955-c435d7d3bfaa4de78b3f4147eba5f3a5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107122003-822d1635b33d4b80800b47e8191fb973s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107122022-049c35968471443994a3f9041b7b4975s.webp"
+      ],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-07",
+          "precio_num": 49000.0,
+          "precio": "49,000 MXN Renta"
+        }
+      ]
+    },
+    "64a40a77-df84-41fe-8d75-01a1b75958a7": {
+      "id": "64a40a77-df84-41fe-8d75-01a1b75958a7",
+      "code": "NN-HIF670",
+      "title": "BODEGA INDUSTRIAL EN VENTA | PARQUE INDUSTRIAL CARLOS A. HERRERA ARALUCE | GÓMEZ PALACIO, DURANGO",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "12,000,000 MXN Venta",
+      "precio_num": 12000000.0,
+      "superficie": "1,016 m²",
+      "area_num": 1016.0,
+      "precio_m2": "$11,811/m²",
+      "pm2_num": 11811.02,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "Mario Parra",
+      "fecha_publicacion": "2026-11-07",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/64a40a77-df84-41fe-8d75-01a1b75958a7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261107125403-d0e38c42aa3b414b97c87777eefd15bds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107125402-b238a4012db345478bc985645be2724bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107125403-63a9296f03b64030a4f473a015a6ca4as.webp"
+      ],
+      "first_seen": "2026-11-07",
+      "last_seen": "2026-11-07",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-07",
+          "precio_num": 12000000.0,
+          "precio": "12,000,000 MXN Venta"
         }
       ]
     }

@@ -1,8 +1,62 @@
 {
-  "run_at": "2026-11-07 09:37:48",
-  "total": 4680,
-  "new_count": 3,
+  "run_at": "2026-11-07 18:08:05",
+  "total": 4683,
+  "new_count": 2,
   "properties": [
+    {
+      "id": "69863ce1-8326-4113-8f04-01a0cfc8061c",
+      "code": "NN-HFW976",
+      "title": "Renta de consultorios muy céntricos",
+      "categoria": "Comercial",
+      "tipo": "Consultorio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "7,000 MXN Renta",
+      "precio_num": 7000.0,
+      "superficie": "7.8 m²",
+      "area_num": 7.8,
+      "precio_m2": "$897.4/m²",
+      "pm2_num": 897.44,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Liliana Inda",
+      "fecha_publicacion": "2026-11-07",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/69863ce1-8326-4113-8f04-01a0cfc8061c",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260923134109-6810e09abcca4f77bf05aea028f6c802s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260923134100-1f0e5454ab674350a01c2a42c7ab73c7s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260923134047-a04d0d69ae544d479fdcb0f6e88afdbes.webp"
+      ]
+    },
+    {
+      "id": "8087c321-520c-45b5-9847-01a0cffc69f6",
+      "code": "NN-HFX027",
+      "title": "Renta de consultorio en clínica dental en zona centro",
+      "categoria": "Comercial",
+      "tipo": "Consultorio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "7,000 MXN Renta",
+      "precio_num": 7000.0,
+      "superficie": "9 m²",
+      "area_num": 9.0,
+      "precio_m2": "$777.8/m²",
+      "pm2_num": 777.78,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Liliana Inda",
+      "fecha_publicacion": "2026-11-07",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/8087c321-520c-45b5-9847-01a0cffc69f6",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260923143713-51336fea0c164a2fbc49451bea9dec64s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107174615-7e4d1ab3293d453494815ea122624857s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260923143730-818d003bdf13491b9fa19e20990593dfs.webp"
+      ]
+    },
     {
       "id": "8df44221-111a-491d-9d1c-01a1b121aab1",
       "code": "NN-HIE893",
@@ -1282,33 +1336,6 @@
       ]
     },
     {
-      "id": "60573a3c-9781-4cff-b0ee-01a1a397ed8a",
-      "code": "NN-HHZ715",
-      "title": "Oficina en Renta en La Concha, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Oficina",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "55,000 MXN Renta",
-      "precio_num": 55000.0,
-      "superficie": "85 m²",
-      "area_num": 85.0,
-      "precio_m2": "$647.1/m²",
-      "pm2_num": 647.06,
-      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Sofía Medinilla Bienes Raíces",
-      "fecha_publicacion": "2026-11-03",
-      "days_on_market": 4,
-      "link": "https://app.nocnok.com/crm/154940/properties/60573a3c-9781-4cff-b0ee-01a1a397ed8a",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-261103164816-0a03737f032c430cb6913e58a3f7aedbs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261103164817-41d461e8d93f4ca0a9f99e1bff40800cs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-261103164817-3969d23d25814301aa4fcfc0458a4fefs.webp"
-      ]
-    },
-    {
       "id": "6b8a2dc6-fc98-4d90-adbf-01a1a4045a6e",
       "code": "NN-HHZ813",
       "title": "Bodega en Renta en Magdalenas, Torreón, Coahuila de Zaragoza",
@@ -1333,6 +1360,33 @@
         "https://s3.amazonaws.com/nocnok-img/pp-261103184936-16e75a17c8da4f278cabf710c658aad4s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261103184936-a03290cf933242aea19fde929778e8cds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261103184936-b138ac9e9d6f49b2bd9022b6d6cbee93s.webp"
+      ]
+    },
+    {
+      "id": "60573a3c-9781-4cff-b0ee-01a1a397ed8a",
+      "code": "NN-HHZ715",
+      "title": "OFICINA EN RENTA | EDIFICIO PASEO MILEX",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "55,000 MXN Renta",
+      "precio_num": 55000.0,
+      "superficie": "85 m²",
+      "area_num": 85.0,
+      "precio_m2": "$647.1/m²",
+      "pm2_num": 647.06,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Sofía Medinilla Bienes Raíces",
+      "fecha_publicacion": "2026-11-03",
+      "days_on_market": 4,
+      "link": "https://app.nocnok.com/crm/154940/properties/60573a3c-9781-4cff-b0ee-01a1a397ed8a",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261103164816-0a03737f032c430cb6913e58a3f7aedbs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261103164817-41d461e8d93f4ca0a9f99e1bff40800cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261103164817-3969d23d25814301aa4fcfc0458a4fefs.webp"
       ]
     },
     {
@@ -70080,33 +70134,6 @@
       ]
     },
     {
-      "id": "f3e107a1-41d0-4930-b251-0195bf214acb",
-      "code": "MX25-XX10078",
-      "title": "Local en renta en Mercahorro, Col. Real del Sol, Torreón, Coah.",
-      "categoria": "Comercial",
-      "tipo": "Local",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "7,000 MXN Renta",
-      "precio_num": 7000.0,
-      "superficie": "24 m²",
-      "area_num": 24.0,
-      "precio_m2": "$291.7/m²",
-      "pm2_num": 291.67,
-      "ubicacion": "Real del Sol I, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Kali Bienes Raíces",
-      "fecha_publicacion": "2025-03-22",
-      "days_on_market": 595,
-      "link": "https://app.nocnok.com/crm/154940/properties/f3e107a1-41d0-4930-b251-0195bf214acb",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-250322123509-1e81b6e352e54ab4b263563f769f4eb7s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250322123509-dfc55c077608480ead95bf1d4b864ec4s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250322123509-7a20484f4caa44d59338589bb4805210s.webp"
-      ]
-    },
-    {
       "id": "f19cf63b-ec43-41a4-8efd-0195b9e4a883",
       "code": "MX25-FB10240",
       "title": "Oficina en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
@@ -76207,33 +76234,6 @@
       ]
     },
     {
-      "id": "e6add80e-a1c9-41f0-b6ad-0192fde0e7bd",
-      "code": "MX24-MK2733",
-      "title": "Consultorio en Renta en La Union, Torreón, Coahuila de Zaragoza",
-      "categoria": "Comercial",
-      "tipo": "Consultorio",
-      "operacion": "Renta",
-      "op_key": "renta",
-      "precio": "16,000 MXN Renta",
-      "precio_num": 16000.0,
-      "superficie": "25 m²",
-      "area_num": 25.0,
-      "precio_m2": "$640.0/m²",
-      "pm2_num": 640.0,
-      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
-      "municipio": "Torreón",
-      "estado": "Coahuila de Zaragoza",
-      "broker": "Kali Bienes Raíces",
-      "fecha_publicacion": "2024-11-05",
-      "days_on_market": 732,
-      "link": "https://app.nocnok.com/crm/154940/properties/e6add80e-a1c9-41f0-b6ad-0192fde0e7bd",
-      "fotos_local": [
-        "https://s3.amazonaws.com/nocnok-img/pp-241105135201-4e5acfb7c79a4ff785fc8036dedd0cafs.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250122170050-bd08755bf90a49a9b3f23981f5570fd3s.webp",
-        "https://s3.amazonaws.com/nocnok-img/pp-250122165310-2769f562849c443dbb8581516bb22b0as.webp"
-      ]
-    },
-    {
       "id": "d277fe57-63ee-4273-ba60-018e33c91e7d",
       "code": "MX24-QA8770",
       "title": "Bodega en Venta en Real del Sol I, Torreón, Coahuila de Zaragoza",
@@ -80124,6 +80124,60 @@
         "https://s3.amazonaws.com/nocnok-img/190718100832-77d8b0e3901c483aad21a5ba0bb988df.jpg",
         "https://s3.amazonaws.com/nocnok-img/190718100838-6768930bba214f888c9c6d78b377aee5.jpg",
         "https://s3.amazonaws.com/nocnok-img/190718100841-72f44b04a4e34e7097b2b2c16ffaffe9.jpg"
+      ]
+    },
+    {
+      "id": "84db1e70-b7f0-4fe2-b326-01a1b73bd8d4",
+      "code": "NN-HIF653",
+      "title": "Bodega en Renta en Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "49,000 MXN Renta",
+      "precio_num": 49000.0,
+      "superficie": "560 m²",
+      "area_num": 560.0,
+      "precio_m2": "$87.5/m²",
+      "pm2_num": 87.5,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NaHauss Bienes Raices",
+      "fecha_publicacion": "2026-11-07",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/84db1e70-b7f0-4fe2-b326-01a1b73bd8d4",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261107121955-c435d7d3bfaa4de78b3f4147eba5f3a5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107122003-822d1635b33d4b80800b47e8191fb973s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107122022-049c35968471443994a3f9041b7b4975s.webp"
+      ]
+    },
+    {
+      "id": "a5f66552-1791-4701-a12d-019d5bd08c03",
+      "code": "NN-GWU753",
+      "title": "Gran bodega en renta zona norte",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "65,000 MXN Renta",
+      "precio_num": 65000.0,
+      "superficie": "1,300 m²",
+      "area_num": 1300.0,
+      "precio_m2": "$50.0/m²",
+      "pm2_num": 50.0,
+      "ubicacion": "Nueva Laguna Norte, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Liliana Inda",
+      "fecha_publicacion": "2026-11-07",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a5f66552-1791-4701-a12d-019d5bd08c03",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260404220533-ff034e7c7c4a4c8d851ce97795ea3c0es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260404220545-837fbde20eec4deba4f1eaac4ce54fc1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260404220556-39ece107c5eb483aa4db8b8f85bd9b51s.webp"
       ]
     },
     {
@@ -112835,6 +112889,33 @@
       "link": "https://app.nocnok.com/crm/154940/properties/03d06543-01ad-4414-aff2-018b292aa980",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230713180826-47161824b8e14ecb90ff605f6507c327.jpg"
+      ]
+    },
+    {
+      "id": "64a40a77-df84-41fe-8d75-01a1b75958a7",
+      "code": "NN-HIF670",
+      "title": "BODEGA INDUSTRIAL EN VENTA | PARQUE INDUSTRIAL CARLOS A. HERRERA ARALUCE | GÓMEZ PALACIO, DURANGO",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "12,000,000 MXN Venta",
+      "precio_num": 12000000.0,
+      "superficie": "1,016 m²",
+      "area_num": 1016.0,
+      "precio_m2": "$11,811/m²",
+      "pm2_num": 11811.02,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "Mario Parra",
+      "fecha_publicacion": "2026-11-07",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/64a40a77-df84-41fe-8d75-01a1b75958a7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261107125403-d0e38c42aa3b414b97c87777eefd15bds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107125402-b238a4012db345478bc985645be2724bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261107125403-63a9296f03b64030a4f473a015a6ca4as.webp"
       ]
     },
     {
