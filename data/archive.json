@@ -68097,7 +68097,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "BERE CAPITOLA",
       "fecha_publicacion": "2026-02-11",
-      "days_on_market": 170,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b1a9a7f8-18b7-4c9f-a557-019c53100404",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260212121657-a60a8feb7bfa4909a17dbb8ecf844646s.webp",
@@ -68105,9 +68105,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260212121654-54172720683f40749f6b55e6f0bac0e0s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-08-01",
-      "status": "delisted",
-      "delisted_at": "2026-08-02",
+      "last_seen": "2026-11-08",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 62,
       "precio_history": [
         {
@@ -68116,7 +68116,7 @@
           "precio": "102,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e4ed5803-bc34-4b9c-b24a-019c4e3b68f6": {
       "id": "e4ed5803-bc34-4b9c-b24a-019c4e3b68f6",
@@ -239330,6 +239330,44 @@
           "date": "2026-11-07",
           "precio_num": 12000000.0,
           "precio": "12,000,000 MXN Venta"
+        }
+      ]
+    },
+    "407191b5-f95f-45a6-b063-01a1bd5f5eb5": {
+      "id": "407191b5-f95f-45a6-b063-01a1bd5f5eb5",
+      "code": "NN-HIF873",
+      "title": "Terreno Comercial en Venta en La Joya, Torreón",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "30,500,000 MXN Venta",
+      "precio_num": 30500000.0,
+      "superficie": "12,171.05 m²",
+      "area_num": 12171.05,
+      "precio_m2": "$2,506/m²",
+      "pm2_num": 2505.95,
+      "ubicacion": "La Joya, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Murra Realty",
+      "fecha_publicacion": "2026-11-08",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/407191b5-f95f-45a6-b063-01a1bd5f5eb5",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261108181656-45e031033e1e4f459a5b61c943598444s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261108181656-410fe418f0c34141806fe515e84307ees.webp"
+      ],
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-08",
+          "precio_num": 30500000.0,
+          "precio": "30,500,000 MXN Venta"
         }
       ]
     }
