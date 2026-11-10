@@ -28543,12 +28543,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "60,000 MXN Renta",
-      "precio_num": 60000.0,
+      "precio": "57,000 MXN Renta",
+      "precio_num": 57000.0,
       "superficie": "355 m²",
       "area_num": 355.0,
-      "precio_m2": "$169.0/m²",
-      "pm2_num": 169.01,
+      "precio_m2": "$160.6/m²",
+      "pm2_num": 160.56,
       "ubicacion": "José de las Fuentes, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -42690,12 +42690,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "30,000 MXN Renta",
-      "precio_num": 30000.0,
+      "precio": "22,500 MXN Renta",
+      "precio_num": 22500.0,
       "superficie": "200 m²",
       "area_num": 200.0,
-      "precio_m2": "$150.0/m²",
-      "pm2_num": 150.0,
+      "precio_m2": "$112.5/m²",
+      "pm2_num": 112.5,
       "ubicacion": "Santa María, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -42718,6 +42718,11 @@
           "date": "2026-06-01",
           "precio_num": 30000.0,
           "precio": "30,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-09",
+          "precio_num": 22500.0,
+          "precio": "22,500 MXN Renta"
         }
       ],
       "delisted_reason": null
@@ -48307,7 +48312,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-03-06",
-      "days_on_market": 246,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/bf5ec5f7-c116-4290-a9b6-019cc961ba6f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260307113950-a6aa96f544e54226a4797396ef971a4cs.webp",
@@ -48315,9 +48320,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260307113948-0698f13f0a0e40b6bedf5731a80ddb4bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -48326,7 +48331,7 @@
           "precio": "16,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "127edd62-f6f7-4e67-b401-019cc97800dd": {
       "id": "127edd62-f6f7-4e67-b401-019cc97800dd",
@@ -48347,7 +48352,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-03-06",
-      "days_on_market": 246,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/127edd62-f6f7-4e67-b401-019cc97800dd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260307120359-01f61b79a7784fa0b038d5903f61ba90s.webp",
@@ -48355,9 +48360,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260307120358-3dab3af11e2647cc839c953c46ea3c84s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -48366,7 +48371,7 @@
           "precio": "175,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "676e13ba-b19b-4329-b00b-019cc97f0d88": {
       "id": "676e13ba-b19b-4329-b00b-019cc97f0d88",
@@ -48427,7 +48432,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-03-06",
-      "days_on_market": 246,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0f2ff8f7-dfa9-478f-9578-019cc98fda24",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260307123420-f7a3d9c7af8b43b4951dc8249f68ca24s.webp",
@@ -48435,9 +48440,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260307123419-afe30f2e923149c0b39463774cb0714es.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -48446,7 +48451,7 @@
           "precio": "126,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "7a2072d6-5525-427c-a482-019cc9c86792": {
       "id": "7a2072d6-5525-427c-a482-019cc9c86792",
@@ -48467,7 +48472,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-03-06",
-      "days_on_market": 246,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7a2072d6-5525-427c-a482-019cc9c86792",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260307133229-c97a726671d341bfbe83f881a4d399e1s.webp",
@@ -48475,9 +48480,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260307133226-445e6dfffa664dd6ba12f3260454fb65s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -48486,7 +48491,7 @@
           "precio": "105,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "cb6f7e78-183e-4a04-9b1c-019ccbbbe00f": {
       "id": "cb6f7e78-183e-4a04-9b1c-019ccbbbe00f",
@@ -52227,7 +52232,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-02-22",
-      "days_on_market": 258,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/132eb72a-5a7d-45b2-8d59-019c8b44b2c4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260223101148-8e9057c7df084d0281a44927d8db968fs.webp",
@@ -52235,9 +52240,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260223101148-097526f03982401594973e8a0496df6fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -52246,7 +52251,7 @@
           "precio": "1,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "25fd9842-cc54-4065-b60d-019c8b8528f4": {
       "id": "25fd9842-cc54-4065-b60d-019c8b8528f4",
@@ -72268,7 +72273,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-07",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/82a63ec8-644a-452e-a325-018d89d73e65",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240208110037-1e8255c7d72244758560b573d72359be.jpg",
@@ -72276,9 +72281,9 @@
         "https://s3.amazonaws.com/nocnok-img/240208110038-82d4cee20c5c4bbbb2774d6dafb930ea.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -72287,7 +72292,7 @@
           "precio": "23,771,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "4cb47b5b-7df0-495e-94a9-01921614f87b": {
       "id": "4cb47b5b-7df0-495e-94a9-01921614f87b",
@@ -72308,7 +72313,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-07",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4cb47b5b-7df0-495e-94a9-01921614f87b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240921133633-5bec9ad22c7b4d388512aec58d712440s.webp",
@@ -72316,9 +72321,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240921133633-c41740eb16ad407bb8230801dd07bcb7s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -72327,7 +72332,7 @@
           "precio": "50,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8510b1c3-d5ac-4716-a314-0199b83f5359": {
       "id": "8510b1c3-d5ac-4716-a314-0199b83f5359",
@@ -88128,7 +88133,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-03-05",
-      "days_on_market": 247,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b071acec-a8dc-4962-8b08-019cc405314c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260306104024-58295427544b44feb5d64200a66055f2s.webp",
@@ -88136,9 +88141,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260306104024-15896bf9342645b7814e9fa7947374eds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -88147,7 +88152,7 @@
           "precio": "3,400,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "839d5f6b-19b2-45b4-8a7b-019cbf795f04": {
       "id": "839d5f6b-19b2-45b4-8a7b-019cbf795f04",
@@ -91848,12 +91853,12 @@
       "tipo": "Edificio",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "4,450,000 MXN Venta",
-      "precio_num": 4450000.0,
+      "precio": "5,000,000 MXN Venta",
+      "precio_num": 5000000.0,
       "superficie": "200 m²",
       "area_num": 200.0,
-      "precio_m2": "$22,250/m²",
-      "pm2_num": 22250.0,
+      "precio_m2": "$25,000/m²",
+      "pm2_num": 25000.0,
       "ubicacion": "Gomez Palacio Centro, Gómez Palacio, Durango",
       "municipio": "Gómez Palacio",
       "estado": "Durango",
@@ -91899,7 +91904,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-07",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b6d564f3-9bf9-4307-96bd-018b28406578",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220602103633-ed98288b23194675b07f92554c05228f.jpg",
@@ -91907,9 +91912,9 @@
         "https://s3.amazonaws.com/nocnok-img/220602103634-be2610aaaaed408cbbf7481be64e8875.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -91918,7 +91923,7 @@
           "precio": "4,625,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "074aeec1-beb0-4733-967e-01949e52db16": {
       "id": "074aeec1-beb0-4733-967e-01949e52db16",
@@ -91979,7 +91984,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-07",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d69abec2-810f-46c1-814d-019012ef7743",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240613123858-86eb162089694924851f830444af0126.jpg",
@@ -91987,9 +91992,9 @@
         "https://s3.amazonaws.com/nocnok-img/240613123900-8ab5066321c240cfa281887479d35a83.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -91998,7 +92003,7 @@
           "precio": "4,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "52b3743d-2520-498b-b0ea-019009b56a57": {
       "id": "52b3743d-2520-498b-b0ea-019009b56a57",
@@ -92019,7 +92024,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-07",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/52b3743d-2520-498b-b0ea-019009b56a57",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240611170933-c75102cf87ad417b9635929fe7ed11d5.jpg",
@@ -92027,9 +92032,9 @@
         "https://s3.amazonaws.com/nocnok-img/240611170925-1ea925992b0749caa9e47af007cb6db1.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -92038,7 +92043,7 @@
           "precio": "24,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9390952c-b1ba-4450-a0d4-0199bae2ef28": {
       "id": "9390952c-b1ba-4450-a0d4-0199bae2ef28",
@@ -98635,9 +98640,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-09",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 148,
+      "status": "delisted",
+      "delisted_at": "2026-11-09",
+      "days_listed": 161,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -98645,7 +98650,7 @@
           "precio": "160,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "8c7b4fab-baba-4649-a2a2-019776715997": {
       "id": "8c7b4fab-baba-4649-a2a2-019776715997",
@@ -101345,9 +101350,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-09",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-09",
+      "days_listed": 161,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -101355,7 +101360,7 @@
           "precio": "2,137,500 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "5853c84a-33df-4fcc-bddd-019d69347a13": {
       "id": "5853c84a-33df-4fcc-bddd-019d69347a13",
@@ -101790,9 +101795,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-09",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-09",
+      "days_listed": 161,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -101800,7 +101805,7 @@
           "precio": "2,137,500 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "57198d3c-fe17-494a-9704-019d266064b4": {
       "id": "57198d3c-fe17-494a-9704-019d266064b4",
@@ -110467,7 +110472,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-07",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2faca0d0-078f-46bf-8ff5-018c02e1cf95",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/231124130907-ff49bd6211594e398dbd090bc37a8d37.jpg",
@@ -110475,9 +110480,9 @@
         "https://s3.amazonaws.com/nocnok-img/231124130909-243dbc2a7b3344568d198122728ef313.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -110486,7 +110491,7 @@
           "precio": "108,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "ee69d15f-6102-447a-b76d-01922a8acd2c": {
       "id": "ee69d15f-6102-447a-b76d-01922a8acd2c",
@@ -110507,7 +110512,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-07",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/ee69d15f-6102-447a-b76d-01922a8acd2c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240925125641-60e03e87376a4c4d86d06e96639760a6s.webp",
@@ -110515,9 +110520,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240925125642-e8cb335927a1469286f95396205618f4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 161,
       "precio_history": [
         {
@@ -110526,7 +110531,7 @@
           "precio": "23,372,660 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8e90aa30-b5ea-41e9-9637-01992bf96d29": {
       "id": "8e90aa30-b5ea-41e9-9637-01992bf96d29",
@@ -116668,7 +116673,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-01",
-      "days_on_market": 159,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/cb76fc43-443d-41bd-8715-019e8aa90067",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260602172712-1488b69ef61f4656a148e5f96c9f4b03s.webp",
@@ -116676,9 +116681,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260602172708-10d7a8a2efaf4663a1cc45cd03f36c3fs.webp"
       ],
       "first_seen": "2026-06-03",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 159,
       "precio_history": [
         {
@@ -116687,7 +116692,7 @@
           "precio": "25,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "49f7e9ac-6a7f-48a5-84f5-019e8b416682": {
       "id": "49f7e9ac-6a7f-48a5-84f5-019e8b416682",
@@ -117065,7 +117070,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-01",
-      "days_on_market": 159,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8dc8d8c6-c2b8-4ebc-85e9-019e8a7be7ba",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260602163803-e2217abeb2974cc280c03ac32dd6c0f2s.webp",
@@ -117073,9 +117078,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260602163802-1af6a158c6ee43da929633f93bdd48ees.webp"
       ],
       "first_seen": "2026-06-03",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 159,
       "precio_history": [
         {
@@ -117084,7 +117089,7 @@
           "precio": "700,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "07b37f9b-ba5d-42f1-b7ea-019e89445d7c": {
       "id": "07b37f9b-ba5d-42f1-b7ea-019e89445d7c",
@@ -119351,7 +119356,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-04",
-      "days_on_market": 157,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6f132631-705c-43f6-942c-019e94d0f7cb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260604165009-bbfa243690344aebbd4b25c94fd9cd0ds.webp",
@@ -119359,9 +119364,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260604165006-bc23e68069864dd091cc65f706888ef3s.webp"
       ],
       "first_seen": "2026-06-05",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 157,
       "precio_history": [
         {
@@ -119370,7 +119375,7 @@
           "precio": "24,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "22096b93-c0db-4203-9bfc-01956e080107": {
       "id": "22096b93-c0db-4203-9bfc-01956e080107",
@@ -121762,7 +121767,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-10",
-      "days_on_market": 151,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/55455e69-b6dd-494c-8b6c-019eb3e75112",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260610173931-9026592938f94de4bebb8e9f85b9c835s.webp",
@@ -121770,9 +121775,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260610173930-edd3310698e6466b88f944e3d5e55f15s.webp"
       ],
       "first_seen": "2026-06-11",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 151,
       "precio_history": [
         {
@@ -121781,7 +121786,7 @@
           "precio": "4,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "54e9d016-6d10-4f66-95a5-019eae896087": {
       "id": "54e9d016-6d10-4f66-95a5-019eae896087",
@@ -124280,7 +124285,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-16",
-      "days_on_market": 145,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/12fd376b-2176-4439-a127-019ed2c22c86",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260616172702-7bd60860401642089a20f065be4fed37s.webp",
@@ -124288,9 +124293,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260616172702-abe678385ee440009d40c41aab32a4cfs.webp"
       ],
       "first_seen": "2026-06-17",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -124299,7 +124304,7 @@
           "precio": "14,883,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "31f8fd95-3c8c-42d6-8204-019ed19194ac": {
       "id": "31f8fd95-3c8c-42d6-8204-019ed19194ac",
@@ -124443,7 +124448,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-16",
-      "days_on_market": 145,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0baf1676-44a4-49f6-b02f-019ed2e6965a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260616180818-17c58f7b14e5470fb6ae84b4785cc817s.webp",
@@ -124451,9 +124456,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260616180816-c25f77bacb1b47ee90b49e45acbab36cs.webp"
       ],
       "first_seen": "2026-06-17",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -124462,7 +124467,7 @@
           "precio": "13,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "606564ab-87ab-4f5a-82b6-019ed2f11f97": {
       "id": "606564ab-87ab-4f5a-82b6-019ed2f11f97",
@@ -125661,7 +125666,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-15",
-      "days_on_market": 146,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/40149784-f81d-415a-8ebf-019ecd9dfa25",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260615172925-6765a1d1ad0a4d74bc3a778eb667a86es.webp",
@@ -125669,9 +125674,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260615172925-e4373494c3f44720ad69c0697dc2d3a0s.webp"
       ],
       "first_seen": "2026-06-17",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -125680,7 +125685,7 @@
           "precio": "34,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "598b542d-e92b-4156-93c6-019ed66225f3": {
       "id": "598b542d-e92b-4156-93c6-019ed66225f3",
@@ -126178,7 +126183,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-16",
-      "days_on_market": 145,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b859b8e7-5f1b-4115-bf46-019ed2bbcef0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260616172012-6bf9cdd6a7874a7b814c0eb58601cd33s.webp",
@@ -126186,9 +126191,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260616172005-b264dca0208d4f54afa36fe2a2b55d0es.webp"
       ],
       "first_seen": "2026-06-17",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 145,
       "precio_history": [
         {
@@ -126197,7 +126202,7 @@
           "precio": "9,116,822 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "10f74a2c-b50c-4757-ad96-019ed6779550": {
       "id": "10f74a2c-b50c-4757-ad96-019ed6779550",
@@ -130822,7 +130827,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 139,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d4cd4471-db53-48f4-ac08-019ef1dc9927",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622182416-276415593574436391f2e7d8a244158as.webp",
@@ -130830,9 +130835,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622182411-3bcb9e8cb2684e268231cb9ba1f6e977s.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 139,
       "precio_history": [
         {
@@ -130841,7 +130846,7 @@
           "precio": "22,353 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b7f1f4f0-44cb-4834-823d-019ef1f3218c": {
       "id": "b7f1f4f0-44cb-4834-823d-019ef1f3218c",
@@ -131185,7 +131190,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 139,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/5df2cb9c-23e4-4f0a-b9a6-019ef1ccf7c4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622180701-3fbab2ee975449aabb5e3ca85cd73477s.webp",
@@ -131193,9 +131198,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622180701-391dbd251e974c76acd788cf9b795c8fs.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 139,
       "precio_history": [
         {
@@ -131204,7 +131209,7 @@
           "precio": "70,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5211c008-0648-466b-914c-019ef1b33eb4": {
       "id": "5211c008-0648-466b-914c-019ef1b33eb4",
@@ -131225,7 +131230,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 139,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/5211c008-0648-466b-914c-019ef1b33eb4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622173853-7c1a26d4184b482480fad9089185b53ds.webp",
@@ -131233,9 +131238,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622173852-1ac3525c531c4769a46a0104d8710716s.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 139,
       "precio_history": [
         {
@@ -131244,7 +131249,7 @@
           "precio": "60,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "f9a8bfa4-5095-4f16-be87-019ef1d308ab": {
       "id": "f9a8bfa4-5095-4f16-be87-019ef1d308ab",
@@ -131265,7 +131270,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 139,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/f9a8bfa4-5095-4f16-be87-019ef1d308ab",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622181336-5261f73cad8f4e40836ab37fb8dd31e1s.webp",
@@ -131273,9 +131278,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622181339-966df51a284f43f5939e11492bf823a7s.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 139,
       "precio_history": [
         {
@@ -131284,7 +131289,7 @@
           "precio": "142,350 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "3997066e-c15f-4b76-9aa3-019ef1f43019": {
       "id": "3997066e-c15f-4b76-9aa3-019ef1f43019",
@@ -131305,7 +131310,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 139,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3997066e-c15f-4b76-9aa3-019ef1f43019",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622184949-bd5f311b7f1746a590996f3a828c4325s.webp",
@@ -131313,9 +131318,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622184949-71d02a475dcb4d74a6be34884bfc059as.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 139,
       "precio_history": [
         {
@@ -131324,7 +131329,7 @@
           "precio": "105,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "760f5582-ad2f-444b-a6f9-019ef088c5fa": {
       "id": "760f5582-ad2f-444b-a6f9-019ef088c5fa",
@@ -131543,7 +131548,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 139,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8bfb1957-8ac2-4d30-bd78-019ef1c4e2b9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622175817-5ab4bb17a885433796cd6ee4c064a120s.webp",
@@ -131551,9 +131556,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622175817-553148617e784145acc41be65e86d97cs.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 139,
       "precio_history": [
         {
@@ -131562,7 +131567,7 @@
           "precio": "45,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "33a39b00-513f-465a-b3f3-019ef1bb9234": {
       "id": "33a39b00-513f-465a-b3f3-019ef1bb9234",
@@ -132411,7 +132416,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-23",
-      "days_on_market": 138,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b0c09b0a-43b9-42c6-8548-019ef6acf78a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260623165159-341403a49a8e45e286cb4330cfb47020s.webp",
@@ -132419,9 +132424,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260623165158-543c23b967dd4d2593982dd016df3b81s.webp"
       ],
       "first_seen": "2026-06-24",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 138,
       "precio_history": [
         {
@@ -132430,7 +132435,7 @@
           "precio": "65,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "3404bc1d-2fcb-4b9b-800e-019ef5b6810a": {
       "id": "3404bc1d-2fcb-4b9b-800e-019ef5b6810a",
@@ -132571,7 +132576,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-23",
-      "days_on_market": 138,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/fc7721c1-c481-47e3-acfb-019ef70185a7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260623182355-4f481fd7918a4e67b963ba61dab75637s.webp",
@@ -132579,9 +132584,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260623182355-945a8354f0b34d87893b17795dcb9391s.webp"
       ],
       "first_seen": "2026-06-24",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 138,
       "precio_history": [
         {
@@ -132590,7 +132595,7 @@
           "precio": "123,840 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "6876ea95-e38b-439d-9d57-018b25144e0f": {
       "id": "6876ea95-e38b-439d-9d57-018b25144e0f",
@@ -132691,7 +132696,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-23",
-      "days_on_market": 138,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2259aa15-15cd-4f6a-bd56-019ef6ec031b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260623175913-88fcee94e4ea4ba2a13d0f8dfef4bc6cs.webp",
@@ -132699,9 +132704,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260623175913-6688d9c4c8e54b0db0e97b206d15f362s.webp"
       ],
       "first_seen": "2026-06-24",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 138,
       "precio_history": [
         {
@@ -132710,7 +132715,7 @@
           "precio": "450,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "06712786-e76a-4648-92e2-019eff5cfdb7": {
       "id": "06712786-e76a-4648-92e2-019eff5cfdb7",
@@ -132850,7 +132855,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-24",
-      "days_on_market": 137,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b4123baa-e1dd-49b5-9c8d-019efc089ac6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260624174830-9bb1608cf0124a59a9467929bf17e1d8s.webp",
@@ -132858,9 +132863,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260624174831-542bd6bf6f024f44a09f7f57e50cb442s.webp"
       ],
       "first_seen": "2026-06-25",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 137,
       "precio_history": [
         {
@@ -132869,7 +132874,7 @@
           "precio": "1,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b649dc6e-2fd8-48f1-90ba-019efc0f7d88": {
       "id": "b649dc6e-2fd8-48f1-90ba-019efc0f7d88",
@@ -132890,7 +132895,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-24",
-      "days_on_market": 137,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b649dc6e-2fd8-48f1-90ba-019efc0f7d88",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260624175554-fc5915981e804c27aa6d6779818a27f6s.webp",
@@ -132898,9 +132903,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260624175553-feb006f54d8141f4b37e3c131711dec0s.webp"
       ],
       "first_seen": "2026-06-25",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 137,
       "precio_history": [
         {
@@ -132909,7 +132914,7 @@
           "precio": "4,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "3992f99f-c5fc-4a0a-b840-018e538aff25": {
       "id": "3992f99f-c5fc-4a0a-b840-018e538aff25",
@@ -133089,7 +133094,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-24",
-      "days_on_market": 137,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6367cf5c-47ed-4e63-9f2f-019efbf3c5e4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260624172531-4dda6356998b4eb8b9009c217b49c3b0s.webp",
@@ -133097,9 +133102,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260624172532-985cf5356fc541a0abc4934ecb941687s.webp"
       ],
       "first_seen": "2026-06-25",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 137,
       "precio_history": [
         {
@@ -133108,7 +133113,7 @@
           "precio": "280,112 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "dcf96bda-a4f6-489f-b9dd-019efb0bfee1": {
       "id": "dcf96bda-a4f6-489f-b9dd-019efb0bfee1",
@@ -133570,7 +133575,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-25",
-      "days_on_market": 136,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a015febb-a7ff-4cc0-bab7-019f016a7bba",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260625185432-0fbcffc7e9564d27bb2b8f49c03e23a7s.webp",
@@ -133578,9 +133583,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260625185431-fa1f7e7145ea43a89be015bc9ad47a2ds.webp"
       ],
       "first_seen": "2026-06-26",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 136,
       "precio_history": [
         {
@@ -133589,7 +133594,7 @@
           "precio": "10,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "8c2d79a7-8fe5-49a8-8f56-019f0161a7ee": {
       "id": "8c2d79a7-8fe5-49a8-8f56-019f0161a7ee",
@@ -133845,7 +133850,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-25",
-      "days_on_market": 136,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/aa2b3f9e-5be3-4384-8fcd-019f00ccb969",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260625160106-94eb1adc1631412e9ea9895e5dfe060bs.webp",
@@ -133853,9 +133858,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260625160104-896dca3f0a484ce6868a598ae2a69317s.webp"
       ],
       "first_seen": "2026-06-26",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 136,
       "precio_history": [
         {
@@ -133864,7 +133869,7 @@
           "precio": "1,177,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "80f55e82-a728-4ed0-b9b8-019effc1f665": {
       "id": "80f55e82-a728-4ed0-b9b8-019effc1f665",
@@ -135114,16 +135119,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-30",
-      "days_on_market": 131,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/83214792-600f-4f7f-9e44-019f1aef95dd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260630174913-e4d21a50d8d542bd953a12dd7a8a4b7cs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260630174913-be44af410fff44a4a20c36ae54b5e21as.webp"
       ],
       "first_seen": "2026-07-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 131,
       "precio_history": [
         {
@@ -135132,7 +135137,7 @@
           "precio": "390,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e2115bc6-b2cb-417c-bcda-019f1aadcfbd": {
       "id": "e2115bc6-b2cb-417c-bcda-019f1aadcfbd",
@@ -135153,7 +135158,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-30",
-      "days_on_market": 131,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e2115bc6-b2cb-417c-bcda-019f1aadcfbd",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260630163919-ffe80d57972e4e32954073c39476ddccs.webp",
@@ -135161,9 +135166,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260630163921-bbd1701bb2904992aaaf5232c5be07c6s.webp"
       ],
       "first_seen": "2026-07-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 131,
       "precio_history": [
         {
@@ -135172,7 +135177,7 @@
           "precio": "95,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "991ddd7a-14d1-423e-a066-019f1acf1e10": {
       "id": "991ddd7a-14d1-423e-a066-019f1acf1e10",
@@ -135311,7 +135316,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-06-30",
-      "days_on_market": 131,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4f2e6121-0c3e-4553-aabb-019f1ae8a828",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260630174321-8c6323ed12554543a3f3a52b7755f993s.webp",
@@ -135319,9 +135324,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260630174320-329083c96df2455f9104454d8fb76198s.webp"
       ],
       "first_seen": "2026-07-01",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 131,
       "precio_history": [
         {
@@ -135330,7 +135335,7 @@
           "precio": "92,800 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5127cdee-9ef9-4a1e-a2cd-019f1b1fb081": {
       "id": "5127cdee-9ef9-4a1e-a2cd-019f1b1fb081",
@@ -135598,7 +135603,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-07-01",
-      "days_on_market": 130,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/de38e8dc-dde1-4b50-90e5-019f1f2406c6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260701132455-f3722217a90e434fbce450a8599b45f7s.webp",
@@ -135606,9 +135611,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260701132454-072fa0b1307a42888d5f16260e50dec2s.webp"
       ],
       "first_seen": "2026-07-02",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 130,
       "precio_history": [
         {
@@ -135617,7 +135622,7 @@
           "precio": "2,250,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "7558b95b-c9ce-4f6a-8922-019f2006d9a7": {
       "id": "7558b95b-c9ce-4f6a-8922-019f2006d9a7",
@@ -138040,7 +138045,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-07-07",
-      "days_on_market": 124,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/69e16a2b-1fcc-4548-a2dd-019f3ecb0d8d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260707165555-352bbda249794eb6ba35fe446d40aea5s.webp",
@@ -138048,9 +138053,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260707165558-c1eaefc7c8494f49bcc1165cff3507f5s.webp"
       ],
       "first_seen": "2026-07-08",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 124,
       "precio_history": [
         {
@@ -138059,7 +138064,7 @@
           "precio": "95,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "c6821dda-1a0d-40d3-890e-019f3a65ad26": {
       "id": "c6821dda-1a0d-40d3-890e-019f3a65ad26",
@@ -138714,7 +138719,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-07-07",
-      "days_on_market": 124,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/f74006f0-384b-46ce-be3e-019f3eb0dd17",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260707162821-34aef77e781c4d3a96bc8c3238510d49s.webp",
@@ -138722,9 +138727,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260707162820-93fdc3f48c1243dab63a97555b598dbas.webp"
       ],
       "first_seen": "2026-07-09",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 123,
       "precio_history": [
         {
@@ -138733,7 +138738,7 @@
           "precio": "96,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "ad2f1887-535c-4a10-8034-019f3eb774d2": {
       "id": "ad2f1887-535c-4a10-8034-019f3eb774d2",
@@ -138754,7 +138759,7 @@
       "estado": "Durango",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-07-07",
-      "days_on_market": 124,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/ad2f1887-535c-4a10-8034-019f3eb774d2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260707163531-2e74f9dd950246ceb8fb1d297eb99f27s.webp",
@@ -138762,9 +138767,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260707163531-db90e1b573c348c1a032d823c31fb3c1s.webp"
       ],
       "first_seen": "2026-07-09",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 123,
       "precio_history": [
         {
@@ -138773,7 +138778,7 @@
           "precio": "48,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b73459d8-250d-4970-86d2-019f3fd8c8b6": {
       "id": "b73459d8-250d-4970-86d2-019f3fd8c8b6",
@@ -141625,9 +141630,9 @@
       ],
       "first_seen": "2026-07-14",
       "last_seen": "2026-11-09",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-09",
+      "days_listed": 118,
       "precio_history": [
         {
           "date": "2026-07-14",
@@ -141639,7 +141644,8 @@
           "precio_num": 75000.0,
           "precio": "75,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "3de60d77-da33-48b2-aa29-019f5cb88d21": {
       "id": "3de60d77-da33-48b2-aa29-019f5cb88d21",
@@ -142504,7 +142510,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-07-15",
-      "days_on_market": 116,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c8f78a85-75b0-48ac-8c12-019f68301c02",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260715175044-86274951346548328f7923208ba4121es.webp",
@@ -142512,9 +142518,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260715175039-5edf611c1dcc4856b4fe30418ac8f0ffs.webp"
       ],
       "first_seen": "2026-07-16",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 116,
       "precio_history": [
         {
@@ -142523,7 +142529,7 @@
           "precio": "22,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "0085e82f-1f6c-4d39-9bf9-019f68e08235": {
       "id": "0085e82f-1f6c-4d39-9bf9-019f68e08235",
@@ -142622,7 +142628,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-07-15",
-      "days_on_market": 116,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4ca6f12d-8fde-4bf0-8b2c-019f6823091f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260715173641-1aadc3b0585742e5ba0bc4d24fe8efb9s.webp",
@@ -142630,9 +142636,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260715173645-ab25f4c6ea6b426b9cc3fa6fb7ad094es.webp"
       ],
       "first_seen": "2026-07-16",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 116,
       "precio_history": [
         {
@@ -142641,7 +142647,7 @@
           "precio": "2,100,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "be71c337-186a-487c-a4df-019f671ec773": {
       "id": "be71c337-186a-487c-a4df-019f671ec773",
@@ -146759,12 +146765,12 @@
       "tipo": "Terreno",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "32,266,000 MXN Venta",
-      "precio_num": 32266000.0,
+      "precio": "10,752,000 MXN Venta",
+      "precio_num": 10752000.0,
       "superficie": "12,410 m²",
       "area_num": 12410.0,
-      "precio_m2": "$2,600/m²",
-      "pm2_num": 2600.0,
+      "precio_m2": "$2,599/m²",
+      "pm2_num": 2599.14,
       "ubicacion": "Matamoros, Matamoros, Coahuila de Zaragoza",
       "municipio": "Matamoros",
       "estado": "Coahuila de Zaragoza",
@@ -146787,6 +146793,11 @@
           "date": "2026-07-24",
           "precio_num": 32266000.0,
           "precio": "32,266,000 MXN Venta"
+        },
+        {
+          "date": "2026-11-09",
+          "precio_num": 10752000.0,
+          "precio": "10,752,000 MXN Venta"
         }
       ]
     },
@@ -147491,16 +147502,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2026-07-25",
-      "days_on_market": 106,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0e4e9ac2-2a96-42c3-a3c1-019f9a013858",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260725100011-d3e4fb63fe8045869079567bfd2c7818s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260725100011-1d4930035d56470a96c2e2eb9c82b4e9s.webp"
       ],
       "first_seen": "2026-07-26",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 106,
       "precio_history": [
         {
@@ -147509,7 +147520,7 @@
           "precio": "431,868 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "646ab17d-700a-4078-9d4e-019f9a4e1e63": {
       "id": "646ab17d-700a-4078-9d4e-019f9a4e1e63",
@@ -151711,12 +151722,12 @@
       "tipo": "Oficina",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "2,800,000 MXN Venta",
-      "precio_num": 2800000.0,
+      "precio": "3,500,000 MXN Venta",
+      "precio_num": 3500000.0,
       "superficie": "347 m²",
       "area_num": 347.0,
-      "precio_m2": "$8,069/m²",
-      "pm2_num": 8069.16,
+      "precio_m2": "$10,086/m²",
+      "pm2_num": 10086.46,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -161001,7 +161012,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-12-02",
-      "days_on_market": 341,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3d8b0817-9951-43bb-bbe3-019adfff06d2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251202105749-1a04dc8bd92e452d98a4f176be3e4637s.webp",
@@ -161009,9 +161020,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251202105747-a0483f22cf7c42ceab694df8aecdc888s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -161020,7 +161031,7 @@
           "precio": "14,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "7b74b4be-1633-4cdc-bceb-019ae0c749b8": {
       "id": "7b74b4be-1633-4cdc-bceb-019ae0c749b8",
@@ -164766,7 +164777,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-24",
-      "days_on_market": 380,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9674edfe-f9e8-40af-9a6d-019a17035a87",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251024101822-6f8c2c20b8f54e72a53b3bfd85ef4fdes.webp",
@@ -164774,9 +164785,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251024101825-e2e5e45928894e33884d5aaa0b928cc2s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -164785,7 +164796,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "ebe0b75c-8f26-46d1-a544-019a1796a9d3": {
       "id": "ebe0b75c-8f26-46d1-a544-019a1796a9d3",
@@ -166147,7 +166158,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/aa323d7d-81ab-4fe4-b4a5-01900d922c25",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240612113307-ce6455159240487dae97d8d72dda47dc.jpg",
@@ -166155,9 +166166,9 @@
         "https://s3.amazonaws.com/nocnok-img/240612113255-efe7cd13476542f9bfce21dd3519c2a7.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166166,7 +166177,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "595bb78d-7e76-4f3d-8f47-019013266582": {
       "id": "595bb78d-7e76-4f3d-8f47-019013266582",
@@ -166187,7 +166198,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/595bb78d-7e76-4f3d-8f47-019013266582",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240613130605-43fec96f6cb04dbea34ec1e3da4c8168.jpg",
@@ -166195,9 +166206,9 @@
         "https://s3.amazonaws.com/nocnok-img/240613130608-c5c1835d4e66492ea41a89dec01c4df1.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166206,7 +166217,7 @@
           "precio": "40,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "6edb68fd-2c9b-474c-bb4e-018ee7d0c992": {
       "id": "6edb68fd-2c9b-474c-bb4e-018ee7d0c992",
@@ -166227,7 +166238,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6edb68fd-2c9b-474c-bb4e-018ee7d0c992",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240416095610-b3e5c4b6aa634dd1bf88a33954d43fa8.jpg",
@@ -166235,9 +166246,9 @@
         "https://s3.amazonaws.com/nocnok-img/240416095611-9b2fcb292b6445acaef44c6302f7579b.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166246,7 +166257,7 @@
           "precio": "3,350,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "c534f446-839e-4688-bfab-019098295cf4": {
       "id": "c534f446-839e-4688-bfab-019098295cf4",
@@ -166267,7 +166278,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c534f446-839e-4688-bfab-019098295cf4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240709095048-39e2d746364a4e6fbe9ab2c49113992bs.webp",
@@ -166275,9 +166286,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240709095150-0f3a5eba7bc04962ae1c985983236ec3s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166286,7 +166297,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e0bcec5a-9b8e-4931-8fd7-0192681b0ba4": {
       "id": "e0bcec5a-9b8e-4931-8fd7-0192681b0ba4",
@@ -166307,7 +166318,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e0bcec5a-9b8e-4931-8fd7-0192681b0ba4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-241007115123-f2fe546e4d554acba87b8cfa913dd5fds.webp",
@@ -166315,9 +166326,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-241007115123-e08a21100eb14458aef9f5860451e256s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166326,7 +166337,7 @@
           "precio": "2,700 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "a5411aa3-9581-46ad-80af-01922a85ab0d": {
       "id": "a5411aa3-9581-46ad-80af-01922a85ab0d",
@@ -166347,7 +166358,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a5411aa3-9581-46ad-80af-01922a85ab0d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240925125103-09170fc69b6546848d9c95230f2b960as.webp",
@@ -166355,9 +166366,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240925125103-da1780cd98534e66a33b2465ef651240s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166366,7 +166377,7 @@
           "precio": "20,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "ac1a3a89-a8f9-4ba4-b155-01922a862535": {
       "id": "ac1a3a89-a8f9-4ba4-b155-01922a862535",
@@ -166387,7 +166398,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/ac1a3a89-a8f9-4ba4-b155-01922a862535",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240925125134-0a1745a77b984bba88e956030ab3cf38s.webp",
@@ -166395,9 +166406,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240925125135-c36061bc26e44820ba58e8cb80d4268ds.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166406,7 +166417,7 @@
           "precio": "5,775,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "f01cd9ad-cb39-4722-a8f4-01924433f6b6": {
       "id": "f01cd9ad-cb39-4722-a8f4-01924433f6b6",
@@ -166427,7 +166438,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/f01cd9ad-cb39-4722-a8f4-01924433f6b6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240930123206-172c3c50b7a6469e9b07827e7efebb3ds.webp",
@@ -166435,9 +166446,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240930123205-485980862a7243ebb0f686cb5f3c9003s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166446,7 +166457,7 @@
           "precio": "735,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9bb70d97-2e90-419e-a0b7-018b293b7f33": {
       "id": "9bb70d97-2e90-419e-a0b7-018b293b7f33",
@@ -166467,16 +166478,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9bb70d97-2e90-419e-a0b7-018b293b7f33",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230901142502-f3001756a5aa4641a4ab63223e1641cf.jpg",
         "https://s3.amazonaws.com/nocnok-img/230901142503-b4977c63841143e69e75ba65983f5687.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166485,7 +166496,7 @@
           "precio": "17,103 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d125d5f6-8c2a-4819-a0d0-018b293b8823": {
       "id": "d125d5f6-8c2a-4819-a0d0-018b293b8823",
@@ -166506,7 +166517,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d125d5f6-8c2a-4819-a0d0-018b293b8823",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230902114529-6b880d83875646d2a4026b0c4598970a.jpg",
@@ -166514,9 +166525,9 @@
         "https://s3.amazonaws.com/nocnok-img/230902114530-8c4688c537c24b8e8aeb0c429658c491.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166525,7 +166536,7 @@
           "precio": "65,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "0bd4c27b-f589-4371-b32f-018b293b90ea": {
       "id": "0bd4c27b-f589-4371-b32f-018b293b90ea",
@@ -166546,7 +166557,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0bd4c27b-f589-4371-b32f-018b293b90ea",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230904111137-b7fc8123ac0e415cbf94c43fbb91e7b1.jpg",
@@ -166554,9 +166565,9 @@
         "https://s3.amazonaws.com/nocnok-img/230904111138-c0e50cdfe4f94800808fb9906a1b498f.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166565,7 +166576,7 @@
           "precio": "7,800,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "d9468984-903a-4b52-9af3-018bde9e60a7": {
       "id": "d9468984-903a-4b52-9af3-018bde9e60a7",
@@ -166586,7 +166597,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d9468984-903a-4b52-9af3-018bde9e60a7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/231117125004-83ad538bff7042f7a537b569392d4aa8.jpg",
@@ -166594,9 +166605,9 @@
         "https://s3.amazonaws.com/nocnok-img/231117125006-68321955deaa42cb83ab6c22072254d7.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166605,7 +166616,7 @@
           "precio": "9,252,315 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "5759e406-e876-4fa6-a1ac-018dccc9eca8": {
       "id": "5759e406-e876-4fa6-a1ac-018dccc9eca8",
@@ -166626,7 +166637,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/5759e406-e876-4fa6-a1ac-018dccc9eca8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240221113013-08818178ef45420d88772d2bd2656f8a.jpg",
@@ -166634,9 +166645,9 @@
         "https://s3.amazonaws.com/nocnok-img/240221113015-6125f8e0a9aa4e1da9e429bf3485545d.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166645,7 +166656,7 @@
           "precio": "13,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "91a44d20-8b2d-4c55-a157-018b2807ed0f": {
       "id": "91a44d20-8b2d-4c55-a157-018b2807ed0f",
@@ -166666,7 +166677,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/91a44d20-8b2d-4c55-a157-018b2807ed0f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220315101024-6c584c91f8d9401b89aa5f7b959a2731.jpg",
@@ -166674,9 +166685,9 @@
         "https://s3.amazonaws.com/nocnok-img/220315101033-e30c7cf77d294803b60e7099f644246b.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166685,7 +166696,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "9a4cf995-24eb-4486-9a1e-018b26882915": {
       "id": "9a4cf995-24eb-4486-9a1e-018b26882915",
@@ -166706,7 +166717,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9a4cf995-24eb-4486-9a1e-018b26882915",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/201217223204-c1b1ff0e14ac4b5fa6445e6c591f137a.jpg",
@@ -166714,9 +166725,9 @@
         "https://s3.amazonaws.com/nocnok-img/201217223154-f405289109db47d99e40d2635dc20884.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166725,7 +166736,7 @@
           "precio": "2,688,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e36fa380-61cc-4002-a15a-018b26882915": {
       "id": "e36fa380-61cc-4002-a15a-018b26882915",
@@ -166746,7 +166757,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e36fa380-61cc-4002-a15a-018b26882915",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/201217222802-bb50fe568fb04647bad2214ebc0c7fec.jpg",
@@ -166754,9 +166765,9 @@
         "https://s3.amazonaws.com/nocnok-img/201217222748-8811fc76984c436e97226916ce357038.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166765,7 +166776,7 @@
           "precio": "2,688,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "611cc8d0-7191-480b-95a7-018b26192c97": {
       "id": "611cc8d0-7191-480b-95a7-018b26192c97",
@@ -166786,7 +166797,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/611cc8d0-7191-480b-95a7-018b26192c97",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200610114949-e97b5e2e4ccf491cace3e9d79d2c63fa.jpg",
@@ -166794,9 +166805,9 @@
         "https://s3.amazonaws.com/nocnok-img/200610115006-8d11bc8f59f248419bec566d7528b8de.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166805,7 +166816,7 @@
           "precio": "80,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "2335f44c-3577-4eec-a666-018b263dfc99": {
       "id": "2335f44c-3577-4eec-a666-018b263dfc99",
@@ -166826,7 +166837,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2335f44c-3577-4eec-a666-018b263dfc99",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200820134434-be858c12961d4355b966d4db86adc34a.jpg",
@@ -166834,9 +166845,9 @@
         "https://s3.amazonaws.com/nocnok-img/200820134452-4eec7d9d652c42e8aa08f6fdff2e8151.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166845,7 +166856,7 @@
           "precio": "42,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "dd7bde4f-a983-43f7-887e-018b25e4a36e": {
       "id": "dd7bde4f-a983-43f7-887e-018b25e4a36e",
@@ -166866,7 +166877,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/dd7bde4f-a983-43f7-887e-018b25e4a36e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200229133040-ce1a4c6e8c2a4cdabd44e41c5235953c.jpg",
@@ -166874,9 +166885,9 @@
         "https://s3.amazonaws.com/nocnok-img/200229133049-8173e5eceb564bf2ba7482935ce0d3df.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166885,7 +166896,7 @@
           "precio": "30,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "e46bf9ee-42cb-4c88-88c9-018b25e4af66": {
       "id": "e46bf9ee-42cb-4c88-88c9-018b25e4af66",
@@ -166906,7 +166917,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e46bf9ee-42cb-4c88-88c9-018b25e4af66",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200301192853-63f256d2b55947e196ffa8216023e273.jpg",
@@ -166914,9 +166925,9 @@
         "https://s3.amazonaws.com/nocnok-img/200301192859-561a5223369e4759b061621118b23c8e.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166925,7 +166936,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "fa1f954f-3aa2-4ca8-8aa7-018b25e33aa2": {
       "id": "fa1f954f-3aa2-4ca8-8aa7-018b25e33aa2",
@@ -166946,7 +166957,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/fa1f954f-3aa2-4ca8-8aa7-018b25e33aa2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200211200325-651956200dc64e4784512be0192591a8.jpg",
@@ -166954,9 +166965,9 @@
         "https://s3.amazonaws.com/nocnok-img/200211200330-363d6d15bd4c422f942b369627b178ff.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -166965,7 +166976,7 @@
           "precio": "230,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "757a76fa-8471-41c5-b4ea-018b25e33aa2": {
       "id": "757a76fa-8471-41c5-b4ea-018b25e33aa2",
@@ -166986,7 +166997,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/757a76fa-8471-41c5-b4ea-018b25e33aa2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200211191644-7e126290f79f49a08cc09966d6b9db12.jpg",
@@ -166994,9 +167005,9 @@
         "https://s3.amazonaws.com/nocnok-img/200211191651-1d559aba6b5747aba2257d11096c079b.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167005,7 +167016,7 @@
           "precio": "100,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "1c130f43-1d5c-4a2d-bf63-018b2878bc25": {
       "id": "1c130f43-1d5c-4a2d-bf63-018b2878bc25",
@@ -167026,7 +167037,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1c130f43-1d5c-4a2d-bf63-018b2878bc25",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220820132454-0738a6ade772445ba0113a009506285c.jpg",
@@ -167034,9 +167045,9 @@
         "https://s3.amazonaws.com/nocnok-img/220820132455-59ec6cb7feb048b7871a311c527fcbea.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167045,7 +167056,7 @@
           "precio": "2,300,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "628f409b-c31e-4f0f-ae59-018b2841d080": {
       "id": "628f409b-c31e-4f0f-ae59-018b2841d080",
@@ -167066,7 +167077,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/628f409b-c31e-4f0f-ae59-018b2841d080",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220616111021-e26bd55c64864b9c8fb84cd977396f9b.jpg",
@@ -167074,9 +167085,9 @@
         "https://s3.amazonaws.com/nocnok-img/220616111023-619e8d640ae94b58be455ed540775e4c.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167085,7 +167096,7 @@
           "precio": "16,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "1c7286c0-3df8-4b19-b175-018b28abbcee": {
       "id": "1c7286c0-3df8-4b19-b175-018b28abbcee",
@@ -167106,7 +167117,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1c7286c0-3df8-4b19-b175-018b28abbcee",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220916135053-e7562c4f691b41adb04caa141b3dbd17.jpg",
@@ -167114,9 +167125,9 @@
         "https://s3.amazonaws.com/nocnok-img/220916135055-73277692eff243e1add121aa9641008f.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167125,7 +167136,7 @@
           "precio": "87,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "20a3859a-6123-43a5-992e-018b28abc899": {
       "id": "20a3859a-6123-43a5-992e-018b28abc899",
@@ -167146,7 +167157,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/20a3859a-6123-43a5-992e-018b28abc899",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220919102332-641f81fbf6d54da6bdf657405502c68c.jpg",
@@ -167154,9 +167165,9 @@
         "https://s3.amazonaws.com/nocnok-img/220919102334-2ffd0a71abb74e7baabe830fa98fe62d.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167165,7 +167176,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "20dc75da-aef3-48d0-bf1b-018b28abc899": {
       "id": "20dc75da-aef3-48d0-bf1b-018b28abc899",
@@ -167186,7 +167197,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/20dc75da-aef3-48d0-bf1b-018b28abc899",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220919102633-de93e5ede2a04fd1b651304c7b1b87e5.jpg",
@@ -167194,9 +167205,9 @@
         "https://s3.amazonaws.com/nocnok-img/220919102634-42bb189d6efa44ddb534a89e81010979.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167205,7 +167216,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "14153b6e-0bc0-40fc-bf4c-018b28429e16": {
       "id": "14153b6e-0bc0-40fc-bf4c-018b28429e16",
@@ -167226,7 +167237,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/14153b6e-0bc0-40fc-bf4c-018b28429e16",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220624172844-6a004347496845fdbb558fa93920580c.jpg",
@@ -167234,9 +167245,9 @@
         "https://s3.amazonaws.com/nocnok-img/220624172845-36685d0146ae4178ae14b3fb8c9cae63.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167245,7 +167256,7 @@
           "precio": "22,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "37784714-6514-47e2-966d-018b287457c0": {
       "id": "37784714-6514-47e2-966d-018b287457c0",
@@ -167266,7 +167277,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/37784714-6514-47e2-966d-018b287457c0",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220705172104-672531ac20ae413aa0e05c80dc73f12b.jpg",
@@ -167274,9 +167285,9 @@
         "https://s3.amazonaws.com/nocnok-img/220705172107-d2fa0d711939452cb4ddb9fb0c31f2a3.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167285,7 +167296,7 @@
           "precio": "3,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "549ccb9e-9a08-437a-8103-018b2875aa65": {
       "id": "549ccb9e-9a08-437a-8103-018b2875aa65",
@@ -167306,7 +167317,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/549ccb9e-9a08-437a-8103-018b2875aa65",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220718185404-66590b06b48b4a7499e4ec0b57e0b0ab.jpg",
@@ -167314,9 +167325,9 @@
         "https://s3.amazonaws.com/nocnok-img/220718185239-8ba1c1ac2c214d2384a97a64336f6fe9.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167325,7 +167336,7 @@
           "precio": "12,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "17fac34e-0e2b-45e0-ba2f-018b2875aa65": {
       "id": "17fac34e-0e2b-45e0-ba2f-018b2875aa65",
@@ -167346,7 +167357,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/17fac34e-0e2b-45e0-ba2f-018b2875aa65",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220718182201-b82d3ef4f43e4053a2218d0b6bc5d6f2.jpg",
@@ -167354,9 +167365,9 @@
         "https://s3.amazonaws.com/nocnok-img/220718182152-eb868227c4f44772b1b9be98bc8437f5.jpg"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167365,7 +167376,7 @@
           "precio": "18,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "92a31641-29ce-402a-bf3a-0194d726aa95": {
       "id": "92a31641-29ce-402a-bf3a-0194d726aa95",
@@ -167386,7 +167397,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/92a31641-29ce-402a-bf3a-0194d726aa95",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250205112719-5afed8a8f3774a4389aeee65d31c1d74s.webp",
@@ -167394,9 +167405,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250205112717-114edcbc5a134ce9bd52350a29ea5953s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167405,7 +167416,7 @@
           "precio": "68,024,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "00457059-6f12-430c-aa3a-01961cf4e082": {
       "id": "00457059-6f12-430c-aa3a-01961cf4e082",
@@ -167426,7 +167437,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/00457059-6f12-430c-aa3a-01961cf4e082",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250409174910-ab4cf458d91d4ba9adaae7d38f894cads.webp",
@@ -167434,9 +167445,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250409174909-00a87f760cdc4cf8aa6513741349d1fds.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167445,7 +167456,7 @@
           "precio": "3,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "7353902c-a121-4d25-a74b-0196ef1a1a35": {
       "id": "7353902c-a121-4d25-a74b-0196ef1a1a35",
@@ -167466,7 +167477,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7353902c-a121-4d25-a74b-0196ef1a1a35",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250520131011-c9af3c21344a420182dc79439ea4b7a1s.webp",
@@ -167474,9 +167485,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250520131011-504839190f174e17a4f1a5370fa56c47s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167485,7 +167496,7 @@
           "precio": "9,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "880e5c4d-3d19-4db4-9303-0197ec68831e": {
       "id": "880e5c4d-3d19-4db4-9303-0197ec68831e",
@@ -167506,7 +167517,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/880e5c4d-3d19-4db4-9303-0197ec68831e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250708173941-120601c6adaf450f8d3c85a362699b9fs.webp",
@@ -167514,9 +167525,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250708173938-2dc9069fe67641e6b7974ba7065dc7cfs.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167525,7 +167536,7 @@
           "precio": "110,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "071be783-05d9-48d2-96d1-0197ec7a46ca": {
       "id": "071be783-05d9-48d2-96d1-0197ec7a46ca",
@@ -167546,7 +167557,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/071be783-05d9-48d2-96d1-0197ec7a46ca",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250708175902-a784becfbaa84792b15e313a35a4d7d4s.webp",
@@ -167554,9 +167565,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250708175903-1d2b1842eda540448662e0936ff0ecb5s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167565,7 +167576,7 @@
           "precio": "10,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "00ce36a8-8d6c-4c3c-ba6a-0197ffdd8929": {
       "id": "00ce36a8-8d6c-4c3c-ba6a-0197ffdd8929",
@@ -167586,7 +167597,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-10-08",
-      "days_on_market": 396,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/00ce36a8-8d6c-4c3c-ba6a-0197ffdd8929",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250712122010-99b7b72537b6470694680218b7399511s.webp",
@@ -167594,9 +167605,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250712122011-dea397cd3e3244c2bf6b6757bd4935f1s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -167605,7 +167616,7 @@
           "precio": "9,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "b2aea125-f384-4f41-a897-01985366052a": {
       "id": "b2aea125-f384-4f41-a897-01985366052a",
@@ -168494,12 +168505,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "90,000 MXN Renta",
-      "precio_num": 90000.0,
+      "precio": "50,000 MXN Renta",
+      "precio_num": 50000.0,
       "superficie": "2,400 m²",
       "area_num": 2400.0,
-      "precio_m2": "$37.5/m²",
-      "pm2_num": 37.5,
+      "precio_m2": "$20.8/m²",
+      "pm2_num": 20.83,
       "ubicacion": "Elsa Hernandez de las Fuentes, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -168522,6 +168533,11 @@
           "date": "2026-08-04",
           "precio_num": 90000.0,
           "precio": "90,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-09",
+          "precio_num": 50000.0,
+          "precio": "50,000 MXN Renta"
         }
       ]
     },
@@ -168854,7 +168870,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "KW Milenio",
       "fecha_publicacion": "2025-09-20",
-      "days_on_market": 414,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/94b3cc7e-1092-441f-986f-0199682fded3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250920113348-bebecdd45b8f4b6485471f0bd3085954s.webp",
@@ -168862,9 +168878,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250920113344-e3195f3335104a63b45dc63062997e35s.webp"
       ],
       "first_seen": "2026-08-04",
-      "last_seen": "2026-11-08",
-      "status": "delisted",
-      "delisted_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 97,
       "precio_history": [
         {
@@ -168873,7 +168889,7 @@
           "precio": "5,200,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null
     },
     "a03e14d6-1fcf-465f-b520-019053a6cde0": {
       "id": "a03e14d6-1fcf-465f-b520-019053a6cde0",
@@ -193453,16 +193469,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-09",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-09",
+      "days_listed": 97,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 15000000.0,
           "precio": "15,000,000 MXN Venta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "eb45e9ec-1e24-4fb3-af57-018b29190441": {
       "id": "eb45e9ec-1e24-4fb3-af57-018b29190441",
@@ -195008,16 +195025,17 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-09",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-09",
+      "days_listed": 97,
       "precio_history": [
         {
           "date": "2026-08-04",
           "precio_num": 6292.0,
           "precio": "6,292 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "d28d2e3c-6125-4542-bd6a-018c0273f0a1": {
       "id": "d28d2e3c-6125-4542-bd6a-018c0273f0a1",
@@ -204357,12 +204375,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "25,000 MXN Renta",
-      "precio_num": 25000.0,
+      "precio": "20,000 MXN Renta",
+      "precio_num": 20000.0,
       "superficie": "170 m²",
       "area_num": 170.0,
-      "precio_m2": "$147.1/m²",
-      "pm2_num": 147.06,
+      "precio_m2": "$217.4/m²",
+      "pm2_num": 217.39,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -204385,6 +204403,11 @@
           "date": "2026-08-05",
           "precio_num": 25000.0,
           "precio": "25,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-09",
+          "precio_num": 20000.0,
+          "precio": "20,000 MXN Renta"
         }
       ],
       "delisted_reason": null
@@ -204948,12 +204971,12 @@
       "tipo": "Local",
       "operacion": "Venta y Renta",
       "op_key": "venta",
-      "precio": "1,180,000 MXN Venta",
-      "precio_num": 1180000.0,
+      "precio": "1,200,000 MXN Venta",
+      "precio_num": 1200000.0,
       "superficie": "24 m²",
       "area_num": 24.0,
-      "precio_m2": "$49,167/m²",
-      "pm2_num": 49166.67,
+      "precio_m2": "$50,000/m²",
+      "pm2_num": 50000.0,
       "ubicacion": "Joyas del Bosque, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -210561,16 +210584,17 @@
       ],
       "first_seen": "2026-08-25",
       "last_seen": "2026-11-09",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-09",
+      "days_listed": 76,
       "precio_history": [
         {
           "date": "2026-08-25",
           "precio_num": 8500.0,
           "precio": "8,500 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "74aa9de7-2998-4cf4-b1ed-01a034b1bccb": {
       "id": "74aa9de7-2998-4cf4-b1ed-01a034b1bccb",
@@ -228671,12 +228695,12 @@
       "tipo": "Casa",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "2,650,000 MXN Venta",
-      "precio_num": 2650000.0,
+      "precio": "2,450,000 MXN Venta",
+      "precio_num": 2450000.0,
       "superficie": "367.45 m²",
       "area_num": 367.45,
-      "precio_m2": "$7,212/m²",
-      "pm2_num": 7211.87,
+      "precio_m2": "$6,668/m²",
+      "pm2_num": 6667.57,
       "ubicacion": "Martinez Adame, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -228699,6 +228723,11 @@
           "date": "2026-10-06",
           "precio_num": 2650000.0,
           "precio": "2,650,000 MXN Venta"
+        },
+        {
+          "date": "2026-11-09",
+          "precio_num": 2450000.0,
+          "precio": "2,450,000 MXN Venta"
         }
       ]
     },
@@ -238597,8 +238626,8 @@
       "precio_num": 1000000.0,
       "superficie": "134.5 m²",
       "area_num": 134.5,
-      "precio_m2": "$7,435/m²",
-      "pm2_num": 7434.94,
+      "precio_m2": "$6,667/m²",
+      "pm2_num": 6666.67,
       "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -239528,7 +239557,7 @@
       "area_num": 600.0,
       "precio_m2": "$65.0/m²",
       "pm2_num": 65.0,
-      "ubicacion": "Villas Saltillo 400, Torreón, Coahuila de Zaragoza",
+      "ubicacion": "Aviacion, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
       "broker": "TREBOL INMOBILIARIA",
@@ -239589,6 +239618,469 @@
           "date": "2026-11-09",
           "precio_num": 17500.0,
           "precio": "17,500 MXN Renta"
+        }
+      ]
+    },
+    "46b76070-7f93-4826-bbc9-01a1c25bd57e": {
+      "id": "46b76070-7f93-4826-bbc9-01a1c25bd57e",
+      "code": "NN-HIG627",
+      "title": "Local en Renta en Los Viñedos, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "15,000 MXN Renta",
+      "precio_num": 15000.0,
+      "superficie": "90 m²",
+      "area_num": 90.0,
+      "precio_m2": "$166.7/m²",
+      "pm2_num": 166.67,
+      "ubicacion": "Los Viñedos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Kali Bienes Raíces",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/46b76070-7f93-4826-bbc9-01a1c25bd57e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109173801-7289aecbd89349a3b86ef799d875d1b7s.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 15000.0,
+          "precio": "15,000 MXN Renta"
+        }
+      ]
+    },
+    "9f2581bc-f3ee-4d2b-a99f-01a1c13c25fa": {
+      "id": "9f2581bc-f3ee-4d2b-a99f-01a1c13c25fa",
+      "code": "NN-HIG115",
+      "title": "Local en Venta en Luis Echeverria Alvarez, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "2,200,000 MXN Venta",
+      "precio_num": 2200000.0,
+      "superficie": "467 m²",
+      "area_num": 467.0,
+      "precio_m2": "$4,711/m²",
+      "pm2_num": 4710.92,
+      "ubicacion": "Luis Echeverria Alvarez, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/9f2581bc-f3ee-4d2b-a99f-01a1c13c25fa",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109105924-77b1282180fc42469a93e95c10babb0fs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109105923-76376bf7cfcf4b98959eb70f4d30367es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109105923-db565857dc3547f7bf6808fef263e453s.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 2200000.0,
+          "precio": "2,200,000 MXN Venta"
+        }
+      ]
+    },
+    "f02f4d89-a8f0-488d-bc18-01a1c1373dee": {
+      "id": "f02f4d89-a8f0-488d-bc18-01a1c1373dee",
+      "code": "NN-HIG092",
+      "title": "BODEGA CON OFICINAS EN RENTA",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "55,000 MXN Renta",
+      "precio_num": 55000.0,
+      "superficie": "188 m²",
+      "area_num": 188.0,
+      "precio_m2": "$292.6/m²",
+      "pm2_num": 292.55,
+      "ubicacion": "San Felipe, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ARA INMOBILIARIA",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/f02f4d89-a8f0-488d-bc18-01a1c1373dee",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109105053-422437ba942d4882ac9c6517d140688cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109105053-2b9b3392cedb4060b9ceab4519f9eed8s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109105053-4aeedfa678b348d9aea3ff1639998152s.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 55000.0,
+          "precio": "55,000 MXN Renta"
+        }
+      ]
+    },
+    "2e2ed366-58e7-4c06-8fe5-01a1c161b909": {
+      "id": "2e2ed366-58e7-4c06-8fe5-01a1c161b909",
+      "code": "NN-HIG292",
+      "title": "Local en Venta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "18,000,000 MXN Venta",
+      "precio_num": 18000000.0,
+      "superficie": "3,200 m²",
+      "area_num": 3200.0,
+      "precio_m2": "$5,625/m²",
+      "pm2_num": 5625.0,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/2e2ed366-58e7-4c06-8fe5-01a1c161b909",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109113610-994c3fc5397f47caa76ce2721adf0becs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109113610-3c8931f8ed0a48f4a25407bd83cdf78bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109113610-6f86ae8dfd66446ea74104327ad36951s.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 18000000.0,
+          "precio": "18,000,000 MXN Venta"
+        }
+      ]
+    },
+    "a8dfa0d1-fca2-42ef-a2a8-01a1c167c275": {
+      "id": "a8dfa0d1-fca2-42ef-a2a8-01a1c167c275",
+      "code": "NN-HIG321",
+      "title": "VENTA, LOCAL COMERCIAL",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "22,800,000 MXN Venta",
+      "precio_num": 22800000.0,
+      "superficie": "1,200 m²",
+      "area_num": 1200.0,
+      "precio_m2": "$19,000/m²",
+      "pm2_num": 19000.0,
+      "ubicacion": "Nueva los Angeles, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a8dfa0d1-fca2-42ef-a2a8-01a1c167c275",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109114245-351f381e628c4f33ac163eb366c7e229s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109114245-a7499162f7ab4952b9d9c6beb427cd82s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109114245-a75d383b6d974298ad339644f26365aas.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 22800000.0,
+          "precio": "22,800,000 MXN Venta"
+        }
+      ]
+    },
+    "d77f4691-4c5f-477b-b37c-01a1c18671e9": {
+      "id": "d77f4691-4c5f-477b-b37c-01a1c18671e9",
+      "code": "NN-HIG399",
+      "title": "Local en Renta en Residencial Senderos, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "25,500 MXN Renta",
+      "precio_num": 25500.0,
+      "superficie": "72 m²",
+      "area_num": 72.0,
+      "precio_m2": "$354.2/m²",
+      "pm2_num": 354.17,
+      "ubicacion": "Residencial Senderos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ZERCA BIENES RAICES",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/d77f4691-4c5f-477b-b37c-01a1c18671e9",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109121656-b03c5b0bc2334009ae2b90fb73e4b831s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109121655-43c2d46d31cc4806b568e025a655208as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109121656-97ef8b8d2f084e2c9d062777a1203e6bs.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 25500.0,
+          "precio": "25,500 MXN Renta"
+        }
+      ]
+    },
+    "f9c7ddf8-0eae-4dd1-a0de-01a1c1c6e80c": {
+      "id": "f9c7ddf8-0eae-4dd1-a0de-01a1c1c6e80c",
+      "code": "NN-HIG492",
+      "title": "EXCELENTE CASA EN RENTA",
+      "categoria": "Comercial",
+      "tipo": "Casa",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "16,500 MXN Renta",
+      "precio_num": 16500.0,
+      "superficie": "250 m²",
+      "area_num": 250.0,
+      "precio_m2": "$66.0/m²",
+      "pm2_num": 66.0,
+      "ubicacion": "La Hacienda Oriente, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "CORPORATIVO INMOBILIARIO",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/f9c7ddf8-0eae-4dd1-a0de-01a1c1c6e80c",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109132705-cf72267de7c04074b0c6cff6ac405eb1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109132702-39ed5f8c226f4ad9aeb3ae6b0c26e73ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109132701-2fbd17e10a6d4964bc7a801c10b484a4s.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 16500.0,
+          "precio": "16,500 MXN Renta"
+        }
+      ]
+    },
+    "14b60390-e76a-45b0-96bf-0199171eb347": {
+      "id": "14b60390-e76a-45b0-96bf-0199171eb347",
+      "code": "NN-XU1000127",
+      "title": "Oficina en Renta en Plaza Abierta, Torreón - Espacio Comercial en Ave. Cádiz",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "6,200 MXN Renta",
+      "precio_num": 6200.0,
+      "superficie": "50 m²",
+      "area_num": 50.0,
+      "precio_m2": "$124.0/m²",
+      "pm2_num": 124.0,
+      "ubicacion": "Florida Blanca, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "SINERGIA BIENES RAICES",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/14b60390-e76a-45b0-96bf-0199171eb347",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250904181453-3a4c435f44b5477ba35b5629bba736a2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250904180827-24a7778c9faa44b595bceab88a8bbf71s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250904180257-81b7ff33222549bab8f659ca57ea8bc4s.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 6200.0,
+          "precio": "6,200 MXN Renta"
+        }
+      ]
+    },
+    "b0a28277-d7ef-4467-a7f2-01a1c2898814": {
+      "id": "b0a28277-d7ef-4467-a7f2-01a1c2898814",
+      "code": "NN-HIG685",
+      "title": "Mini Bodegas para almacenamiento",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "4,324 MXN Renta",
+      "precio_num": 4324.0,
+      "superficie": "33 m²",
+      "area_num": 33.0,
+      "precio_m2": "$131.0/m²",
+      "pm2_num": 131.03,
+      "ubicacion": "Aviacion, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ORDUÑA Y ASOCIADOS",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/b0a28277-d7ef-4467-a7f2-01a1c2898814",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109165952-d07b22d41bf3454cb8918e050d9a5533s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109165952-7d800394dbb34d11ad165b122f37ec2fs.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 4324.0,
+          "precio": "4,324 MXN Renta"
+        }
+      ]
+    },
+    "1fee72b9-f28a-4526-83f3-01a1c3061e01": {
+      "id": "1fee72b9-f28a-4526-83f3-01a1c3061e01",
+      "code": "NN-HIG790",
+      "title": "Nave Industrial en Renta | Industrial Building for Lease| Torreón, Coahuila, México.",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "350,000 MXN Renta",
+      "precio_num": 350000.0,
+      "superficie": "5,943.57 m²",
+      "area_num": 5943.57,
+      "precio_m2": "$58.9/m²",
+      "pm2_num": 58.89,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/1fee72b9-f28a-4526-83f3-01a1c3061e01",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109191529-1f82a1dfc4184fdc85c785b19e326489s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109191529-b6abd9953f3c4595be3f1cfb9d74c5bes.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 350000.0,
+          "precio": "350,000 MXN Renta"
+        }
+      ]
+    },
+    "8126047d-2bd0-46bc-8a81-01a1c32c3482": {
+      "id": "8126047d-2bd0-46bc-8a81-01a1c32c3482",
+      "code": "NN-HIG802",
+      "title": "Nave Industrial en Venta| Industrial Building for Sale|  5,943.57 m² | 63,976 sq. ft Torreón, Coah.",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "72,000,000 MXN Venta",
+      "precio_num": 72000000.0,
+      "superficie": "5,943.57 m²",
+      "area_num": 5943.57,
+      "precio_m2": "$12,114/m²",
+      "pm2_num": 12113.93,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/8126047d-2bd0-46bc-8a81-01a1c32c3482",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109195714-641f11c793134326aaf11848c0f3da20s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109195714-7756d6e7e2184c1a9c31b6ea57277a67s.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 72000000.0,
+          "precio": "72,000,000 MXN Venta"
+        }
+      ]
+    },
+    "35542784-4a9a-4938-82f4-01a1c1984b17": {
+      "id": "35542784-4a9a-4938-82f4-01a1c1984b17",
+      "code": "NN-HIG446",
+      "title": "Bodega en Renta en El Paraiso, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "47,000 MXN Renta",
+      "precio_num": 47000.0,
+      "superficie": "900 m²",
+      "area_num": 900.0,
+      "precio_m2": "$52.2/m²",
+      "pm2_num": 52.22,
+      "ubicacion": "El Paraiso, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-09",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/35542784-4a9a-4938-82f4-01a1c1984b17",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261109124132-5c1af92ffc1c4df19042ec8b74e76822s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109123546-e4e14d3d70354f3ab43088d97ffef0f6s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261109124132-57c7f999009e4e5d92af8490e550fcbes.webp"
+      ],
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-09",
+          "precio_num": 47000.0,
+          "precio": "47,000 MXN Renta"
         }
       ]
     }
