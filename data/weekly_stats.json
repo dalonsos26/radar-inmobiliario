@@ -7653,38 +7653,59 @@
     },
     "2026-W46": {
       "week": "2026-W46",
-      "total": 14,
+      "total": 35,
       "cities": {
         "Torreón": {
-          "total": 13,
+          "total": 28,
           "tipos_m2": {
             "Local": {
-              "sum": 30456.75410421128,
-              "count": 7
+              "sum": 32367.204273383504,
+              "count": 15
             },
             "Bodega": {
-              "sum": 423.5834945196648,
-              "count": 2
+              "sum": 621.8713733075435,
+              "count": 5
             },
             "Casa": {
               "sum": 66.0,
               "count": 1
             },
             "Oficina": {
-              "sum": 124.0,
-              "count": 1
+              "sum": 375.4835164835165,
+              "count": 3
             },
             "Nave": {
               "sum": 12172.818693142339,
+              "count": 2
+            },
+            "Terreno": {
+              "sum": 60.01956846041096,
               "count": 2
             }
           }
         },
         "Gómez Palacio": {
-          "total": 1,
+          "total": 6,
           "tipos_m2": {
             "Bodega": {
-              "sum": 52.22222222222222,
+              "sum": 252.22222222222223,
+              "count": 3
+            },
+            "Terreno": {
+              "sum": 52.98651252408478,
+              "count": 1
+            },
+            "Local": {
+              "sum": 12654.016266268016,
+              "count": 2
+            }
+          }
+        },
+        "Matamoros": {
+          "total": 1,
+          "tipos_m2": {
+            "Local": {
+              "sum": 114.03508771929825,
               "count": 1
             }
           }
