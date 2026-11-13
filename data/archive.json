@@ -18006,9 +18006,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 140,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -18016,7 +18016,7 @@
           "precio": "5,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "342f9bc4-2ae7-405e-a1a1-019e0856b027": {
       "id": "342f9bc4-2ae7-405e-a1a1-019e0856b027",
@@ -19187,7 +19187,7 @@
     "58bd046b-0853-41b0-9146-019b6c21297e": {
       "id": "58bd046b-0853-41b0-9146-019b6c21297e",
       "code": "NN-GQB885",
-      "title": "Casa en Venta en Nueva California, Torreón, Coahuila de Zaragoza",
+      "title": "PROPIEDAD EN VENTA",
       "categoria": "Comercial",
       "tipo": "Casa",
       "operacion": "Venta",
@@ -19842,7 +19842,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MCJ BIENES RAICES",
       "fecha_publicacion": "2026-05-04",
-      "days_on_market": 154,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/60d310ba-a58a-498f-b9df-019c301fedb1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260205180520-b66fb9d96b6f408c9d96b840a79adbfes.webp",
@@ -19850,9 +19850,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260205180602-4a53cb78f89b4e3094d07116f2f9b999s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-10",
-      "status": "delisted",
-      "delisted_at": "2026-11-11",
+      "last_seen": "2026-11-12",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 163,
       "precio_history": [
         {
@@ -19861,7 +19861,7 @@
           "precio": "8,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "ab711be4-5504-487e-8ddc-019ca1089dae": {
       "id": "ab711be4-5504-487e-8ddc-019ca1089dae",
@@ -28642,9 +28642,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 40,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -28657,7 +28657,7 @@
           "precio": "19,400 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "28b3f34c-143c-413a-94b1-019d97598bbf": {
       "id": "28b3f34c-143c-413a-94b1-019d97598bbf",
@@ -29238,7 +29238,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "MCJ BIENES RAICES",
       "fecha_publicacion": "2026-04-13",
-      "days_on_market": 154,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3d374098-b572-460c-b1c5-019d8ebd9af2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260414192527-dd02a2f7a02a469d9c43894e7f7e65ces.webp",
@@ -29246,9 +29246,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260414192841-a06ffd4eb3b148bfbf38daf62cd80583s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-10",
-      "status": "delisted",
-      "delisted_at": "2026-11-11",
+      "last_seen": "2026-11-12",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 163,
       "precio_history": [
         {
@@ -29257,7 +29257,7 @@
           "precio": "8,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "8a28cbf7-e76f-494b-87ad-019d8cb8ab86": {
       "id": "8a28cbf7-e76f-494b-87ad-019d8cb8ab86",
@@ -48321,9 +48321,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -48331,7 +48331,7 @@
           "precio": "16,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "127edd62-f6f7-4e67-b401-019cc97800dd": {
       "id": "127edd62-f6f7-4e67-b401-019cc97800dd",
@@ -48361,9 +48361,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -48371,7 +48371,7 @@
           "precio": "175,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "676e13ba-b19b-4329-b00b-019cc97f0d88": {
       "id": "676e13ba-b19b-4329-b00b-019cc97f0d88",
@@ -48441,9 +48441,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -48451,7 +48451,7 @@
           "precio": "126,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "7a2072d6-5525-427c-a482-019cc9c86792": {
       "id": "7a2072d6-5525-427c-a482-019cc9c86792",
@@ -48481,9 +48481,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -48491,7 +48491,7 @@
           "precio": "105,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "cb6f7e78-183e-4a04-9b1c-019ccbbbe00f": {
       "id": "cb6f7e78-183e-4a04-9b1c-019ccbbbe00f",
@@ -50087,8 +50087,8 @@
       "precio_num": 19800000.0,
       "superficie": "44,000 m²",
       "area_num": 44000.0,
-      "precio_m2": "$450.0/m²",
-      "pm2_num": 450.0,
+      "precio_m2": "$0.5/m²",
+      "pm2_num": 0.51,
       "ubicacion": "Nueva Laguna Norte, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -52241,9 +52241,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -52251,7 +52251,7 @@
           "precio": "1,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "25fd9842-cc54-4065-b60d-019c8b8528f4": {
       "id": "25fd9842-cc54-4065-b60d-019c8b8528f4",
@@ -66918,9 +66918,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -66928,7 +66928,7 @@
           "precio": "19,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "bf91ab6f-cd18-4597-8186-019c7cd156ae": {
       "id": "bf91ab6f-cd18-4597-8186-019c7cd156ae",
@@ -72282,9 +72282,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -72292,7 +72292,7 @@
           "precio": "23,771,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "4cb47b5b-7df0-495e-94a9-01921614f87b": {
       "id": "4cb47b5b-7df0-495e-94a9-01921614f87b",
@@ -72322,9 +72322,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -72332,7 +72332,7 @@
           "precio": "50,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "8510b1c3-d5ac-4716-a314-0199b83f5359": {
       "id": "8510b1c3-d5ac-4716-a314-0199b83f5359",
@@ -78362,9 +78362,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -78372,7 +78372,7 @@
           "precio": "45,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "2bab6fb2-09d7-4137-9a19-018f561b9cf9": {
       "id": "2bab6fb2-09d7-4137-9a19-018f561b9cf9",
@@ -81719,9 +81719,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 45,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -81729,7 +81729,7 @@
           "precio": "170,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "65e2c4f8-44ab-4e90-9b33-019785313fa3": {
       "id": "65e2c4f8-44ab-4e90-9b33-019785313fa3",
@@ -82484,9 +82484,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 78,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -82494,7 +82494,7 @@
           "precio": "5,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "sold"
     },
     "cd5e7692-c73c-4b9b-abe1-0199dbaf0825": {
       "id": "cd5e7692-c73c-4b9b-abe1-0199dbaf0825",
@@ -88142,9 +88142,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -88152,7 +88152,7 @@
           "precio": "3,400,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "839d5f6b-19b2-45b4-8a7b-019cbf795f04": {
       "id": "839d5f6b-19b2-45b4-8a7b-019cbf795f04",
@@ -91913,9 +91913,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -91923,7 +91923,7 @@
           "precio": "4,625,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "074aeec1-beb0-4733-967e-01949e52db16": {
       "id": "074aeec1-beb0-4733-967e-01949e52db16",
@@ -91993,9 +91993,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -92003,7 +92003,7 @@
           "precio": "4,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "52b3743d-2520-498b-b0ea-019009b56a57": {
       "id": "52b3743d-2520-498b-b0ea-019009b56a57",
@@ -92033,9 +92033,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -92043,7 +92043,7 @@
           "precio": "24,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "9390952c-b1ba-4450-a0d4-0199bae2ef28": {
       "id": "9390952c-b1ba-4450-a0d4-0199bae2ef28",
@@ -110482,9 +110482,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -110492,7 +110492,7 @@
           "precio": "108,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "ee69d15f-6102-447a-b76d-01922a8acd2c": {
       "id": "ee69d15f-6102-447a-b76d-01922a8acd2c",
@@ -110522,9 +110522,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 161,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 164,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -110532,7 +110532,7 @@
           "precio": "23,372,660 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "8e90aa30-b5ea-41e9-9637-01992bf96d29": {
       "id": "8e90aa30-b5ea-41e9-9637-01992bf96d29",
@@ -116683,9 +116683,9 @@
       ],
       "first_seen": "2026-06-03",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 159,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 162,
       "precio_history": [
         {
           "date": "2026-06-03",
@@ -116693,7 +116693,7 @@
           "precio": "25,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "49f7e9ac-6a7f-48a5-84f5-019e8b416682": {
       "id": "49f7e9ac-6a7f-48a5-84f5-019e8b416682",
@@ -117080,9 +117080,9 @@
       ],
       "first_seen": "2026-06-03",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 159,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 162,
       "precio_history": [
         {
           "date": "2026-06-03",
@@ -117090,7 +117090,7 @@
           "precio": "700,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "07b37f9b-ba5d-42f1-b7ea-019e89445d7c": {
       "id": "07b37f9b-ba5d-42f1-b7ea-019e89445d7c",
@@ -119366,9 +119366,9 @@
       ],
       "first_seen": "2026-06-05",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 157,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 160,
       "precio_history": [
         {
           "date": "2026-06-05",
@@ -119376,7 +119376,7 @@
           "precio": "24,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "22096b93-c0db-4203-9bfc-01956e080107": {
       "id": "22096b93-c0db-4203-9bfc-01956e080107",
@@ -121777,9 +121777,9 @@
       ],
       "first_seen": "2026-06-11",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 151,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 154,
       "precio_history": [
         {
           "date": "2026-06-11",
@@ -121787,7 +121787,7 @@
           "precio": "4,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "54e9d016-6d10-4f66-95a5-019eae896087": {
       "id": "54e9d016-6d10-4f66-95a5-019eae896087",
@@ -124295,9 +124295,9 @@
       ],
       "first_seen": "2026-06-17",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 145,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-17",
@@ -124305,7 +124305,7 @@
           "precio": "14,883,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "31f8fd95-3c8c-42d6-8204-019ed19194ac": {
       "id": "31f8fd95-3c8c-42d6-8204-019ed19194ac",
@@ -124458,9 +124458,9 @@
       ],
       "first_seen": "2026-06-17",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 145,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-17",
@@ -124468,7 +124468,7 @@
           "precio": "13,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "606564ab-87ab-4f5a-82b6-019ed2f11f97": {
       "id": "606564ab-87ab-4f5a-82b6-019ed2f11f97",
@@ -125160,12 +125160,12 @@
       "tipo": "Edificio",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "12,000,000 MXN Venta | 50,000 MXN Renta",
-      "precio_num": 12000000.0,
+      "precio": "11,500,000 MXN Venta | 40,000 MXN Renta",
+      "precio_num": 11500000.0,
       "superficie": "857 m²",
       "area_num": 857.0,
-      "precio_m2": "$14,002/m²",
-      "pm2_num": 14002.33,
+      "precio_m2": "$13,419/m²",
+      "pm2_num": 13418.9,
       "ubicacion": "Ampliación los Ángeles, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -125203,6 +125203,11 @@
           "date": "2026-09-30",
           "precio_num": 12000000.0,
           "precio": "12,000,000 MXN Venta | 50,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-12",
+          "precio_num": 11500000.0,
+          "precio": "11,500,000 MXN Venta | 40,000 MXN Renta"
         }
       ]
     },
@@ -125676,9 +125681,9 @@
       ],
       "first_seen": "2026-06-17",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 145,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-17",
@@ -125686,7 +125691,7 @@
           "precio": "34,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "598b542d-e92b-4156-93c6-019ed66225f3": {
       "id": "598b542d-e92b-4156-93c6-019ed66225f3",
@@ -126193,9 +126198,9 @@
       ],
       "first_seen": "2026-06-17",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 145,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 148,
       "precio_history": [
         {
           "date": "2026-06-17",
@@ -126203,7 +126208,7 @@
           "precio": "9,116,822 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "10f74a2c-b50c-4757-ad96-019ed6779550": {
       "id": "10f74a2c-b50c-4757-ad96-019ed6779550",
@@ -130837,9 +130842,9 @@
       ],
       "first_seen": "2026-06-23",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 139,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 142,
       "precio_history": [
         {
           "date": "2026-06-23",
@@ -130847,7 +130852,7 @@
           "precio": "22,353 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "b7f1f4f0-44cb-4834-823d-019ef1f3218c": {
       "id": "b7f1f4f0-44cb-4834-823d-019ef1f3218c",
@@ -131200,9 +131205,9 @@
       ],
       "first_seen": "2026-06-23",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 139,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 142,
       "precio_history": [
         {
           "date": "2026-06-23",
@@ -131210,7 +131215,7 @@
           "precio": "70,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "5211c008-0648-466b-914c-019ef1b33eb4": {
       "id": "5211c008-0648-466b-914c-019ef1b33eb4",
@@ -131240,9 +131245,9 @@
       ],
       "first_seen": "2026-06-23",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 139,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 142,
       "precio_history": [
         {
           "date": "2026-06-23",
@@ -131250,7 +131255,7 @@
           "precio": "60,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "f9a8bfa4-5095-4f16-be87-019ef1d308ab": {
       "id": "f9a8bfa4-5095-4f16-be87-019ef1d308ab",
@@ -131280,9 +131285,9 @@
       ],
       "first_seen": "2026-06-23",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 139,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 142,
       "precio_history": [
         {
           "date": "2026-06-23",
@@ -131290,7 +131295,7 @@
           "precio": "142,350 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "3997066e-c15f-4b76-9aa3-019ef1f43019": {
       "id": "3997066e-c15f-4b76-9aa3-019ef1f43019",
@@ -131320,9 +131325,9 @@
       ],
       "first_seen": "2026-06-23",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 139,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 142,
       "precio_history": [
         {
           "date": "2026-06-23",
@@ -131330,7 +131335,7 @@
           "precio": "105,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "760f5582-ad2f-444b-a6f9-019ef088c5fa": {
       "id": "760f5582-ad2f-444b-a6f9-019ef088c5fa",
@@ -131558,9 +131563,9 @@
       ],
       "first_seen": "2026-06-23",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 139,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 142,
       "precio_history": [
         {
           "date": "2026-06-23",
@@ -131568,7 +131573,7 @@
           "precio": "45,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "33a39b00-513f-465a-b3f3-019ef1bb9234": {
       "id": "33a39b00-513f-465a-b3f3-019ef1bb9234",
@@ -132426,9 +132431,9 @@
       ],
       "first_seen": "2026-06-24",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 138,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 141,
       "precio_history": [
         {
           "date": "2026-06-24",
@@ -132436,7 +132441,7 @@
           "precio": "65,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "3404bc1d-2fcb-4b9b-800e-019ef5b6810a": {
       "id": "3404bc1d-2fcb-4b9b-800e-019ef5b6810a",
@@ -132586,9 +132591,9 @@
       ],
       "first_seen": "2026-06-24",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 138,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 141,
       "precio_history": [
         {
           "date": "2026-06-24",
@@ -132596,7 +132601,7 @@
           "precio": "123,840 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "6876ea95-e38b-439d-9d57-018b25144e0f": {
       "id": "6876ea95-e38b-439d-9d57-018b25144e0f",
@@ -132706,9 +132711,9 @@
       ],
       "first_seen": "2026-06-24",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 138,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 141,
       "precio_history": [
         {
           "date": "2026-06-24",
@@ -132716,7 +132721,7 @@
           "precio": "450,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "06712786-e76a-4648-92e2-019eff5cfdb7": {
       "id": "06712786-e76a-4648-92e2-019eff5cfdb7",
@@ -132865,9 +132870,9 @@
       ],
       "first_seen": "2026-06-25",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 137,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 140,
       "precio_history": [
         {
           "date": "2026-06-25",
@@ -132875,7 +132880,7 @@
           "precio": "1,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "b649dc6e-2fd8-48f1-90ba-019efc0f7d88": {
       "id": "b649dc6e-2fd8-48f1-90ba-019efc0f7d88",
@@ -132905,9 +132910,9 @@
       ],
       "first_seen": "2026-06-25",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 137,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 140,
       "precio_history": [
         {
           "date": "2026-06-25",
@@ -132915,7 +132920,7 @@
           "precio": "4,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "3992f99f-c5fc-4a0a-b840-018e538aff25": {
       "id": "3992f99f-c5fc-4a0a-b840-018e538aff25",
@@ -133104,9 +133109,9 @@
       ],
       "first_seen": "2026-06-25",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 137,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 140,
       "precio_history": [
         {
           "date": "2026-06-25",
@@ -133114,7 +133119,7 @@
           "precio": "280,112 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "dcf96bda-a4f6-489f-b9dd-019efb0bfee1": {
       "id": "dcf96bda-a4f6-489f-b9dd-019efb0bfee1",
@@ -133585,9 +133590,9 @@
       ],
       "first_seen": "2026-06-26",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 136,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 139,
       "precio_history": [
         {
           "date": "2026-06-26",
@@ -133595,7 +133600,7 @@
           "precio": "10,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "8c2d79a7-8fe5-49a8-8f56-019f0161a7ee": {
       "id": "8c2d79a7-8fe5-49a8-8f56-019f0161a7ee",
@@ -133860,9 +133865,9 @@
       ],
       "first_seen": "2026-06-26",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 136,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 139,
       "precio_history": [
         {
           "date": "2026-06-26",
@@ -133870,7 +133875,7 @@
           "precio": "1,177,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "80f55e82-a728-4ed0-b9b8-019effc1f665": {
       "id": "80f55e82-a728-4ed0-b9b8-019effc1f665",
@@ -135128,9 +135133,9 @@
       ],
       "first_seen": "2026-07-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 131,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 134,
       "precio_history": [
         {
           "date": "2026-07-01",
@@ -135138,7 +135143,7 @@
           "precio": "390,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "e2115bc6-b2cb-417c-bcda-019f1aadcfbd": {
       "id": "e2115bc6-b2cb-417c-bcda-019f1aadcfbd",
@@ -135168,9 +135173,9 @@
       ],
       "first_seen": "2026-07-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 131,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 134,
       "precio_history": [
         {
           "date": "2026-07-01",
@@ -135178,7 +135183,7 @@
           "precio": "95,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "991ddd7a-14d1-423e-a066-019f1acf1e10": {
       "id": "991ddd7a-14d1-423e-a066-019f1acf1e10",
@@ -135326,9 +135331,9 @@
       ],
       "first_seen": "2026-07-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 131,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 134,
       "precio_history": [
         {
           "date": "2026-07-01",
@@ -135336,7 +135341,7 @@
           "precio": "92,800 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "5127cdee-9ef9-4a1e-a2cd-019f1b1fb081": {
       "id": "5127cdee-9ef9-4a1e-a2cd-019f1b1fb081",
@@ -135613,9 +135618,9 @@
       ],
       "first_seen": "2026-07-02",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 130,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 133,
       "precio_history": [
         {
           "date": "2026-07-02",
@@ -135623,7 +135628,7 @@
           "precio": "2,250,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "7558b95b-c9ce-4f6a-8922-019f2006d9a7": {
       "id": "7558b95b-c9ce-4f6a-8922-019f2006d9a7",
@@ -138055,9 +138060,9 @@
       ],
       "first_seen": "2026-07-08",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 124,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 127,
       "precio_history": [
         {
           "date": "2026-07-08",
@@ -138065,7 +138070,7 @@
           "precio": "95,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "c6821dda-1a0d-40d3-890e-019f3a65ad26": {
       "id": "c6821dda-1a0d-40d3-890e-019f3a65ad26",
@@ -138729,9 +138734,9 @@
       ],
       "first_seen": "2026-07-09",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 123,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 126,
       "precio_history": [
         {
           "date": "2026-07-09",
@@ -138739,7 +138744,7 @@
           "precio": "96,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "ad2f1887-535c-4a10-8034-019f3eb774d2": {
       "id": "ad2f1887-535c-4a10-8034-019f3eb774d2",
@@ -138769,9 +138774,9 @@
       ],
       "first_seen": "2026-07-09",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 123,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 126,
       "precio_history": [
         {
           "date": "2026-07-09",
@@ -138779,7 +138784,7 @@
           "precio": "48,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "b73459d8-250d-4970-86d2-019f3fd8c8b6": {
       "id": "b73459d8-250d-4970-86d2-019f3fd8c8b6",
@@ -142521,9 +142526,9 @@
       ],
       "first_seen": "2026-07-16",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 116,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 119,
       "precio_history": [
         {
           "date": "2026-07-16",
@@ -142531,7 +142536,7 @@
           "precio": "22,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "0085e82f-1f6c-4d39-9bf9-019f68e08235": {
       "id": "0085e82f-1f6c-4d39-9bf9-019f68e08235",
@@ -142639,9 +142644,9 @@
       ],
       "first_seen": "2026-07-16",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 116,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 119,
       "precio_history": [
         {
           "date": "2026-07-16",
@@ -142649,7 +142654,7 @@
           "precio": "2,100,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "be71c337-186a-487c-a4df-019f671ec773": {
       "id": "be71c337-186a-487c-a4df-019f671ec773",
@@ -147512,9 +147517,9 @@
       ],
       "first_seen": "2026-07-26",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 106,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 109,
       "precio_history": [
         {
           "date": "2026-07-26",
@@ -147522,7 +147527,7 @@
           "precio": "431,868 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "646ab17d-700a-4078-9d4e-019f9a4e1e63": {
       "id": "646ab17d-700a-4078-9d4e-019f9a4e1e63",
@@ -157325,7 +157330,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Dingler Bienes Raíces",
       "fecha_publicacion": "2026-01-23",
-      "days_on_market": 293,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7908ea92-8745-44ac-a43e-019732632e5f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250602155605-d0fe907342d04136a9be7ce382b1d00fs.webp",
@@ -161041,9 +161046,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -161051,7 +161056,7 @@
           "precio": "14,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "7b74b4be-1633-4cdc-bceb-019ae0c749b8": {
       "id": "7b74b4be-1633-4cdc-bceb-019ae0c749b8",
@@ -164806,9 +164811,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -164816,7 +164821,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "ebe0b75c-8f26-46d1-a544-019a1796a9d3": {
       "id": "ebe0b75c-8f26-46d1-a544-019a1796a9d3",
@@ -166187,9 +166192,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166197,7 +166202,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "595bb78d-7e76-4f3d-8f47-019013266582": {
       "id": "595bb78d-7e76-4f3d-8f47-019013266582",
@@ -166227,9 +166232,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166237,7 +166242,7 @@
           "precio": "40,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "6edb68fd-2c9b-474c-bb4e-018ee7d0c992": {
       "id": "6edb68fd-2c9b-474c-bb4e-018ee7d0c992",
@@ -166267,9 +166272,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166277,7 +166282,7 @@
           "precio": "3,350,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "c534f446-839e-4688-bfab-019098295cf4": {
       "id": "c534f446-839e-4688-bfab-019098295cf4",
@@ -166307,9 +166312,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166317,7 +166322,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "e0bcec5a-9b8e-4931-8fd7-0192681b0ba4": {
       "id": "e0bcec5a-9b8e-4931-8fd7-0192681b0ba4",
@@ -166347,9 +166352,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166357,7 +166362,7 @@
           "precio": "2,700 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "a5411aa3-9581-46ad-80af-01922a85ab0d": {
       "id": "a5411aa3-9581-46ad-80af-01922a85ab0d",
@@ -166387,9 +166392,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166397,7 +166402,7 @@
           "precio": "20,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "ac1a3a89-a8f9-4ba4-b155-01922a862535": {
       "id": "ac1a3a89-a8f9-4ba4-b155-01922a862535",
@@ -166427,9 +166432,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166437,7 +166442,7 @@
           "precio": "5,775,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "f01cd9ad-cb39-4722-a8f4-01924433f6b6": {
       "id": "f01cd9ad-cb39-4722-a8f4-01924433f6b6",
@@ -166467,9 +166472,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166477,7 +166482,7 @@
           "precio": "735,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "9bb70d97-2e90-419e-a0b7-018b293b7f33": {
       "id": "9bb70d97-2e90-419e-a0b7-018b293b7f33",
@@ -166506,9 +166511,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166516,7 +166521,7 @@
           "precio": "17,103 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "d125d5f6-8c2a-4819-a0d0-018b293b8823": {
       "id": "d125d5f6-8c2a-4819-a0d0-018b293b8823",
@@ -166546,9 +166551,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166556,7 +166561,7 @@
           "precio": "65,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "0bd4c27b-f589-4371-b32f-018b293b90ea": {
       "id": "0bd4c27b-f589-4371-b32f-018b293b90ea",
@@ -166586,9 +166591,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166596,7 +166601,7 @@
           "precio": "7,800,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "d9468984-903a-4b52-9af3-018bde9e60a7": {
       "id": "d9468984-903a-4b52-9af3-018bde9e60a7",
@@ -166626,9 +166631,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166636,7 +166641,7 @@
           "precio": "9,252,315 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "5759e406-e876-4fa6-a1ac-018dccc9eca8": {
       "id": "5759e406-e876-4fa6-a1ac-018dccc9eca8",
@@ -166666,9 +166671,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166676,7 +166681,7 @@
           "precio": "13,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "91a44d20-8b2d-4c55-a157-018b2807ed0f": {
       "id": "91a44d20-8b2d-4c55-a157-018b2807ed0f",
@@ -166706,9 +166711,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166716,7 +166721,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "9a4cf995-24eb-4486-9a1e-018b26882915": {
       "id": "9a4cf995-24eb-4486-9a1e-018b26882915",
@@ -166746,9 +166751,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166756,7 +166761,7 @@
           "precio": "2,688,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "e36fa380-61cc-4002-a15a-018b26882915": {
       "id": "e36fa380-61cc-4002-a15a-018b26882915",
@@ -166786,9 +166791,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166796,7 +166801,7 @@
           "precio": "2,688,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "611cc8d0-7191-480b-95a7-018b26192c97": {
       "id": "611cc8d0-7191-480b-95a7-018b26192c97",
@@ -166826,9 +166831,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166836,7 +166841,7 @@
           "precio": "80,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "2335f44c-3577-4eec-a666-018b263dfc99": {
       "id": "2335f44c-3577-4eec-a666-018b263dfc99",
@@ -166866,9 +166871,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166876,7 +166881,7 @@
           "precio": "42,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "dd7bde4f-a983-43f7-887e-018b25e4a36e": {
       "id": "dd7bde4f-a983-43f7-887e-018b25e4a36e",
@@ -166906,9 +166911,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166916,7 +166921,7 @@
           "precio": "30,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "e46bf9ee-42cb-4c88-88c9-018b25e4af66": {
       "id": "e46bf9ee-42cb-4c88-88c9-018b25e4af66",
@@ -166946,9 +166951,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166956,7 +166961,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "fa1f954f-3aa2-4ca8-8aa7-018b25e33aa2": {
       "id": "fa1f954f-3aa2-4ca8-8aa7-018b25e33aa2",
@@ -166986,9 +166991,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -166996,7 +167001,7 @@
           "precio": "230,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "757a76fa-8471-41c5-b4ea-018b25e33aa2": {
       "id": "757a76fa-8471-41c5-b4ea-018b25e33aa2",
@@ -167026,9 +167031,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167036,7 +167041,7 @@
           "precio": "100,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "1c130f43-1d5c-4a2d-bf63-018b2878bc25": {
       "id": "1c130f43-1d5c-4a2d-bf63-018b2878bc25",
@@ -167066,9 +167071,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167076,7 +167081,7 @@
           "precio": "2,300,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "628f409b-c31e-4f0f-ae59-018b2841d080": {
       "id": "628f409b-c31e-4f0f-ae59-018b2841d080",
@@ -167106,9 +167111,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167116,7 +167121,7 @@
           "precio": "16,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "1c7286c0-3df8-4b19-b175-018b28abbcee": {
       "id": "1c7286c0-3df8-4b19-b175-018b28abbcee",
@@ -167146,9 +167151,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167156,7 +167161,7 @@
           "precio": "87,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "20a3859a-6123-43a5-992e-018b28abc899": {
       "id": "20a3859a-6123-43a5-992e-018b28abc899",
@@ -167186,9 +167191,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167196,7 +167201,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "20dc75da-aef3-48d0-bf1b-018b28abc899": {
       "id": "20dc75da-aef3-48d0-bf1b-018b28abc899",
@@ -167226,9 +167231,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167236,7 +167241,7 @@
           "precio": "35,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "14153b6e-0bc0-40fc-bf4c-018b28429e16": {
       "id": "14153b6e-0bc0-40fc-bf4c-018b28429e16",
@@ -167266,9 +167271,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167276,7 +167281,7 @@
           "precio": "22,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "37784714-6514-47e2-966d-018b287457c0": {
       "id": "37784714-6514-47e2-966d-018b287457c0",
@@ -167306,9 +167311,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167316,7 +167321,7 @@
           "precio": "3,500 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "549ccb9e-9a08-437a-8103-018b2875aa65": {
       "id": "549ccb9e-9a08-437a-8103-018b2875aa65",
@@ -167346,9 +167351,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167356,7 +167361,7 @@
           "precio": "12,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "17fac34e-0e2b-45e0-ba2f-018b2875aa65": {
       "id": "17fac34e-0e2b-45e0-ba2f-018b2875aa65",
@@ -167386,9 +167391,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167396,7 +167401,7 @@
           "precio": "18,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "92a31641-29ce-402a-bf3a-0194d726aa95": {
       "id": "92a31641-29ce-402a-bf3a-0194d726aa95",
@@ -167426,9 +167431,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167436,7 +167441,7 @@
           "precio": "68,024,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "00457059-6f12-430c-aa3a-01961cf4e082": {
       "id": "00457059-6f12-430c-aa3a-01961cf4e082",
@@ -167466,9 +167471,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167476,7 +167481,7 @@
           "precio": "3,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "7353902c-a121-4d25-a74b-0196ef1a1a35": {
       "id": "7353902c-a121-4d25-a74b-0196ef1a1a35",
@@ -167506,9 +167511,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167516,7 +167521,7 @@
           "precio": "9,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "880e5c4d-3d19-4db4-9303-0197ec68831e": {
       "id": "880e5c4d-3d19-4db4-9303-0197ec68831e",
@@ -167546,9 +167551,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167556,7 +167561,7 @@
           "precio": "110,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "071be783-05d9-48d2-96d1-0197ec7a46ca": {
       "id": "071be783-05d9-48d2-96d1-0197ec7a46ca",
@@ -167586,9 +167591,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167596,7 +167601,7 @@
           "precio": "10,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "00ce36a8-8d6c-4c3c-ba6a-0197ffdd8929": {
       "id": "00ce36a8-8d6c-4c3c-ba6a-0197ffdd8929",
@@ -167626,9 +167631,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -167636,7 +167641,7 @@
           "precio": "9,000 MXN Renta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "b2aea125-f384-4f41-a897-01985366052a": {
       "id": "b2aea125-f384-4f41-a897-01985366052a",
@@ -168899,9 +168904,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 97,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 100,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -168909,7 +168914,7 @@
           "precio": "5,200,000 MXN Venta"
         }
       ],
-      "delisted_reason": null
+      "delisted_reason": "subscription_lapse"
     },
     "a03e14d6-1fcf-465f-b520-019053a6cde0": {
       "id": "a03e14d6-1fcf-465f-b520-019053a6cde0",
@@ -214637,12 +214642,12 @@
       "tipo": "Edificio",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "15,000,000 MXN Venta",
-      "precio_num": 15000000.0,
+      "precio": "13,000,000 MXN Venta",
+      "precio_num": 13000000.0,
       "superficie": "1,314 m²",
       "area_num": 1314.0,
-      "precio_m2": "$11,416/m²",
-      "pm2_num": 11415.53,
+      "precio_m2": "$9,893/m²",
+      "pm2_num": 9893.46,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -214665,6 +214670,11 @@
           "date": "2026-08-30",
           "precio_num": 15000000.0,
           "precio": "15,000,000 MXN Venta"
+        },
+        {
+          "date": "2026-11-12",
+          "precio_num": 13000000.0,
+          "precio": "13,000,000 MXN Venta"
         }
       ]
     },
@@ -226875,16 +226885,17 @@
       ],
       "first_seen": "2026-10-01",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 42,
       "precio_history": [
         {
           "date": "2026-10-01",
           "precio_num": 15300.0,
           "precio": "15,300 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "subscription_lapse"
     },
     "9a769c3d-f090-4d9e-a128-01a0f472c3b8": {
       "id": "9a769c3d-f090-4d9e-a128-01a0f472c3b8",
@@ -233398,16 +233409,17 @@
       ],
       "first_seen": "2026-10-23",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 20,
       "precio_history": [
         {
           "date": "2026-10-23",
           "precio_num": 50000.0,
           "precio": "50,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "f3f0ad18-ab55-4454-a326-01a16975b566": {
       "id": "f3f0ad18-ab55-4454-a326-01a16975b566",
@@ -237433,8 +237445,8 @@
       "precio_num": 550000.0,
       "superficie": "500 m²",
       "area_num": 500.0,
-      "precio_m2": "$1,100/m²",
-      "pm2_num": 1100.0,
+      "precio_m2": "$4,198/m²",
+      "pm2_num": 4198.47,
       "ubicacion": "Moctezuma, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -240715,7 +240727,7 @@
     "0cf6ad96-b15f-4174-b46e-01a1c6f98f91": {
       "id": "0cf6ad96-b15f-4174-b46e-01a1c6f98f91",
       "code": "NN-HIH310",
-      "title": "PROPIEDAD COMERCIAL EN VENTA | UBICACIÓN ESTRATÉGICA EN EL CENTRO DE GÓMEZ PALACIO",
+      "title": "PLAZA COMERCIAL EN VENTA | UBICACIÓN ESTRATÉGICA EN EL CENTRO DE GÓMEZ PALACIO",
       "categoria": "Comercial",
       "tipo": "Local",
       "operacion": "Venta",
@@ -241310,16 +241322,17 @@
       ],
       "first_seen": "2026-11-11",
       "last_seen": "2026-11-12",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-12",
+      "days_listed": 1,
       "precio_history": [
         {
           "date": "2026-11-11",
           "precio_num": 30000.0,
           "precio": "30,000 MXN Renta"
         }
-      ]
+      ],
+      "delisted_reason": "sold"
     },
     "d6281888-f39b-4247-90cc-01a1c83bd7b3": {
       "id": "d6281888-f39b-4247-90cc-01a1c83bd7b3",
@@ -241739,6 +241752,199 @@
           "date": "2026-11-12",
           "precio_num": 1400000.0,
           "precio": "1,400,000 MXN Venta"
+        }
+      ]
+    },
+    "9d422d4a-af6c-4c35-b8aa-01a1d0ce621a": {
+      "id": "9d422d4a-af6c-4c35-b8aa-01a1d0ce621a",
+      "code": "NN-HIJ634",
+      "title": "Edificio en esquina de dos niveles en RENTA",
+      "categoria": "Comercial",
+      "tipo": "Edificio",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "50,000 MXN Renta",
+      "precio_num": 50000.0,
+      "superficie": "513 m²",
+      "area_num": 513.0,
+      "precio_m2": "$97.5/m²",
+      "pm2_num": 97.47,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Helue Sabag Bienes Raices",
+      "fecha_publicacion": "2026-11-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/9d422d4a-af6c-4c35-b8aa-01a1d0ce621a",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261112112938-9f885728705f4e66acb28a3c271a652bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112112938-2bdf3bc4d1a64a968b9018904b69177as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112112937-e4dbc86ffb8247bda327e8073d78aaa6s.webp"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-12",
+          "precio_num": 50000.0,
+          "precio": "50,000 MXN Renta"
+        }
+      ]
+    },
+    "eb51e8b9-6d0d-46fc-9275-01a1d0e1f22a": {
+      "id": "eb51e8b9-6d0d-46fc-9275-01a1d0e1f22a",
+      "code": "NN-HIJ676",
+      "title": "RENTA DE LOCALES PLAZA LAS PALMAS",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "14,175 MXN Renta",
+      "precio_num": 14175.0,
+      "superficie": "40 m²",
+      "area_num": 40.0,
+      "precio_m2": "$354.4/m²",
+      "pm2_num": 354.38,
+      "ubicacion": "Ampliación Senderos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ORDUÑA Y ASOCIADOS",
+      "fecha_publicacion": "2026-11-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/eb51e8b9-6d0d-46fc-9275-01a1d0e1f22a",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261112115031-b82779b09ff04b79852aca3b493e2bd0s.webp"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-12",
+          "precio_num": 14175.0,
+          "precio": "14,175 MXN Renta"
+        }
+      ]
+    },
+    "45c621b0-2d9b-4a49-8849-01a1d2689a32": {
+      "id": "45c621b0-2d9b-4a49-8849-01a1d2689a32",
+      "code": "NN-HIK231",
+      "title": "Local Comercial con Casa Habitación en el Centro de Torreón",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "2,350,000 MXN Venta",
+      "precio_num": 2350000.0,
+      "superficie": "209 m²",
+      "area_num": 209.0,
+      "precio_m2": "$11,244/m²",
+      "pm2_num": 11244.02,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ARJA co.",
+      "fecha_publicacion": "2026-11-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/45c621b0-2d9b-4a49-8849-01a1d2689a32",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261112185840-f6ebab77035147d19c2523aea8ff0ecas.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112185841-8444f56f9bdc4c1eb4e1541c3e97cd30s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112185841-9ef53ec8fefe4076b75eba9162e58bc8s.webp"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-12",
+          "precio_num": 2350000.0,
+          "precio": "2,350,000 MXN Venta"
+        }
+      ]
+    },
+    "d2f61d09-829d-479c-96f4-01a1d0dc0bbd": {
+      "id": "d2f61d09-829d-479c-96f4-01a1d0dc0bbd",
+      "code": "NN-HIJ663",
+      "title": "NAVE INDUSTRIAL/COMERCIAL NUEVA EN RENTA EN TOP PARK",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "100,000 MXN Renta",
+      "precio_num": 100000.0,
+      "superficie": "1,331 m²",
+      "area_num": 1331.0,
+      "precio_m2": "$75.1/m²",
+      "pm2_num": 75.13,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ARA INMOBILIARIA",
+      "fecha_publicacion": "2026-11-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/d2f61d09-829d-479c-96f4-01a1d0dc0bbd",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261112114417-1c35c8d5bbc94b17a5cac10d1e29801cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112114420-63b06a5f211f4e88b8bde43ae70f89bas.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112114423-78d2b7a9f42444929d09ecec9fe398c7s.webp"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-12",
+          "precio_num": 100000.0,
+          "precio": "100,000 MXN Renta"
+        }
+      ]
+    },
+    "de00527c-4162-4303-9ad0-01a1d174b074": {
+      "id": "de00527c-4162-4303-9ad0-01a1d174b074",
+      "code": "NN-HIJ875",
+      "title": "Bodega en Venta en Miravalle, Gómez Palacio",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "67,414 MXN Renta",
+      "precio_num": 67414.0,
+      "superficie": "793.1 m²",
+      "area_num": 793.1,
+      "precio_m2": "$85.0/m²",
+      "pm2_num": 85.0,
+      "ubicacion": "Miravalle, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "SAMAX Inmobiliaria",
+      "fecha_publicacion": "2026-11-12",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/de00527c-4162-4303-9ad0-01a1d174b074",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261112143150-7d88d20f9b334f5e878766d0e62d779bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112143150-9be9d2630d2843a69fc2413eb5884665s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261112143150-819bae5e7df64a6085ef94e081d5cff4s.webp"
+      ],
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-12",
+          "precio_num": 67414.0,
+          "precio": "67,414 MXN Renta"
         }
       ]
     }
