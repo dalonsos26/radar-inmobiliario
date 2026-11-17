@@ -43,6 +43,46 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "cbc95250-52b1-43ca-bc88-018b292aea16",
+      "code": "MX23-PA7542",
+      "title": "Local en Renta en Rincon de la Merced, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "7,000 MXN Renta",
+      "precio_num": 7000.0,
+      "superficie": "50 m²",
+      "area_num": 50.0,
+      "precio_m2": "$140.0/m²",
+      "pm2_num": 140.0,
+      "ubicacion": "Rincon de la Merced, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "COLDWELL BANKER COMARCA",
+      "fecha_publicacion": "2026-03-09",
+      "days_on_market": 252,
+      "link": "https://app.nocnok.com/crm/154940/properties/cbc95250-52b1-43ca-bc88-018b292aea16",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/230720130615-0cbec61bb366465ab637eda84e7031f8.jpg",
+        "https://s3.amazonaws.com/nocnok-img/230720130616-a2599d8e26114f25bee1d237bae6c328.jpg",
+        "https://s3.amazonaws.com/nocnok-img/230720130616-f0651e1995704deeb5e37d9c420d3d85.jpg"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-17",
+      "status": "delisted",
+      "delisted_at": "2026-11-17",
+      "days_listed": 169,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 7000.0,
+          "precio": "7,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "60d207be-dd78-4f5c-928f-0196401ba967",
       "code": "MX25-FU10061",
       "title": "Edificio en Renta o Venta – Excelente Ubicación en Esquina sobre Av. Juárez, Centro de Torreón",
@@ -54674,6 +54714,10 @@
           "precio": "3,800 MXN Venta"
         }
       ],
+      "m2_terreno": 4694,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "18,306,000 MXN Venta",
       "original_precio_num": 18306000.0,
       "current_precio": "3,800 MXN Venta",
@@ -54727,6 +54771,10 @@
       "lat": 25.5426189,
       "lng": -103.4583872,
       "delisted_reason": null,
+      "m2_terreno": 1725,
+      "m2_construccion": 725,
+      "banos": 1,
+      "estacionamientos": 1,
       "original_precio": "90,000 MXN Renta",
       "original_precio_num": 90000.0,
       "current_precio": "80 MXN Renta",
@@ -54880,6 +54928,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2150,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "6,880,000 MXN Venta",
       "original_precio_num": 6880000.0,
       "current_precio": "40,000 MXN Renta",
@@ -54931,6 +54983,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": null,
+      "m2_construccion": 88,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "7,500,000 MXN Venta",
       "original_precio_num": 7500000.0,
       "current_precio": "52,000 MXN Renta",
@@ -55032,6 +55088,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 30,
+      "m2_construccion": 30,
+      "banos": 1,
+      "estacionamientos": 5,
       "original_precio": "177,799 MXN Renta",
       "original_precio_num": 177799.0,
       "current_precio": "19,500 MXN Renta",
@@ -55083,6 +55143,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 100,
+      "m2_construccion": 100,
+      "banos": 1,
+      "estacionamientos": 4,
       "original_precio": "77,000 MXN Renta",
       "original_precio_num": 77000.0,
       "current_precio": "14,000 MXN Renta",
@@ -55133,6 +55197,10 @@
           "precio": "10,752,000 MXN Venta"
         }
       ],
+      "m2_terreno": 4136.76,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "32,266,000 MXN Venta",
       "original_precio_num": 32266000.0,
       "current_precio": "10,752,000 MXN Venta",
@@ -55183,6 +55251,10 @@
           "precio": "4,399,500 MXN Venta"
         }
       ],
+      "m2_terreno": 5866,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "10,559,214 MXN Venta",
       "original_precio_num": 10559214.0,
       "current_precio": "4,399,500 MXN Venta",
@@ -55233,6 +55305,10 @@
           "precio": "80,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1100,
+      "m2_construccion": 1100,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "180,000 MXN Renta",
       "original_precio_num": 180000.0,
       "current_precio": "80,000 MXN Renta",
@@ -55284,6 +55360,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1105,
+      "m2_construccion": 912,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "66,000 MXN Renta",
       "original_precio_num": 66000.0,
       "current_precio": "31,178 MXN Renta",
@@ -55437,6 +55517,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 55,
+      "m2_construccion": 28,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "8,000 MXN Renta",
       "original_precio_num": 8000.0,
       "current_precio": "4,000 MXN Renta",
@@ -55488,6 +55572,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1770,
+      "m2_construccion": 1770,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "210,000 MXN Renta",
       "original_precio_num": 210000.0,
       "current_precio": "106,200 MXN Renta",
@@ -55538,6 +55626,10 @@
           "precio": "9,000 MXN Renta"
         }
       ],
+      "m2_terreno": 146,
+      "m2_construccion": 146,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "17,000 MXN Renta",
       "original_precio_num": 17000.0,
       "current_precio": "9,000 MXN Renta",
@@ -55589,6 +55681,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1200,
+      "m2_construccion": 1200,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "148,500 MXN Renta",
       "original_precio_num": 148500.0,
       "current_precio": "79,200 MXN Renta",
@@ -55654,6 +55750,10 @@
           "precio": "20,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1600,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "37,000 MXN Renta",
       "original_precio_num": 37000.0,
       "current_precio": "20,000 MXN Renta",
@@ -55704,6 +55804,10 @@
           "precio": "50,000 MXN Renta"
         }
       ],
+      "m2_terreno": 2400,
+      "m2_construccion": 2400,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "90,000 MXN Renta",
       "original_precio_num": 90000.0,
       "current_precio": "50,000 MXN Renta",
@@ -55755,6 +55859,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 90,
+      "m2_construccion": 90,
+      "banos": 2,
+      "estacionamientos": 4,
       "original_precio": "30,000 MXN Renta",
       "original_precio_num": 30000.0,
       "current_precio": "17,000 MXN Renta",
@@ -55806,6 +55914,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1000,
+      "m2_construccion": 1000,
+      "banos": 6,
+      "estacionamientos": null,
       "original_precio": "150,000 MXN Renta",
       "original_precio_num": 150000.0,
       "current_precio": "86,000 MXN Renta",
@@ -55856,6 +55968,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 3000,
+      "m2_construccion": 3000,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "400,000 MXN Renta",
       "original_precio_num": 400000.0,
       "current_precio": "240,000 MXN Renta",
@@ -55906,6 +56022,10 @@
           "precio": "30,000 MXN Renta"
         }
       ],
+      "m2_terreno": 771,
+      "m2_construccion": 621,
+      "banos": null,
+      "estacionamientos": 10,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "30,000 MXN Renta",
@@ -55962,6 +56082,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 511,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "25,000 MXN Renta",
       "original_precio_num": 25000.0,
       "current_precio": "15,000 MXN Renta",
@@ -56013,12 +56137,70 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 3557,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "60,000 MXN Renta",
       "original_precio_num": 60000.0,
       "current_precio": "38,000 MXN Renta",
       "current_precio_num": 38000.0,
       "total_drop_pct": 36.7,
       "last_drop_date": "2026-07-21"
+    },
+    {
+      "id": "4dfe5255-ac8c-4c4d-ad37-018b29287779",
+      "code": "MX23-OV0434",
+      "title": "Terreno en Venta en Entronque Congregación Hidalgo, Matamoros, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "55,445,921 MXN Venta",
+      "precio_num": 55445920.0,
+      "superficie": "700,000 m²",
+      "area_num": 700000.0,
+      "precio_m2": "$68.0/m²",
+      "pm2_num": 68.0,
+      "ubicacion": "Entronque Congregación Hidalgo, Matamoros, Coahuila de Zaragoza",
+      "municipio": "Matamoros",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Murra Realty",
+      "fecha_publicacion": "2026-05-28",
+      "days_on_market": 172,
+      "link": "https://app.nocnok.com/crm/154940/properties/4dfe5255-ac8c-4c4d-ad37-018b29287779",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/230607164231-4a189c9e9b4f446c83d6b38865f707da.jpg",
+        "https://s3.amazonaws.com/nocnok-img/230607163858-131bcc5df2c847e8a68cfc75aa6bda2e.jpg",
+        "https://s3.amazonaws.com/nocnok-img/230607163858-843a1944f4164effa49327cfe36ab7c2.jpg"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-17",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 84000000.0,
+          "precio": "84,000,000 MXN Venta"
+        },
+        {
+          "date": "2026-11-17",
+          "precio_num": 55445920.0,
+          "precio": "55,445,921 MXN Venta"
+        }
+      ],
+      "m2_terreno": 815381.19,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "original_precio": "84,000,000 MXN Venta",
+      "original_precio_num": 84000000.0,
+      "current_precio": "55,445,921 MXN Venta",
+      "current_precio_num": 55445920.0,
+      "total_drop_pct": 34.0,
+      "last_drop_date": "2026-11-17"
     },
     {
       "id": "067e30e3-53b8-42b5-81bf-018b24dac8f2",
@@ -56064,6 +56246,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 250,
+      "m2_construccion": 250,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "30,000 MXN Renta",
       "original_precio_num": 30000.0,
       "current_precio": "20,000 MXN Renta",
@@ -56115,6 +56301,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 205,
+      "m2_construccion": 194,
+      "banos": 3,
+      "estacionamientos": 3,
       "original_precio": "30,000 MXN Renta",
       "original_precio_num": 30000.0,
       "current_precio": "20,000 MXN Renta",
@@ -56176,6 +56366,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 12250,
+      "m2_construccion": 5985,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "52,500,000 MXN Venta",
       "original_precio_num": 52500000.0,
       "current_precio": "35,000,000 MXN Venta",
@@ -56227,6 +56421,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1197,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "126,000 MXN Renta",
       "original_precio_num": 126000.0,
       "current_precio": "85,000 MXN Renta",
@@ -56278,6 +56476,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 583.27,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "470,000 MXN Venta",
       "original_precio_num": 470000.0,
       "current_precio": "317,775 MXN Venta",
@@ -56333,6 +56535,10 @@
           "precio": "24,000 MXN Renta"
         }
       ],
+      "m2_terreno": 143,
+      "m2_construccion": 110,
+      "banos": 2,
+      "estacionamientos": 4,
       "original_precio": "35,000 MXN Renta",
       "original_precio_num": 35000.0,
       "current_precio": "24,000 MXN Renta",
@@ -56384,6 +56590,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1710,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "6,900,000 MXN Venta",
       "original_precio_num": 6900000.0,
       "current_precio": "4,900,000 MXN Venta",
@@ -56435,6 +56645,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 158,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "1,650,000 MXN Venta",
       "original_precio_num": 1650000.0,
       "current_precio": "1,200,000 MXN Venta",
@@ -56542,6 +56756,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1000,
+      "m2_construccion": 250,
+      "banos": 2,
+      "estacionamientos": 20,
       "original_precio": "75,000 MXN Renta",
       "original_precio_num": 75000.0,
       "current_precio": "55,000 MXN Renta",
@@ -56593,6 +56811,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 170,
+      "m2_construccion": 170,
+      "banos": 1,
+      "estacionamientos": 3,
       "original_precio": "15,000 MXN Renta",
       "original_precio_num": 15000.0,
       "current_precio": "11,000 MXN Renta",
@@ -56648,6 +56870,10 @@
           "precio": "550,000 MXN Venta"
         }
       ],
+      "m2_terreno": 10.9,
+      "m2_construccion": 10,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "750,000 MXN Venta",
       "original_precio_num": 750000.0,
       "current_precio": "550,000 MXN Venta",
@@ -56698,6 +56924,10 @@
           "precio": "20,000,000 MXN Venta"
         }
       ],
+      "m2_terreno": 3194,
+      "m2_construccion": 2574,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "27,000,000 MXN Venta",
       "original_precio_num": 27000000.0,
       "current_precio": "20,000,000 MXN Venta",
@@ -56749,6 +56979,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2900,
+      "m2_construccion": 2900,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "130,000 MXN Renta",
       "original_precio_num": 130000.0,
       "current_precio": "97,000 MXN Renta",
@@ -56802,6 +57036,10 @@
       "lat": 25.5426189,
       "lng": -103.4583872,
       "delisted_reason": null,
+      "m2_terreno": 80,
+      "m2_construccion": 80,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "10,000 MXN Renta",
       "original_precio_num": 10000.0,
       "current_precio": "7,500 MXN Renta",
@@ -56853,6 +57091,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 200,
+      "m2_construccion": 200,
+      "banos": 2,
+      "estacionamientos": 2,
       "original_precio": "30,000 MXN Renta",
       "original_precio_num": 30000.0,
       "current_precio": "22,500 MXN Renta",
@@ -56904,6 +57146,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 895,
+      "m2_construccion": 1267,
+      "banos": 9,
+      "estacionamientos": null,
       "original_precio": "200,000 MXN Renta",
       "original_precio_num": 200000.0,
       "current_precio": "150,000 MXN Renta",
@@ -56955,6 +57201,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": null,
+      "m2_construccion": 200,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "200,000 MXN Renta",
       "original_precio_num": 200000.0,
       "current_precio": "150,000 MXN Renta",
@@ -57006,6 +57256,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 6232,
+      "m2_construccion": 4340,
+      "banos": 3,
+      "estacionamientos": 5,
       "original_precio": "400,000 MXN Renta",
       "original_precio_num": 400000.0,
       "current_precio": "300,000 MXN Renta",
@@ -57056,6 +57310,10 @@
           "precio": "3,000,000 MXN Venta | 35,000 MXN Renta"
         }
       ],
+      "m2_terreno": 450,
+      "m2_construccion": 900,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "4,000,000 MXN Venta | 35,000 MXN Renta",
       "original_precio_num": 4000000.0,
       "current_precio": "3,000,000 MXN Venta | 35,000 MXN Renta",
@@ -57106,6 +57364,10 @@
           "precio": "6,000 MXN Renta"
         }
       ],
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "8,000 MXN Renta",
       "original_precio_num": 8000.0,
       "current_precio": "6,000 MXN Renta",
@@ -57162,6 +57424,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 374,
+      "m2_construccion": 319,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "3,300,000 MXN Venta",
       "original_precio_num": 3300000.0,
       "current_precio": "2,500,000 MXN Venta",
@@ -57220,6 +57486,10 @@
       "lat": 25.546456,
       "lng": -103.4695665,
       "delisted_reason": null,
+      "m2_terreno": 219,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "6,576 MXN Renta",
       "original_precio_num": 6576.0,
       "current_precio": "5,000 MXN Renta",
@@ -57270,6 +57540,10 @@
           "precio": "11,000,000 MXN Venta"
         }
       ],
+      "m2_terreno": 20000,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "14,420,000 MXN Venta",
       "original_precio_num": 14420000.0,
       "current_precio": "11,000,000 MXN Venta",
@@ -57427,6 +57701,10 @@
           "precio": "1,500,000 MXN Venta"
         }
       ],
+      "m2_terreno": 324,
+      "m2_construccion": 465,
+      "banos": 6,
+      "estacionamientos": null,
       "original_precio": "1,950,000 MXN Venta",
       "original_precio_num": 1950000.0,
       "current_precio": "1,500,000 MXN Venta",
@@ -57531,6 +57809,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 5000,
+      "m2_construccion": 1000,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "25,000,000 MXN Venta",
       "original_precio_num": 25000000.0,
       "current_precio": "19,500,000 MXN Venta",
@@ -57586,6 +57868,10 @@
           "precio": "39,000 MXN Renta"
         }
       ],
+      "m2_terreno": null,
+      "m2_construccion": 370,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "39,000 MXN Renta",
@@ -57636,6 +57922,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 93,
+      "m2_construccion": 93,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "16,000 MXN Renta",
       "original_precio_num": 16000.0,
       "current_precio": "12,500 MXN Renta",
@@ -57686,6 +57976,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2000,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "950,000 MXN Venta",
       "original_precio_num": 950000.0,
       "current_precio": "750,000 MXN Venta",
@@ -57742,6 +58036,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": 300,
+      "banos": 2,
+      "estacionamientos": 4,
       "original_precio": "63,212 MXN Renta",
       "original_precio_num": 63212.0,
       "current_precio": "50,000 MXN Renta",
@@ -57792,6 +58090,10 @@
           "precio": "3,950,000 MXN Venta"
         }
       ],
+      "m2_terreno": 330,
+      "m2_construccion": 330,
+      "banos": 5,
+      "estacionamientos": 2,
       "original_precio": "4,950,000 MXN Venta",
       "original_precio_num": 4950000.0,
       "current_precio": "3,950,000 MXN Venta",
@@ -58010,6 +58312,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2400,
+      "m2_construccion": 2300,
+      "banos": 4,
+      "estacionamientos": 3,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "40,000 MXN Renta",
@@ -58112,6 +58418,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1000,
+      "m2_construccion": 1300,
+      "banos": 6,
+      "estacionamientos": null,
       "original_precio": "100,000 MXN Renta",
       "original_precio_num": 100000.0,
       "current_precio": "80,000 MXN Renta",
@@ -58163,6 +58473,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 500,
+      "m2_construccion": 68,
+      "banos": 1,
+      "estacionamientos": 3,
       "original_precio": "5,000,000 MXN Venta",
       "original_precio_num": 5000000.0,
       "current_precio": "4,000,000 MXN Venta",
@@ -58265,6 +58579,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 92,
+      "m2_construccion": 92,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "25,000 MXN Renta",
       "original_precio_num": 25000.0,
       "current_precio": "20,000 MXN Renta",
@@ -58315,6 +58633,10 @@
           "precio": "40,000 MXN Renta"
         }
       ],
+      "m2_terreno": 500,
+      "m2_construccion": 500,
+      "banos": 2,
+      "estacionamientos": 7,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "40,000 MXN Renta",
@@ -58365,6 +58687,10 @@
           "precio": "180,000 MXN Renta"
         }
       ],
+      "m2_terreno": 3300,
+      "m2_construccion": 3000,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "225,000 MXN Renta",
       "original_precio_num": 225000.0,
       "current_precio": "180,000 MXN Renta",
@@ -58415,6 +58741,10 @@
           "precio": "4,800 MXN Renta"
         }
       ],
+      "m2_terreno": 16,
+      "m2_construccion": 16,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "6,000 MXN Renta",
       "original_precio_num": 6000.0,
       "current_precio": "4,800 MXN Renta",
@@ -58465,6 +58795,10 @@
           "precio": "32,000 MXN Renta"
         }
       ],
+      "m2_terreno": 329,
+      "m2_construccion": 329,
+      "banos": 2,
+      "estacionamientos": 2,
       "original_precio": "40,000 MXN Renta",
       "original_precio_num": 40000.0,
       "current_precio": "32,000 MXN Renta",
@@ -58516,6 +58850,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1100,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "2,100,000 MXN Venta | 25,000 MXN Renta",
       "original_precio_num": 2100000.0,
       "current_precio": "1,700,000 MXN Venta | 12,000 MXN Renta",
@@ -58567,6 +58905,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 9068.87,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "50,392,770 MXN Venta",
       "original_precio_num": 50392770.0,
       "current_precio": "40,809,915 MXN Venta | 45 MXN Renta",
@@ -58618,6 +58960,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 400,
+      "m2_construccion": 75,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "3,700,000 MXN Venta",
       "original_precio_num": 3700000.0,
       "current_precio": "3,000,000 MXN Venta",
@@ -58668,6 +59014,10 @@
           "precio": "980,000 MXN Venta"
         }
       ],
+      "m2_terreno": 137,
+      "m2_construccion": 175,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "1,200,000 MXN Venta",
       "original_precio_num": 1200000.0,
       "current_precio": "980,000 MXN Venta",
@@ -58721,6 +59071,10 @@
       "lat": 25.5912695,
       "lng": -103.4173454,
       "delisted_reason": null,
+      "m2_terreno": 50,
+      "m2_construccion": 50,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "11,000 MXN Renta",
       "original_precio_num": 11000.0,
       "current_precio": "9,000 MXN Renta",
@@ -58874,6 +59228,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 200,
+      "m2_construccion": 230,
+      "banos": 2,
+      "estacionamientos": 3,
       "original_precio": "11,500 MXN Renta",
       "original_precio_num": 11500.0,
       "current_precio": "9,500 MXN Renta",
@@ -58924,6 +59282,10 @@
           "precio": "620,000 MXN Venta"
         }
       ],
+      "m2_terreno": 9,
+      "m2_construccion": 9,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "750,000 MXN Venta",
       "original_precio_num": 750000.0,
       "current_precio": "620,000 MXN Venta",
@@ -58974,6 +59336,10 @@
           "precio": "23,865,450 MXN Venta"
         }
       ],
+      "m2_terreno": 9741,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "28,863,450 MXN Venta",
       "original_precio_num": 28863450.0,
       "current_precio": "23,865,450 MXN Venta",
@@ -59025,6 +59391,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 941,
+      "m2_construccion": 3973,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "20,500,000 MXN Venta",
       "original_precio_num": 20500000.0,
       "current_precio": "17,000,000 MXN Venta",
@@ -59076,6 +59446,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1883,
+      "m2_construccion": 1883,
+      "banos": null,
+      "estacionamientos": 8,
       "original_precio": "199,750 MXN Renta",
       "original_precio_num": 199750.0,
       "current_precio": "165,704 MXN Renta",
@@ -59127,6 +59501,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 224,
+      "m2_construccion": 227,
+      "banos": 3,
+      "estacionamientos": 1,
       "original_precio": "3,600,000 MXN Venta",
       "original_precio_num": 3600000.0,
       "current_precio": "2,990,000 MXN Venta",
@@ -59178,6 +59556,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1041,
+      "m2_construccion": 1041,
+      "banos": 2,
+      "estacionamientos": 2,
       "original_precio": "15,660,000 MXN Venta",
       "original_precio_num": 15660000.0,
       "current_precio": "13,012,500 MXN Venta",
@@ -59231,6 +59613,10 @@
       "lat": null,
       "lng": null,
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "12,000 MXN Renta",
       "original_precio_num": 12000.0,
       "current_precio": "10,000 MXN Renta",
@@ -59284,6 +59670,10 @@
       "lat": null,
       "lng": null,
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "12,000 MXN Renta",
       "original_precio_num": 12000.0,
       "current_precio": "10,000 MXN Renta",
@@ -59335,6 +59725,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 100,
+      "m2_construccion": 80,
+      "banos": 2,
+      "estacionamientos": 2,
       "original_precio": "12,000 MXN Renta",
       "original_precio_num": 12000.0,
       "current_precio": "10,000 MXN Renta",
@@ -59386,6 +59780,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 9708,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "300,000 MXN Renta",
       "original_precio_num": 300000.0,
       "current_precio": "250,000 MXN Renta",
@@ -59437,6 +59835,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1120,
+      "m2_construccion": 1120,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "67,200 MXN Renta",
       "original_precio_num": 67200.0,
       "current_precio": "56,000 MXN Renta",
@@ -59640,6 +60042,10 @@
           "precio": "45,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1200,
+      "m2_construccion": 1200,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "54,000 MXN Renta",
       "original_precio_num": 54000.0,
       "current_precio": "45,000 MXN Renta",
@@ -59690,6 +60096,10 @@
           "precio": "5,000 MXN Renta"
         }
       ],
+      "m2_terreno": 65,
+      "m2_construccion": 65,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "6,000 MXN Renta",
       "original_precio_num": 6000.0,
       "current_precio": "5,000 MXN Renta",
@@ -59740,6 +60150,10 @@
           "precio": "5,000 MXN Renta"
         }
       ],
+      "m2_terreno": null,
+      "m2_construccion": 65,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "6,000 MXN Renta",
       "original_precio_num": 6000.0,
       "current_precio": "5,000 MXN Renta",
@@ -59790,6 +60204,10 @@
           "precio": "10,000 MXN Renta"
         }
       ],
+      "m2_terreno": 80,
+      "m2_construccion": 192,
+      "banos": 1,
+      "estacionamientos": 1,
       "original_precio": "12,000 MXN Renta",
       "original_precio_num": 12000.0,
       "current_precio": "10,000 MXN Renta",
@@ -59841,6 +60259,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 850,
+      "m2_construccion": 850,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "58,500 MXN Renta",
       "original_precio_num": 58500.0,
       "current_precio": "49,000 MXN Renta",
@@ -59891,6 +60313,10 @@
           "precio": "42,000 MXN Renta"
         }
       ],
+      "m2_terreno": 240,
+      "m2_construccion": 400,
+      "banos": null,
+      "estacionamientos": 2,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "42,000 MXN Renta",
@@ -60005,6 +60431,10 @@
       "lat": 25.5630433,
       "lng": -103.446571,
       "delisted_reason": null,
+      "m2_terreno": 50,
+      "m2_construccion": 50,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "6,500 MXN Renta",
       "original_precio_num": 6500.0,
       "current_precio": "5,500 MXN Renta",
@@ -60056,6 +60486,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 111,
+      "m2_construccion": 108,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "1,300,000 MXN Venta",
       "original_precio_num": 1300000.0,
       "current_precio": "1,100,000 MXN Venta",
@@ -60168,12 +60602,70 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 65,
+      "m2_construccion": 65,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "13,000 MXN Renta",
       "original_precio_num": 13000.0,
       "current_precio": "11,000 MXN Renta",
       "current_precio_num": 11000.0,
       "total_drop_pct": 15.4,
       "last_drop_date": "2026-10-07"
+    },
+    {
+      "id": "7fc27a3b-ce2f-4cc0-9c1b-01a1d5b678f2",
+      "code": "NN-HIK505",
+      "title": "INVERSION EN CALZADA ABASTOS: CASA + 2 LOCALES",
+      "categoria": "Comercial",
+      "tipo": "Hotel",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "1,950,000 MXN Venta",
+      "precio_num": 1950000.0,
+      "superficie": "165 m²",
+      "area_num": 165.0,
+      "precio_m2": "$11,818/m²",
+      "pm2_num": 11818.18,
+      "ubicacion": "Estrella, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "KW Milenio",
+      "fecha_publicacion": "2026-11-13",
+      "days_on_market": 4,
+      "link": "https://app.nocnok.com/crm/154940/properties/7fc27a3b-ce2f-4cc0-9c1b-01a1d5b678f2",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261113102108-6a844413c83e44abb626b93c5f2580f3s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261113102108-6e4f0f5807e94b7dad48f294efffd7ffs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261113102108-65fe24bf568446e8b7ddc5e49424a9das.webp"
+      ],
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-17",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-13",
+          "precio_num": 2300000.0,
+          "precio": "2,300,000 MXN Venta"
+        },
+        {
+          "date": "2026-11-17",
+          "precio_num": 1950000.0,
+          "precio": "1,950,000 MXN Venta"
+        }
+      ],
+      "m2_terreno": 167,
+      "m2_construccion": 165,
+      "banos": 3,
+      "estacionamientos": null,
+      "original_precio": "2,300,000 MXN Venta",
+      "original_precio_num": 2300000.0,
+      "current_precio": "1,950,000 MXN Venta",
+      "current_precio_num": 1950000.0,
+      "total_drop_pct": 15.2,
+      "last_drop_date": "2026-11-17"
     },
     {
       "id": "60b3321c-68c6-4813-8eac-019e4ce6e6db",
@@ -60322,6 +60814,10 @@
           "precio": "29,000 MXN Renta"
         }
       ],
+      "m2_terreno": 616,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "34,000 MXN Renta",
       "original_precio_num": 34000.0,
       "current_precio": "29,000 MXN Renta",
@@ -60378,6 +60874,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2650,
+      "m2_construccion": 2106,
+      "banos": null,
+      "estacionamientos": 25,
       "original_precio": "165,188 MXN Renta",
       "original_precio_num": 165188.0,
       "current_precio": "141,102 MXN Renta",
@@ -60431,6 +60931,10 @@
       "lat": 25.5630433,
       "lng": -103.446571,
       "delisted_reason": null,
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "7,000 MXN Renta",
       "original_precio_num": 7000.0,
       "current_precio": "6,000 MXN Renta",
@@ -60484,6 +60988,10 @@
       "lat": 25.5630433,
       "lng": -103.446571,
       "delisted_reason": null,
+      "m2_terreno": 55,
+      "m2_construccion": 55,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "7,000 MXN Renta",
       "original_precio_num": 7000.0,
       "current_precio": "6,000 MXN Renta",
@@ -60535,6 +61043,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 8000,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "140,000 MXN Renta",
       "original_precio_num": 140000.0,
       "current_precio": "120,000 MXN Renta",
@@ -60586,6 +61098,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 200,
+      "m2_construccion": 200,
+      "banos": 4,
+      "estacionamientos": 2,
       "original_precio": "7,000 MXN Renta",
       "original_precio_num": 7000.0,
       "current_precio": "6,000 MXN Renta",
@@ -60634,6 +61150,10 @@
           "precio": "1,200,000 MXN Venta"
         }
       ],
+      "m2_terreno": 9000,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "1,400,000 MXN Venta",
       "original_precio_num": 1400000.0,
       "current_precio": "1,200,000 MXN Venta",
@@ -60685,6 +61205,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 54,
+      "m2_construccion": 54,
+      "banos": 1,
+      "estacionamientos": 1,
       "original_precio": "650,000 MXN Venta",
       "original_precio_num": 650000.0,
       "current_precio": "559,000 MXN Venta",
@@ -60838,6 +61362,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": 325,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "25,500 MXN Renta",
       "original_precio_num": 25500.0,
       "current_precio": "22,000 MXN Renta",
@@ -60889,6 +61417,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1400,
+      "m2_construccion": 1600,
+      "banos": 8,
+      "estacionamientos": null,
       "original_precio": "110,000 MXN Renta",
       "original_precio_num": 110000.0,
       "current_precio": "95,000 MXN Renta",
@@ -60940,6 +61472,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 64641,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "17,948,000 MXN Venta",
       "original_precio_num": 17948000.0,
       "current_precio": "15,513,840 MXN Venta",
@@ -60991,6 +61527,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2000,
+      "m2_construccion": 1300,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "75,000 MXN Renta",
       "original_precio_num": 75000.0,
       "current_precio": "65,000 MXN Renta",
@@ -61042,6 +61582,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 900,
+      "m2_construccion": 900,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "15,000 MXN Renta",
       "original_precio_num": 15000.0,
       "current_precio": "13,000 MXN Renta",
@@ -61090,6 +61634,10 @@
           "precio": "13,000 MXN Renta"
         }
       ],
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "15,000 MXN Renta",
       "original_precio_num": 15000.0,
       "current_precio": "13,000 MXN Renta",
@@ -61141,6 +61689,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1106,
+      "m2_construccion": 854,
+      "banos": 9,
+      "estacionamientos": 10,
       "original_precio": "15,000,000 MXN Venta",
       "original_precio_num": 15000000.0,
       "current_precio": "13,000,000 MXN Venta",
@@ -61191,6 +61743,10 @@
           "precio": "13,000 MXN Renta"
         }
       ],
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "15,000 MXN Renta",
       "original_precio_num": 15000.0,
       "current_precio": "13,000 MXN Renta",
@@ -61292,6 +61848,10 @@
           "precio": "13,000,000 MXN Venta"
         }
       ],
+      "m2_terreno": 637,
+      "m2_construccion": 1314,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "15,000,000 MXN Venta",
       "original_precio_num": 15000000.0,
       "current_precio": "13,000,000 MXN Venta",
@@ -61343,6 +61903,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 6440,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "33,300,000 MXN Venta",
       "original_precio_num": 33300000.0,
       "current_precio": "28,980,000 MXN Venta",
@@ -61394,6 +61958,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 140,
+      "m2_construccion": 140,
+      "banos": 1,
+      "estacionamientos": 1,
       "original_precio": "15,500 MXN Renta",
       "original_precio_num": 15500.0,
       "current_precio": "13,500 MXN Renta",
@@ -61444,6 +62012,10 @@
           "precio": "13,500 MXN Renta"
         }
       ],
+      "m2_terreno": 200,
+      "m2_construccion": 200,
+      "banos": 2,
+      "estacionamientos": 5,
       "original_precio": "15,500 MXN Renta",
       "original_precio_num": 15500.0,
       "current_precio": "13,500 MXN Renta",
@@ -61495,6 +62067,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 3470,
+      "m2_construccion": 3470,
+      "banos": 3,
+      "estacionamientos": 10,
       "original_precio": "19,500,000 MXN Venta",
       "original_precio_num": 19500000.0,
       "current_precio": "17,000,000 MXN Venta",
@@ -61543,6 +62119,10 @@
           "precio": "60,000 MXN Renta"
         }
       ],
+      "m2_terreno": 860,
+      "m2_construccion": 800,
+      "banos": 2,
+      "estacionamientos": 5,
       "original_precio": "68,800 MXN Renta",
       "original_precio_num": 68800.0,
       "current_precio": "60,000 MXN Renta",
@@ -61592,6 +62172,10 @@
           "precio": "1,180,000 MXN Venta"
         }
       ],
+      "m2_terreno": 24,
+      "m2_construccion": 24,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "1,350,000 MXN Venta | 8,000 MXN Renta",
       "original_precio_num": 1350000.0,
       "current_precio": "1,180,000 MXN Venta",
@@ -61645,6 +62229,10 @@
       "lat": 25.5630433,
       "lng": -103.446571,
       "delisted_reason": null,
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "8,000 MXN Renta",
       "original_precio_num": 8000.0,
       "current_precio": "7,000 MXN Renta",
@@ -61698,6 +62286,10 @@
       "lat": 25.5630433,
       "lng": -103.446571,
       "delisted_reason": null,
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "8,000 MXN Renta",
       "original_precio_num": 8000.0,
       "current_precio": "7,000 MXN Renta",
@@ -61749,6 +62341,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 230,
+      "m2_construccion": 350,
+      "banos": 4,
+      "estacionamientos": 7,
       "original_precio": "40,000 MXN Renta",
       "original_precio_num": 40000.0,
       "current_precio": "35,000 MXN Renta",
@@ -61850,6 +62446,10 @@
           "precio": "14,000 MXN Renta"
         }
       ],
+      "m2_terreno": 144,
+      "m2_construccion": 230,
+      "banos": 2,
+      "estacionamientos": 1,
       "original_precio": "16,000 MXN Renta",
       "original_precio_num": 16000.0,
       "current_precio": "14,000 MXN Renta",
@@ -61901,6 +62501,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 941,
+      "m2_construccion": 3973,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "19,377,000 MXN Venta",
       "original_precio_num": 19377000.0,
       "current_precio": "17,000,000 MXN Venta",
@@ -61952,6 +62556,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 3469,
+      "m2_construccion": 3469,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "20,500,000 MXN Venta",
       "original_precio_num": 20500000.0,
       "current_precio": "18,000,000 MXN Venta",
@@ -62107,6 +62715,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 800,
+      "m2_construccion": 790,
+      "banos": 6,
+      "estacionamientos": 6,
       "original_precio": "85,000 MXN Renta",
       "original_precio_num": 85000.0,
       "current_precio": "75,000 MXN Renta",
@@ -62207,6 +62819,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2076,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "124,560 MXN Renta",
       "original_precio_num": 124560.0,
       "current_precio": "110,000 MXN Renta",
@@ -62258,6 +62874,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 480,
+      "m2_construccion": 366,
+      "banos": 6,
+      "estacionamientos": 3,
       "original_precio": "30,500 MXN Renta",
       "original_precio_num": 30500.0,
       "current_precio": "27,000 MXN Renta",
@@ -62323,6 +62943,10 @@
           "precio": "11,500,000 MXN Venta | 40,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1105,
+      "m2_construccion": 857,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "13,000,000 MXN Venta",
       "original_precio_num": 13000000.0,
       "current_precio": "11,500,000 MXN Venta | 40,000 MXN Renta",
@@ -62374,6 +62998,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 958,
+      "m2_construccion": 416,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "7,000,000 MXN Venta",
       "original_precio_num": 7000000.0,
       "current_precio": "6,200,000 MXN Venta",
@@ -62424,6 +63052,10 @@
           "precio": "6,200,000 MXN Venta"
         }
       ],
+      "m2_terreno": 958,
+      "m2_construccion": 535,
+      "banos": 4,
+      "estacionamientos": 5,
       "original_precio": "7,000,000 MXN Venta",
       "original_precio_num": 7000000.0,
       "current_precio": "6,200,000 MXN Venta",
@@ -62474,6 +63106,10 @@
           "precio": "95,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1770,
+      "m2_construccion": 1770,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "107,000 MXN Renta",
       "original_precio_num": 107000.0,
       "current_precio": "95,000 MXN Renta",
@@ -62527,6 +63163,10 @@
       "lat": 25.5724766,
       "lng": -103.447842,
       "delisted_reason": null,
+      "m2_terreno": 44,
+      "m2_construccion": 44,
+      "banos": 1,
+      "estacionamientos": 1,
       "original_precio": "9,000 MXN Renta",
       "original_precio_num": 9000.0,
       "current_precio": "8,000 MXN Renta",
@@ -62731,6 +63371,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "28,000 MXN Renta",
       "original_precio_num": 28000.0,
       "current_precio": "25,000 MXN Renta",
@@ -62782,6 +63426,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 940,
+      "m2_construccion": 260,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "95,000 MXN Renta",
       "original_precio_num": 95000.0,
       "current_precio": "85,000 MXN Renta",
@@ -62832,6 +63480,10 @@
           "precio": "850,000 MXN Venta"
         }
       ],
+      "m2_terreno": 196,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "950,000 MXN Venta",
       "original_precio_num": 950000.0,
       "current_precio": "850,000 MXN Venta",
@@ -62938,6 +63590,10 @@
           "precio": "1,750,000 MXN Venta"
         }
       ],
+      "m2_terreno": null,
+      "m2_construccion": 33,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "1,950,000 MXN Venta",
       "original_precio_num": 1950000.0,
       "current_precio": "1,750,000 MXN Venta",
@@ -63044,6 +63700,10 @@
           "precio": "3,500,000 MXN Venta"
         }
       ],
+      "m2_terreno": 252,
+      "m2_construccion": 231,
+      "banos": 6,
+      "estacionamientos": 6,
       "original_precio": "3,900,000 MXN Venta",
       "original_precio_num": 3900000.0,
       "current_precio": "3,500,000 MXN Venta",
@@ -63148,6 +63808,10 @@
       "lat": 25.5426189,
       "lng": -103.4583872,
       "delisted_reason": null,
+      "m2_terreno": 165,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "15,000 MXN Renta",
       "original_precio_num": 15000.0,
       "current_precio": "13,500 MXN Renta",
@@ -63199,6 +63863,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 149,
+      "m2_construccion": 168,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "20,000 MXN Renta",
       "original_precio_num": 20000.0,
       "current_precio": "18,000 MXN Renta",
@@ -63250,6 +63918,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1500,
+      "m2_construccion": 980,
+      "banos": 3,
+      "estacionamientos": 6,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "45,000 MXN Renta",
@@ -63351,6 +64023,10 @@
           "precio": "18,000 MXN Renta"
         }
       ],
+      "m2_terreno": 150,
+      "m2_construccion": 150,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "20,000 MXN Renta",
       "original_precio_num": 20000.0,
       "current_precio": "18,000 MXN Renta",
@@ -63401,6 +64077,10 @@
           "precio": "225,000 MXN Renta"
         }
       ],
+      "m2_terreno": 4000,
+      "m2_construccion": 3200,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "250,000 MXN Renta",
       "original_precio_num": 250000.0,
       "current_precio": "225,000 MXN Renta",
@@ -63555,6 +64235,10 @@
           "precio": "19,000 MXN Renta"
         }
       ],
+      "m2_terreno": 330,
+      "m2_construccion": 385,
+      "banos": 4,
+      "estacionamientos": 3,
       "original_precio": "21,000 MXN Renta",
       "original_precio_num": 21000.0,
       "current_precio": "19,000 MXN Renta",
@@ -63608,6 +64292,10 @@
       "lat": 25.5426189,
       "lng": -103.4583872,
       "delisted_reason": null,
+      "m2_terreno": 606,
+      "m2_construccion": 606,
+      "banos": 3,
+      "estacionamientos": 2,
       "original_precio": "46,677 MXN Renta",
       "original_precio_num": 46677.0,
       "current_precio": "42,340 MXN Renta",
@@ -63709,6 +64397,10 @@
           "precio": "59,000 MXN Renta"
         }
       ],
+      "m2_terreno": 232.84,
+      "m2_construccion": 232.84,
+      "banos": 1,
+      "estacionamientos": 4,
       "original_precio": "65,000 MXN Renta",
       "original_precio_num": 65000.0,
       "current_precio": "59,000 MXN Renta",
@@ -63760,6 +64452,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": 300,
+      "banos": 3,
+      "estacionamientos": 3,
       "original_precio": "3,300,000 MXN Venta",
       "original_precio_num": 3300000.0,
       "current_precio": "3,000,000 MXN Venta",
@@ -63810,6 +64506,10 @@
           "precio": "20,000 MXN Renta"
         }
       ],
+      "m2_terreno": null,
+      "m2_construccion": 68,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "22,000 MXN Renta",
       "original_precio_num": 22000.0,
       "current_precio": "20,000 MXN Renta",
@@ -63860,6 +64560,10 @@
           "precio": "50,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1105,
+      "m2_construccion": 854,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "55,000 MXN Renta",
       "original_precio_num": 55000.0,
       "current_precio": "50,000 MXN Renta",
@@ -63911,6 +64615,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 3210,
+      "m2_construccion": 3210,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "208,650 MXN Renta",
       "original_precio_num": 208650.0,
       "current_precio": "190,000 MXN Renta",
@@ -64066,6 +64774,10 @@
       "lat": 25.5236037,
       "lng": -103.3315284,
       "delisted_reason": null,
+      "m2_terreno": 701,
+      "m2_construccion": 120,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "1,800,000 MXN Venta",
       "original_precio_num": 1800000.0,
       "current_precio": "1,650,000 MXN Venta",
@@ -64119,6 +64831,10 @@
       "lat": 25.5642818,
       "lng": -103.4357007,
       "delisted_reason": null,
+      "m2_terreno": 90,
+      "m2_construccion": 90,
+      "banos": 2,
+      "estacionamientos": 2,
       "original_precio": "18,000 MXN Renta",
       "original_precio_num": 18000.0,
       "current_precio": "16,500 MXN Renta",
@@ -64273,6 +64989,10 @@
           "precio": "1,650,000 MXN Venta"
         }
       ],
+      "m2_terreno": 895,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "1,800,000 MXN Venta",
       "original_precio_num": 1800000.0,
       "current_precio": "1,650,000 MXN Venta",
@@ -64322,6 +65042,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "12,000 MXN Renta",
       "original_precio_num": 12000.0,
       "current_precio": "11,000 MXN Renta",
@@ -64373,6 +65097,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 65,
+      "m2_construccion": 65,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "12,000 MXN Renta",
       "original_precio_num": 12000.0,
       "current_precio": "11,000 MXN Renta",
@@ -64474,6 +65202,10 @@
           "precio": "2,300,000 MXN Venta | 19,500 MXN Renta"
         }
       ],
+      "m2_terreno": 1100,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "2,500,000 MXN Venta | 25,000 MXN Renta",
       "original_precio_num": 2500000.0,
       "current_precio": "2,300,000 MXN Venta | 19,500 MXN Renta",
@@ -64575,6 +65307,10 @@
           "precio": "2,300,000 MXN Venta"
         }
       ],
+      "m2_terreno": 119,
+      "m2_construccion": 230,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "2,500,000 MXN Venta",
       "original_precio_num": 2500000.0,
       "current_precio": "2,300,000 MXN Venta",
@@ -64625,6 +65361,10 @@
           "precio": "80,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1740,
+      "m2_construccion": 890,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "87,000 MXN Renta",
       "original_precio_num": 87000.0,
       "current_precio": "80,000 MXN Renta",
@@ -64676,6 +65416,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1000,
+      "m2_construccion": 250,
+      "banos": 5,
+      "estacionamientos": null,
       "original_precio": "38,000 MXN Renta",
       "original_precio_num": 38000.0,
       "current_precio": "35,000 MXN Renta",
@@ -64727,6 +65471,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": null,
+      "m2_construccion": 99,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "13,000 MXN Renta",
       "original_precio_num": 13000.0,
       "current_precio": "12,000 MXN Renta",
@@ -64787,6 +65535,10 @@
           "precio": "12,000,000 MXN Venta"
         }
       ],
+      "m2_terreno": 1105,
+      "m2_construccion": 854,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "13,000,000 MXN Venta",
       "original_precio_num": 13000000.0,
       "current_precio": "12,000,000 MXN Venta",
@@ -64837,6 +65589,10 @@
           "precio": "12,000 MXN Renta"
         }
       ],
+      "m2_terreno": 47,
+      "m2_construccion": 47.6,
+      "banos": 1,
+      "estacionamientos": 20,
       "original_precio": "13,000 MXN Renta",
       "original_precio_num": 13000.0,
       "current_precio": "12,000 MXN Renta",
@@ -64892,6 +65648,10 @@
           "precio": "73,000 MXN Renta"
         }
       ],
+      "m2_terreno": 1040,
+      "m2_construccion": 1000,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "79,000 MXN Renta",
       "original_precio_num": 79000.0,
       "current_precio": "73,000 MXN Renta",
@@ -64943,6 +65703,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 600,
+      "m2_construccion": 300,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "5,300,000 MXN Venta",
       "original_precio_num": 5300000.0,
       "current_precio": "4,900,000 MXN Venta",
@@ -64994,6 +65758,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 600,
+      "m2_construccion": 385,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "5,300,000 MXN Venta",
       "original_precio_num": 5300000.0,
       "current_precio": "4,900,000 MXN Venta",
@@ -65045,6 +65813,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "2,650,000 MXN Venta",
       "original_precio_num": 2650000.0,
       "current_precio": "2,450,000 MXN Venta",
@@ -65096,6 +65868,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 600,
+      "m2_construccion": 385,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "5,300,000 MXN Venta",
       "original_precio_num": 5300000.0,
       "current_precio": "4,900,000 MXN Venta",
@@ -65146,6 +65922,10 @@
           "precio": "2,450,000 MXN Venta"
         }
       ],
+      "m2_terreno": 270.53,
+      "m2_construccion": 367.45,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "2,650,000 MXN Venta",
       "original_precio_num": 2650000.0,
       "current_precio": "2,450,000 MXN Venta",
@@ -65248,6 +66028,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 4126,
+      "m2_construccion": 3874,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "27,000,000 MXN Venta",
       "original_precio_num": 27000000.0,
       "current_precio": "25,000,000 MXN Venta",
@@ -65299,6 +66083,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 2200,
+      "m2_construccion": 2200,
+      "banos": 5,
+      "estacionamientos": 4,
       "original_precio": "95,000 MXN Renta",
       "original_precio_num": 95000.0,
       "current_precio": "88,000 MXN Renta",
@@ -65349,6 +66137,10 @@
           "precio": "88,000 MXN Renta"
         }
       ],
+      "m2_terreno": 2200,
+      "m2_construccion": 775,
+      "banos": 5,
+      "estacionamientos": 12,
       "original_precio": "95,000 MXN Renta",
       "original_precio_num": 95000.0,
       "current_precio": "88,000 MXN Renta",
@@ -65402,6 +66194,10 @@
       "delisted_reason": null,
       "lat": 25.5986164,
       "lng": -103.415279,
+      "m2_terreno": 200,
+      "m2_construccion": 240,
+      "banos": 6,
+      "estacionamientos": null,
       "original_precio": "7,000,000 MXN Venta",
       "original_precio_num": 7000000.0,
       "current_precio": "6,500,000 MXN Venta",
@@ -65453,6 +66249,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 250,
+      "m2_construccion": 250,
+      "banos": 2,
+      "estacionamientos": 18,
       "original_precio": "70,000 MXN Renta",
       "original_precio_num": 70000.0,
       "current_precio": "65,000 MXN Renta",
@@ -65504,6 +66304,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 200,
+      "m2_construccion": 200,
+      "banos": 1,
+      "estacionamientos": 1,
       "original_precio": "14,000 MXN Renta",
       "original_precio_num": 14000.0,
       "current_precio": "13,000 MXN Renta",
@@ -65555,6 +66359,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 231,
+      "m2_construccion": 750,
+      "banos": 5,
+      "estacionamientos": 5,
       "original_precio": "7,000,000 MXN Venta",
       "original_precio_num": 7000000.0,
       "current_precio": "6,500,000 MXN Venta",
@@ -65605,6 +66413,10 @@
           "precio": "205,000 MXN Renta"
         }
       ],
+      "m2_terreno": 4000,
+      "m2_construccion": 3000,
+      "banos": 4,
+      "estacionamientos": 6,
       "original_precio": "220,000 MXN Renta",
       "original_precio_num": 220000.0,
       "current_precio": "205,000 MXN Renta",
@@ -65655,6 +66467,10 @@
           "precio": "205,000 MXN Renta"
         }
       ],
+      "m2_terreno": 4000,
+      "m2_construccion": 3000,
+      "banos": 4,
+      "estacionamientos": 6,
       "original_precio": "220,000 MXN Renta",
       "original_precio_num": 220000.0,
       "current_precio": "205,000 MXN Renta",
@@ -65705,6 +66521,10 @@
           "precio": "55,000 MXN Renta"
         }
       ],
+      "m2_terreno": 414,
+      "m2_construccion": 814,
+      "banos": 3,
+      "estacionamientos": 4,
       "original_precio": "59,000 MXN Renta",
       "original_precio_num": 59000.0,
       "current_precio": "55,000 MXN Renta",
@@ -65761,6 +66581,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 137,
+      "m2_construccion": 175,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "1,050,000 MXN Venta",
       "original_precio_num": 1050000.0,
       "current_precio": "980,000 MXN Venta",
@@ -65812,6 +66636,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 160,
+      "m2_construccion": 190,
+      "banos": 5,
+      "estacionamientos": 2,
       "original_precio": "15,000 MXN Renta",
       "original_precio_num": 15000.0,
       "current_precio": "14,000 MXN Renta",
@@ -65862,6 +66690,10 @@
           "precio": "2,800,000 MXN Venta"
         }
       ],
+      "m2_terreno": 300,
+      "m2_construccion": 350,
+      "banos": 2,
+      "estacionamientos": 4,
       "original_precio": "3,000,000 MXN Venta",
       "original_precio_num": 3000000.0,
       "current_precio": "2,800,000 MXN Venta",
@@ -65915,6 +66747,10 @@
       "lat": null,
       "lng": null,
       "delisted_reason": null,
+      "m2_terreno": 137,
+      "m2_construccion": 208,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "2,350,000 MXN Venta",
       "original_precio_num": 2350000.0,
       "current_precio": "2,200,000 MXN Venta",
@@ -66123,6 +66959,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 800,
+      "m2_construccion": 357,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "800,000 MXN Venta",
       "original_precio_num": 800000.0,
       "current_precio": "750,000 MXN Venta",
@@ -66174,6 +67014,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 8587,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "3,200,000 MXN Venta",
       "original_precio_num": 3200000.0,
       "current_precio": "3,000,000 MXN Venta",
@@ -66224,6 +67068,10 @@
           "precio": "98,700 MXN Renta"
         }
       ],
+      "m2_terreno": 1316,
+      "m2_construccion": 1316,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "105,000 MXN Renta",
       "original_precio_num": 105000.0,
       "current_precio": "98,700 MXN Renta",
@@ -66274,6 +67122,10 @@
           "precio": "98,700 MXN Renta"
         }
       ],
+      "m2_terreno": 1500,
+      "m2_construccion": 1316,
+      "banos": 4,
+      "estacionamientos": 10,
       "original_precio": "105,000 MXN Renta",
       "original_precio_num": 105000.0,
       "current_precio": "98,700 MXN Renta",
@@ -66325,6 +67177,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 300,
+      "m2_construccion": 338,
+      "banos": 1,
+      "estacionamientos": 4,
       "original_precio": "4,250,000 MXN Venta",
       "original_precio_num": 4250000.0,
       "current_precio": "4,000,000 MXN Venta",
@@ -66376,6 +67232,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 687,
+      "m2_construccion": 687,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "5,100,000 MXN Venta",
       "original_precio_num": 5100000.0,
       "current_precio": "4,800,000 MXN Venta",
@@ -66478,6 +67338,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 488,
+      "m2_construccion": 385,
+      "banos": 4,
+      "estacionamientos": 2,
       "original_precio": "5,677,000 MXN Venta",
       "original_precio_num": 5677000.0,
       "current_precio": "5,350,000 MXN Venta",
@@ -66531,6 +67395,10 @@
       "lat": 25.5426189,
       "lng": -103.4583872,
       "delisted_reason": null,
+      "m2_terreno": 476,
+      "m2_construccion": 530,
+      "banos": 4,
+      "estacionamientos": null,
       "original_precio": "5,300,000 MXN Venta",
       "original_precio_num": 5300000.0,
       "current_precio": "5,000,000 MXN Venta",
@@ -66582,6 +67450,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 30000,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "47,710,800 MXN Venta",
       "original_precio_num": 47710800.0,
       "current_precio": "45,000,000 MXN Venta",
@@ -66633,6 +67505,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 100,
+      "m2_construccion": 100,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "9,000 MXN Renta",
       "original_precio_num": 9000.0,
       "current_precio": "8,500 MXN Renta",
@@ -66735,6 +67611,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 214,
+      "m2_construccion": 130,
+      "banos": 2,
+      "estacionamientos": null,
       "original_precio": "1,690,000 MXN Venta",
       "original_precio_num": 1690000.0,
       "current_precio": "1,600,000 MXN Venta",
@@ -66785,6 +67665,10 @@
           "precio": "1,800,000 MXN Venta"
         }
       ],
+      "m2_terreno": 500,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "1,900,000 MXN Venta",
       "original_precio_num": 1900000.0,
       "current_precio": "1,800,000 MXN Venta",
@@ -66937,6 +67821,10 @@
           "precio": "19,500,000 MXN Venta"
         }
       ],
+      "m2_terreno": 3470,
+      "m2_construccion": 3470,
+      "banos": null,
+      "estacionamientos": null,
       "original_precio": "20,500,000 MXN Venta",
       "original_precio_num": 20500000.0,
       "current_precio": "19,500,000 MXN Venta",
@@ -66987,6 +67875,10 @@
           "precio": "7,800 MXN Renta"
         }
       ],
+      "m2_terreno": 130,
+      "m2_construccion": 100,
+      "banos": 1,
+      "estacionamientos": 1,
       "original_precio": "8,200 MXN Renta",
       "original_precio_num": 8200.0,
       "current_precio": "7,800 MXN Renta",
@@ -67190,6 +68082,10 @@
           "precio": "12,400,000 MXN Venta"
         }
       ],
+      "m2_terreno": 1106,
+      "m2_construccion": 634,
+      "banos": 7,
+      "estacionamientos": 10,
       "original_precio": "13,000,000 MXN Venta",
       "original_precio_num": 13000000.0,
       "current_precio": "12,400,000 MXN Venta",
@@ -67240,6 +68136,10 @@
           "precio": "21,000 MXN Renta"
         }
       ],
+      "m2_terreno": 74,
+      "m2_construccion": 156,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "22,000 MXN Renta",
       "original_precio_num": 22000.0,
       "current_precio": "21,000 MXN Renta",
@@ -67394,6 +68294,10 @@
           "precio": "6,000 MXN Renta"
         }
       ],
+      "m2_terreno": 50,
+      "m2_construccion": 50,
+      "banos": 1,
+      "estacionamientos": 10,
       "original_precio": "6,200 MXN Renta",
       "original_precio_num": 6200.0,
       "current_precio": "6,000 MXN Renta",
@@ -67445,6 +68349,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 422,
+      "m2_construccion": 422,
+      "banos": 1,
+      "estacionamientos": 5,
       "original_precio": "6,500,000 MXN Venta",
       "original_precio_num": 6500000.0,
       "current_precio": "6,300,000 MXN Venta",
@@ -67547,6 +68455,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 5000,
+      "m2_construccion": 4850,
+      "banos": 3,
+      "estacionamientos": 10,
       "original_precio": "425,000 MXN Renta",
       "original_precio_num": 425000.0,
       "current_precio": "412,250 MXN Renta",
@@ -67751,6 +68663,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 238,
+      "m2_construccion": 238,
+      "banos": 3,
+      "estacionamientos": 6,
       "original_precio": "2,350,000 MXN Venta",
       "original_precio_num": 2350000.0,
       "current_precio": "2,300,000 MXN Venta",
@@ -67802,6 +68718,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 1000,
+      "m2_construccion": 800,
+      "banos": 6,
+      "estacionamientos": 12,
       "original_precio": "50,000 MXN Renta",
       "original_precio_num": 50000.0,
       "current_precio": "49,000 MXN Renta",
@@ -67853,6 +68773,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 480,
+      "m2_construccion": 366,
+      "banos": 6,
+      "estacionamientos": 3,
       "original_precio": "30,500 MXN Renta",
       "original_precio_num": 30500.0,
       "current_precio": "30,000 MXN Renta",
@@ -67903,6 +68827,10 @@
           "precio": "3,150,000 MXN Venta"
         }
       ],
+      "m2_terreno": 149,
+      "m2_construccion": 298,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "3,200,000 MXN Venta",
       "original_precio_num": 3200000.0,
       "current_precio": "3,150,000 MXN Venta",
@@ -67954,6 +68882,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 3240,
+      "m2_construccion": 3240,
+      "banos": 3,
+      "estacionamientos": null,
       "original_precio": "198,000 MXN Renta",
       "original_precio_num": 198000.0,
       "current_precio": "195,000 MXN Renta",
@@ -68004,6 +68936,10 @@
           "precio": "6,900 MXN Renta"
         }
       ],
+      "m2_terreno": null,
+      "m2_construccion": 35,
+      "banos": 1,
+      "estacionamientos": null,
       "original_precio": "7,000 MXN Renta",
       "original_precio_num": 7000.0,
       "current_precio": "6,900 MXN Renta",
@@ -68055,6 +68991,10 @@
         }
       ],
       "delisted_reason": null,
+      "m2_terreno": 495,
+      "m2_construccion": 300,
+      "banos": 2,
+      "estacionamientos": 5,
       "original_precio": "17,000 MXN Renta",
       "original_precio_num": 17000.0,
       "current_precio": "16,800 MXN Renta",
