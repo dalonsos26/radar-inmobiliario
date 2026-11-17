@@ -206,6 +206,19 @@ def parse_number(text: str) -> Optional[float]:
         return None
 
 
+def num_pos(v) -> Optional[float]:
+    """Número positivo limpio, o None. Enteros sin decimal (3, no 3.0)."""
+    if isinstance(v, str):
+        v = parse_number(v)
+    try:
+        f = float(v)
+    except (TypeError, ValueError):
+        return None
+    if f <= 0:
+        return None
+    return int(f) if f.is_integer() else f
+
+
 def calc_precio_m2(precio_num: Optional[float], area_num: Optional[float]) -> str:
     if not precio_num or not area_num or area_num == 0:
         return ""
@@ -228,6 +241,15 @@ def normalize_item(item: dict) -> dict:
     lot_size   = item.get("lotSize")
     area_num   = float(const_size or lot_size or 0) or None
     area_text  = item.get("constructionSizeText") or item.get("lotSizeText") or ""
+
+    # Superficies por separado (el CRM las consume; area_num se mantiene igual
+    # por compatibilidad). null si NocNok no trae el dato: nunca se copia uno
+    # en el otro.
+    m2_terreno      = num_pos(lot_size)
+    m2_construccion = num_pos(const_size)
+    banos = num_pos(item.get("bathrooms")) or num_pos(item.get("fullBathrooms")) or num_pos(item.get("bathroomsText"))
+    estacionamientos = (num_pos(item.get("parkingSpaces")) or num_pos(item.get("parkingLots"))
+                        or num_pos(item.get("parking")) or num_pos(item.get("garages")))
 
     op_list = item.get("operation", [])
     op_text = item.get("operationText") or (", ".join(op_list) if op_list else "")
@@ -274,6 +296,10 @@ def normalize_item(item: dict) -> dict:
         "precio_num":        precio_num,
         "superficie":        area_text,
         "area_num":          area_num,
+        "m2_terreno":        m2_terreno,
+        "m2_construccion":   m2_construccion,
+        "banos":             banos,
+        "estacionamientos":  estacionamientos,
         "precio_m2":         calc_precio_m2(precio_num, area_num),
         "pm2_num":           pm2_num,
         "ubicacion":         item.get("location", ""),
@@ -308,6 +334,9 @@ def build_api_url(location: str, category: str, page: int) -> str:
     return f"{API_BASE}/search/properties/all?" + urllib.parse.urlencode(params)
 
 
+_api_keys_logged = False
+
+
 def fetch_one_stream(location: str, category: str, token: str, cookies: str) -> list:
     # Nota: el pageCount de la API viene topado en 36, así que las páginas
     # reales se calculan desde totalItems (bug corregido: truncaba Torreón
@@ -329,6 +358,10 @@ def fetch_one_stream(location: str, category: str, token: str, cookies: str) -> 
             log(f"    {total_items:,} items / {total_pages} páginas")
         if not items:
             break
+        global _api_keys_logged
+        if not _api_keys_logged:
+            _api_keys_logged = True
+            log("    Campos del item de la API: " + ", ".join(sorted(items[0].keys())))
         for item in items:
             results.append(normalize_item(item))
         if page >= total_pages:
@@ -433,7 +466,8 @@ def update_archive(current_props: list, run_ts: str) -> tuple:
                         "last_drop_date":    today,
                     })
 
-            for k in ["precio", "precio_num", "precio_m2", "pm2_num", "title", "ubicacion", "broker", "days_on_market"]:
+            for k in ["precio", "precio_num", "precio_m2", "pm2_num", "title", "ubicacion", "broker", "days_on_market",
+                      "m2_terreno", "m2_construccion", "banos", "estacionamientos"]:
                 if k in p:
                     entry[k] = p[k]
             entry["status"] = "active"
@@ -1705,6 +1739,7 @@ async def main(username: str, password: str):
         map_props = [
             {"id": e.get("id",""), "title": e.get("title",""), "tipo": e.get("tipo",""),
              "municipio": e.get("municipio",""), "superficie": e.get("superficie",""),
+             "m2_terreno": e.get("m2_terreno"), "m2_construccion": e.get("m2_construccion"),
              "precio": e.get("precio",""), "precio_m2": e.get("precio_m2",""),
              "op_key": e.get("op_key","otro"), "link": e.get("link",""),
              "fotos_local": (e.get("fotos_local") or [])[:1],
