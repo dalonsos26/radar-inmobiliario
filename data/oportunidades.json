@@ -121,6 +121,131 @@
       "delisted_reason": "sold"
     },
     {
+      "id": "cc1904eb-57d2-4810-a1b5-019d753d8346",
+      "code": "NN-GXE376",
+      "title": "PATIO INDUSTRIAL EN RENTA | PERIFÉRICO TORREÓN",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "250,000 MXN Renta",
+      "precio_num": 250000.0,
+      "superficie": "4,903 m²",
+      "area_num": 4903.0,
+      "precio_m2": "$51.0/m²",
+      "pm2_num": 50.99,
+      "ubicacion": "Fidel Velázquez, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Inmobiliaria 871",
+      "fecha_publicacion": "2026-04-08",
+      "days_on_market": 221,
+      "link": "https://app.nocnok.com/crm/154940/properties/cc1904eb-57d2-4810-a1b5-019d753d8346",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260409203445-0ca76e45649544b98e1b8c528c94e9dbs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260409203505-78c4a5db73f4428fb404e0303a9f0e03s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260409203459-9421890e073e46dea1bb51b1311aa668s.webp"
+      ],
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-11-16",
+      "status": "delisted",
+      "delisted_at": "2026-11-16",
+      "days_listed": 168,
+      "precio_history": [
+        {
+          "date": "2026-06-01",
+          "precio_num": 215000.0,
+          "precio": "215,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "3992f99f-c5fc-4a0a-b840-018e538aff25",
+      "code": "MX24-QB4973",
+      "title": "Oficina en renta en Las Torres. Disponible a partir de Agosto 2026",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "8,500 MXN Renta",
+      "precio_num": 8500.0,
+      "superficie": "90 m²",
+      "area_num": 90.0,
+      "precio_m2": "$94.4/m²",
+      "pm2_num": 94.44,
+      "ubicacion": "Residencial las Torres, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "SINERGIA BIENES RAICES",
+      "fecha_publicacion": "2026-06-24",
+      "days_on_market": 145,
+      "link": "https://app.nocnok.com/crm/154940/properties/3992f99f-c5fc-4a0a-b840-018e538aff25",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/240318154227-53b82454f1c04fd0a816964b284e0c59.jpg",
+        "https://s3.amazonaws.com/nocnok-img/240318154228-3a407c99eed94ab3a6683c1d9968f795.jpg",
+        "https://s3.amazonaws.com/nocnok-img/pp-240722125709-7bff734350094cdca6d1e1cde0f4107fs.webp"
+      ],
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-11-16",
+      "status": "delisted",
+      "delisted_at": "2026-11-16",
+      "days_listed": 144,
+      "precio_history": [
+        {
+          "date": "2026-06-25",
+          "precio_num": 8500.0,
+          "precio": "8,500 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "ed06c24c-9239-4d47-bc62-019f68d7c13f",
+      "code": "NN-HBT865",
+      "title": "Terreno bardeado con oficinas y baños",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "715,000 MXN Venta",
+      "precio_num": 715000.0,
+      "superficie": "74 m²",
+      "area_num": 74.0,
+      "precio_m2": "$9,662/m²",
+      "pm2_num": 9662.16,
+      "ubicacion": "San Marcos, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "INVIERTE LAGUNA",
+      "fecha_publicacion": "2026-07-15",
+      "days_on_market": 91,
+      "link": "https://app.nocnok.com/crm/154940/properties/ed06c24c-9239-4d47-bc62-019f68d7c13f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-260715205643-05400387287549038682a4824a474346s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260715205645-c9cebf5d386d4dc1afe7dc120a935511s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-260715205644-c69220e79b0d4fd49f50c551bd8b8daes.webp"
+      ],
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-11-16",
+      "status": "delisted",
+      "delisted_at": "2026-11-16",
+      "days_listed": 123,
+      "precio_history": [
+        {
+          "date": "2026-07-16",
+          "precio_num": 750000.0,
+          "precio": "750,000 MXN Venta"
+        },
+        {
+          "date": "2026-09-25",
+          "precio_num": 715000.0,
+          "precio": "715,000 MXN Venta"
+        }
+      ],
+      "delisted_reason": "sold"
+    },
+    {
       "id": "b575414e-fdda-4574-93ce-019d8a464f72",
       "code": "NN-GXI131",
       "title": "OFICINA Nueva  EN VENTA /ubicación privilegiada- en las primeras cerradas",
@@ -66866,9 +66991,9 @@
       ],
       "first_seen": "2026-07-16",
       "last_seen": "2026-11-16",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 32,
+      "status": "delisted",
+      "delisted_at": "2026-11-16",
+      "days_listed": 123,
       "precio_history": [
         {
           "date": "2026-07-16",
@@ -66881,7 +67006,7 @@
           "precio": "715,000 MXN Venta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "original_precio": "750,000 MXN Venta",
       "original_precio_num": 750000.0,
       "current_precio": "715,000 MXN Venta",

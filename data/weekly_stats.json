@@ -7731,6 +7731,34 @@
           }
         }
       }
+    },
+    "2026-W47": {
+      "week": "2026-W47",
+      "total": 4,
+      "cities": {
+        "Torreón": {
+          "total": 3,
+          "tipos_m2": {
+            "Bodega": {
+              "sum": 8821.632653061224,
+              "count": 2
+            },
+            "Casa": {
+              "sum": 94.44444444444444,
+              "count": 1
+            }
+          }
+        },
+        "Gómez Palacio": {
+          "total": 1,
+          "tipos_m2": {
+            "Bodega": {
+              "sum": 10985.915492957747,
+              "count": 1
+            }
+          }
+        }
+      }
     }
   }
 }
