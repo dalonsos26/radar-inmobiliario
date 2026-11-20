@@ -1479,7 +1479,7 @@
     ],
     "lat": 25.5630433,
     "lng": -103.446571,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "df0d4274-4f78-49ef-b2a1-019e5c882f54",
@@ -1544,8 +1544,8 @@
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "50 m²",
-    "m2_terreno": null,
-    "m2_construccion": null,
+    "m2_terreno": 50,
+    "m2_construccion": 50,
     "precio": "5,500 MXN Renta",
     "precio_m2": "$110.0/m²",
     "op_key": "renta",
@@ -1555,7 +1555,7 @@
     ],
     "lat": 25.5630433,
     "lng": -103.446571,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "a31ee4bc-5c27-47a9-8032-019e5c8cb88a",
