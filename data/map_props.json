@@ -138,8 +138,8 @@
     "tipo": "Oficina",
     "municipio": "Torreón",
     "superficie": "246 m²",
-    "m2_terreno": null,
-    "m2_construccion": null,
+    "m2_terreno": 197,
+    "m2_construccion": 246,
     "precio": "4,450,000 MXN Venta",
     "precio_m2": "$18,089/m²",
     "op_key": "venta",
@@ -149,7 +149,7 @@
     ],
     "lat": 25.5697952,
     "lng": -103.3825129,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "35197e57-17a6-4dfe-8bb6-019cb5b6882a",
@@ -157,7 +157,7 @@
     "tipo": "Terreno",
     "municipio": "Torreón",
     "superficie": "299 m²",
-    "m2_terreno": null,
+    "m2_terreno": 299,
     "m2_construccion": null,
     "precio": "1,000,000 MXN Venta",
     "precio_m2": "$3,344/m²",
@@ -168,7 +168,7 @@
     ],
     "lat": 25.5986164,
     "lng": -103.415279,
-    "status": "delisted"
+    "status": "active"
   },
   {
     "id": "a67ea7c8-09bb-49fd-9703-019e74d51f93",
