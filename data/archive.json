@@ -15081,7 +15081,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/29a6812f-c36c-4f08-9c3b-018b2618314a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/200527181012-921f8447da6748bb8e917af60242b94d.jpg",
@@ -15089,9 +15089,9 @@
         "https://s3.amazonaws.com/nocnok-img/200527181022-887dfea8d78c4ef3bb3cd77a2130c5b3.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15100,7 +15100,11 @@
           "precio": "62,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 960,
+      "m2_construccion": 2100,
+      "banos": 2,
+      "estacionamientos": null
     },
     "6452d20d-dc98-469f-9d76-018b28ade2e7": {
       "id": "6452d20d-dc98-469f-9d76-018b28ade2e7",
@@ -15297,7 +15301,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a4f628f7-5b2b-4fbb-aeb0-018b2927eab2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230530162304-f599a0641df84cb9abbde6d1d1ce8db2.jpg",
@@ -15305,9 +15309,9 @@
         "https://s3.amazonaws.com/nocnok-img/230530162305-ebd7eca635dd4237ab07be2a98171b6c.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15316,7 +15320,11 @@
           "precio": "49,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 700,
+      "m2_construccion": 700,
+      "banos": 2,
+      "estacionamientos": 3
     },
     "7cfd7f78-1a00-4794-928c-018b29287778": {
       "id": "7cfd7f78-1a00-4794-928c-018b29287778",
@@ -15377,7 +15385,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0aebeb47-9105-42f0-8fed-018b2929111c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250607151639-ddb73c988cf84dc9a0483bedb9b6ce8es.webp",
@@ -15385,9 +15393,9 @@
         "https://s3.amazonaws.com/nocnok-img/230616173620-0a6c343140064c32a41ead3c74c8ff79.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15396,7 +15404,11 @@
           "precio": "40,572 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 115,
+      "m2_construccion": 115,
+      "banos": null,
+      "estacionamientos": null
     },
     "d7a284a2-5d1d-4f02-ae61-018b2929111c": {
       "id": "d7a284a2-5d1d-4f02-ae61-018b2929111c",
@@ -15417,7 +15429,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d7a284a2-5d1d-4f02-ae61-018b2929111c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250607151907-8d87aa423dc34ce9a46d09f76c8d5c7cs.webp",
@@ -15425,9 +15437,9 @@
         "https://s3.amazonaws.com/nocnok-img/230616182506-9d276ff2708641b38f1a447c91d39e25.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15436,7 +15448,11 @@
           "precio": "52,860 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 151,
+      "m2_construccion": 151,
+      "banos": null,
+      "estacionamientos": null
     },
     "918ee20c-8de3-4ee7-9f8f-018b2928edbb": {
       "id": "918ee20c-8de3-4ee7-9f8f-018b2928edbb",
@@ -15457,7 +15473,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/918ee20c-8de3-4ee7-9f8f-018b2928edbb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250606163937-2e94bc0b442e40df8a17d56d07397304s.webp",
@@ -15465,9 +15481,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615140118-5d50de20433e43569cd1eabb43d1b969.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15476,7 +15492,11 @@
           "precio": "55,454 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 158,
+      "m2_construccion": 158,
+      "banos": null,
+      "estacionamientos": null
     },
     "af41c251-3045-4d02-8527-018b2928f955": {
       "id": "af41c251-3045-4d02-8527-018b2928f955",
@@ -15497,7 +15517,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/af41c251-3045-4d02-8527-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250606163905-7dd65d61bda54a45b56d11a137ea7070s.webp",
@@ -15505,9 +15525,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615184106-4c854c2cfafc495688a4f79f1a1647e1.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15516,7 +15536,11 @@
           "precio": "27,083 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 77,
+      "m2_construccion": 77,
+      "banos": null,
+      "estacionamientos": null
     },
     "1ba46ede-6aed-43b9-9044-018b2928f955": {
       "id": "1ba46ede-6aed-43b9-9044-018b2928f955",
@@ -15537,7 +15561,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1ba46ede-6aed-43b9-9044-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250606163538-3f25b780daeb4a738d06c3f1a9169b7cs.webp",
@@ -15545,9 +15569,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615163545-93a54a95edbc42aa9bb3e052cd666655.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15556,7 +15580,11 @@
           "precio": "21,462 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 61,
+      "m2_construccion": 61,
+      "banos": null,
+      "estacionamientos": null
     },
     "0afc6e48-7657-4db7-9301-018b2928f955": {
       "id": "0afc6e48-7657-4db7-9301-018b2928f955",
@@ -15577,16 +15605,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0afc6e48-7657-4db7-9301-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230615170515-f20296c5723b4c3eb571fbb08311299f.jpg",
         "https://s3.amazonaws.com/nocnok-img/230615170508-d25606ef97ff4b67a94deca0b9dc2c57.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15595,7 +15623,11 @@
           "precio": "66,738 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 190,
+      "m2_construccion": 190,
+      "banos": null,
+      "estacionamientos": null
     },
     "571c5a3c-60b0-43e1-9869-018b2928f955": {
       "id": "571c5a3c-60b0-43e1-9869-018b2928f955",
@@ -15616,7 +15648,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/571c5a3c-60b0-43e1-9869-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250606163449-622319d10b354df4b8b313a31bed4018s.webp",
@@ -15624,9 +15656,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250606163450-827212cb867d472a93bb9de605f781c5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15635,7 +15667,11 @@
           "precio": "28,263 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 4845,
+      "m2_construccion": 80,
+      "banos": null,
+      "estacionamientos": null
     },
     "6114b753-18d9-475b-9d37-018b2928f955": {
       "id": "6114b753-18d9-475b-9d37-018b2928f955",
@@ -15656,7 +15692,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6114b753-18d9-475b-9d37-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250606164007-5cbf6ea8dd764b9c98a088345c143380s.webp",
@@ -15664,9 +15700,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615173751-562286c5e0274654b34e0d5b09ee82d8.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15675,7 +15711,11 @@
           "precio": "15,838 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 45,
+      "m2_construccion": 45,
+      "banos": null,
+      "estacionamientos": null
     },
     "4ae8e23d-eee5-418c-a5e5-018b2928f955": {
       "id": "4ae8e23d-eee5-418c-a5e5-018b2928f955",
@@ -15696,7 +15736,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4ae8e23d-eee5-418c-a5e5-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250607130843-2cfbf6441ce74a51881f003068052e59s.webp",
@@ -15704,9 +15744,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615171319-3dd346f5e4cb4b119cb5056248df30b1.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15715,7 +15755,11 @@
           "precio": "19,656 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 56,
+      "m2_construccion": 56,
+      "banos": null,
+      "estacionamientos": null
     },
     "20831af7-8848-4fc3-ad4e-018b2928f955": {
       "id": "20831af7-8848-4fc3-ad4e-018b2928f955",
@@ -15736,7 +15780,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/20831af7-8848-4fc3-ad4e-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250607130651-fb1004d56e0f49c98d0fa78387594f54s.webp",
@@ -15744,9 +15788,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250607130651-31432f4a27d14b32876eebcd8d0dd628s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15755,7 +15799,11 @@
           "precio": "69,979 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 199,
+      "m2_construccion": 199,
+      "banos": null,
+      "estacionamientos": null
     },
     "92052a33-f032-4bf9-b806-018b2928f955": {
       "id": "92052a33-f032-4bf9-b806-018b2928f955",
@@ -15776,7 +15824,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/92052a33-f032-4bf9-b806-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250607130522-f125530bed8e4ad3bd2629bcf0bc3f77s.webp",
@@ -15784,9 +15832,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615165856-478e7afbfa1e4fd7ac81a596b402d5e8.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15795,7 +15843,11 @@
           "precio": "17,395 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 49,
+      "m2_construccion": 49,
+      "banos": null,
+      "estacionamientos": null
     },
     "e8df41be-26f7-45f0-bd75-018b2928f955": {
       "id": "e8df41be-26f7-45f0-bd75-018b2928f955",
@@ -15816,7 +15868,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e8df41be-26f7-45f0-bd75-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250606164117-64d5237ee66246c69d5adf6c8dd51e08s.webp",
@@ -15824,9 +15876,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615161828-2145090678094f2a9ba8be81f226f567.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15835,7 +15887,11 @@
           "precio": "51,226 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 146,
+      "m2_construccion": 146,
+      "banos": null,
+      "estacionamientos": null
     },
     "6d586f97-99c4-473d-bdb2-018b2928f955": {
       "id": "6d586f97-99c4-473d-bdb2-018b2928f955",
@@ -15856,7 +15912,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6d586f97-99c4-473d-bdb2-018b2928f955",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250606164036-1fcad19ae52e4967ad1d6de572c57d9as.webp",
@@ -15864,9 +15920,9 @@
         "https://s3.amazonaws.com/nocnok-img/230615164313-6a58d8343727411592dc7da974bc0c8f.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15875,7 +15931,11 @@
           "precio": "78,099 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 223,
+      "m2_construccion": 223,
+      "banos": null,
+      "estacionamientos": null
     },
     "6285030a-a6ba-48e2-8abe-018b2929057e": {
       "id": "6285030a-a6ba-48e2-8abe-018b2929057e",
@@ -15896,7 +15956,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6285030a-a6ba-48e2-8abe-018b2929057e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250607150821-d60487472ea547ecaf7916418d5f11bas.webp",
@@ -15904,9 +15964,9 @@
         "https://s3.amazonaws.com/nocnok-img/230616141709-3b1fe035d4b44cb78b7767ed01045e53.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15915,7 +15975,11 @@
           "precio": "64,708 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 184,
+      "m2_construccion": 184,
+      "banos": null,
+      "estacionamientos": null
     },
     "752b6350-cbc5-4a9a-8b63-018b2929057e": {
       "id": "752b6350-cbc5-4a9a-8b63-018b2929057e",
@@ -15936,7 +16000,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/752b6350-cbc5-4a9a-8b63-018b2929057e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250607151124-a526bf2daa594dcdbcd1927838bab292s.webp",
@@ -15944,9 +16008,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250607151123-9d4341e420b6455f91d962c0f3818312s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15955,7 +16019,11 @@
           "precio": "59,591 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 170,
+      "m2_construccion": 170,
+      "banos": null,
+      "estacionamientos": null
     },
     "93bcfb2e-aebd-4639-9f41-018b2929057e": {
       "id": "93bcfb2e-aebd-4639-9f41-018b2929057e",
@@ -15976,7 +16044,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/93bcfb2e-aebd-4639-9f41-018b2929057e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230616142146-60355b9e76064c899fd796435b2625f9.jpg",
@@ -15984,9 +16052,9 @@
         "https://s3.amazonaws.com/nocnok-img/230616142151-5dacccfd9dc54a6b916f09ea4be43389.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -15995,7 +16063,11 @@
           "precio": "59,591 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 170,
+      "m2_construccion": 170,
+      "banos": null,
+      "estacionamientos": null
     },
     "11d37a0a-bf18-4024-9f85-01970a82e024": {
       "id": "11d37a0a-bf18-4024-9f85-01970a82e024",
@@ -16176,7 +16248,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4de015d8-70d6-4add-8b21-0198828fec5d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250806213152-2342ac2f8f3d46e68ba3152e23ba4f5fs.webp",
@@ -16184,9 +16256,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250806213151-4787ca5e97b74118be31a3afe0752897s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16195,7 +16267,11 @@
           "precio": "22,500 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 210,
+      "m2_construccion": 210,
+      "banos": 2,
+      "estacionamientos": null
     },
     "32e448e3-82de-4d06-95a5-019882a4ea40": {
       "id": "32e448e3-82de-4d06-95a5-019882a4ea40",
@@ -16216,7 +16292,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/32e448e3-82de-4d06-95a5-019882a4ea40",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250806215023-20c49699d8084ba6bba1bffa6ee91011s.webp",
@@ -16224,9 +16300,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250806215023-dbf777c77f53469aaa615556b43d46bfs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16235,7 +16311,11 @@
           "precio": "32,300 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 308,
+      "m2_construccion": 308,
+      "banos": 2,
+      "estacionamientos": null
     },
     "ced1adda-fea7-41bf-b651-019839be604b": {
       "id": "ced1adda-fea7-41bf-b651-019839be604b",
@@ -16256,7 +16336,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/ced1adda-fea7-41bf-b651-019839be604b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250723181923-75aa5d89f420455e9d0303f3076b13f2s.webp",
@@ -16264,9 +16344,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250723181923-794acee4fa7349ffbd45f2612cb8ae50s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16275,7 +16355,11 @@
           "precio": "49,750 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 750,
+      "m2_construccion": 750,
+      "banos": 4,
+      "estacionamientos": null
     },
     "893485f9-581a-4790-bc2f-0197c2bfb0ac": {
       "id": "893485f9-581a-4790-bc2f-0197c2bfb0ac",
@@ -16336,7 +16420,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/928e7384-a16c-4b5c-bc38-0198b109c4a5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250815220726-bc4c4ebe7fb34becb50cf9eee2dff93fs.webp",
@@ -16344,9 +16428,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250815220726-08b90f3228e145678281f432cdde21d2s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16355,7 +16439,11 @@
           "precio": "18,096,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 3120,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null
     },
     "83a7caea-0a03-4ba9-9323-01991269b730": {
       "id": "83a7caea-0a03-4ba9-9323-01991269b730",
@@ -16416,16 +16504,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b20d6b9c-89be-445f-8152-019790ee236b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250620233150-300e6b3b92504e77b93c0d98d5b6d774s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250620233151-b91bec9adef44c93baf093d4bafc2eb5s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16434,7 +16522,11 @@
           "precio": "27,600 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 120,
+      "m2_construccion": 120,
+      "banos": null,
+      "estacionamientos": null
     },
     "a815a095-c0de-4fcc-b09b-0197910c9d74": {
       "id": "a815a095-c0de-4fcc-b09b-0197910c9d74",
@@ -16455,16 +16547,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a815a095-c0de-4fcc-b09b-0197910c9d74",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250620235429-e4537268b5c24220a178f6b0adb75fe1s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250620235430-eae1626c432647e1b4dee3e72f8612efs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16473,7 +16565,11 @@
           "precio": "43,930 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 191,
+      "m2_construccion": 191,
+      "banos": null,
+      "estacionamientos": null
     },
     "60941ee7-7569-42f4-bfc9-019791106565": {
       "id": "60941ee7-7569-42f4-bfc9-019791106565",
@@ -16494,7 +16590,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/60941ee7-7569-42f4-bfc9-019791106565",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250620235814-565ba5cc6f75487fa439c051cd26419cs.webp",
@@ -16502,9 +16598,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250620235815-9ad73214a81f49e19b005b4b7dd0afaas.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16513,7 +16609,11 @@
           "precio": "70,380 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": null,
+      "m2_construccion": 306,
+      "banos": null,
+      "estacionamientos": null
     },
     "8da10a64-d7bc-4167-9fc4-01919074d698": {
       "id": "8da10a64-d7bc-4167-9fc4-01919074d698",
@@ -16534,7 +16634,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8da10a64-d7bc-4167-9fc4-01919074d698",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240826145702-798a99d53acf4bb789846137921b3e7bs.webp",
@@ -16542,9 +16642,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240826145703-604e10835e374e1993b103c585916a12s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -16553,7 +16653,11 @@
           "precio": "1,600,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 51,
+      "m2_construccion": 56,
+      "banos": 1,
+      "estacionamientos": null
     },
     "09028be5-29c4-486b-acde-018e5f583b2a": {
       "id": "09028be5-29c4-486b-acde-018e5f583b2a",
@@ -20411,9 +20515,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-21",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-11-21",
+      "days_listed": 173,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -20421,7 +20525,7 @@
           "precio": "6,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 970,
       "m2_construccion": null,
       "banos": null,
@@ -20455,9 +20559,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-21",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-11-21",
+      "days_listed": 173,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -20465,7 +20569,7 @@
           "precio": "8,450,000 MXN Venta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 331,
       "m2_construccion": 672,
       "banos": 6,
@@ -20631,9 +20735,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-21",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 29,
+      "status": "delisted",
+      "delisted_at": "2026-11-21",
+      "days_listed": 173,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -20641,7 +20745,7 @@
           "precio": "7,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 444,
       "m2_construccion": 624,
       "banos": 6,
@@ -60073,16 +60177,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/5f6c665a-3050-4f9d-8980-018b2929057e",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230616153458-bb512db6f1c44ab4a343dc028a19fcec.jpg",
         "https://s3.amazonaws.com/nocnok-img/230616153503-4b42c162f87e4f439b1d74c9df2fdeeb.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -60096,7 +60200,11 @@
           "precio": "350 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 76,
+      "m2_construccion": 76,
+      "banos": null,
+      "estacionamientos": null
     },
     "a9aaaebc-b43b-4b2d-acdb-0197959e723f": {
       "id": "a9aaaebc-b43b-4b2d-acdb-0197959e723f",
@@ -60117,7 +60225,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/a9aaaebc-b43b-4b2d-acdb-0197959e723f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250621211859-cb383ab516dd449a8725ae560034d46cs.webp",
@@ -60125,9 +60233,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250621211859-a117369e09a9497994c33dba08a9144es.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -60136,7 +60244,11 @@
           "precio": "280,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 2000,
+      "m2_construccion": 2000,
+      "banos": null,
+      "estacionamientos": null
     },
     "da34d8cf-2cb9-4570-b3ac-019e2d4632fe": {
       "id": "da34d8cf-2cb9-4570-b3ac-019e2d4632fe",
@@ -88953,16 +89065,16 @@
       "estado": "Durango",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/5523202d-f034-4a0c-897f-01904c7e0b76",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240624173011-59344386e35b4c1f89a90315543542dds.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-240624173013-1bfdd2d148604991a5df9ed8cd0c3391s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -88971,7 +89083,11 @@
           "precio": "1,200,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 3532,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null
     },
     "8b6aab32-3edf-4a4d-9b60-019e1e69d91c": {
       "id": "8b6aab32-3edf-4a4d-9b60-019e1e69d91c",
@@ -120634,7 +120750,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-05-12",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/5ebe03c7-87da-4e0d-a2d5-0195a76f45b1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250317220844-cf5e188abaf04ed589c2f4ef98e5ca8fs.webp",
@@ -120642,9 +120758,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250317220843-ba77ea29572547918ad45fb7eba04bd6s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 164,
       "precio_history": [
         {
@@ -120653,7 +120769,11 @@
           "precio": "1,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 6319,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null
     },
     "479e9b49-8a2d-475b-b2c7-019dfaa28caa": {
       "id": "479e9b49-8a2d-475b-b2c7-019dfaa28caa",
@@ -154565,7 +154685,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-07-18",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/af1b361d-3ed9-400d-9a8e-019f788683e3",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260718215829-c778204176ee4cfb92ad996a4433a5f9s.webp",
@@ -154573,9 +154693,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260718215829-4f4e28c8b6f54e1b95362235024599e8s.webp"
       ],
       "first_seen": "2026-07-19",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 116,
       "precio_history": [
         {
@@ -154584,7 +154704,11 @@
           "precio": "11,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 80,
+      "m2_construccion": 80,
+      "banos": 1,
+      "estacionamientos": 1
     },
     "00a6abb0-7d80-45ac-9a19-019f803f2acf": {
       "id": "00a6abb0-7d80-45ac-9a19-019f803f2acf",
@@ -221016,7 +221140,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-08-07",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/f7d05f34-343b-4e9b-b05f-019fde59cd53",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260807170656-7ca1f62e97bb4f2d867ef80cdefe8513s.webp",
@@ -221024,9 +221148,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260807170656-de6a605781b24bd2a3808d90a77e7e4cs.webp"
       ],
       "first_seen": "2026-08-08",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 96,
       "precio_history": [
         {
@@ -221035,7 +221159,11 @@
           "precio": "13,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 50.73,
+      "m2_construccion": 50.73,
+      "banos": null,
+      "estacionamientos": null
     },
     "86a49fb8-bfcd-4c54-8853-019fde81ec8a": {
       "id": "86a49fb8-bfcd-4c54-8853-019fde81ec8a",
@@ -221218,7 +221346,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-08-07",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/f7b9dcf2-2645-41f6-a12c-019fdec45f7a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260807183253-33e733e2bd7841eb8136a1133cecee3ds.webp",
@@ -221226,9 +221354,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260807183314-c56a99bbdf0d4508bdf45f0589843824s.webp"
       ],
       "first_seen": "2026-08-08",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 96,
       "precio_history": [
         {
@@ -221237,7 +221365,11 @@
           "precio": "25,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 170,
+      "m2_construccion": 170,
+      "banos": null,
+      "estacionamientos": 10
     },
     "4217f961-4979-4ca2-bef8-019fdf374598": {
       "id": "4217f961-4979-4ca2-bef8-019fdf374598",
@@ -221258,16 +221390,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-08-07",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4217f961-4979-4ca2-bef8-019fdf374598",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260807203839-50d79aec571d40abb8768e06be03a375s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260807203839-ce1fe73c7fe9486890d472f5c60fa519s.webp"
       ],
       "first_seen": "2026-08-08",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 96,
       "precio_history": [
         {
@@ -221276,7 +221408,11 @@
           "precio": "8,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 53,
+      "m2_construccion": 53,
+      "banos": null,
+      "estacionamientos": 2
     },
     "6cb18bcf-1254-4f33-9bb1-019fdd03e386": {
       "id": "6cb18bcf-1254-4f33-9bb1-019fdd03e386",
@@ -241821,9 +241957,9 @@
       ],
       "first_seen": "2026-09-26",
       "last_seen": "2026-11-21",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-21",
+      "days_listed": 56,
       "precio_history": [
         {
           "date": "2026-09-26",
@@ -241834,7 +241970,8 @@
       "m2_terreno": 200,
       "m2_construccion": 180,
       "banos": 2,
-      "estacionamientos": 2
+      "estacionamientos": 2,
+      "delisted_reason": "sold"
     },
     "87f62b2d-3736-4684-8d66-01a0dab5964a": {
       "id": "87f62b2d-3736-4684-8d66-01a0dab5964a",
@@ -243982,7 +244119,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-09-30",
-      "days_on_market": 42,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/4200fec2-05c1-42b7-acd4-01a0f5148b61",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260930194030-ffdeea8629b24b86b8dfb33793e5169es.webp",
@@ -243990,9 +244127,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260930194030-2e8a0a89e3ba43efa3e348b4ebf24775s.webp"
       ],
       "first_seen": "2026-10-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 42,
       "precio_history": [
         {
@@ -244001,7 +244138,11 @@
           "precio": "18,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 600,
+      "m2_construccion": 100,
+      "banos": 1,
+      "estacionamientos": 2
     },
     "f3aaf895-6fa9-43f1-9de3-01a0f525fb90": {
       "id": "f3aaf895-6fa9-43f1-9de3-01a0f525fb90",
@@ -244151,7 +244292,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-09-30",
-      "days_on_market": 42,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0f3cf776-8be1-435f-976e-01a0f53e5418",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260930203308-bf10e8e6c95e4034892b249ad70c8288s.webp",
@@ -244159,9 +244300,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260930203308-8c0d334cb0924b8eade2560555da5070s.webp"
       ],
       "first_seen": "2026-10-01",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 42,
       "precio_history": [
         {
@@ -244170,7 +244311,11 @@
           "precio": "21,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 120,
+      "m2_construccion": 120,
+      "banos": 1,
+      "estacionamientos": 3
     },
     "f6ba60fa-99c9-4a95-a64f-01a0f84d97e5": {
       "id": "f6ba60fa-99c9-4a95-a64f-01a0f84d97e5",
@@ -247048,7 +247193,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-10-08",
-      "days_on_market": 34,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7907704d-68b8-4233-83aa-01a0c505b639",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260923142612-25096b21a0e643b8baab7badf7d4f73cs.webp",
@@ -247056,9 +247201,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260923142612-50db313e255b402fa60484641fb22b0es.webp"
       ],
       "first_seen": "2026-10-09",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 34,
       "precio_history": [
         {
@@ -247067,7 +247212,11 @@
           "precio": "10,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 70,
+      "m2_construccion": 70,
+      "banos": 1,
+      "estacionamientos": 1
     },
     "c927f117-0c5a-4ebe-8f60-01a11dbd32ad": {
       "id": "c927f117-0c5a-4ebe-8f60-01a11dbd32ad",
@@ -250499,7 +250648,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "JADEEK BIENES RAICES",
       "fecha_publicacion": "2026-10-21",
-      "days_on_market": 21,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0f35b1c1-9d4b-4483-8403-01a15fce9189",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-261021133059-e42f3d7f82f34c25a77cbc182291b205s.webp",
@@ -250507,9 +250656,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-261021133100-17bdcec930234485b5925dc657dce67bs.webp"
       ],
       "first_seen": "2026-10-21",
-      "last_seen": "2026-11-11",
-      "status": "delisted",
-      "delisted_at": "2026-11-12",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 22,
       "precio_history": [
         {
@@ -250518,7 +250667,11 @@
           "precio": "4,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 279,
+      "m2_construccion": 398,
+      "banos": null,
+      "estacionamientos": 2
     },
     "68248662-0a4d-4c08-858e-01a160d8a103": {
       "id": "68248662-0a4d-4c08-858e-01a160d8a103",
@@ -265654,6 +265807,92 @@
           "date": "2026-11-21",
           "precio_num": 250000.0,
           "precio": "250,000 MXN Renta"
+        }
+      ]
+    },
+    "a17db8c5-ebe8-4926-a1d3-01a1ff5f5c7b": {
+      "id": "a17db8c5-ebe8-4926-a1d3-01a1ff5f5c7b",
+      "code": "NN-HIV627",
+      "title": "Bodega en renta en Residencial Las Etnias, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "61,295 MXN Renta",
+      "precio_num": 61295.0,
+      "superficie": "943 m²",
+      "area_num": 943.0,
+      "m2_terreno": 943,
+      "m2_construccion": 943,
+      "banos": null,
+      "estacionamientos": 5,
+      "precio_m2": "$65.0/m²",
+      "pm2_num": 65.0,
+      "ubicacion": "Residencial las Etnias, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-21",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a17db8c5-ebe8-4926-a1d3-01a1ff5f5c7b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261121123740-4b10575fa4d64b16b84f88f06f786e8es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261121123741-6e061f4bdcc046d8b1a30c1fcf4ea6afs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261121123741-6ecf418d71104fe0ad07b62207707a90s.webp"
+      ],
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-21",
+          "precio_num": 61295.0,
+          "precio": "61,295 MXN Renta"
+        }
+      ]
+    },
+    "dfd498b4-aa18-4366-83aa-01a1ff78f41b": {
+      "id": "dfd498b4-aa18-4366-83aa-01a1ff78f41b",
+      "code": "NN-HIV634",
+      "title": "Bodega industrial nueva en renta en Top Park, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "167,400 MXN Renta",
+      "precio_num": 167400.0,
+      "superficie": "1,860 m²",
+      "area_num": 1860.0,
+      "m2_terreno": 2067,
+      "m2_construccion": 1860,
+      "banos": null,
+      "estacionamientos": 12,
+      "precio_m2": "$90.0/m²",
+      "pm2_num": 90.0,
+      "ubicacion": "La Perla, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-21",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/dfd498b4-aa18-4366-83aa-01a1ff78f41b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261121125954-bfd5ffe40c03401a936fa0c6f82bc821s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261121125952-6ca84fcc6a614f898da1b48c36bedc74s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261121125955-0d4cc32f01f84e719be0b86a74e49b74s.webp"
+      ],
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-21",
+          "precio_num": 167400.0,
+          "precio": "167,400 MXN Renta"
         }
       ]
     }
