@@ -2619,7 +2619,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "8bd3a86f-68e7-47c2-8fbe-018d354c3241",
@@ -2832,7 +2832,7 @@
   },
   {
     "id": "5a40642c-5e4c-49b1-9ba1-019c19c21480",
-    "title": "EXCELENTE LOCAL COMERCIAL CENTRO",
+    "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
     "tipo": "Local",
     "municipio": "Torreón",
     "superficie": "126 m²",
@@ -2866,7 +2866,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "bedecad2-314f-43db-b06c-019c263c5b7b",
