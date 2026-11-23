@@ -265939,6 +265939,393 @@
           "precio": "192,000 MXN Renta"
         }
       ]
+    },
+    "904d9cbc-2fee-4701-9f84-01a205586b0a": {
+      "id": "904d9cbc-2fee-4701-9f84-01a205586b0a",
+      "code": "NN-HIV822",
+      "title": "Renta de Local Comercial Independiente en Ampliación la Rosita, Torreón",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "9,800 MXN Renta",
+      "precio_num": 9800.0,
+      "superficie": "60 m²",
+      "area_num": 60.0,
+      "m2_terreno": 60,
+      "m2_construccion": 60,
+      "banos": 1,
+      "estacionamientos": null,
+      "precio_m2": "$163.3/m²",
+      "pm2_num": 163.33,
+      "ubicacion": "Ampliación la Rosita, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "estefany torres",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/904d9cbc-2fee-4701-9f84-01a205586b0a",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122162010-46ea4a72a5784358b6e1f7e63404258as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122162010-80c1cdb7538942eba5cb06c73cba40cbs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122162011-b601a42ea8f84d199895edd4aa5b8212s.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 9800.0,
+          "precio": "9,800 MXN Renta"
+        }
+      ]
+    },
+    "1871a958-7b47-486a-82ba-01a2059182d4": {
+      "id": "1871a958-7b47-486a-82ba-01a2059182d4",
+      "code": "NN-HIV831",
+      "title": "Local en Renta en Sol de Oriente, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "60,000 MXN Renta",
+      "precio_num": 60000.0,
+      "superficie": "355.12 m²",
+      "area_num": 355.12,
+      "m2_terreno": 1500,
+      "m2_construccion": 355.12,
+      "banos": 4,
+      "estacionamientos": 5,
+      "precio_m2": "$169.0/m²",
+      "pm2_num": 168.96,
+      "ubicacion": "Sol de Oriente, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Marilu Portilla Wolff",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/1871a958-7b47-486a-82ba-01a2059182d4",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122172358-caf68518edc44020b367dd783e9396b1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122172358-e1ed0d81998c429f88ec9ca38a041cb1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122172358-2446a716a45a41b2ab7ee4f8012da0eds.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 60000.0,
+          "precio": "60,000 MXN Renta"
+        }
+      ]
+    },
+    "a9cc55cc-49dd-4a01-bd7f-01a203f49df1": {
+      "id": "a9cc55cc-49dd-4a01-bd7f-01a203f49df1",
+      "code": "NN-HIV718",
+      "title": "Bodega en venta en Parque Oriente, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "24,000,000 MXN Venta",
+      "precio_num": 24000000.0,
+      "superficie": "3,200 m²",
+      "area_num": 3200.0,
+      "m2_terreno": 4800,
+      "m2_construccion": 3200,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$7,500/m²",
+      "pm2_num": 7500.0,
+      "ubicacion": "Parque Industrial Oriente, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a9cc55cc-49dd-4a01-bd7f-01a203f49df1",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122095519-1c8a2846dcf141c5aec891c340ff79eds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122095519-e12052e019d64c5898c22062078193a2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122095519-064f9d32ac774e1eba238dfba230816fs.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 24000000.0,
+          "precio": "24,000,000 MXN Venta"
+        }
+      ]
+    },
+    "c35f9a71-a377-4b9c-a5bf-01a203ffb8b9": {
+      "id": "c35f9a71-a377-4b9c-a5bf-01a203ffb8b9",
+      "code": "NN-HIV720",
+      "title": "Bodega industrial-comercial en renta en San Felipe, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "59,500 MXN Renta",
+      "precio_num": 59500.0,
+      "superficie": "921 m²",
+      "area_num": 921.0,
+      "m2_terreno": 1057,
+      "m2_construccion": 921,
+      "banos": 2,
+      "estacionamientos": null,
+      "precio_m2": "$64.6/m²",
+      "pm2_num": 64.6,
+      "ubicacion": "San Felipe, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/c35f9a71-a377-4b9c-a5bf-01a203ffb8b9",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122100434-06c1d854ca5a46bc8a7007938b929e4bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122100434-b8d2b2e4ed6e4473ac406a432c0d0c25s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122100434-c3db2fde31d145c18ed31aa169e5b28bs.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 59500.0,
+          "precio": "59,500 MXN Renta"
+        }
+      ]
+    },
+    "00c05c08-a63f-47da-a093-01a2044b49bb": {
+      "id": "00c05c08-a63f-47da-a093-01a2044b49bb",
+      "code": "NN-HIV736",
+      "title": "Nave industrial en renta en VYNMSA Torreón Industrial Park",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "102,544 USD Renta",
+      "precio_num": 102544.0,
+      "superficie": "17,321 m²",
+      "area_num": 17321.0,
+      "m2_terreno": 33252,
+      "m2_construccion": 17321,
+      "banos": null,
+      "estacionamientos": 146,
+      "precio_m2": "$5.9/m²",
+      "pm2_num": 5.92,
+      "ubicacion": "Ex Hacienda la Merced, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/00c05c08-a63f-47da-a093-01a2044b49bb",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122112840-2e1ba99fbd2f4e55931b13b3cd69df2bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122112840-aa9b62d34b7e4354a533fd3f92f1073es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122112840-b712f9e97394404ea60f9f3de81a9f64s.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 102544.0,
+          "precio": "102,544 USD Renta"
+        }
+      ]
+    },
+    "e32c2582-fb71-46be-a105-01a2043ef9f8": {
+      "id": "e32c2582-fb71-46be-a105-01a2043ef9f8",
+      "code": "NN-HIV727",
+      "title": "Nave industrial en renta en VYNMSA Torreón Industrial Park",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "71,576 USD Renta",
+      "precio_num": 71576.0,
+      "superficie": "6,034 m²",
+      "area_num": 6034.0,
+      "m2_terreno": 12793,
+      "m2_construccion": 6034,
+      "banos": null,
+      "estacionamientos": 48,
+      "precio_m2": "$11.9/m²",
+      "pm2_num": 11.86,
+      "ubicacion": "Ex Hacienda la Merced, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/e32c2582-fb71-46be-a105-01a2043ef9f8",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122111349-3da1319b2e634e51906a970592647aa4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122111349-84509fcdf2b547c689e19b9ea04aecd3s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122111349-763077e287fe41b7915a9f0a6e09cfcas.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 71576.0,
+          "precio": "71,576 USD Renta"
+        }
+      ]
+    },
+    "07f0212e-bdd6-4d2e-be20-01a20460efac": {
+      "id": "07f0212e-bdd6-4d2e-be20-01a20460efac",
+      "code": "NN-HIV745",
+      "title": "Bodega nueva en renta en Ciudad Industrial, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "49,000 MXN Renta",
+      "precio_num": 49000.0,
+      "superficie": "560 m²",
+      "area_num": 560.0,
+      "m2_terreno": 560,
+      "m2_construccion": 560,
+      "banos": 2,
+      "estacionamientos": 5,
+      "precio_m2": "$87.5/m²",
+      "pm2_num": 87.5,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/07f0212e-bdd6-4d2e-be20-01a20460efac",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122115058-8a0d0d2e3c654e83afddf401f3eb255es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122115058-b24a8116439143bb8df6fde632baebfes.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122115058-ca5a51c3d06a4506ae22f82823c03a1bs.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 49000.0,
+          "precio": "49,000 MXN Renta"
+        }
+      ]
+    },
+    "2abdd44d-fe66-49ee-9539-01a20476ad99": {
+      "id": "2abdd44d-fe66-49ee-9539-01a20476ad99",
+      "code": "NN-HIV754",
+      "title": "Bodega en renta en Ejido Ana, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "65,000 MXN Renta",
+      "precio_num": 65000.0,
+      "superficie": "1,000 m²",
+      "area_num": 1000.0,
+      "m2_terreno": 1000,
+      "m2_construccion": 1000,
+      "banos": 3,
+      "estacionamientos": 4,
+      "precio_m2": "$65.0/m²",
+      "pm2_num": 65.0,
+      "ubicacion": "Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/2abdd44d-fe66-49ee-9539-01a20476ad99",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122121528-974798724ed54858894743306590e78cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122121528-16de51a2667b43ec98e562a5919a5bacs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122121528-f9f7a925b17e4950ad0deb069883f276s.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 65000.0,
+          "precio": "65,000 MXN Renta"
+        }
+      ]
+    },
+    "a0e9a7ab-fad9-4aac-991f-01a205e5752d": {
+      "id": "a0e9a7ab-fad9-4aac-991f-01a205e5752d",
+      "code": "NN-HIV837",
+      "title": "Bodega industrial en renta en Ejido Ana, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "80,000 MXN Renta",
+      "precio_num": 80000.0,
+      "superficie": "830 m²",
+      "area_num": 830.0,
+      "m2_terreno": 1027,
+      "m2_construccion": 830,
+      "banos": null,
+      "estacionamientos": 5,
+      "precio_m2": "$96.4/m²",
+      "pm2_num": 96.39,
+      "ubicacion": "Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-22",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a0e9a7ab-fad9-4aac-991f-01a205e5752d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261122185546-39a1abd30d8a4566ab182dccae233af3s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122185546-9dbf7869390d40dbb9a8eaa5ec783f6ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261122185546-58648570131c4569a452f87e978fdca7s.webp"
+      ],
+      "first_seen": "2026-11-22",
+      "last_seen": "2026-11-22",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-22",
+          "precio_num": 80000.0,
+          "precio": "80,000 MXN Renta"
+        }
+      ]
     }
   }
 }
