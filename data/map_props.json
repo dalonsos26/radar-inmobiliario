@@ -1175,7 +1175,7 @@
     ],
     "lat": 25.5642818,
     "lng": -103.4357007,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "6cc2abc9-6739-42db-bb20-019e65ab65f5",
@@ -1821,7 +1821,7 @@
     ],
     "lat": 25.5426189,
     "lng": -103.4583872,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "a47d9b35-490b-46dc-b589-0195aa7480cf",
@@ -1840,7 +1840,7 @@
     ],
     "lat": 25.4955178,
     "lng": -103.3807801,
-    "status": "active"
+    "status": "delisted"
   },
   {
     "id": "b78ccbe3-1f29-469f-a27b-019e51bf5326",
