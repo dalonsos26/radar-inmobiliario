@@ -8577,7 +8577,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AG LAGUNA RESIDENCIAL",
       "fecha_publicacion": "2026-05-18",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2bf11eb4-fb42-4785-b761-018b27d13f7c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230209124752-3890fce0256d4274bc5efe88a2633448.jpg",
@@ -8585,9 +8585,9 @@
         "https://s3.amazonaws.com/nocnok-img/230209124800-db07242e44994181bab619b5cd91fba4.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-22",
-      "status": "delisted",
-      "delisted_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 175,
       "precio_history": [
         {
@@ -8598,7 +8598,7 @@
       ],
       "lat": 25.5426189,
       "lng": -103.4583872,
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 345,
       "m2_construccion": 555,
       "banos": 3,
@@ -8669,7 +8669,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AG LAGUNA RESIDENCIAL",
       "fecha_publicacion": "2026-05-18",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/033e0678-e87e-4f46-b088-018b291baef1",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230414145454-9f11a466d37046a796a9790b6d925eac.jpg",
@@ -8677,9 +8677,9 @@
         "https://s3.amazonaws.com/nocnok-img/230414145512-0b56987d2f2f456588875edd89f90b39.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-22",
-      "status": "delisted",
-      "delisted_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 175,
       "precio_history": [
         {
@@ -8690,7 +8690,7 @@
       ],
       "lat": null,
       "lng": null,
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 180,
       "m2_construccion": 150,
       "banos": 1,
@@ -8715,7 +8715,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AG LAGUNA RESIDENCIAL",
       "fecha_publicacion": "2026-05-18",
-      "days_on_market": 187,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d98847de-3a99-4c8b-b5ef-018b291bbb40",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230420120123-bbac3827f2ee42d99f133743545daeb5.jpg",
@@ -8723,9 +8723,9 @@
         "https://s3.amazonaws.com/nocnok-img/230420120132-1a4f952508d84bbbbd5a0306ea33476d.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-22",
-      "status": "delisted",
-      "delisted_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 175,
       "precio_history": [
         {
@@ -8736,7 +8736,7 @@
       ],
       "lat": null,
       "lng": null,
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 279,
       "m2_construccion": 229,
       "banos": 3,
@@ -9328,7 +9328,7 @@
     "5a40642c-5e4c-49b1-9ba1-019c19c21480": {
       "id": "5a40642c-5e4c-49b1-9ba1-019c19c21480",
       "code": "NN-GSW942",
-      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "title": "EXCELENTE LOCAL COMERCIAL CENTRO",
       "categoria": "Comercial",
       "tipo": "Local",
       "operacion": "Renta",
@@ -9390,7 +9390,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AG LAGUNA RESIDENCIAL",
       "fecha_publicacion": "2026-05-18",
-      "days_on_market": 187,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/01dc5c82-27bf-4ea6-b8e8-019c19c38304",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260201091249-324e79c9ae4946f6af849c5ba9d7812ds.webp",
@@ -9398,9 +9398,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260201091249-983c206ecb02440dac15659ba0363178s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-22",
-      "status": "delisted",
-      "delisted_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 175,
       "precio_history": [
         {
@@ -9411,7 +9411,7 @@
       ],
       "lat": 25.5426189,
       "lng": -103.4583872,
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 76,
       "m2_construccion": 76,
       "banos": 1,
@@ -18608,12 +18608,12 @@
       "tipo": "Edificio",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "10,000,000 MXN Venta | 49,000 MXN Renta",
-      "precio_num": 10000000.0,
+      "precio": "9,950,000 MXN Venta | 49,000 MXN Renta",
+      "precio_num": 9950000.0,
       "superficie": "525 m²",
       "area_num": 525.0,
-      "precio_m2": "$19,048/m²",
-      "pm2_num": 19047.62,
+      "precio_m2": "$18,952/m²",
+      "pm2_num": 18952.38,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -54552,12 +54552,12 @@
       "tipo": "Local",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "85,000 MXN Renta",
-      "precio_num": 85000.0,
+      "precio": "75,000 MXN Renta",
+      "precio_num": 75000.0,
       "superficie": "867 m²",
       "area_num": 867.0,
-      "precio_m2": "$98.0/m²",
-      "pm2_num": 98.04,
+      "precio_m2": "$86.5/m²",
+      "pm2_num": 86.51,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -54580,6 +54580,11 @@
           "date": "2026-06-01",
           "precio_num": 85000.0,
           "precio": "85,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-23",
+          "precio_num": 75000.0,
+          "precio": "75,000 MXN Renta"
         }
       ],
       "delisted_reason": null,
@@ -76653,9 +76658,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 175,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -76663,7 +76668,7 @@
           "precio": "101,250 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 1759,
       "m2_construccion": 1350,
       "banos": 1,
@@ -76741,9 +76746,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 175,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -76751,7 +76756,7 @@
           "precio": "85,000 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 1250,
       "m2_construccion": 1250,
       "banos": 3,
@@ -88241,7 +88246,7 @@
       "estado": "Durango",
       "broker": "AG LAGUNA RESIDENCIAL",
       "fecha_publicacion": "2026-05-18",
-      "days_on_market": 187,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/cd5e7692-c73c-4b9b-abe1-0199dbaf0825",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251012215509-9f3680ff98524b89b48e210f7ae4b043s.webp",
@@ -88249,9 +88254,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251012215526-4720b3865e9f4dd7bd3423295de7d12cs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-22",
-      "status": "delisted",
-      "delisted_at": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 175,
       "precio_history": [
         {
@@ -88260,7 +88265,7 @@
           "precio": "14,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 800,
       "m2_construccion": null,
       "banos": null,
@@ -220897,9 +220902,9 @@
       ],
       "first_seen": "2026-08-07",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 108,
       "precio_history": [
         {
           "date": "2026-08-07",
@@ -220915,7 +220920,8 @@
       "m2_terreno": 330,
       "m2_construccion": 385,
       "banos": 4,
-      "estacionamientos": 3
+      "estacionamientos": 3,
+      "delisted_reason": "sold"
     },
     "751b1ccd-e535-49de-9e2b-019fd439190b": {
       "id": "751b1ccd-e535-49de-9e2b-019fd439190b",
@@ -224541,12 +224547,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "70,000 MXN Renta",
-      "precio_num": 70000.0,
+      "precio": "65,000 MXN Renta",
+      "precio_num": 65000.0,
       "superficie": "720 m²",
       "area_num": 720.0,
-      "precio_m2": "$97.2/m²",
-      "pm2_num": 97.22,
+      "precio_m2": "$90.3/m²",
+      "pm2_num": 90.28,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -224569,6 +224575,11 @@
           "date": "2026-08-19",
           "precio_num": 70000.0,
           "precio": "70,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-23",
+          "precio_num": 65000.0,
+          "precio": "65,000 MXN Renta"
         }
       ],
       "m2_terreno": 540,
@@ -224690,9 +224701,9 @@
       ],
       "first_seen": "2026-08-19",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 96,
       "precio_history": [
         {
           "date": "2026-08-19",
@@ -224703,7 +224714,8 @@
       "m2_terreno": 1172,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "29f53bf6-d290-45e1-a7ad-01a0177abf13": {
       "id": "29f53bf6-d290-45e1-a7ad-01a0177abf13",
@@ -224733,9 +224745,9 @@
       ],
       "first_seen": "2026-08-19",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 96,
       "precio_history": [
         {
           "date": "2026-08-19",
@@ -224746,7 +224758,8 @@
       "m2_terreno": 1153,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "74b518ae-49f8-4bdd-a066-01a0178a3a38": {
       "id": "74b518ae-49f8-4bdd-a066-01a0178a3a38",
@@ -224776,9 +224789,9 @@
       ],
       "first_seen": "2026-08-19",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 96,
       "precio_history": [
         {
           "date": "2026-08-19",
@@ -224789,7 +224802,8 @@
       "m2_terreno": 1162,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "75117883-021c-47f9-af36-01a015cfbedf": {
       "id": "75117883-021c-47f9-af36-01a015cfbedf",
@@ -224902,9 +224916,9 @@
       ],
       "first_seen": "2026-08-20",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 95,
       "precio_history": [
         {
           "date": "2026-08-20",
@@ -224915,7 +224929,8 @@
       "m2_terreno": 1200,
       "m2_construccion": 1000,
       "banos": 2,
-      "estacionamientos": 4
+      "estacionamientos": 4,
+      "delisted_reason": "sold"
     },
     "97602fb2-2f17-44e4-9182-01a01d4fe2e1": {
       "id": "97602fb2-2f17-44e4-9182-01a01d4fe2e1",
@@ -224945,9 +224960,9 @@
       ],
       "first_seen": "2026-08-20",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 95,
       "precio_history": [
         {
           "date": "2026-08-20",
@@ -224958,7 +224973,8 @@
       "m2_terreno": 600,
       "m2_construccion": 600,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "96df2909-d8a1-4c1e-994e-01a01d4f21c7": {
       "id": "96df2909-d8a1-4c1e-994e-01a01d4f21c7",
@@ -224988,9 +225004,9 @@
       ],
       "first_seen": "2026-08-20",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 95,
       "precio_history": [
         {
           "date": "2026-08-20",
@@ -225001,7 +225017,8 @@
       "m2_terreno": 1000,
       "m2_construccion": 1000,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "ad601940-4707-4df7-8a09-01a01d513160": {
       "id": "ad601940-4707-4df7-8a09-01a01d513160",
@@ -225030,9 +225047,9 @@
       ],
       "first_seen": "2026-08-20",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 95,
       "precio_history": [
         {
           "date": "2026-08-20",
@@ -225043,7 +225060,8 @@
       "m2_terreno": 1000,
       "m2_construccion": 1000,
       "banos": 1,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "4c972c71-fe99-4e25-a693-01a01d4d9a17": {
       "id": "4c972c71-fe99-4e25-a693-01a01d4d9a17",
@@ -225232,9 +225250,9 @@
       ],
       "first_seen": "2026-08-20",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 95,
       "precio_history": [
         {
           "date": "2026-08-20",
@@ -225245,7 +225263,8 @@
       "m2_terreno": 1000,
       "m2_construccion": 900,
       "banos": 2,
-      "estacionamientos": 2
+      "estacionamientos": 2,
+      "delisted_reason": "sold"
     },
     "b7a075a9-49c4-4d8e-bdb3-01a01fec9604": {
       "id": "b7a075a9-49c4-4d8e-bdb3-01a01fec9604",
@@ -227374,9 +227393,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227387,7 +227406,8 @@
       "m2_terreno": 9741,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "7d336b94-6ef2-48d4-81d3-01a03bad4fba": {
       "id": "7d336b94-6ef2-48d4-81d3-01a03bad4fba",
@@ -227417,9 +227437,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227430,7 +227450,8 @@
       "m2_terreno": 2000,
       "m2_construccion": 2100,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "f0c71fdd-888b-46fe-8dc5-01a03bafa917": {
       "id": "f0c71fdd-888b-46fe-8dc5-01a03bafa917",
@@ -227458,9 +227479,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227471,7 +227492,8 @@
       "m2_terreno": 13341,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "ae372a09-32be-4bbf-83d6-01a03bb0d3e4": {
       "id": "ae372a09-32be-4bbf-83d6-01a03bb0d3e4",
@@ -227501,9 +227523,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227514,7 +227536,8 @@
       "m2_terreno": 292,
       "m2_construccion": 292,
       "banos": 3,
-      "estacionamientos": 200
+      "estacionamientos": 200,
+      "delisted_reason": "sold"
     },
     "83479f28-f7f3-4227-a6b1-01a03bb48941": {
       "id": "83479f28-f7f3-4227-a6b1-01a03bb48941",
@@ -227544,9 +227567,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227557,7 +227580,8 @@
       "m2_terreno": 600,
       "m2_construccion": 318,
       "banos": 2,
-      "estacionamientos": 10
+      "estacionamientos": 10,
+      "delisted_reason": "sold"
     },
     "58872b8c-8415-4c63-910f-01a03bb39d2a": {
       "id": "58872b8c-8415-4c63-910f-01a03bb39d2a",
@@ -227585,9 +227609,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227598,7 +227622,8 @@
       "m2_terreno": 389,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "0de4d84d-00ad-4d3b-a7b9-01a03bbef5f9": {
       "id": "0de4d84d-00ad-4d3b-a7b9-01a03bbef5f9",
@@ -227627,9 +227652,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227640,7 +227665,8 @@
       "m2_terreno": 1396.2,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "aca40dee-a4aa-42d2-9b13-01a03bc1c789": {
       "id": "aca40dee-a4aa-42d2-9b13-01a03bc1c789",
@@ -227669,9 +227695,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227682,7 +227708,8 @@
       "m2_terreno": 860,
       "m2_construccion": 860,
       "banos": 6,
-      "estacionamientos": 10
+      "estacionamientos": 10,
+      "delisted_reason": "sold"
     },
     "f76d7e94-5221-46df-9aa7-01a03bc287a3": {
       "id": "f76d7e94-5221-46df-9aa7-01a03bc287a3",
@@ -227841,9 +227868,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227854,7 +227881,8 @@
       "m2_terreno": 2000,
       "m2_construccion": 2000,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "9ed4d22e-048f-4759-b2f7-01a03bacc80c": {
       "id": "9ed4d22e-048f-4759-b2f7-01a03bacc80c",
@@ -227884,9 +227912,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227897,7 +227925,8 @@
       "m2_terreno": 2000,
       "m2_construccion": 2111,
       "banos": 1,
-      "estacionamientos": 4
+      "estacionamientos": 4,
+      "delisted_reason": "sold"
     },
     "96905929-7270-44a2-8f5c-01a03bad8c3f": {
       "id": "96905929-7270-44a2-8f5c-01a03bad8c3f",
@@ -227926,9 +227955,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227939,7 +227968,8 @@
       "m2_terreno": 15000,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "7ffdc493-c39f-4c27-98d4-01a03bb0220b": {
       "id": "7ffdc493-c39f-4c27-98d4-01a03bb0220b",
@@ -227968,9 +227998,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -227981,7 +228011,8 @@
       "m2_terreno": 48450,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "442f46c9-f040-486d-9340-01a03bb263ad": {
       "id": "442f46c9-f040-486d-9340-01a03bb263ad",
@@ -228011,9 +228042,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -228024,7 +228055,8 @@
       "m2_terreno": 1624,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "54a880b0-7ea0-4806-8a4d-01a03bb3e4d7": {
       "id": "54a880b0-7ea0-4806-8a4d-01a03bb3e4d7",
@@ -228054,9 +228086,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -228067,7 +228099,8 @@
       "m2_terreno": 1016,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "f7393f36-d80a-46fa-bec8-01a03bc04458": {
       "id": "f7393f36-d80a-46fa-bec8-01a03bc04458",
@@ -228427,9 +228460,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -228440,7 +228473,8 @@
       "m2_terreno": 14000,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "78d7927b-c797-4285-a91a-01a03bce2321": {
       "id": "78d7927b-c797-4285-a91a-01a03bce2321",
@@ -228718,9 +228752,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -228731,7 +228765,8 @@
       "m2_terreno": 1120,
       "m2_construccion": 1120,
       "banos": 1,
-      "estacionamientos": 4
+      "estacionamientos": 4,
+      "delisted_reason": "sold"
     },
     "601fe028-b661-4a56-9c4d-01a03bbcaa0b": {
       "id": "601fe028-b661-4a56-9c4d-01a03bbcaa0b",
@@ -228802,9 +228837,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -228815,7 +228850,8 @@
       "m2_terreno": 4000,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "b8d3314b-6e64-44d2-a75e-01a03bc4f4e2": {
       "id": "b8d3314b-6e64-44d2-a75e-01a03bc4f4e2",
@@ -228965,9 +229001,9 @@
       ],
       "first_seen": "2026-08-26",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 89,
       "precio_history": [
         {
           "date": "2026-08-26",
@@ -228978,7 +229014,8 @@
       "m2_terreno": 33792,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "d1e8d3c2-04b2-4399-898c-01a0441aee8e": {
       "id": "d1e8d3c2-04b2-4399-898c-01a0441aee8e",
@@ -234225,9 +234262,9 @@
       ],
       "first_seen": "2026-09-05",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 79,
       "precio_history": [
         {
           "date": "2026-09-05",
@@ -234243,7 +234280,8 @@
       "m2_terreno": 80,
       "m2_construccion": 80,
       "banos": null,
-      "estacionamientos": 1
+      "estacionamientos": 1,
+      "delisted_reason": "sold"
     },
     "32ae3512-cac1-48a5-a4ae-01a06dff3226": {
       "id": "32ae3512-cac1-48a5-a4ae-01a06dff3226",
@@ -235287,9 +235325,9 @@
       ],
       "first_seen": "2026-09-09",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 75,
       "precio_history": [
         {
           "date": "2026-09-09",
@@ -235300,7 +235338,8 @@
       "m2_terreno": 150,
       "m2_construccion": 150,
       "banos": null,
-      "estacionamientos": 1
+      "estacionamientos": 1,
+      "delisted_reason": "sold"
     },
     "86c3f43b-38fb-4bfc-8e86-01a082060aca": {
       "id": "86c3f43b-38fb-4bfc-8e86-01a082060aca",
@@ -240200,9 +240239,9 @@
       ],
       "first_seen": "2026-09-25",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 59,
       "precio_history": [
         {
           "date": "2026-09-25",
@@ -240213,7 +240252,8 @@
       "m2_terreno": 150,
       "m2_construccion": 150,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "07ef7854-f3d2-430d-bb07-01a0a5cd0ba8": {
       "id": "07ef7854-f3d2-430d-bb07-01a0a5cd0ba8",
@@ -243520,12 +243560,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "85,000 MXN Renta",
-      "precio_num": 85000.0,
+      "precio": "80,000 MXN Renta",
+      "precio_num": 80000.0,
       "superficie": "1,000 m²",
       "area_num": 1000.0,
-      "precio_m2": "$85.0/m²",
-      "pm2_num": 85.0,
+      "precio_m2": "$80.0/m²",
+      "pm2_num": 80.0,
       "ubicacion": "Ejido Ana, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -243548,6 +243588,11 @@
           "date": "2026-09-30",
           "precio_num": 85000.0,
           "precio": "85,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-23",
+          "precio_num": 80000.0,
+          "precio": "80,000 MXN Renta"
         }
       ],
       "m2_terreno": 1000,
@@ -246064,9 +246109,9 @@
       ],
       "first_seen": "2026-10-06",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 48,
       "precio_history": [
         {
           "date": "2026-10-06",
@@ -246077,7 +246122,8 @@
       "m2_terreno": 640,
       "m2_construccion": 640,
       "banos": 2,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "390ec397-5e6b-45ed-994c-01a10e2eeb81": {
       "id": "390ec397-5e6b-45ed-994c-01a10e2eeb81",
@@ -261573,9 +261619,9 @@
       ],
       "first_seen": "2026-11-13",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 10,
       "precio_history": [
         {
           "date": "2026-11-13",
@@ -261586,7 +261632,8 @@
       "m2_terreno": 482.3,
       "m2_construccion": 482.3,
       "banos": 2,
-      "estacionamientos": 4
+      "estacionamientos": 4,
+      "delisted_reason": "sold"
     },
     "348f9221-6bb5-4219-af31-01a1d65454a5": {
       "id": "348f9221-6bb5-4219-af31-01a1d65454a5",
@@ -261660,9 +261707,9 @@
       ],
       "first_seen": "2026-11-13",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 10,
       "precio_history": [
         {
           "date": "2026-11-13",
@@ -261673,7 +261720,8 @@
       "m2_terreno": 368,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "1030ff28-446c-4783-9473-01a1d664cd85": {
       "id": "1030ff28-446c-4783-9473-01a1d664cd85",
@@ -261875,9 +261923,9 @@
       ],
       "first_seen": "2026-11-13",
       "last_seen": "2026-11-23",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-23",
+      "days_listed": 10,
       "precio_history": [
         {
           "date": "2026-11-13",
@@ -261888,7 +261936,8 @@
       "m2_terreno": 1500,
       "m2_construccion": 1500,
       "banos": 2,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "689b6a60-83a5-49c5-afdc-01a1d59afe75": {
       "id": "689b6a60-83a5-49c5-afdc-01a1d59afe75",
@@ -262285,7 +262334,7 @@
     "65298fda-3d6b-44c3-965c-01a1dbc5f3f2": {
       "id": "65298fda-3d6b-44c3-965c-01a1dbc5f3f2",
       "code": "NN-HIL474",
-      "title": "Edificio en Venta en Gomez Palacio Centro, Gómez Palacio, Durango",
+      "title": "EDIFICIO EN VENTA EN CENTRO, GOMEZ PALACIO, DGO",
       "categoria": "Comercial",
       "tipo": "Edificio",
       "operacion": "Venta",
@@ -265309,16 +265358,16 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "126,720 MXN Renta",
-      "precio_num": 126720.0,
+      "precio": "136,320 MXN Renta",
+      "precio_num": 136320.0,
       "superficie": "1,920 m²",
       "area_num": 1920.0,
       "m2_terreno": 1920,
       "m2_construccion": 1920,
       "banos": 4,
       "estacionamientos": null,
-      "precio_m2": "$66.0/m²",
-      "pm2_num": 66.0,
+      "precio_m2": "$71.0/m²",
+      "pm2_num": 71.0,
       "ubicacion": "La Joya, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -266329,6 +266378,863 @@
           "date": "2026-11-22",
           "precio_num": 80000.0,
           "precio": "80,000 MXN Renta"
+        }
+      ]
+    },
+    "13bd777c-18cb-41b1-9f94-01a20a215de6": {
+      "id": "13bd777c-18cb-41b1-9f94-01a20a215de6",
+      "code": "NN-HIX212",
+      "title": "Local en renta en Torreón",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta y Renta",
+      "op_key": "venta",
+      "precio": "25,000,000 MXN Venta | 375,600 MXN Renta",
+      "precio_num": 25000000.0,
+      "superficie": "3,129.99 m²",
+      "area_num": 3129.99,
+      "m2_terreno": null,
+      "m2_construccion": 3129.99,
+      "banos": null,
+      "estacionamientos": 1,
+      "precio_m2": "$7,987/m²",
+      "pm2_num": 7987.25,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "RADE Grupo Inmobiliario",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/13bd777c-18cb-41b1-9f94-01a20a215de6",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123151202-54628c52e58e4adeb477043583eb60e4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123151202-d336ee42a52f44f2b1de015e8d45fdf5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123151202-1d1285343b00476181ecb2567b9353c4s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 25000000.0,
+          "precio": "25,000,000 MXN Venta | 375,600 MXN Renta"
+        }
+      ]
+    },
+    "0f23b707-c454-4083-8f84-01a20923cb77": {
+      "id": "0f23b707-c454-4083-8f84-01a20923cb77",
+      "code": "NN-HIV920",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "7,500 MXN Renta",
+      "precio_num": 7500.0,
+      "superficie": "80 m²",
+      "area_num": 80.0,
+      "m2_terreno": 80,
+      "m2_construccion": 80,
+      "banos": null,
+      "estacionamientos": 1,
+      "precio_m2": "$93.8/m²",
+      "pm2_num": 93.75,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/0f23b707-c454-4083-8f84-01a20923cb77",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123100110-1db6e1728ab74250a3e08a472885f02ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123100110-f83740344c884f4e84ecb33486277a77s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123100110-39cccebb5b0d4de6ad37b0b2325f01e6s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 7500.0,
+          "precio": "7,500 MXN Renta"
+        }
+      ]
+    },
+    "ecfdc896-eff6-45c1-a61a-01a20925f80b": {
+      "id": "ecfdc896-eff6-45c1-a61a-01a20925f80b",
+      "code": "NN-HIV922",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "20,000 MXN Renta",
+      "precio_num": 20000.0,
+      "superficie": "150 m²",
+      "area_num": 150.0,
+      "m2_terreno": 150,
+      "m2_construccion": 150,
+      "banos": 4,
+      "estacionamientos": 1,
+      "precio_m2": "$133.3/m²",
+      "pm2_num": 133.33,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/ecfdc896-eff6-45c1-a61a-01a20925f80b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123100333-c34e1f29a33a412fb3390af9cc9fb8c5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123100333-33f88f8d17394f039d5935a99ec0fcads.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123100333-6a203b50223348f59de2b90540d05defs.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 20000.0,
+          "precio": "20,000 MXN Renta"
+        }
+      ]
+    },
+    "d09a07f0-ee06-47af-acdd-01a20976c1d2": {
+      "id": "d09a07f0-ee06-47af-acdd-01a20976c1d2",
+      "code": "NN-HIW606",
+      "title": "Parcela en Venta, La Cocha",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "7,743,000 MXN Venta",
+      "precio_num": 7743000.0,
+      "superficie": "11,556 m²",
+      "area_num": 11556.0,
+      "m2_terreno": 11556,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$670.0/m²",
+      "pm2_num": 670.04,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ORDUÑA Y ASOCIADOS",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/d09a07f0-ee06-47af-acdd-01a20976c1d2",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123113436-de9b3df56ea04493af65724599032220s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123113436-0c1c9d9a2eee4f19ba82b614a9d718a4s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 7743000.0,
+          "precio": "7,743,000 MXN Venta"
+        }
+      ]
+    },
+    "7bae1952-c96b-4649-9580-01a20989ddb8": {
+      "id": "7bae1952-c96b-4649-9580-01a20989ddb8",
+      "code": "NN-HIW688",
+      "title": "Parcela en Venta, La Cocha",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "11,416,000 MXN Venta",
+      "precio_num": 11416000.0,
+      "superficie": "17,700 m²",
+      "area_num": 17700.0,
+      "m2_terreno": 17700,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$645.0/m²",
+      "pm2_num": 644.97,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "ORDUÑA Y ASOCIADOS",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/7bae1952-c96b-4649-9580-01a20989ddb8",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123115309-bed965aac2924f5ba6d58c8aa0f79644s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123115308-8d40a5b3ac72457096f53809a07b9d14s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 11416000.0,
+          "precio": "11,416,000 MXN Venta"
+        }
+      ]
+    },
+    "d6c0ea95-21b1-48b6-b0e7-01a209b5ff67": {
+      "id": "d6c0ea95-21b1-48b6-b0e7-01a209b5ff67",
+      "code": "NN-HIW790",
+      "title": "Local Comercial en Renta en Blvd. Independencia, San Isidro, Torreón",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "70,000 MXN Renta",
+      "precio_num": 70000.0,
+      "superficie": "482.3 m²",
+      "area_num": 482.3,
+      "m2_terreno": 482.3,
+      "m2_construccion": 482.3,
+      "banos": 2,
+      "estacionamientos": 4,
+      "precio_m2": "$145.1/m²",
+      "pm2_num": 145.14,
+      "ubicacion": "San Isidro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Avante Bienes Raices",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/d6c0ea95-21b1-48b6-b0e7-01a209b5ff67",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124052-0b6cbb9a2a0e42fdb29623e154fbe683s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124052-db2993dfce914481a09effb0771341a1s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124052-96492c245ee540ebae927b8ba241a3e2s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 70000.0,
+          "precio": "70,000 MXN Renta"
+        }
+      ]
+    },
+    "d2476357-4982-4475-bc2e-01a209b69393": {
+      "id": "d2476357-4982-4475-bc2e-01a209b69393",
+      "code": "NN-HIW793",
+      "title": "Terreno en Venta en San Armando, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "1,067,200 MXN Venta",
+      "precio_num": 1067200.0,
+      "superficie": "368 m²",
+      "area_num": 368.0,
+      "m2_terreno": 368,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$2,900/m²",
+      "pm2_num": 2900.0,
+      "ubicacion": "San Armando, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Avante Bienes Raices",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/d2476357-4982-4475-bc2e-01a209b69393",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124130-f32d7064f966465c8d844b8e60ce2cefs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124130-34ed90e28580413eaee7595fc66d6d7cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124130-3d6886926da543a0944b8d3e9e158591s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 1067200.0,
+          "precio": "1,067,200 MXN Venta"
+        }
+      ]
+    },
+    "fa40c133-125c-4d63-879f-01a20b1aede5": {
+      "id": "fa40c133-125c-4d63-879f-01a20b1aede5",
+      "code": "NN-HIX761",
+      "title": "Edificio de oficinas corporativas en venta.",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "5,900,000 MXN Venta",
+      "precio_num": 5900000.0,
+      "superficie": "407 m²",
+      "area_num": 407.0,
+      "m2_terreno": 252,
+      "m2_construccion": 407,
+      "banos": 1,
+      "estacionamientos": 3,
+      "precio_m2": "$14,496/m²",
+      "pm2_num": 14496.31,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "C3 CASAS",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/fa40c133-125c-4d63-879f-01a20b1aede5",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123191425-dcabae195e214c58a4679236584677b8s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123191410-edcad8618b054af983b69bff9c178d11s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123191421-4a7a630dc26640658560f2d7b275715es.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 5900000.0,
+          "precio": "5,900,000 MXN Venta"
+        }
+      ]
+    },
+    "a6fc68ef-63bd-4499-8ff7-01a20ac1c06f": {
+      "id": "a6fc68ef-63bd-4499-8ff7-01a20ac1c06f",
+      "code": "NN-HIX569",
+      "title": "Terreno en Venta en El Ranchito, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "11,486,112 MXN Venta",
+      "precio_num": 11486112.0,
+      "superficie": "4,785.88 m²",
+      "area_num": 4785.88,
+      "m2_terreno": 4785.88,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$2,400/m²",
+      "pm2_num": 2400.0,
+      "ubicacion": "El Ranchito, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Tokë Inmobiliaria",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/a6fc68ef-63bd-4499-8ff7-01a20ac1c06f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123174446-c9bfae1c70594a9e8b48112223e80de8s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123174430-70ad2147e0934db09743613002473334s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123174439-8828d9ec0abe4bcb9d2cea904bb2d0d0s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 11486112.0,
+          "precio": "11,486,112 MXN Venta"
+        }
+      ]
+    },
+    "42c02d4f-f149-4832-acd6-01a209b64c1d": {
+      "id": "42c02d4f-f149-4832-acd6-01a209b64c1d",
+      "code": "NN-HIW792",
+      "title": "Bodega Industrial de 1500 M2 en Renta en San Felipe, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "108,000 MXN Renta",
+      "precio_num": 108000.0,
+      "superficie": "1,500 m²",
+      "area_num": 1500.0,
+      "m2_terreno": 1500,
+      "m2_construccion": 1500,
+      "banos": 2,
+      "estacionamientos": null,
+      "precio_m2": "$72.0/m²",
+      "pm2_num": 72.0,
+      "ubicacion": "San Felipe, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Avante Bienes Raices",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/42c02d4f-f149-4832-acd6-01a209b64c1d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124111-5cc857cf02fc44dda89a3f75b2b03f0cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124112-c458a8b22f4a4896830a1c3e6d8ad1eds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123124112-dcaf75a5cb4b449cb769b4e4ddeec6a1s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 108000.0,
+          "precio": "108,000 MXN Renta"
+        }
+      ]
+    },
+    "aeab5524-6536-4e5f-bce4-01a20af589dc": {
+      "id": "aeab5524-6536-4e5f-bce4-01a20af589dc",
+      "code": "NN-HIX673",
+      "title": "Terreno Industrial de 14,000 m² a Pie de Carretera en Torreón, Coahuila.",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "420,000 MXN Renta",
+      "precio_num": 420000.0,
+      "superficie": "14,000 m²",
+      "area_num": 14000.0,
+      "m2_terreno": 14000,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$30.0/m²",
+      "pm2_num": 30.0,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/aeab5524-6536-4e5f-bce4-01a20af589dc",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123182953-e5af2f022c094c7c81da66ebc137da9as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123182953-f7a2c49658a54b9f9ad9e8b13471742bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123182954-3629dc08ab3242db87f279768e915461s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 420000.0,
+          "precio": "420,000 MXN Renta"
+        }
+      ]
+    },
+    "7908d400-3e9c-4e0a-8307-01a20af6fb4e": {
+      "id": "7908d400-3e9c-4e0a-8307-01a20af6fb4e",
+      "code": "NN-HIX686",
+      "title": "TOP PARK LAGUNA | OPORTUNIDAD DE INVERSIÓN| LOTE INDUSTRIAL EN VENTA.",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "4,480,757 MXN Venta",
+      "precio_num": 4480757.0,
+      "superficie": "1,162 m²",
+      "area_num": 1162.0,
+      "m2_terreno": 1162,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$3,856/m²",
+      "pm2_num": 3856.07,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/7908d400-3e9c-4e0a-8307-01a20af6fb4e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183128-cdbbc669e39b4c22853baba8b8177c9as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183128-9488948fdd714a92b9c9b7deef26106es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183128-dd045a0a43c3423cb4139df2a9cd1b71s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 4480757.0,
+          "precio": "4,480,757 MXN Venta"
+        }
+      ]
+    },
+    "6c415b80-8b35-4e00-bd17-01a20af73acc": {
+      "id": "6c415b80-8b35-4e00-bd17-01a20af73acc",
+      "code": "NN-HIX688",
+      "title": "TOP PARK LAGUNA | Oportunidad de Inversión| Lote Industrial en Venta.",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "4,924,928 MXN Venta",
+      "precio_num": 4924928.0,
+      "superficie": "1,172 m²",
+      "area_num": 1172.0,
+      "m2_terreno": 1172,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$4,202/m²",
+      "pm2_num": 4202.16,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/6c415b80-8b35-4e00-bd17-01a20af73acc",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183144-4571ee9104ea40368f98c1969ddf53e5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183144-6d422a8984f046a5abc95c5e7c986a9cs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183144-9ece4df0284844a493911d5c0e96bbe7s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 4924928.0,
+          "precio": "4,924,928 MXN Venta"
+        }
+      ]
+    },
+    "86aa4fb2-2b03-44f6-9772-01a20af780e7": {
+      "id": "86aa4fb2-2b03-44f6-9772-01a20af780e7",
+      "code": "NN-HIX691",
+      "title": "TOP PARK LAGUNA | OPORTUNIDAD DE INVERSIÓN| LOTE INDUSTRIAL EN VENTA.",
+      "categoria": "Industrial",
+      "tipo": "Terreno",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "4,842,747 MXN Venta",
+      "precio_num": 4842747.0,
+      "superficie": "1,153 m²",
+      "area_num": 1153.0,
+      "m2_terreno": 1153,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$4,200/m²",
+      "pm2_num": 4200.13,
+      "ubicacion": "La Concha, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/86aa4fb2-2b03-44f6-9772-01a20af780e7",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183202-e3b1610f592a4704ac9698d43fd988d9s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183202-d02d354945c54db483fbf63f888c9fb0s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183202-0fe5edc2555a435a87af46ee8191aae1s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 4842747.0,
+          "precio": "4,842,747 MXN Venta"
+        }
+      ]
+    },
+    "ecfcbce0-eec8-4401-a162-01a20af8d569": {
+      "id": "ecfcbce0-eec8-4401-a162-01a20af8d569",
+      "code": "NN-HIX700",
+      "title": "Bodega en Renta en La Union, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "90,000 MXN Renta",
+      "precio_num": 90000.0,
+      "superficie": "1,000 m²",
+      "area_num": 1000.0,
+      "m2_terreno": 1200,
+      "m2_construccion": 1000,
+      "banos": 2,
+      "estacionamientos": 4,
+      "precio_m2": "$90.0/m²",
+      "pm2_num": 90.0,
+      "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/ecfcbce0-eec8-4401-a162-01a20af8d569",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183329-187a801fd7af4861bc40e48b24979716s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183329-e7c6b8933c2b43cfac0df1d0d6d4b671s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183329-956b45c7133c4358b52b958d63414947s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 90000.0,
+          "precio": "90,000 MXN Renta"
+        }
+      ]
+    },
+    "60538428-955c-4d61-8ebc-01a20af9f22e": {
+      "id": "60538428-955c-4d61-8ebc-01a20af9f22e",
+      "code": "NN-HIX707",
+      "title": "Bodega en Renta en Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "60,000 MXN Renta",
+      "precio_num": 60000.0,
+      "superficie": "1,000 m²",
+      "area_num": 1000.0,
+      "m2_terreno": 1000,
+      "m2_construccion": 1000,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$60.0/m²",
+      "pm2_num": 60.0,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/60538428-955c-4d61-8ebc-01a20af9f22e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183442-1305b7cf662147ac83538ef0ebfb1aeas.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183442-2a6f908f1fb54af7b477948a7ef635a7s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183442-cd78a95065844f6c896bf681bd3e6cbds.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 60000.0,
+          "precio": "60,000 MXN Renta"
+        }
+      ]
+    },
+    "fe1a201e-2806-4f96-b1a5-01a20afa2b41": {
+      "id": "fe1a201e-2806-4f96-b1a5-01a20afa2b41",
+      "code": "NN-HIX709",
+      "title": "Bodega en Renta en Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "60,000 MXN Renta",
+      "precio_num": 60000.0,
+      "superficie": "1,000 m²",
+      "area_num": 1000.0,
+      "m2_terreno": 1000,
+      "m2_construccion": 1000,
+      "banos": 1,
+      "estacionamientos": null,
+      "precio_m2": "$60.0/m²",
+      "pm2_num": 60.0,
+      "ubicacion": "Ejido Ana, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/fe1a201e-2806-4f96-b1a5-01a20afa2b41",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183457-88415084b03c49b68733a9e242ddc02ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183457-f2c4cae99fcf4d9a868e6b087a398cb4s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 60000.0,
+          "precio": "60,000 MXN Renta"
+        }
+      ]
+    },
+    "e4416bd0-b5b8-4218-a64b-01a20afb6c9b": {
+      "id": "e4416bd0-b5b8-4218-a64b-01a20afb6c9b",
+      "code": "NN-HIX718",
+      "title": "Bodega Industrial en Renta en Torreón, Coahuila.",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "136,000 MXN Renta",
+      "precio_num": 136000.0,
+      "superficie": "2,000 m²",
+      "area_num": 2000.0,
+      "m2_terreno": 2000,
+      "m2_construccion": 2000,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$68.0/m²",
+      "pm2_num": 68.0,
+      "ubicacion": "El Tajito, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/e4416bd0-b5b8-4218-a64b-01a20afb6c9b",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183619-e101404cc74f41fa9677a39271d150cds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183619-a99b9fbfed6e4f57a26fb36a637eb250s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183619-34686489b4814cd9b226174c77f41840s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 136000.0,
+          "precio": "136,000 MXN Renta"
+        }
+      ]
+    },
+    "678e679a-8fb6-4069-84c1-01a20af6921e": {
+      "id": "678e679a-8fb6-4069-84c1-01a20af6921e",
+      "code": "NN-HIX682",
+      "title": "Bodega en Renta en Santa Teresa, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "61,600 MXN Renta",
+      "precio_num": 61600.0,
+      "superficie": "1,120 m²",
+      "area_num": 1120.0,
+      "m2_terreno": 1120,
+      "m2_construccion": 1120,
+      "banos": 1,
+      "estacionamientos": 4,
+      "precio_m2": "$55.0/m²",
+      "pm2_num": 55.0,
+      "ubicacion": "Santa Teresa, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/678e679a-8fb6-4069-84c1-01a20af6921e",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183101-11bfcb97be5e43829df13288454c06d4s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183101-089e6968b0f74ceaa9d9df41c7525503s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183101-6b7c43579b84419a9b127be7f6d6c6acs.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 61600.0,
+          "precio": "61,600 MXN Renta"
+        }
+      ]
+    },
+    "4bbd4ece-3f59-4e2b-911b-01a20afaa80d": {
+      "id": "4bbd4ece-3f59-4e2b-911b-01a20afaa80d",
+      "code": "NN-HIX712",
+      "title": "Bodega en Renta en Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "60,000 MXN Renta",
+      "precio_num": 60000.0,
+      "superficie": "900 m²",
+      "area_num": 900.0,
+      "m2_terreno": 1000,
+      "m2_construccion": 900,
+      "banos": 2,
+      "estacionamientos": 2,
+      "precio_m2": "$66.7/m²",
+      "pm2_num": 66.67,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "GRACE BRECEDA REAL ESTATE",
+      "fecha_publicacion": "2026-11-23",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/4bbd4ece-3f59-4e2b-911b-01a20afaa80d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183528-d18d8d25775d4a298e3133c03df1637as.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183529-2bc4a8825333464c894750f8e547380bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261123183529-017f92a879d34c4b991e1f43e56273b4s.webp"
+      ],
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-23",
+          "precio_num": 60000.0,
+          "precio": "60,000 MXN Renta"
         }
       ]
     }
