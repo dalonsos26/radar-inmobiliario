@@ -1,6 +1,192 @@
 {
   "delisted": [
     {
+      "id": "e63e63ff-ca02-4e2b-a638-0196639126f4",
+      "code": "MX25-BR10008",
+      "title": "LOTE DE TERRENO EN RENTA",
+      "categoria": "Comercial",
+      "tipo": "Terreno",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "15,000 MXN Renta",
+      "precio_num": 15000.0,
+      "superficie": "511 m²",
+      "area_num": 511.0,
+      "precio_m2": "$29.4/m²",
+      "pm2_num": 29.35,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "OCTAVIANO RENDON MATA BIENES RAICES",
+      "fecha_publicacion": "2026-07-04",
+      "days_on_market": 75,
+      "link": "https://app.nocnok.com/crm/154940/properties/e63e63ff-ca02-4e2b-a638-0196639126f4",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-250423111200-25a1c517b44a4e118ff62edb396dd91ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250428143813-3ea29c91458b476f84b0b3962ef594dbs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-250423111149-71b32b452817495495a35ccbf6e91e61s.webp"
+      ],
+      "first_seen": "2026-07-05",
+      "last_seen": "2026-11-25",
+      "status": "delisted",
+      "delisted_at": "2026-11-25",
+      "days_listed": 143,
+      "precio_history": [
+        {
+          "date": "2026-07-05",
+          "precio_num": 25000.0,
+          "precio": "25,000 MXN Renta"
+        },
+        {
+          "date": "2026-07-24",
+          "precio_num": 20000.0,
+          "precio": "20,000 MXN Renta"
+        },
+        {
+          "date": "2026-08-09",
+          "precio_num": 15000.0,
+          "precio": "15,000 MXN Renta"
+        }
+      ],
+      "delisted_reason": "sold",
+      "m2_terreno": 511,
+      "m2_construccion": null,
+      "banos": null,
+      "estacionamientos": null
+    },
+    {
+      "id": "f188db0c-f8b2-44dc-9620-0192443c41c3",
+      "code": "MX24-NX2484",
+      "title": "Bodega en Renta en Paso del Aguila, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "39,000 MXN Renta",
+      "precio_num": 39000.0,
+      "superficie": "600 m²",
+      "area_num": 600.0,
+      "precio_m2": "$65.0/m²",
+      "pm2_num": 65.0,
+      "ubicacion": "Paso del Aguila, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2024-09-30",
+      "days_on_market": 786,
+      "link": "https://app.nocnok.com/crm/154940/properties/f188db0c-f8b2-44dc-9620-0192443c41c3",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-240930124059-da45a419d47a464cabf282f15924b5c9s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240930124100-d1a0106c2d934068a4f897593f48bd8bs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240930124100-de58102ad6cf4900aa6c9558c6345be9s.webp"
+      ],
+      "first_seen": "2026-08-04",
+      "last_seen": "2026-11-25",
+      "status": "delisted",
+      "delisted_at": "2026-11-25",
+      "days_listed": 113,
+      "precio_history": [
+        {
+          "date": "2026-08-04",
+          "precio_num": 39000.0,
+          "precio": "39,000 MXN Renta"
+        }
+      ],
+      "m2_terreno": 600,
+      "m2_construccion": 600,
+      "banos": 1,
+      "estacionamientos": null,
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "591729e8-6e5a-463c-b1ab-01919bfcbf0f",
+      "code": "MX24-AK6780",
+      "title": "Bodega en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "29,000 MXN Renta",
+      "precio_num": 29000.0,
+      "superficie": "300 m²",
+      "area_num": 300.0,
+      "precio_m2": "$96.7/m²",
+      "pm2_num": 96.67,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "INVIERTE LAGUNA",
+      "fecha_publicacion": "2026-09-10",
+      "days_on_market": 76,
+      "link": "https://app.nocnok.com/crm/154940/properties/591729e8-6e5a-463c-b1ab-01919bfcbf0f",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-240828203728-b06f8ff75ac24105a1001c68b65a3cbcs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240828203733-5d2e15e5ff704db7b3878cab01509dcfs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-240828203732-3f0e0d1491254461bf14020199c9d6f5s.webp"
+      ],
+      "first_seen": "2026-09-11",
+      "last_seen": "2026-11-25",
+      "status": "delisted",
+      "delisted_at": "2026-11-25",
+      "days_listed": 75,
+      "precio_history": [
+        {
+          "date": "2026-09-11",
+          "precio_num": 29000.0,
+          "precio": "29,000 MXN Renta"
+        }
+      ],
+      "m2_terreno": 300,
+      "m2_construccion": 300,
+      "banos": 3,
+      "estacionamientos": 3,
+      "delisted_reason": "sold"
+    },
+    {
+      "id": "db331921-f618-4878-bd59-01a18022eb35",
+      "code": "NN-HHT199",
+      "title": "Oficinas en renta en esquina en el Centro de Torreón | $15,000 mensuales",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "15,000 MXN Renta",
+      "precio_num": 15000.0,
+      "superficie": "130 m²",
+      "area_num": 130.0,
+      "precio_m2": "$115.4/m²",
+      "pm2_num": 115.38,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Tokë Inmobiliaria",
+      "fecha_publicacion": "2026-10-27",
+      "days_on_market": 29,
+      "link": "https://app.nocnok.com/crm/154940/properties/db331921-f618-4878-bd59-01a18022eb35",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261027194338-cff4ed31d9c14fe098a2d88622a010c2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027194337-0d6608f1452c4256b651174469c852dcs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261027194336-a2af6091084049e7bdf6d7028474221bs.webp"
+      ],
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-11-25",
+      "status": "delisted",
+      "delisted_at": "2026-11-25",
+      "days_listed": 28,
+      "precio_history": [
+        {
+          "date": "2026-10-28",
+          "precio_num": 15000.0,
+          "precio": "15,000 MXN Renta"
+        }
+      ],
+      "m2_terreno": 130,
+      "m2_construccion": 130,
+      "banos": 2,
+      "estacionamientos": 5,
+      "delisted_reason": "sold"
+    },
+    {
       "id": "52c88327-1941-4593-9af6-01976fe3af28",
       "code": "MX25-PW11781",
       "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
@@ -61906,9 +62092,9 @@
       ],
       "first_seen": "2026-07-05",
       "last_seen": "2026-11-25",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 62,
+      "status": "delisted",
+      "delisted_at": "2026-11-25",
+      "days_listed": 143,
       "precio_history": [
         {
           "date": "2026-07-05",
@@ -61926,7 +62112,7 @@
           "precio": "15,000 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 511,
       "m2_construccion": null,
       "banos": null,
@@ -67349,6 +67535,60 @@
       "current_precio_num": 6000.0,
       "total_drop_pct": 14.3,
       "last_drop_date": "2026-11-03"
+    },
+    {
+      "id": "62aed19e-f129-4369-9d96-01a184042ed0",
+      "code": "NN-HHT725",
+      "title": "Casa Comercial en Renta con 4 Recámaras en Gómez Palacio, Durango",
+      "categoria": "Comercial",
+      "tipo": "Casa",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "12,000 MXN Renta",
+      "precio_num": 12000.0,
+      "superficie": "110 m²",
+      "area_num": 110.0,
+      "precio_m2": "$109.1/m²",
+      "pm2_num": 109.09,
+      "ubicacion": "Morelos, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "ARA INMOBILIARIA",
+      "fecha_publicacion": "2026-10-28",
+      "days_on_market": 28,
+      "link": "https://app.nocnok.com/crm/154940/properties/62aed19e-f129-4369-9d96-01a184042ed0",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261028133734-1edf7cffe1bc4d3e92e2056af486ad36s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261028133739-231947b04c2c40fe99332303a41b0392s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261028133742-24dc36c4fa5149fea2c3399bfa3cb33ds.webp"
+      ],
+      "first_seen": "2026-10-28",
+      "last_seen": "2026-11-25",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-10-28",
+          "precio_num": 14000.0,
+          "precio": "14,000 MXN Renta"
+        },
+        {
+          "date": "2026-11-25",
+          "precio_num": 12000.0,
+          "precio": "12,000 MXN Renta"
+        }
+      ],
+      "m2_terreno": 128,
+      "m2_construccion": 110,
+      "banos": 2,
+      "estacionamientos": null,
+      "original_precio": "14,000 MXN Renta",
+      "original_precio_num": 14000.0,
+      "current_precio": "12,000 MXN Renta",
+      "current_precio_num": 12000.0,
+      "total_drop_pct": 14.3,
+      "last_drop_date": "2026-11-25"
     },
     {
       "id": "61700c6a-b1c9-4d0a-a8aa-01a1cdb61cca",
