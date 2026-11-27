@@ -1194,9 +1194,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 25,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 178,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -1206,7 +1206,7 @@
       ],
       "lat": 25.6230679,
       "lng": -103.3717132,
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 40000,
       "m2_construccion": null,
       "banos": null,
@@ -12790,7 +12790,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7702178b-37e6-4f71-92c0-018b2808b588",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250225173823-a89d6da323fc482aa817a10567568fb6s.webp",
@@ -12798,9 +12798,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250225173825-75537046c86e4767acdfc2a0272256dds.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -12809,7 +12809,7 @@
           "precio": "30,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 25000,
       "m2_construccion": null,
       "banos": null,
@@ -12958,7 +12958,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/96a9789d-9459-4f8a-b917-018b2876da7c",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220825114803-0ea7b68a306c45939ef539d37c272286.jpg",
@@ -12966,9 +12966,9 @@
         "https://s3.amazonaws.com/nocnok-img/220730132016-f8bca777559b40b791f52c4deeb87c76.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -12977,7 +12977,7 @@
           "precio": "3,300,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 11270,
       "m2_construccion": null,
       "banos": null,
@@ -13081,7 +13081,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/067e30e3-53b8-42b5-81bf-018b24dac8f2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260415162743-65b39ba037544a52bbe6671b5bdde3c3s.webp",
@@ -13089,9 +13089,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260415162741-c4ebf28889c044d69c7dc24547bdb12es.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -13105,7 +13105,7 @@
           "precio": "20,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 250,
       "m2_construccion": 250,
       "banos": 4,
@@ -13253,7 +13253,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/161bd133-7dae-4ac2-b6a9-0197d17541cb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250703121713-8635d6bb69934596948e72fb087b44b5s.webp",
@@ -13261,9 +13261,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250703121711-2cd8f1e704fb4a6e84208e89647a0c11s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -13277,7 +13277,7 @@
           "precio": "14,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 100,
       "m2_construccion": 100,
       "banos": 1,
@@ -13430,16 +13430,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/59f6c9a0-ec45-45f5-85f0-01944bf9b412",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250109110146-f7bc7a23df2941f8a305b9b40add8fefs.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250109110520-7bd1453db27e415c8e6a10e59f15de66s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -13448,7 +13448,7 @@
           "precio": "3,200,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 100,
       "m2_construccion": 246,
       "banos": 3,
@@ -13473,15 +13473,15 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9fd701d9-b9d4-4156-8096-0191050596cb",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240730130538-c0a923ef31ca478c874b7faef2ff5192s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -13490,7 +13490,7 @@
           "precio": "60,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 15000,
       "m2_construccion": null,
       "banos": null,
@@ -13728,7 +13728,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9ab94ee3-3381-4b47-a79a-01907459769a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240702114439-9ea1ca7ec18041058d8f4edb0e7978d1s.webp",
@@ -13736,9 +13736,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240702114503-92228eb7e64b4d04872e7c37f05b4228s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -13747,7 +13747,7 @@
           "precio": "2,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 186,
       "m2_construccion": 342,
       "banos": 3,
@@ -14345,7 +14345,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c7d43ac0-5d30-4908-adea-019c7d86b4c7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260220181142-8f55557db3564164b42b6dcc79e24f72s.webp",
@@ -14353,9 +14353,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260220181143-05ba7f472dd34ea198111acae01b815bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -14369,7 +14369,7 @@
           "precio": "4,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 300,
       "m2_construccion": 338,
       "banos": 1,
@@ -14434,7 +14434,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/ed26513c-1964-4235-b39f-019c95a87ae7",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260225105314-330f5248c62045c798a104dadc135a1ds.webp",
@@ -14442,9 +14442,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260225104624-013b60c43f2d45d295b61de538e8d77as.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -14453,7 +14453,7 @@
           "precio": "28,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 200,
       "m2_construccion": 500,
       "banos": 9,
@@ -19013,7 +19013,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-05-07",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/de9be639-9a88-4546-9260-018d9ede9074",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240212134051-5dabb5a141614eeeaf7301955ac2608a.jpg",
@@ -19021,9 +19021,9 @@
         "https://s3.amazonaws.com/nocnok-img/240212134102-d15d45d6a3e94114b9e325cda77ff2ba.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -19032,7 +19032,7 @@
           "precio": "6,750,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 1500,
       "m2_construccion": null,
       "banos": null,
@@ -19057,7 +19057,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-05-07",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2f961b05-918c-45db-b684-018d9ede9074",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/240212134937-fafbbfd7405b431a8778712a1abb2155.jpg",
@@ -19065,9 +19065,9 @@
         "https://s3.amazonaws.com/nocnok-img/240212134952-d35691a121af46e9909010c44a97f637.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -19076,7 +19076,7 @@
           "precio": "9,252,315 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 2056,
       "m2_construccion": null,
       "banos": null,
@@ -26959,8 +26959,8 @@
       "precio_num": 25000000.0,
       "superficie": "3,374 m²",
       "area_num": 3374.0,
-      "precio_m2": "$7,410/m²",
-      "pm2_num": 7409.6,
+      "precio_m2": "$7,987/m²",
+      "pm2_num": 7987.22,
       "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -26987,7 +26987,7 @@
       ],
       "delisted_reason": null,
       "m2_terreno": 1411,
-      "m2_construccion": 3374,
+      "m2_construccion": 3130,
       "banos": 4,
       "estacionamientos": null
     },
@@ -59008,7 +59008,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3fe72f1b-e229-4dbe-86e7-019862c15773",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250731174305-b0a3ccace983477b8d9698786c6b5da4s.webp",
@@ -59016,9 +59016,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251011130115-2ac63ac642f04cb39d66357df0ee29d3s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59027,7 +59027,7 @@
           "precio": "21,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 3786,
       "m2_construccion": 2594,
       "banos": 6,
@@ -59052,7 +59052,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/1bf5cb90-e410-472f-b2cc-0199d4b5ccba",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-251011131929-4f11252f914d46b4935c2a0aa3b08dd1s.webp",
@@ -59060,9 +59060,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-251011131928-f48e1775284a46d393b8ae356859bfbcs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59071,7 +59071,7 @@
           "precio": "21,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 3786,
       "m2_construccion": 2594,
       "banos": 6,
@@ -59096,7 +59096,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/b5425750-e4a3-4a41-a822-01948b23f748",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250121172040-f41f97bd2c194efd8dc79019bff475ebs.webp",
@@ -59104,9 +59104,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250121171600-d18769a6f9994e69881a8d34e89a2b57s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59120,7 +59120,7 @@
           "precio": "38,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 3557,
       "m2_construccion": null,
       "banos": null,
@@ -59145,16 +59145,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/82149311-b0db-41dc-b2a5-019bed1adb4d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260123170754-5a64625bb8e74d5db3ffcbbaf91205aes.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260123170754-7a1769238baa435faedec3b0f606ec13s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59163,7 +59163,7 @@
           "precio": "17,700,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 23588,
       "m2_construccion": null,
       "banos": null,
@@ -59188,15 +59188,15 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/82b16840-a5c2-42bb-9893-019148c89c6f",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240812165354-617c5fca5652448fb843df402b638cb0s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59205,7 +59205,7 @@
           "precio": "60,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 15000,
       "m2_construccion": null,
       "banos": null,
@@ -59348,16 +59348,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3ed8351b-8581-4208-b2d5-01958776e390",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250311171433-5964721a7542424db281ca1b32e39990s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-250311171436-ce819ac1016c4dcc9dbb6294d0d611b7s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59366,7 +59366,7 @@
           "precio": "39,240,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 21800,
       "m2_construccion": null,
       "banos": null,
@@ -59391,7 +59391,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8cb0fd84-6857-41dd-b1e0-01956897206a",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250305171711-eb713c44f1eb4dc68ff4f2c45daf9963s.webp",
@@ -59399,9 +59399,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250305171655-f9615079df984b089e9f3b3c84063a3fs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59410,7 +59410,7 @@
           "precio": "1,300,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 9597,
       "m2_construccion": null,
       "banos": null,
@@ -59555,7 +59555,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/21fe893d-367e-48a2-b00c-019cb4a50445",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260303110553-d660eefd19fd435880bbb1942b225f22s.webp",
@@ -59563,9 +59563,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260303110554-ffa5360c0ccc4bfb94343194d6c349e4s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59574,7 +59574,7 @@
           "precio": "208,650 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 3210,
       "m2_construccion": 3210,
       "banos": 5,
@@ -59940,16 +59940,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/9a43be0d-cead-47b0-9c83-019c921d0ea2",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260224182222-ba3f425382e14a2480f7e4ba86c00614s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-260224182222-ab081498d2c648c09e64f6e005c8a44es.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -59958,7 +59958,7 @@
           "precio": "28,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 4000,
       "m2_construccion": 3200,
       "banos": 6,
@@ -60829,7 +60829,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-05-07",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d98f27e1-7d40-4057-9ceb-019bbdfeacc9",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260114133240-4d4019696cd541edbcb1f2edfc07a4b8s.webp",
@@ -60837,9 +60837,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260114133240-dc57c020b55b4cc292c1e8fe5d8cb47bs.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -60848,7 +60848,7 @@
           "precio": "120,000 MXN Renta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 1500,
       "m2_construccion": 1500,
       "banos": 5,
@@ -88510,7 +88510,7 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6f99bea4-da04-47c5-b39d-018b27d43852",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/220215195000-9189b1f6c1f94da3ab36d2ad33da11ea.jpg",
@@ -88518,9 +88518,9 @@
         "https://s3.amazonaws.com/nocnok-img/220215195003-2ac1e9cea10a479b944a6d91a8668f50.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -88529,7 +88529,7 @@
           "precio": "55,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 1600,
       "m2_construccion": 1600,
       "banos": 4,
@@ -88849,7 +88849,7 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d93a39af-6266-41a5-8996-019c4d946334",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260211104421-cc5ff912d7294fb282f3d41f1a2e5539s.webp",
@@ -88857,9 +88857,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260211104422-b458a20b2e8243a5bbeadf5db38348fas.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -88873,7 +88873,7 @@
           "precio": "40,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 2150,
       "m2_construccion": null,
       "banos": null,
@@ -90957,9 +90957,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 45,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 178,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -90967,7 +90967,7 @@
           "precio": "32,000 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 400,
       "m2_construccion": 400,
       "banos": 2,
@@ -102123,9 +102123,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 45,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 178,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -102133,7 +102133,7 @@
           "precio": "48,000 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 800,
       "m2_construccion": 800,
       "banos": 2,
@@ -105856,16 +105856,16 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/e45bf8c8-7e4b-4abc-a766-018b293c6b71",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/230923135712-197f30f5d98849bea8db06eb8fc926be.jpg",
         "https://s3.amazonaws.com/nocnok-img/230923135714-dca30e8776c24dce93f8d22b8e7ceb21.jpg"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -105874,7 +105874,7 @@
           "precio": "250,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 3200,
       "m2_construccion": 2400,
       "banos": 8,
@@ -105979,7 +105979,7 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 35,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/60cea24d-617b-4c45-a995-019074c32372",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-240702135105-e6a43bb13174472490956f52b6659288s.webp",
@@ -105987,9 +105987,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-240702135121-1472305ae6be4a14a14178a1c01efb92s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -106003,7 +106003,7 @@
           "precio": "412,250 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 5000,
       "m2_construccion": 4850,
       "banos": 3,
@@ -106116,7 +106116,7 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/2277825e-1a6b-4b2f-aea0-019d3ffff23d",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260330124055-d3db3418ae0049b784309e34e3deb406s.webp",
@@ -106124,9 +106124,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260330124055-97b94127781446c186c200a40254cb50s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -106135,7 +106135,7 @@
           "precio": "120,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 1450,
       "m2_construccion": 1400,
       "banos": 1,
@@ -110313,9 +110313,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 178,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -110323,7 +110323,7 @@
           "precio": "68,250 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 1050,
       "m2_construccion": 1050,
       "banos": null,
@@ -112839,9 +112839,9 @@
       ],
       "first_seen": "2026-06-01",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 46,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 178,
       "precio_history": [
         {
           "date": "2026-06-01",
@@ -112849,7 +112849,7 @@
           "precio": "51,000 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 900,
       "m2_construccion": 900,
       "banos": 1,
@@ -113637,8 +113637,8 @@
       "precio_num": 48000.0,
       "superficie": "720 m²",
       "area_num": 720.0,
-      "precio_m2": "$66.7/m²",
-      "pm2_num": 66.67,
+      "precio_m2": "$33.3/m²",
+      "pm2_num": 33.33,
       "ubicacion": "Los Álamos, Gómez Palacio, Durango",
       "municipio": "Gómez Palacio",
       "estado": "Durango",
@@ -113664,8 +113664,8 @@
         }
       ],
       "delisted_reason": null,
-      "m2_terreno": 720,
-      "m2_construccion": 720,
+      "m2_terreno": 1440,
+      "m2_construccion": 1440,
       "banos": 4,
       "estacionamientos": null
     },
@@ -116138,7 +116138,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/7d8a6dcd-3bed-4300-bd73-01980b45f332",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-250714182811-56b95165bbd24aa1aec08c6c9da60d5es.webp",
@@ -116146,9 +116146,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-250714182810-62da466930ba43aab89f646f3fd01100s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -116157,7 +116157,7 @@
           "precio": "5,630,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 2252,
       "m2_construccion": null,
       "banos": null,
@@ -116182,7 +116182,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/85a2a5e9-7fee-4c5f-98a2-019d7ddd59ab",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260411125052-dad67f222a11419a9ceba3d5388bd3f6s.webp",
@@ -116190,9 +116190,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260411125052-99f820ccbdde42ebb5e00406f562677as.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -116201,7 +116201,7 @@
           "precio": "1,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 1058,
       "m2_construccion": null,
       "banos": null,
@@ -116226,7 +116226,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-05-14",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c512e6b9-d792-4469-bf62-019d30d4ba9b",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260327142503-d63d49437aad4922b4fe73ded63664e1s.webp",
@@ -116234,9 +116234,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260327142502-59141a92644741b6837532e0ca640172s.webp"
       ],
       "first_seen": "2026-06-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 172,
       "precio_history": [
         {
@@ -116245,7 +116245,7 @@
           "precio": "1,000,000 MXN Venta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 1058,
       "m2_construccion": null,
       "banos": null,
@@ -126423,12 +126423,12 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "24,440 MXN Renta",
-      "precio_num": 24440.0,
+      "precio": "22,000 MXN Renta",
+      "precio_num": 22000.0,
       "superficie": "305 m²",
       "area_num": 305.0,
-      "precio_m2": "$80.1/m²",
-      "pm2_num": 80.13,
+      "precio_m2": "$72.1/m²",
+      "pm2_num": 72.13,
       "ubicacion": "La Union, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -126451,6 +126451,11 @@
           "date": "2026-06-04",
           "precio_num": 24440.0,
           "precio": "24,440 MXN Renta"
+        },
+        {
+          "date": "2026-11-26",
+          "precio_num": 22000.0,
+          "precio": "22,000 MXN Renta"
         }
       ],
       "m2_terreno": 305,
@@ -135908,7 +135913,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-06-17",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/0b0f7691-add2-4517-9359-019ed70cfcb5",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260617133101-d04b10d1f14d4de5b6dd2b891d19b32ds.webp",
@@ -135916,9 +135921,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260617133100-3c613aa20a554be28626b5826c45e60ds.webp"
       ],
       "first_seen": "2026-06-18",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 155,
       "precio_history": [
         {
@@ -135932,7 +135937,7 @@
           "precio": "4,000 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 55,
       "m2_construccion": 28,
       "banos": 2,
@@ -137082,9 +137087,9 @@
       ],
       "first_seen": "2026-06-20",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 78,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 159,
       "precio_history": [
         {
           "date": "2026-06-20",
@@ -137092,7 +137097,7 @@
           "precio": "2,500 MXN Renta"
         }
       ],
-      "delisted_reason": null,
+      "delisted_reason": "sold",
       "m2_terreno": 25,
       "m2_construccion": 25,
       "banos": 1,
@@ -138161,7 +138166,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-06-18",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/8a31ab75-5f14-43b6-8586-019edc454ba6",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260618134756-06d348c3316d422ba0b187b80e78c169s.webp",
@@ -138169,9 +138174,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260618134739-6fa6ddb01d2949588afcbb3b5f8a5eb3s.webp"
       ],
       "first_seen": "2026-06-20",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 153,
       "precio_history": [
         {
@@ -138180,7 +138185,7 @@
           "precio": "3,148,516 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 1368.92,
       "m2_construccion": 1368.92,
       "banos": null,
@@ -138205,7 +138210,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-06-18",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3e3eff51-161f-4045-b80a-019edc308028",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260618132529-0a89b7f2788f4aa0b460396e88ed3c00s.webp",
@@ -138213,9 +138218,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260618132503-f7e42b8a7b2b4be9a483551e46e08765s.webp"
       ],
       "first_seen": "2026-06-20",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 153,
       "precio_history": [
         {
@@ -138224,7 +138229,7 @@
           "precio": "4,344,900 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 1737.96,
       "m2_construccion": 1737.96,
       "banos": null,
@@ -138293,7 +138298,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-06-18",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/66c12c3c-1e17-4672-89b0-019edc4ce888",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260618135902-d78568f1825b4cde9e35aa90de4c09f2s.webp",
@@ -138301,9 +138306,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260618135848-9e3a709f2eeb432ea1621cc24b1eb1b3s.webp"
       ],
       "first_seen": "2026-06-20",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 153,
       "precio_history": [
         {
@@ -138312,7 +138317,7 @@
           "precio": "3,045,050 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 1218.02,
       "m2_construccion": 1218.02,
       "banos": null,
@@ -139782,7 +139787,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-06-22",
-      "days_on_market": 61,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3c74ba7f-8871-4f4d-9436-019ef03713b8",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260622105301-fadf508769ad41f6bdf6c9ec70dc32cds.webp",
@@ -139790,9 +139795,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260622104458-f59e29f94beb4d50ae2f15cf2be4579as.webp"
       ],
       "first_seen": "2026-06-23",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 150,
       "precio_history": [
         {
@@ -139801,7 +139806,7 @@
           "precio": "9,500 MXN Renta"
         }
       ],
-      "delisted_reason": "sold",
+      "delisted_reason": null,
       "m2_terreno": 130,
       "m2_construccion": 130,
       "banos": 1,
@@ -158498,7 +158503,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-07-27",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6a9153e4-243b-4c64-a3cb-019fa5b9c873",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260727163814-4feccfc868114d62adc831b25b4c81bfs.webp",
@@ -158506,9 +158511,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260727163814-d20f780ae6c04ed180803c317e842447s.webp"
       ],
       "first_seen": "2026-07-28",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 115,
       "precio_history": [
         {
@@ -158517,7 +158522,7 @@
           "precio": "3,700,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 250,
       "m2_construccion": 300,
       "banos": 4,
@@ -176368,9 +176373,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 114,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -176381,7 +176386,8 @@
       "m2_terreno": 250,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "27fe4249-f9bf-4e05-abf6-0195fa2ad58d": {
       "id": "27fe4249-f9bf-4e05-abf6-0195fa2ad58d",
@@ -200061,9 +200067,9 @@
       ],
       "first_seen": "2026-08-04",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 114,
       "precio_history": [
         {
           "date": "2026-08-04",
@@ -200074,7 +200080,8 @@
       "m2_terreno": 23000,
       "m2_construccion": null,
       "banos": null,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "f6f27efa-3fac-4108-806f-0193bbea7100": {
       "id": "f6f27efa-3fac-4108-806f-0193bbea7100",
@@ -223764,9 +223771,9 @@
       ],
       "first_seen": "2026-08-15",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 103,
       "precio_history": [
         {
           "date": "2026-08-15",
@@ -223777,7 +223784,8 @@
       "m2_terreno": 6400,
       "m2_construccion": 6400,
       "banos": 5,
-      "estacionamientos": 5
+      "estacionamientos": 5,
+      "delisted_reason": "sold"
     },
     "6341f7b9-854b-4bdd-a1dc-01a001a3542d": {
       "id": "6341f7b9-854b-4bdd-a1dc-01a001a3542d",
@@ -225628,7 +225636,7 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-08-20",
-      "days_on_market": 91,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/d78a0c9d-26e5-42fa-83f2-01a020abfc88",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260820133621-f934d93bf2a6437caecbf6f86f6afb5ds.webp",
@@ -225636,9 +225644,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260820133621-72c9e40d89634c8c957fe93c451a077cs.webp"
       ],
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 91,
       "precio_history": [
         {
@@ -225651,7 +225659,7 @@
       "m2_construccion": null,
       "banos": null,
       "estacionamientos": null,
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "d1c29446-2016-4788-8912-01a021779e81": {
       "id": "d1c29446-2016-4788-8912-01a021779e81",
@@ -231644,7 +231652,7 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-08-31",
-      "days_on_market": 80,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/3f39754c-d57b-4568-937f-01a05a128bdc",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260831172431-e39388ee1b814a57ae55db0016e4a04ds.webp",
@@ -231652,9 +231660,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260831172430-c5d68e4554cc45fda1de5bb96a48341as.webp"
       ],
       "first_seen": "2026-09-01",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 80,
       "precio_history": [
         {
@@ -231667,7 +231675,7 @@
       "m2_construccion": null,
       "banos": null,
       "estacionamientos": null,
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "043bd7a8-cca0-4318-a001-01a05ac51df0": {
       "id": "043bd7a8-cca0-4318-a001-01a05ac51df0",
@@ -233845,7 +233853,7 @@
       "estado": "Durango",
       "broker": "Niño Team",
       "fecha_publicacion": "2026-09-03",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/c045849b-ddeb-4fc8-b861-01a06891eaab",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-260903124036-15455aceeb9e4ca3b5baa548b7d3889as.webp",
@@ -233853,9 +233861,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260903124036-b1c7c265089845feaf8d21c5acb78ad4s.webp"
       ],
       "first_seen": "2026-09-04",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 77,
       "precio_history": [
         {
@@ -233864,7 +233872,7 @@
           "precio": "7,280,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse",
+      "delisted_reason": null,
       "m2_terreno": 600,
       "m2_construccion": 485,
       "banos": 8,
@@ -235196,7 +235204,7 @@
       "estado": "Durango",
       "broker": "ALARCON MURRA BIENES RAICES",
       "fecha_publicacion": "2026-09-07",
-      "days_on_market": 73,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/66132c9d-435f-4f7d-9cdd-018b2126e9fc",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/170801122133-fea0b1176ccb4dfc8b5f52ca1bf52cd0.jpg",
@@ -235204,9 +235212,9 @@
         "https://s3.amazonaws.com/nocnok-img/pp-260907173942-5078d67767db46c6bd9742cef8f25594s.webp"
       ],
       "first_seen": "2026-09-08",
-      "last_seen": "2026-11-19",
-      "status": "delisted",
-      "delisted_at": "2026-11-20",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 73,
       "precio_history": [
         {
@@ -235219,7 +235227,7 @@
       "m2_construccion": null,
       "banos": null,
       "estacionamientos": null,
-      "delisted_reason": "sold"
+      "delisted_reason": null
     },
     "a4b4a81a-c3d4-465e-823a-01a07db94be5": {
       "id": "a4b4a81a-c3d4-465e-823a-01a07db94be5",
@@ -240766,9 +240774,9 @@
       ],
       "first_seen": "2026-09-25",
       "last_seen": "2026-11-26",
-      "status": "active",
-      "delisted_at": null,
-      "days_listed": 0,
+      "status": "delisted",
+      "delisted_at": "2026-11-26",
+      "days_listed": 62,
       "precio_history": [
         {
           "date": "2026-09-25",
@@ -240779,7 +240787,8 @@
       "m2_terreno": 300,
       "m2_construccion": 300,
       "banos": 3,
-      "estacionamientos": null
+      "estacionamientos": null,
+      "delisted_reason": "sold"
     },
     "87c113c7-7c7f-4242-94c0-01a0a170f0a7": {
       "id": "87c113c7-7c7f-4242-94c0-01a0a170f0a7",
@@ -247090,16 +247099,16 @@
       "estado": "Coahuila de Zaragoza",
       "broker": "AMO Bienes Raíces",
       "fecha_publicacion": "2026-10-09",
-      "days_on_market": 31,
+      "days_on_market": 0,
       "link": "https://app.nocnok.com/crm/154940/properties/6a48851a-b963-4ccb-bf60-01a121c70ee4",
       "fotos_local": [
         "https://s3.amazonaws.com/nocnok-img/pp-261009114802-842eef36c8d94b5288ffc134dd1ebd30s.webp",
         "https://s3.amazonaws.com/nocnok-img/pp-261009114802-f5b1f58e9407469f8f3300cc08a22e53s.webp"
       ],
       "first_seen": "2026-10-09",
-      "last_seen": "2026-11-09",
-      "status": "delisted",
-      "delisted_at": "2026-11-10",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
       "days_listed": 32,
       "precio_history": [
         {
@@ -247108,7 +247117,11 @@
           "precio": "2,500,000 MXN Venta"
         }
       ],
-      "delisted_reason": "subscription_lapse"
+      "delisted_reason": null,
+      "m2_terreno": 202,
+      "m2_construccion": 202,
+      "banos": null,
+      "estacionamientos": null
     },
     "94620c8f-471f-42b9-ab1c-01a1221d4920": {
       "id": "94620c8f-471f-42b9-ab1c-01a1221d4920",
@@ -256879,12 +256892,12 @@
       "tipo": "Casa",
       "operacion": "Venta",
       "op_key": "venta",
-      "precio": "1,000,000 MXN Venta",
-      "precio_num": 1000000.0,
+      "precio": "1,300,000 MXN Venta",
+      "precio_num": 1300000.0,
       "superficie": "134.5 m²",
       "area_num": 134.5,
-      "precio_m2": "$6,667/m²",
-      "pm2_num": 6666.67,
+      "precio_m2": "$8,667/m²",
+      "pm2_num": 8666.67,
       "ubicacion": "Magdalenas, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -265938,16 +265951,16 @@
       "tipo": "Bodega",
       "operacion": "Renta",
       "op_key": "renta",
-      "precio": "167,400 MXN Renta",
-      "precio_num": 167400.0,
+      "precio": "130,000 MXN Renta",
+      "precio_num": 130000.0,
       "superficie": "1,860 m²",
       "area_num": 1860.0,
-      "m2_terreno": 2067,
-      "m2_construccion": 1860,
+      "m2_terreno": 2065,
+      "m2_construccion": 1790,
       "banos": null,
       "estacionamientos": 12,
-      "precio_m2": "$90.0/m²",
-      "pm2_num": 90.0,
+      "precio_m2": "$72.6/m²",
+      "pm2_num": 72.63,
       "ubicacion": "La Perla, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -265970,6 +265983,11 @@
           "date": "2026-11-21",
           "precio_num": 167400.0,
           "precio": "167,400 MXN Renta"
+        },
+        {
+          "date": "2026-11-26",
+          "precio_num": 130000.0,
+          "precio": "130,000 MXN Renta"
         }
       ]
     },
@@ -265986,11 +266004,11 @@
       "superficie": "2,400 m²",
       "area_num": 2400.0,
       "m2_terreno": 2400,
-      "m2_construccion": 2400,
+      "m2_construccion": 2138,
       "banos": null,
       "estacionamientos": 12,
-      "precio_m2": "$80.0/m²",
-      "pm2_num": 80.0,
+      "precio_m2": "$89.8/m²",
+      "pm2_num": 89.8,
       "ubicacion": "La Perla, Torreón, Coahuila de Zaragoza",
       "municipio": "Torreón",
       "estado": "Coahuila de Zaragoza",
@@ -268243,6 +268261,350 @@
           "date": "2026-11-25",
           "precio_num": 1105340.0,
           "precio": "1,105,340 MXN Venta"
+        }
+      ]
+    },
+    "294bc6c4-412a-4c63-afe8-01a218c9c72d": {
+      "id": "294bc6c4-412a-4c63-afe8-01a218c9c72d",
+      "code": "NN-HJD963",
+      "title": "Local en Renta en Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "9,500 MXN Renta",
+      "precio_num": 9500.0,
+      "superficie": "64 m²",
+      "area_num": 64.0,
+      "m2_terreno": 64,
+      "m2_construccion": 64,
+      "banos": 1,
+      "estacionamientos": 3,
+      "precio_m2": "$148.4/m²",
+      "pm2_num": 148.44,
+      "ubicacion": "Torreon Centro, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NaHauss Bienes Raices",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/294bc6c4-412a-4c63-afe8-01a218c9c72d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126105646-a823d9bdfbbe4ce2b1bf79828015de4ds.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126105646-247bac9f84f940fd83839b236afc4267s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126105646-62255f01375145fca415c356c751dceds.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 9500.0,
+          "precio": "9,500 MXN Renta"
+        }
+      ]
+    },
+    "03b0ee39-a722-4568-830a-01a2191b2915": {
+      "id": "03b0ee39-a722-4568-830a-01a2191b2915",
+      "code": "NN-HJE308",
+      "title": "Local en Venta en Nuevo Torreon, Torreón, Coahuila de Zaragoza",
+      "categoria": "Comercial",
+      "tipo": "Local",
+      "operacion": "Venta",
+      "op_key": "venta",
+      "precio": "5,600,000 MXN Venta",
+      "precio_num": 5600000.0,
+      "superficie": "460 m²",
+      "area_num": 460.0,
+      "m2_terreno": 400,
+      "m2_construccion": 460,
+      "banos": 3,
+      "estacionamientos": null,
+      "precio_m2": "$12,174/m²",
+      "pm2_num": 12173.91,
+      "ubicacion": "Nuevo Torreon, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Marcela Pérez Realty",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/03b0ee39-a722-4568-830a-01a2191b2915",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126122933-99be35d7c6d14b15a68b65ca1ba795a5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126122933-647ca878040549adb325cb056a43cc11s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126122933-3585189a503f4a76b3203d5364f980a8s.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 5600000.0,
+          "precio": "5,600,000 MXN Venta"
+        }
+      ]
+    },
+    "d949d52b-d895-4fa6-9265-01a218dca088": {
+      "id": "d949d52b-d895-4fa6-9265-01a218dca088",
+      "code": "NN-HJE014",
+      "title": "Bodega en Renta en Carolinas, Torreón - Excelente Ubicación Industrial",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "414,000 MXN Renta",
+      "precio_num": 414000.0,
+      "superficie": "5,914 m²",
+      "area_num": 5914.0,
+      "m2_terreno": 5914,
+      "m2_construccion": 5914,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$70.0/m²",
+      "pm2_num": 70.0,
+      "ubicacion": "Carolinas, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NATALIA GTZ & ASOC",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/d949d52b-d895-4fa6-9265-01a218dca088",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126111803-5896ea1909ec4269a4fd2fe303092410s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126111803-89eeaf6116904a7aa07ce72823a6cc92s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126111803-d203c574bbf248bca2c90596a02a412bs.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 414000.0,
+          "precio": "414,000 MXN Renta"
+        }
+      ]
+    },
+    "2fc1e347-4453-43b5-badc-01a2191183c0": {
+      "id": "2fc1e347-4453-43b5-badc-01a2191183c0",
+      "code": "NN-HJE290",
+      "title": "Bodega en Renta en Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "26,000 MXN Renta",
+      "precio_num": 26000.0,
+      "superficie": "415 m²",
+      "area_num": 415.0,
+      "m2_terreno": 753,
+      "m2_construccion": 415,
+      "banos": 3,
+      "estacionamientos": null,
+      "precio_m2": "$62.7/m²",
+      "pm2_num": 62.65,
+      "ubicacion": "Ciudad Industrial, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "NaHauss Bienes Raices",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/2fc1e347-4453-43b5-badc-01a2191183c0",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126121526-cbc44c4ef2b345bd83a8b72adf5e82c5s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126121547-d4e7b4deaff74d0d824796db3dd831b6s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126121553-81cddd0335a94cdbaf6b6b792906ae28s.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 26000.0,
+          "precio": "26,000 MXN Renta"
+        }
+      ]
+    },
+    "78c4e2cb-9c4d-498d-85a6-01a2191e6a5d": {
+      "id": "78c4e2cb-9c4d-498d-85a6-01a2191e6a5d",
+      "code": "NN-HJE314",
+      "title": "Bodega con punto de venta en renta en Carolinas, Torreón",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "45,000 MXN Renta",
+      "precio_num": 45000.0,
+      "superficie": "480 m²",
+      "area_num": 480.0,
+      "m2_terreno": 480,
+      "m2_construccion": 480,
+      "banos": 2,
+      "estacionamientos": null,
+      "precio_m2": "$93.8/m²",
+      "pm2_num": 93.75,
+      "ubicacion": "Carolinas, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/78c4e2cb-9c4d-498d-85a6-01a2191e6a5d",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126123203-9b58298af86a45d6baa458a7adcc21fbs.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126123205-e4ffe5db37914ef0a9998823346a627es.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126123203-ec6cfffa71d14a9d8052e3c891ec6287s.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 45000.0,
+          "precio": "45,000 MXN Renta"
+        }
+      ]
+    },
+    "ea6c1dc0-ca4d-42a0-8986-01a219e16cda": {
+      "id": "ea6c1dc0-ca4d-42a0-8986-01a219e16cda",
+      "code": "NN-HJI147",
+      "title": "BODEGA EN RENTA EN SAN FELIPE, TORREON COAHUILA",
+      "categoria": "Industrial",
+      "tipo": "Bodega",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "59,500 MXN Renta",
+      "precio_num": 59500.0,
+      "superficie": "921 m²",
+      "area_num": 921.0,
+      "m2_terreno": 1057,
+      "m2_construccion": 921,
+      "banos": 2,
+      "estacionamientos": 5,
+      "precio_m2": "$64.6/m²",
+      "pm2_num": 64.6,
+      "ubicacion": "San Felipe, Torreón, Coahuila de Zaragoza",
+      "municipio": "Torreón",
+      "estado": "Coahuila de Zaragoza",
+      "broker": "API Inmobiliaria",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/ea6c1dc0-ca4d-42a0-8986-01a219e16cda",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126160403-0d02ab74fae84be2a5a81415988521ads.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126160403-2a8f0dd21a7642cdb267f690ceb14b60s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126160403-58dce5b9da4443e78bae4f7c8741c2f6s.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 59500.0,
+          "precio": "59,500 MXN Renta"
+        }
+      ]
+    },
+    "6f310592-8b44-4f79-bb2e-01a219658fdf": {
+      "id": "6f310592-8b44-4f79-bb2e-01a219658fdf",
+      "code": "NN-HJE387",
+      "title": "Oficina en Renta en Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "categoria": "Comercial",
+      "tipo": "Oficina",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "35,000 MXN Renta",
+      "precio_num": 35000.0,
+      "superficie": "262 m²",
+      "area_num": 262.0,
+      "m2_terreno": 1000,
+      "m2_construccion": 262,
+      "banos": 2,
+      "estacionamientos": null,
+      "precio_m2": "$133.6/m²",
+      "pm2_num": 133.59,
+      "ubicacion": "Parque Industrial Carlos A Herrera Araluce, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "RE/MAX LAGUNA",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/6f310592-8b44-4f79-bb2e-01a219658fdf",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126134958-2a4fb5a72ef243d49adb48e0b894a093s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126134955-714851fdc5554ac4aa41f3798707e568s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126134956-306abe7872544a9bb66068fb10f90989s.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 35000.0,
+          "precio": "35,000 MXN Renta"
+        }
+      ]
+    },
+    "f8eb7837-472c-4c03-8a1b-01a2193ec811": {
+      "id": "f8eb7837-472c-4c03-8a1b-01a2193ec811",
+      "code": "NN-HJE350",
+      "title": "Nave industrial en renta en Parque Industrial Laguna, Gómez Palacio",
+      "categoria": "Industrial",
+      "tipo": "Nave",
+      "operacion": "Renta",
+      "op_key": "renta",
+      "precio": "20,350 USD Renta",
+      "precio_num": 20350.0,
+      "superficie": "4,652 m²",
+      "area_num": 4652.0,
+      "m2_terreno": 5500,
+      "m2_construccion": 4652,
+      "banos": null,
+      "estacionamientos": null,
+      "precio_m2": "$4.4/m²",
+      "pm2_num": 4.37,
+      "ubicacion": "5 de Mayo, Gómez Palacio, Durango",
+      "municipio": "Gómez Palacio",
+      "estado": "Durango",
+      "broker": "Near Real Estate",
+      "fecha_publicacion": "2026-11-26",
+      "days_on_market": 0,
+      "link": "https://app.nocnok.com/crm/154940/properties/f8eb7837-472c-4c03-8a1b-01a2193ec811",
+      "fotos_local": [
+        "https://s3.amazonaws.com/nocnok-img/pp-261126131227-575ec2ac3cda45598f13934a6ac266f2s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126131225-6ad82f83abbe4af4b6a5fed57c582760s.webp",
+        "https://s3.amazonaws.com/nocnok-img/pp-261126131228-eb872b98cc474ec29951c803ff5fb5aas.webp"
+      ],
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "status": "active",
+      "delisted_at": null,
+      "days_listed": 0,
+      "precio_history": [
+        {
+          "date": "2026-11-26",
+          "precio_num": 20350.0,
+          "precio": "20,350 USD Renta"
         }
       ]
     }
